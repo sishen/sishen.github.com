@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2012-12-21T16:00:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Hello New World</title>
+    <link rel="alternate" href="/2012/12/22/hello-new-world.html"/>
+    <id>/2012/12/22/hello-new-world.html</id>
+    <published>2012-12-21T16:00:00Z</published>
+    <updated>2012-12-21T16:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img title="2012" alt="2012" src="/2012/12/22/hello-new-world/2012-movie.jpg" /&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="no"&gt;Robot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;yedingding&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;say&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;tech&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;life&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;fun&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;in&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Pragmatic.ly&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Hey, I&amp;#39;m Dingding Ye. If you can see this post, you&amp;#39;re lucky enough to be as
+me to be survived when the end of world counted down. Thanks God!&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;img title="2012" alt="2012" src="/2012/12/22/hello-new-world/2012-movie.jpg" /&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="no"&gt;Robot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;yedingding&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;say&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;tech&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;life&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;fun&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;in&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Pragmatic.ly&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Hey, I&amp;#39;m Dingding Ye. If you can see this post, you&amp;#39;re lucky enough to be as
+me to be survived when the end of world counted down. Thanks God!&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m a father, son, husband and also Co-Founder of the
+&lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; team. Few one cares yesterday but
+I hope now it&amp;#39;s different. As a surviver, I want to make life more
+meaningful and that&amp;#39;s the driving force to make Pragmatic.ly better
+and better. I believe Tech startups are the future of the world and I hope
+Pragmatic.ly can help tech startup better working on their
+startups. Tell me if you hate it and why. Thanks!&lt;/p&gt;
+
+&lt;h3&gt;Personal Info&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="mailto:yedingding@gmail.com"&gt;&lt;img title="yedingding@gmail.com" alt="yedingding@gmail.com" src="/images/email.png?1356114134" /&gt;&lt;/a&gt;
+&lt;a href="https://github.com/sishen"&gt;&lt;img title="https://github.com/sishen" alt="https://github.com/sishen" src="/images/github.png?1356114134" /&gt;&lt;/a&gt;
+&lt;a href="http://cn.linkedin.com/in/yedingding/"&gt;&lt;img title="http://cn.linkedin.com/in/yedingding" alt="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png?1356114134" /&gt;&lt;/a&gt;
+&lt;a href="https://twitter.com/yedingding"&gt;&lt;img title="https://twitter.com/yedingding" alt="https://twitter.com/yedingding" src="/images/twitter.png?1356114134" /&gt;&lt;/a&gt;
+&lt;a href="https://facebook.com/yedingding"&gt;&lt;img title="https://facebook.com/yedingding" alt="https://facebook.com/yedingding" src="/images/facebook.png?1356114134" /&gt;&lt;/a&gt;
+&lt;a href="https://weibo.com/presently"&gt;&lt;img title="https://weibo.com/presently" alt="https://weibo.com/presently" src="/images/weibo.png?1356114134" /&gt;&lt;/a&gt;
+&lt;a href="https://plus.google.com/102475612847000088909"&gt;&lt;img title="https://plus.google.com/102475612847000088909" alt="https://plus.google.com/102475612847000088909" src="/images/google-plus.png?1356114134" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
