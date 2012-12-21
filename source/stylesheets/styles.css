@@ -308,10 +308,14 @@ a.buttons:hover {
 
 /* Section - for main page content */
 
-section {
+article, section {
   width:650px;
   float:right;
   padding-bottom:50px;
+
+  img {
+    margin-bottom: 12px;
+  }
 }
 
 
@@ -323,6 +327,26 @@ footer {
   position:fixed;
   bottom:10px;
 	padding-left: 50px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.tag-list {
+  margin-bottom: 12px;
+}
+
+.tag-list li {
+    padding: 2px 8px;
+    display: inline-block;
+    font-size: 90%;
+    list-style-type: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #F4F4F4;
+  }
 }
 
 @media print, screen and (max-width: 960px) {

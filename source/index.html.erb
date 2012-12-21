@@ -1,0 +1,33 @@
+---
+pageable: true
+per_page: 10
+---
+
+<% if paginate %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<% page_articles.each_with_index do |article, i| %>
+  <article>
+    <h3>
+      <%= link_to article.title, article %>
+      <span class="pull-right"><%= article.date.strftime('%b %e') %></span>
+    </h3>
+    <ul class="tag-list">
+      <% article.tags.each do |tag| %>
+        <li><%= tag %></li>
+      <% end %>
+    </ul>
+    <div><%= article.body %></div>
+  </article>
+<% end %>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>
