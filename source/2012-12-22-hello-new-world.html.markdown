@@ -15,11 +15,12 @@ me to be survived when the end of world counted down. Thanks God!
 
 I'm a father, son, husband and also Co-Founder of the
 [Pragmatic.ly](https://pragmatic.ly) team. Few one cares yesterday but
-I hope now it's different. As a surviver, I want to make life more
-meaningful and that's the driving force to make Pragmatic.ly better
-and better. I believe Tech startups are the future of the world and I hope
-Pragmatic.ly can help tech startup better working on their
-startups. Tell me if you hate it and why. Thanks!
+I hope now it's different. Life is beautiful, we love until we die. As
+a surviver, I want to make life more meaningful and that's the driving
+force to make Pragmatic.ly better and better. I believe Tech startups
+are the future of the world and I hope Pragmatic.ly can help tech
+startup better working on their startups. Feel free to tell me if you
+hate it and why. Thanks!
 
 ### Personal Info
 
