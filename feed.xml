@@ -5,10 +5,38 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2012-12-21T16:00:00Z</updated>
+  <updated>2012-12-23T16:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>'Real Time Web' talk at RubyConf China 2012</title>
+    <link rel="alternate" href="/2012/12/24/real-time-web-talk-at-rubyconf-china-2012.html"/>
+    <id>/2012/12/24/real-time-web-talk-at-rubyconf-china-2012.html</id>
+    <published>2012-12-23T16:00:00Z</published>
+    <updated>2012-12-23T16:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/2012/12/24/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (&lt;a href="https://twitter.com/lgn21st"&gt;@lgn21st&lt;/a&gt;)和李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)。&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/2012/12/24/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (&lt;a href="https://twitter.com/lgn21st"&gt;@lgn21st&lt;/a&gt;)和李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)。&lt;/p&gt;
+
+&lt;p&gt;参加了过往的三界大会，这次参加更有感触，总得感觉就一个词: &amp;ldquo;进步&amp;quot;。举办方在进步，演讲嘉宾在进步，参会者也在进步。Ruby 社区在我眼里是个非常可爱非常开放的社区，可惜这次因事没有跟大家聊尽兴，略有遗憾。&lt;/p&gt;
+
+&lt;p&gt;这次我的主题是实时 Web 的技术方案和选择策略，主要基于我这三年的工作经验。我这三年主要在做两个产品。第一个是 Present.ly, 一个企业微博工具。往企业里加入社交元素，实时性会减少沟通成本，增强员工之间的交流协作。这个项目我在 2009 年末开始做，选用了 &lt;a href="http://xmpp.org/extensions/xep-0124.html"&gt;BOSH&lt;/a&gt;，一种在 HTTP 协议上模拟双向连接的传输协议，基本属于 &lt;a href="http://en.wikipedia.org/wiki/Comet_(programming)"&gt;COMET&lt;/a&gt; 的变种，只是基于 &lt;a href="http://xmpp.org/"&gt;XMPP&lt;/a&gt; 赋予了它更多的额外价值。第二个是 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，我今年开始的创业项目。Pragmatic.ly 是一个轻量级的敏捷开发管理工具，实时性能让团队的所有成员随时保持在同一个节奏上，同时引导团队多交流。大家可以多试用多提意见，欢迎吐槽，:)。Pragmatic.ly 在实时技术上选用了 WebSocket，而非我之前一直使用的 BOSH。这里有两方面原因，第一是 XMPP 相对更重，前期开发时间和维护时间都会有所增加。第二是 WebSocket 标准已经正式发布，目前浏览器的支持也基本跟上。&lt;/p&gt;
+
+&lt;p&gt;关于这个主题的视频和 PPT，大家可以在 &lt;a href="http://railscast-china.com/episodes/rubyconf-2012-yedingding"&gt;railscasts-china.com/episodes/rubyconf-2012-yedingding&lt;/a&gt; 观看。我们在 &lt;a href="http://ruby-china.org/topics/6870"&gt;ruby-china.org/topics/6870/topics/6870&lt;/a&gt; 也有更深入的讨论，也感谢 qhwa (&lt;a href="https://twitter.com/qhwa"&gt;@qhwa&lt;/a&gt;) 指出我在 Flash Socket 上的认识误区，&lt;a href="http://ruby-china.org/topics/6891"&gt;对Flash Socket的补充&lt;/a&gt;。如果是用 Flash 方案的话，也可以自己定义通讯协议，自己写 server，基本就是写 Socket 程序那样子做。热烈欢迎大家多讨论，希望我这块砖抛出去能引来更多的玉，:)&lt;/p&gt;
+
+&lt;h3&gt;One More Thing&lt;/h3&gt;
+
+&lt;p&gt;我在我的主题演讲结束的时候说过，我会和 Terry (&lt;a href="https://twitter.com/poshboytl"&gt;@poshboytl&lt;/a&gt;) 重新录一下我之前在 RailsCasts China 做的 Live Show。一直在等 RubyConf China 视频放出来，现在终于可以正式开始了，:)。大致想法已经跟 Terry 沟通过了，我会基于 RubyConf China 这个主题做延伸，基于各种不同方案做实现，做成一个系列。大家对于这种方式如果有什么建议，欢迎留言。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Hello New World</title>
     <link rel="alternate" href="/2012/12/22/hello-new-world.html"/>
@@ -41,13 +69,13 @@ hate it and why. Thanks!&lt;/p&gt;
 
 &lt;h3&gt;Personal Info&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href="mailto:yedingding@gmail.com"&gt;&lt;img title="yedingding@gmail.com" alt="yedingding@gmail.com" src="/images/email.png?1356163489" /&gt;&lt;/a&gt;
-&lt;a href="https://github.com/sishen"&gt;&lt;img title="https://github.com/sishen" alt="https://github.com/sishen" src="/images/github.png?1356163489" /&gt;&lt;/a&gt;
-&lt;a href="http://cn.linkedin.com/in/yedingding/"&gt;&lt;img title="http://cn.linkedin.com/in/yedingding" alt="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png?1356163489" /&gt;&lt;/a&gt;
-&lt;a href="https://twitter.com/yedingding"&gt;&lt;img title="https://twitter.com/yedingding" alt="https://twitter.com/yedingding" src="/images/twitter.png?1356163489" /&gt;&lt;/a&gt;
-&lt;a href="https://facebook.com/yedingding"&gt;&lt;img title="https://facebook.com/yedingding" alt="https://facebook.com/yedingding" src="/images/facebook.png?1356163489" /&gt;&lt;/a&gt;
-&lt;a href="https://weibo.com/presently"&gt;&lt;img title="https://weibo.com/presently" alt="https://weibo.com/presently" src="/images/weibo.png?1356163489" /&gt;&lt;/a&gt;
-&lt;a href="https://plus.google.com/102475612847000088909"&gt;&lt;img title="https://plus.google.com/102475612847000088909" alt="https://plus.google.com/102475612847000088909" src="/images/google-plus.png?1356163489" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:yedingding@gmail.com"&gt;&lt;img title="yedingding@gmail.com" alt="yedingding@gmail.com" src="/images/email.png?1356369960" /&gt;&lt;/a&gt;
+&lt;a href="https://github.com/sishen"&gt;&lt;img title="https://github.com/sishen" alt="https://github.com/sishen" src="/images/github.png?1356369960" /&gt;&lt;/a&gt;
+&lt;a href="http://cn.linkedin.com/in/yedingding/"&gt;&lt;img title="http://cn.linkedin.com/in/yedingding" alt="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png?1356369960" /&gt;&lt;/a&gt;
+&lt;a href="https://twitter.com/yedingding"&gt;&lt;img title="https://twitter.com/yedingding" alt="https://twitter.com/yedingding" src="/images/twitter.png?1356369960" /&gt;&lt;/a&gt;
+&lt;a href="https://facebook.com/yedingding"&gt;&lt;img title="https://facebook.com/yedingding" alt="https://facebook.com/yedingding" src="/images/facebook.png?1356369960" /&gt;&lt;/a&gt;
+&lt;a href="https://weibo.com/presently"&gt;&lt;img title="https://weibo.com/presently" alt="https://weibo.com/presently" src="/images/weibo.png?1356369960" /&gt;&lt;/a&gt;
+&lt;a href="https://plus.google.com/102475612847000088909"&gt;&lt;img title="https://plus.google.com/102475612847000088909" alt="https://plus.google.com/102475612847000088909" src="/images/google-plus.png?1356369960" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
