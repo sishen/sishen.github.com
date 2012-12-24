@@ -72,11 +72,11 @@ page "/feed.xml", :layout => false
 activate :syntax
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def disqus_identifier(article)
+    article.data["disqus_identifier"] || article.title.parameterize
+  end
+end
 
 set :css_dir, 'stylesheets'
 

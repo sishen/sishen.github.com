@@ -17,11 +17,18 @@ per_page: 10
       <%= link_to article.title, article %>
       <span class="pull-right"><%= article.date.strftime('%b %e') %></span>
     </h3>
-    <ul class="tag-list">
-      <% article.tags.each do |tag| %>
-        <li><%= tag %></li>
-      <% end %>
-    </ul>
+    <div>
+      <div class="pull-right comments">
+        <img src="/images/comments.png"/>
+        <a href="<%= article.url %>#disqus_thread" data-disqus-identifier="<%= disqus_identifier(article) %>">
+        </a>
+      </div>
+      <ul class="tag-list">
+        <% article.tags.each do |tag| %>
+          <li><%= tag %></li>
+        <% end %>
+      </ul>
+    </div>
     <div><%= article.body %></div>
   </article>
 <% end %>
@@ -31,3 +38,16 @@ per_page: 10
     <p><%= link_to 'Next page', next_page %></p>
   <% end %>
 <% end %>
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
