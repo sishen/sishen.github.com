@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>The Voice of Dingding Ye</title>
+    <title>
+      <% if current_article %>
+        <%= current_article.title %> | The Voice of Dingding Ye
+      <% else %>
+        The Voice of Dingding Ye
+      <% end %>
+    </title>
 
     <link rel="stylesheet" href="/stylesheets/all.css">
     <script src="/javascripts/all.js"></script>

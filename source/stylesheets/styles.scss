@@ -212,6 +212,7 @@ header {
   img {
     width: 20px;
     height: 20px;
+    margin: 0;
   }
 }
 
@@ -364,20 +365,27 @@ footer {
     position: static;
     width: auto;
   }
+  aside.sidebar {
+    position: static;
+    top: 0;
+    width: auto;
+  }
   footer {
     float: none;
     position: static;
     width: auto;
     border-top: 1px solid #ccc;
-    margin: 0 84px 0 50px;
+    margin: 0 42px 0 50px;
     padding: 0;
+    text-align: right;
   }
   header {
     padding-right: 320px;
   }
-  section {
+  article {
     padding: 20px 84px 20px 50px;
     margin: 0 0 20px;
+    width: auto;
   }
   header {
     a small {
@@ -399,12 +407,17 @@ footer {
     padding: 10px 20px 0;
     margin-right: 0;
   }
-  section {
+  article {
     padding: 10px 0 10px 20px;
     margin: 0 0 30px;
+    img {
+      max-width: 100%;
+    }
   }
   footer {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 20px;
+    text-align: left;
+    clear: both;
   }
   header {
     ul, p.view {
@@ -416,12 +429,6 @@ footer {
 @media print, screen and (max-width: 480px) {
   header ul li.download {
     display: none;
-  }
-  footer {
-    margin: 0 0 0 20px;
-    a {
-      display: block;
-    }
   }
 }
 
