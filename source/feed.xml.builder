@@ -1,10 +1,10 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  xml.title "Blog Name"
-  xml.subtitle "Blog subtitle"
-  xml.id "http://blog.url.com/"
-  xml.link "href" => "http://blog.url.com/"
-  xml.link "href" => "http://blog.url.com/feed.xml", "rel" => "self"
+  xml.title "The Voice of Dingding Ye"
+  xml.subtitle "Share Fun, Life and Thoughts in Pragmatic.ly"
+  xml.id "http://yedingding.com"
+  xml.link "href" => "http://yedingding.com/"
+  xml.link "href" => "http://yedingding.com/feed.xml", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
   xml.author { xml.name "Blog Author" }
 
@@ -15,7 +15,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.id article.url
       xml.published article.date.to_time.iso8601
       xml.updated article.date.to_time.iso8601
-      xml.author { xml.name "Article Author" }
+      xml.author { xml.name "Dingding Ye" }
       xml.summary article.summary, "type" => "html"
       xml.content article.body, "type" => "html"
     end

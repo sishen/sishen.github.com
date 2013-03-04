@@ -1,7 +1,7 @@
 ---
 title: The Missing Chinese Podcast About Tech
 date: 2013-01-22 15:39 +08:00
-tags: podcast, Tech, Ruby, Javascript
+tags: Podcast, Tech, Ruby, Javascript
 ---
 
 ![Terry, Daniel and me](/2013-01-22-the-nil-podcast-with-terry-and-daniel/nil-podcast.png "Terry, Daniel and Me")
