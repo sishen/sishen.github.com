@@ -4,13 +4,13 @@ date: 2013-03-04 13:52 +08:00
 tags: Rails, Refactor
 ---
 
-节前受 [Terry](http://terrytai.com "Terry Tai's Blog") 邀请帮助国内的一个公益项目 [Re-education](https://newclass.org "开放课堂, 设计和实践综合实践课的平台") 做代码重构。开放课堂项目是由[教育大发现社区](http://sociallearnlab.org/ "教育大发现")发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 [GitHub](https://github.com/twers/re-education)，采用 Ruby on Rails 作为开发框架。
+春节前受 [Terry](http://terrytai.com "Terry Tai's Blog") 邀请帮助国内的一个公益项目 [Re-education](https://newclass.org "开放课堂, 设计和实践综合实践课的平台") 做代码重构。开放课堂项目是由[教育大发现社区](http://sociallearnlab.org/ "教育大发现")发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 [GitHub](https://github.com/twers/re-education)，采用 Ruby on Rails 作为开发框架。
 
 很高兴我们 [Pragmatic.ly](https://pragmatic.ly) 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 [Join.me](https://join.me "Free Screen Sharing and Online Meetings") 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而__对外不改变__原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 [RailsCasts China](http://railscasts-china.com/episodes/refactor-openclass-by-dingding "#036 Refactor openclass by Dingding Ye") 观看视频。
 
-Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 [CoC](http://en.wikipedia.org/wiki/Convention_over_Configuration "Convention over Congiuration"), [DRY](http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself "Don't Repeat Yourself")。而代码组织方式，则是按照 [MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller "Model–view–controller") 模式，推崇 "Skinny Controllers, Fat Models"，把应用逻辑尽可能的放在 Models 中。
+Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 [CoC](http://en.wikipedia.org/wiki/Convention_over_Configuration "Convention over Congiuration"), [DRY](http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself "Don't Repeat Yourself")。而代码组织方式，则是按照 [MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller "Model–view–controller") 模式，推崇 "Skinny Controller, Fat Model"，把应用逻辑尽可能的放在 Models 中。
 
-##### Skinny Controllers, Fat Models #####
+##### Skinny Controller, Fat Model #####
 
 让我们来看最实际的例子，来自 Re-education 的代码。
 
@@ -45,7 +45,7 @@ class PublishersController < ApplicationController
 end
 ```
 
-按照 "Skinny Controllers, Fat Models" 的标准，这段代码有这么几个问题:
+按照 "Skinny Controller, Fat Model" 的标准，这段代码有这么几个问题:
 
 1. __action 代码量过长__
 2. __有很多 @publisher 相关的逻辑判断__。
@@ -195,7 +195,7 @@ end
 
 ###### Acts As XXX ######
 
-相信大家对 acts-as-list，acts-as-tree 这些插件都不陌生，acts-as-xxx 系列其实跟 Concern 差不多，只是它更有时不单单是一个 Module，而是一个拥有更多丰富功能的插件。这个方式在重构 Models 时也是非常的有用。还是举个例子。
+相信大家对 acts-as-list，acts-as-tree 这些插件都不陌生，acts-as-xxx 系列其实跟 Concern 差不多，只是它有时不单单是一个 Module，而是一个拥有更多丰富功能的插件。这个方式在重构 Models 时也是非常的有用。还是举个例子。
 
 ```ruby
 module ActiveRecord
@@ -297,7 +297,7 @@ class HooksController < ApplicationController
 end
 ```
 
-如果大家仔细分析这段代码的话，会发现用 Service 是最好的方法，既不应该放在 Controller，又不适合放在 Model。如果你需要大量使用这种模式，可以考虑一下看看 [Imperator](https://github.com/karmajunkie/imperator) 这个 Gem，算是 Rails 世界里对 Service Layer 实现比较好的库了。
+如果大家仔细分析这段代码的话，会发现用 Service 是最好的方案，既不应该放在 Controller，又不适合放在 Model。如果你需要大量使用这种模式，可以考虑一下看看 [Imperator](https://github.com/karmajunkie/imperator) 这个 Gem，算是 Rails 世界里对 Service Layer 实现比较好的库了。
 
 ###### __Presenter__ ######
 
