@@ -173,11 +173,11 @@
 <li><a href="http://rails-bestpractices.com/posts/1-move-finder-to-named_scope">Move finder to scope</a></li>
 </ol>
 
-<h5>Beyond Fat Models</h5>
+<h5>Beyond Fat Model</h5>
 
 <p>对于项目初期而言，做好这两个基本就够了。但是，随着逻辑的增多，代码量不断增加，我们会发现 Models 开始变得臃肿，整体维护性开始降低。如果一个 Model 对象有效代码行超过了 100 行，我个人认为因为引起警觉了，要思考一下有没有重构点。一般而言，我们有下面几种方法。</p>
 
-<h6><a href="http://en.wikipedia.org/wiki/Concern_(computer_science"><strong>Concern</strong></a></h6>
+<h6><a href="http://en.wikipedia.org/wiki/Concern_(computer_science">Concern</a></h6>
 
 <p>Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 <a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns">Put chubby models on a diet with concerns</a> 和 Rails 4 的相关 <a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81">commit</a>。具体使用可以参照上面的博客和下面我们在 <a title="Lean Collaborative Project Management Tool" href="https://pragmatic.ly">Pragmatic.ly</a> 里的实际例子。</p>
 <div class="highlight"><pre><span class="k">module</span> <span class="nn">Membershipable</span>
@@ -218,7 +218,7 @@
 </pre></div>
 <p>通过上面的例子，可以看到 Project 和 Account 都可以拥有很多个用户，所以 Membershipable 是公共逻辑，可以抽象成 Concern 并在需要的类里面 include，达到了 DRY 的目的。</p>
 
-<h6><a href="http://en.wikipedia.org/wiki/Delegation_pattern"><strong>Delegation Pattern</strong></a></h6>
+<h6><a href="http://en.wikipedia.org/wiki/Delegation_pattern">Delegation Pattern</a></h6>
 
 <p>Delegation Pattern 是另外一种重构 Models 的利器。所谓委托模式，也就是我们把一些本跟 Model 数据结构浅耦合的东西抽象成一个对象，然后把相关方法委托给这个对象，同样看看具体例子。</p>
 
@@ -310,11 +310,11 @@
   <span class="n">acts_as_cache</span>
 <span class="k">end</span>
 </pre></div>
-<h5>Beyonds MVC</h5>
+<h5>Beyond MVC</h5>
 
 <p>如果你在使用了这些方式重构后还是不喜欢代码结构，那么我觉得可能仅仅 MVC 三层就不能满足你需求了，我们需要更多的抽象，比如 Java 世界广而告之的 Service 层或者 Presenter 层。这个更多是个人习惯的问题，比如有些人认为应用逻辑(业务逻辑)不应该放在数据层(Model)，或者一个 Model 只应该管好他自己的事情，多个 Model 的融合需要另外的类来做代理。关于这些的争论已经属于意识形态的范畴，个人的观点是视需要而定，没必要一上来就进入 Service 或者 Presenter，保持代码的简单性，毕竟减少项目 Bugs 的永恒不变法就是没有代码。但是，一旦达到可适用范围，该引入时就引入。这里也给大家介绍一些我们在用的方法。</p>
 
-<h6><strong>Service</strong></h6>
+<h6>Service</h6>
 
 <p>之前已经提到 Controller 层应该只接受 HTTP Request，返回 HTTP Response，中间的处理部分应该交由其他部分。我们可以优先把这部分逻辑放在 Model 层处理。但是，Model 层本身从定义而言应该是只和数据打交道，而不应该过多涉及业务逻辑。这个时候我们就需要用到 Service 层。继续例子!</p>
 <div class="highlight"><pre><span class="k">class</span> <span class="nc">ProjectHookService</span>
@@ -353,7 +353,7 @@
 </pre></div>
 <p>如果大家仔细分析这段代码的话，会发现用 Service 是最好的方案，既不应该放在 Controller，又不适合放在 Model。如果你需要大量使用这种模式，可以考虑一下看看 <a href="https://github.com/karmajunkie/imperator">Imperator</a> 这个 Gem，算是 Rails 世界里对 Service Layer 实现比较好的库了。</p>
 
-<h6><strong>Presenter</strong></h6>
+<h6>Presenter</h6>
 
 <p>关于 Presenter，不得不提的是一个 Gem <a href="https://github.com/jamesgolick/active_presenter">ActivePresenter</a>，基本跟 ActiveRecord 的使用方法一样，如果项目到了一定规模比如有了非常多的 Models，那么可以关注一下 Presenter 模式，会是一个很不错的补充。</p>
 <div class="highlight"><pre><span class="k">class</span> <span class="nc">SignupPresenter</span> <span class="o">&lt;</span> <span class="ss">ActivePresenter</span><span class="p">:</span><span class="ss">:Base</span>
@@ -493,13 +493,13 @@ hate it and why. Thanks!</p>
 
 <h3>Personal Info</h3>
 
-<p><a href="mailto:yedingding@gmail.com"><img title="yedingding@gmail.com" alt="yedingding@gmail.com" src="/images/email.png?1362470063" /></a>
-<a href="https://github.com/sishen"><img title="https://github.com/sishen" alt="https://github.com/sishen" src="/images/github.png?1362470063" /></a>
-<a href="http://cn.linkedin.com/in/yedingding/"><img title="http://cn.linkedin.com/in/yedingding" alt="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png?1362470063" /></a>
-<a href="https://twitter.com/yedingding"><img title="https://twitter.com/yedingding" alt="https://twitter.com/yedingding" src="/images/twitter.png?1362470063" /></a>
-<a href="https://facebook.com/yedingding"><img title="https://facebook.com/yedingding" alt="https://facebook.com/yedingding" src="/images/facebook.png?1362470063" /></a>
-<a href="https://weibo.com/presently"><img title="https://weibo.com/presently" alt="https://weibo.com/presently" src="/images/weibo.png?1362470063" /></a>
-<a href="https://plus.google.com/102475612847000088909"><img title="https://plus.google.com/102475612847000088909" alt="https://plus.google.com/102475612847000088909" src="/images/google-plus.png?1362470063" /></a></p>
+<p><a href="mailto:yedingding@gmail.com"><img title="yedingding@gmail.com" alt="yedingding@gmail.com" src="/images/email.png?1362470436" /></a>
+<a href="https://github.com/sishen"><img title="https://github.com/sishen" alt="https://github.com/sishen" src="/images/github.png?1362470436" /></a>
+<a href="http://cn.linkedin.com/in/yedingding/"><img title="http://cn.linkedin.com/in/yedingding" alt="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png?1362470436" /></a>
+<a href="https://twitter.com/yedingding"><img title="https://twitter.com/yedingding" alt="https://twitter.com/yedingding" src="/images/twitter.png?1362470436" /></a>
+<a href="https://facebook.com/yedingding"><img title="https://facebook.com/yedingding" alt="https://facebook.com/yedingding" src="/images/facebook.png?1362470436" /></a>
+<a href="https://weibo.com/presently"><img title="https://weibo.com/presently" alt="https://weibo.com/presently" src="/images/weibo.png?1362470436" /></a>
+<a href="https://plus.google.com/102475612847000088909"><img title="https://plus.google.com/102475612847000088909" alt="https://plus.google.com/102475612847000088909" src="/images/google-plus.png?1362470436" /></a></p>
 </div>
   </article>
 
