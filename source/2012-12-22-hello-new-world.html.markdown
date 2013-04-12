@@ -22,6 +22,8 @@ are the future of the world and I hope Pragmatic.ly can help tech
 startup better working on their startups. Feel free to tell me if you
 hate it and why. Thanks!
 
+READMORE
+
 ### Personal Info
 
 [![yedingding@gmail.com](/images/email.png "yedingding@gmail.com")](mailto:yedingding@gmail.com)

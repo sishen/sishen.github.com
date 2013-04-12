@@ -11,7 +11,7 @@ activate :blog do |blog|
   # blog.taglink = "tags/:tag.html"
   blog.layout = "layouts/article"
   # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
+  blog.summary_length = 800
   # blog.year_link = ":year.html"
   # blog.month_link = ":year/:month.html"
   # blog.day_link = ":year/:month/:day.html"
@@ -113,7 +113,7 @@ configure :build do
   # Compress PNGs after build
   # First: gem install middleman-smusher
   # require "middleman-smusher"
-  activate :smusher
+  # activate :smusher
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
