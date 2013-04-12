@@ -18,11 +18,17 @@
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365744835" /&gt;
+    <summary type="html">&lt;p&gt;&lt;img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346" /&gt;
 &lt;br/&gt;
 &lt;a href="http://teahour.fm"&gt;Teahour.fm&lt;/a&gt; 是是由四位程序员 &lt;a href="http://terrytai.com"&gt;Terry Tai&lt;/a&gt;，&lt;a href="http://lgn21st.com"&gt;Daniel Lv&lt;/a&gt;，&lt;a href="http://knwang.com"&gt;Kevin Wang&lt;/a&gt; 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD&lt;/p&gt;
+
+&lt;p&gt;这周团队在北京活动，顺便参加了 &lt;a href="http://www.bjrubyist.org/"&gt;Beijing Rubyist&lt;/a&gt; 线下活动，分享了一些 &lt;a href="http://teahour.fm"&gt;teahour.fm&lt;/a&gt; 网站设计和开发的一些思考。具体 slides 可以参考 &lt;a href="https://speakerdeck.com/sishen/teahour-dot-fm"&gt;speakerdeck&lt;/a&gt;。&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="724c59a081d00130b28222000a8e86c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;我们最终选择的是 &lt;a href="http://middlemanapp.com “Hand-crafted frontend development”"&gt;MiddleMan&lt;/a&gt;，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;&lt;img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365744835" /&gt;
+    <content type="html">&lt;p&gt;&lt;img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346" /&gt;
 &lt;br/&gt;
 &lt;a href="http://teahour.fm"&gt;Teahour.fm&lt;/a&gt; 是是由四位程序员 &lt;a href="http://terrytai.com"&gt;Terry Tai&lt;/a&gt;，&lt;a href="http://lgn21st.com"&gt;Daniel Lv&lt;/a&gt;，&lt;a href="http://knwang.com"&gt;Kevin Wang&lt;/a&gt; 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD&lt;/p&gt;
 
@@ -65,7 +71,7 @@
 
 &lt;h3&gt;How It Works&lt;/h3&gt;
 
-&lt;p&gt;&lt;img alt="Teahour Workflow" src="/images/teahourfm-with-middleman/workflow.png?1365744835" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Teahour Workflow" src="/images/teahourfm-with-middleman/workflow.png?1365745375" /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;开始一篇新文章&lt;/p&gt;
@@ -93,29 +99,33 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 
 &lt;p&gt;简单说一下我们当时还看过的其他构站方式。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://wordpress.org"&gt;WordPress&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="http://wordpress.org"&gt;WordPress&lt;/a&gt;&lt;/h4&gt;
 
-&lt;p&gt;说 WordPress 是目前最流行的构站方式都不为过。只是对于我们而言，做一个 WordPress theme 是事倍功半，不熟悉 PHP，要修改代码增删功能也不太方便。另外，我们不喜欢用 WordPress 的可见即可得编辑器。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://rubyonrails.org"&gt;Rails&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;说 WordPress 是目前最流行的构站方式都不为过。只是对于我们而言，做一个 WordPress theme 是事倍功半，不熟悉 PHP，要修改代码增删功能也不太方便。另外，我们不喜欢用 WordPress 的可见即可得编辑器。&lt;/p&gt;
 
-&lt;p&gt;对于我们而言，用 Rails 搭一个 teahour.fm 应用是很简单的，但是问题是这么简单的应用有没有必要上 Rails 这个巨无霸套餐，数据库，后台，速度，等等是我们是我们直接跳过 Rails 的原因。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://www.padrinorb.com/"&gt;Podrino&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="http://rubyonrails.org"&gt;Rails&lt;/a&gt;&lt;/h4&gt;
 
-&lt;p&gt;Podrino 号称是轻量级 ruby web 框架，最主要的特点是在 Sinatra 的基础上构建，而不依赖于 ActionPack。形象点说，Podrina 就是 Rails 1.*，那时只有些必须的功能，不像现在 Rails 给你提供了很多你可能不需要的特性。用 Podrino 是个不错的选择，比如 &lt;a href="http://robbinfan.com"&gt;robbin的自言自语&lt;/a&gt; 就是用 Podrino 开发的。不过，我们还是不想走 Router，写 Controller，同时，直接写 View 或者存数据库都觉得缺乏写作乐趣。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://nestacms.com/"&gt;NestaCMS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于我们而言，用 Rails 搭一个 teahour.fm 应用是很简单的，但是问题是这么简单的应用有没有必要上 Rails 这个巨无霸套餐，数据库，后台，速度，等等是我们是我们直接跳过 Rails 的原因。&lt;/p&gt;
 
-&lt;p&gt;Podrino 相比 Rails 轻是因为他使用了 Sinatra 而非 ActionPack，但是因为它是一个通用 Web 框架，而非内容构建框架，所以我们觉得不方便。而 NestaCMS 就是一个专门的内容构建框架，也是基于 Sinatra，改进了我们所有放弃用 Podrino 的原因，不需要数据库，直接用 Markdown 或者 Textile 编写，甚至可以生成静态网站。而基于 Rack 的部署方式可以直接放到 &lt;a href="http://heroku.com"&gt;Heroku&lt;/a&gt; 上。&lt;a href="https://peepcode.com/blog"&gt;PeepCode Blog&lt;/a&gt; 就是 NestaCMS 的最好代言。说实话，我找不出不能用 NestaCMS 的原因，也许也就是不能放到 Gtihub Pages 和定制 theme 需要了解 NestaCMS 这个框架本身。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/mojombo/jekyll"&gt;Jekyll&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="http://www.padrinorb.com/"&gt;Podrino&lt;/a&gt;&lt;/h4&gt;
 
-&lt;p&gt;JekyII 是 GitHub Pages 的默认静态网站生成器，可以说目前很多新的静态网站生成器都是依托于 Jekyll 或者鉴戒了 Jekyll。Jekyll 为 Blog 而生，不太适合非 Blog 网站，比如 teahour。同时，复杂的 plugins 机制和 theme 定制都是伤心之处。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://octopress.org/"&gt;Octopress&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Podrino 号称是轻量级 ruby web 框架，最主要的特点是在 Sinatra 的基础上构建，而不依赖于 ActionPack。形象点说，Podrina 就是 Rails 1.*，那时只有些必须的功能，不像现在 Rails 给你提供了很多你可能不需要的特性。用 Podrino 是个不错的选择，比如 &lt;a href="http://robbinfan.com"&gt;robbin的自言自语&lt;/a&gt; 就是用 Podrino 开发的。不过，我们还是不想走 Router，写 Controller，同时，直接写 View 或者存数据库都觉得缺乏写作乐趣。&lt;/p&gt;
 
-&lt;p&gt;你是否觉得所有的 Octopress blog 长得一个德性？我是这么觉得的，直接 pass。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://nanoc.ws/"&gt;Nanoc&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;a href="http://nestacms.com/"&gt;NestaCMS&lt;/a&gt;&lt;/h4&gt;
 
-&lt;p&gt;Nanoc 是个好东西，满足我的所有要求，功能强大，甚至比我们选择的 MiddleMan 更强大，可惜学习曲线比较高，入门难，不利于和其他人协作。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Podrino 相比 Rails 轻是因为他使用了 Sinatra 而非 ActionPack，但是因为它是一个通用 Web 框架，而非内容构建框架，所以我们觉得不方便。而 NestaCMS 就是一个专门的内容构建框架，也是基于 Sinatra，改进了我们所有放弃用 Podrino 的原因，不需要数据库，直接用 Markdown 或者 Textile 编写，甚至可以生成静态网站。而基于 Rack 的部署方式可以直接放到 &lt;a href="http://heroku.com"&gt;Heroku&lt;/a&gt; 上。&lt;a href="https://peepcode.com/blog"&gt;PeepCode Blog&lt;/a&gt; 就是 NestaCMS 的最好代言。说实话，我找不出不能用 NestaCMS 的原因，也许也就是不能放到 Gtihub Pages 和定制 theme 需要了解 NestaCMS 这个框架本身。&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="https://github.com/mojombo/jekyll"&gt;Jekyll&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;JekyII 是 GitHub Pages 的默认静态网站生成器，可以说目前很多新的静态网站生成器都是依托于 Jekyll 或者鉴戒了 Jekyll。Jekyll 为 Blog 而生，不太适合非 Blog 网站，比如 teahour。同时，复杂的 plugins 机制和 theme 定制都是伤心之处。&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://octopress.org/"&gt;Octopress&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;你是否觉得所有的 Octopress blog 长得一个德性？我是这么觉得的，直接 pass。&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href="http://nanoc.ws/"&gt;Nanoc&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Nanoc 是个好东西，满足我的所有要求，功能强大，甚至比我们选择的 MiddleMan 更强大，可惜学习曲线比较高，入门难，不利于和其他人协作。&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -128,6 +138,10 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
       <name>Dingding Ye</name>
     </author>
     <summary type="html">&lt;p&gt;春节前受 &lt;a title="Terry Tai's Blog" href="http://terrytai.com"&gt;Terry&lt;/a&gt; 邀请帮助国内的一个公益项目 &lt;a title="开放课堂, 设计和实践综合实践课的平台" href="https://newclass.org"&gt;Re-education&lt;/a&gt; 做代码重构。开放课堂项目是由&lt;a title="教育大发现" href="http://sociallearnlab.org/"&gt;教育大发现社区&lt;/a&gt;发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 &lt;a href="https://github.com/twers/re-education"&gt;GitHub&lt;/a&gt;，采用 Ruby on Rails 作为开发框架。&lt;/p&gt;
+
+&lt;p&gt;很高兴我们 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 &lt;a title="Free Screen Sharing and Online Meetings" href="https://join.me"&gt;Join.me&lt;/a&gt; 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而&lt;strong&gt;对外不改变&lt;/strong&gt;原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 &lt;a title="#036 Refactor openclass by Dingding Ye" href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding"&gt;RailsCasts China&lt;/a&gt; 观看视频。&lt;/p&gt;
+
+&lt;p&gt;Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 &lt;a title="Convention over Congiuration" href="http://en.wikipedia.org/wiki/Convention_over_Configuration"&gt;CoC&lt;/a&gt;, &lt;a title="Don't Repeat Yourself" href="http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself"&gt;DRY&lt;/a&gt;。而代码组织方式，则是按照 &lt;a title="Model–view–controller" href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"&gt;MVC&lt;/a&gt; 模式，推崇 &amp;ldquo;Skinny Controller, Fat Model&amp;quot;，把应用逻辑尽可能的放在 Models 中。&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;春节前受 &lt;a title="Terry Tai's Blog" href="http://terrytai.com"&gt;Terry&lt;/a&gt; 邀请帮助国内的一个公益项目 &lt;a title="开放课堂, 设计和实践综合实践课的平台" href="https://newclass.org"&gt;Re-education&lt;/a&gt; 做代码重构。开放课堂项目是由&lt;a title="教育大发现" href="http://sociallearnlab.org/"&gt;教育大发现社区&lt;/a&gt;发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 &lt;a href="https://github.com/twers/re-education"&gt;GitHub&lt;/a&gt;，采用 Ruby on Rails 作为开发框架。&lt;/p&gt;
 
@@ -135,7 +149,9 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 
 &lt;p&gt;Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 &lt;a title="Convention over Congiuration" href="http://en.wikipedia.org/wiki/Convention_over_Configuration"&gt;CoC&lt;/a&gt;, &lt;a title="Don't Repeat Yourself" href="http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself"&gt;DRY&lt;/a&gt;。而代码组织方式，则是按照 &lt;a title="Model–view–controller" href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"&gt;MVC&lt;/a&gt; 模式，推崇 &amp;ldquo;Skinny Controller, Fat Model&amp;quot;，把应用逻辑尽可能的放在 Models 中。&lt;/p&gt;
 
-&lt;h5&gt;Skinny Controller, Fat Model&lt;/h5&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3&gt;Skinny Controller, Fat Model&lt;/h3&gt;
 
 &lt;p&gt;让我们来看最实际的例子，来自 Re-education 的代码。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;PublishersController&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="no"&gt;ApplicationController&lt;/span&gt;
@@ -229,11 +245,11 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 &lt;li&gt;&lt;a href="http://rails-bestpractices.com/posts/1-move-finder-to-named_scope"&gt;Move finder to scope&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h5&gt;Beyond Fat Model&lt;/h5&gt;
+&lt;h3&gt;Beyond Fat Model&lt;/h3&gt;
 
 &lt;p&gt;对于项目初期而言，做好这两个基本就够了。但是，随着逻辑的增多，代码量不断增加，我们会发现 Models 开始变得臃肿，整体维护性开始降低。如果一个 Model 对象有效代码行超过了 100 行，我个人认为因为引起警觉了，要思考一下有没有重构点。一般而言，我们有下面几种方法。&lt;/p&gt;
 
-&lt;h6&gt;&lt;a href="http://en.wikipedia.org/wiki/Concern_(computer_science"&gt;Concern&lt;/a&gt;&lt;/h6&gt;
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Concern_(computer_science"&gt;Concern&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 &lt;a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns"&gt;Put chubby models on a diet with concerns&lt;/a&gt; 和 Rails 4 的相关 &lt;a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81"&gt;commit&lt;/a&gt;。具体使用可以参照上面的博客和下面我们在 &lt;a title="Lean Collaborative Project Management Tool" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 里的实际例子。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;Membershipable&lt;/span&gt;
@@ -274,7 +290,7 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;通过上面的例子，可以看到 Project 和 Account 都可以拥有很多个用户，所以 Membershipable 是公共逻辑，可以抽象成 Concern 并在需要的类里面 include，达到了 DRY 的目的。&lt;/p&gt;
 
-&lt;h6&gt;&lt;a href="http://en.wikipedia.org/wiki/Delegation_pattern"&gt;Delegation Pattern&lt;/a&gt;&lt;/h6&gt;
+&lt;h4&gt;&lt;a href="http://en.wikipedia.org/wiki/Delegation_pattern"&gt;Delegation Pattern&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;Delegation Pattern 是另外一种重构 Models 的利器。所谓委托模式，也就是我们把一些本跟 Model 数据结构浅耦合的东西抽象成一个对象，然后把相关方法委托给这个对象，同样看看具体例子。&lt;/p&gt;
 
@@ -309,7 +325,7 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;关于更多的如何在 Rails 里使用 delegate 的方法，参考官方文档 &lt;a href="http://apidock.com/rails/Module/delegate"&gt;delegate module&lt;/a&gt;&lt;/p&gt;
 
-&lt;h6&gt;Acts As XXX&lt;/h6&gt;
+&lt;h4&gt;Acts As XXX&lt;/h4&gt;
 
 &lt;p&gt;相信大家对 acts-as-list，acts-as-tree 这些插件都不陌生，acts-as-xxx 系列其实跟 Concern 差不多，只是它有时不单单是一个 Module，而是一个拥有更多丰富功能的插件。这个方式在重构 Models 时也是非常的有用。还是举个例子。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;module&lt;/span&gt; &lt;span class="nn"&gt;ActiveRecord&lt;/span&gt;
@@ -366,11 +382,11 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
   &lt;span class="n"&gt;acts_as_cache&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h5&gt;Beyond MVC&lt;/h5&gt;
+&lt;h3&gt;Beyond MVC&lt;/h3&gt;
 
 &lt;p&gt;如果你在使用了这些方式重构后还是不喜欢代码结构，那么我觉得可能仅仅 MVC 三层就不能满足你需求了，我们需要更多的抽象，比如 Java 世界广而告之的 Service 层或者 Presenter 层。这个更多是个人习惯的问题，比如有些人认为应用逻辑(业务逻辑)不应该放在数据层(Model)，或者一个 Model 只应该管好他自己的事情，多个 Model 的融合需要另外的类来做代理。关于这些的争论已经属于意识形态的范畴，个人的观点是视需要而定，没必要一上来就进入 Service 或者 Presenter，保持代码的简单性，毕竟减少项目 Bugs 的永恒不变法就是没有代码。但是，一旦达到可适用范围，该引入时就引入。这里也给大家介绍一些我们在用的方法。&lt;/p&gt;
 
-&lt;h6&gt;Service&lt;/h6&gt;
+&lt;h4&gt;Service&lt;/h4&gt;
 
 &lt;p&gt;之前已经提到 Controller 层应该只接受 HTTP Request，返回 HTTP Response，中间的处理部分应该交由其他部分。我们可以优先把这部分逻辑放在 Model 层处理。但是，Model 层本身从定义而言应该是只和数据打交道，而不应该过多涉及业务逻辑。这个时候我们就需要用到 Service 层。继续例子!&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;ProjectHookService&lt;/span&gt;
@@ -409,7 +425,7 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;如果大家仔细分析这段代码的话，会发现用 Service 是最好的方案，既不应该放在 Controller，又不适合放在 Model。如果你需要大量使用这种模式，可以考虑一下看看 &lt;a href="https://github.com/karmajunkie/imperator"&gt;Imperator&lt;/a&gt; 这个 Gem，算是 Rails 世界里对 Service Layer 实现比较好的库了。&lt;/p&gt;
 
-&lt;h6&gt;Presenter&lt;/h6&gt;
+&lt;h4&gt;Presenter&lt;/h4&gt;
 
 &lt;p&gt;关于 Presenter，不得不提的是一个 Gem &lt;a href="https://github.com/jamesgolick/active_presenter"&gt;ActivePresenter&lt;/a&gt;，基本跟 ActiveRecord 的使用方法一样，如果项目到了一定规模比如有了非常多的 Models，那么可以关注一下 Presenter 模式，会是一个很不错的补充。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;SignupPresenter&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="ss"&gt;ActivePresenter&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="ss"&gt;:Base&lt;/span&gt;
@@ -421,7 +437,7 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
                     &lt;span class="ss"&gt;:user_password_confirmation&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;123456&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
                     &lt;span class="ss"&gt;:account_subdomain&lt;/span&gt; &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;pragmaticly&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h5&gt;We&amp;#39;re good now&lt;/h5&gt;
+&lt;h3&gt;We&amp;#39;re good now&lt;/h3&gt;
 
 &lt;p&gt;基本上上面是我在一个 Rails 项目里重构 Controller 和 Model 时会使用的几种方法，希望对你有用。Terry Tai 上周在他的博客里分享了&lt;a href="http://terrytai.com/2013/02/15/refactor-session-for-re-education-in-thought-works.html"&gt;他在重构方面的一些想法&lt;/a&gt;，也很有价值，推荐阅读。&lt;/p&gt;
 </content>
@@ -435,11 +451,15 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img title="Terry, Daniel and Me" alt="Terry, Daniel and me" src="/images/the-nil-podcast-with-terry-and-daniel/nil-podcast.png?1365744835" /&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img title="Terry, Daniel and Me" alt="Terry, Daniel and me" src="/images/the-nil-podcast-with-terry-and-daniel/nil-podcast.png?1365745413" /&gt;&lt;/p&gt;
 
 &lt;p&gt;一个月前在一次 Book Club 里 &lt;a title="Terry Tai's Blog" href="http://terrytai.com/"&gt;Terry&lt;/a&gt; 和 &lt;a href="http://www.knwang.com/"&gt;Kevin&lt;/a&gt; 聊起比较缺乏一个 Web 开发类的中文 Podcast，而 Terry 在做的 &lt;a title="RailsCasts China" href="http://railscasts-china.com"&gt;RailsCasts-China&lt;/a&gt; 做为视频类节目，略显不同。于是，便与 &lt;a title="Daniel Lv's weblog" href="http://lvguoning.com/"&gt;Daniel&lt;/a&gt; 沟通了一下，很快便达成共识要启动这个计划。&lt;/p&gt;
+
+&lt;p&gt;对于 Podcast，我个人并不是重度用户，以前在学英语的时候听过 &lt;a href="http://www.eslpod.com"&gt;English As A Second Language&lt;/a&gt;，现在也偶尔听一下 &lt;a href="http://mixergy.com"&gt;Mixergy&lt;/a&gt; 和 &lt;a href="http://5by5.tv"&gt;5by5&lt;/a&gt;，不过因为个人习惯喜欢在工作时候听音乐，所以 podcast 也只能在路上或者健身的时候偶尔听听。但是对于这种技术聊天的形式，反而是一点都不陌生。之前在 Intridea 的时候，我组织了公司内部每周五的 TeaHour，每周一次坚持了一年多，而目前和 Kevin, Terry 还有 Ben 基本每一两周都有 Book Club, 技术，创业，商业，生活，各种都聊，每次都很有收获。希望这个 Podcast 也能给听众带来同样的收获，对着起大家的时间。&lt;/p&gt;
+
+&lt;p&gt;目前第一期的 Podcast 已出, &lt;a href="http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a"&gt;下载地址&lt;/a&gt; 和 &lt;a href="http://ruby-china.org/topics/8229"&gt;讨论地址&lt;/a&gt;。这一期主要聊了下列内容：&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;&lt;img title="Terry, Daniel and Me" alt="Terry, Daniel and me" src="/images/the-nil-podcast-with-terry-and-daniel/nil-podcast.png?1365744835" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img title="Terry, Daniel and Me" alt="Terry, Daniel and me" src="/images/the-nil-podcast-with-terry-and-daniel/nil-podcast.png?1365745413" /&gt;&lt;/p&gt;
 
 &lt;p&gt;一个月前在一次 Book Club 里 &lt;a title="Terry Tai's Blog" href="http://terrytai.com/"&gt;Terry&lt;/a&gt; 和 &lt;a href="http://www.knwang.com/"&gt;Kevin&lt;/a&gt; 聊起比较缺乏一个 Web 开发类的中文 Podcast，而 Terry 在做的 &lt;a title="RailsCasts China" href="http://railscasts-china.com"&gt;RailsCasts-China&lt;/a&gt; 做为视频类节目，略显不同。于是，便与 &lt;a title="Daniel Lv's weblog" href="http://lvguoning.com/"&gt;Daniel&lt;/a&gt; 沟通了一下，很快便达成共识要启动这个计划。&lt;/p&gt;
 
@@ -472,11 +492,15 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365744835" /&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365745312" /&gt;&lt;/p&gt;
 
 &lt;p&gt;很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (&lt;a href="https://twitter.com/lgn21st"&gt;@lgn21st&lt;/a&gt;)和李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)。&lt;/p&gt;
+
+&lt;p&gt;参加了过往的三界大会，这次参加更有感触，总得感觉就一个词: &amp;ldquo;进步&amp;quot;。举办方在进步，演讲嘉宾在进步，参会者也在进步。Ruby 社区在我眼里是个非常可爱非常开放的社区，可惜这次因事没有跟大家聊尽兴，略有遗憾。&lt;/p&gt;
+
+&lt;p&gt;这次我的主题是实时 Web 的各种技术方案和选择策略，主要基于我这三年的工作经验。我这三年主要在做两个产品。第一个是 Present.ly, 一个企业微博工具。往企业里加入社交元素，实时性会减少沟通成本，增强员工之间的交流协作。这个项目我在 2009 年末开始做，选用了 &lt;a href="http://xmpp.org/extensions/xep-0124.html"&gt;BOSH&lt;/a&gt;，一种在 HTTP 协议上模拟双向连接的传输协议，基本属于 &lt;a href="http://en.wikipedia.org/wiki/Comet_(programming)"&gt;COMET&lt;/a&gt; 的变种，只是基于 &lt;a href="http://xmpp.org/"&gt;XMPP&lt;/a&gt; 赋予了它更多的额外价值。第二个是 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，我今年开始的创业项目。Pragmatic.ly 是一个轻量级的敏捷开发管理工具，实时性能让团队的所有成员随时保持在同一个节奏上，同时引导团队多交流。大家可以多试用多提意见，欢迎吐槽，:)。Pragmatic.ly 在实时技术上选用了 WebSocket，而非我之前一直使用的 BOSH。主要是在启动项目时有两方面考虑，第一是 XMPP 相对更重，前期开发时间和维护时间都会有所增加。第二是 WebSocket 标准已经正式发布，目前浏览器的支持也基本跟上。不过即使现在让我回过头重新来选，我还会继续选 WebSocket，欲知详情，请看视频，;p&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365744835" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365745312" /&gt;&lt;/p&gt;
 
 &lt;p&gt;很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (&lt;a href="https://twitter.com/lgn21st"&gt;@lgn21st&lt;/a&gt;)和李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)。&lt;/p&gt;
 
@@ -500,13 +524,22 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img title="2012" alt="2012" src="/images/hello-new-world/2012-movie.jpg?1365744835" /&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img title="2012" alt="2012" src="/images/hello-new-world/2012-movie.jpg?1365745488" /&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="no"&gt;Robot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;yedingding&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;say&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;tech&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;life&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;fun&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;in&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Pragmatic.ly&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Hey, I&amp;#39;m Dingding Ye. If you can see this post, you&amp;#39;re lucky enough to be as
 me to be survived when the end of world counted down. Thanks God!&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m a father, son, husband and also Co-Founder of the
+&lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; team. Few one cares yesterday but
+I hope now it&amp;#39;s different. Life is beautiful, we love until we die. As
+a surviver, I want to make life more meaningful and that&amp;#39;s the driving
+force to make Pragmatic.ly better and better. I believe Tech startups
+are the future of the world and I hope Pragmatic.ly can help tech
+startup better working on their startups. Feel free to tell me if you
+hate it and why. Thanks!&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;&lt;img title="2012" alt="2012" src="/images/hello-new-world/2012-movie.jpg?1365744835" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img title="2012" alt="2012" src="/images/hello-new-world/2012-movie.jpg?1365745488" /&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="no"&gt;Robot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;yedingding&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;say&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;tech&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;life&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;fun&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;in&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Pragmatic.ly&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Hey, I&amp;#39;m Dingding Ye. If you can see this post, you&amp;#39;re lucky enough to be as
@@ -521,15 +554,17 @@ are the future of the world and I hope Pragmatic.ly can help tech
 startup better working on their startups. Feel free to tell me if you
 hate it and why. Thanks!&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;h3&gt;Personal Info&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href="mailto:yedingding@gmail.com"&gt;&lt;img title="yedingding@gmail.com" alt="yedingding@gmail.com" src="/images/email.png?1365744834" /&gt;&lt;/a&gt;
-&lt;a href="https://github.com/sishen"&gt;&lt;img title="https://github.com/sishen" alt="https://github.com/sishen" src="/images/github.png?1365744834" /&gt;&lt;/a&gt;
-&lt;a href="http://cn.linkedin.com/in/yedingding/"&gt;&lt;img title="http://cn.linkedin.com/in/yedingding" alt="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png?1365744834" /&gt;&lt;/a&gt;
-&lt;a href="https://twitter.com/yedingding"&gt;&lt;img title="https://twitter.com/yedingding" alt="https://twitter.com/yedingding" src="/images/twitter.png?1365744834" /&gt;&lt;/a&gt;
-&lt;a href="https://facebook.com/yedingding"&gt;&lt;img title="https://facebook.com/yedingding" alt="https://facebook.com/yedingding" src="/images/facebook.png?1365744834" /&gt;&lt;/a&gt;
-&lt;a href="https://weibo.com/presently"&gt;&lt;img title="https://weibo.com/presently" alt="https://weibo.com/presently" src="/images/weibo.png?1365744834" /&gt;&lt;/a&gt;
-&lt;a href="https://plus.google.com/102475612847000088909"&gt;&lt;img title="https://plus.google.com/102475612847000088909" alt="https://plus.google.com/102475612847000088909" src="/images/google-plus.png?1365744834" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:yedingding@gmail.com"&gt;&lt;img title="yedingding@gmail.com" alt="yedingding@gmail.com" src="/images/email.png?1365745098" /&gt;&lt;/a&gt;
+&lt;a href="https://github.com/sishen"&gt;&lt;img title="https://github.com/sishen" alt="https://github.com/sishen" src="/images/github.png?1365745157" /&gt;&lt;/a&gt;
+&lt;a href="http://cn.linkedin.com/in/yedingding/"&gt;&lt;img title="http://cn.linkedin.com/in/yedingding" alt="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png?1365745204" /&gt;&lt;/a&gt;
+&lt;a href="https://twitter.com/yedingding"&gt;&lt;img title="https://twitter.com/yedingding" alt="https://twitter.com/yedingding" src="/images/twitter.png?1365745441" /&gt;&lt;/a&gt;
+&lt;a href="https://facebook.com/yedingding"&gt;&lt;img title="https://facebook.com/yedingding" alt="https://facebook.com/yedingding" src="/images/facebook.png?1365745128" /&gt;&lt;/a&gt;
+&lt;a href="https://weibo.com/presently"&gt;&lt;img title="https://weibo.com/presently" alt="https://weibo.com/presently" src="/images/weibo.png?1365745469" /&gt;&lt;/a&gt;
+&lt;a href="https://plus.google.com/102475612847000088909"&gt;&lt;img title="https://plus.google.com/102475612847000088909" alt="https://plus.google.com/102475612847000088909" src="/images/google-plus.png?1365745187" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
