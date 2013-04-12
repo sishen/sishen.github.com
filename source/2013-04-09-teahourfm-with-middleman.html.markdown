@@ -12,7 +12,7 @@ tags: teahour, middleman, static site
 
 <script async class="speakerdeck-embed" data-id="724c59a081d00130b28222000a8e86c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-我们最终选择的是 [MiddleMan](http://middlemanapp.com “Hand-crafted frontend development”)，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。
+我们最终选择的是 [MiddleMan](http://middlemanapp.com "Hand-crafted frontend development")，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。
 
 * 不依赖数据库，不依赖解释器，只需要支持 HTML 就可以了
 * Hosting 方便，目前是直接部署在 github pages，而不需要一个 VPS。
@@ -37,7 +37,7 @@ MiddleMan 做的取巧的地方是这个框架用的所有的东西都是你平�
 4. 使用 assets pipeline，基于 sprockets
 5. 用 markdown 写文章
 
-更多信息可以看 [这里](http://middlemanapp.com “Hand-crafted frontend development”)。
+更多信息可以看 [这里](http://middlemanapp.com "Hand-crafted frontend development")。
 
 ### How It Works ###
 
