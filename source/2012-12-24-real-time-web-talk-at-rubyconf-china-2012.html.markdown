@@ -4,7 +4,7 @@ date: 2012-12-24
 tags: rubyconf, rubyconf china, realtime, ruby
 ---
 
-![rubyconfchina](/2012-12-24-real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png "Dingding @ RubyConf China")
+![rubyconfchina](real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png "Dingding @ RubyConf China")
 
 很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 ([@lgn21st](https://twitter.com/lgn21st))和李华顺 ([@huacnlee](https://twitter.com/huacnlee))。
 

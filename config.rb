@@ -88,6 +88,10 @@ set :images_dir, 'images'
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, autolink: true, smartypants: true
 
+# Livereload
+# use: https://github.com/middleman/middleman-livereload
+activate :livereload
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -98,6 +102,10 @@ configure :build do
 
   # Enable cache buster
   activate :cache_buster
+
+  # Make favicons
+  # use: https://github.com/follmann/middleman-favicon-maker
+  activate :favicon_maker
 
   # Use relative URLs
   # activate :relative_assets

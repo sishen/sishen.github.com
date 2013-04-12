@@ -5,8 +5,10 @@ gem "middleman-blog", "~> 3.1.1"
 gem "middleman-smusher"
 gem "middleman-syntax"
 gem "middleman-deploy"
+gem "middleman-livereload", :git => "git://github.com/middleman/middleman-livereload.git"
+gem "middleman-favicon-maker", :git => "git://github.com/follmann/middleman-favicon-maker.git"
 
-# For feed.xml.builder
+# for feed.xml.builder
 gem "builder", "~> 3.0.0"
 
 gem "redcarpet"

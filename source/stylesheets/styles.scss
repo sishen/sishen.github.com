@@ -427,6 +427,10 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
+  article {
+    float: left;
+    max-width: 100%;
+  }
   header ul li.download {
     display: none;
   }

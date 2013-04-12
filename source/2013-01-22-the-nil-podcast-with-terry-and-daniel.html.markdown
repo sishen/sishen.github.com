@@ -4,7 +4,7 @@ date: 2013-01-22 15:39 +08:00
 tags: Podcast, Tech, Ruby, Javascript
 ---
 
-![Terry, Daniel and me](/2013-01-22-the-nil-podcast-with-terry-and-daniel/nil-podcast.png "Terry, Daniel and Me")
+![Terry, Daniel and me](the-nil-podcast-with-terry-and-daniel/nil-podcast.png "Terry, Daniel and Me")
 
 一个月前在一次 Book Club 里 [Terry](http://terrytai.com/ "Terry Tai's Blog") 和 [Kevin](http://www.knwang.com/) 聊起比较缺乏一个 Web 开发类的中文 Podcast，而 Terry 在做的 [RailsCasts-China](http://railscasts-china.com "RailsCasts China") 做为视频类节目，略显不同。于是，便与 [Daniel](http://lvguoning.com/ "Daniel Lv's weblog") 沟通了一下，很快便达成共识要启动这个计划。
 

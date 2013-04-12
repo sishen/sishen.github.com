@@ -4,7 +4,7 @@ date: 2012-12-22
 tags: surviver, hello, pragmatic.ly
 ---
 
-![2012](/2012-12-22-hello-new-world/2012-movie.jpg "2012")
+![2012](hello-new-world/2012-movie.jpg "2012")
 
 ```ruby
 Robot.new('yedingding').say(['tech', 'life', 'fun']).in('Pragmatic.ly')
