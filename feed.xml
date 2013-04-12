@@ -26,7 +26,7 @@
 
 &lt;script async class="speakerdeck-embed" data-id="724c59a081d00130b28222000a8e86c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
 
-&lt;p&gt;我们最终选择的是 &lt;a href="http://middlemanapp.com “Hand-crafted frontend development”"&gt;MiddleMan&lt;/a&gt;，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。&lt;/p&gt;
+&lt;p&gt;我们最终选择的是 &lt;a title="Hand-crafted frontend development" href="http://middlemanapp.com"&gt;MiddleMan&lt;/a&gt;，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;&lt;img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346" /&gt;
 &lt;br/&gt;
@@ -36,7 +36,7 @@
 
 &lt;script async class="speakerdeck-embed" data-id="724c59a081d00130b28222000a8e86c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
 
-&lt;p&gt;我们最终选择的是 &lt;a href="http://middlemanapp.com “Hand-crafted frontend development”"&gt;MiddleMan&lt;/a&gt;，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。&lt;/p&gt;
+&lt;p&gt;我们最终选择的是 &lt;a title="Hand-crafted frontend development" href="http://middlemanapp.com"&gt;MiddleMan&lt;/a&gt;，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;不依赖数据库，不依赖解释器，只需要支持 HTML 就可以了&lt;/li&gt;
@@ -67,7 +67,7 @@
 &lt;li&gt;用 markdown 写文章&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;更多信息可以看 &lt;a href="http://middlemanapp.com “Hand-crafted frontend development”"&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;更多信息可以看 &lt;a title="Hand-crafted frontend development" href="http://middlemanapp.com"&gt;这里&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h3&gt;How It Works&lt;/h3&gt;
 
