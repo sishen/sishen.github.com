@@ -11,7 +11,7 @@ disqus_identifier: rails-for-beginners
 
 我在 06 年底开始接触 Rails 的时候，Rails 版本还是 1.2，Ruby 版本 1.8.6。那时我主要是一个后端开发程序员，不懂 Web 开发，不会 HTML，CSS，JS。但是那时的 Rails 学习起来比较简单，特别是搭配着 [Agile Web Development With Rails (2nd Edition)](http://pragprog.com/book/rails4/agile-web-development-with-rails)，跟着例子走基本就了解了 Rails 的方方面面。再跟自己的已知的知识体系做结合，也算非常平滑的学习曲线。
 
-而如今，你在学习 Rails 的时候，你会发现很多额外的东西，比如 CoffeeScript，Asset Pipeline。而 Rails 4 很多新特性如 Cache Digest (Russion-Doll caching), TuoboLinks，Frontend JavaScript MVC 友好更是会让新手直接晕掉。我们现在已经听到越来越多的新手抱怨 Rails 难学了。DHH 曾经发过一篇很有名的博文 [Rails is omakase](http://david.heinemeierhansson.com/2012/rails-is-omakase.html)，中文翻译版见[这里](http://ruby-china.org/topics/7791)。在 DHH 和 Rails Core Team 眼里，Rails 框架希望提供的是他们认为的 Web 开发的最佳实践，而这个最佳实践，必然跟他们过去这么多年的开发经历相关。在我看来，基本上 Rails 的框架演变过程跟 Web 开发技术的演变过程是一致的。但是对于初学者而言，在没有经历过足够的痛的前提下，要理解很多**改进**就成了一件不容易的事情。特别是当目前 Web 开发开始向前端倾斜的时候，对开发人员的素质要求越来越高，全能化，全栈化，摆在初学者面前的是个极大的挑战。
+而如今，你在学习 Rails 的时候，你会发现很多额外的东西，比如 CoffeeScript，Asset Pipeline。而 Rails 4 很多新特性如 Cache Digest (Russion-Doll caching), TuoboLinks，前端倾斜更是会让新手直接晕掉。我们现在已经听到越来越多的新手抱怨 Rails 难学了。DHH 曾经发过一篇很有名的博文 [Rails is omakase](http://david.heinemeierhansson.com/2012/rails-is-omakase.html)，中文翻译版见[这里](http://ruby-china.org/topics/7791)。在 DHH 和 Rails Core Team 眼里，Rails 框架希望提供的是他们认为的 Web 开发的最佳实践，而这个最佳实践，必然跟他们过去这么多年的开发经历相关。在我看来，基本上 Rails 的框架演变过程跟 Web 开发技术的演变过程是一致的。但是对于初学者而言，在没有经历过足够的痛的前提下，要理解很多**改进**就成了一件不容易的事情。特别是当目前 Web 开发开始向前端倾斜的时候，对开发人员的素质要求越来越高，全能化，全栈化，摆在初学者面前的是个极大的挑战。
 
 READMORE
 
@@ -27,11 +27,28 @@ READMORE
   <source src="http://screencasts.b0.upaiyun.com/podcasts/rails_for_beginner.m4a" type="audio/mpeg">
 </audio>
 
-#### 相关资源 ####
+#### 书籍推荐 ####
+
+* 初学者
+    * [Agile Web Development With Rails](http://pragprog.com/book/rails4/agile-web-development-with-rails) - 通过一个实例教会你如何使用 Rails 制作网站。举手投足之间，其实教会了读者很多有趣的实践和思想。非常生动且有趣。这本书的第二版是最为经典的。并且也有中文版，翻译也算不错。但是的确第二版对于现在的 Rails 版本已经太老，不适合新手阅读了。
+
+    * [Programming Ruby](http://pragprog.com/book/ruby3/programming-ruby-1-9) - 很多人说学 Rails 你得先啃这本 Ruby 宝典，再去学 Rails。其实我觉得不然，这本书可以作为阅读 Agile Web Development With Rails 时的工具书，随时查阅不懂的 Ruby 小知识。当那本书看完后，可以选择再细读此书，这样很多知识由于先得到了运用，所以掌握会更加牢固。
+
+* 进阶
+    * [Rails Recipes](http://pragprog.com/book/rr2/rails-recipes)
+	* [Crafting Rails Applications](http://pragprog.com/book/jvrails/crafting-rails-applications)
+    * [Metaprogramming Ruby](http://pragprog.com/book/ppmetr/metaprogramming-ruby)
+
+* 高级
+    * [Rails Antipatterns](http://railsantipatterns.com)
+    * [Design Patterns in Ruby](http://designpatternsinruby.com)
+	* [Eloquent Ruby](http://eloquentruby.com)
+
+#### 其他资源 ####
 
 * [Ruby China](http://ruby-china.org)  不说了，我们的大本营!
 * [SegmentFault](http://segmentfault.com)  专业程序员问答社区，如果大家有 Ruby/Rails 方面的问题，这里是最纯粹的问答地方。
-* QQ 群，群号 **231618869**。Terry 以前建的一个 Ruby/Rails 学习俱乐部，如果有问题也可以来这里发问。
+* QQ 群，群号 **231618869**。Terry 以前建的一个 Ruby/Rails 学习俱乐部，如果有学习上的问题也可以来这里交流。
 * 新浪微群 [Ruby/Rails 学习俱乐部](http://q.weibo.com/1686875)
 * [Learn Ruby on Rails](http://blog.ashchan.com/archive/2011/08/21/learn-ruby-on-rails/) Ash 写的一篇学习 Rails 的书籍推荐。
 
