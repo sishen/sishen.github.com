@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>
       
-        'Real Time Web' talk at RubyConf China 2012 | The Voice of Dingding Ye
+        Rails 初学者指南 | The Voice of Dingding Ye
       
     </title>
 
@@ -55,40 +55,56 @@
 
         <article>
     <h3>
-      'Real Time Web' talk at RubyConf China 2012
-      <span class="pull-right">Dec 24<span>
+      Rails 初学者指南
+      <span class="pull-right">Apr 22<span>
     </h3>
     <ul class="tag-list">
       
-        <li>rubyconf</li>
+        <li>rails</li>
       
-        <li>rubyconf china</li>
-      
-        <li>realtime</li>
-      
-        <li>ruby</li>
+        <li>learning</li>
       
     </ul>
-    <div><p><img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365745312" /></p>
+    <div><p><img alt="DHH Talks About Rails And Beginner" src="/images/rails-for-beginners/dhh-talks-about-rails-and-beginners.png?1366647275" /></p>
 
-<p>很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (<a href="https://twitter.com/lgn21st">@lgn21st</a>)和李华顺 (<a href="https://twitter.com/huacnlee">@huacnlee</a>)。</p>
+<p>今年 2 月初，我 和 <a href="http://lvguoning.com">Daniel</a>，<a href="http://terrytai.com">Terry</a>，<a href="http://knwang.com">Kevin</a> 在 <a href="http://teahour.fm">Teahour.FM</a> 上聊了一期 Ruby 与 Rails 的学习经历和对初学者的学习建议 <a href="http://teahour.fm/2013/02/03/learning-ruby-and-rails.html">How to Learn Ruby and Rails</a>。而这竟然成为了目前 Teahour 这么多期里面最受欢迎的一期。Rails 4 发布在即，看上去 Rails 已经越来越不适合初学者学习。所以对于初学者而言，了解正确的学习方式无痛上路显得就格外重要。</p>
 
-<p>参加了过往的三界大会，这次参加更有感触，总得感觉就一个词: &ldquo;进步&quot;。举办方在进步，演讲嘉宾在进步，参会者也在进步。Ruby 社区在我眼里是个非常可爱非常开放的社区，可惜这次因事没有跟大家聊尽兴，略有遗憾。</p>
+<p>我在 06 年底开始接触 Rails 的时候，Rails 版本还是 1.2，Ruby 版本 1.8.6。那时我主要是一个后端开发程序员，不懂 Web 开发，不会 HTML，CSS，JS。但是那时的 Rails 学习起来比较简单，特别是搭配着 <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails">Agile Web Development With Rails (2nd Edition)</a>，跟着例子走基本就了解了 Rails 的方方面面。再跟自己的已知的知识体系做结合，也算非常平滑的学习曲线。</p>
 
-<p>这次我的主题是实时 Web 的各种技术方案和选择策略，主要基于我这三年的工作经验。我这三年主要在做两个产品。第一个是 Present.ly, 一个企业微博工具。往企业里加入社交元素，实时性会减少沟通成本，增强员工之间的交流协作。这个项目我在 2009 年末开始做，选用了 <a href="http://xmpp.org/extensions/xep-0124.html">BOSH</a>，一种在 HTTP 协议上模拟双向连接的传输协议，基本属于 <a href="http://en.wikipedia.org/wiki/Comet_(programming)">COMET</a> 的变种，只是基于 <a href="http://xmpp.org/">XMPP</a> 赋予了它更多的额外价值。第二个是 <a href="https://pragmatic.ly">Pragmatic.ly</a>，我今年开始的创业项目。Pragmatic.ly 是一个轻量级的敏捷开发管理工具，实时性能让团队的所有成员随时保持在同一个节奏上，同时引导团队多交流。大家可以多试用多提意见，欢迎吐槽，:)。Pragmatic.ly 在实时技术上选用了 WebSocket，而非我之前一直使用的 BOSH。主要是在启动项目时有两方面考虑，第一是 XMPP 相对更重，前期开发时间和维护时间都会有所增加。第二是 WebSocket 标准已经正式发布，目前浏览器的支持也基本跟上。不过即使现在让我回过头重新来选，我还会继续选 WebSocket，欲知详情，请看视频，;p</p>
+<p>而如今，你在学习 Rails 的时候，你会发现很多额外的东西，比如 CoffeeScript，Asset Pipeline。而 Rails 4 很多新特性如 Cache Digest (Russion-Doll caching), TuoboLinks，Frontend JavaScript MVC 友好更是会让新手直接晕掉。我们现在已经听到越来越多的新手抱怨 Rails 难学了。DHH 曾经发过一篇很有名的博文 <a href="http://david.heinemeierhansson.com/2012/rails-is-omakase.html">Rails is omakase</a>，中文翻译版见<a href="http://ruby-china.org/topics/7791">这里</a>。在 DHH 和 Rails Core Team 眼里，Rails 框架希望提供的是他们认为的 Web 开发的最佳实践，而这个最佳实践，必然跟他们过去这么多年的开发经历相关。在我看来，基本上 Rails 的框架演变过程跟 Web 开发技术的演变过程是一致的。但是对于初学者而言，在没有经历过足够的痛的前提下，要理解很多<strong>改进</strong>就成了一件不容易的事情。特别是当目前 Web 开发开始向前端倾斜的时候，对开发人员的素质要求越来越高，全能化，全栈化，摆在初学者面前的是个极大的挑战。</p>
 
-<p>关于这个主题的视频和 PPT，大家可以在 <a href="http://railscast-china.com/episodes/rubyconf-2012-yedingding">railscasts-china.com/episodes/rubyconf-2012-yedingding</a> 观看。我们在 <a href="http://ruby-china.org/topics/6870">ruby-china.org/topics/6870/topics/6870</a> 也有更深入的讨论，也感谢 qhwa (<a href="https://twitter.com/qhwa">@qhwa</a>) 指出我在 Flash Socket 上的认识误区，<a href="http://ruby-china.org/topics/6891">对Flash Socket的补充</a>。如果是用 Flash 方案的话，也可以自己定义通讯协议，自己写 server，基本就是写 Socket 程序那样子做。热烈欢迎大家多讨论，希望我这块砖抛出去能引来更多的玉，:)</p>
+<p></p>
 
-<h3>One More Thing</h3>
+<p><strong>但是，我还是认为，Rails 是一个适合初学者学习的 Web 开发框架，只是在学习方法上需要有所改变。</strong></p>
 
-<p>我在我的主题演讲结束的时候说过，我会和 Terry (<a href="https://twitter.com/poshboytl">@poshboytl</a>) 重新录一下我之前在 RailsCasts China 做的 Live Show。一直在等 RubyConf China 视频放出来，现在终于可以正式开始了，:)。大致想法已经跟 Terry 沟通过了，我会基于 RubyConf China 这个主题做延伸，基于各种不同方案做实现，做成一个系列。大家对于这种方式如果有什么建议，欢迎留言。</p>
+<p>越思考这个问题，我越同意 Kevin 在第二期介绍的温室培养模式。他尽量会让初学者在温室环境中成长，也就是让他们了解最朴素的东西，而不用过多追求一些细节，以最快速度看到一个站点的建造过程。甚至 Ruby 语言的很多细节，元编程之类，都不需要在一开始了解。Rails 之于其他框架更适合初学者的原因在于它尽管代表着目前 Web 开发的先进浪潮，但是都提供了一个默认值。而这个默认值非常关键，它能让初学者免于选择也不用关心细节，几分钟就可以开始上手练习。这种方式会把一些开发上的痛延缓到了后期发生，也就是一些初学者在向中级水平发展时会经历的一段痛苦时光，但是这点恰恰在我认为是对初学者友好的。</p>
+
+<p>从我自己的经历而言，我在键盘上敲点东西然后最后在浏览器里面看到真实效果，获得的成就感是最大的，也会让我自己更有动力去学习。这也是我认为 Agile Web Development With Rails (AWDWR) 这本书特别适合初学者学习 Rails 的原因，因为它让你关注如何去构建一个站点，其次让你关注如何用 Rails 去构建，内容循序渐进，很多 Rails 中相对高级的特性都放到了最后去介绍，而这些特性当你有了一定基础以后其实也就并不是那么的难了。美中不足的是，AWDWR 这本书中文版只出到第 2 版，跟最新的 Rails 版本脱节太久，而啃英文书对大多数初学者来说都不是一件容易的事情。虽然学好英语对于学好 Rails 是一个基本条件，但是我还是希望初学者能在一开始学习的时候少因为语言问题而多碰壁。这个问题目前来看并没有很好的解，不过希望 Terry 和我能在未来改善一下现状。如果时间上允许的话，我们很希望能原创一本面向初学者的中文书，当然，收费，XD</p>
+
+<p>偷偷的说一下，这里有一段我未经 Terry 许可偷偷录的一段关于初学者应该如何学习 Rails 的讨论，非常值得大家收听，:)</p>
+
+<p><audio controls name="media">
+  <source src="http://screencasts.b0.upaiyun.com/podcasts/rails_for_beginner.m4a" type="audio/mpeg">
+</audio></p>
+
+<h4>相关资源</h4>
+
+<ul>
+<li><a href="http://ruby-china.org">Ruby China</a>  不说了，我们的大本营!</li>
+<li><a href="http://segmentfault.com">SegmentFault</a>  专业程序员问答社区，如果大家有 Ruby/Rails 方面的问题，这里是最纯粹的问答地方。</li>
+<li>QQ 群，群号 <strong>231618869</strong>。Terry 以前建的一个 Ruby/Rails 学习俱乐部，如果有问题也可以来这里发问。</li>
+<li>新浪微群 <a href="http://q.weibo.com/1686875">Ruby/Rails 学习俱乐部</a></li>
+<li><a href="http://blog.ashchan.com/archive/2011/08/21/learn-ruby-on-rails/">Learn Ruby on Rails</a> Ash 写的一篇学习 Rails 的书籍推荐。</li>
+</ul>
+
+<p>最后我要强调的是，学习编程最好的方法永远是 Code！Code！Code！。敲代码永远比只看书来的效果好，勤加练习才是王道。</p>
 </div>
 
     <div id="disqus_thread"></div>
       <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
-        var disqus_identifier = 'real-time-web-talk-at-rubyconf-china-2012';
+        var disqus_identifier = 'rails-for-beginners';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
