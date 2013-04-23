@@ -47,7 +47,7 @@ READMORE
 #### 其他资源 ####
 
 * [Ruby China](http://ruby-china.org)  不说了，我们的大本营!
-* [SegmentFault](http://segmentfault.com)  专业程序员问答社区，如果大家有 Ruby/Rails 方面的问题，这里是最纯粹的问答地方。
+* [SegmentFault](http://segmentfault.com)  专业程序员问答社区，如果大家有 Ruby/Rails 方面的问题，这里是最纯粹的问答地方，大家也可以站内邀请我 (yedingding) 回答。
 * QQ 群，群号 **231618869**。Terry 以前建的一个 Ruby/Rails 学习俱乐部，如果有学习上的问题也可以来这里交流。
 * 新浪微群 [Ruby/Rails 学习俱乐部](http://q.weibo.com/1686875)
 * [Learn Ruby on Rails](http://blog.ashchan.com/archive/2011/08/21/learn-ruby-on-rails/) Ash 写的一篇学习 Rails 的书籍推荐。
