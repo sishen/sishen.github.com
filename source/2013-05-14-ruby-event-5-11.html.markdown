@@ -8,7 +8,7 @@ tags: ruby, event, hangzhou
 
 上周六我们在杭州举行了面对长三角的小型 Ruby 爱好者沙龙，5 个小时，6 位分享嘉宾，70多位参与者，很好很强大。
 
-我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 [Pragmatic.ly](https://pragmatic.ly） 团队的另外两位创始人 [Terry](http://terrytai.com) 和 [Ben](http://beenhero.com) 允许我用工作时间来做这件事，感谢淘宝提供场地设备和茶歇点心，感谢 [SegmentFault](http://segmentfault.com) 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 ([@fswordlee](https://twitter.com/fswordlee))，李华顺 ([@huacnlee](https://twitter.com/huacnlee))，武鑫 ([@SaitoWu](https://twitter.com/SaitoWu))和吕戈 ([@night_song](https://twitter.com/night_song)) 一起组织活动。
+我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 [Pragmatic.ly](https://pragmatic.ly) 团队的另外两位创始人 [Terry](http://terrytai.com) 和 [Ben](http://beenhero.com) 允许我用工作时间来做这件事，感谢淘宝提供场地设备和茶歇点心，感谢 [SegmentFault](http://segmentfault.com) 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 ([@fswordlee](https://twitter.com/fswordlee))，李华顺 ([@huacnlee](https://twitter.com/huacnlee))，武鑫 ([@SaitoWu](https://twitter.com/SaitoWu))和吕戈 ([@night_song](https://twitter.com/night_song)) 一起组织活动。
 
 这次沙龙分享嘉宾阵容非常强大，分享主题非常有料，很有幸能得到他们的支持，特别是远道而来的曹力 ([@ShiningRay](https://twitter.com/shiningray)) 和黄志敏 ([@flyerhzm](https://twitter.com/flyerhzm))。6 场演讲场场精彩，我这里小记一下。
 
@@ -20,14 +20,14 @@ tags: ruby, event, hangzhou
 
 ##### 与 Obj-C 结婚，与 RubyMotion 恋爱
 
-[RubyMotion](http://rubymotion.com) 绝对是目前 Ruby 界的超新星。随着越来越多的 Ruby 界知名公司如 [37signals](http://37signals.com/)，[LivingSocial](http://livingsocial.com/)，[ThoughtWorks](http://thoughtworks.com) 用 RubyMotion 开发 iOS 产品，RubyMotion 博得了越来越多的眼球。而前几天发布的 v2.0 宣布了对 OSX 的支持，将把这把火持续的更旺盛的烧下去。来自阿里巴巴 Mac 实验室的李龑分享了他使用 RubyMotion 的经验和一些坑。值得关注的是，他整个 PPT 就是用 RubyMotion 做的一个应用。想知道 RubyMotion 到底有哪些魔力才能让一个文科出生的纪实摄影师转行成为一个 Mac 开发者的，请看这里。整个 PPT 的代码在 [https://github.com/eyeplum/motion-affair](https://github.com/eyeplum/motion-affair)
+[RubyMotion](http://rubymotion.com) 绝对是目前 Ruby 界的超新星。随着越来越多的 Ruby 界知名公司如 [37signals](http://37signals.com/)，[ThoughtBot](http://thoughtbot.com) 用 RubyMotion 开发 iOS 产品，RubyMotion 博得了越来越多的眼球。而前几天发布的 v2.0 宣布了对 OSX 的支持，将把这把火持续的更旺盛的烧下去。来自阿里巴巴 Mac 实验室的李龑分享了他使用 RubyMotion 的经验和一些坑。值得关注的是，他整个 PPT 就是用 RubyMotion 做的一个应用。想知道 RubyMotion 到底有哪些魔力才能让一个文科出生的纪实摄影师转行成为一个 Mac 开发者的，请看这里。整个 PPT 的代码在 [https://github.com/eyeplum/motion-affair](https://github.com/eyeplum/motion-affair)
 
 <video controls="controls" src="http://screencasts.b0.upaiyun.com/assets/episodes/video/rubymotion.mov">
 </video>
 
 ##### 构建异步 API 服务
 
-黄志敏是我们的老朋友了，基本以前每次这种线下活动都会给大家带来分享，也是目前国内在国际上知名的开源贡献者。黄志敏曾负责 OpenFeint 平台的基础设施，平台架构和服务器调优。在这次分享里，Richard 通过一个 demo 应用程序，比较了进程模型，线程模型，进程+线程模型，事件驱动模型和进程+事件驱动模型的实现差异和性能差别。如果你对 Rails 的性能不满，那么这个分享会给你带来很多其他的选择。正如 Richard 而言，Ruby 可以做到性能好、并发高、开发效率高、维护性好，关键是你要用对东西。
+黄志敏是我们的老朋友了，基本以前每次这种线下活动都会给大家带来分享，也是目前国内在国际上知名的开源贡献者。黄志敏曾负责 OpenFeint 平台的基础设施，平台架构和服务器调优。在这次分享里，Richard 通过一个 demo 应用程序，比较了进程模型，线程模型，进程+线程模型，事件驱动模型和进程+事件驱动模型的实现差异和性能差别，也就很容易看出为什么要用异步方式构建 API 服务了。如果你对 Rails 的性能不满，那么这个分享会给你带来很多其他的选择。正如 Richard 而言，Ruby 可以做到性能好、并发高、开发效率高、维护性好，关键是你要用对东西。
 
 <script async class="speakerdeck-embed" data-id="988c07e09d3501309d4f6e9dd498db92" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -39,11 +39,11 @@ Ruby 大家都会用，但是却很少人会关心 Ruby 是怎么实现的，Rub
 
 ##### 实践中的 CI
 
-分布式系统中如何实现 CI，尤其是对于一淘这种级别的大应用？如果保证多人协作过程中，CI 仍然能正确的执行？如何构建一个正确稳定的自动化分布式 CI 环境？这些问题，来自淘宝的李建业向我们介绍了他们在实践中的 CI 系统。最后那个讨论我尤其感兴趣，在 CI 系统中单元测试和集成测试所处的位置和的关系，单元测试是否是集成测试的必要条件。如果大家对详细内容感兴趣，可以看这里 [http://fsword.github.io/slide/ci_con/index.html](http://fsword.github.io/slide/ci_con/index.html)。
+分布式系统中如何实现 CI，尤其是对于一淘这种级别的大应用？如何保证多人协作过程中，CI 仍然能正确的执行？如何构建一个正确稳定的自动化分布式 CI 环境？这些问题，来自淘宝的李建业向我们介绍了他们在实践中的 CI 系统。最后那个讨论我尤其感兴趣，在 CI 系统中单元测试和集成测试所处的位置和的关系，单元测试是否是集成测试的必要条件。如果大家对详细内容感兴趣，可以看这里 [http://fsword.github.io/slide/ci_con/index.html](http://fsword.github.io/slide/ci_con/index.html)。
 
 ##### 中大型前端应用开发工具链
 
-这个主题的分享者武鑫最近半年多一直在做重前端应用，他介绍了他对于前端应用开发应该如何进行的思考和经验分享。在他看来，前端应用规模上去后，会有七方面的问题：JS 加载、命名空间污染、文件依赖关系、模块化、测试、Build、UX。武鑫介绍了解决这些问题可以使用的方法并给出了一个 demo，信息量很大，完全可以做成一个大主题演讲。有个观点很好，现在对于每个问题的解决方法都有很多种方案，我们是该选哪一种呢？这并不重要，重要的是你去解决了这个问题。
+中大型前端应用开发应该如何做？这个主题的分享者武鑫最近半年多一直在做重前端应用，他分享了一些他的心得体会。在他看来，前端应用规模上去后，会有七方面的问题：JS 加载、命名空间污染、文件依赖关系、模块化、测试、Build、UX。武鑫介绍了解决这些问题可以使用的方法并给出了一个 demo，信息量很大，完全可以做成一个大主题演讲。有个观点很好，现在对于每个问题的解决方法都有很多种方案，我们是该选哪一种呢？这并不重要，重要的是你去解决了这个问题。
 
 <script async class="speakerdeck-embed" data-id="c74b17309c6f0130246f226fb1014015" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
