@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <title>
       
-        Teahour.fm, Static Site by Middleman | The Voice of Dingding Ye
+        记 5 月 11 号 Ruby 开发者沙龙 | The Voice of Dingding Ye
       
     </title>
 
@@ -55,123 +55,74 @@
 
         <article>
     <h3>
-      Teahour.fm, Static Site by Middleman
-      <span class="pull-right">Apr  9<span>
+      记 5 月 11 号 Ruby 开发者沙龙
+      <span class="pull-right">May 14<span>
     </h3>
     <ul class="tag-list">
       
-        <li>teahour</li>
+        <li>ruby</li>
       
-        <li>middleman</li>
+        <li>event</li>
       
-        <li>static site</li>
+        <li>hangzhou</li>
       
     </ul>
-    <div><p><img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346" />
-<br/>
-<a href="http://teahour.fm">Teahour.fm</a> 是是由四位程序员 <a href="http://terrytai.com">Terry Tai</a>，<a href="http://lgn21st.com">Daniel Lv</a>，<a href="http://knwang.com">Kevin Wang</a> 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD</p>
+    <div><p><img alt="Hangzhou Ruby Event May 11th" src="/images/ruby-event-5-11/event.jpg?1368509827" /></p>
 
-<p>这周团队在北京活动，顺便参加了 <a href="http://www.bjrubyist.org/">Beijing Rubyist</a> 线下活动，分享了一些 <a href="http://teahour.fm">teahour.fm</a> 网站设计和开发的一些思考。具体 slides 可以参考 <a href="https://speakerdeck.com/sishen/teahour-dot-fm">speakerdeck</a>。</p>
+<p>上周六我们在杭州举行了面对长三角的小型 Ruby 爱好者沙龙，5 个小时，6 位分享嘉宾，70多位参与者，很好很强大。</p>
 
-<script async class="speakerdeck-embed" data-id="724c59a081d00130b28222000a8e86c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p>我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 <a href="https://pragmatic.ly） 团队的另外两位创始人 [Terry](http://terrytai.com">Pragmatic.ly</a> 和 <a href="http://beenhero.com">Ben</a> 允许我用工作时间来做这件事，感谢淘宝提供场地设备和茶歇点心，感谢 <a href="http://segmentfault.com">SegmentFault</a> 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 (<a href="https://twitter.com/fswordlee">@fswordlee</a>)，李华顺 (<a href="https://twitter.com/huacnlee">@huacnlee</a>)，武鑫 (<a href="https://twitter.com/SaitoWu">@SaitoWu</a>)和吕戈 (<a href="https://twitter.com/night_song">@night_song</a>) 一起组织活动。</p>
 
-<p>我们最终选择的是 <a title="Hand-crafted frontend development" href="http://middlemanapp.com">MiddleMan</a>，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。</p>
+<p>这次沙龙分享嘉宾阵容非常强大，分享主题非常有料，很有幸能得到他们的支持，特别是远道而来的曹力 (<a href="https://twitter.com/shiningray">@ShiningRay</a>) 和黄志敏 (<a href="https://twitter.com/flyerhzm">@flyerhzm</a>)。6 场演讲场场精彩，我这里小记一下。</p>
 
-<ul>
-<li>不依赖数据库，不依赖解释器，只需要支持 HTML 就可以了</li>
-<li>Hosting 方便，目前是直接部署在 github pages，而不需要一个 VPS。</li>
-<li>速度快，HTML 永远是最快的，前端也可以随便用 Apache，Nginx 这些高性能服务器。</li>
-<li>写作方便，基本所有的静态网站生成器都是用 <em>Markdown</em>, <em>Textile</em> 这些模板语言，相对简单，可以本地编辑。</li>
-<li>没迁移成本，不需要数据导入导出。</li>
-<li>所有文件都有版本控制</li>
-</ul>
+<h5>单兵如何打造日PV百万的网站架构</h5>
 
-<p>当然，选择了静态网站也就失去了动态性。目前 teahour.fm 比较缺乏这三个功能。</p>
+<p>来自南京的曹力是现<a href="http://baozoumanhua.com">暴走漫画</a>的 CTO 和原糗事百科的联合创始人。暴走漫画目前日均PV过千万，可以想像对网站架构和性能优化带来的挑战。曹力介绍了几次主要的架构变迁，单机，百万PV时的挑战，千万PV下又是如何转变，演讲风趣生动，很有暴走之风。大家可以在这里查看 <a href="http://vdisk.weibo.com/s/B5vle">PPT</a>。因地制宜，善用 Cache，量化分析，摆事实，讲道理。会后跟曹力也交流了很多创业的想法，受益匪浅。</p>
 
-<ul>
-<li>切换 episodes 的时候不能走动画方式，而是整页刷新</li>
-<li>不能做站内搜索，只能加 google 站内搜索</li>
-<li>不能做站内评论，需要依托 disqus 这些评论解决方案</li>
-</ul>
+<script async class="speakerdeck-embed" data-id="4e6be5309da501308e951a9333edbc11" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script>
 
-<h3>MiddleMan</h3>
+<h5>与 Obj-C 结婚，与 RubyMotion 恋爱</h5>
 
-<p>MiddleMan 做的取巧的地方是这个框架用的所有的东西都是你平时接触的东西，基本上你不需要去学习新的东西就可以直接上手使用。</p>
+<p><a href="http://rubymotion.com">RubyMotion</a> 绝对是目前 Ruby 界的超新星。随着越来越多的 Ruby 界知名公司如 37signal，LivingSocial，ThoughtWorks 用 RubyMotion 开发 iOS 产品，RubyMotion 博得了越来越多的眼球。而前几天发布的 v2.0 宣布了对 OSX 的支持，将把这把火持续的更旺盛的烧下去。来自阿里巴巴 Mac 实验室的李龑分享了他使用 RubyMotion 的经验和一些坑。值得关注的是，他整个 PPT 就是用 RubyMotion 做的一个应用。想知道 RubyMotion 到底有哪些魔力才能让一个文科出生的纪实摄影师转行成为一个 Mac 开发者的，请看这里。整个 PPT 的代码在 <a href="https://github.com/eyeplum/motion-affair">https://github.com/eyeplum/motion-affair</a></p>
 
-<ol>
-<li>可以直接用 ERB, HAML, SCSS, LESS 等</li>
-<li>页面构成利用 Layouts 和 Partials</li>
-<li>有很多 view helpers，比如 link<em>to, image</em>tag</li>
-<li>使用 assets pipeline，基于 sprockets</li>
-<li>用 markdown 写文章</li>
-</ol>
+<p><video controls name="media">
+  <source src="http://screencasts.b0.upaiyun.com/assets/episodes/video/rubymotion.mov" type="audio/mpeg">
+</video></p>
 
-<p>更多信息可以看 <a title="Hand-crafted frontend development" href="http://middlemanapp.com">这里</a>。</p>
+<h5>构建异步 API 服务</h5>
 
-<h3>How It Works</h3>
+<p>黄志敏是我们的老朋友了，基本以前每次这种线下活动都会给大家带来分享，也是目前国内在国际上知名的开源贡献者。黄志敏曾负责 OpenFeint 平台的基础设施，平台架构和服务器调优。在这次分享里，Richard 通过一个 demo 应用程序，比较了进程模型，线程模型，进程+线程模型，事件驱动模型和进程+事件驱动模型的实现差异和性能差别。如果你对 Rails 的性能不满，那么这个分享会给你带来很多其他的选择。正如 Richard 而言，Ruby 可以做到性能好、并发高、开发效率高、维护性好，关键是你要用对东西。</p>
 
-<p><img alt="Teahour Workflow" src="/images/teahourfm-with-middleman/workflow.png?1365745375" /></p>
+<script async class="speakerdeck-embed" data-id="988c07e09d3501309d4f6e9dd498db92" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"></script>
 
-<ol>
-<li><p>开始一篇新文章</p>
-<div class="highlight"><pre>$ <span class="n">middleman</span> <span class="n">article</span> <span class="n">teahourfm</span><span class="o">-</span><span class="n">with</span><span class="o">-</span><span class="n">middleman</span>
-</pre></div></li>
-<li><p>编辑 Markdown 文件。我们使用的编辑器有 MacVim，TextMate 和 Aquamacs，:)</p></li>
-<li><p>构建整站 HTML</p>
-<div class="highlight"><pre>$ <span class="n">middleman</span> <span class="n">build</span>
-</pre></div></li>
-<li><p>部署</p>
-<div class="highlight"><pre>$ <span class="n">cd</span> <span class="n">build</span>
-$ <span class="n">middleman</span> <span class="n">deploy</span>
-</pre></div></li>
-</ol>
+<h5>Ruby 2.1 Walk Through</h5>
 
-<p>如果你对 MiddleMan 项目组织方式感兴趣，可以查看 teahour.fm 源代码，目前我已经做了三个项目，包括本站，都是开源的。</p>
+<p>Ruby 大家都会用，但是却很少人会关心 Ruby 是怎么实现的，Ruby 的语言演进是如何的。这个主题的分享者吕戈却是个反例。在我看来，吕戈是科学家多于开发者，算是活在 Ruby trunk 上的人。他向我们介绍了 Ruby 2.0/2.1 的主要新特性和一些实现细节，当然也经常跑题&hellip;. -.-  我们尊封吕戈为杭州 Ruby 社区的首席吐槽师不是没有道理的。话说回来，吕戈在这次主题分享中让我感受到了什么叫做知识渊博。</p>
 
-<ul>
-<li><a href="https://github.com/pragmaticly/teahour.fm">Teahour.fm Sources</a></li>
-<li><a href="https://github.com/pragmaticly/blog.pragmatic.ly">Pragmatic.ly Blog Sources</a></li>
-<li><a href="https://github.com/sishen/sishen.github.com">Blog Sources</a></li>
-</ul>
+<script async class="speakerdeck-embed" data-id="7658f3109c6f0130377462ecddd7671a" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"></script>
 
-<h3>Other Choices</h3>
+<h5>实践中的 CI</h5>
 
-<p>简单说一下我们当时还看过的其他构站方式。</p>
+<p>分布式系统中如何实现 CI，尤其是对于一淘这种级别的大应用？如果保证多人协作过程中，CI 仍然能正确的执行？如何构建一个正确稳定的自动化分布式 CI 环境？这些问题，来自淘宝的李建业向我们介绍了他们在实践中的 CI 系统。最后那个讨论我尤其感兴趣，在 CI 系统中单元测试和集成测试所处的位置和的关系，单元测试是否是集成测试的必要条件。如果大家对详细内容感兴趣，可以看这里 <a href="http://fsword.github.io/slide/ci_con/index.html">http://fsword.github.io/slide/ci_con/index.html</a>。</p>
 
-<h4><a href="http://wordpress.org">WordPress</a></h4>
+<h5>中大型前端应用开发工具链</h5>
 
-<p>说 WordPress 是目前最流行的构站方式都不为过。只是对于我们而言，做一个 WordPress theme 是事倍功半，不熟悉 PHP，要修改代码增删功能也不太方便。另外，我们不喜欢用 WordPress 的可见即可得编辑器。</p>
+<p>这个主题的分享者武鑫最近半年多一直在做重前端应用，他介绍了他对于前端应用开发应该如何进行的思考和经验分享。在他看来，前端应用规模上去后，会有七方面的问题：JS 加载、命名空间污染、文件依赖关系、模块化、测试、Build、UX。武鑫介绍了解决这些问题可以使用的方法并给出了一个 demo，信息量很大，完全可以做成一个大主题演讲。有个观点很好，现在对于每个问题的解决方法都有很多种方案，我们是该选哪一种呢？这并不重要，重要的是你去解决了这个问题。</p>
 
-<h4><a href="http://rubyonrails.org">Rails</a></h4>
+<script async class="speakerdeck-embed" data-id="c74b17309c6f0130246f226fb1014015" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-<p>对于我们而言，用 Rails 搭一个 teahour.fm 应用是很简单的，但是问题是这么简单的应用有没有必要上 Rails 这个巨无霸套餐，数据库，后台，速度，等等是我们是我们直接跳过 Rails 的原因。</p>
+<h5>One More Thing</h5>
 
-<h4><a href="http://www.padrinorb.com/">Podrino</a></h4>
+<p>这次活动我们是有录像的，还需要花时间剪辑，之后会把视频放出来，敬请期待！感谢这次活动各位讲师的精彩演讲，希望活动能持续的办下去！会后我们也进行了亲切的会晤，气氛异常的热烈。</p>
 
-<p>Podrino 号称是轻量级 ruby web 框架，最主要的特点是在 Sinatra 的基础上构建，而不依赖于 ActionPack。形象点说，Podrina 就是 Rails 1.*，那时只有些必须的功能，不像现在 Rails 给你提供了很多你可能不需要的特性。用 Podrino 是个不错的选择，比如 <a href="http://robbinfan.com">robbin的自言自语</a> 就是用 Podrino 开发的。不过，我们还是不想走 Router，写 Controller，同时，直接写 View 或者存数据库都觉得缺乏写作乐趣。</p>
-
-<h4><a href="http://nestacms.com/">NestaCMS</a></h4>
-
-<p>Podrino 相比 Rails 轻是因为他使用了 Sinatra 而非 ActionPack，但是因为它是一个通用 Web 框架，而非内容构建框架，所以我们觉得不方便。而 NestaCMS 就是一个专门的内容构建框架，也是基于 Sinatra，改进了我们所有放弃用 Podrino 的原因，不需要数据库，直接用 Markdown 或者 Textile 编写，甚至可以生成静态网站。而基于 Rack 的部署方式可以直接放到 <a href="http://heroku.com">Heroku</a> 上。<a href="https://peepcode.com/blog">PeepCode Blog</a> 就是 NestaCMS 的最好代言。说实话，我找不出不能用 NestaCMS 的原因，也许也就是不能放到 Gtihub Pages 和定制 theme 需要了解 NestaCMS 这个框架本身。</p>
-
-<h4><a href="https://github.com/mojombo/jekyll">Jekyll</a></h4>
-
-<p>JekyII 是 GitHub Pages 的默认静态网站生成器，可以说目前很多新的静态网站生成器都是依托于 Jekyll 或者鉴戒了 Jekyll。Jekyll 为 Blog 而生，不太适合非 Blog 网站，比如 teahour。同时，复杂的 plugins 机制和 theme 定制都是伤心之处。</p>
-
-<h4><a href="http://octopress.org/">Octopress</a></h4>
-
-<p>你是否觉得所有的 Octopress blog 长得一个德性？我是这么觉得的，直接 pass。</p>
-
-<h4><a href="http://nanoc.ws/">Nanoc</a></h4>
-
-<p>Nanoc 是个好东西，满足我的所有要求，功能强大，甚至比我们选择的 MiddleMan 更强大，可惜学习曲线比较高，入门难，不利于和其他人协作。</p>
+<p><img alt="After Event" src="/images/ruby-event-5-11/after-event.jpg?1368509827" /></p>
 </div>
 
     <div id="disqus_thread"></div>
       <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
-        var disqus_identifier = 'teahour-fm-static-site-by-middleman';
+        var disqus_identifier = '5-11-ruby';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {

@@ -5,10 +5,78 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2013-04-22T09:42:00Z</updated>
+  <updated>2013-05-14T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>记 5 月 11 号 Ruby 开发者沙龙</title>
+    <link rel="alternate" href="/2013/05/14/ruby-event-5-11.html"/>
+    <id>/2013/05/14/ruby-event-5-11.html</id>
+    <published>2013-05-14T00:00:00Z</published>
+    <updated>2013-05-14T00:00:00Z</updated>
+    <author>
+      <name>Dingding Ye</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img alt="Hangzhou Ruby Event May 11th" src="/images/ruby-event-5-11/event.jpg?1368509827" /&gt;&lt;/p&gt;
+
+&lt;p&gt;上周六我们在杭州举行了面对长三角的小型 Ruby 爱好者沙龙，5 个小时，6 位分享嘉宾，70多位参与者，很好很强大。&lt;/p&gt;
+
+&lt;p&gt;我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 &lt;a href="https://pragmatic.ly） 团队的另外两位创始人 [Terry](http://terrytai.com"&gt;Pragmatic.ly&lt;/a&gt; 和 &lt;a href="http://beenhero.com"&gt;Ben&lt;/a&gt; 允许我用工作时间来做这件事，感谢淘宝提供场地设备和茶歇点心，感谢 &lt;a href="http://segmentfault.com"&gt;SegmentFault&lt;/a&gt; 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 (&lt;a href="https://twitter.com/fswordlee"&gt;@fswordlee&lt;/a&gt;)，李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)，武鑫 (&lt;a href="https://twitter.com/SaitoWu"&gt;@SaitoWu&lt;/a&gt;)和吕戈 (&lt;a href="https://twitter.com/night_song"&gt;@night_song&lt;/a&gt;) 一起组织活动。&lt;/p&gt;
+
+&lt;p&gt;这次沙龙分享嘉宾阵容非常强大，分享主题非常有料，很有幸能得到他们的支持，特别是远道而来的曹力 (&lt;a href="https://twitter.com/shiningray"&gt;@ShiningRay&lt;/a&gt;) 和黄志敏 (&lt;a href="https://twitter.com/flyerhzm"&gt;@flyerhzm&lt;/a&gt;)。6 场演讲场场精彩，我这里小记一下。&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;img alt="Hangzhou Ruby Event May 11th" src="/images/ruby-event-5-11/event.jpg?1368509827" /&gt;&lt;/p&gt;
+
+&lt;p&gt;上周六我们在杭州举行了面对长三角的小型 Ruby 爱好者沙龙，5 个小时，6 位分享嘉宾，70多位参与者，很好很强大。&lt;/p&gt;
+
+&lt;p&gt;我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 &lt;a href="https://pragmatic.ly） 团队的另外两位创始人 [Terry](http://terrytai.com"&gt;Pragmatic.ly&lt;/a&gt; 和 &lt;a href="http://beenhero.com"&gt;Ben&lt;/a&gt; 允许我用工作时间来做这件事，感谢淘宝提供场地设备和茶歇点心，感谢 &lt;a href="http://segmentfault.com"&gt;SegmentFault&lt;/a&gt; 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 (&lt;a href="https://twitter.com/fswordlee"&gt;@fswordlee&lt;/a&gt;)，李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)，武鑫 (&lt;a href="https://twitter.com/SaitoWu"&gt;@SaitoWu&lt;/a&gt;)和吕戈 (&lt;a href="https://twitter.com/night_song"&gt;@night_song&lt;/a&gt;) 一起组织活动。&lt;/p&gt;
+
+&lt;p&gt;这次沙龙分享嘉宾阵容非常强大，分享主题非常有料，很有幸能得到他们的支持，特别是远道而来的曹力 (&lt;a href="https://twitter.com/shiningray"&gt;@ShiningRay&lt;/a&gt;) 和黄志敏 (&lt;a href="https://twitter.com/flyerhzm"&gt;@flyerhzm&lt;/a&gt;)。6 场演讲场场精彩，我这里小记一下。&lt;/p&gt;
+
+&lt;h5&gt;单兵如何打造日PV百万的网站架构&lt;/h5&gt;
+
+&lt;p&gt;来自南京的曹力是现&lt;a href="http://baozoumanhua.com"&gt;暴走漫画&lt;/a&gt;的 CTO 和原糗事百科的联合创始人。暴走漫画目前日均PV过千万，可以想像对网站架构和性能优化带来的挑战。曹力介绍了几次主要的架构变迁，单机，百万PV时的挑战，千万PV下又是如何转变，演讲风趣生动，很有暴走之风。大家可以在这里查看 &lt;a href="http://vdisk.weibo.com/s/B5vle"&gt;PPT&lt;/a&gt;。因地制宜，善用 Cache，量化分析，摆事实，讲道理。会后跟曹力也交流了很多创业的想法，受益匪浅。&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="4e6be5309da501308e951a9333edbc11" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h5&gt;与 Obj-C 结婚，与 RubyMotion 恋爱&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href="http://rubymotion.com"&gt;RubyMotion&lt;/a&gt; 绝对是目前 Ruby 界的超新星。随着越来越多的 Ruby 界知名公司如 37signal，LivingSocial，ThoughtWorks 用 RubyMotion 开发 iOS 产品，RubyMotion 博得了越来越多的眼球。而前几天发布的 v2.0 宣布了对 OSX 的支持，将把这把火持续的更旺盛的烧下去。来自阿里巴巴 Mac 实验室的李龑分享了他使用 RubyMotion 的经验和一些坑。值得关注的是，他整个 PPT 就是用 RubyMotion 做的一个应用。想知道 RubyMotion 到底有哪些魔力才能让一个文科出生的纪实摄影师转行成为一个 Mac 开发者的，请看这里。整个 PPT 的代码在 &lt;a href="https://github.com/eyeplum/motion-affair"&gt;https://github.com/eyeplum/motion-affair&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;video controls name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/assets/episodes/video/rubymotion.mov" type="audio/mpeg"&gt;
+&lt;/video&gt;&lt;/p&gt;
+
+&lt;h5&gt;构建异步 API 服务&lt;/h5&gt;
+
+&lt;p&gt;黄志敏是我们的老朋友了，基本以前每次这种线下活动都会给大家带来分享，也是目前国内在国际上知名的开源贡献者。黄志敏曾负责 OpenFeint 平台的基础设施，平台架构和服务器调优。在这次分享里，Richard 通过一个 demo 应用程序，比较了进程模型，线程模型，进程+线程模型，事件驱动模型和进程+事件驱动模型的实现差异和性能差别。如果你对 Rails 的性能不满，那么这个分享会给你带来很多其他的选择。正如 Richard 而言，Ruby 可以做到性能好、并发高、开发效率高、维护性好，关键是你要用对东西。&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="988c07e09d3501309d4f6e9dd498db92" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h5&gt;Ruby 2.1 Walk Through&lt;/h5&gt;
+
+&lt;p&gt;Ruby 大家都会用，但是却很少人会关心 Ruby 是怎么实现的，Ruby 的语言演进是如何的。这个主题的分享者吕戈却是个反例。在我看来，吕戈是科学家多于开发者，算是活在 Ruby trunk 上的人。他向我们介绍了 Ruby 2.0/2.1 的主要新特性和一些实现细节，当然也经常跑题&amp;hellip;. -.-  我们尊封吕戈为杭州 Ruby 社区的首席吐槽师不是没有道理的。话说回来，吕戈在这次主题分享中让我感受到了什么叫做知识渊博。&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="7658f3109c6f0130377462ecddd7671a" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h5&gt;实践中的 CI&lt;/h5&gt;
+
+&lt;p&gt;分布式系统中如何实现 CI，尤其是对于一淘这种级别的大应用？如果保证多人协作过程中，CI 仍然能正确的执行？如何构建一个正确稳定的自动化分布式 CI 环境？这些问题，来自淘宝的李建业向我们介绍了他们在实践中的 CI 系统。最后那个讨论我尤其感兴趣，在 CI 系统中单元测试和集成测试所处的位置和的关系，单元测试是否是集成测试的必要条件。如果大家对详细内容感兴趣，可以看这里 &lt;a href="http://fsword.github.io/slide/ci_con/index.html"&gt;http://fsword.github.io/slide/ci_con/index.html&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h5&gt;中大型前端应用开发工具链&lt;/h5&gt;
+
+&lt;p&gt;这个主题的分享者武鑫最近半年多一直在做重前端应用，他介绍了他对于前端应用开发应该如何进行的思考和经验分享。在他看来，前端应用规模上去后，会有七方面的问题：JS 加载、命名空间污染、文件依赖关系、模块化、测试、Build、UX。武鑫介绍了解决这些问题可以使用的方法并给出了一个 demo，信息量很大，完全可以做成一个大主题演讲。有个观点很好，现在对于每个问题的解决方法都有很多种方案，我们是该选哪一种呢？这并不重要，重要的是你去解决了这个问题。&lt;/p&gt;
+
+&lt;script async class="speakerdeck-embed" data-id="c74b17309c6f0130246f226fb1014015" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+
+&lt;h5&gt;One More Thing&lt;/h5&gt;
+
+&lt;p&gt;这次活动我们是有录像的，还需要花时间剪辑，之后会把视频放出来，敬请期待！感谢这次活动各位讲师的精彩演讲，希望活动能持续的办下去！会后我们也进行了亲切的会晤，气氛异常的热烈。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="After Event" src="/images/ruby-event-5-11/after-event.jpg?1368509827" /&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Rails 初学者指南</title>
     <link rel="alternate" href="/2013/04/22/rails-for-beginners.html"/>
@@ -600,38 +668,6 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 &lt;p&gt;对于 Podcast 的内容，我们的想法是包括访谈型和聊天型，希望每期都能有 3 到 4 个人一起，内容只要是程序员感兴趣的话题，都可以聊。如果你有感兴趣的话题或者愿意做嘉宾，欢迎联系我们，:)&lt;/p&gt;
 
 &lt;p&gt;因为目前刚开始，我们希望能先多做几期，所以 iTunes 链接，网站都没有开始着手，会尽快跟上。另外，名字也在征集中，希望大家能多出主意!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>'Real Time Web' talk at RubyConf China 2012</title>
-    <link rel="alternate" href="/2012/12/24/real-time-web-talk-at-rubyconf-china-2012.html"/>
-    <id>/2012/12/24/real-time-web-talk-at-rubyconf-china-2012.html</id>
-    <published>2012-12-23T16:00:00Z</published>
-    <updated>2012-12-23T16:00:00Z</updated>
-    <author>
-      <name>Dingding Ye</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365745312" /&gt;&lt;/p&gt;
-
-&lt;p&gt;很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (&lt;a href="https://twitter.com/lgn21st"&gt;@lgn21st&lt;/a&gt;)和李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)。&lt;/p&gt;
-
-&lt;p&gt;参加了过往的三界大会，这次参加更有感触，总得感觉就一个词: &amp;ldquo;进步&amp;quot;。举办方在进步，演讲嘉宾在进步，参会者也在进步。Ruby 社区在我眼里是个非常可爱非常开放的社区，可惜这次因事没有跟大家聊尽兴，略有遗憾。&lt;/p&gt;
-
-&lt;p&gt;这次我的主题是实时 Web 的各种技术方案和选择策略，主要基于我这三年的工作经验。我这三年主要在做两个产品。第一个是 Present.ly, 一个企业微博工具。往企业里加入社交元素，实时性会减少沟通成本，增强员工之间的交流协作。这个项目我在 2009 年末开始做，选用了 &lt;a href="http://xmpp.org/extensions/xep-0124.html"&gt;BOSH&lt;/a&gt;，一种在 HTTP 协议上模拟双向连接的传输协议，基本属于 &lt;a href="http://en.wikipedia.org/wiki/Comet_(programming)"&gt;COMET&lt;/a&gt; 的变种，只是基于 &lt;a href="http://xmpp.org/"&gt;XMPP&lt;/a&gt; 赋予了它更多的额外价值。第二个是 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，我今年开始的创业项目。Pragmatic.ly 是一个轻量级的敏捷开发管理工具，实时性能让团队的所有成员随时保持在同一个节奏上，同时引导团队多交流。大家可以多试用多提意见，欢迎吐槽，:)。Pragmatic.ly 在实时技术上选用了 WebSocket，而非我之前一直使用的 BOSH。主要是在启动项目时有两方面考虑，第一是 XMPP 相对更重，前期开发时间和维护时间都会有所增加。第二是 WebSocket 标准已经正式发布，目前浏览器的支持也基本跟上。不过即使现在让我回过头重新来选，我还会继续选 WebSocket，欲知详情，请看视频，;p&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;&lt;img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365745312" /&gt;&lt;/p&gt;
-
-&lt;p&gt;很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (&lt;a href="https://twitter.com/lgn21st"&gt;@lgn21st&lt;/a&gt;)和李华顺 (&lt;a href="https://twitter.com/huacnlee"&gt;@huacnlee&lt;/a&gt;)。&lt;/p&gt;
-
-&lt;p&gt;参加了过往的三界大会，这次参加更有感触，总得感觉就一个词: &amp;ldquo;进步&amp;quot;。举办方在进步，演讲嘉宾在进步，参会者也在进步。Ruby 社区在我眼里是个非常可爱非常开放的社区，可惜这次因事没有跟大家聊尽兴，略有遗憾。&lt;/p&gt;
-
-&lt;p&gt;这次我的主题是实时 Web 的各种技术方案和选择策略，主要基于我这三年的工作经验。我这三年主要在做两个产品。第一个是 Present.ly, 一个企业微博工具。往企业里加入社交元素，实时性会减少沟通成本，增强员工之间的交流协作。这个项目我在 2009 年末开始做，选用了 &lt;a href="http://xmpp.org/extensions/xep-0124.html"&gt;BOSH&lt;/a&gt;，一种在 HTTP 协议上模拟双向连接的传输协议，基本属于 &lt;a href="http://en.wikipedia.org/wiki/Comet_(programming)"&gt;COMET&lt;/a&gt; 的变种，只是基于 &lt;a href="http://xmpp.org/"&gt;XMPP&lt;/a&gt; 赋予了它更多的额外价值。第二个是 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，我今年开始的创业项目。Pragmatic.ly 是一个轻量级的敏捷开发管理工具，实时性能让团队的所有成员随时保持在同一个节奏上，同时引导团队多交流。大家可以多试用多提意见，欢迎吐槽，:)。Pragmatic.ly 在实时技术上选用了 WebSocket，而非我之前一直使用的 BOSH。主要是在启动项目时有两方面考虑，第一是 XMPP 相对更重，前期开发时间和维护时间都会有所增加。第二是 WebSocket 标准已经正式发布，目前浏览器的支持也基本跟上。不过即使现在让我回过头重新来选，我还会继续选 WebSocket，欲知详情，请看视频，;p&lt;/p&gt;
-
-&lt;p&gt;关于这个主题的视频和 PPT，大家可以在 &lt;a href="http://railscast-china.com/episodes/rubyconf-2012-yedingding"&gt;railscasts-china.com/episodes/rubyconf-2012-yedingding&lt;/a&gt; 观看。我们在 &lt;a href="http://ruby-china.org/topics/6870"&gt;ruby-china.org/topics/6870/topics/6870&lt;/a&gt; 也有更深入的讨论，也感谢 qhwa (&lt;a href="https://twitter.com/qhwa"&gt;@qhwa&lt;/a&gt;) 指出我在 Flash Socket 上的认识误区，&lt;a href="http://ruby-china.org/topics/6891"&gt;对Flash Socket的补充&lt;/a&gt;。如果是用 Flash 方案的话，也可以自己定义通讯协议，自己写 server，基本就是写 Socket 程序那样子做。热烈欢迎大家多讨论，希望我这块砖抛出去能引来更多的玉，:)&lt;/p&gt;
-
-&lt;h3&gt;One More Thing&lt;/h3&gt;
-
-&lt;p&gt;我在我的主题演讲结束的时候说过，我会和 Terry (&lt;a href="https://twitter.com/poshboytl"&gt;@poshboytl&lt;/a&gt;) 重新录一下我之前在 RailsCasts China 做的 Live Show。一直在等 RubyConf China 视频放出来，现在终于可以正式开始了，:)。大致想法已经跟 Terry 沟通过了，我会基于 RubyConf China 这个主题做延伸，基于各种不同方案做实现，做成一个系列。大家对于这种方式如果有什么建议，欢迎留言。&lt;/p&gt;
 </content>
   </entry>
 </feed>
