@@ -92,9 +92,30 @@ ol li {
 }
 
 blockquote {
-  margin: 0;
-  padding: 0 0 0 20px;
-  font-style: italic;
+  margin: 0 2em 2em 2em;
+  p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: italic;
+  }
+  cite {
+    font-size: 13px;
+    font-style: italic;
+    color: #999;
+    img {
+      margin: 0;
+      vertical-align: middle;
+      border-radius: 50%;
+    }
+  }
+  &:before {
+    display: block;
+    height: 0;
+    content: "“";
+    margin-left: -.6em;
+    font: italic 3em/1 Georgia,"Times New Roman", serif;
+    color: #999;
+  }
 }
 
 dl, dt, dd {
