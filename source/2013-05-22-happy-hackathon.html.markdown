@@ -24,7 +24,7 @@ tags: hackathon, hacking
 </blockquote>
 
 
-相对惭愧的是，国内的黑客马拉松参加的少，只因为习惯了远程工作，对于这种限定场地的反而感觉到了不自在。上周跟高阳聊起黑客马拉松，获得了一些有意思的信息，也知道他们最近正在搞 [CodeJam](http://segmentfault.com/codejam-2013)。程序员大多都很宅，远程工作的就是死宅了... ❨╯°□°❩╯︵ ┻━┻ 提供和限定场地可以让参加的团队能互相交流，思想碰撞，有一种跟线上比赛完全不一样的感官享受。
+相对惭愧的是，国内的黑客马拉松参加的少，只因为习惯了远程工作，对于这种限定场地的反而感觉到了不自在。上周跟[高阳](http://segmentfault.com/u/sunny)聊起黑客马拉松，获得了一些有意思的信息，也知道他们最近正在搞 [CodeJam](http://segmentfault.com/codejam-2013)。程序员大多都很宅，远程工作的就是死宅了... ❨╯°□°❩╯︵ ┻━┻  提供和限定场地可以让参加的团队能互相交流，思想碰撞，有一种跟线上比赛完全不一样的感官享受。
 
 这里分享一下我们参加过几次 Rumble 的经验。
 
@@ -36,3 +36,5 @@ tags: hackathon, hacking
 比如我们在做 [Call4Review](http://call4review.com) 时，提前一两周确定一个最小化的需求分析，然后把所有要做的事情都记在 [Pragmatic.ly](https://pragmatic.ly) 上，比赛时在上面协作沟通，非必要时尽量不干扰团队其他成员，但是每个人又都很清楚进度情况，非常高效。
 
 6 月 1 号儿童节，杭州， [2013 CodeJam](http://segmentfault.com/codejam-2013)，有没有人愿意出来跟我们 [Pragmatic.ly](https://pragmatic.ly) 团队交流交流，:) 让我们以程序员的方式像孩子一样狂欢吧！
+
+PS: 据说适逢 [SegmentFault](http://segmentfault.com) 一周年, 不知道高阳会给我们什么惊喜，哈！
