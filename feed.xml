@@ -5,10 +5,67 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2013-05-14T00:00:00Z</updated>
+  <updated>2013-05-22T04:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>黑客马拉松 - 玩脱了就行！</title>
+    <link rel="alternate" href="/2013/05/22/happy-hackathon.html"/>
+    <id>/2013/05/22/happy-hackathon.html</id>
+    <published>2013-05-22T04:00:00Z</published>
+    <updated>2013-05-22T04:00:00Z</updated>
+    <author>
+      <name>Dingding Ye</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img alt="Rails Rumbling" src="/images/happy-hackathon/rumbling.jpg?1369226457" /&gt;&lt;/p&gt;
+
+&lt;p&gt;去年十月参加 &lt;a href="http://railsrumble.com"&gt;Rails Rumble 2012&lt;/a&gt;，做了一个 &lt;a href="http://call4review.com"&gt;call4review.com&lt;/a&gt;，虽然现在已经很少打理，但是偶尔用到几次也觉得挺有价值。这是第二次参加 Rails Rumble，2010 年和 &lt;a href="http://lvguoning.com"&gt;Daniel&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt;、&lt;a href="#"&gt;David Pots&lt;/a&gt; 做了个 IMGateway，2012 年和 &lt;a href="http://beenhero.com"&gt;Ben&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt; 做了这个 Call4Review，每每谈论起整个过程，个个眉飞目舞，意犹未尽的样子。其实就两个字，好玩！Just for fun，这不正是黑客精神的很好诠释嘛。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Daniel" height="36" src="https://secure.gravatar.com/avatar/b338e877fffff7a61d90a799c081c85b?size=72" width="36"&gt; &lt;a href="//lvguoning.com"&gt;Daniel&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;blockquote&gt;
+  &lt;p&gt;犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣&amp;hellip;&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Terry" height="36" src="https://secure.gravatar.com/avatar/85a64fb3375926c0be5c75eccf40e853?size=72" width="36"&gt; &lt;a href="//terrytai.com"&gt;Terry&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;img alt="Rails Rumbling" src="/images/happy-hackathon/rumbling.jpg?1369226457" /&gt;&lt;/p&gt;
+
+&lt;p&gt;去年十月参加 &lt;a href="http://railsrumble.com"&gt;Rails Rumble 2012&lt;/a&gt;，做了一个 &lt;a href="http://call4review.com"&gt;call4review.com&lt;/a&gt;，虽然现在已经很少打理，但是偶尔用到几次也觉得挺有价值。这是第二次参加 Rails Rumble，2010 年和 &lt;a href="http://lvguoning.com"&gt;Daniel&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt;、&lt;a href="#"&gt;David Pots&lt;/a&gt; 做了个 IMGateway，2012 年和 &lt;a href="http://beenhero.com"&gt;Ben&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt; 做了这个 Call4Review，每每谈论起整个过程，个个眉飞目舞，意犹未尽的样子。其实就两个字，好玩！Just for fun，这不正是黑客精神的很好诠释嘛。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Daniel" height="36" src="https://secure.gravatar.com/avatar/b338e877fffff7a61d90a799c081c85b?size=72" width="36"&gt; &lt;a href="//lvguoning.com"&gt;Daniel&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣&amp;hellip;&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Terry" height="36" src="https://secure.gravatar.com/avatar/85a64fb3375926c0be5c75eccf40e853?size=72" width="36"&gt; &lt;a href="//terrytai.com"&gt;Terry&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;是一场极限'运动&amp;lsquo;, 在严格的限定时间里产出自己最大的效能, 很刺激很过瘾.&lt;/p&gt;
+  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Ben" height="36" src="https://secure.gravatar.com/avatar/e7ac2850f5cfb29baaf97625c7bd590c?size=72" width="36"&gt; &lt;a href="//beenhero.com"&gt;Ben&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;相对惭愧的是，国内的黑客马拉松参加的少，只因为习惯了远程工作，对于这种限定场地的反而感觉到了不自在。上周跟高阳聊起黑客马拉松，获得了一些有意思的信息，也知道他们最近正在搞 &lt;a href="http://segmentfault.com/codejam-2013"&gt;CodeJam&lt;/a&gt;。程序员大多都很宅，远程工作的就是死宅了&amp;hellip; ❨╯°□°❩╯︵ ┻━┻ 提供和限定场地可以让参加的团队能互相交流，思想碰撞，有一种跟线上比赛完全不一样的感官享受。&lt;/p&gt;
+
+&lt;p&gt;这里分享一下我们参加过几次 Rumble 的经验。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;做最小化的东西，你只有 48 小时的开发时间，把功能砍到不能再砍。&lt;/li&gt;
+&lt;li&gt;充分的准备，不要在比赛的时候去做选择方案的事。规则不允许提前开发，但是你应该对开发中遇到的所有技术难点都提前有尝试。&lt;/li&gt;
+&lt;li&gt;一个好的协作工具。48 小时开发是非常高强度的，交流可以靠吼，进度控制管理必须靠工具，这样团队的每个人才能专注开发。&lt;/li&gt;
+&lt;li&gt;做什么不是关键，相信大家平时会有很多创意，随便选个，最主要是玩的尽兴，不是吗？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;比如我们在做 &lt;a href="http://call4review.com"&gt;Call4Review&lt;/a&gt; 时，提前一两周确定一个最小化的需求分析，然后把所有要做的事情都记在 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 上，比赛时在上面协作沟通，非必要时尽量不干扰团队其他成员，但是每个人又都很清楚进度情况，非常高效。&lt;/p&gt;
+
+&lt;p&gt;6 月 1 号儿童节，杭州， &lt;a href="http://segmentfault.com/codejam-2013"&gt;2013 CodeJam&lt;/a&gt;，有没有人愿意出来跟我们 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 团队交流交流，:) 让我们以程序员的方式像孩子一样狂欢吧！&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>记 5 月 11 号 Ruby 开发者沙龙</title>
     <link rel="alternate" href="/2013/05/14/ruby-event-5-11.html"/>
@@ -625,47 +682,6 @@ $ &lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;deploy&lt;/
 &lt;h3&gt;We&amp;#39;re good now&lt;/h3&gt;
 
 &lt;p&gt;基本上上面是我在一个 Rails 项目里重构 Controller 和 Model 时会使用的几种方法，希望对你有用。Terry Tai 上周在他的博客里分享了&lt;a href="http://terrytai.com/2013/02/15/refactor-session-for-re-education-in-thought-works.html"&gt;他在重构方面的一些想法&lt;/a&gt;，也很有价值，推荐阅读。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Missing Chinese Podcast About Tech</title>
-    <link rel="alternate" href="/2013/01/22/the-nil-podcast-with-terry-and-daniel.html"/>
-    <id>/2013/01/22/the-nil-podcast-with-terry-and-daniel.html</id>
-    <published>2013-01-22T07:39:00Z</published>
-    <updated>2013-01-22T07:39:00Z</updated>
-    <author>
-      <name>Dingding Ye</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img title="Terry, Daniel and Me" alt="Terry, Daniel and me" src="/images/the-nil-podcast-with-terry-and-daniel/nil-podcast.png?1365745413" /&gt;&lt;/p&gt;
-
-&lt;p&gt;一个月前在一次 Book Club 里 &lt;a title="Terry Tai's Blog" href="http://terrytai.com/"&gt;Terry&lt;/a&gt; 和 &lt;a href="http://www.knwang.com/"&gt;Kevin&lt;/a&gt; 聊起比较缺乏一个 Web 开发类的中文 Podcast，而 Terry 在做的 &lt;a title="RailsCasts China" href="http://railscasts-china.com"&gt;RailsCasts-China&lt;/a&gt; 做为视频类节目，略显不同。于是，便与 &lt;a title="Daniel Lv's weblog" href="http://lvguoning.com/"&gt;Daniel&lt;/a&gt; 沟通了一下，很快便达成共识要启动这个计划。&lt;/p&gt;
-
-&lt;p&gt;对于 Podcast，我个人并不是重度用户，以前在学英语的时候听过 &lt;a href="http://www.eslpod.com"&gt;English As A Second Language&lt;/a&gt;，现在也偶尔听一下 &lt;a href="http://mixergy.com"&gt;Mixergy&lt;/a&gt; 和 &lt;a href="http://5by5.tv"&gt;5by5&lt;/a&gt;，不过因为个人习惯喜欢在工作时候听音乐，所以 podcast 也只能在路上或者健身的时候偶尔听听。但是对于这种技术聊天的形式，反而是一点都不陌生。之前在 Intridea 的时候，我组织了公司内部每周五的 TeaHour，每周一次坚持了一年多，而目前和 Kevin, Terry 还有 Ben 基本每一两周都有 Book Club, 技术，创业，商业，生活，各种都聊，每次都很有收获。希望这个 Podcast 也能给听众带来同样的收获，对着起大家的时间。&lt;/p&gt;
-
-&lt;p&gt;目前第一期的 Podcast 已出, &lt;a href="http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a"&gt;下载地址&lt;/a&gt; 和 &lt;a href="http://ruby-china.org/topics/8229"&gt;讨论地址&lt;/a&gt;。这一期主要聊了下列内容：&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;&lt;img title="Terry, Daniel and Me" alt="Terry, Daniel and me" src="/images/the-nil-podcast-with-terry-and-daniel/nil-podcast.png?1365745413" /&gt;&lt;/p&gt;
-
-&lt;p&gt;一个月前在一次 Book Club 里 &lt;a title="Terry Tai's Blog" href="http://terrytai.com/"&gt;Terry&lt;/a&gt; 和 &lt;a href="http://www.knwang.com/"&gt;Kevin&lt;/a&gt; 聊起比较缺乏一个 Web 开发类的中文 Podcast，而 Terry 在做的 &lt;a title="RailsCasts China" href="http://railscasts-china.com"&gt;RailsCasts-China&lt;/a&gt; 做为视频类节目，略显不同。于是，便与 &lt;a title="Daniel Lv's weblog" href="http://lvguoning.com/"&gt;Daniel&lt;/a&gt; 沟通了一下，很快便达成共识要启动这个计划。&lt;/p&gt;
-
-&lt;p&gt;对于 Podcast，我个人并不是重度用户，以前在学英语的时候听过 &lt;a href="http://www.eslpod.com"&gt;English As A Second Language&lt;/a&gt;，现在也偶尔听一下 &lt;a href="http://mixergy.com"&gt;Mixergy&lt;/a&gt; 和 &lt;a href="http://5by5.tv"&gt;5by5&lt;/a&gt;，不过因为个人习惯喜欢在工作时候听音乐，所以 podcast 也只能在路上或者健身的时候偶尔听听。但是对于这种技术聊天的形式，反而是一点都不陌生。之前在 Intridea 的时候，我组织了公司内部每周五的 TeaHour，每周一次坚持了一年多，而目前和 Kevin, Terry 还有 Ben 基本每一两周都有 Book Club, 技术，创业，商业，生活，各种都聊，每次都很有收获。希望这个 Podcast 也能给听众带来同样的收获，对着起大家的时间。&lt;/p&gt;
-
-&lt;p&gt;目前第一期的 Podcast 已出, &lt;a href="http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a"&gt;下载地址&lt;/a&gt; 和 &lt;a href="http://ruby-china.org/topics/8229"&gt;讨论地址&lt;/a&gt;。这一期主要聊了下列内容：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Podcasts 推荐&lt;/li&gt;
-&lt;li&gt;关于 Railscasts-china, RubyChina 的一些讨论&lt;/li&gt;
-&lt;li&gt;对于 remote 工作和时间管理上的看法&lt;/li&gt;
-&lt;li&gt;关于 Javascript MVC 框架的讨论&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;audio controls name="media"&gt;
-  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a" type="audio/mpeg"&gt;
-&lt;/video&gt;&lt;/p&gt;
-
-&lt;p&gt;对于 Podcast 的内容，我们的想法是包括访谈型和聊天型，希望每期都能有 3 到 4 个人一起，内容只要是程序员感兴趣的话题，都可以聊。如果你有感兴趣的话题或者愿意做嘉宾，欢迎联系我们，:)&lt;/p&gt;
-
-&lt;p&gt;因为目前刚开始，我们希望能先多做几期，所以 iTunes 链接，网站都没有开始着手，会尽快跟上。另外，名字也在征集中，希望大家能多出主意!&lt;/p&gt;
 </content>
   </entry>
 </feed>
