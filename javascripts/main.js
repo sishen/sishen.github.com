@@ -1,0 +1,1 @@
+(function(){$(function(){return $("article").find("a").each(function(e,t){return $(t).attr("target","_blank")})})}).call(this);

@@ -18,37 +18,37 @@
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;前天在微博上发了一条消息介绍视频托管服务 &lt;a href="http://wistia.com"&gt;Wista&lt;/a&gt;，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img alt="Pragmatic.ly Tour Video" src="/images/video-for-startup/example.png?1372989968" /&gt;&lt;/p&gt;
+
+&lt;p&gt;前天在微博上发了一条消息介绍视频托管服务 &lt;a href="http://wistia.com"&gt;Wista&lt;/a&gt;，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。&lt;/p&gt;
 
 &lt;blockquote&gt;
-    &lt;p&gt;一般那些有产品视频的网站我个人印象分都会有提升，但是打开视频你让我先看 30 秒优酷广告我就有点受不了了，优酷有没有提供付费免广告的服务我不知道，不过 Wistia 是个很靠谱的视频服务，可以看这个例子，http://t.cn/zQvd8NG 国内问过各个地区的朋友都说速度没问题，清晰度也好 #创业工具箱#&lt;/p&gt;
+    &lt;p&gt;一般那些有产品视频的网站我个人印象分都会有提升，但是打开视频你让我先看 30 秒优酷广告我就有点受不了了，优酷有没有提供付费免广告的服务我不知道，不过 Wistia 是个很靠谱的视频服务，可以看这个例子，&lt;a href='http://t.cn/zQvd8NG' target='_blank'&gt;http://t.cn/zQvd8NG&lt;/a&gt; 国内问过各个地区的朋友都说速度没问题，清晰度也好 #创业工具箱#&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;曾经看到过数据，用户在看到一个网站后点进去的平均访问时间是 6 到 7 秒。也就是说你只有七秒的时间来让用户了解你的产品，然后吸引那批感兴趣的用户多停留一段时间。所以很多网站在传达清晰明确的产品信息给你的同时，会提供更多辅助的形象化表达方式。我们常说，一图胜千言，一屏胜万文。一个好的产品介绍视频能带来 &lt;strong&gt;64% 到 85%&lt;/strong&gt; 左右的转化率提升，会让你的网站的平均访问时间&lt;strong&gt;提高两分钟&lt;/strong&gt;。所以，创业者们，好好思考一下视频，严肃地。&lt;/p&gt;
+&lt;p&gt;曾经看到过数据，用户在看到一个网站后点进去的平均访问时间是 6 到 7 秒。也就是说你只有七秒的时间来让用户了解你的产品，然后吸引那批感兴趣的用户多停留一段时间。所以很多网站在传达清晰明确的产品信息给你的同时，会提供更多辅助的形象化表达方式。我们常说，一图胜千言，一屏胜万文。有统计一个好的产品介绍视频能带来 &lt;strong&gt;64% 到 85%&lt;/strong&gt; 左右的转化率提升，会让你的网站的平均访问时间&lt;strong&gt;提高两分钟&lt;/strong&gt;。所以，创业者们，好好思考一下视频，严肃地。&lt;/p&gt;
 
 &lt;p&gt;但是，制造一个产品视频会涉及到文案、录制、后期、音乐、托管等，而中间三个是技术创业团队很少具有的能力，我相信这也正是很多产品缺乏视频的一个主要原因。所幸的是，这是一个分工合作的年代，这些专业的事情就应该交给专业的人去做。如果这个不是业务的核心，我相信付出一点点的成本来寻求更好的回报是个更好的选择。这里列一下我了解的和朋友分享的几种托管方案和制作选择。&lt;/p&gt;
-
-&lt;h3&gt;视频托管&lt;/h3&gt;
-
-&lt;p&gt;当你有个视频后，你该选择放在哪里？下面是我经历过的或者朋友推荐的。Youtube 在我亲测下来其实是非常好的选择，无论各方面来讲，可惜被墙掉了，所以本文就忽略了。同理，还有 Vimeo。&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;前天在微博上发了一条消息介绍视频托管服务 &lt;a href="http://wistia.com"&gt;Wista&lt;/a&gt;，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img alt="Pragmatic.ly Tour Video" src="/images/video-for-startup/example.png?1372989968" /&gt;&lt;/p&gt;
+
+&lt;p&gt;前天在微博上发了一条消息介绍视频托管服务 &lt;a href="http://wistia.com"&gt;Wista&lt;/a&gt;，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。&lt;/p&gt;
 
 &lt;blockquote&gt;
-    &lt;p&gt;一般那些有产品视频的网站我个人印象分都会有提升，但是打开视频你让我先看 30 秒优酷广告我就有点受不了了，优酷有没有提供付费免广告的服务我不知道，不过 Wistia 是个很靠谱的视频服务，可以看这个例子，http://t.cn/zQvd8NG 国内问过各个地区的朋友都说速度没问题，清晰度也好 #创业工具箱#&lt;/p&gt;
+    &lt;p&gt;一般那些有产品视频的网站我个人印象分都会有提升，但是打开视频你让我先看 30 秒优酷广告我就有点受不了了，优酷有没有提供付费免广告的服务我不知道，不过 Wistia 是个很靠谱的视频服务，可以看这个例子，&lt;a href='http://t.cn/zQvd8NG' target='_blank'&gt;http://t.cn/zQvd8NG&lt;/a&gt; 国内问过各个地区的朋友都说速度没问题，清晰度也好 #创业工具箱#&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;曾经看到过数据，用户在看到一个网站后点进去的平均访问时间是 6 到 7 秒。也就是说你只有七秒的时间来让用户了解你的产品，然后吸引那批感兴趣的用户多停留一段时间。所以很多网站在传达清晰明确的产品信息给你的同时，会提供更多辅助的形象化表达方式。我们常说，一图胜千言，一屏胜万文。一个好的产品介绍视频能带来 &lt;strong&gt;64% 到 85%&lt;/strong&gt; 左右的转化率提升，会让你的网站的平均访问时间&lt;strong&gt;提高两分钟&lt;/strong&gt;。所以，创业者们，好好思考一下视频，严肃地。&lt;/p&gt;
+&lt;p&gt;曾经看到过数据，用户在看到一个网站后点进去的平均访问时间是 6 到 7 秒。也就是说你只有七秒的时间来让用户了解你的产品，然后吸引那批感兴趣的用户多停留一段时间。所以很多网站在传达清晰明确的产品信息给你的同时，会提供更多辅助的形象化表达方式。我们常说，一图胜千言，一屏胜万文。有统计一个好的产品介绍视频能带来 &lt;strong&gt;64% 到 85%&lt;/strong&gt; 左右的转化率提升，会让你的网站的平均访问时间&lt;strong&gt;提高两分钟&lt;/strong&gt;。所以，创业者们，好好思考一下视频，严肃地。&lt;/p&gt;
 
 &lt;p&gt;但是，制造一个产品视频会涉及到文案、录制、后期、音乐、托管等，而中间三个是技术创业团队很少具有的能力，我相信这也正是很多产品缺乏视频的一个主要原因。所幸的是，这是一个分工合作的年代，这些专业的事情就应该交给专业的人去做。如果这个不是业务的核心，我相信付出一点点的成本来寻求更好的回报是个更好的选择。这里列一下我了解的和朋友分享的几种托管方案和制作选择。&lt;/p&gt;
 
 &lt;h3&gt;视频托管&lt;/h3&gt;
 
-&lt;p&gt;当你有个视频后，你该选择放在哪里？下面是我经历过的或者朋友推荐的。Youtube 在我亲测下来其实是非常好的选择，无论各方面来讲，可惜被墙掉了，所以本文就忽略了。同理，还有 Vimeo。&lt;/p&gt;
+&lt;p&gt;先假设你有了视频后，你会选择放在哪里？下面是我经历过的或者朋友推荐的。Youtube 在我亲测下来其实是非常好的选择，无论各方面来讲，可惜被墙掉了，所以本文就忽略了。&lt;/p&gt;
 
 &lt;h4&gt;Wistia&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href="http://wistia.com"&gt;Wistia&lt;/a&gt; 是目前 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用的视频托管商，你可以&lt;a href="https://pragmatic.ly/tour"&gt;点击这里&lt;/a&gt;看看实际效果。作为一个还未被墙希望也不要被墙的服务，他满足了我的所有需求。国内访问数据快，根据带宽自动调整视频码率，基本看到的都是非常清晰的版本。另外一点值得一说的，Wistia 还有强大的视频分析能力，可以通过这个分析视频的转化率等。可以看看下图。集成方面，Wistia 支持 iframe, API 和 SEO 方式，非常简单。Wistia 额免费计划包括 3 个视频和 5G 流量，初期也够用了。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://wistia.com"&gt;Wistia&lt;/a&gt; 是目前 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用的视频托管商，你可以&lt;a href="https://pragmatic.ly/tour"&gt;点击这里&lt;/a&gt;看看实际效果。作为一个还未被墙希望也不要被墙的服务，他满足了我的所有需求。国内访问数据快，根据带宽自动调整视频码率，基本看到的都是非常清晰的版本。另外一点值得一说的，Wistia 还有强大的视频分析能力，可以通过这个分析视频的转化率等，可以看下图。集成方面，Wistia 支持 iframe, API 和 SEO 方式，非常简单。Wistia 额免费计划包括 3 个视频和 5G 流量，初期也够用了。&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Wistia Analytics" src="/images/video-for-startup/wistia-analytics.png?1372948131" /&gt;&lt;/p&gt;
 
@@ -58,7 +58,7 @@
 
 &lt;h4&gt;自己架服务器&lt;/h4&gt;
 
-&lt;p&gt;自己架媒体服务器，可以利用&lt;a href="http://upyun.com"&gt;又拍云&lt;/a&gt;或者&lt;a href="http://qiniu.com"&gt;七牛云存储&lt;/a&gt;来做静态视频文件存放，成本低，也算是一个靠谱的选择。只是在集成方面可能需要一些额外的工作，比如寻找一个好的 JS 视频播放器，或者把视频转成 FLV 播放。另外一点是很难提供多个版本不同码率的视频，根据用户的带宽做自行选择。&lt;/p&gt;
+&lt;p&gt;自己架媒体服务器，可以利用&lt;a href="http://upyun.com"&gt;又拍云&lt;/a&gt;或者&lt;a href="http://qiniu.com"&gt;七牛云存储&lt;/a&gt;来做静态视频文件存放，成本低，也算是一个靠谱的选择，目前 &lt;a href="http://railscasts-china.com"&gt;RailsCasts China&lt;/a&gt; 就是采用这样的方案。只是在集成方面可能需要一些额外的工作，比如寻找一个好的 JS 视频播放器，或者把视频转成 FLV 播放。另外一点是很难提供多个版本不同码率的视频，根据用户的带宽做自行选择。&lt;/p&gt;
 
 &lt;h4&gt;CC视频&lt;/h4&gt;
 
@@ -66,7 +66,7 @@
 
 &lt;h3&gt;视频制作&lt;/h3&gt;
 
-&lt;p&gt;但凡国外我喜欢用的服务，产品视频都很让我喜欢，比如 &lt;a href="https://hipchat.com"&gt;HipChat&lt;/a&gt;，&lt;a href="https://dropbox.com"&gt;Dropbox&lt;/a&gt;。我也一直想拍一个能更好跟用户互动的视频，而不仅仅是产品介绍，但是苦于没有设备，没有拍摄经验，没有制作经验。国外有一些专门为科技公司提供视频制作的服务公司，而国内这个是一块待开荒的处女地，我相信一定会有市场。这里是我了解的几个服务，供大家参考。&lt;/p&gt;
+&lt;p&gt;但凡国外我喜欢用的服务，产品视频都很让我喜欢，比如 &lt;a href="https://hipchat.com"&gt;HipChat&lt;/a&gt;，&lt;a href="https://dropbox.com"&gt;Dropbox&lt;/a&gt;。我也一直想拍一个能更好跟用户互动的视频，而不仅仅是产品介绍，但是苦于没有设备，没有拍摄经验，没有制作经验。国外有一些专门为科技公司提供视频制作的服务公司，而国内这个是一块待开垦的处女地，我相信一定会有市场。这里是我了解的几个服务，供大家参考。&lt;/p&gt;
 
 &lt;h4&gt;Video Sales Lab&lt;/h4&gt;
 
@@ -74,7 +74,7 @@
 
 &lt;h4&gt;GoAnimate&lt;/h4&gt;
 
-&lt;p&gt;同样来自于&lt;a href="http://weibo.com/tisiwi"&gt;@天使湾创投&lt;/a&gt;推荐，&lt;a href="http://goanimate.com"&gt;GoAnimate&lt;/a&gt; 是在线的视频制作工具，提供多种动画模板，可以让你方便的自己制作简单视频。GoAnimate 以免费为噱头，如果你真正在做产品介绍的话很可能是需要付月费的，在我看来限制也是挺多的。&lt;/p&gt;
+&lt;p&gt;同样来自于&lt;a href="http://weibo.com/tisiwi"&gt;@天使湾创投&lt;/a&gt;推荐，&lt;a href="http://goanimate.com"&gt;GoAnimate&lt;/a&gt; 是在线的视频制作工具，提供多种动画模板，可以让你方便的自己制作简单视频。GoAnimate 以免费为噱头，如果你真正在做产品介绍的话很可能是需要付月费的，所以也并不是什么廉价的方案。&lt;/p&gt;
 
 &lt;h4&gt;SandwichVideo &amp;amp; Vooza&lt;/h4&gt;
 
@@ -86,9 +86,9 @@
 
 &lt;h4&gt;自己制作&lt;/h4&gt;
 
-&lt;p&gt;如果因为各种原因觉得以上几种都不行，你也可以选择全部自己制作。我们的 &lt;a href="https://pragmatic.ly/tour"&gt;2 分钟产品介绍&lt;/a&gt; 就是这样子的，主要是用了 &lt;a href="http://www.telestream.net/screenflow/"&gt;Screenflower&lt;/a&gt;。&lt;a href="https://www.apple.com/finalcutpro/motion/"&gt;Motion&lt;/a&gt; 太复杂，买了没学会用，所以没什么特效&amp;hellip;.  音乐最后是找的 CC 版权的，实在没太多好选择。&lt;/p&gt;
+&lt;p&gt;如果因为各种原因觉得以上几种都不行，你也可以选择全部自己制作。我们的 &lt;a href="https://pragmatic.ly/tour"&gt;2 分钟产品介绍&lt;/a&gt; 就是这样子的，主要是用了 &lt;a href="http://www.telestream.net/screenflow/"&gt;Screenflower&lt;/a&gt; 录屏幕再加后期配音。基本没什么特效，因为 &lt;a href="https://www.apple.com/finalcutpro/motion/"&gt;Motion&lt;/a&gt; 太复杂，买了没学会用&amp;hellip;.  音乐最后是找的 CC 版权的，也实在没太多好选择。&lt;/p&gt;
 
-&lt;p&gt;希望未来在国内能看到越来越多的好的产品视频，也希望有更多元化的视频类服务出现。一图胜千言，一屏胜万文！&lt;/p&gt;
+&lt;p&gt;希望未来在国内能看到越来越多的好的产品视频，也希望有更多元化的视频类服务出现。祝大家的产品都成功，:)&lt;/p&gt;
 
 &lt;h3&gt;关于 Pragmatic.ly&lt;/h3&gt;
 
