@@ -1,1 +1,1 @@
-(function(){$(function(){return $("article > div").find("a").each(function(e,t){return $(t).attr("target","_blank")})})}).call(this);
+(function(){$(function(){return $("article .summary").find("a").each(function(e,t){return $(t).attr("target","_blank")})})}).call(this);

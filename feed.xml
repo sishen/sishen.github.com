@@ -5,10 +5,94 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2013-07-24T00:00:00Z</updated>
+  <updated>2013-08-08T10:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>让代码审查成为你的团队习惯</title>
+    <link rel="alternate" href="/2013/08/08/dig-into-code-review-process.html"/>
+    <id>/2013/08/08/dig-into-code-review-process.html</id>
+    <published>2013-08-08T10:00:00Z</published>
+    <updated>2013-08-08T10:00:00Z</updated>
+    <author>
+      <name>Dingding Ye</name>
+    </author>
+    <summary type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;「远程工作经验谈 - 如何适应及如何管理」&lt;/a&gt; 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5"&gt;Wikipedia&lt;/a&gt; 上，对代码审查的定义是&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;代码审查（英语：&lt;span class="n"&gt;Code&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查&lt;span class="p"&gt;[&lt;/span&gt;1&lt;span class="p"&gt;]&lt;/span&gt;。
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;可以看出，代码审查主要是为了软件质量和个人开发修养。巧合的是，但凡我接触过的靠谱的团队，无一不是在团队中推行严格的代码审查制度。这个就像是一种习惯，直接融入在团队血液之中。&lt;/p&gt;
+
+&lt;h3&gt;为什么我们要求代码审查&lt;/h3&gt;
+
+&lt;p&gt;人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。&lt;/p&gt;
+
+&lt;p&gt;在我们 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 的实践中，代码审查给我们带来的三点好处。&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;「远程工作经验谈 - 如何适应及如何管理」&lt;/a&gt; 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5"&gt;Wikipedia&lt;/a&gt; 上，对代码审查的定义是&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;代码审查（英语：&lt;span class="n"&gt;Code&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查&lt;span class="p"&gt;[&lt;/span&gt;1&lt;span class="p"&gt;]&lt;/span&gt;。
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;可以看出，代码审查主要是为了软件质量和个人开发修养。巧合的是，但凡我接触过的靠谱的团队，无一不是在团队中推行严格的代码审查制度。这个就像是一种习惯，直接融入在团队血液之中。&lt;/p&gt;
+
+&lt;h3&gt;为什么我们要求代码审查&lt;/h3&gt;
+
+&lt;p&gt;人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。&lt;/p&gt;
+
+&lt;p&gt;在我们 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 的实践中，代码审查给我们带来的三点好处。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;代码审查保证软件质量。我们团队没有专门的 QA 人员，测试一般由完成功能的程序员完成，思考不够周全，有时也达不到完全的测试覆盖率，我们在做代码审查时已经很多次发现过当事者没考虑过到的设计细节和一些实现上的 bug。它已成为我们团队找 bug 的一大手段，对于软件质量保证有很大贡献。在有些严格的团队如 Facebook，每一个修改如果没有被 3 个不同的成员审查通过，代码都不能做发布。&lt;/li&gt;
+&lt;li&gt;代码审查促进团队成长。通过代码审查，每个人可以学习到其他人好的的思维方式和编码方式，也会提出做的不好的地方和改进意见，是整个团队在代码级别的另一种沟通和思考。我发现过了一段时间后，团队的成长是喜人的。对于专门花时间去做培训，成本低多了，XD&lt;/li&gt;
+&lt;li&gt;代码审查避免单点故障。每一行代码，团队里至少有两个人以上是了解的。所以万一出了问题，即使代码编写者不在，我们仍然有其他人能立刻去修正。经理再也不担心出现虫子了。而且，视团队情况，最好尝试交叉审查，不要老是 A 审查 B，B 审查 A，换着审查效果更好。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;如果你的团队还没有做代码审查，我很建议去尝试几个迭代周期，然后做个过程回顾，看看是否适合于团队，我相信结果肯定不会让你们失望，:)&lt;/p&gt;
+
+&lt;h3&gt;代码审查应该是群体行为&lt;/h3&gt;
+
+&lt;p&gt;这个是我在很多团队看到的问题。有些团队虽然在做代码审查，但是主要还是为了保证软件质量，没有最好的发挥代码审查的威力。我听过过很多次“他们经验比较浅，可能无法对别人的代码做审查”。不，不是这样子的。代码审查应该是群体行为，与经验无关。俗话说，三个臭皮匠，顶个诸葛亮。即使是经验欠缺的团队，如果能群策群力，也能交付出顶级质量的软件。这里先不论代码审查对团队的成长，单单是每一次修改都让其他人审查的行为，就能提高初级程序员的信心、对产品的参与度和责任心。反之，有些人会一直呆在舒服区，反正有人帮忙做审查提意见。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do it and get surprised!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;我们团队如何做代码审查&lt;/h3&gt;
+
+&lt;p&gt;我在 &lt;a href="http://intridea.com"&gt;Intridea&lt;/a&gt; 和 &lt;a title="团队协作软件" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 做项目管理时都做代码审查，主要尝试过两种方式，最常用的是 Github 倡导的 Pull Request，还有就是结对编程。&lt;/p&gt;
+
+&lt;h4&gt;Pull Request&lt;/h4&gt;
+
+&lt;p&gt;这是我们最常用的方式，我们用 &lt;a title="敏捷项目管理工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 做项目管理，用 ButBucket 做代码版本控制系统。每个任务都会基于线上版本开一个新的分支，当任务完成后，提交推送到 BitBucket 的时候，会自动的关联这个提交到 Pragmatic.ly 中，也创建了一个 Pull Request。当有 Pull Request 出现时，我们的原则是谁有空谁审查，并不指派到人。整个审查过程，提意见，做修改，直到被通过，等待上线。具体例子可以见下图，&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Activity" src="http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png?1365132970" /&gt;&lt;/p&gt;
+
+&lt;p&gt;值得一提的是，我们在做代码审查的时候会关注下面一些问题。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;基本功能工作不，要实际跑起来看。&lt;/li&gt;
+&lt;li&gt;代码实现清晰易读吗&lt;/li&gt;
+&lt;li&gt;有没有没有考虑到的点，特别是对其他部分代码会否造成影响&lt;/li&gt;
+&lt;li&gt;是不是最好的实现，有没有重构的空间&lt;/li&gt;
+&lt;li&gt;测试代码同样需要审查&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;如果你对 Pull Request 方式感兴趣，推荐一个我非常喜欢的 Talk，来自 Zach Holman 的 &lt;a href="http://zachholman.com/talk/how-github-uses-github-to-build-github/"&gt;「How Github Uses Github To Build Github」&lt;/a&gt;。Zach Holman 也是我们今年 &lt;a href="http://rubyconfchina.org"&gt;RubyConf China&lt;/a&gt; 的邀请嘉宾，欢迎广大 Ruby 爱好者来京交流，XD&lt;/p&gt;
+
+&lt;h4&gt;结对编程&lt;/h4&gt;
+
+&lt;p&gt;因为我们是一直在远程工作，所以对于结对编程实践并不多。在有限的几次里，我们是用一个共享的 VPS + TMux 结对，也有时用 &lt;a href="http://gotomeeting.com"&gt;GoToMeeting&lt;/a&gt; 这样的在线会议系统做结对编程。结对编程等同于实时代码审查，有限的几次结对编程体验都不错，开发效率提升飕飕的，也是很好的互相学习的机会，但是太累了，同时因为远程的缘故受网络条件制约太多&amp;hellip;. Kevin 曾在 Teahour 里分享过他们在 &lt;a href="http://hashrocket.com"&gt;HashRocket&lt;/a&gt; 的结对编程经验分享，叹为观止，有兴趣的可以听听&lt;a href="http://teahour.fm/2013/02/03/learning-ruby-and-rails.html"&gt;这一期&lt;/a&gt;。如果你们团队在一起办公，推荐尝试一下结对编程，不过严格的每个任务都做结对编程不推荐。&lt;/p&gt;
+
+&lt;h3&gt;建议&lt;/h3&gt;
+
+&lt;p&gt;以上就是我们团队在代码审查上的经验和思考，希望对你有帮助。让代码审查融入团队的血液，成为你们的工作习惯，绝对会是你们在团队管理上做出的最正确的决定之一，去尝试吧！如果对于代码审查实践或者团队管理上面有任何想交流的，欢迎随时联系我，任何我列出的联系方式都可以。&lt;/p&gt;
+
+&lt;p&gt;最后，上篇博客最后一段很有用，收获了不少关注者，所以故伎重演，XD。如果你读到这里了，那么你应该在微博上&lt;a href="http://weibo.com/presently"&gt;加我为好友&lt;/a&gt;。我也会在 &lt;a href="http://weibo.com/pragmaticly"&gt;Pragmatic.ly 微博账号&lt;/a&gt;发布更多关于团队协作、团队管理方面的思考。谢谢！&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>远程工作经验谈 - 如何适应及如何管理</title>
     <link rel="alternate" href="/2013/07/24/remote-team-the-things-you-should-know.html"/>
@@ -387,48 +471,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;最后我要强调的是，学习编程最好的方法永远是 Code！Code！Code！。敲代码永远比只看书来的效果好，勤加练习才是王道。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>关爱程序员之 Herman Miller Embody 体验报告</title>
-    <link rel="alternate" href="/2013/04/16/care-yourself-first-programmers.html"/>
-    <id>/2013/04/16/care-yourself-first-programmers.html</id>
-    <published>2013-04-16T12:00:00Z</published>
-    <updated>2013-04-16T12:00:00Z</updated>
-    <author>
-      <name>Dingding Ye</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Herman Miller Emboy" src="/images/care-yourself-first-programmers/embody.png?1366131396" /&gt;&lt;/p&gt;
-
-&lt;p&gt;上周入了梦想已久的 &lt;a href="http://www.hermanmiller.cn/Product/Embody-Chairs"&gt;Herman Miller Embody&lt;/a&gt; 椅子，这几天也有不少朋友在问体验报告，想知道花这么多钱买一把椅子是否值得。在这我说说我的感受。&lt;/p&gt;
-
-&lt;p&gt;对于程序员而言，久坐是工作的一部分，我自己平均每天花在电脑前的时间是 8 到 10 小时，已经能感到腰部不适。我之前的椅子是一把人体工学椅，如果只是坐一两个小时还好，但是时间一久就感觉腰酸背疼。这一周用了 Embody 以后，基本四五个小时没有任何感觉，Embody 的设计是模拟人体脊椎，所以跟我的背部很贴服，可以说坐下去的感觉就是你意识不到你是坐在椅子上，不愧是顶级人体工学办公椅。另外一个让我觉得很舒服的是扶手，放上去很舒服，同时又可以横向左右调节，我把它调整到刚好可以自然的搭着打键盘，不需要任何发力，打字非常舒服，算是额外的一个收获。&lt;/p&gt;
-
-&lt;p&gt;除了腰部以外，颈部也是职业病之一。去年体检的时候，已经被告知颈部有点退行性变，建议适度运动。所以当发现 Herman Miller 的椅子都没有头枕的时候，让人觉得有点奇怪。据经销商介绍是为了约束坐姿，目前体验下来没有头枕也没发现问题，还是因为 Embody 极好的包裹性让后背非常放松。其实仔细想想你一般什么时候需要头枕，也就是在仰躺着休息的时候，需要靠头。不过话说回来，对于程序员而言，这种时候难道不应该屁股离开座位，站起来走会活动一下颈部吗？&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;&lt;img alt="Herman Miller Emboy" src="/images/care-yourself-first-programmers/embody.png?1366131396" /&gt;&lt;/p&gt;
-
-&lt;p&gt;上周入了梦想已久的 &lt;a href="http://www.hermanmiller.cn/Product/Embody-Chairs"&gt;Herman Miller Embody&lt;/a&gt; 椅子，这几天也有不少朋友在问体验报告，想知道花这么多钱买一把椅子是否值得。在这我说说我的感受。&lt;/p&gt;
-
-&lt;p&gt;对于程序员而言，久坐是工作的一部分，我自己平均每天花在电脑前的时间是 8 到 10 小时，已经能感到腰部不适。我之前的椅子是一把人体工学椅，如果只是坐一两个小时还好，但是时间一久就感觉腰酸背疼。这一周用了 Embody 以后，基本四五个小时没有任何感觉，Embody 的设计是模拟人体脊椎，所以跟我的背部很贴服，可以说坐下去的感觉就是你意识不到你是坐在椅子上，不愧是顶级人体工学办公椅。另外一个让我觉得很舒服的是扶手，放上去很舒服，同时又可以横向左右调节，我把它调整到刚好可以自然的搭着打键盘，不需要任何发力，打字非常舒服，算是额外的一个收获。&lt;/p&gt;
-
-&lt;p&gt;除了腰部以外，颈部也是职业病之一。去年体检的时候，已经被告知颈部有点退行性变，建议适度运动。所以当发现 Herman Miller 的椅子都没有头枕的时候，让人觉得有点奇怪。据经销商介绍是为了约束坐姿，目前体验下来没有头枕也没发现问题，还是因为 Embody 极好的包裹性让后背非常放松。其实仔细想想你一般什么时候需要头枕，也就是在仰躺着休息的时候，需要靠头。不过话说回来，对于程序员而言，这种时候难道不应该屁股离开座位，站起来走会活动一下颈部吗？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;如果你还在犹豫是否购买一把好椅子，我觉得可以思考一下你有多少时间是坐在椅子上。健康是无价的，很多人愿意花钱去买更好的车，但是我觉得椅子更值得投资，你花在椅子上的时间比车子要多多了，而且是一把至少可以坐上 15 年的椅子。如果想购买 Herman Miller，我建议大家走经销商渠道，价格比海淘或者淘宝都给力，因为目前零售主要是为了推广品牌，基本不赚钱，同时经销商渠道可以享受 12 年质保。这些信息是我购买的那家经销商告诉你，至于你信不信，反正我是信了，:)&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Herman Miller Aeron" src="/images/care-yourself-first-programmers/aeron.png?1366172052" /&gt;&lt;/p&gt;
-
-&lt;p&gt;除了 Embody 以外，Herman Miller 家的还可以考虑 &lt;a href="http://www.hermanmiller.cn/Product/Aeron-Chairs"&gt;Herman Miller Aeron&lt;/a&gt;。我这里介绍一下我个人对 Embody 和 Aeron 的感受，我也是体验了一下午最后做出决定要购买 Embody。Aeron 是 Embody 的上一代产品，一直牢牢占据着地球上最舒适安全座椅的称号，只到 Embody 的出现。Aeron 相比 Embody 而言更像传统的办公椅，它不像 Embody，无论怎么坐都感觉非常贴腰，而是你需要自己去调节到最适合你的位置。但是一旦你找到了那个位置，其实也是非常的舒适。Aeron 有两种不同的腰靠，经典型的是一字腰靠，新型的是 Y 字腰靠，我个人体验更加喜欢 Y 字腰靠。在 Aeron 和 Embody 之间，因为我个人更偏好自由的坐姿和被 Embody 的时尚外形打动，最后还是选择了 Embody。不过，有一点 Embody 比不上 Aeron 的是散热，Aeron 的网椅设计决定了它的散热性更好。&lt;/p&gt;
-
-&lt;p&gt;至于 Embody 官方介绍的“是首款有益身体健康的座椅。它非常先进，实际上会降低您的心率，并减轻压力。在您就座的同时，通过刺激血液和氧气流动，让您保持集中精力，并放松身体”，暂时还没有体会到&amp;hellip;.&lt;/p&gt;
-
-&lt;p&gt;除了 Herman Miller，也有不少好的选择，比如 lifehacker 就在去年列出了 5 把最好的办公椅，详见 &lt;a href="http://lifehacker.com/5941523/five-best-office-chairs"&gt;Five Best Office Chairs&lt;/a&gt;。另外 &lt;a href="http://www.okamura.jp/en_eu/products/seating/contessa/index.html"&gt;Contessa&lt;/a&gt; 我在有限的几次体验中都有非常好的印象，不过不太确定久坐效果如何。&lt;/p&gt;
-
-&lt;p&gt;我时常跟朋友开玩笑说“当我们拼不过智商的时候，我们就拼身体”。没有任何投资可以跟身体相比。关爱自己的身体，善待自己，才能更好的工作。所以我们在 Teahour.FM 第 5 期的时候，特地讨论了能给程序员带来帮助的设备和如何锻炼和保护自己的身体，有兴趣的朋友可以在&lt;a href="http://teahour.fm/2013/03/05/hardware-for-developers.html"&gt;这里&lt;/a&gt;收听。&lt;/p&gt;
-
-&lt;p&gt;我目前坐在 Embody 上开发的产品是一个适合小团队使用的项目管理工具和在线协作工具 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，希望它能帮忙我更好的改进这个产品，:)&lt;/p&gt;
 </content>
   </entry>
 </feed>
