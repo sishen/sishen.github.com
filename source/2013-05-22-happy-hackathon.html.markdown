@@ -2,6 +2,7 @@
 title: 黑客马拉松 - 玩脱了就行！
 date: 2013-05-22 12:00 +08:00
 tags: hackathon, hacking
+disqus_identifier: 'happy-hackathon'
 ---
 
 ![Rails Rumbling](happy-hackathon/rumbling.jpg)

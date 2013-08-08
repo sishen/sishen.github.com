@@ -2,6 +2,7 @@
 title: 创业工具箱之视频篇
 date: 2013-07-04 12:00 +08:00
 tags: startup, tools, video
+disqus_identifier: 'startup-videos'
 ---
 
 ![Pragmatic.ly Tour Video](video-for-startup/example.png)

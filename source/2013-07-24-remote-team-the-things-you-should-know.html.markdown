@@ -2,6 +2,7 @@
 title: 远程工作经验谈 - 如何适应及如何管理
 date: 2013-07-24 8:00 +08:00
 tags: 远程工作, 异地工作, 团队协作
+disqus_identifier: 'remote-work'
 ---
 
 ![Remote Work WorldMap](remote-team-the-things-you-should-know/remote-work-worldmap.jpg)
