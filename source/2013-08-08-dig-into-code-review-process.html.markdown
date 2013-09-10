@@ -41,9 +41,9 @@ READMORE
 
 #### Pull Request
 
-这是我们最常用的方式，我们用 [Pragmatic.ly](https://pragmatic.ly "敏捷项目管理工具") 做项目管理，用 ButBucket 做代码版本控制系统。每个任务都会基于线上版本开一个新的分支，当任务完成后，提交推送到 BitBucket 的时候，会自动的关联这个提交到 Pragmatic.ly 中，也创建了一个 Pull Request。当有 Pull Request 出现时，我们的原则是谁有空谁审查，并不指派到人。整个审查过程，提意见，做修改，直到被通过，等待上线。具体例子可以见下图，
+这是我们最常用的方式，我们用 [Pragmatic.ly](https://pragmatic.ly "敏捷项目管理工具") 做项目管理，用 [BitBucket](https://bitbucket.org) 做代码版本控制系统。每个任务都会基于线上版本开一个新的分支，当任务完成后，提交推送到 BitBucket 的时候，会自动的关联这个提交到 Pragmatic.ly 中，也创建了一个 Pull Request。当有 Pull Request 出现时，我们的原则是谁有空谁审查，并不指派到人。整个审查过程，提意见，做修改，直到被通过，等待上线。具体例子可以见下图，
 
-![Activity](http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png?1365132970)
+![Activity](http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png)
 
 值得一提的是，我们在做代码审查的时候会关注下面一些问题。
 
