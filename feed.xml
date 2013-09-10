@@ -30,7 +30,7 @@
     &lt;p&gt;&lt;cite&gt; - &lt;a href="http://weibo.com/u/2128792480" target="_blank"&gt;@施懿民&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
+&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html"&gt;「让代码审核成为你的团队习惯」&lt;/a&gt; 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。&lt;/p&gt;
 
@@ -44,7 +44,7 @@
     &lt;p&gt;&lt;cite&gt; - &lt;a href="http://weibo.com/u/2128792480" target="_blank"&gt;@施懿民&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
+&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
 
 &lt;p&gt;在选择代码级别的项目管理工作流程的时候，我们希望能达到这样的目标：&lt;/p&gt;
 
@@ -54,11 +54,11 @@
 &lt;li&gt;&lt;strong&gt;使用代码沟通&lt;/strong&gt;：代码，是程序员沟通的最直接的手段。我们希望每一次的更改提交都是独立的，专注并只专注一件事情。这样，我们就很容易地去了解这次更改背后要传达的信息了。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;所以，为了达到持续交付，我们必须永远有一个可发布的分支，同时，工作分支能很简单很早的 merge 过来。为了做到随时随地的代码审查，我们必须每一次更改都要有迹可循，且和其他更改没有交叉。为了方便代码沟通，我们必须有独立的分支来做独立的事。下面就是我们使用的代码级别的项目管理工作流程。&lt;/p&gt;
+&lt;p&gt;所以，为了达到持续交付，我们必须随时有一个可发布的分支，同时，工作分支能很简单很早的 merge 过来。为了做到随时随地的代码审查，我们必须每一次更改都要有迹可循，且和其他更改没有交叉。为了方便代码沟通，我们必须有独立的分支来做独立的事。所以，像开头列出的两种方式，首先代码审查会很麻烦，因为代码容易混在一起，不够独立，做不到异步随时审查，而需要大家一起花时间专门执行代码审查。同时，会推迟 merge 的发生，带来的更多的不确定性，比如冲突的增加，时间的拖长等等，就更不要说持续交付了。所有这些，都是效率的杀手，是应该尽量去避免的。下面看看我们的工作流程。&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Git Flow in Pragmatic.ly" src="/images/practical-git-flow-for-startups/git-flow.png?1378836070" /&gt;&lt;/p&gt;
 
-&lt;p&gt;所以我们有三种性质的分支：1) Master  2) Feature or Bug 3) Staging 。对了，我们用 Git，而不是 SVN，好处就不多讲了，主要是三点：1) 分布式 2) 建分支很容易 3) merge 很简单。如果你对这个不太了解，可以看看 &lt;a href="http://gitcafe.com"&gt;GitCafe&lt;/a&gt; 的 &lt;a href="https://gitcafe.com/beginning_git"&gt;开始 Git 文档&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我们有三种性质的分支：1) Master  2) Feature or Bug 3) Staging。所有在时间线上的变化都只跟着 feature 或者 bug 走，跟人无关，也就是项目推进的自然法则。对了，版本控制系统我们用 Git，而不是 SVN，好处就不多讲了，主要是三点：1) 分布式 2) 建分支很容易 3) merge 很简单。如果你对这个不太了解，可以看看 &lt;a href="http://gitcafe.com"&gt;GitCafe&lt;/a&gt; 的 &lt;a href="https://gitcafe.com/beginning_git"&gt;开始 Git 文档&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h4&gt;Master 分支&lt;/h4&gt;
 
@@ -70,15 +70,15 @@
 
 &lt;p&gt;&lt;img alt="features and bugs" src="/images/practical-git-flow-for-startups/features-bugs.png?1378836070" /&gt;&lt;/p&gt;
 
-&lt;p&gt;我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。&lt;/p&gt;
+&lt;p&gt;我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。之所以基于 master，正是因为上面提到过 master 永远是可以部署的分支，那么基于 master 开的分支就可以直接被 merge 回 master 做发布。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;yedingding&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;$ &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Pragmatic&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ly&lt;/span&gt; › &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; 754&lt;span class="n"&gt;_usage_analytics&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
 &lt;span class="n"&gt;Switch&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="n"&gt;named&lt;/span&gt; &amp;quot;754&lt;span class="n"&gt;_usage_analytics&lt;/span&gt;&amp;quot;
 &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;terry&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;$ &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Pragmatic&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ly&lt;/span&gt; › &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; 746&lt;span class="n"&gt;_integrate_mobile&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
 &lt;span class="n"&gt;Switch&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="n"&gt;named&lt;/span&gt; &amp;quot;746&lt;span class="n"&gt;_integrate_mobile&lt;/span&gt;&amp;quot;
 &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;roy&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;$ &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Pragmatic&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ly&lt;/span&gt; › &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; 77&lt;span class="n"&gt;_comment_via_email&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
-&lt;span class="n"&gt;Switch&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="n"&gt;named&lt;/span&gt; &amp;quot;746&lt;span class="n"&gt;_integrate_mobile&lt;/span&gt;&amp;quot;
+&lt;span class="n"&gt;Switch&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="n"&gt;named&lt;/span&gt; &amp;quot;77&lt;span class="n"&gt;_comment_via_email&lt;/span&gt;&amp;quot;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;从分支创建上来看，我们是按照 &amp;lt;sid&amp;gt;&amp;#95;&amp;lt;ticket title&amp;gt; 的方式来命名。sid 是这个任务在 Pragmatic.ly 的任务 ID，ticket title 是任务在 Pragmatic.ly 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 中，比如提交到 754&amp;#95;usage&amp;#95;analytics 的 commits 会自动关联到 Pragmatic.ly 这个任务的动态里，也可以在 commit 消息里加上 &amp;ldquo;ref #754&amp;rdquo;, &amp;ldquo;resolved #754&amp;rdquo; 这样的文本，也会自动做关联，如下图。&lt;/p&gt;
+&lt;p&gt;从分支创建例子上来看，我们是按照 &amp;lt;sid&amp;gt;&amp;#95;&amp;lt;ticket title&amp;gt; 的方式来命名。sid 是这个任务在 Pragmatic.ly 的任务 ID，ticket title 是任务在 Pragmatic.ly 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 中，比如提交到 754&amp;#95;usage&amp;#95;analytics 的 commits 会自动关联到 Pragmatic.ly 这个任务的动态里，也可以在 commit 消息里加上 &amp;ldquo;ref #754&amp;rdquo;, &amp;ldquo;resolved #754&amp;rdquo; 这样的文本，也会自动做关联，如下图。&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Activity" src="http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png" /&gt;&lt;/p&gt;
 
