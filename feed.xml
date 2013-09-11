@@ -56,7 +56,7 @@
 
 &lt;p&gt;所以，为了达到持续交付，我们必须随时有一个可发布的分支，同时，工作分支能很简单很早的 merge 过来。为了做到随时随地的代码审查，我们必须每一次更改都要有迹可循，且和其他更改没有交叉。为了方便代码沟通，我们必须有独立的分支来做独立的事。所以，像开头列出的两种方式，首先代码审查会很麻烦，因为代码容易混在一起，不够独立，做不到异步随时审查，而需要大家一起花时间专门执行代码审查。同时，会推迟 merge 的发生，带来的更多的不确定性，比如冲突的增加，时间的拖长等等，就更不要说持续交付了。所有这些，都是效率的杀手，是应该尽量去避免的。下面看看我们的工作流程。&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Git Flow in Pragmatic.ly" src="/images/practical-git-flow-for-startups/git-flow.png?1378836070" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Git Flow in Pragmatic.ly" src="http://yedingding.com/images/practical-git-flow-for-startups/git-flow.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;我们有三种性质的分支：1) Master  2) Feature or Bug 3) Staging。所有在时间线上的变化都只跟着 feature 或者 bug 走，跟人无关，也就是项目推进的自然法则。对了，版本控制系统我们用 Git，而不是 SVN，好处就不多讲了，主要是三点：1) 分布式 2) 建分支很容易 3) merge 很简单。如果你对这个不太了解，可以看看 &lt;a href="http://gitcafe.com"&gt;GitCafe&lt;/a&gt; 的 &lt;a href="https://gitcafe.com/beginning_git"&gt;开始 Git 文档&lt;/a&gt;。&lt;/p&gt;
 
@@ -68,7 +68,7 @@
 
 &lt;p&gt;我们开发时不区分功能特性和 Bug，所有都一致按任务处理。所以，为了方便持续交付和代码审查，我们会人为的细分任务，比如在 9 月份，我们有下面这些任务计划。&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="features and bugs" src="/images/practical-git-flow-for-startups/features-bugs.png?1378836070" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="features and bugs" src="http://yedingding.com/images/practical-git-flow-for-startups/features-bugs.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。之所以基于 master，正是因为上面提到过 master 永远是可以部署的分支，那么基于 master 开的分支就可以直接被 merge 回 master 做发布。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;yedingding&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;$ &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Pragmatic&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ly&lt;/span&gt; › &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; 754&lt;span class="n"&gt;_usage_analytics&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
