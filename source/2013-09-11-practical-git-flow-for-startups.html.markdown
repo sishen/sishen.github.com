@@ -1,7 +1,7 @@
 ---
 title: "实用 Git 工作流"
 date: "2013-09-11 2:00 +08:00"
-tags: 团队协作, git flow
+tags: 团队协作, git flow, 项目管理
 disqus_identifier: "practical-git-flow"
 ---
 
@@ -64,7 +64,7 @@ Staging 分支也是一个特殊的分支，是部署到我们的 staging 服务
 
 目前，我们没有专门的 CI 服务器做持续集成测试，因为在我们团队的理解力，CI 并不是意味着必须有专门的 CI server，而是每个开发人员在提交代码时必须保证通过了集成测试。所以我们的做法是发出每个 Pull Request 的时候，必须确保我们所有的测试仍然通过。
 
-#### Pull Request VS Merge Reuqest ####
+#### Pull Request VS Merge Request ####
 
 严格意义上来说，我们使用的是 Merge Request，而不是 Pull Request。Pull Request 要解决的问题是防止远程分支过多造成混乱，这样由每个开发人员建立自己的一个版本库，在自己的版本库建分支操作，然后往产品生产版本库发起一个 Pull 请求，同时，又要不断的跟远程的产品版本库同步保持一致，对于 10 个人以下的团队，个人感觉太重了。像[豆瓣](http://douban.com)这样的团队，为了利用好 Pull Request，专门开发了一整套工具链来自动做这些操作降低复杂度，小团队可能就没这个条件了。而对于开源项目来说，组织松散，Pull Request 是个非常好的方式。Merge Request 就是我前面一直提到的工作方式，一个远程代码库，多个分支来管理，简单直接。
 
