@@ -1,0 +1,64 @@
+@media (max-width: 960px) {
+  .main {
+    padding: 0 20px 20px;
+    .post {
+      padding: 0;
+      .title { margin: 22px auto 0; }
+      .content { 
+        padding: 0;
+        .aside {
+          margin: 0 20px 0 0;
+          img, &.stretch img { margin-right: 0; }
+          &.stretch:before { right: 8px; }
+        }
+      }
+      .aside-block {
+        float: none;
+        width: auto;
+        margin: 0;
+        text-align: left;
+      }
+      .meta { 
+        margin: 3px 0 20px; 
+        padding: 0;
+        li { display: inline-block; }
+      }
+      .aside-block blockquote, .aside blockquote { padding: 20px; }
+    }
+  }
+
+  .main .comments { margin:0; padding: 0; }
+  .main .post.profile .connect a { margin-right: 20px; }
+}
+
+@media print, screen and (max-width: 480px) {
+  .sidebar { 
+    position: relative;
+    width: auto;
+    .site-name { display: inline-block; }
+    .social-connect {
+      position: absolute;
+      top: 5px;
+      right: 20px;
+      margin: 0;
+    }
+    .social-connect li i { font-size: 12px; }
+    .global-nav { display: inline-block;}
+    .global-nav li {
+      display: inline-block;
+      margin-left: 1em;
+    }
+  }
+  .main { margin: 0; min-height: inherit; }
+  .main .post .content { 
+    padding: 0;
+    .aside {
+      width: auto;
+      margin: 0;
+      &:before { display: none; }
+    }
+  }
+  .copyright {
+    position: relative;
+  }
+}

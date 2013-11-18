@@ -1,0 +1,29 @@
+<header>
+  <h2 class="title">
+    <%= link_to article.title, article %>
+  </h2>
+</header>
+
+<aside class="aside-block">
+  <ul class="meta">
+    <li class="date">
+      <%= article.date.strftime("%b %d, %Y") %>
+    </li>
+    <li class="tags">
+      <% article.tags.each do |tag| %>
+        <%= link_to tag, tag_path(tag) %>
+      <% end %>
+    </li>
+  </ul>
+</aside>
+
+<div class="content">
+  <%= article.summary %>
+
+  <p>
+    ......
+  </p>
+  <p>
+    <%= link_to "Read more →", article %>
+  </p>
+</div>
