@@ -16,15 +16,20 @@ $headingsColor:         inherit !default; // empty to use BS default,
 
 /* Colors */
 $textColor:             #001d33;
-$linkColor:             #3172A5;
-$sidebarLinkColor: 		#d8ab36;
-$asideColor: #aaa591;
+$linkColor:             #1997c3;
+$sidebarLinkColor: 		#aae1f3;
+$sidebarLinkHoverColor: #da76bb;
+$asideColor: #8a8c8d;
+$siteNameColor: #fff;
+$postTitleColor: #5f747f;
 
-$sidebarBgColor: #203240;
-$mainBgColor: #f2eee1;
+$sidebarBgColor: #1997c3;
+$mainBgColor: #f2f4f4;
+
+$hairLineColor: #d4d7d8;
 
 /* Gutters */
-$sideWidth: 80px;
+$sideWidth: 100px;
 $copyMaxWidth: 600px;
 $asideWidth: 320px;
 $asideGap: 40px;

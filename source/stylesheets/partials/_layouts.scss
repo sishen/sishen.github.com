@@ -42,13 +42,13 @@ p {
     }
   }
   .site-name {
-    font-size: 2.4em;
-    line-height: 40px;
+    font-size: 1.8em;
+    line-height: 1.7;
     margin: 10px auto;
     a {
-      color: $mainBgColor;
+      color: $siteNameColor;
       &:hover {
-        color: $sidebarLinkColor;
+        color: lighten($siteNameColor, 20%);
       }
     }
   }
@@ -70,12 +70,11 @@ p {
     }
   }
   .block {
-    padding: 10px;
-    margin: -6px;
+    padding: 5px 12px 10px;
     font-size: 12px;
     line-height: 1.5;
     text-align: center;
-    color: rgba(255,255,255,.25);
+    color: rgba(255,255,255,.45);
     background-color: rgba(255,255,255,.1);
     .block-title {
       font-size: 12px;
@@ -92,17 +91,40 @@ p {
 .main {
   background-color: $mainBgColor;
   margin: 0 0 0 $sideWidth+40;
-  padding: $asideGap 0;
+  padding: $asideGap 0 0;
   height: 100%;
   min-height: 1000px;
   @include clearfix;
 }
 
+.pager {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: -2.8em;
+  max-width: $copyMaxWidth + $asideWidth;
+  li {
+    list-style: none;
+    a { 
+      display: inline-block;
+      padding: 2.8em 5%;
+      border-right: 1px solid $hairLineColor;
+      &:hover {
+        background-color: darken($mainBgColor, 5%);
+      }
+    }
+    &.next a {
+      float: right;
+      border-left: 1px solid $hairLineColor;
+    }
+  }
+}
+
 .copyright {
   position: fixed;
   bottom: 0;
-  font-size: 12px;
+  font-size: 11px;
   color: #495863;
-  color: rgba(255,255,255,.25);
+  color: rgba(255,255,255,.45);
   p { margin: 10px 20px; }
 }
