@@ -1,6 +1,6 @@
 ---
 title: Hello New World
-date: 2012-12-22
+date: 2012-12-22 16:00 +08:00
 tags: surviver, hello, pragmatic.ly
 ---
 

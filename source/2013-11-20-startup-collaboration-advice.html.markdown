@@ -85,6 +85,6 @@ disqus_identifier: "startup-collaboration-advice"
 <span class="footnotes">
 最后帮高大上朋友公司招人：
 
-* Strikingly 招前端工程师，要求看[这里](http://www.strikingly.com/apply?utm_source=yedingding)，坐标上海。了解团队请听 [Teahour 第 28 期](http://teahour.fm/2013/08/21/strikingly-yc-and-startup.html)
-* 课程格子招 Rails 工程师，直接联系 [joinus@creatingev.com](mailto:joinus@creatingev.com)，坐标北京。了解团队请听 [Teahour 第 34 期](http://teahour.fm/2013/10/14/interview-with-tstyle11-about-kechenggezi.html)。
+* Strikingly 招前端工程师，坐标上海，[要求看这](http://www.strikingly.com/apply?utm_source=yedingding)。了解团队请听[这期 Teahour](http://teahour.fm/2013/08/21/strikingly-yc-and-startup.html)。
+* 课程格子招 Rails 工程师，坐标北京，[点这联系](mailto:joinus@creatingev.com)。了解团队请听[这期 Teahour](http://teahour.fm/2013/10/14/interview-with-tstyle11-about-kechenggezi.html)。
 </span>
