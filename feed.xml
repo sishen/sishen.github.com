@@ -5,10 +5,118 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2013-10-11T03:00:00Z</updated>
+  <updated>2013-11-20T10:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>小团队如何高效协作</title>
+    <link rel="alternate" href="/2013/11/20/startup-collaboration-advice.html"/>
+    <id>/2013/11/20/startup-collaboration-advice.html</id>
+    <published>2013-11-20T10:00:00Z</published>
+    <updated>2013-11-20T10:00:00Z</updated>
+    <author>
+      <name>Dingding Ye</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 10 月刊的文章。内容跟其他几篇博客有重叠的地方，大家凑合着看。&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;毫无疑问，&lt;a href="https://www.stephencovey.com/‎"&gt;Stephen R. Covey&lt;/a&gt; 的&lt;a href="https://www.stephencovey.com/7habits/7habits.php"&gt;《The 7 Habits of Highly Effective People》&lt;/a&gt;和 &lt;a href="www.davidco.com/"&gt;David Allen&lt;/a&gt; 的 &lt;a href="https://secure.davidco.com/store/catalog/GETTING-THINGS-DONE-PAPERBACK-p-16175.php"&gt;《Getting Things Done: The Art of Stress-Free Productivity》&lt;/a&gt; 是个人管理类的超级畅销书，让我们学会如何才能成为高效能人士。然而，即使团队里的所有人都是高效能人士，这个团队也不一定是 个高效能团队。我们常说“一个和尚有水喝，两个和尚挑水喝，三个和尚没水喝”，正是出于这个道理。顾名思义，团队协作是指所有团队成员之间协同、合作，里 面会有分工、沟通、协调，甚至会有妥协，所以我们需要一些规则和工具来帮助团队提高协作效率。本文的一些心得和实践来自于我在小团队（&amp;lt;10）的经验，并且在团队内部相互信任、目标一致的基础上，所以不涉及办公室人事管理，适合于创业型开发团队。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Same Goal" src="/images/startup-collaboration-advice/collaboration-hands.jpg?1384953321" /&gt;&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 10 月刊的文章。内容跟其他几篇博客有重叠的地方，大家凑合着看。&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;毫无疑问，&lt;a href="https://www.stephencovey.com/‎"&gt;Stephen R. Covey&lt;/a&gt; 的&lt;a href="https://www.stephencovey.com/7habits/7habits.php"&gt;《The 7 Habits of Highly Effective People》&lt;/a&gt;和 &lt;a href="www.davidco.com/"&gt;David Allen&lt;/a&gt; 的 &lt;a href="https://secure.davidco.com/store/catalog/GETTING-THINGS-DONE-PAPERBACK-p-16175.php"&gt;《Getting Things Done: The Art of Stress-Free Productivity》&lt;/a&gt; 是个人管理类的超级畅销书，让我们学会如何才能成为高效能人士。然而，即使团队里的所有人都是高效能人士，这个团队也不一定是 个高效能团队。我们常说“一个和尚有水喝，两个和尚挑水喝，三个和尚没水喝”，正是出于这个道理。顾名思义，团队协作是指所有团队成员之间协同、合作，里 面会有分工、沟通、协调，甚至会有妥协，所以我们需要一些规则和工具来帮助团队提高协作效率。本文的一些心得和实践来自于我在小团队（&amp;lt;10）的经验，并且在团队内部相互信任、目标一致的基础上，所以不涉及办公室人事管理，适合于创业型开发团队。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Same Goal" src="/images/startup-collaboration-advice/collaboration-hands.jpg?1384953321" /&gt;
+  &amp;copy; &lt;a href="http://www.ideachampions.com/weblogs/archives/2011/03/35_awesome_quot.shtml"&gt;Ideachampions.com&lt;/a&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;目标一致&lt;/h3&gt;
+
+&lt;p&gt;不仅要确保团队的长期目标一致，还要确保短期目标一致。如同在足球场踢球，刚开始比赛时，大家战术和思想都是一致的。而一旦进球后，就会出现有人想守，有人 想攻的情况，这种不一致会造成局面被动并可能导致输球。创业团队也是如此。所以在任何时候，团队成员都要保持一致意见：现阶段的目标是什么，什么事情对团队最重要，然后所有做的事情都配合这个目标来完成。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Better Plan" src="/images/startup-collaboration-advice/better-plan.png?1384953321" /&gt;
+  &amp;copy; &lt;a href="http://tworiversblog.com/2013/09/19/a-better-plan-91913/"&gt;tworiversblog.com&lt;/a&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;合理安排&lt;/h3&gt;
+
+&lt;p&gt;小团队人少，永远有做不完的事，所以在做计划时总是害怕资源出现闲置而添加过多任务。我们一开始也是如此。但慢慢发现，这样不仅弄得团队身心俱疲，不停地赶进度，而且也会因为不停地延期导致团队很沮丧、压力过大影响工作的心情和状态。因此，现在每次迭代只会给大家80%~90%的工作量。有意思的是，很多时 候时间都是刚刚够。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Easier First" src="/images/startup-collaboration-advice/easier-first.jpg?1384953321" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;易者优先&lt;/h3&gt;
+
+&lt;p&gt;如果讨论时遇到意见分歧，且这些不一致的意见不涉及对错，那么会很容易陷入各自试图说服别人接受自己观点的困境，纯属浪费时间。所以我们采用易者优先原则，设置了单任务最长讨论时间。 一旦超过讨论时间又无法达成共识，就会选择最简单的方案，先做出来，然后大家测试，最后再做改进，毕竟创业最需要的是进度，是前进。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Do Not Disturb" src="/images/startup-collaboration-advice/do-not-disturb.jpg?1384953321" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;免扰模式&lt;/h3&gt;
+
+&lt;p&gt;确定项目计划后，我们就基本启动了免扰模式。我们不鼓励在工作时随意地打断别人，即使是一起在办公室工作时。在我们看来，每一次粗暴的打扰（例如电话、 IM）都是对效率的损害，我们更需要的是100%专注在要做的事情上。因此，我们要求每个人如果需要讨论，就先想清楚整个问题，然后在 Pragmatic.ly或者Hipchat里发出来。短时间来看可能回复会有延时，但从长期来看反而能让大家都能更深入的思考、更专注的工作。&lt;/p&gt;
+
+&lt;p&gt;尽量避免会议。只有一个例外是遇到困难需要头脑风暴时，因为开会比起文字是效率更高的选择。但只有任务涉及者才需要参与，而不需要浪费其他人的时间。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Sync the state" src="/images/startup-collaboration-advice/pragmaticly.png?1384953321" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;状态同步&lt;/h3&gt;
+
+&lt;p&gt;团队人越多，沟通成本越高，尤其是需要知道团队的当前状态时，例如目前进度如何，接下来有哪些事情要做，做完的时候需不需要其他成员帮忙审查，或者有没有卡 在某些地方需要帮助。这些状态和信息同步是非常耗时的，我们更倾向于用眼睛看代替嘴巴说，而 Pragmatic.ly就很好地满足了这点。项目里的所有信息和状态都会实时地同步给整个团队。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Code Review" src="/images/startup-collaboration-advice/codereview.jpg?1384953321" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;代码审查&lt;/h3&gt;
+
+&lt;p&gt;作为开发团队，我们不一定能保证每个任务都有充足的测试覆盖而且也不追求100%覆盖率。但每一段代码、每一次修改，都必须有其他人来审查，通过后才能进入 主干。代码审查中可以发现当事者没考虑过的设计细节和一些实现上的Bug，保证了软件质量。通过代码审查，每个人可以学习到其他人好的思维方式和编码方 式，也会提出做的不好的地方和改进意见，是整个团队在代码级别的另一种沟通和思考，促进了团队的成长。代码审查也能避免单点故障，万一出了问题，即使代码 编写者不在，仍然有其他人能立刻去修正。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Retrospective Meeting" src="/images/startup-collaboration-advice/retrospective-meeting.jpeg?1384952725" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;过程审查&lt;/h3&gt;
+
+&lt;p&gt;除代码需要审查外，过程也是一个很有审查必要的事情。所以我们会不定时地一起进行一次简单的回顾，各自对这个周期的一些工作提出意见，然后在下一个周期里有针对性地改进。整个工作过程就是这样不断地在迭代式调整和改进，让我们根据自身的情况，实践出最适合团队的方式。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Workout" src="/images/startup-collaboration-advice/workout.jpg?1384952725" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;健康工作&lt;/h3&gt;
+
+&lt;p&gt;要想工作好，身体先练好。一个健康的成员才可能高效地工作，每次运动过后，我都能感觉到身心得到放松，更加容易集中注意力，思维也更加的敏捷。所以我们团队每个人基本每天都会有至少一个小时的专门的运动时间，跑步、游泳，或者健身房，我们也会互相督促做比较，让运动成为一个团队习惯。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;span class="footnotes"&gt;
+最后帮高大上朋友公司招人：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Strikingly 招前端工程师，坐标上海，&lt;a href="http://www.strikingly.com/apply?utm_source=yedingding"&gt;要求看这&lt;/a&gt;。了解团队请听&lt;a href="http://teahour.fm/2013/08/21/strikingly-yc-and-startup.html"&gt;这期 Teahour&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;课程格子招 Rails 工程师，坐标北京，&lt;a href="mailto:joinus@creatingev.com"&gt;点这联系&lt;/a&gt;。了解团队请听&lt;a href="http://teahour.fm/2013/10/14/interview-with-tstyle11-about-kechenggezi.html"&gt;这期 Teahour&lt;/a&gt;。
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>如何吸引技术合伙人</title>
     <link rel="alternate" href="/2013/10/11/how-to-find-tech-cofounder.html"/>
@@ -18,7 +126,7 @@
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Show Me" src="/images/how-to-find-tech-cofounder/show-me.jpg?1381461492" /&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img alt="Show Me" src="/images/how-to-find-tech-cofounder/show-me.jpg?1384953321" /&gt;&lt;/p&gt;
 
 &lt;p&gt;昨天在 36kr 看到一篇文章很有意思，&lt;a href="http://www.36kr.com/p/206766.html"&gt;「为什么很多技术合伙人参与创业时会先谈钱」&lt;/a&gt;，其实简单说就是信任问题，要不对人缺乏信任，要不对要做的事情还缺乏信任。因为一个靠谱的技术人员，可能这种场景又见多了，一开始会出于保护先以怀疑的眼光看待整个事情。比如下面这两个桥段，很多技术朋友都觉得很熟悉。&lt;/p&gt;
 
@@ -38,7 +146,7 @@
 
 &lt;p&gt;假设真的启动一个创业项目，表示大家对产品方向的认可，意味着不出意外会在这个产品至少花一两年甚至更久。可是对于技术人员来说，在职业生涯中还有多少个可以折腾的一两年，还有多少次试错的机会。思考的成本是很低的，但是一旦项目开始启动，时间成本机会成本都是巨大的。所以，做为一个技术人员，对待那些拍脑袋想出的 idea，不会说我们做出来试试吧，然后花上个几个月半年的时间奉献自己。相反，会看看你到底有多少诚意，会故意&amp;quot;刁难&amp;quot;你，了解你是否愿意花钱去做这个产品，逼迫你去想得更清楚。&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;&lt;img alt="Show Me" src="/images/how-to-find-tech-cofounder/show-me.jpg?1381461492" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img alt="Show Me" src="/images/how-to-find-tech-cofounder/show-me.jpg?1384953321" /&gt;&lt;/p&gt;
 
 &lt;p&gt;昨天在 36kr 看到一篇文章很有意思，&lt;a href="http://www.36kr.com/p/206766.html"&gt;「为什么很多技术合伙人参与创业时会先谈钱」&lt;/a&gt;，其实简单说就是信任问题，要不对人缺乏信任，要不对要做的事情还缺乏信任。因为一个靠谱的技术人员，可能这种场景又见多了，一开始会出于保护先以怀疑的眼光看待整个事情。比如下面这两个桥段，很多技术朋友都觉得很熟悉。&lt;/p&gt;
 
@@ -152,13 +260,13 @@
 &lt;p&gt;&lt;img alt="features and bugs" src="http://yedingding.com/images/practical-git-flow-for-startups/features-bugs.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。之所以基于 master，正是因为上面提到过 master 永远是可以部署的分支，那么基于 master 开的分支就可以直接被 merge 回 master 做发布。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;yedingding&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;$ &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Pragmatic&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ly&lt;/span&gt; › &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; 754&lt;span class="n"&gt;_usage_analytics&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
-&lt;span class="n"&gt;Switch&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="n"&gt;named&lt;/span&gt; &amp;quot;754&lt;span class="n"&gt;_usage_analytics&lt;/span&gt;&amp;quot;
-&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;terry&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;$ &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Pragmatic&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ly&lt;/span&gt; › &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; 746&lt;span class="n"&gt;_integrate_mobile&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
-&lt;span class="n"&gt;Switch&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="n"&gt;named&lt;/span&gt; &amp;quot;746&lt;span class="n"&gt;_integrate_mobile&lt;/span&gt;&amp;quot;
-&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;roy&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;$ &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;Pragmatic&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ly&lt;/span&gt; › &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;checkout&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; 77&lt;span class="n"&gt;_comment_via_email&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;master&lt;/span&gt;
-&lt;span class="n"&gt;Switch&lt;/span&gt; &lt;span class="n"&gt;to&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;branch&lt;/span&gt; &lt;span class="n"&gt;named&lt;/span&gt; &amp;quot;77&lt;span class="n"&gt;_comment_via_email&lt;/span&gt;&amp;quot;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;pre class="highlight plaintext"&gt;(yedingding)$ ~/Pragmatic.ly › git checkout -b 754_usage_analytics -t master
+Switch to a new branch named &amp;quot;754_usage_analytics&amp;quot;
+(terry)$ ~/Pragmatic.ly › git checkout -b 746_integrate_mobile -t master
+Switch to a new branch named &amp;quot;746_integrate_mobile&amp;quot;
+(roy)$ ~/Pragmatic.ly › git checkout -b 77_comment_via_email -t master
+Switch to a new branch named &amp;quot;77_comment_via_email&amp;quot;
+&lt;/pre&gt;
 &lt;p&gt;从分支创建例子上来看，我们是按照 &amp;lt;sid&amp;gt;&amp;#95;&amp;lt;ticket title&amp;gt; 的方式来命名。sid 是这个任务在 Pragmatic.ly 的任务 ID，ticket title 是任务在 Pragmatic.ly 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 中，比如提交到 754&amp;#95;usage&amp;#95;analytics 的 commits 会自动关联到 Pragmatic.ly 这个任务的动态里，也可以在 commit 消息里加上 &amp;ldquo;ref #754&amp;rdquo;, &amp;ldquo;resolved #754&amp;rdquo; 这样的文本，也会自动做关联，如下图。&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Activity" src="http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png" /&gt;&lt;/p&gt;
@@ -194,8 +302,8 @@
     <summary type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;「远程工作经验谈 - 如何适应及如何管理」&lt;/a&gt; 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。&lt;/p&gt;
 
 &lt;p&gt;在 &lt;a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5"&gt;Wikipedia&lt;/a&gt; 上，对代码审查的定义是&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;代码审查（英语：&lt;span class="n"&gt;Code&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查&lt;span class="p"&gt;[&lt;/span&gt;1&lt;span class="p"&gt;]&lt;/span&gt;。
-&lt;/pre&gt;&lt;/div&gt;
+&lt;pre class="highlight plaintext"&gt;代码审查（英语：Code Review）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查[1]。
+&lt;/pre&gt;
 &lt;p&gt;可以看出，代码审查主要是为了软件质量和个人开发修养。巧合的是，但凡我接触过的靠谱的团队，无一不是在团队中推行严格的代码审查制度。这个就像是一种习惯，直接融入在团队血液之中。&lt;/p&gt;
 
 &lt;h3&gt;为什么我们要求代码审查&lt;/h3&gt;
@@ -207,8 +315,8 @@
     <content type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;「远程工作经验谈 - 如何适应及如何管理」&lt;/a&gt; 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。&lt;/p&gt;
 
 &lt;p&gt;在 &lt;a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5"&gt;Wikipedia&lt;/a&gt; 上，对代码审查的定义是&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;代码审查（英语：&lt;span class="n"&gt;Code&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查&lt;span class="p"&gt;[&lt;/span&gt;1&lt;span class="p"&gt;]&lt;/span&gt;。
-&lt;/pre&gt;&lt;/div&gt;
+&lt;pre class="highlight plaintext"&gt;代码审查（英语：Code Review）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查[1]。
+&lt;/pre&gt;
 &lt;p&gt;可以看出，代码审查主要是为了软件质量和个人开发修养。巧合的是，但凡我接触过的靠谱的团队，无一不是在团队中推行严格的代码审查制度。这个就像是一种习惯，直接融入在团队血液之中。&lt;/p&gt;
 
 &lt;h3&gt;为什么我们要求代码审查&lt;/h3&gt;
@@ -275,7 +383,7 @@
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1374651368" /&gt;
+    <summary type="html">&lt;p&gt;&lt;img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1384953321" /&gt;
 前记：本文源于我在知乎上回答的&lt;a href="http://www.zhihu.com/question/20011303/answer/17978689"&gt;「团队成员都在异地办公有哪些优劣？」&lt;/a&gt;。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。&lt;/p&gt;
 
 &lt;p&gt;算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。&lt;/p&gt;
@@ -288,7 +396,7 @@
 
 &lt;p&gt;远程工作远不是人们想像中的自由状态，想工作就工作，不想工作就不工作。所以并不是所有人都适合远程工作，只有自律且耐得住寂寞的人才适合远程工作。“自律”，说易行难，却很重要，你在一个完全没有监督的环境，有大把的时间供你挥霍，你能否迅速调整到最佳工作状态，是工作成败的一个很关键因素。如果说当你对所做的事情充满激情而能努力工作的话，那么当激情退却的时候，能否仍然保持自律是个更大的挑战。“耐得住寂寞”是另外一个要求，即使你在一个团队里，大多数时候没有人说话，没有人扯淡，也没有人讨论，甚至当你无法很好把握生活和工作的平衡时有时一天也出不了一次门说不了几句话，所以如果你很看重或热衷职场社交活动的话，那么远程工作并不适合你。然而，一旦你习惯了这种工作方式，你会发现你可以选择更自由的工作方式，有更多的时间可以用来学习，也有更多的时间可以陪伴家人，你会喜欢上这种感觉，:)&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;&lt;img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1374651368" /&gt;
+    <content type="html">&lt;p&gt;&lt;img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1384953321" /&gt;
 前记：本文源于我在知乎上回答的&lt;a href="http://www.zhihu.com/question/20011303/answer/17978689"&gt;「团队成员都在异地办公有哪些优劣？」&lt;/a&gt;。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。&lt;/p&gt;
 
 &lt;p&gt;算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。&lt;/p&gt;
@@ -309,7 +417,7 @@
 
 &lt;p&gt;当远程团队建立起来以后，大家为了一个共同的目标一起努力，是一件非常有意义的事。我们必须得承认，不管如何远程办公的沟通成本是远远大于面对面交流的，所以远程团队更需要好的效率工具来辅助，让团队即使远程也能很高效的工作。在我们团队，主要使用的有五个应用： &lt;a href="http://skype.com"&gt;Skype&lt;/a&gt;， &lt;a href="https://hipchat.com"&gt;Hipchat&lt;/a&gt;， &lt;a title="团队高效协作软件" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;， &lt;a href="https://dropbox.com"&gt;Dropbox&lt;/a&gt;， &lt;a href="https://www.google.com/intl/zh-CN/enterprise/apps/business/"&gt;Google Apps&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Collaboration Tools" src="/images/remote-team-the-things-you-should-know/collaboration-tools.jpg?1374651368" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Collaboration Tools" src="/images/remote-team-the-things-you-should-know/collaboration-tools.jpg?1384953321" /&gt;&lt;/p&gt;
 
 &lt;h4&gt;Skype&lt;/h4&gt;
 
@@ -367,7 +475,7 @@
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Pragmatic.ly Tour Video" src="/images/video-for-startup/example.png?1372989968" /&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img alt="Pragmatic.ly Tour Video" src="/images/video-for-startup/example.png?1384953321" /&gt;&lt;/p&gt;
 
 &lt;p&gt;前天在微博上发了一条消息介绍视频托管服务 &lt;a href="http://wistia.com"&gt;Wista&lt;/a&gt;，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。&lt;/p&gt;
 
@@ -379,7 +487,7 @@
 
 &lt;p&gt;但是，制造一个产品视频会涉及到文案、录制、后期、音乐、托管等，而中间三个是技术创业团队很少具有的能力，我相信这也正是很多产品缺乏视频的一个主要原因。所幸的是，这是一个分工合作的年代，这些专业的事情就应该交给专业的人去做。如果这个不是业务的核心，我相信付出一点点的成本来寻求更好的回报是个更好的选择。这里列一下我了解的和朋友分享的几种托管方案和制作选择。&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;&lt;img alt="Pragmatic.ly Tour Video" src="/images/video-for-startup/example.png?1372989968" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img alt="Pragmatic.ly Tour Video" src="/images/video-for-startup/example.png?1384953321" /&gt;&lt;/p&gt;
 
 &lt;p&gt;前天在微博上发了一条消息介绍视频托管服务 &lt;a href="http://wistia.com"&gt;Wista&lt;/a&gt;，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。&lt;/p&gt;
 
@@ -399,7 +507,7 @@
 
 &lt;p&gt;&lt;a href="http://wistia.com"&gt;Wistia&lt;/a&gt; 是目前 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用的视频托管商，你可以&lt;a href="https://pragmatic.ly/tour"&gt;点击这里&lt;/a&gt;看看实际效果。作为一个还未被墙希望也不要被墙的服务，他满足了我的所有需求。国内访问数据快，根据带宽自动调整视频码率，基本看到的都是非常清晰的版本。另外一点值得一说的，Wistia 还有强大的视频分析能力，可以通过这个分析视频的转化率等，可以看下图。集成方面，Wistia 支持 iframe, API 和 SEO 方式，非常简单。Wistia 额免费计划包括 3 个视频和 5G 流量，初期也够用了。&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Wistia Analytics" src="/images/video-for-startup/wistia-analytics.png?1372948131" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Wistia Analytics" src="/images/video-for-startup/wistia-analytics.png?1384953321" /&gt;&lt;/p&gt;
 
 &lt;h4&gt;优酷&lt;/h4&gt;
 
@@ -442,65 +550,6 @@
 &lt;h3&gt;关于 Pragmatic.ly&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 是一个新型的团队协作工具，致力于让中小团队更加专注、有序、高效地工作，从而创造更多的价值。如果你在寻找一款适合你们团队的协作工具或者项目管理工具，不妨一试，很期待能听到你的意见和建议，谢谢！&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>黑客马拉松 - 玩脱了就行！</title>
-    <link rel="alternate" href="/2013/05/22/happy-hackathon.html"/>
-    <id>/2013/05/22/happy-hackathon.html</id>
-    <published>2013-05-22T04:00:00Z</published>
-    <updated>2013-05-22T04:00:00Z</updated>
-    <author>
-      <name>Dingding Ye</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Rails Rumbling" src="/images/happy-hackathon/rumbling.jpg?1369226457" /&gt;&lt;/p&gt;
-
-&lt;p&gt;去年十月参加 &lt;a href="http://railsrumble.com"&gt;Rails Rumble 2012&lt;/a&gt;，做了一个 &lt;a href="http://call4review.com"&gt;call4review.com&lt;/a&gt;，虽然现在已经很少打理，但是偶尔用到几次也觉得挺有价值。这是第二次参加 Rails Rumble，2010 年和 &lt;a href="http://lvguoning.com"&gt;Daniel&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt;、&lt;a href="#"&gt;David Pots&lt;/a&gt; 做了个 IMGateway，2012 年和 &lt;a href="http://beenhero.com"&gt;Ben&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt; 做了这个 Call4Review，每每谈论起整个过程，个个眉飞目舞，意犹未尽的样子。其实就两个字，好玩！Just for fun，这不正是黑客精神的很好诠释嘛。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。&lt;/p&gt;
-  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Daniel" height="36" src="https://secure.gravatar.com/avatar/b338e877fffff7a61d90a799c081c85b?size=72" width="36"&gt; &lt;a href="//lvguoning.com"&gt;Daniel&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;blockquote&gt;
-  &lt;p&gt;犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣&amp;hellip;&lt;/p&gt;
-  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Terry" height="36" src="https://secure.gravatar.com/avatar/85a64fb3375926c0be5c75eccf40e853?size=72" width="36"&gt; &lt;a href="//terrytai.com"&gt;Terry&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;&lt;img alt="Rails Rumbling" src="/images/happy-hackathon/rumbling.jpg?1369226457" /&gt;&lt;/p&gt;
-
-&lt;p&gt;去年十月参加 &lt;a href="http://railsrumble.com"&gt;Rails Rumble 2012&lt;/a&gt;，做了一个 &lt;a href="http://call4review.com"&gt;call4review.com&lt;/a&gt;，虽然现在已经很少打理，但是偶尔用到几次也觉得挺有价值。这是第二次参加 Rails Rumble，2010 年和 &lt;a href="http://lvguoning.com"&gt;Daniel&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt;、&lt;a href="#"&gt;David Pots&lt;/a&gt; 做了个 IMGateway，2012 年和 &lt;a href="http://beenhero.com"&gt;Ben&lt;/a&gt;、&lt;a href="http://terrytai.com"&gt;Terry&lt;/a&gt; 做了这个 Call4Review，每每谈论起整个过程，个个眉飞目舞，意犹未尽的样子。其实就两个字，好玩！Just for fun，这不正是黑客精神的很好诠释嘛。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。&lt;/p&gt;
-  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Daniel" height="36" src="https://secure.gravatar.com/avatar/b338e877fffff7a61d90a799c081c85b?size=72" width="36"&gt; &lt;a href="//lvguoning.com"&gt;Daniel&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣&amp;hellip;&lt;/p&gt;
-  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Terry" height="36" src="https://secure.gravatar.com/avatar/85a64fb3375926c0be5c75eccf40e853?size=72" width="36"&gt; &lt;a href="//terrytai.com"&gt;Terry&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;是一场极限'运动&amp;lsquo;, 在严格的限定时间里产出自己最大的效能, 很刺激很过瘾.&lt;/p&gt;
-  &lt;p&gt;&lt;cite&gt;— &lt;img alt="Ben" height="36" src="https://secure.gravatar.com/avatar/e7ac2850f5cfb29baaf97625c7bd590c?size=72" width="36"&gt; &lt;a href="//beenhero.com"&gt;Ben&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;相对惭愧的是，国内的黑客马拉松参加的少，只因为习惯了远程工作，对于这种限定场地的反而感觉到了不自在。上周跟&lt;a href="http://segmentfault.com/u/sunny"&gt;高阳&lt;/a&gt;聊起黑客马拉松，获得了一些有意思的信息，也知道他们最近正在搞 &lt;a href="http://segmentfault.com/codejam-2013"&gt;CodeJam&lt;/a&gt;。程序员大多都很宅，远程工作的就是死宅了&amp;hellip; ❨╯°□°❩╯︵ ┻━┻  提供和限定场地可以让参加的团队能互相交流，思想碰撞，有一种跟线上比赛完全不一样的感官享受。&lt;/p&gt;
-
-&lt;p&gt;这里分享一下我们参加过几次 Rumble 的经验。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;做最小化的东西，你只有 48 小时的开发时间，把功能砍到不能再砍。&lt;/li&gt;
-&lt;li&gt;充分的准备，不要在比赛的时候去做选择方案的事。规则不允许提前开发，但是你应该对开发中遇到的所有技术难点都提前有尝试。&lt;/li&gt;
-&lt;li&gt;一个好的协作工具。48 小时开发是非常高强度的，交流可以靠吼，进度控制管理必须靠工具，这样团队的每个人才能专注开发。&lt;/li&gt;
-&lt;li&gt;做什么不是关键，相信大家平时会有很多创意，随便选个，最主要是玩的尽兴，不是吗？&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;比如我们在做 &lt;a href="http://call4review.com"&gt;Call4Review&lt;/a&gt; 时，提前一两周确定一个最小化的需求分析，然后把所有要做的事情都记在 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 上，比赛时在上面协作沟通，非必要时尽量不干扰团队其他成员，但是每个人又都很清楚进度情况，非常高效。&lt;/p&gt;
-
-&lt;p&gt;6 月 1 号儿童节，杭州， &lt;a href="http://segmentfault.com/codejam-2013"&gt;2013 CodeJam&lt;/a&gt;，有没有人愿意出来跟我们 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 团队交流交流，:) 让我们以程序员的方式像孩子一样狂欢吧！&lt;/p&gt;
-
-&lt;p&gt;PS: 据说适逢 &lt;a href="http://segmentfault.com"&gt;SegmentFault&lt;/a&gt; 一周年, 不知道高阳会给我们什么惊喜，哈！&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -1,71 +1,115 @@
-<!doctype html>
-<html>
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="zh"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh"><![endif]-->
+<!--[if gt IE 8]<!-->
+<html class="no-js" lang="zh">
+  <!--<![endif]-->
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta charset="UTF-8">
+
     <title>
-      
-        重构 Rails 项目之最佳实践 | The Voice of Dingding Ye
-      
+        重构 Rails 项目之最佳实践
+ - The Voice of Dingding
     </title>
 
-    <link rel="stylesheet" href="/stylesheets/all.css">
-    <script src="/javascripts/all.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="叶玎玎在创业、团队协作和项目管理上的思考和分享">
+    <meta name="keywords" content="  ["Rails", "Refactor"]
+">
+    <meta name="author" content="Dingding Ye">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="Ben He's Homepage" href="/feed.xml" />
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-   <link rel="alternate" type="application/atom+xml" title="The Voice of Dingding Ye Feed" href="/feed.xml" />
+
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <script src="/javascripts/all.js"></script>
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header"><a href="/">The Voice of Dingding Ye</a></h1>
-        <p class="header"></p>
+  <body class="2013 2013_03 2013_03_04 2013_03_04_steps-to-refactor-controller-and-models-in-rails-projects">
+    <aside class="sidebar">
+      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
+      <nav class="global-nav">
         <ul>
-          <li><a class="buttons pragmaticly" href="https://pragmatic.ly/about">Pragmatic.ly</a></li>
+          <li><a href="/">Posts</a></li>
+          <li><a href="/profile.html">Profile</a></li>
         </ul>
-      </header>
+      </nav>
 
-      <aside class="sidebar">
-        <p>
-          <a href="mailto:yedingding@gmail.com">
-            <img title="yedingding@gmail.com" src="/images/email.png">
-          </a>
-          <a href="https://github.com/sishen">
-            <img title="https://github.com/sishen" src="/images/github.png">
-          </a>
-          <a href="http://cn.linkedin.com/in/yedingding/">
-            <img title="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png">
-          </a>
-          <a href="https://twitter.com/yedingding">
-            <img title="https://twitter.com/yedingding" src="/images/twitter.png">
-          </a>
-          <a href="https://facebook.com/yedingding">
-            <img title="https://facebook.com/yedingding" src="/images/facebook.png">
-          </a>
-          <a href="https://weibo.com/presently">
-            <img title="https://weibo.com/presently" src="/images/weibo.png">
-          </a>
-          <a href="https://plus.google.com/102475612847000088909">
-            <img title="https://plus.google.com/102475612847000088909" src="/images/google-plus.png">
-          </a>
-        </p>
-      </aside>
+      <nav class="social-connect">
+        <ul>
+          <li><a href="//github.com/sishen"><i class="icon-github"></i></a></li>
+          <li><a href="//weibo.com/presently"><i class="icon-weibo"></i></a></li>
+          <li><a href="//twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
+          <li><a href="//facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
+        </ul>
+      </nav>
 
-        <article>
-    <h3>
-      重构 Rails 项目之最佳实践
-      <span class="pull-right">Mar  4<span>
-    </h3>
-    <ul class="tag-list">
+      <!-- Ad -->
+      <div class="block ad">
+        <h4 class="block-title"><a href="//pragmatic.ly/">Pragmatic.ly</a></h4>
+        <p class="block-cnt">团队协作工具</p>
+      </div>
+
+    </aside>
+
+    <section class="main">
+      <div class="container">
+        
+  <div class="annoucement">
+	  <p>
       
-        <li>Rails</li>
+        <img class="avatar" src="/images/yedingding.png" alt="Yedingding" />
+如果你在远程工作、团队协作、项目管理和创业方面需要意见，欢迎找我约个时间，免费咨询！Skype: sishen.freecity | QQ: 61819318
+
       
-        <li>Refactor</li>
+    </p>
+  </div>
+
+  <article class="post single">
+
+    <header>
+  <h2 class="title">
+    <a href="/2013/03/04/steps-to-refactor-controller-and-models-in-rails-projects.html">重构 Rails 项目之最佳实践</a>
+  </h2>
+</header>
+
+<aside class="aside-block">
+  <ul class="meta">
+    <li class="date">
+      Mar 04, 2013
+    </li>
+    <li class="tags">
       
-    </ul>
-    <div class="summary"><p>春节前受 <a title="Terry Tai's Blog" href="http://terrytai.com">Terry</a> 邀请帮助国内的一个公益项目 <a title="开放课堂, 设计和实践综合实践课的平台" href="https://newclass.org">Re-education</a> 做代码重构。开放课堂项目是由<a title="教育大发现" href="http://sociallearnlab.org/">教育大发现社区</a>发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 <a href="https://github.com/twers/re-education">GitHub</a>，采用 Ruby on Rails 作为开发框架。</p>
+        <a href="/tags/rails.html">Rails</a>
+      
+        <a href="/tags/refactor.html">Refactor</a>
+      
+    </li>
+  </ul>
+</aside>
+
+<div class="content">
+  <p>春节前受 <a title="Terry Tai's Blog" href="http://terrytai.com">Terry</a> 邀请帮助国内的一个公益项目 <a title="开放课堂, 设计和实践综合实践课的平台" href="https://newclass.org">Re-education</a> 做代码重构。开放课堂项目是由<a title="教育大发现" href="http://sociallearnlab.org/">教育大发现社区</a>发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 <a href="https://github.com/twers/re-education">GitHub</a>，采用 Ruby on Rails 作为开发框架。</p>
 
 <p>很高兴我们 <a href="https://pragmatic.ly">Pragmatic.ly</a> 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 <a title="Free Screen Sharing and Online Meetings" href="https://join.me">Join.me</a> 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而<strong>对外不改变</strong>原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 <a title="#036 Refactor openclass by Dingding Ye" href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding">RailsCasts China</a> 观看视频。</p>
 
@@ -76,35 +120,35 @@
 <h3>Skinny Controller, Fat Model</h3>
 
 <p>让我们来看最实际的例子，来自 Re-education 的代码。</p>
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+<pre class="highlight ruby"><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
   <span class="k">def</span> <span class="nf">create</span>
-    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="o">.</span><span class="n">new</span> <span class="n">params</span><span class="o">[</span><span class="ss">:publisher</span><span class="o">]</span>
+    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="p">.</span><span class="nf">new</span> <span class="n">params</span><span class="o">[</span><span class="ss">:publisher</span><span class="o">]</span>
 
     <span class="c1"># trigger validation</span>
-    <span class="vi">@publisher</span><span class="o">.</span><span class="n">valid?</span>
+    <span class="vi">@publisher</span><span class="p">.</span><span class="nf">valid?</span>
 
     <span class="k">unless</span> <span class="n">simple_captcha_valid?</span> <span class="k">then</span>
-      <span class="vi">@publisher</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">add</span> <span class="ss">:validation_code</span><span class="p">,</span> <span class="s2">&quot;验证码有误&quot;</span>
+      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:validation_code</span><span class="p">,</span> <span class="s2">&quot;验证码有误&quot;</span>
     <span class="k">end</span>
 
-    <span class="k">if</span> <span class="o">!</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:password_copy</span><span class="o">].</span><span class="n">eql?</span> <span class="vi">@publisher</span><span class="o">.</span><span class="n">password</span><span class="p">)</span> <span class="k">then</span>
-      <span class="vi">@publisher</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">add</span> <span class="ss">:password</span><span class="p">,</span> <span class="s2">&quot;两次密码输入不一致&quot;</span>
+    <span class="k">if</span> <span class="o">!</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:password_copy</span><span class="o">]</span><span class="p">.</span><span class="nf">eql?</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span><span class="p">)</span> <span class="k">then</span>
+      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:password</span><span class="p">,</span> <span class="s2">&quot;两次密码输入不一致&quot;</span>
     <span class="k">end</span>
 
-    <span class="k">if</span> <span class="vi">@publisher</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">empty?</span> <span class="k">then</span>
+    <span class="k">if</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">empty?</span> <span class="k">then</span>
 
-      <span class="vi">@publisher</span><span class="o">.</span><span class="n">password</span> <span class="o">=</span> <span class="ss">Digest</span><span class="p">:</span><span class="ss">:MD5</span><span class="o">.</span><span class="n">hexdigest</span> <span class="vi">@publisher</span><span class="o">.</span><span class="n">password</span>
-      <span class="vi">@publisher</span><span class="o">.</span><span class="n">save!</span>
+      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span> <span class="o">=</span> <span class="no">Digest</span><span class="o">::</span><span class="no">MD5</span><span class="p">.</span><span class="nf">hexdigest</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span>
+      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">save!</span>
 
-      <span class="n">session</span><span class="o">[</span><span class="ss">:user_id</span><span class="o">]</span> <span class="o">=</span> <span class="vi">@publisher</span><span class="o">.</span><span class="n">id</span>
+      <span class="n">session</span><span class="o">[</span><span class="ss">:user_id</span><span class="o">]</span> <span class="o">=</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">id</span>
       <span class="n">redirect_to</span> <span class="n">publisher_path</span><span class="p">(</span><span class="vi">@publisher</span><span class="p">)</span>
     <span class="k">else</span>
-      <span class="nb">p</span> <span class="vi">@publisher</span><span class="o">.</span><span class="n">errors</span>
+      <span class="nb">p</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span>
       <span class="n">render</span> <span class="s2">&quot;new&quot;</span><span class="p">,</span> <span class="ss">:layout</span> <span class="o">=&gt;</span> <span class="kp">true</span>
     <span class="k">end</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</pre></div>
+</pre>
 <p>按照 &quot;Skinny Controller, Fat Model&rdquo; 的标准，这段代码有这么几个问题:</p>
 
 <ol>
@@ -113,12 +157,12 @@
 </ol>
 
 <p>从权责而言，Controller 负责的是接收 HTTP Request，并返回 HTTP Response。而具体如何处理和返回什么数据，则应该交由其他模块比如 Model/View 去完成，Controller 只需要当好控制器即可。所以，从这点上讲，如果一个 action 行数超过 10 行，那绝对已经构成了重构点。如果一个 action 对一个 model 变量引用了超过 3 次，也应该构成了重构点。下面是我重构后的代码。</p>
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+<pre class="highlight ruby"><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
   <span class="k">def</span> <span class="nf">create</span>
-    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="o">.</span><span class="n">new</span> <span class="n">params</span><span class="o">[</span><span class="ss">:publisher</span><span class="o">]</span>
+    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="p">.</span><span class="nf">new</span> <span class="n">params</span><span class="o">[</span><span class="ss">:publisher</span><span class="o">]</span>
 
-    <span class="k">if</span> <span class="vi">@publisher</span><span class="o">.</span><span class="n">save_with_captcha</span>
-      <span class="nb">self</span><span class="o">.</span><span class="n">current_user</span> <span class="o">=</span> <span class="vi">@publisher</span>
+    <span class="k">if</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">save_with_captcha</span>
+      <span class="nb">self</span><span class="p">.</span><span class="nf">current_user</span> <span class="o">=</span> <span class="vi">@publisher</span>
       <span class="n">redirect_to</span> <span class="n">publisher_path</span><span class="p">(</span><span class="vi">@publisher</span><span class="p">)</span>
     <span class="k">else</span>
       <span class="n">render</span> <span class="s2">&quot;new&quot;</span>
@@ -126,7 +170,7 @@
   <span class="k">end</span>
 <span class="k">end</span>
 
-<span class="k">class</span> <span class="nc">Publisher</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Publisher</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">apply_simple_captcha</span> <span class="ss">:message</span> <span class="o">=&gt;</span> <span class="s2">&quot;验证码有误&quot;</span>
 
   <span class="n">validates</span> <span class="ss">:password</span><span class="p">,</span>
@@ -142,16 +186,16 @@
 
   <span class="k">def</span> <span class="nf">password</span><span class="o">=</span><span class="p">(</span><span class="n">pass</span><span class="p">)</span>
     <span class="vi">@password</span> <span class="o">=</span> <span class="n">pass</span>
-    <span class="nb">self</span><span class="o">.</span><span class="n">password_digest</span> <span class="o">=</span> <span class="n">encrypt_password</span><span class="p">(</span><span class="n">pass</span><span class="p">)</span> <span class="k">unless</span> <span class="n">pass</span><span class="o">.</span><span class="n">blank?</span>
+    <span class="nb">self</span><span class="p">.</span><span class="nf">password_digest</span> <span class="o">=</span> <span class="n">encrypt_password</span><span class="p">(</span><span class="n">pass</span><span class="p">)</span> <span class="k">unless</span> <span class="n">pass</span><span class="p">.</span><span class="nf">blank?</span>
   <span class="k">end</span>
 
   <span class="kp">private</span>
 
   <span class="k">def</span> <span class="nf">encrypt_password</span><span class="p">(</span><span class="n">pass</span><span class="p">)</span>
-    <span class="ss">Digest</span><span class="p">:</span><span class="ss">:MD5</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">(</span><span class="n">pass</span><span class="p">)</span>
+    <span class="no">Digest</span><span class="o">::</span><span class="no">MD5</span><span class="p">.</span><span class="nf">hexdigest</span><span class="p">(</span><span class="n">pass</span><span class="p">)</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</pre></div>
+</pre>
 <p>在上面的重构中，我主要遵循了两个方法。</p>
 
 <ol>
@@ -174,27 +218,27 @@
 <h4><a href="http://en.wikipedia.org/wiki/Concern_(computer_science">Concern</a></h4>
 
 <p>Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 <a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns">Put chubby models on a diet with concerns</a> 和 Rails 4 的相关 <a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81">commit</a>。具体使用可以参照上面的博客和下面我们在 <a title="Lean Collaborative Project Management Tool" href="https://pragmatic.ly">Pragmatic.ly</a> 里的实际例子。</p>
-<div class="highlight"><pre><span class="k">module</span> <span class="nn">Membershipable</span>
-  <span class="kp">extend</span> <span class="ss">ActiveSupport</span><span class="p">:</span><span class="ss">:Concern</span>
+<pre class="highlight ruby"><span class="k">module</span> <span class="nn">Membershipable</span>
+  <span class="kp">extend</span> <span class="no">ActiveSupport</span><span class="o">::</span><span class="no">Concern</span>
 
   <span class="n">included</span> <span class="k">do</span>
-    <span class="n">has_many</span> <span class="ss">:memberships</span><span class="p">,</span> <span class="ss">as</span><span class="p">:</span> <span class="ss">:membershipable</span><span class="p">,</span> <span class="ss">dependent</span><span class="p">:</span> <span class="ss">:destroy</span>
-    <span class="n">has_many</span> <span class="ss">:users</span><span class="p">,</span> <span class="ss">through</span><span class="p">:</span> <span class="ss">:memberships</span>
+    <span class="n">has_many</span> <span class="ss">:memberships</span><span class="p">,</span> <span class="ss">as: :membershipable</span><span class="p">,</span> <span class="ss">dependent: :destroy</span>
+    <span class="n">has_many</span> <span class="ss">:users</span><span class="p">,</span> <span class="ss">through: :memberships</span>
     <span class="n">after_create</span> <span class="ss">:create_owner_membership</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">add_user</span><span class="p">(</span><span class="n">user</span><span class="p">,</span> <span class="n">admin</span> <span class="o">=</span> <span class="kp">false</span><span class="p">)</span>
-    <span class="no">Membership</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="ss">membershipable</span><span class="p">:</span> <span class="nb">self</span><span class="p">,</span> <span class="ss">user</span><span class="p">:</span> <span class="n">user</span><span class="p">,</span> <span class="ss">admin</span><span class="p">:</span> <span class="n">admin</span><span class="p">)</span>
+    <span class="no">Membership</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span><span class="ss">membershipable: </span><span class="nb">self</span><span class="p">,</span> <span class="ss">user: </span><span class="n">user</span><span class="p">,</span> <span class="ss">admin: </span><span class="n">admin</span><span class="p">)</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">remove_user</span><span class="p">(</span><span class="n">user</span><span class="p">)</span>
-    <span class="n">memberships</span><span class="o">.</span><span class="n">find_by_user_id</span><span class="p">(</span><span class="n">user</span><span class="o">.</span><span class="n">id</span><span class="p">)</span><span class="o">.</span><span class="n">try</span><span class="p">(</span><span class="ss">:destroy</span><span class="p">)</span>
+    <span class="n">memberships</span><span class="p">.</span><span class="nf">find_by_user_id</span><span class="p">(</span><span class="n">user</span><span class="p">.</span><span class="nf">id</span><span class="p">).</span><span class="nf">try</span><span class="p">(</span><span class="ss">:destroy</span><span class="p">)</span>
   <span class="k">end</span>
 
   <span class="kp">private</span>
 
   <span class="k">def</span> <span class="nf">create_owner_membership</span>
-    <span class="nb">self</span><span class="o">.</span><span class="n">add_user</span><span class="p">(</span><span class="n">owner</span><span class="p">,</span> <span class="kp">true</span><span class="p">)</span>
+    <span class="nb">self</span><span class="p">.</span><span class="nf">add_user</span><span class="p">(</span><span class="n">owner</span><span class="p">,</span> <span class="kp">true</span><span class="p">)</span>
     <span class="n">after_create_owner_membership</span>
   <span class="k">end</span>
 
@@ -202,14 +246,14 @@
   <span class="k">end</span>
 <span class="k">end</span>
 
-<span class="k">class</span> <span class="nc">Project</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Project</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="kp">include</span> <span class="no">Membershipable</span>
 <span class="k">end</span>
 
-<span class="k">class</span> <span class="nc">Account</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Account</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="kp">include</span> <span class="no">Membershipable</span>
 <span class="k">end</span>
-</pre></div>
+</pre>
 <p>通过上面的例子，可以看到 Project 和 Account 都可以拥有很多个用户，所以 Membershipable 是公共逻辑，可以抽象成 Concern 并在需要的类里面 include，达到了 DRY 的目的。</p>
 
 <h4><a href="http://en.wikipedia.org/wiki/Delegation_pattern">Delegation Pattern</a></h4>
@@ -217,93 +261,93 @@
 <p>Delegation Pattern 是另外一种重构 Models 的利器。所谓委托模式，也就是我们把一些本跟 Model 数据结构浅耦合的东西抽象成一个对象，然后把相关方法委托给这个对象，同样看看具体例子。</p>
 
 <p>未重构前:</p>
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<pre class="highlight ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">has_one</span> <span class="ss">:user_profile</span>
 
   <span class="k">def</span> <span class="nf">birthday</span>
-    <span class="n">user_profile</span><span class="o">.</span><span class="n">try</span><span class="p">(</span><span class="ss">:birthday</span><span class="p">)</span>
+    <span class="n">user_profile</span><span class="p">.</span><span class="nf">try</span><span class="p">(</span><span class="ss">:birthday</span><span class="p">)</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">timezone</span>
-    <span class="n">user_profile</span><span class="o">.</span><span class="n">try</span><span class="p">(</span><span class="ss">:timezone</span><span class="p">)</span> <span class="o">||</span> <span class="mi">0</span>
+    <span class="n">user_profile</span><span class="p">.</span><span class="nf">try</span><span class="p">(</span><span class="ss">:timezone</span><span class="p">)</span> <span class="o">||</span> <span class="mi">0</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">hometown</span>
-    <span class="n">user_profile</span><span class="o">.</span><span class="n">try</span><span class="p">(</span><span class="ss">:hometown</span><span class="p">)</span>
+    <span class="n">user_profile</span><span class="p">.</span><span class="nf">try</span><span class="p">(</span><span class="ss">:hometown</span><span class="p">)</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</pre></div>
+</pre>
 <p>当我们需要调用的 user_profile 属性越来越多的时候，会发现方法会不断增加。这个时候，通过 delegate, 我们可以把代码变得更加的简单。</p>
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<pre class="highlight ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">has_one</span> <span class="ss">:user_profile</span>
 
-  <span class="n">delegate</span> <span class="ss">:birthday</span><span class="p">,</span> <span class="ss">:tomezone</span><span class="p">,</span> <span class="ss">:hometown</span><span class="p">,</span> <span class="ss">to</span><span class="p">:</span> <span class="ss">:profile</span>
+  <span class="n">delegate</span> <span class="ss">:birthday</span><span class="p">,</span> <span class="ss">:tomezone</span><span class="p">,</span> <span class="ss">:hometown</span><span class="p">,</span> <span class="ss">to: :profile</span>
 
   <span class="k">def</span> <span class="nf">profile</span>
-    <span class="nb">self</span><span class="o">.</span><span class="n">user_profile</span> <span class="o">||</span>
-      <span class="no">UserProfile</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">birthday</span><span class="p">:</span> <span class="kp">nil</span><span class="p">,</span> <span class="ss">timezone</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="ss">hometown</span><span class="p">:</span> <span class="kp">nil</span><span class="p">)</span>
+    <span class="nb">self</span><span class="p">.</span><span class="nf">user_profile</span> <span class="o">||</span>
+      <span class="no">UserProfile</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="ss">birthday: </span><span class="kp">nil</span><span class="p">,</span> <span class="ss">timezone: </span><span class="mi">0</span><span class="p">,</span> <span class="ss">hometown: </span><span class="kp">nil</span><span class="p">)</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</pre></div>
+</pre>
 <p>关于更多的如何在 Rails 里使用 delegate 的方法，参考官方文档 <a href="http://apidock.com/rails/Module/delegate">delegate module</a></p>
 
 <h4>Acts As XXX</h4>
 
 <p>相信大家对 acts-as-list，acts-as-tree 这些插件都不陌生，acts-as-xxx 系列其实跟 Concern 差不多，只是它有时不单单是一个 Module，而是一个拥有更多丰富功能的插件。这个方式在重构 Models 时也是非常的有用。还是举个例子。</p>
-<div class="highlight"><pre><span class="k">module</span> <span class="nn">ActiveRecord</span>
+<pre class="highlight ruby"><span class="k">module</span> <span class="nn">ActiveRecord</span>
   <span class="k">module</span> <span class="nn">Acts</span> <span class="c1">#:nodoc:</span>
     <span class="k">module</span> <span class="nn">Cache</span> <span class="c1">#:nodoc:</span>
       <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">included</span><span class="p">(</span><span class="n">base</span><span class="p">)</span>
-        <span class="n">base</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="no">ClassMethods</span><span class="p">)</span>
+        <span class="n">base</span><span class="p">.</span><span class="nf">extend</span><span class="p">(</span><span class="no">ClassMethods</span><span class="p">)</span>
       <span class="k">end</span>
 
       <span class="k">module</span> <span class="nn">ClassMethods</span>
         <span class="k">def</span> <span class="nf">acts_as_cache</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="p">{</span> <span class="p">})</span>
-          <span class="n">klass</span> <span class="o">=</span> <span class="n">options</span><span class="o">[</span><span class="ss">:class_name</span><span class="o">]</span> <span class="o">||</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="nb">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">Cache&quot;</span><span class="o">.</span><span class="n">constantize</span>
+          <span class="n">klass</span> <span class="o">=</span> <span class="n">options</span><span class="o">[</span><span class="ss">:class_name</span><span class="o">]</span> <span class="o">||</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2">Cache&quot;</span><span class="p">.</span><span class="nf">constantize</span>
           <span class="n">options</span><span class="o">[</span><span class="ss">:delegate</span><span class="o">]</span> <span class="o">||=</span> <span class="o">[]</span>
 
-          <span class="nb">class_eval</span> <span class="o">&lt;&lt;-</span><span class="no">EOV</span>
-<span class="sh">            def acts_as_cache_class</span>
-<span class="sh">              ::#{klass}</span>
-<span class="sh">            end</span>
+          <span class="nb">class_eval</span> <span class="o">&lt;&lt;-</span><span class="no">EOV</span><span class="sh">
+            def acts_as_cache_class
+              ::</span><span class="si">#{</span><span class="n">klass</span><span class="si">}</span><span class="sh">
+            end
 
-<span class="sh">            after_commit :create_cache, :if =&gt; :persisted?</span>
-<span class="sh">            after_commit :destroy_cache, on: :destroy</span>
+            after_commit :create_cache, :if =&gt; :persisted?
+            after_commit :destroy_cache, on: :destroy
 
-<span class="sh">            if #{options[:delegate]}.any?</span>
-<span class="sh">              delegate *#{options[:delegate]}, to: :cache</span>
-<span class="sh">            end</span>
+            if </span><span class="si">#{</span><span class="n">options</span><span class="o">[</span><span class="ss">:delegate</span><span class="o">]</span><span class="si">}</span><span class="sh">.any?
+              delegate *</span><span class="si">#{</span><span class="n">options</span><span class="o">[</span><span class="ss">:delegate</span><span class="o">]</span><span class="si">}</span><span class="sh">, to: :cache
+            end
 
-<span class="sh">            include ::ActiveRecord::Acts::Cache::InstanceMethods</span>
-<span class="no">          EOV</span>
+            include ::ActiveRecord::Acts::Cache::InstanceMethods
+</span><span class="no">          EOV</span>
         <span class="k">end</span>
       <span class="k">end</span>
 
       <span class="k">module</span> <span class="nn">InstanceMethods</span>
         <span class="k">def</span> <span class="nf">create_cache</span>
-          <span class="n">acts_as_cache_class</span><span class="o">.</span><span class="n">create</span><span class="p">(</span><span class="nb">self</span><span class="p">)</span>
+          <span class="n">acts_as_cache_class</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span><span class="nb">self</span><span class="p">)</span>
         <span class="k">end</span>
 
         <span class="k">def</span> <span class="nf">destroy_cache</span>
-          <span class="n">acts_as_cache_class</span><span class="o">.</span><span class="n">destroy</span><span class="p">(</span><span class="nb">self</span><span class="p">)</span>
+          <span class="n">acts_as_cache_class</span><span class="p">.</span><span class="nf">destroy</span><span class="p">(</span><span class="nb">self</span><span class="p">)</span>
         <span class="k">end</span>
 
         <span class="k">def</span> <span class="nf">cache</span>
-          <span class="n">acts_as_cache_class</span><span class="o">.</span><span class="n">find_or_create_cache</span><span class="p">(</span><span class="nb">self</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+          <span class="n">acts_as_cache_class</span><span class="p">.</span><span class="nf">find_or_create_cache</span><span class="p">(</span><span class="nb">self</span><span class="p">.</span><span class="nf">id</span><span class="p">)</span>
         <span class="k">end</span>
       <span class="k">end</span>
     <span class="k">end</span>
   <span class="k">end</span>
 <span class="k">end</span>
 
-<span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">acts_as_cache</span>
 <span class="k">end</span>
 
-<span class="k">class</span> <span class="nc">Project</span> <span class="o">&lt;</span> <span class="ss">ActiveRecord</span><span class="p">:</span><span class="ss">:Base</span>
+<span class="k">class</span> <span class="nc">Project</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">acts_as_cache</span>
 <span class="k">end</span>
-</pre></div>
+</pre>
 <h3>Beyond MVC</h3>
 
 <p>如果你在使用了这些方式重构后还是不喜欢代码结构，那么我觉得可能仅仅 MVC 三层就不能满足你需求了，我们需要更多的抽象，比如 Java 世界广而告之的 Service 层或者 Presenter 层。这个更多是个人习惯的问题，比如有些人认为应用逻辑(业务逻辑)不应该放在数据层(Model)，或者一个 Model 只应该管好他自己的事情，多个 Model 的融合需要另外的类来做代理。关于这些的争论已经属于意识形态的范畴，个人的观点是视需要而定，没必要一上来就进入 Service 或者 Presenter，保持代码的简单性，毕竟减少项目 Bugs 的永恒不变法就是没有代码。但是，一旦达到可适用范围，该引入时就引入。这里也给大家介绍一些我们在用的方法。</p>
@@ -311,198 +355,89 @@
 <h4>Service</h4>
 
 <p>之前已经提到 Controller 层应该只接受 HTTP Request，返回 HTTP Response，中间的处理部分应该交由其他部分。我们可以优先把这部分逻辑放在 Model 层处理。但是，Model 层本身从定义而言应该是只和数据打交道，而不应该过多涉及业务逻辑。这个时候我们就需要用到 Service 层。继续例子!</p>
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">ProjectHookService</span>
+<pre class="highlight ruby"><span class="k">class</span> <span class="nc">ProjectHookService</span>
   <span class="kp">attr_reader</span> <span class="ss">:project</span><span class="p">,</span> <span class="ss">:data</span>
 
   <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">hook_params</span> <span class="o">=</span> <span class="p">{})</span>
-    <span class="vi">@project</span> <span class="o">=</span> <span class="no">Project</span><span class="o">.</span><span class="n">from_param</span><span class="p">(</span><span class="n">hook_params</span><span class="p">)</span>
-    <span class="vi">@data</span> <span class="o">=</span> <span class="no">JSON</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">hook_params</span><span class="o">[</span><span class="s1">&#39;payload&#39;</span><span class="o">]</span><span class="p">)</span>
+    <span class="vi">@project</span> <span class="o">=</span> <span class="no">Project</span><span class="p">.</span><span class="nf">from_param</span><span class="p">(</span><span class="n">hook_params</span><span class="p">)</span>
+    <span class="vi">@data</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">hook_params</span><span class="o">[</span><span class="s1">'payload'</span><span class="o">]</span><span class="p">)</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">parse</span>
-    <span class="no">Prly</span><span class="o">.</span><span class="n">hook_services</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">service</span><span class="o">|</span>
-      <span class="n">parser</span> <span class="o">=</span> <span class="n">service</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="vi">@project</span><span class="p">,</span> <span class="vi">@data</span><span class="p">)</span>
-      <span class="k">if</span> <span class="n">parser</span><span class="o">.</span><span class="n">parseable?</span>
-        <span class="n">parser</span><span class="o">.</span><span class="n">parse</span>
+    <span class="no">Prly</span><span class="p">.</span><span class="nf">hook_services</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">service</span><span class="o">|</span>
+      <span class="n">parser</span> <span class="o">=</span> <span class="n">service</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="vi">@project</span><span class="p">,</span> <span class="vi">@data</span><span class="p">)</span>
+      <span class="k">if</span> <span class="n">parser</span><span class="p">.</span><span class="nf">parseable?</span>
+        <span class="n">parser</span><span class="p">.</span><span class="nf">parse</span>
       <span class="k">end</span>
     <span class="k">end</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">parseable?</span>
-    <span class="vi">@project</span><span class="o">.</span><span class="n">present?</span> <span class="o">&amp;&amp;</span> <span class="vi">@data</span><span class="o">.</span><span class="n">present?</span>
+    <span class="vi">@project</span><span class="p">.</span><span class="nf">present?</span> <span class="o">&amp;&amp;</span> <span class="vi">@data</span><span class="p">.</span><span class="nf">present?</span>
   <span class="k">end</span>
 <span class="k">end</span>
 
 <span class="k">class</span> <span class="nc">HooksController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
   <span class="k">def</span> <span class="nf">create</span>
-    <span class="n">service</span> <span class="o">=</span> <span class="no">ProjectHookService</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">service</span><span class="o">.</span><span class="n">parseable?</span>
-      <span class="n">service</span><span class="o">.</span><span class="n">parse</span>
-      <span class="n">render</span> <span class="ss">nothing</span><span class="p">:</span> <span class="kp">true</span><span class="p">,</span> <span class="ss">status</span><span class="p">:</span> <span class="mi">200</span>
+    <span class="n">service</span> <span class="o">=</span> <span class="no">ProjectHookService</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">service</span><span class="p">.</span><span class="nf">parseable?</span>
+      <span class="n">service</span><span class="p">.</span><span class="nf">parse</span>
+      <span class="n">render</span> <span class="ss">nothing: </span><span class="kp">true</span><span class="p">,</span> <span class="ss">status: </span><span class="mi">200</span>
     <span class="k">else</span>
-      <span class="n">render</span> <span class="ss">text</span><span class="p">:</span> <span class="s1">&#39;Faled to parse the payload&#39;</span><span class="p">,</span> <span class="ss">status</span><span class="p">:</span> <span class="mi">403</span>
+      <span class="n">render</span> <span class="ss">text: </span><span class="s1">'Faled to parse the payload'</span><span class="p">,</span> <span class="ss">status: </span><span class="mi">403</span>
     <span class="k">end</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</pre></div>
+</pre>
 <p>如果大家仔细分析这段代码的话，会发现用 Service 是最好的方案，既不应该放在 Controller，又不适合放在 Model。如果你需要大量使用这种模式，可以考虑一下看看 <a href="https://github.com/karmajunkie/imperator">Imperator</a> 这个 Gem，算是 Rails 世界里对 Service Layer 实现比较好的库了。</p>
 
 <h4>Presenter</h4>
 
 <p>关于 Presenter，不得不提的是一个 Gem <a href="https://github.com/jamesgolick/active_presenter">ActivePresenter</a>，基本跟 ActiveRecord 的使用方法一样，如果项目到了一定规模比如有了非常多的 Models，那么可以关注一下 Presenter 模式，会是一个很不错的补充。</p>
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">SignupPresenter</span> <span class="o">&lt;</span> <span class="ss">ActivePresenter</span><span class="p">:</span><span class="ss">:Base</span>
+<pre class="highlight ruby"><span class="k">class</span> <span class="nc">SignupPresenter</span> <span class="o">&lt;</span> <span class="no">ActivePresenter</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">presents</span> <span class="ss">:user</span><span class="p">,</span> <span class="ss">:account</span>
 <span class="k">end</span>
 
-<span class="no">SignupPresenter</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:user_login</span> <span class="o">=&gt;</span> <span class="s1">&#39;dingding&#39;</span><span class="p">,</span>
-                    <span class="ss">:user_password</span> <span class="o">=&gt;</span> <span class="s1">&#39;123456&#39;</span><span class="p">,</span>
-                    <span class="ss">:user_password_confirmation</span> <span class="o">=&gt;</span> <span class="s1">&#39;123456&#39;</span><span class="p">,</span>
-                    <span class="ss">:account_subdomain</span> <span class="o">=&gt;</span> <span class="s1">&#39;pragmaticly&#39;</span><span class="p">)</span>
-</pre></div>
+<span class="no">SignupPresenter</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="ss">:user_login</span> <span class="o">=&gt;</span> <span class="s1">'dingding'</span><span class="p">,</span>
+                    <span class="ss">:user_password</span> <span class="o">=&gt;</span> <span class="s1">'123456'</span><span class="p">,</span>
+                    <span class="ss">:user_password_confirmation</span> <span class="o">=&gt;</span> <span class="s1">'123456'</span><span class="p">,</span>
+                    <span class="ss">:account_subdomain</span> <span class="o">=&gt;</span> <span class="s1">'pragmaticly'</span><span class="p">)</span>
+</pre>
 <h3>We&#39;re good now</h3>
 
 <p>基本上上面是我在一个 Rails 项目里重构 Controller 和 Model 时会使用的几种方法，希望对你有用。Terry Tai 上周在他的博客里分享了<a href="http://terrytai.com/2013/02/15/refactor-session-for-re-education-in-thought-works.html">他在重构方面的一些想法</a>，也很有价值，推荐阅读。</p>
+
 </div>
 
-    <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
-        var disqus_identifier = 'rails';
+  </article>
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
+      var disqus_identifier = 'rails';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
     </script>
 
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </article>
+  </div>
 
+      </div>
+    </section>
 
-      <footer>
-        <p>Hosted on <a href="https://pages.github.com">GitHub
-        Pages</a> using the Dinky theme.</p>
-      </footer>
-    </div>
-
-    <!-- <aside> -->
-    <!--   <h2>Recent Articles</h2> -->
-    <!--   <ol> -->
-    <!--      -->
-    <!--       <li><a href="/2013/10/11/how-to-find-tech-cofounder.html">如何吸引技术合伙人</a> <span>Oct 11</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/09/11/practical-git-flow-for-startups.html">实用 Git 工作流</a> <span>Sep 11</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/08/08/dig-into-code-review-process.html">让代码审查成为你的团队习惯</a> <span>Aug  8</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/07/24/remote-team-the-things-you-should-know.html">远程工作经验谈 - 如何适应及如何管理</a> <span>Jul 24</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/07/04/video-for-startup.html">创业工具箱之视频篇</a> <span>Jul  4</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/05/22/happy-hackathon.html">黑客马拉松 - 玩脱了就行！</a> <span>May 22</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/05/14/ruby-event-5-11.html">记 5 月 11 号 Ruby 开发者沙龙</a> <span>May 14</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/04/22/rails-for-beginners.html">Rails 初学者指南</a> <span>Apr 22</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/04/16/care-yourself-first-programmers.html">关爱程序员之 Herman Miller Embody 体验报告</a> <span>Apr 16</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/04/09/teahourfm-with-middleman.html">Teahour.fm, Static Site by Middleman</a> <span>Apr  9</span></li> -->
-    <!--      -->
-    <!--   </ol> -->
-
-    <!--   <h2>Tags</h2> -->
-    <!--   <ol> -->
-    <!--      -->
-    <!--       <li><a href="/tags/surviver.html">surviver (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hello.html">hello (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/pragmatic-ly.html">pragmatic.ly (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rubyconf.html">rubyconf (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rubyconf-china.html">rubyconf china (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/realtime.html">realtime (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/ruby.html">ruby (2)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/podcast.html">Podcast (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/tech.html">Tech (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/ruby.html">Ruby (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/javascript.html">Javascript (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rails.html">Rails (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/refactor.html">Refactor (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/teahour.html">teahour (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/middleman.html">middleman (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/static-site.html">static site (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/programmer.html">programmer (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/healthy.html">healthy (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/productivity.html">productivity (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rails.html">rails (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/learning.html">learning (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/event.html">event (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hangzhou.html">hangzhou (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hackathon.html">hackathon (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hacking.html">hacking (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/startup.html">startup (2)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/tools.html">tools (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/video.html">video (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">远程工作 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">异地工作 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">团队协作 (3)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">代码审查 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/code-review.html">Code Review (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/git-flow.html">git flow (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">项目管理 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/technical-co-founders.html">technical co-founders (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/founders.html">founders (1)</a></li> -->
-    <!--      -->
-    <!--   </ol> -->
-
-    <!--   <h2>By Year</h2> -->
-    <!--   <ol> -->
-    <!--      -->
-    <!--       <li><a href="/2013.html">2013 (12)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/2012.html">2012 (2)</a></li> -->
-    <!--      -->
-    <!--   </ol> -->
-    <!-- </aside> -->
+    <footer>
+      <div class="copyright">
+        <p>&copy;2013 Dingding Ye</a></p>
+      </div>
+    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

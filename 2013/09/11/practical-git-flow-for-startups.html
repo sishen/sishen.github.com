@@ -1,73 +1,117 @@
-<!doctype html>
-<html>
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="zh"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh"><![endif]-->
+<!--[if gt IE 8]<!-->
+<html class="no-js" lang="zh">
+  <!--<![endif]-->
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta charset="UTF-8">
+
     <title>
-      
-        实用 Git 工作流 | The Voice of Dingding Ye
-      
+        实用 Git 工作流
+ - The Voice of Dingding
     </title>
 
-    <link rel="stylesheet" href="/stylesheets/all.css">
-    <script src="/javascripts/all.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="叶玎玎在创业、团队协作和项目管理上的思考和分享">
+    <meta name="keywords" content="  ["团队协作", "git flow", "项目管理"]
+">
+    <meta name="author" content="Dingding Ye">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="Ben He's Homepage" href="/feed.xml" />
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-   <link rel="alternate" type="application/atom+xml" title="The Voice of Dingding Ye Feed" href="/feed.xml" />
+
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <script src="/javascripts/all.js"></script>
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header"><a href="/">The Voice of Dingding Ye</a></h1>
-        <p class="header"></p>
+  <body class="2013 2013_09 2013_09_11 2013_09_11_practical-git-flow-for-startups">
+    <aside class="sidebar">
+      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
+      <nav class="global-nav">
         <ul>
-          <li><a class="buttons pragmaticly" href="https://pragmatic.ly/about">Pragmatic.ly</a></li>
+          <li><a href="/">Posts</a></li>
+          <li><a href="/profile.html">Profile</a></li>
         </ul>
-      </header>
+      </nav>
 
-      <aside class="sidebar">
-        <p>
-          <a href="mailto:yedingding@gmail.com">
-            <img title="yedingding@gmail.com" src="/images/email.png">
-          </a>
-          <a href="https://github.com/sishen">
-            <img title="https://github.com/sishen" src="/images/github.png">
-          </a>
-          <a href="http://cn.linkedin.com/in/yedingding/">
-            <img title="http://cn.linkedin.com/in/yedingding" src="/images/linkedin.png">
-          </a>
-          <a href="https://twitter.com/yedingding">
-            <img title="https://twitter.com/yedingding" src="/images/twitter.png">
-          </a>
-          <a href="https://facebook.com/yedingding">
-            <img title="https://facebook.com/yedingding" src="/images/facebook.png">
-          </a>
-          <a href="https://weibo.com/presently">
-            <img title="https://weibo.com/presently" src="/images/weibo.png">
-          </a>
-          <a href="https://plus.google.com/102475612847000088909">
-            <img title="https://plus.google.com/102475612847000088909" src="/images/google-plus.png">
-          </a>
-        </p>
-      </aside>
+      <nav class="social-connect">
+        <ul>
+          <li><a href="//github.com/sishen"><i class="icon-github"></i></a></li>
+          <li><a href="//weibo.com/presently"><i class="icon-weibo"></i></a></li>
+          <li><a href="//twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
+          <li><a href="//facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
+        </ul>
+      </nav>
 
-        <article>
-    <h3>
-      实用 Git 工作流
-      <span class="pull-right">Sep 11<span>
-    </h3>
-    <ul class="tag-list">
+      <!-- Ad -->
+      <div class="block ad">
+        <h4 class="block-title"><a href="//pragmatic.ly/">Pragmatic.ly</a></h4>
+        <p class="block-cnt">团队协作工具</p>
+      </div>
+
+    </aside>
+
+    <section class="main">
+      <div class="container">
+        
+  <div class="annoucement">
+	  <p>
       
-        <li>团队协作</li>
+        <img class="avatar" src="/images/yedingding.png" alt="Yedingding" />
+如果你在远程工作、团队协作、项目管理和创业方面需要意见，欢迎找我约个时间，免费咨询！Skype: sishen.freecity | QQ: 61819318
+
       
-        <li>git flow</li>
+    </p>
+  </div>
+
+  <article class="post single">
+
+    <header>
+  <h2 class="title">
+    <a href="/2013/09/11/practical-git-flow-for-startups.html">实用 Git 工作流</a>
+  </h2>
+</header>
+
+<aside class="aside-block">
+  <ul class="meta">
+    <li class="date">
+      Sep 11, 2013
+    </li>
+    <li class="tags">
       
-        <li>项目管理</li>
+        <a href="/tags/.html">团队协作</a>
       
-    </ul>
-    <div class="summary"><p>在 <a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html">「让代码审核成为你的团队习惯」</a> 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。</p>
+        <a href="/tags/git-flow.html">git flow</a>
+      
+        <a href="/tags/.html">项目管理</a>
+      
+    </li>
+  </ul>
+</aside>
+
+<div class="content">
+  <p>在 <a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html">「让代码审核成为你的团队习惯」</a> 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。</p>
 
 <blockquote>
     <p>我们有 master-dev 分支，比较大的功能才会新开 branch，小功能都是直接到 dev 上的，再加上团队在一起开发所以固定时间看昨日的代码，效果还不错。我们同样没有 QA，自己做的 ticket 也会找对方来做测试，但多是功能的完整性上的测试了。</p>
@@ -106,13 +150,13 @@
 <p><img alt="features and bugs" src="http://yedingding.com/images/practical-git-flow-for-startups/features-bugs.png" /></p>
 
 <p>我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。之所以基于 master，正是因为上面提到过 master 永远是可以部署的分支，那么基于 master 开的分支就可以直接被 merge 回 master 做发布。</p>
-<div class="highlight"><pre><span class="p">(</span><span class="n">yedingding</span><span class="p">)</span>$ <span class="o">~/</span><span class="n">Pragmatic</span><span class="p">.</span><span class="n">ly</span> › <span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> 754<span class="n">_usage_analytics</span> <span class="o">-</span><span class="n">t</span> <span class="n">master</span>
-<span class="n">Switch</span> <span class="n">to</span> <span class="n">a</span> <span class="n">new</span> <span class="n">branch</span> <span class="n">named</span> &quot;754<span class="n">_usage_analytics</span>&quot;
-<span class="p">(</span><span class="n">terry</span><span class="p">)</span>$ <span class="o">~/</span><span class="n">Pragmatic</span><span class="p">.</span><span class="n">ly</span> › <span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> 746<span class="n">_integrate_mobile</span> <span class="o">-</span><span class="n">t</span> <span class="n">master</span>
-<span class="n">Switch</span> <span class="n">to</span> <span class="n">a</span> <span class="n">new</span> <span class="n">branch</span> <span class="n">named</span> &quot;746<span class="n">_integrate_mobile</span>&quot;
-<span class="p">(</span><span class="n">roy</span><span class="p">)</span>$ <span class="o">~/</span><span class="n">Pragmatic</span><span class="p">.</span><span class="n">ly</span> › <span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> 77<span class="n">_comment_via_email</span> <span class="o">-</span><span class="n">t</span> <span class="n">master</span>
-<span class="n">Switch</span> <span class="n">to</span> <span class="n">a</span> <span class="n">new</span> <span class="n">branch</span> <span class="n">named</span> &quot;77<span class="n">_comment_via_email</span>&quot;
-</pre></div>
+<pre class="highlight plaintext">(yedingding)$ ~/Pragmatic.ly › git checkout -b 754_usage_analytics -t master
+Switch to a new branch named &quot;754_usage_analytics&quot;
+(terry)$ ~/Pragmatic.ly › git checkout -b 746_integrate_mobile -t master
+Switch to a new branch named &quot;746_integrate_mobile&quot;
+(roy)$ ~/Pragmatic.ly › git checkout -b 77_comment_via_email -t master
+Switch to a new branch named &quot;77_comment_via_email&quot;
+</pre>
 <p>从分支创建例子上来看，我们是按照 &lt;sid&gt;&#95;&lt;ticket title&gt; 的方式来命名。sid 是这个任务在 Pragmatic.ly 的任务 ID，ticket title 是任务在 Pragmatic.ly 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 <a href="https://pragmatic.ly">Pragmatic.ly</a> 中，比如提交到 754&#95;usage&#95;analytics 的 commits 会自动关联到 Pragmatic.ly 这个任务的动态里，也可以在 commit 消息里加上 &ldquo;ref #754&rdquo;, &ldquo;resolved #754&rdquo; 这样的文本，也会自动做关联，如下图。</p>
 
 <p><img alt="Activity" src="http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png" /></p>
@@ -134,147 +178,38 @@
 <h3>总结</h3>
 
 <p>以上就是我们代码级别的项目管理工作流程，希望对你有帮助。个人觉得这个流程很适合 lean 的敏捷创业团队，能快速迭代快速交付。你们是怎么做的呢，欢迎交流，可以在微博上直接 <a href="http://weibo.com/presently">@yedingding</a> 或者 <a href="http://weibo.com/pragmaticly">@pragmaticly</a>！</p>
+
 </div>
 
-    <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
-        var disqus_identifier = 'practical-git-flow';
+  </article>
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
+      var disqus_identifier = 'practical-git-flow';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
     </script>
 
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </article>
+  </div>
 
+      </div>
+    </section>
 
-      <footer>
-        <p>Hosted on <a href="https://pages.github.com">GitHub
-        Pages</a> using the Dinky theme.</p>
-      </footer>
-    </div>
-
-    <!-- <aside> -->
-    <!--   <h2>Recent Articles</h2> -->
-    <!--   <ol> -->
-    <!--      -->
-    <!--       <li><a href="/2013/10/11/how-to-find-tech-cofounder.html">如何吸引技术合伙人</a> <span>Oct 11</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/09/11/practical-git-flow-for-startups.html">实用 Git 工作流</a> <span>Sep 11</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/08/08/dig-into-code-review-process.html">让代码审查成为你的团队习惯</a> <span>Aug  8</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/07/24/remote-team-the-things-you-should-know.html">远程工作经验谈 - 如何适应及如何管理</a> <span>Jul 24</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/07/04/video-for-startup.html">创业工具箱之视频篇</a> <span>Jul  4</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/05/22/happy-hackathon.html">黑客马拉松 - 玩脱了就行！</a> <span>May 22</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/05/14/ruby-event-5-11.html">记 5 月 11 号 Ruby 开发者沙龙</a> <span>May 14</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/04/22/rails-for-beginners.html">Rails 初学者指南</a> <span>Apr 22</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/04/16/care-yourself-first-programmers.html">关爱程序员之 Herman Miller Embody 体验报告</a> <span>Apr 16</span></li> -->
-    <!--      -->
-    <!--       <li><a href="/2013/04/09/teahourfm-with-middleman.html">Teahour.fm, Static Site by Middleman</a> <span>Apr  9</span></li> -->
-    <!--      -->
-    <!--   </ol> -->
-
-    <!--   <h2>Tags</h2> -->
-    <!--   <ol> -->
-    <!--      -->
-    <!--       <li><a href="/tags/surviver.html">surviver (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hello.html">hello (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/pragmatic-ly.html">pragmatic.ly (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rubyconf.html">rubyconf (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rubyconf-china.html">rubyconf china (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/realtime.html">realtime (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/ruby.html">ruby (2)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/podcast.html">Podcast (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/tech.html">Tech (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/ruby.html">Ruby (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/javascript.html">Javascript (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rails.html">Rails (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/refactor.html">Refactor (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/teahour.html">teahour (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/middleman.html">middleman (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/static-site.html">static site (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/programmer.html">programmer (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/healthy.html">healthy (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/productivity.html">productivity (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/rails.html">rails (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/learning.html">learning (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/event.html">event (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hangzhou.html">hangzhou (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hackathon.html">hackathon (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/hacking.html">hacking (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/startup.html">startup (2)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/tools.html">tools (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/video.html">video (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">远程工作 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">异地工作 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">团队协作 (3)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">代码审查 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/code-review.html">Code Review (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/git-flow.html">git flow (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/.html">项目管理 (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/technical-co-founders.html">technical co-founders (1)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/tags/founders.html">founders (1)</a></li> -->
-    <!--      -->
-    <!--   </ol> -->
-
-    <!--   <h2>By Year</h2> -->
-    <!--   <ol> -->
-    <!--      -->
-    <!--       <li><a href="/2013.html">2013 (12)</a></li> -->
-    <!--      -->
-    <!--       <li><a href="/2012.html">2012 (2)</a></li> -->
-    <!--      -->
-    <!--   </ol> -->
-    <!-- </aside> -->
+    <footer>
+      <div class="copyright">
+        <p>&copy;2013 Dingding Ye</a></p>
+      </div>
+    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">
