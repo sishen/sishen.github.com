@@ -5,7 +5,7 @@ setupEvent = ->
 
 $ ->
   setupEvent()
-  $("article .summary").find('a').each (idx, elem) ->
+  $("article.single").find('a').each (idx, elem) ->
     $(elem).attr("target", "_blank")
 
   $(".aside img").on "click", (e) ->
