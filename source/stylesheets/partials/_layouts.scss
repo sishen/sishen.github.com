@@ -48,7 +48,7 @@ p {
     a {
       color: $siteNameColor;
       &:hover {
-        color: lighten($siteNameColor, 20%);
+        color: $sidebarLinkColor;
       }
     }
   }
