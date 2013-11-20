@@ -12,7 +12,11 @@
   <% end %>
 <% end %>
 
+
 <% wrap_layout :layout do %>
+
+  <%= partial 'shared/annoucement' %>
+  
   <article class="post single">
 
     <%= partial 'shared/post', locals: { article: current_article } %>

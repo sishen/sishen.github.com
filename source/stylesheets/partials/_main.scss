@@ -5,7 +5,9 @@
     padding: 0 0 2em $asideWidth;
     border-bottom: 1px solid $hairLineColor;
     @include clearfix;
-
+    &.single {
+      padding-top: $asideGap;
+    }
     .back-link {
       margin-left: -25%;
       float: left;
