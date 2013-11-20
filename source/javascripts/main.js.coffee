@@ -11,3 +11,11 @@ $ ->
   $(".aside img").on "click", (e) ->
     e.preventDefault()
     $(this).parent(".aside").toggleClass("stretch")
+
+  $(document).on "scroll", (e) ->
+  	top = $(window).scrollTop()
+  	ele = $('.annoucement')
+  	if top > 0
+      ele.addClass('sticky')
+    else
+      ele.removeClass('sticky')

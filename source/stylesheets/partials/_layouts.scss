@@ -104,6 +104,9 @@ p {
   padding: 7px 0 5px;
   border-bottom: 1px solid $hairLineColor;
   background-color: $mainBgColor;
+  transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
   .avatar {
     width: 40px;
     height: 40px;
@@ -117,6 +120,13 @@ p {
     padding: 0 20px;
     font-size: 14px;
     line-height: 20px;
+  }
+  &.sticky {
+    background-color: #fff;
+    opacity: .95;
+    p {
+      color: darken($asideColor, 20%);
+    }
   }
 }
 
