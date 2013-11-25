@@ -14,7 +14,7 @@ $ ->
 
   $(document).on "scroll", (e) ->
   	top = $(window).scrollTop()
-  	ele = $('.annoucement')
+  	ele = $('.announcement')
   	if top > 0
       ele.addClass('sticky')
     else
