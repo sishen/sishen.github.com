@@ -1,7 +1,7 @@
 ---
 title: "如何吸引技术合伙人"
 date: 2013-10-11 11:00 +08:00
-tags: startup, technical co-founders, founders
+tags: 创业, 技术合伙人, startup, technical co-founders, founders
 disqus_identifier: "how-to-find-tech-cofounder"
 ---
 

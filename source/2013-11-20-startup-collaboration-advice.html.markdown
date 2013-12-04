@@ -1,7 +1,7 @@
 ---
 title: "小团队如何高效协作"
 date: 2013-11-20 18:00 +08:00
-tags: startup, collaboration, productivity
+tags: 创业, 团队协作, 高效, 小团队, startup, collaboration, productivity
 disqus_identifier: "startup-collaboration-advice"
 ---
 

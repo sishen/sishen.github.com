@@ -1,10 +1,6 @@
-<% content_for :title do %>
-  <%= current_article.title %>
-<% end %>
+<% content_for :title do %><%= current_article.title %><% end %>
 
-<% content_for :keywords do %>
-  <%= current_article.tags %>
-<% end %>
+<% content_for :keywords do %><%= current_article.tags.join(', ') %><% end %>
 
 <% if current_article.data["cover"] %>
   <% content_for :cover do %>

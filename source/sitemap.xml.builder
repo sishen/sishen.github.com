@@ -11,7 +11,7 @@ xml.urlset 'xmlns' => "http://www.sitemaps.org/schemas/sitemap/0.9" do
         xml.lastmod Date.today.to_time.iso8601
       end
       xml.changefreq page.data.changefreq || "monthly"
-      xml.priority page.data.priority || "0.8"
+      xml.priority page.data.priority || "0.9"
     end
   end
 end
