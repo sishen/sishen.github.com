@@ -43,7 +43,7 @@
     <link rel="stylesheet" href="/stylesheets/application.css">
     <script src="/javascripts/all.js"></script>
   </head>
-  <body class="2013 2013_03 2013_03_04 2013_03_04_steps-to-refactor-controller-and-models-in-rails-projects">
+  <body class="x2013 x2013_03 x2013_03_04 x2013_03_04_steps-to-refactor-controller-and-models-in-rails-projects">
     <aside class="sidebar">
       <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
       <nav class="global-nav">
@@ -64,7 +64,7 @@
 
       <!-- Ad -->
       <div class="block ad">
-        <h4 class="block-title"><a href="//pragmatic.ly/">Pragmatic.ly</a></h4>
+        <h4 class="block-title"><a href="https://fengche.co/">Fengche.co</a></h4>
         <p class="block-cnt">团队协作工具</p>
       </div>
 
@@ -126,11 +126,11 @@
     <span class="vi">@publisher</span><span class="p">.</span><span class="nf">valid?</span>
 
     <span class="k">unless</span> <span class="n">simple_captcha_valid?</span> <span class="k">then</span>
-      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:validation_code</span><span class="p">,</span> <span class="s2">&quot;验证码有误&quot;</span>
+      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:validation_code</span><span class="p">,</span> <span class="s2">"验证码有误"</span>
     <span class="k">end</span>
 
     <span class="k">if</span> <span class="o">!</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:password_copy</span><span class="o">]</span><span class="p">.</span><span class="nf">eql?</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span><span class="p">)</span> <span class="k">then</span>
-      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:password</span><span class="p">,</span> <span class="s2">&quot;两次密码输入不一致&quot;</span>
+      <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:password</span><span class="p">,</span> <span class="s2">"两次密码输入不一致"</span>
     <span class="k">end</span>
 
     <span class="k">if</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">empty?</span> <span class="k">then</span>
@@ -142,7 +142,7 @@
       <span class="n">redirect_to</span> <span class="n">publisher_path</span><span class="p">(</span><span class="vi">@publisher</span><span class="p">)</span>
     <span class="k">else</span>
       <span class="nb">p</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span>
-      <span class="n">render</span> <span class="s2">&quot;new&quot;</span><span class="p">,</span> <span class="ss">:layout</span> <span class="o">=&gt;</span> <span class="kp">true</span>
+      <span class="n">render</span> <span class="s2">"new"</span><span class="p">,</span> <span class="ss">:layout</span> <span class="o">=&gt;</span> <span class="kp">true</span>
     <span class="k">end</span>
   <span class="k">end</span>
 <span class="k">end</span>
@@ -163,20 +163,20 @@
       <span class="nb">self</span><span class="p">.</span><span class="nf">current_user</span> <span class="o">=</span> <span class="vi">@publisher</span>
       <span class="n">redirect_to</span> <span class="n">publisher_path</span><span class="p">(</span><span class="vi">@publisher</span><span class="p">)</span>
     <span class="k">else</span>
-      <span class="n">render</span> <span class="s2">&quot;new&quot;</span>
+      <span class="n">render</span> <span class="s2">"new"</span>
     <span class="k">end</span>
   <span class="k">end</span>
 <span class="k">end</span>
 
 <span class="k">class</span> <span class="nc">Publisher</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
-  <span class="n">apply_simple_captcha</span> <span class="ss">:message</span> <span class="o">=&gt;</span> <span class="s2">&quot;验证码有误&quot;</span>
+  <span class="n">apply_simple_captcha</span> <span class="ss">:message</span> <span class="o">=&gt;</span> <span class="s2">"验证码有误"</span>
 
   <span class="n">validates</span> <span class="ss">:password</span><span class="p">,</span>
     <span class="ss">:presence</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="ss">:message</span> <span class="o">=&gt;</span> <span class="s2">&quot;密码为必填写项&quot;</span>
+      <span class="ss">:message</span> <span class="o">=&gt;</span> <span class="s2">"密码为必填写项"</span>
     <span class="p">},</span>
     <span class="ss">:confirmation</span> <span class="o">=&gt;</span> <span class="p">{</span>
-      <span class="ss">:message</span> <span class="o">=&gt;</span> <span class="s2">&quot;两次密码输入不一致&quot;</span>
+      <span class="ss">:message</span> <span class="o">=&gt;</span> <span class="s2">"两次密码输入不一致"</span>
     <span class="p">}</span>
 
   <span class="kp">attr_reader</span> <span class="ss">:password</span>
@@ -213,7 +213,7 @@
 
 <p>对于项目初期而言，做好这两个基本就够了。但是，随着逻辑的增多，代码量不断增加，我们会发现 Models 开始变得臃肿，整体维护性开始降低。如果一个 Model 对象有效代码行超过了 100 行，我个人认为因为引起警觉了，要思考一下有没有重构点。一般而言，我们有下面几种方法。</p>
 
-<h4><a href="http://en.wikipedia.org/wiki/Concern_(computer_science">Concern</a></h4>
+<h4>[Concern](<a href="http://en.wikipedia.org/wiki/Concern_(computer_science)">http://en.wikipedia.org/wiki/Concern_(computer_science)</a></h4>
 
 <p>Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 <a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns">Put chubby models on a diet with concerns</a> 和 Rails 4 的相关 <a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81">commit</a>。具体使用可以参照上面的博客和下面我们在 <a title="Lean Collaborative Project Management Tool" href="https://pragmatic.ly">Pragmatic.ly</a> 里的实际例子。</p>
 <pre class="highlight ruby"><span class="k">module</span> <span class="nn">Membershipable</span>
@@ -301,7 +301,7 @@
 
       <span class="k">module</span> <span class="nn">ClassMethods</span>
         <span class="k">def</span> <span class="nf">acts_as_cache</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="p">{</span> <span class="p">})</span>
-          <span class="n">klass</span> <span class="o">=</span> <span class="n">options</span><span class="o">[</span><span class="ss">:class_name</span><span class="o">]</span> <span class="o">||</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2">Cache&quot;</span><span class="p">.</span><span class="nf">constantize</span>
+          <span class="n">klass</span> <span class="o">=</span> <span class="n">options</span><span class="o">[</span><span class="ss">:class_name</span><span class="o">]</span> <span class="o">||</span> <span class="s2">"</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2">Cache"</span><span class="p">.</span><span class="nf">constantize</span>
           <span class="n">options</span><span class="o">[</span><span class="ss">:delegate</span><span class="o">]</span> <span class="o">||=</span> <span class="o">[]</span>
 
           <span class="nb">class_eval</span> <span class="o">&lt;&lt;-</span><span class="no">EOV</span><span class="sh">
@@ -401,7 +401,7 @@
                     <span class="ss">:user_password_confirmation</span> <span class="o">=&gt;</span> <span class="s1">'123456'</span><span class="p">,</span>
                     <span class="ss">:account_subdomain</span> <span class="o">=&gt;</span> <span class="s1">'pragmaticly'</span><span class="p">)</span>
 </pre>
-<h3>We&#39;re good now</h3>
+<h3>We&rsquo;re good now</h3>
 
 <p>基本上上面是我在一个 Rails 项目里重构 Controller 和 Model 时会使用的几种方法，希望对你有用。Terry Tai 上周在他的博客里分享了<a href="http://terrytai.com/2013/02/15/refactor-session-for-re-education-in-thought-works.html">他在重构方面的一些想法</a>，也很有价值，推荐阅读。</p>
 

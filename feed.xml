@@ -1,14 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>The Voice of Dingding Ye</title>
-  <subtitle>Share Fun, Life and Thoughts in Pragmatic.ly</subtitle>
+  <subtitle>Share Fun, Life and Thoughts in Fengche.co</subtitle>
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2013-12-03T08:00:00Z</updated>
+  <updated>2014-01-17T10:55:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>远程工作，你准备好了吗？</title>
+    <link rel="alternate" href="/2014/01/17/are-you-ready-for-remote-work.html"/>
+    <id>/2014/01/17/are-you-ready-for-remote-work.html</id>
+    <published>2014-01-17T10:55:00Z</published>
+    <updated>2014-01-17T10:55:00Z</updated>
+    <author>
+      <name>Dingding Ye</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;&lt;blockquote&gt;
+    &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 12 月刊里的文章。&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;10 月 29 号，著名洗脑公司 &lt;a href="http://37signals.com/"&gt;37signals&lt;/a&gt; 发布万众期待的新书 &lt;a href="http://37signals.com/remote/"&gt;《Remote - Office Not Required》&lt;/a&gt;，随书 37signals 发布新网站 &lt;a href="http://weworkremotely.com"&gt;http://weworkremotely.com&lt;/a&gt;，专门做远程工作招聘服务。回想年初，Yahoo 宣布取消远程工作方式时，舆论哗然，远程工作是否适合互联网团队，曾在 IT 圈引起激烈讨论，却着实让人对远程工作充满了憧憬。而现在年底 37signal 的新书，必然会让远程工作这把火燃烧得更旺盛。&lt;/p&gt;
+
+&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要"。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 12 月刊里的文章。&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;10 月 29 号，著名洗脑公司 &lt;a href="http://37signals.com/"&gt;37signals&lt;/a&gt; 发布万众期待的新书 &lt;a href="http://37signals.com/remote/"&gt;《Remote - Office Not Required》&lt;/a&gt;，随书 37signals 发布新网站 &lt;a href="http://weworkremotely.com"&gt;http://weworkremotely.com&lt;/a&gt;，专门做远程工作招聘服务。回想年初，Yahoo 宣布取消远程工作方式时，舆论哗然，远程工作是否适合互联网团队，曾在 IT 圈引起激烈讨论，却着实让人对远程工作充满了憧憬。而现在年底 37signal 的新书，必然会让远程工作这把火燃烧得更旺盛。&lt;/p&gt;
+
+&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要&amp;quot;。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，至少看上去很好的在完成工作，尤其是几十年的经历告诉了我们在办公室工作是“正确”的工作方式。我这里用了“不确定”，而不是“不相信”。如果一家公司是不相信的话，那只能证明公司找了错误的人，还有人进了错误的公司。下面来谈谈公司采用远程会有哪些好处。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Remote: Office Not Required" src="/images/are-you-ready-for-remote-work/remote_front.png?1389984911" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;远程工作的好处&lt;/h3&gt;
+
+&lt;h4&gt;更好的团队成员&lt;/h4&gt;
+
+&lt;p&gt;招聘难在现在看来是个永恒的话题，公司一直在寻找靠谱的人才，靠谱的人却有不同的机会做选择。前不久，有个香港的朋友招人，接受远程工作，一个下午收到十几二十封简历，看上去都是很不错的人，而这些是他在香港本地不敢想的。又比如我上一家公司 Intridea，公司有三十多个人，分布在华盛顿、加州、马里兰、北京、上海、杭州、福州、常州、阿根廷、巴西、乌克兰等十几个地方，且在我看来都是非常优秀的工程师，相反在公司所在地华盛顿，几乎招不到人。所以一旦采用远程工作，你的招聘将不受地域所限，而是直接面向世界各地。同时，远程工作能让团队更稳定，比如程序员都梦想去的公司 GitHub，自创立以来没有一个员工离职，我敢说这里面就有远程工作的功劳。&lt;/p&gt;
+
+&lt;h4&gt;更少的运营成本&lt;/h4&gt;
+
+&lt;p&gt;我记得我第一次到 Intridea 在 DC 的办公室以后，第一感觉是怎么这么小的一个地方，整个基本就是一厅两室五六十平方，还不如我自己家里，而这就是一个有三四十号员工的公司，一个已创立四年的公司，年营收将近千万美元，每天都在飞速运转飞速发展。而对比着如中关村、硅谷这样的地方，你要一间能容纳三四十号员工的场地，至少要百万人民币级别一年。所以一旦远程的话，你已经不需要在 CBD 有一个大办公室了，你的员工也会因此省下一大笔的居住成本，这也意味着你更有可能以更低的薪资水平招到更好的人。比如我有些朋友，就选择了降薪离开了北京，虽然还是在同一家公司，做同样的事情。&lt;/p&gt;
+
+&lt;h4&gt;更多的工作时间&lt;/h4&gt;
+
+&lt;p&gt;我没在大城市工作过，最主要的是我不愿意在交通上浪费过多时间，那些我原本可以用来更好工作和学习的时间。很简单的一个算术，假设一个工程师的一天工作时间是 8 小时，有效工作时间一般是 4 到 5 个小时，然后大城市如北京上海一个人一天平均花在交通上的时间是 2 到 3 小时，有没有发现只要一对比那是多么可怕的事实，更不要说人在花了一个半小时后到办公室后是怎样的一个疲劳状态。而远程工作者们一般是这样的一个工作状态，早上从从容容地醒来，吃完早饭泡上一杯茶，精神饱满地开始一天的工作。傍晚时，会出去健身跑步等等，然后回来洗个澡吃完晚饭继续扫尾，从绝对时间上来说，每天能多做很多事。当然，更不要提那些无法区分工作时间和个人时间的远程家伙们，简直个个都是代码狂魔，每天工作十到十二小时是家常便饭的事。&lt;/p&gt;
+
+&lt;h4&gt;更好的工作效率&lt;/h4&gt;
+
+&lt;p&gt;当然，我们要说工作不是只拼时间，要拼效率。但是从工作效率上来说，远程工作者的效率会更多。我去课程格子办公室拜访的时候发现他们专门有个“高产室 (productivity city)”，天放介绍这个是专门给一些员工要独处专注做事的时候提供的，里面有三大规矩。一是不能说话，也就是不需要面对面沟能，二是手机必须静音，三是不能超过三个人的，也就是降低人之间的干扰。在我看来就是在尝试一种变相的远程工作方式。要高效，首先得专注，而专注就需要没有干扰，减少上下文切换。但是在办公室里，人会时不时的被走动的同事，被交谈中的同事所干扰，时间被切成很多个碎片，每次都要重新去回顾上个碎片时做到什么程度了，效率必然低下。所以我有做 CTO 的朋友白天只跟同事交流要做什么事情和指导，所以技术性的编码工作都留到下班后晚上独处的时候完成。&lt;/p&gt;
+
+&lt;h4&gt;更全的用户支持&lt;/h4&gt;
+
+&lt;p&gt;月初跟 Basho 的 Eric Redmond 聊起他们公司的人员情况，介绍到他们在美国，欧洲和日本都有分公司，这样子跨时区远程协作，一个很大的好处是当美国的同事去休息的时候，日本的同事可以像客户提供用户支持，反之也一样，所以他们能做到工作日 7x24 的用户支持，这对于做产品的人来说是多么美好的事。所以，如果你需要人做更全的用户支持，与其招人三班倒，何不考虑尝试招一个跨时区的员工呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Remote Working Solution" src="/images/are-you-ready-for-remote-work/fengcheco.png?1389984911" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;要注意和解决的问题&lt;/h3&gt;
+
+&lt;p&gt;凡事都是双面的，有利必有弊，那么远程工作会有什么缺点呢？首当其冲的是沟通效率变差。不可否认，面对面交流永远是最好的沟通方式，因为沟通除了语言以外，还有肢体上的，表情上的，而这些是远程工作的软肋，更不要说现在很多团队沟通基本还是靠吼。所幸的是，现在已经有了很多的科技手段来降低沟通成本，也越来越多的人出来分享在远程工作团队解决沟通问题的经验。也正因为沟通成本的提高，却会让你重新审视每次沟通的必要性，也会让你尽可能地去高效沟通，比如沟通前一定要想清楚为什么而沟通，也就是沟通的目地，沟通时如何最好的表达观点、减少误会，也就是沟通的过程，结束后也会去记录沟通的结果，沉淀下来。还有一个缺点就是缺乏全局的掌控，项目如何管理，信息如何同步和更新。因为远程工作的缘故，一些本来在办公室很容易干的事情比如会议、比如状态查看都需要换个全新的方式去执行和适应，这个的确是个大问题，也是现在很多新型的协作工具希望去解决的问题，如 HipChat、Fengche.co 等。下面我介绍一下我们是如何解决这些问题的。&lt;/p&gt;
+
+&lt;h4&gt;沟通交流问题，如何达到或接近面对面沟通效果&lt;/h4&gt;
+
+&lt;p&gt;按照事情轻重缓慢来分，我们把沟通分成了四类。第一种是重要而紧急的沟通，第二种是重要而不紧急的沟通，第三种是不重要而紧急的沟通，第四种是不重要而不紧急的沟通。只有对于第一类沟通，我们才会采用安排时间会议的方式，而其它会用文字异步沟通，甚至审视沟通的必要性。在工具上，我们主要用 Skype、HipChat 和 Fengche.co，基本不用 email 来沟通。&lt;/p&gt;
+
+&lt;p&gt;Skype，语音会议工具，当我们需要做方向性的头脑风暴，做每周计划安排或者站立会议的时候。这些保证整个团队要往同一个地方使力的沟通，重要且紧急，直接语音远比文本高效。会议工具其实也做过不少，比如 WebEx，GoToMeeting，Join.me，但是 Skype 胜在足够简单并且语音质量足够用。&lt;/p&gt;
+
+&lt;p&gt;HipChat，群组聊天工具，超好用，而且可以很方便的跟第三方服务做集成。我们基本上在上面讨论事情和共享信息，当然也会扯扯淡。我最喜欢 HipChat 的地方是它够纯净，干干净净的一个工作空间，没有一丝干扰，不像 QQ 一样揉杂了个人空间和工作空间，动不动就收到个人聊天消息的影响。只有给团队提供了一个能专注的工具，才能让他们有专注工作的可能性。&lt;/p&gt;
+
+&lt;p&gt;而具体做的事情或者任务的沟通，大多属于重要而不紧急的沟通，Fengche.co 就很适合。如果在某个任务上需要讨论，直接在该任务下留言就可以了，相关的人在得到通知后会参与进来讨论。这样，也不会出现某两个人之间讨论了，其他团队成员不知情导致重复沟通的情况。&lt;/p&gt;
+
+&lt;h4&gt;项目管理问题，如何管理让项目朝好的方向发展&lt;/h4&gt;
+
+&lt;p&gt;在项目管理上，务实第一，至于算不算 Scrum，Kanban, Scrumban 抑或 XP 这些流程并不重要，重要的是要找到适合团队的，这个也是一个不停的迭代改进的过程。我们实践下来，有很多的模式，比如类 Kanban 流程，Git 工作流，持续发布，代码审核，都是能很好的促进项目健康良好发展的方式。在项目管理工具上，我们希望要能 HipChat 这种聊天工具一样，是一个能专注工作高效工作的工具。这也是我们创造和使用 Fengche.co 的原因，让工具回归到最初的目的，真正地帮助团队工作，让团队尽可能少的浪费时间在工具上，而不是为了用而用，目前来看是最适合中小型开发团队的轻量级项目管理工具。&lt;/p&gt;
+
+&lt;p&gt;项目管理上也会涉及到文档知识管理，目前来看 Dropbox 是一个很不错的选择，分享公司内部文档，书籍和一些设计稿再合适不过了。我就喜欢这些只做好一件事情的工具产品。&lt;/p&gt;
+
+&lt;h4&gt;信息同步问题，如何了解团队每个人的当前状态&lt;/h4&gt;
+
+&lt;p&gt;信息同步主要包括两个方面，你目前个人的状态是如何的，你接下来有哪些计划？这样整个团队才能保持一样的节奏，能做出是合适的安排，不至于出现因为信息不同步造成计划失控，或者互相等待的情况。了解一个项目的状态是容易的，因为指标是明显的，但是了解一个团队的状态就相对难的多，尤其是当团队在多项目同时在跑的时候，远程时特别容易出现某些人任务过载或者某些人任务过少。要解决这个问题，还是要靠工具，我们也是用 Fengche.co，来了解团队里所有人的当前状态。而计划，我们使用公司日历，每个人有事情不在工作时间需要直接在日历里面添加一个事项，这样做计划的时候就会看到，可以增加一些备份选择。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Are you ready" src="/images/are-you-ready-for-remote-work/ready.jpg?1389984911" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;h3&gt;你准备好了吗？&lt;/h3&gt;
+
+&lt;p&gt;我有足够的理由相信，未来人们有权利和有资本选择在什么地方和什么时候工作，不接受远程工作的公司会慢慢落后，尤其是新的一代人成长起来的时候，所以如果想尝试一下看看这是不是一个更好的方式，可以慢慢的改变看看是否能适应，比如“高产室”，比如每周先减至 4 天在办公室工作，然后 3 天，2 天，每次调整前大家明确下目标，为啥要怎么做，如何能做到最好，遇到哪些问题，可以怎么解决，不断的总结，不断的改进，那么真正的全部远程工作会水到渠成。迈出了这一步，一切将变得容易，一切将得到改变。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>不要让办公室成为你的效率杀手</title>
     <link rel="alternate" href="/2013/12/03/improve-productivity-in-office.html"/>
@@ -32,7 +122,8 @@
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;其实不管是远程办公还是本地办公，最终的诉求都是要更高效的工作，提供更好的工作成果。但是，怎样才算是更高效，更好的工作成果？最直觉的评判是，像我们做 Consulting 的时候按照时薪计费，看 Terry 的 &lt;a href="http://terrytai.com/salary-from-50rmb-to-100usd"&gt; 「我如何把薪水从 50 人民币/天提升到 100 美元/小时的」&lt;/a&gt; 系列文章，那么，是否是我们在一个小时内有更多的产出就是高效？ 如果是体力工作者，可以说是对的，比如富士康车间，一个工人生产出了更多的机器就可以认为是更高效。但是对于脑力工作者&amp;hellip;. 这不科学啊，因为除了数量还有质量，同样是我们，不能说是写了更多行的代码就是更高效，也不能说是完成了更多个功能就是更高效，抑或其他。所以，只能依赖一些不靠谱的可以量化的数据，比如在办公室呆了多久。但是，有一点每个人都会知道的是，办公室是不是你工作效率最高的地方？停下来仔细想想，我相信很多人会说不是，比如很多工程师在夜深人静时，编码如泉涌，两三个小时做的事会等于或者超过白天在办公室的八个小时。所以，如何提高在办公室的工作效率，如何科学使用办公室资源，是一个很值得团队思考的问题。&lt;/p&gt;
-</summary>
+
+&lt;p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;img alt="Productivity City" src="/images/improve-productivity-in-office/productivity-city.png?1386091073" /&gt;&lt;/p&gt;
 
 &lt;p&gt;上个月在北京的时候去拜访了一下&lt;a href="http://litianfang.com/"&gt;天放&lt;/a&gt;，&lt;a href="http://kechenggezi.com"&gt;课程格子&lt;/a&gt;有两项措施我特别喜欢，一个是 productivity city，如上图，是在办公室里隔出来的非常独立的一个小房间，里面不准说话，手机必须静音，同时这个房间不能超过三个人。天放介绍了一下这个是给团队成员需要专注工作时提供的一个特殊场所。另一点是天放给所以员工提供了住房补贴，鼓励团队的人住在公司边上，这样就可以不用浪费时间在交通上，以一个饱满的状态进入工作状态。&lt;/p&gt;
@@ -116,7 +207,8 @@
 &lt;h3&gt;目标一致&lt;/h3&gt;
 
 &lt;p&gt;不仅要确保团队的长期目标一致，还要确保短期目标一致。如同在足球场踢球，刚开始比赛时，大家战术和思想都是一致的。而一旦进球后，就会出现有人想守，有人想攻的情况，这种不一致会造成局面被动并可能导致输球。创业团队也是如此。所以在任何时候，团队成员都要保持一致意见：现阶段的目标是什么，什么事情对团队最重要，然后所有做的事情都配合这个目标来完成。&lt;/p&gt;
-</summary>
+
+&lt;p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
   &lt;blockquote&gt;
     &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 10 月刊的文章。内容跟其他几篇博文有重叠的地方，大家凑合着看。&lt;/p&gt;
@@ -199,7 +291,7 @@
     <author>
       <name>Dingding Ye</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Show Me" src="/images/how-to-find-tech-cofounder/show-me.jpg?1384953321" /&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img alt="Show Me" src="/images/how-to-find-tech-cofounder/show-me.jpg?1384953321"&gt;&lt;/p&gt;
 
 &lt;p&gt;昨天在 36kr 看到一篇文章很有意思，&lt;a href="http://www.36kr.com/p/206766.html"&gt;「为什么很多技术合伙人参与创业时会先谈钱」&lt;/a&gt;，其实简单说就是信任问题，要不对人缺乏信任，要不对要做的事情还缺乏信任。因为一个靠谱的技术人员，可能这种场景又见多了，一开始会出于保护先以怀疑的眼光看待整个事情。比如下面这两个桥段，很多技术朋友都觉得很熟悉。&lt;/p&gt;
 
@@ -217,8 +309,11 @@
 
 &lt;h3&gt;启动项目的机会成本&lt;/h3&gt;
 
-&lt;p&gt;假设真的启动一个创业项目，表示大家对产品方向的认可，意味着不出意外会在这个产品至少花一两年甚至更久。可是对于技术人员来说，在职业生涯中还有多少个可以折腾的一两年，还有多少次试错的机会。思考的成本是很低的，但是一旦项目开始启动，时间成本机会成本都是巨大的。所以，做为一个技术人员，对待那些拍脑袋想出的 idea，不会说我们做出来试试吧，然后花上个几个月半年的时间奉献自己。相反，会看看你到底有多少诚意，会故意&amp;quot;刁难&amp;quot;你，了解你是否愿意花钱去做这个产品，逼迫你去想得更清楚。&lt;/p&gt;
-</summary>
+&lt;p&gt;假设真的启动一个创业项目，表示大家对产品方向的认可，意味着不出意外会在这个产品至少花一两年甚至更久。可是对于技术人员来说，在职业生涯中还有多少个可以折腾的一两年，还有多少次试错的机会。思考的成本是很低的，但是一旦项目开始启动，时间成本机会成本都是巨大的。所以，做为一个技术人员，对待那些拍脑袋想出的 idea，不会说我们做出来试试吧，然后花上个几个月半年的时间奉献自己。相反，会看看你到底有多少诚意，会故意"刁难"你，了解你是否愿意花钱去做这个产品，逼迫你去想得更清楚。&lt;/p&gt;
+
+&lt;h3&gt;你是否真的是找技术合伙人&lt;/h3&gt;
+
+&lt;p&gt;回过头来，仔细思考一下，你是否真的是在找一个技术合伙人，&lt;strong&gt;合伙人&lt;/strong&gt;。技术合伙人相当于 CTO 的角色，业务理解、架构设计、编...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;img alt="Show Me" src="/images/how-to-find-tech-cofounder/show-me.jpg?1384953321" /&gt;&lt;/p&gt;
 
 &lt;p&gt;昨天在 36kr 看到一篇文章很有意思，&lt;a href="http://www.36kr.com/p/206766.html"&gt;「为什么很多技术合伙人参与创业时会先谈钱」&lt;/a&gt;，其实简单说就是信任问题，要不对人缺乏信任，要不对要做的事情还缺乏信任。因为一个靠谱的技术人员，可能这种场景又见多了，一开始会出于保护先以怀疑的眼光看待整个事情。比如下面这两个桥段，很多技术朋友都觉得很熟悉。&lt;/p&gt;
@@ -293,7 +388,11 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
-</summary>
+
+&lt;p&gt;在选择代码级别的项目管理工作流程的时候，我们希望能达到这样的目标：&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;
+&lt;strong&gt;能够持续交付&lt;/strong&gt;：我们没有固定的发布周期，而是一个更改通过审查就可以直接上线，这样我们才能很快地发布新的功能或者 bug 修复，也能快速地...&lt;/li&gt;&lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html"&gt;「让代码审核成为你的团队习惯」&lt;/a&gt; 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -334,11 +433,11 @@
 
 &lt;p&gt;我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。之所以基于 master，正是因为上面提到过 master 永远是可以部署的分支，那么基于 master 开的分支就可以直接被 merge 回 master 做发布。&lt;/p&gt;
 &lt;pre class="highlight plaintext"&gt;(yedingding)$ ~/Pragmatic.ly › git checkout -b 754_usage_analytics -t master
-Switch to a new branch named &amp;quot;754_usage_analytics&amp;quot;
+Switch to a new branch named "754_usage_analytics"
 (terry)$ ~/Pragmatic.ly › git checkout -b 746_integrate_mobile -t master
-Switch to a new branch named &amp;quot;746_integrate_mobile&amp;quot;
+Switch to a new branch named "746_integrate_mobile"
 (roy)$ ~/Pragmatic.ly › git checkout -b 77_comment_via_email -t master
-Switch to a new branch named &amp;quot;77_comment_via_email&amp;quot;
+Switch to a new branch named "77_comment_via_email"
 &lt;/pre&gt;
 &lt;p&gt;从分支创建例子上来看，我们是按照 &amp;lt;sid&amp;gt;&amp;#95;&amp;lt;ticket title&amp;gt; 的方式来命名。sid 是这个任务在 Pragmatic.ly 的任务 ID，ticket title 是任务在 Pragmatic.ly 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 中，比如提交到 754&amp;#95;usage&amp;#95;analytics 的 commits 会自动关联到 Pragmatic.ly 这个任务的动态里，也可以在 commit 消息里加上 &amp;ldquo;ref #754&amp;rdquo;, &amp;ldquo;resolved #754&amp;rdquo; 这样的文本，也会自动做关联，如下图。&lt;/p&gt;
 
@@ -384,7 +483,8 @@ Switch to a new branch named &amp;quot;77_comment_via_email&amp;quot;
 &lt;p&gt;人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。&lt;/p&gt;
 
 &lt;p&gt;在我们 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 的实践中，代码审查给我们带来的三点好处。&lt;/p&gt;
-</summary>
+
+&lt;p&gt;</summary>
     <content type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;「远程工作经验谈 - 如何适应及如何管理」&lt;/a&gt; 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。&lt;/p&gt;
 
 &lt;p&gt;在 &lt;a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5"&gt;Wikipedia&lt;/a&gt; 上，对代码审查的定义是&lt;/p&gt;
@@ -445,98 +545,6 @@ Switch to a new branch named &amp;quot;77_comment_via_email&amp;quot;
 &lt;p&gt;以上就是我们团队在代码审查上的经验和思考，希望对你有帮助。让代码审查融入团队的血液，成为你们的工作习惯，绝对会是你们在团队管理上做出的最正确的决定之一，去尝试吧！如果对于代码审查实践或者团队管理上面有任何想交流的，欢迎随时联系我，任何我列出的联系方式都可以。&lt;/p&gt;
 
 &lt;p&gt;最后，上篇博客最后一段很有用，收获了不少关注者，所以故伎重演，XD。如果你读到这里了，那么你应该在微博上&lt;a href="http://weibo.com/presently"&gt;加我为好友&lt;/a&gt;。我也会在 &lt;a href="http://weibo.com/pragmaticly"&gt;Pragmatic.ly 微博账号&lt;/a&gt;发布更多关于团队协作、团队管理方面的思考。谢谢！&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>远程工作经验谈 - 如何适应及如何管理</title>
-    <link rel="alternate" href="/2013/07/24/remote-team-the-things-you-should-know.html"/>
-    <id>/2013/07/24/remote-team-the-things-you-should-know.html</id>
-    <published>2013-07-24T00:00:00Z</published>
-    <updated>2013-07-24T00:00:00Z</updated>
-    <author>
-      <name>Dingding Ye</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1384953321" /&gt;
-前记：本文源于我在知乎上回答的&lt;a href="http://www.zhihu.com/question/20011303/answer/17978689"&gt;「团队成员都在异地办公有哪些优劣？」&lt;/a&gt;。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。&lt;/p&gt;
-
-&lt;p&gt;算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。&lt;/p&gt;
-
-&lt;h3&gt;团队&lt;/h3&gt;
-
-&lt;p&gt;当我们说到团队适不适合远程工作时，这里会有两层意思：一是团队里的个人是否适合远程工具，二是这个团队适不适合远程工作。&lt;/p&gt;
-
-&lt;h4&gt;团队个人&lt;/h4&gt;
-
-&lt;p&gt;远程工作远不是人们想像中的自由状态，想工作就工作，不想工作就不工作。所以并不是所有人都适合远程工作，只有自律且耐得住寂寞的人才适合远程工作。“自律”，说易行难，却很重要，你在一个完全没有监督的环境，有大把的时间供你挥霍，你能否迅速调整到最佳工作状态，是工作成败的一个很关键因素。如果说当你对所做的事情充满激情而能努力工作的话，那么当激情退却的时候，能否仍然保持自律是个更大的挑战。“耐得住寂寞”是另外一个要求，即使你在一个团队里，大多数时候没有人说话，没有人扯淡，也没有人讨论，甚至当你无法很好把握生活和工作的平衡时有时一天也出不了一次门说不了几句话，所以如果你很看重或热衷职场社交活动的话，那么远程工作并不适合你。然而，一旦你习惯了这种工作方式，你会发现你可以选择更自由的工作方式，有更多的时间可以用来学习，也有更多的时间可以陪伴家人，你会喜欢上这种感觉，:)&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;&lt;img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1384953321" /&gt;
-前记：本文源于我在知乎上回答的&lt;a href="http://www.zhihu.com/question/20011303/answer/17978689"&gt;「团队成员都在异地办公有哪些优劣？」&lt;/a&gt;。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。&lt;/p&gt;
-
-&lt;p&gt;算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。&lt;/p&gt;
-
-&lt;h3&gt;团队&lt;/h3&gt;
-
-&lt;p&gt;当我们说到团队适不适合远程工作时，这里会有两层意思：一是团队里的个人是否适合远程工具，二是这个团队适不适合远程工作。&lt;/p&gt;
-
-&lt;h4&gt;团队个人&lt;/h4&gt;
-
-&lt;p&gt;远程工作远不是人们想像中的自由状态，想工作就工作，不想工作就不工作。所以并不是所有人都适合远程工作，只有自律且耐得住寂寞的人才适合远程工作。“自律”，说易行难，却很重要，你在一个完全没有监督的环境，有大把的时间供你挥霍，你能否迅速调整到最佳工作状态，是工作成败的一个很关键因素。如果说当你对所做的事情充满激情而能努力工作的话，那么当激情退却的时候，能否仍然保持自律是个更大的挑战。“耐得住寂寞”是另外一个要求，即使你在一个团队里，大多数时候没有人说话，没有人扯淡，也没有人讨论，甚至当你无法很好把握生活和工作的平衡时有时一天也出不了一次门说不了几句话，所以如果你很看重或热衷职场社交活动的话，那么远程工作并不适合你。然而，一旦你习惯了这种工作方式，你会发现你可以选择更自由的工作方式，有更多的时间可以用来学习，也有更多的时间可以陪伴家人，你会喜欢上这种感觉，:)&lt;/p&gt;
-
-&lt;h4&gt;团队情感&lt;/h4&gt;
-
-&lt;p&gt;如果你找到了自律并耐得住寂寞的人一起工作，那么恭喜你。下面就是你得信任他，100% 的信任，如果你花时间去思考他到底是不是在用心工作的话，或者你并不相信他能做好这个任务的话，那事情就难办了。而信任关系，很多时候是依靠团队的情感基础。所以，一个完全陌生的团队，是不适合远程工作的。如果一定要，一定要尽量多做团队建设，可以每隔一段时间就组织一次，加强情感交流。短时间的面对面的交流对团队的凝聚力是个很大的帮助，最后会感觉做事情顺多了，效率也提高了。否则沟通时会有所顾忌，毕竟当团队不熟的时候，开个玩笑都不太确定别人接受程度如何，而过于严肃的讨论有时会成为一种负担。另外，如果可能的话，也可以尝试做线上团队建设，比如我在 Intridea 时就组织了个 teahour，也就是目前 &lt;a href="http://teahour.fm"&gt;Teahour.FM&lt;/a&gt; 的前身，一段非常美好的回忆，对整个团队打成一片非常有帮助。&lt;/p&gt;
-
-&lt;h3&gt;工具&lt;/h3&gt;
-
-&lt;p&gt;当远程团队建立起来以后，大家为了一个共同的目标一起努力，是一件非常有意义的事。我们必须得承认，不管如何远程办公的沟通成本是远远大于面对面交流的，所以远程团队更需要好的效率工具来辅助，让团队即使远程也能很高效的工作。在我们团队，主要使用的有五个应用： &lt;a href="http://skype.com"&gt;Skype&lt;/a&gt;， &lt;a href="https://hipchat.com"&gt;Hipchat&lt;/a&gt;， &lt;a title="团队高效协作软件" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;， &lt;a href="https://dropbox.com"&gt;Dropbox&lt;/a&gt;， &lt;a href="https://www.google.com/intl/zh-CN/enterprise/apps/business/"&gt;Google Apps&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Collaboration Tools" src="/images/remote-team-the-things-you-should-know/collaboration-tools.jpg?1384953321" /&gt;&lt;/p&gt;
-
-&lt;h4&gt;Skype&lt;/h4&gt;
-
-&lt;p&gt;对于 Skype，我们基本只用做会议工具，而很少使用聊天功能。当我们需要做头脑风暴的时候，订每周计划或者站立会议的时候，直接语音远比文本高效。 Skype 的语音质量并不是非常的稳定，但是至少在目前这个点上，我还没遇到一个能让我们团队同时在线语音会议的更好选择，别说 Google 环聊，有墙的世界真的很烂。&lt;/p&gt;
-
-&lt;h4&gt;Hipchat&lt;/h4&gt;
-
-&lt;p&gt;超好用的群组聊天工具，而且可以很方便的跟第三方服务做集成。我们基本上在上面讨论事情和共享信息，当然也顺便扯扯淡。&lt;a href="https://hipchat.com"&gt;Hipchat&lt;/a&gt; 让我最喜欢的是它的简单性，基于它的 API 也有很多可以做，比如每次部署时都会发消息到 Hipchat，每次有新的用户意见也会发消息到 Hipchat，等等。不过我几乎不用他的 1-to-1 聊天，也基本只开一个房间。&lt;/p&gt;
-
-&lt;h4&gt;Pragmatic.ly&lt;/h4&gt;
-
-&lt;p&gt;我们自己创业的项目，本身就是为了让团队专注高效的工作，能非常简单地集成到工作流程，很方便地进行计划安排，进度跟踪和沟通交流。我们基本每周在 Skype 上开完计划会议之后，就把要做的任务创建到 &lt;a title="高效任务管理工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 上，之后大家所有关于任务的安排、执行、讨论等就直接用工具了，不再需要同步状态，不再需要动不动就骚扰其他人，始终让团队保持在专注高效的状态，极大地提升了我们的协作效率。&lt;/p&gt;
-
-&lt;h4&gt;Dropbox&lt;/h4&gt;
-
-&lt;p&gt;如果你还没开始在团队里使用 Dropbox，我还能说什么呢，:)  我们用 Dropbox 来分享公司内部文档，书籍和一些设计稿。Dropbox 能把文件管理做到如此简单，值得很多产品学习。我希望未来 Pragmatic.ly 也能把团队协作、任务管理做到如 Dropbox 般简单，当然，仍然不失高效！&lt;/p&gt;
-
-&lt;h4&gt;Google Apps&lt;/h4&gt;
-
-&lt;p&gt;我们并不是 Google Apps 的重度用户，但是我们是 GMail 的重度用户，让我能即时的了解 Pragmatic.ly 项目里发生的近况，也是我们联系用户的纽带。Google Docs 和 Google Spreadsheets 我们偶尔也用，其强大的协同写文系统和文档留言系统是我们最喜欢的，只是在国内访问实在很糟糕，逼迫我们要科学上网。&lt;/p&gt;
-
-&lt;h3&gt;规则&lt;/h3&gt;
-
-&lt;p&gt;有了靠谱的人，有了靠谱的工具，那么是否就意味着远程团队就一定好管理呢？其实不然，还要有靠谱的规则。而规则也正是联系团队和工具之间的桥梁。我们自己在工作中就有下面的几个规则。&lt;/p&gt;
-
-&lt;h4&gt;免扰模式&lt;/h4&gt;
-
-&lt;p&gt;因为沟通成本高，所以我们需要更谨慎的沟通方式。我们不鼓励在工作时随意地打断别人，即使是一起在办公室工作时。相反，我们要求每个人如果需要讨论，想清楚整个问题，然后在 Pragmatic.ly 或者 Hipchat 里发出来。短时间来看可能回复会有延时，但从长期来看反而能让大家都能更深入的思考，更专注的工作，对我们来说是个更好的方式。&lt;/p&gt;
-
-&lt;h4&gt;代码审查&lt;/h4&gt;
-
-&lt;p&gt;做为开发团队，我们不一定能保证每个任务都有充足的测试覆盖而且我们也不追求 100% 覆盖率。但是，每一段代码，每一次修改，必须要有其他人来审查，验收通过后才会被进入主干。这样既能保证代码质量，也能确保每一部分都至少有两个人了解。&lt;/p&gt;
-
-&lt;h4&gt;流程审查&lt;/h4&gt;
-
-&lt;p&gt;除了代码，过程也是一个很有审查必要的事情。所以我们每隔一段时间，会一起进行一个简单的回顾，各自对这个周期的一些工作提出意见。迭代式调整，迭代式改进，让我们根据自身的情况，不停地实践出到最适合团队的工作流程。&lt;/p&gt;
-
-&lt;h4&gt;易者优先&lt;/h4&gt;
-
-&lt;p&gt;如果讨论时遇到意见分歧，且这些不一致的意见不涉及对错，那么会很容易陷入到各自试图说服别人接受自己观点的困境，尤其是在远程工作时，因为缺乏面对面交流时的表情和肢体语言，纯属浪费时间。所以我们采用易者优先原则，设置了单任务最长讨论时间，一旦超过无法达成共识，就会选择最简单的方案，做出来测试看再做改进。&lt;/p&gt;
-
-&lt;h3&gt;建议&lt;/h3&gt;
-
-&lt;p&gt;基本这些就是我在远程工作上的思考和经验，希望对你有帮助。如果国内也能有更多的团队接受远程工作。让大家把浪费在交通等上的时间拿来工作，绝对是在给社会做贡献。最后再说一句，远程工作非常适合需求明确的项目，比如外包，因为你不需要去试方向试错，只要照着需求做就可以了。而对于创业，前面的路是不可知的，需要团队不断试错，要经常地头脑风暴，快速前进，所以除非团队已经熟悉到了一定程度，不然还是建议本地办公，或者在相对距离近的地方办公，也就是见面的成本要低。&lt;/p&gt;
-
-&lt;p&gt;最后，如果你读到这里了，那么你应该在微博上&lt;a href="http://weibo.com/presently"&gt;加我为好友&lt;/a&gt;。我也会在 &lt;a href="http://weibo.com/pragmaticly"&gt;Pragmatic.ly 微博账号&lt;/a&gt;发布更多关于远程工作、团队协作方面的思考。如果你有任何想交流的，可以随时通过我博客的几种联系方式联系我。&lt;/p&gt;
 </content>
   </entry>
 </feed>
