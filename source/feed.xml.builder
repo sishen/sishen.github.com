@@ -1,7 +1,7 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title "The Voice of Dingding Ye"
-  xml.subtitle "Share Fun, Life and Thoughts in Pragmatic.ly"
+  xml.subtitle "Share Fun, Life and Thoughts in Fengche.co"
   xml.id "http://yedingding.com"
   xml.link "href" => "http://yedingding.com/"
   xml.link "href" => "http://yedingding.com/feed.xml", "rel" => "self"

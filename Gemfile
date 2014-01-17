@@ -1,12 +1,10 @@
-ruby "1.9.3"
-
-source :rubygems
+source "https://rubygems.org"
 
 gem "thin"
 gem "rack-contrib"
 
 gem "middleman"
-gem "middleman-blog", "~> 3.1.1"
+gem "middleman-blog"
 gem "middleman-livereload", :git => "git://github.com/middleman/middleman-livereload.git"
 gem "middleman-smusher", :git => "git://github.com/middleman/middleman-smusher.git"
 gem "middleman-syntax", :git => "git://github.com/middleman/middleman-syntax.git"
@@ -23,6 +21,8 @@ gem "pygments.rb"
 
 # Faster JSON
 gem 'oj'
+
+gem 'nokogiri'
 
 group :development do
   gem 'foreman'
