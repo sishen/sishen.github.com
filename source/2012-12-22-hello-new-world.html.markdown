@@ -1,24 +1,24 @@
 ---
 title: Hello New World
 date: 2012-12-22 16:00 +08:00
-tags: surviver, hello, pragmatic.ly
+tags: surviver, hello, fengche.co
 ---
 
 ![2012](hello-new-world/2012-movie.jpg "2012")
 
 ```ruby
-Robot.new('yedingding').say(['tech', 'life', 'fun']).in('Pragmatic.ly')
+Robot.new('yedingding').say(['tech', 'life', 'fun']).in('Fengche.co')
 ```
 
 Hey, I'm Dingding Ye. If you can see this post, you're lucky enough to be as
 me to be survived when the end of world counted down. Thanks God!
 
 I'm a father, son, husband and also Co-Founder of the
-[Pragmatic.ly](https://pragmatic.ly) team. Few one cares yesterday but
+[Fengche.co](https://fengche.co) team. Few one cares yesterday but
 I hope now it's different. Life is beautiful, we love until we die. As
 a surviver, I want to make life more meaningful and that's the driving
-force to make Pragmatic.ly better and better. I believe Tech startups
-are the future of the world and I hope Pragmatic.ly can help tech
+force to make Fengche.co better and better. I believe Tech startups
+are the future of the world and I hope Fengche.co can help tech
 startup better working on their startups. Feel free to tell me if you
 hate it and why. Thanks!
 

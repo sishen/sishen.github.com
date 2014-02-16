@@ -19,7 +19,7 @@ disqus_identifier: "dig-into-code-review"
 
 人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。
 
-在我们 [Pragmatic.ly](https://pragmatic.ly "团队高效协作工具") 的实践中，代码审查给我们带来的三点好处。
+在我们 [Fengche.co](https://fengche.co "团队高效协作工具") 的实践中，代码审查给我们带来的三点好处。
 
 READMORE
 
@@ -37,11 +37,11 @@ READMORE
 
 ### 我们团队如何做代码审查
 
-我在 [Intridea](http://intridea.com) 和 [Pragmatic.ly](https://pragmatic.ly "团队协作软件") 做项目管理时都做代码审查，主要尝试过两种方式，最常用的是 Github 倡导的 Pull Request，还有就是结对编程。
+我在 [Intridea](http://intridea.com) 和 [Fengche.co](https://fengche.co "团队协作软件") 做项目管理时都做代码审查，主要尝试过两种方式，最常用的是 Github 倡导的 Pull Request，还有就是结对编程。
 
 #### Pull Request
 
-这是我们最常用的方式，我们用 [Pragmatic.ly](https://pragmatic.ly "敏捷项目管理工具") 做项目管理，用 [BitBucket](https://bitbucket.org) 做代码版本控制系统。每个任务都会基于线上版本开一个新的分支，当任务完成后，提交推送到 BitBucket 的时候，会自动的关联这个提交到 Pragmatic.ly 中，也创建了一个 Pull Request。当有 Pull Request 出现时，我们的原则是谁有空谁审查，并不指派到人。整个审查过程，提意见，做修改，直到被通过，等待上线。具体例子可以见下图，
+这是我们最常用的方式，我们用 [Fengche.co](https://fengche.co "敏捷项目管理工具") 做项目管理，用 [BitBucket](https://bitbucket.org) 做代码版本控制系统。每个任务都会基于线上版本开一个新的分支，当任务完成后，提交推送到 BitBucket 的时候，会自动的关联这个提交到 Fengche.co 中，也创建了一个 Pull Request。当有 Pull Request 出现时，我们的原则是谁有空谁审查，并不指派到人。整个审查过程，提意见，做修改，直到被通过，等待上线。具体例子可以见下图，
 
 ![Activity](http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png)
 
@@ -63,4 +63,4 @@ READMORE
 
 以上就是我们团队在代码审查上的经验和思考，希望对你有帮助。让代码审查融入团队的血液，成为你们的工作习惯，绝对会是你们在团队管理上做出的最正确的决定之一，去尝试吧！如果对于代码审查实践或者团队管理上面有任何想交流的，欢迎随时联系我，任何我列出的联系方式都可以。
 
-最后，上篇博客最后一段很有用，收获了不少关注者，所以故伎重演，XD。如果你读到这里了，那么你应该在微博上[加我为好友](http://weibo.com/presently)。我也会在 [Pragmatic.ly 微博账号](http://weibo.com/pragmaticly)发布更多关于团队协作、团队管理方面的思考。谢谢！
+最后，上篇博客最后一段很有用，收获了不少关注者，所以故伎重演，XD。如果你读到这里了，那么你应该在微博上[加我为好友](http://weibo.com/presently)。我也会在 [Fengche.co 微博账号](http://weibo.com/pragmaticly)发布更多关于团队协作、团队管理方面的思考。谢谢！

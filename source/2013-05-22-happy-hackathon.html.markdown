@@ -34,8 +34,8 @@ disqus_identifier: 'happy-hackathon'
 3. 一个好的协作工具。48 小时开发是非常高强度的，交流可以靠吼，进度控制管理必须靠工具，这样团队的每个人才能专注开发。
 4. 做什么不是关键，相信大家平时会有很多创意，随便选个，最主要是玩的尽兴，不是吗？
 
-比如我们在做 [Call4Review](http://call4review.com) 时，提前一两周确定一个最小化的需求分析，然后把所有要做的事情都记在 [Pragmatic.ly](https://pragmatic.ly) 上，比赛时在上面协作沟通，非必要时尽量不干扰团队其他成员，但是每个人又都很清楚进度情况，非常高效。
+比如我们在做 [Call4Review](http://call4review.com) 时，提前一两周确定一个最小化的需求分析，然后把所有要做的事情都记在 [Fengche.co](https://fengche.co) 上，比赛时在上面协作沟通，非必要时尽量不干扰团队其他成员，但是每个人又都很清楚进度情况，非常高效。
 
-6 月 1 号儿童节，杭州， [2013 CodeJam](http://segmentfault.com/codejam-2013)，有没有人愿意出来跟我们 [Pragmatic.ly](https://pragmatic.ly) 团队交流交流，:) 让我们以程序员的方式像孩子一样狂欢吧！
+6 月 1 号儿童节，杭州， [2013 CodeJam](http://segmentfault.com/codejam-2013)，有没有人愿意出来跟我们 [Fengche.co](https://fengche.co) 团队交流交流，:) 让我们以程序员的方式像孩子一样狂欢吧！
 
 PS: 据说适逢 [SegmentFault](http://segmentfault.com) 一周年, 不知道高阳会给我们什么惊喜，哈！

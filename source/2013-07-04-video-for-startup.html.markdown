@@ -5,7 +5,7 @@ tags: startup, tools, video
 disqus_identifier: 'startup-videos'
 ---
 
-![Pragmatic.ly Tour Video](video-for-startup/example.png)
+![Fengche.co Tour Video](video-for-startup/example.png)
 
 前天在微博上发了一条消息介绍视频托管服务 [Wista](http://wistia.com)，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。
 
@@ -23,7 +23,7 @@ disqus_identifier: 'startup-videos'
 
 #### Wistia
 
-[Wistia](http://wistia.com) 是目前 [Pragmatic.ly](https://pragmatic.ly) 在用的视频托管商，你可以[点击这里](https://pragmatic.ly/tour)看看实际效果。作为一个还未被墙希望也不要被墙的服务，他满足了我的所有需求。国内访问数据快，根据带宽自动调整视频码率，基本看到的都是非常清晰的版本。另外一点值得一说的，Wistia 还有强大的视频分析能力，可以通过这个分析视频的转化率等，可以看下图。集成方面，Wistia 支持 iframe, API 和 SEO 方式，非常简单。Wistia 额免费计划包括 3 个视频和 5G 流量，初期也够用了。
+[Wistia](http://wistia.com) 是目前 [Fengche.co](https://fengche.co) 在用的视频托管商，你可以[点击这里](https://fengche.co/tour)看看实际效果。作为一个还未被墙希望也不要被墙的服务，他满足了我的所有需求。国内访问数据快，根据带宽自动调整视频码率，基本看到的都是非常清晰的版本。另外一点值得一说的，Wistia 还有强大的视频分析能力，可以通过这个分析视频的转化率等，可以看下图。集成方面，Wistia 支持 iframe, API 和 SEO 方式，非常简单。Wistia 额免费计划包括 3 个视频和 5G 流量，初期也够用了。
 
 ![Wistia Analytics](video-for-startup/wistia-analytics.png)
 
@@ -58,15 +58,15 @@ disqus_identifier: 'startup-videos'
 
 #### 几分钟网
 
-[几分钟工作室](http://www.jifenzhong.com/sub/video_studio.html)是一个国内的专业视频创意工作室。[几分钟网](http://jifenzhong.com)里的视频就是他们自主拍摄的。最近他们也推出了专业的视频制作服务，满让我期待的。我跟他们的创始人[叶睿智](http://weibo.com/yeruizhi)在 QQ 上沟通了一下，很认可他们的服务，无论前期后期都会全程参与，而且在价格上也基本是大多数创业团队能接受的，我很有兴趣和他们合作拍一个 [Pragmatic.ly](https://pragmatic.ly) 的产品视频，如果你也有兴趣，可以直接微博上 @ 他。
+[几分钟工作室](http://www.jifenzhong.com/sub/video_studio.html)是一个国内的专业视频创意工作室。[几分钟网](http://jifenzhong.com)里的视频就是他们自主拍摄的。最近他们也推出了专业的视频制作服务，满让我期待的。我跟他们的创始人[叶睿智](http://weibo.com/yeruizhi)在 QQ 上沟通了一下，很认可他们的服务，无论前期后期都会全程参与，而且在价格上也基本是大多数创业团队能接受的，我很有兴趣和他们合作拍一个 [Fengche.co](https://fengche.co) 的产品视频，如果你也有兴趣，可以直接微博上 @ 他。
 
 #### 自己制作
 
-如果因为各种原因觉得以上几种都不行，你也可以选择全部自己制作。我们的 [2 分钟产品介绍](https://pragmatic.ly/tour) 就是这样子的，主要是用了 [Screenflower](http://www.telestream.net/screenflow/) 录屏幕再加后期配音。基本没什么特效，因为 [Motion](https://www.apple.com/finalcutpro/motion/) 太复杂，买了没学会用....  音乐最后是找的 CC 版权的，也实在没太多好选择。
+如果因为各种原因觉得以上几种都不行，你也可以选择全部自己制作。我们的 [2 分钟产品介绍](https://fengche.co/tour) 就是这样子的，主要是用了 [Screenflower](http://www.telestream.net/screenflow/) 录屏幕再加后期配音。基本没什么特效，因为 [Motion](https://www.apple.com/finalcutpro/motion/) 太复杂，买了没学会用....  音乐最后是找的 CC 版权的，也实在没太多好选择。
 
 希望未来在国内能看到越来越多的好的产品视频，也希望有更多元化的视频类服务出现。祝大家的产品都成功，:)
 
 
-### 关于 Pragmatic.ly
+### 关于 Fengche.co
 
-[Pragmatic.ly](https://pragmatic.ly) 是一个新型的团队协作工具，致力于让中小团队更加专注、有序、高效地工作，从而创造更多的价值。如果你在寻找一款适合你们团队的协作工具或者项目管理工具，不妨一试，很期待能听到你的意见和建议，谢谢！
+[Fengche.co](https://fengche.co) 是一个新型的团队协作工具，致力于让中小团队更加专注、有序、高效地工作，从而创造更多的价值。如果你在寻找一款适合你们团队的协作工具或者项目管理工具，不妨一试，很期待能听到你的意见和建议，谢谢！

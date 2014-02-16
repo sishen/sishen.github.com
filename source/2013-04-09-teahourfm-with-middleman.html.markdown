@@ -67,7 +67,7 @@ MiddleMan 做的取巧的地方是这个框架用的所有的东西都是你平�
 如果你对 MiddleMan 项目组织方式感兴趣，可以查看 teahour.fm 源代码，目前我已经做了三个项目，包括本站，都是开源的。
 
 * [Teahour.fm Sources](https://github.com/pragmaticly/teahour.fm)
-* [Pragmatic.ly Blog Sources](https://github.com/pragmaticly/blog.pragmatic.ly)
+* [Fengche.co Blog Sources](https://github.com/pragmaticly/blog.pragmatic.ly)
 * [Blog Sources](https://github.com/sishen/sishen.github.com)
 
 ### Other Choices ###

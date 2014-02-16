@@ -6,7 +6,7 @@ tags: Rails, Refactor
 
 春节前受 [Terry](http://terrytai.com "Terry Tai's Blog") 邀请帮助国内的一个公益项目 [Re-education](https://newclass.org "开放课堂, 设计和实践综合实践课的平台") 做代码重构。开放课堂项目是由[教育大发现社区](http://sociallearnlab.org/ "教育大发现")发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 [GitHub](https://github.com/twers/re-education)，采用 Ruby on Rails 作为开发框架。
 
-很高兴我们 [Pragmatic.ly](https://pragmatic.ly) 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 [Join.me](https://join.me "Free Screen Sharing and Online Meetings") 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而__对外不改变__原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 [RailsCasts China](http://railscasts-china.com/episodes/refactor-openclass-by-dingding "#036 Refactor openclass by Dingding Ye") 观看视频。
+很高兴我们 [Fengche.co](https://fengche.co) 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 [Join.me](https://join.me "Free Screen Sharing and Online Meetings") 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而__对外不改变__原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 [RailsCasts China](http://railscasts-china.com/episodes/refactor-openclass-by-dingding "#036 Refactor openclass by Dingding Ye") 观看视频。
 
 Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 [CoC](http://en.wikipedia.org/wiki/Convention_over_Configuration "Convention over Congiuration"), [DRY](http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself "Don't Repeat Yourself")。而代码组织方式，则是按照 [MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller "Model–view–controller") 模式，推崇 "Skinny Controller, Fat Model"，把应用逻辑尽可能的放在 Models 中。
 
@@ -112,7 +112,7 @@ end
 
 #### [Concern](http://en.wikipedia.org/wiki/Concern_(computer_science) ####
 
-Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 [Put chubby models on a diet with concerns](http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns) 和 Rails 4 的相关 [commit](https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81)。具体使用可以参照上面的博客和下面我们在 [Pragmatic.ly](https://pragmatic.ly "Lean Collaborative Project Management Tool") 里的实际例子。
+Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 [Put chubby models on a diet with concerns](http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns) 和 Rails 4 的相关 [commit](https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81)。具体使用可以参照上面的博客和下面我们在 [Fengche.co](https://fengche.co "Lean Collaborative Project Management Tool") 里的实际例子。
 
 ```ruby
 module Membershipable
