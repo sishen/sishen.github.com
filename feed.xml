@@ -242,7 +242,7 @@
 
 &lt;h3&gt;免扰模式&lt;/h3&gt;
 
-&lt;p&gt;确定项目计划后，我们就基本启动了免扰模式。我们不鼓励在工作时随意地打断别人，即使是一起在办公室工作时。在我们看来，每一次粗暴的打扰（例如电话、 IM）都是对效率的损害，我们更需要的是100%专注在要做的事情上。因此，我们要求每个人如果需要讨论，就先想清楚整个问题，然后在 Pragmatic.ly 或者 HipChat 里发出来。短时间来看可能回复会有延时，但从长期来看反而能让大家都能更深入的思考、更专注的工作。&lt;/p&gt;
+&lt;p&gt;确定项目计划后，我们就基本启动了免扰模式。我们不鼓励在工作时随意地打断别人，即使是一起在办公室工作时。在我们看来，每一次粗暴的打扰（例如电话、 IM）都是对效率的损害，我们更需要的是100%专注在要做的事情上。因此，我们要求每个人如果需要讨论，就先想清楚整个问题，然后在 Fengche.co 或者 HipChat 里发出来。短时间来看可能回复会有延时，但从长期来看反而能让大家都能更深入的思考、更专注的工作。&lt;/p&gt;
 
 &lt;p&gt;尽量避免会议。只有一个例外是遇到困难需要头脑风暴时，因为开会比起文字是效率更高的选择。但只有任务涉及者才需要参与，而不需要浪费其他人的时间。&lt;/p&gt;
 
@@ -252,7 +252,7 @@
 
 &lt;h3&gt;状态同步&lt;/h3&gt;
 
-&lt;p&gt;团队人越多，沟通成本越高，尤其是需要知道团队的当前状态时，例如目前进度如何，接下来有哪些事情要做，做完的时候需不需要其他成员帮忙审查，或者有没有卡 在某些地方需要帮助。这些状态和信息同步是非常耗时的，我们更倾向于用眼睛看代替嘴巴说，而 Pragmatic.ly 就很好地满足了这点。项目里的所有信息和状态都会实时地同步给整个团队。&lt;/p&gt;
+&lt;p&gt;团队人越多，沟通成本越高，尤其是需要知道团队的当前状态时，例如目前进度如何，接下来有哪些事情要做，做完的时候需不需要其他成员帮忙审查，或者有没有卡 在某些地方需要帮助。这些状态和信息同步是非常耗时的，我们更倾向于用眼睛看代替嘴巴说，而 Fengche.co 就很好地满足了这点。项目里的所有信息和状态都会实时地同步给整个团队。&lt;/p&gt;
 
 &lt;h3&gt;代码审查&lt;/h3&gt;
 
@@ -363,7 +363,7 @@
 
 &lt;p&gt;找到一个合适的人不容易。在启动项目的时候，一个技术人员已经能证明在技术层面上能做好这个产品，一个商业人员却不能证明一定能在商业层面上做好这个产品。所以，往台面上放点钱是个不错的方式，在原型开发过程中，你也会更容易建立这个信任关系，如果大家磨合得好，很大可能就是会从雇佣关系变成合作人关系。反之，如果你拿着一个有待证明的想法过来又不愿意出钱，不要谈激情，不要谈理想，再见！&lt;/p&gt;
 
-&lt;p&gt;如果你在技术团队建设上有任何想交流的, 我的微博是 &lt;a href="http://weibo.com/presently"&gt;@yedingding&lt;/a&gt;，欢迎随时 @ 我。祝靠谱的人找到靠谱的人! 最后记得，靠谱的团队协作工具 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 伴你在创业路，:p&lt;/p&gt;
+&lt;p&gt;如果你在技术团队建设上有任何想交流的, 我的微博是 &lt;a href="http://weibo.com/presently"&gt;@yedingding&lt;/a&gt;，欢迎随时 @ 我。祝靠谱的人找到靠谱的人! 最后记得，靠谱的团队协作工具 &lt;a href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 伴你在创业路，:p&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -387,12 +387,12 @@
     &lt;p&gt;&lt;cite&gt; - &lt;a href="http://weibo.com/u/2128792480" target="_blank"&gt;@施懿民&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
+&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
 
 &lt;p&gt;在选择代码级别的项目管理工作流程的时候，我们希望能达到这样的目标：&lt;/p&gt;
 
 &lt;ul&gt;&lt;li&gt;
-&lt;strong&gt;能够持续交付&lt;/strong&gt;：我们没有固定的发布周期，而是一个更改通过审查就可以直接上线，这样我们才能很快地发布新的功能或者 bug 修复，也能快速地...&lt;/li&gt;&lt;/ul&gt;</summary>
+&lt;strong&gt;能够持续交付&lt;/strong&gt;：我们没有固定的发布周期，而是一个更改通过审查就可以直接上线，这样我们才能很快地发布新的功能或者 bug 修复，也能快速地获得...&lt;/li&gt;&lt;/ul&gt;</summary>
     <content type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html"&gt;「让代码审核成为你的团队习惯」&lt;/a&gt; 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -405,7 +405,7 @@
     &lt;p&gt;&lt;cite&gt; - &lt;a href="http://weibo.com/u/2128792480" target="_blank"&gt;@施懿民&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
+&lt;p&gt;每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 &lt;a href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。&lt;/p&gt;
 
 &lt;p&gt;在选择代码级别的项目管理工作流程的时候，我们希望能达到这样的目标：&lt;/p&gt;
 
@@ -417,13 +417,13 @@
 
 &lt;p&gt;所以，为了达到持续交付，我们必须随时有一个可发布的分支，同时，工作分支能很简单很早的 merge 过来。为了做到随时随地的代码审查，我们必须每一次更改都要有迹可循，且和其他更改没有交叉。为了方便代码沟通，我们必须有独立的分支来做独立的事。所以，像开头列出的两种方式，首先代码审查会很麻烦，因为代码容易混在一起，不够独立，做不到异步随时审查，而需要大家一起花时间专门执行代码审查。同时，会推迟 merge 的发生，带来的更多的不确定性，比如冲突的增加，时间的拖长等等，就更不要说持续交付了。所有这些，都是效率的杀手，是应该尽量去避免的。下面看看我们的工作流程。&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="Git Flow in Pragmatic.ly" src="http://yedingding.com/images/practical-git-flow-for-startups/git-flow.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Git Flow in Fengche.co" src="http://yedingding.com/images/practical-git-flow-for-startups/git-flow.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;我们有三种性质的分支：1) Master  2) Feature or Bug 3) Staging。所有在时间线上的变化都只跟着 feature 或者 bug 走，跟人无关，也就是项目推进的自然法则。对了，版本控制系统我们用 Git，而不是 SVN，好处就不多讲了，主要是三点：1) 分布式 2) 建分支很容易 3) merge 很简单。如果你对这个不太了解，可以看看 &lt;a href="http://gitcafe.com"&gt;GitCafe&lt;/a&gt; 的 &lt;a href="https://gitcafe.com/beginning_git"&gt;开始 Git 文档&lt;/a&gt;。&lt;/p&gt;
 
 &lt;h4&gt;Master 分支&lt;/h4&gt;
 
-&lt;p&gt;对于我们而言，master 分支是非常特别的，它必须是可以部署的分支，也就是通常意义上的 production。比如对于 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt;，现在线上跑的等同于我们代码里的 master 分支。所以，master 上的任何代码更改都只能是从别的分支 merge 过来，在代码审查过后。&lt;/p&gt;
+&lt;p&gt;对于我们而言，master 分支是非常特别的，它必须是可以部署的分支，也就是通常意义上的 production。比如对于 &lt;a href="https://fengche.co"&gt;Fengche.co&lt;/a&gt;，现在线上跑的等同于我们代码里的 master 分支。所以，master 上的任何代码更改都只能是从别的分支 merge 过来，在代码审查过后。&lt;/p&gt;
 
 &lt;h4&gt;Feature or Bug 分支&lt;/h4&gt;
 
@@ -432,14 +432,14 @@
 &lt;p&gt;&lt;img alt="features and bugs" src="http://yedingding.com/images/practical-git-flow-for-startups/features-bugs.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。之所以基于 master，正是因为上面提到过 master 永远是可以部署的分支，那么基于 master 开的分支就可以直接被 merge 回 master 做发布。&lt;/p&gt;
-&lt;pre class="highlight plaintext"&gt;(yedingding)$ ~/Pragmatic.ly › git checkout -b 754_usage_analytics -t master
+&lt;pre class="highlight plaintext"&gt;(yedingding)$ ~/Fengche.co › git checkout -b 754_usage_analytics -t master
 Switch to a new branch named "754_usage_analytics"
-(terry)$ ~/Pragmatic.ly › git checkout -b 746_integrate_mobile -t master
+(terry)$ ~/Fengche.co › git checkout -b 746_integrate_mobile -t master
 Switch to a new branch named "746_integrate_mobile"
-(roy)$ ~/Pragmatic.ly › git checkout -b 77_comment_via_email -t master
+(roy)$ ~/Fengche.co › git checkout -b 77_comment_via_email -t master
 Switch to a new branch named "77_comment_via_email"
 &lt;/pre&gt;
-&lt;p&gt;从分支创建例子上来看，我们是按照 &amp;lt;sid&amp;gt;&amp;#95;&amp;lt;ticket title&amp;gt; 的方式来命名。sid 是这个任务在 Pragmatic.ly 的任务 ID，ticket title 是任务在 Pragmatic.ly 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 &lt;a href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 中，比如提交到 754&amp;#95;usage&amp;#95;analytics 的 commits 会自动关联到 Pragmatic.ly 这个任务的动态里，也可以在 commit 消息里加上 &amp;ldquo;ref #754&amp;rdquo;, &amp;ldquo;resolved #754&amp;rdquo; 这样的文本，也会自动做关联，如下图。&lt;/p&gt;
+&lt;p&gt;从分支创建例子上来看，我们是按照 &amp;lt;sid&amp;gt;&amp;#95;&amp;lt;ticket title&amp;gt; 的方式来命名。sid 是这个任务在 Fengche.co 的任务 ID，ticket title 是任务在 Fengche.co 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 &lt;a href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 中，比如提交到 754&amp;#95;usage&amp;#95;analytics 的 commits 会自动关联到 Fengche.co 这个任务的动态里，也可以在 commit 消息里加上 &amp;ldquo;ref #754&amp;rdquo;, &amp;ldquo;resolved #754&amp;rdquo; 这样的文本，也会自动做关联，如下图。&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Activity" src="http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png" /&gt;&lt;/p&gt;
 
@@ -482,7 +482,7 @@ Switch to a new branch named "77_comment_via_email"
 
 &lt;p&gt;人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。&lt;/p&gt;
 
-&lt;p&gt;在我们 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 的实践中，代码审查给我们带来的三点好处。&lt;/p&gt;
+&lt;p&gt;在我们 &lt;a title="团队高效协作工具" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 的实践中，代码审查给我们带来的三点好处。&lt;/p&gt;
 
 &lt;p&gt;</summary>
     <content type="html">&lt;p&gt;在 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;「远程工作经验谈 - 如何适应及如何管理」&lt;/a&gt; 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。&lt;/p&gt;
@@ -496,7 +496,7 @@ Switch to a new branch named "77_comment_via_email"
 
 &lt;p&gt;人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。&lt;/p&gt;
 
-&lt;p&gt;在我们 &lt;a title="团队高效协作工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 的实践中，代码审查给我们带来的三点好处。&lt;/p&gt;
+&lt;p&gt;在我们 &lt;a title="团队高效协作工具" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 的实践中，代码审查给我们带来的三点好处。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
@@ -516,11 +516,11 @@ Switch to a new branch named "77_comment_via_email"
 
 &lt;h3&gt;我们团队如何做代码审查&lt;/h3&gt;
 
-&lt;p&gt;我在 &lt;a href="http://intridea.com"&gt;Intridea&lt;/a&gt; 和 &lt;a title="团队协作软件" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 做项目管理时都做代码审查，主要尝试过两种方式，最常用的是 Github 倡导的 Pull Request，还有就是结对编程。&lt;/p&gt;
+&lt;p&gt;我在 &lt;a href="http://intridea.com"&gt;Intridea&lt;/a&gt; 和 &lt;a title="团队协作软件" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 做项目管理时都做代码审查，主要尝试过两种方式，最常用的是 Github 倡导的 Pull Request，还有就是结对编程。&lt;/p&gt;
 
 &lt;h4&gt;Pull Request&lt;/h4&gt;
 
-&lt;p&gt;这是我们最常用的方式，我们用 &lt;a title="敏捷项目管理工具" href="https://pragmatic.ly"&gt;Pragmatic.ly&lt;/a&gt; 做项目管理，用 &lt;a href="https://bitbucket.org"&gt;BitBucket&lt;/a&gt; 做代码版本控制系统。每个任务都会基于线上版本开一个新的分支，当任务完成后，提交推送到 BitBucket 的时候，会自动的关联这个提交到 Pragmatic.ly 中，也创建了一个 Pull Request。当有 Pull Request 出现时，我们的原则是谁有空谁审查，并不指派到人。整个审查过程，提意见，做修改，直到被通过，等待上线。具体例子可以见下图，&lt;/p&gt;
+&lt;p&gt;这是我们最常用的方式，我们用 &lt;a title="敏捷项目管理工具" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 做项目管理，用 &lt;a href="https://bitbucket.org"&gt;BitBucket&lt;/a&gt; 做代码版本控制系统。每个任务都会基于线上版本开一个新的分支，当任务完成后，提交推送到 BitBucket 的时候，会自动的关联这个提交到 Fengche.co 中，也创建了一个 Pull Request。当有 Pull Request 出现时，我们的原则是谁有空谁审查，并不指派到人。整个审查过程，提意见，做修改，直到被通过，等待上线。具体例子可以见下图，&lt;/p&gt;
 
 &lt;p&gt;&lt;img alt="Activity" src="http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png" /&gt;&lt;/p&gt;
 
@@ -544,7 +544,7 @@ Switch to a new branch named "77_comment_via_email"
 
 &lt;p&gt;以上就是我们团队在代码审查上的经验和思考，希望对你有帮助。让代码审查融入团队的血液，成为你们的工作习惯，绝对会是你们在团队管理上做出的最正确的决定之一，去尝试吧！如果对于代码审查实践或者团队管理上面有任何想交流的，欢迎随时联系我，任何我列出的联系方式都可以。&lt;/p&gt;
 
-&lt;p&gt;最后，上篇博客最后一段很有用，收获了不少关注者，所以故伎重演，XD。如果你读到这里了，那么你应该在微博上&lt;a href="http://weibo.com/presently"&gt;加我为好友&lt;/a&gt;。我也会在 &lt;a href="http://weibo.com/pragmaticly"&gt;Pragmatic.ly 微博账号&lt;/a&gt;发布更多关于团队协作、团队管理方面的思考。谢谢！&lt;/p&gt;
+&lt;p&gt;最后，上篇博客最后一段很有用，收获了不少关注者，所以故伎重演，XD。如果你读到这里了，那么你应该在微博上&lt;a href="http://weibo.com/presently"&gt;加我为好友&lt;/a&gt;。我也会在 &lt;a href="http://weibo.com/pragmaticly"&gt;Fengche.co 微博账号&lt;/a&gt;发布更多关于团队协作、团队管理方面的思考。谢谢！&lt;/p&gt;
 </content>
   </entry>
 </feed>
