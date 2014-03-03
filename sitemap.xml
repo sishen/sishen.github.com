@@ -415,7 +415,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://yedingding.com/tags/团队协作工具,系统架构.html</loc>
+    <loc>http://yedingding.com/tags/团队协作工具.html</loc>
+    <lastmod>2014-03-04T00:00:00+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://yedingding.com/tags/系统架构.html</loc>
     <lastmod>2014-03-04T00:00:00+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
