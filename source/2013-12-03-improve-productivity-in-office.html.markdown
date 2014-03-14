@@ -3,6 +3,8 @@ title: "不要让办公室成为你的效率杀手"
 date: 2013-12-03 16:00 +08:00
 tags: 团队协作, 高效, 效率, productivity, collaboration
 disqus_identifier: "office-productivity"
+keywords: 团队协作, 高效工作, 生产力, 办公室
+description: 本文叶玎玎介绍了如何充分利用办公室带来的优势，让团队高效的工作和更好的协作，保持高生产力。
 ---
 
 ![Productivity City](improve-productivity-in-office/productivity-city.png)
@@ -47,12 +49,3 @@ READMORE
 **做正确的事情。**首先要让合适的人去做合适的事，显然让我去做视觉设计就不是在做正确的事。另外，正确的事情一般是跟时间有关，需要大家都清楚现在的目标是什么，什么是最高优先级的任务，大家各自的状态是什么，管理方式是否合理，而这些正是 Fengche.co 的巨大价值，随时让大家保持在一个节奏上，让合适的资源在正确的时间能立刻去做最适合的事。
 
 如果你在团队高效协作上有什么经验，欢迎留言分享给大家，或者加我 Skype 或者 [Weibo](http://weib.com/presently) 聊聊。如果你觉得团队目前效率不够高，不妨试试推行我上面提的几点方式，试试 [Fengche.co](https://fengche.co "高效协作工具")，它不一定是你看上去最简单的，但肯定是最适合小团队的高效协作工具。
-
-----
-<span class="footnotes">
-最后顺便帮朋友公司招人：
-
-* Strikingly 招前端工程师，坐标上海，[点这联系](http://www.strikingly.com/apply?utm_source=yedingding)。
-* 课程格子招 Rails 工程师，坐标北京，[点这联系](mailto:joinus@creatingev.com)。
-* 36氪招 Rails 工程师，坐标北京，[点这联系](mailto:hr@36kr.com)。
-</span>

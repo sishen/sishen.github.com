@@ -3,6 +3,8 @@ title: "远程工作，你准备好了吗？"
 date: 2014-01-17 18:55 +08:00
 tags: 远程工作, 异地工作, remote, remote-working
 disqus_identifier: 'are-you-ready-for-remote'
+keywords: 远程工作, remote
+description: 本文基于叶玎玎 8 年的远程工作经历，介绍了远程工作带来的好处和潜在的问题。远程工作的主要问题在于沟通交流、项目管理和信息同步上，本文介绍了风车团队是如何解决这些问题的。
 ---
 
 <aside class="aside-block">

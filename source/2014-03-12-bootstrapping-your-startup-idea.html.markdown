@@ -3,6 +3,8 @@ title: "Bootstrapping Your Startup idea"
 date: 2014-03-12 12:00 +08:00
 tags: bootstrap, startup
 disqus_identifier: 'bootstrapping-startup'
+keywords: bootstrap, 创业, 技术创业, 风车
+description: "本文基于叶玎玎在风车 Fengche.co 两年的创业实践和思考，认为对于技术创业团队来说，选择 Bootstrap 比选择投资创业更加合适，但是需要特别注意几个问题: 深思熟虑、核心价值、时间成本和发布。"
 ---
 
 <aside class="aside-block">

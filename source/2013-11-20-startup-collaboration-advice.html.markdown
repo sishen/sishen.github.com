@@ -1,8 +1,10 @@
 ---
 title: "小团队如何高效协作"
 date: 2013-11-20 18:00 +08:00
-tags: 创业, 团队协作, 高效, 小团队, startup, collaboration, productivity
+tags: 团队协作, 高效, 小团队, startup, collaboration, productivity
 disqus_identifier: "startup-collaboration-advice"
+keywords: 创业, 团队协作, 小团队, 技术团队
+description: 本文来自于叶玎玎多年在小团队工作的经验，要让小团队能高效协作，必须得目标一致、合理安排、易者优先、免扰模式、状态同步、代码审查、过程审查和健康工作。
 ---
 
 <aside class="aside-block">
@@ -65,11 +67,3 @@ READMORE
 ### 健康工作
 
 要想工作好，身体先练好。一个健康的成员才可能高效地工作，每次运动过后，我都能感觉到身心得到放松，更加容易集中注意力，思维也更加的敏捷。所以我们团队每个人基本每天都会有至少一个小时的专门的运动时间，跑步、游泳，或者健身房，我们也会互相督促做比较，让运动成为一个团队习惯。
-
-----
-<span class="footnotes">
-最后帮高大上朋友公司招人：
-
-* Strikingly 招前端工程师，坐标上海，[要求看这](http://www.strikingly.com/apply?utm_source=yedingding)。了解团队请听[这期 Teahour](http://teahour.fm/2013/08/21/strikingly-yc-and-startup.html)。
-* 课程格子招 Rails 工程师，坐标北京，[点这联系](mailto:joinus@creatingev.com)。了解团队请听[这期 Teahour](http://teahour.fm/2013/10/14/interview-with-tstyle11-about-kechenggezi.html)。
-</span>

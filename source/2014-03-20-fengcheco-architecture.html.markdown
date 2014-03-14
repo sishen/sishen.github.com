@@ -3,6 +3,8 @@ title: "『风车』技术架构介绍"
 date: 2014-03-20 10:00 +08:00
 tags: 风车, 团队协作工具, 系统架构
 disqus_identifier: 'fengcheco-architecture'
+keywords: 风车, 系统架构, 团队协作工具, Fengche.co, Rails, Spine.js
+description: 本文叶玎玎介绍了风车(Fengche.co)的系统架构。风车是一个专为中小团队打造的高效团队协作工具，基于 Rails 和 Spine.JS 的重前端应用。
 ---
 
 <aside class="aside">

@@ -3,6 +3,8 @@ title: "让代码审查成为你的团队习惯"
 date: 2013-08-08 18:00 +08:00
 tags: 团队协作, 代码审查, Code Review
 disqus_identifier: "dig-into-code-review"
+keywords: 团队协作, 代码审查, 项目管理, 代码管理
+description: 本文叶玎玎介绍了为什么需要代码审核以及风车团队是如何做代码审查。代码审查是项目管理中很重要的事情，也是保证软件质量的很重要一环。
 ---
 
 在 [「远程工作经验谈 - 如何适应及如何管理」](http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html) 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。

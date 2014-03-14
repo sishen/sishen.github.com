@@ -3,6 +3,8 @@ title: "实用 Git 工作流"
 date: "2013-09-11 2:00 +08:00"
 tags: 团队协作, git flow, 项目管理
 disqus_identifier: "practical-git-flow"
+keywords: git-flow, git, 团队协作, 项目管理, 代码管理
+description: 本文是风车团队在使用的 git 工作流，叶玎玎介绍了 Fengche.co 是遵循怎样的代码管理流程和团队之间如何协作。
 ---
 
  在 [「让代码审核成为你的团队习惯」](http://yedingding.com/2013/08/08/dig-into-code-review-process.html) 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。

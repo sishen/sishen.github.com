@@ -10,7 +10,7 @@ xml.urlset 'xmlns' => "http://www.sitemaps.org/schemas/sitemap/0.9" do
       else
         xml.lastmod Date.today.to_time.iso8601
       end
-      xml.changefreq page.data.changefreq || "monthly"
+      xml.changefreq page.data.changefreq || "weekly"
       xml.priority page.data.priority || "0.9"
     end
   end

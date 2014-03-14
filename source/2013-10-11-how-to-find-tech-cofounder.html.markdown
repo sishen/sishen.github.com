@@ -3,6 +3,8 @@ title: "如何吸引技术合伙人"
 date: 2013-10-11 11:00 +08:00
 tags: 创业, 技术合伙人, startup, technical co-founders, founders
 disqus_identifier: "how-to-find-tech-cofounder"
+keywords: 技术合作人, 创业
+description: 本文是叶玎玎在如何寻找技术合伙人上的思考。作为一个技术背景出身的创业者，叶玎玎介绍了他主要看中哪些东西，最主要的是真心想创业、能力互补和已经在为这个创业付出努力。
 ---
 
 ![Show Me](how-to-find-tech-cofounder/show-me.jpg)
