@@ -67,7 +67,7 @@
 
       <!-- Ad -->
       <div class="block ad">
-        <h4 class="block-title"><a href="https://fengche.co/" alt="风车协作">Fengche.co</a></h4>
+        <h4 class="block-title"><a href="https://fengcheco.com/" alt="风车协作">Fengche.co</a></h4>
         <p class="block-cnt">团队协作工具</p>
       </div>
 
@@ -195,7 +195,7 @@
 
 <h5>HTML5 桌面通知</h5>
 
-<p>Web Notification 是桌面端的通知，当一个跟用户相关的事件发生时，比如团队里有人分配了一个任务给你，或有人在讨论里 @ 了你，就会收到一个通知。目前 Chrome 和 Safari 已经直接支持 Web Notification，Firefox 最新版已经支持，老版本需要安装一个插件支持，而 IE 在 10 以上才支持，而且必须加入 pinned site 列表里。具体的可以参考我之前在<a href="https://fengche.co/blog/its-not-perfect-but-its-time-to-integrate-web">风车官方博客</a>里面写的这篇详细介绍 HTML5 Web Notification 的文章。</p>
+<p>Web Notification 是桌面端的通知，当一个跟用户相关的事件发生时，比如团队里有人分配了一个任务给你，或有人在讨论里 @ 了你，就会收到一个通知。目前 Chrome 和 Safari 已经直接支持 Web Notification，Firefox 最新版已经支持，老版本需要安装一个插件支持，而 IE 在 10 以上才支持，而且必须加入 pinned site 列表里。具体的可以参考我之前在<a href="https://fengcheco.com/blog/its-not-perfect-but-its-time-to-integrate-web">风车官方博客</a>里面写的这篇详细介绍 HTML5 Web Notification 的文章。</p>
 
 <p><aside class="aside">
   <img alt="Drag &amp; Drop" src="/images/fengcheco-architecture/dnd.png?1393869410" />
@@ -258,7 +258,7 @@
 </aside></p>
 
 <ol>
-<li>Rails 应用本身很好水平扩展，我们目前用 Unicorn 作为应用服务器，使用 Nginx 作为前端服务器。Unicorn 是由 GitHub 开源的一个基于 Rack 的高性能 HTTP 服务器，Nginx 作为反向代理，通过 Unix Socket 或者 TCP 协议跟 Unicorn 通讯。所以，如果短期内流量增多，扩充机器性能是一个办法，也可以通过增加机器，在前端加负载均衡，后端加 Unicorn 进程数来提交系统吞吐量和处理能力。</li>
+<li>Rails 应用本身很好水平扩展，我们目前用 Unicorn 作为应用服务器，使用 Nginx 作为前端服务器。Unicorn 是一个基于 Rack 的高性能 HTTP 服务器，Nginx 作为反向代理，通过 Unix Socket 或者 TCP 协议跟 Unicorn 通讯。所以，如果短期内流量增多，扩充机器性能是一个办法，也可以通过增加机器，在前端加负载均衡，后端加 Unicorn 进程数来提交系统吞吐量和处理能力。</li>
 <li>从 Rails 应用中抽取 API 部分为独立的应用，因为前端和后端之间基本只有 API 通讯。API 部分可以使用更高性能的方案，比如 Ruby 世界里有 <a href="http://postrank-labs.github.io/goliath/">Goliath</a> + <a href="https://github.com/intridea/grape‎">Grape</a>。Goliath 跟 Node.js 的概念一样，都是异步非阻塞的高性能 HTTP 服务器。而 Grape 是非常轻量级的 API 框架。</li>
 <li>当然也可以考虑用 JRuby 或者 Node.js 或者 Go，:p</li>
 </ol>
@@ -287,7 +287,7 @@
 
 <p>目前来说，我相信这套架构还能让我们撑不少时间，也可以很方便的做水平扩展。对于一个技术驱动型团队，这是我们的优势，也是对待事情应有的态度。感谢所有风车使用到的开源软件和在线服务，才能让我们这么&quot;小&quot;的一个团队，能有更好的时间专注在产品的核心价值上，节省时间去做&quot;大&quot;事。作为一个团队协作工具，风车也想帮助你们更好的工作。如果你懂得时间的价值，那么你应该使用风车来管理你的项目。风车，让协作更简单，让协作更高效。</p>
 
-<p>有想法吗？<a href="https://fengche.co">现在就试试吧</a>！</p>
+<p>有想法吗？<a href="https://fengcheco.com">现在就试试吧</a>！</p>
 
 <hr>
 
