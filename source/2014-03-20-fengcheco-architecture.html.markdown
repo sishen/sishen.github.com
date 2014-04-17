@@ -148,7 +148,7 @@ Rails 一直被人诟病的是其的性能，最近也经常能看到不少类�
   ![Fengche.co Current Server](fengcheco-architecture/server-goal1.png)
 </aside>
 
-1. Rails 应用本身很好水平扩展，我们目前用 Unicorn 作为应用服务器，使用 Nginx 作为前端服务器。Unicorn 是一个基于 Rack 的高性能 HTTP 服务器，Nginx 作为反向代理，通过 Unix Socket 或者 TCP 协议跟 Unicorn 通讯。所以，如果短期内流量增多，扩充机器性能是一个办法，也可以通过增加机器，在前端加负载均衡，后端加 Unicorn 进程数来提交系统吞吐量和处理能力。
+1. Rails 应用本身很好水平扩展，我们目前用 Unicorn 作为应用服务器，使用 Nginx 作为前端服务器。Unicorn 是一个基于 Rack 的高性能 HTTP 服务器，Nginx 作为反向代理，通过 Unix Socket 或者 TCP 协议跟 Unicorn 通讯。所以，如果短期内流量增多，扩充机器性能是一个办法，也可以通过增加机器，在前端加负载均衡，后端加 Unicorn 进程数来提高系统吞吐量和处理能力。
 2. 从 Rails 应用中抽取 API 部分为独立的应用，因为前端和后端之间基本只有 API 通讯。API 部分可以使用更高性能的方案，比如 Ruby 世界里有 [Goliath](http://postrank-labs.github.io/goliath/) + [Grape](https://github.com/intridea/grape‎)。Goliath 跟 Node.js 的概念一样，都是异步非阻塞的高性能 HTTP 服务器。而 Grape 是非常轻量级的 API 框架。
 3. 当然也可以考虑用 JRuby 或者 Node.js 或者 Go，:p
 
