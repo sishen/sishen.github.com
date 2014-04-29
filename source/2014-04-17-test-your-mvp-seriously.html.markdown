@@ -1,7 +1,7 @@
 ---
 title: "Test Your MVP, Seriously"
 date: 2014-04-17 15:00 +08:00
-tags: startup, mvp
+tags: 创业, MVP
 disqus_identifier: "test-your-mvp-seriously"
 keywords: 创业, MVP, 验证
 description: "跨越鸿沟，从天使用户走向大众用户，其关键在于天使用户是否让你足够了解你的产品。所以从客户开始验证你的 MVP 能让你更好的开始，让你能更容易的了解用户的痛点以及你提供的解决方案是否合理。所以，一定要非常严肃的对待 MVP。"
