@@ -19,16 +19,6 @@
 
 <% wrap_layout :layout do %>
 
-  <div class="announcement">
-	  <p>
-      <% if yield_content(:announcement).blank? %>
-        <%= partial 'shared/announcement' %>
-      <% else %>
-        <%= yield_content (:announcement) %>
-      <% end %>
-    </p>
-  </div>
-
   <article class="post single">
 
     <%= partial 'shared/post', locals: { article: current_article } %>

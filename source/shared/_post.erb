@@ -2,21 +2,49 @@
   <h2 class="title">
     <%= link_to article.title, article %>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      <%= article.date.strftime("%b %d, %Y") %>
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'><%= article.date.strftime("%B %d, %Y") %></span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       <% article.tags.each do |tag| %>
         <%= link_to tag, tag_path(tag) %>
       <% end %>
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <%= article.body %>
+
+  <div class="bdsharebuttonbox share">
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+  </div>
+  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <div class="clearfix"></div>
+  <div class="about">
+    <div class="author-photo">
+      <%= image_tag data.author['dingding'].avatar %>
+    </div>
+    <div class="author-content">
+      <h4>关于我</h4>
+
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+
+      <p class="social-action">
+        <span class="weibo">
+          <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
+        </span>
+        <span class="twitter">
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">Follow on Twitter</a>
+        </span>
+      </p>
+    </div>
+  </div>
 </div>

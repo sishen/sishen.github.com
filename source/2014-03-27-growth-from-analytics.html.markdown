@@ -4,7 +4,7 @@ date: 2014-03-27 20:00 +08:00
 tags: 创业, 统计分析, Growth Hacker
 disqus_identifier: 'growth-from-analytics'
 keywords: 创业, 技术创业, 统计分析, Growth Hacker, Marketing
-description: 本文叶玎玎介绍了对于一个技术创业团队，Growth Hacking 的具体方法，以及如何通过优秀的统计分析工具如 Mixpanel、KissMetrics、Usercycle 等来更好的成长。
+description: Growth Hacking 的定义是技术创业型团队通过数据分析和量化指标来推广产品时所使用的一种市场运营技术，其中有两个非常重要的点，分析和指标。现在市场上也有很多优秀的统计分析工具如 Mixpanel、KissMetrics、Usercycle 等来帮助创业团队更好的成长，本文介绍了这些不同的工具各有什么侧重点以及什么时候用什么工具。
 ---
 
 <aside class="aside">
@@ -19,7 +19,9 @@ READMORE
 
 ### [Google Analytics](http://www.google.com/intl/zh-CN_ALL/analytics/index.html)
 
-![Google Analytics](growth-from-analytics/google_analytics.png)
+<aside class="aside">
+  ![Google Analytics](growth-from-analytics/google_analytics.png)
+</aside>
 
 说起分析工具，估计 Google Analytics 是目前使用最广泛的，强大且免费。Google Analytics 主要给我们提供了几大关键指标：
 
@@ -35,7 +37,9 @@ READMORE
 
 ### [Mixpanel](https://mixpanel.com)
 
-![Mixpanel](growth-from-analytics/mixpanel.png)
+<aside class="aside">
+  ![Mixpanel](growth-from-analytics/mixpanel.png)
+</aside>
 
 Mixpanel 从页面访问量数据的局限跳出来，转而以用户行为为驱动。Mixpanel 主要给我们提供了几大关键指标：
 
@@ -48,7 +52,9 @@ Mixpanel 从页面访问量数据的局限跳出来，转而以用户行为为�
 
 ### [KissMetrics](https://www.kissmetrics.com)
 
-![KissMetrics](growth-from-analytics/KissMetrics.png)
+<aside class="aside">
+  ![KissMetrics](growth-from-analytics/KissMetrics.png)
+</aside>
 
 KissMetrics 跟 Mixpanel 很类似，都是以用户行为为导向的分析工具，所提供的功能也基本一致。不过 KissMetrics 在针对用户的行为分析上做的更深入也更简单，能让你更加清楚地了解用户行为背后的各方数据。Mixpanel 也能做，就是需要更多的去学习它的功能。
 
@@ -58,7 +64,9 @@ KissMetrics 跟 Mixpanel 很类似，都是以用户行为为导向的分析工�
 
 ### [UserCycle](http://usercycle.com)
 
-![UserCycle](growth-from-analytics/usercycle.png)
+<aside class="aside">
+  ![UserCycle](growth-from-analytics/usercycle.png)
+</aside>
 
 UserCycle 的卖点很简单，你并不需要大量的数据，你真正需要的是每次专注一个指标，获取能让你用来提升这个指标的目标数据，进而提供执行的辅助。如果说 Google Analytics、Mixpanel 和 KissMetrics 是纯粹的分析工具的话，UserCycle 则做得更多，从统计到用户分组、从分组到生命周期维护、从生命周期到分组实验测试，各方面了解用户行为，提升用户的价值。
 
@@ -68,7 +76,9 @@ UserCycle 的卖点很简单，你并不需要大量的数据，你真正需要�
 
 ### [Customer.io](http://customer.io/)
 
-![Customer.io](growth-from-analytics/customer.png)
+<aside class="aside">
+  ![Customer.io](growth-from-analytics/customer.png)
+</aside>
 
 Customer.io 做的事情比起来就简单多了，它也只做了整个分析过程中的某一点，**生命周期邮件（Lifecycle Email）**。一个产品的成功与否，关键在于看有多少忠诚的客户，邮件互动就是为了制造忠诚的客户。而邮件互动的关键又在于如何在正确的时间给正确的用户发正确的内容来提高邮件打开率。同样以[风车](https://fengcheco.com)为例，对于活跃的用户我需要跟用户互动的目标和跟一次性用户互动的目标显然会不同，所以也就不能给同样的邮件内容。所以，我必须了解用户之间的差异，基于用户的不同行为发送不同的邮件来互动，而这，就是 Customer.io 在解决的问题，专注在邮件互动这一块。
 
@@ -76,7 +86,9 @@ Customer.io 做的事情比起来就简单多了，它也只做了整个分析�
 
 ### [Optimize.ly](https://www.optimizely.com/)
 
-![Optimizely](growth-from-analytics/optimizely.png)
+<aside class="aside">
+  ![Optimizely](growth-from-analytics/optimizely.png)
+</aside>
 
 非常简单直接的标语，Optimize.ly 就是 A/B 测试的利器。A/B 测试对于现在的创业者来说已经不再陌生，但是如何去做以及怎么做对于很多人来说都略显陌生。当我们定义好我们想去尝试的实验，可以通过 Optimize.ly 非常简单的修改页面，然后剩下的就不用操心了，可以说即使是没有技术背景的市场人员也能很简单的学会如何做 A/B 测试。Optimize.ly 会根据用户行为的不同，给出不同的测试报告，让我们能真真切切的了解对于转化率的影响，持续的改进流程和页面来让产品变得更好。
 

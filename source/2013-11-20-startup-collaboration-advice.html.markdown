@@ -1,15 +1,15 @@
 ---
 title: "小团队如何高效协作"
 date: 2013-11-20 18:00 +08:00
-tags: 团队协作, 高效, 小团队, startup, collaboration, productivity
+tags: 团队协作, 高效, 创业, 效率
 disqus_identifier: "startup-collaboration-advice"
 keywords: 创业, 团队协作, 小团队, 技术团队
-description: 本文来自于叶玎玎多年在小团队工作的经验，要让小团队能高效协作，必须得目标一致、合理安排、易者优先、免扰模式、状态同步、代码审查、过程审查和健康工作。
+description: 小团队尤其是创业型开发团队，如何才能高效协作？在我看来，必须得目标一致、合理安排、易者优先、免扰模式、状态同步、代码审查、过程审查和健康工作。
 ---
 
 <aside class="aside-block">
   <blockquote>
-    <p>本文摘自我发表在 [《程序员》](http://programmer.csdn.net/) 杂志 10 月刊的文章。内容跟其他几篇博文有重叠的地方，大家凑合着看。</p>
+    <p>本文摘自我发表在 [《程序员》](http://programmer.csdn.net/) 杂志 10 月刊的文章。</p>
   </blockquote>
 </aside>
 
@@ -17,7 +17,6 @@ description: 本文来自于叶玎玎多年在小团队工作的经验，要让�
 
 <aside class="aside">
   ![Same Goal](startup-collaboration-advice/collaboration-hands.jpg)
-  &copy; [Ideachampions.com](http://www.ideachampions.com/weblogs/archives/2011/03/35_awesome_quot.shtml)
 </aside>
 
 ### 目标一致

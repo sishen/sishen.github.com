@@ -7,10 +7,13 @@ keywords: 远程工作, 团队协作, 团队管理, 项目管理
 description: 叶玎玎是一个 8 年的远程工作实践者。本文他介绍了如何适合远程工作以及如何管理远程团队，大部分是目前风车团队在使用的。
 ---
 
+<aside class="aside">
 ![Remote Work WorldMap](remote-team-the-things-you-should-know/remote-work-worldmap.jpg)
+</aside>
+
 前记：本文源于我在知乎上回答的[「团队成员都在异地办公有哪些优劣？」](http://www.zhihu.com/question/20011303/answer/17978689)。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。
 
-算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 [Fengche.co](https://fengche.co "团队高效协作工具")，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。
+算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 [Fengche.co](https://fengcheco.com "团队高效协作工具")，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。
 
 ### 团队
 
@@ -26,9 +29,11 @@ description: 叶玎玎是一个 8 年的远程工作实践者。本文他介绍�
 
 ### 工具
 
-当远程团队建立起来以后，大家为了一个共同的目标一起努力，是一件非常有意义的事。我们必须得承认，不管如何远程办公的沟通成本是远远大于面对面交流的，所以远程团队更需要好的效率工具来辅助，让团队即使远程也能很高效的工作。在我们团队，主要使用的有五个应用： [Skype](http://skype.com)， [Hipchat](https://hipchat.com)， [Fengche.co](https://fengche.co "团队高效协作软件")， [Dropbox](https://dropbox.com)， [Google Apps](https://www.google.com/intl/zh-CN/enterprise/apps/business/)。
+当远程团队建立起来以后，大家为了一个共同的目标一起努力，是一件非常有意义的事。我们必须得承认，不管如何远程办公的沟通成本是远远大于面对面交流的，所以远程团队更需要好的效率工具来辅助，让团队即使远程也能很高效的工作。在我们团队，主要使用的有五个应用： [Skype](http://skype.com)， [Hipchat](https://hipchat.com)， [Fengche.co](https://fengcheco.com "团队高效协作软件")， [Dropbox](https://dropbox.com)， [Google Apps](https://www.google.com/intl/zh-CN/enterprise/apps/business/)。
 
-![Collaboration Tools](remote-team-the-things-you-should-know/collaboration-tools.jpg)
+<aside class="aside">
+  ![Collaboration Tools](remote-team-the-things-you-should-know/collaboration-tools.jpg)
+</aside>
 
 #### Skype
 
@@ -40,7 +45,7 @@ description: 叶玎玎是一个 8 年的远程工作实践者。本文他介绍�
 
 #### Fengche.co
 
-我们自己创业的项目，本身就是为了让团队专注高效的工作，能非常简单地集成到工作流程，很方便地进行计划安排，进度跟踪和沟通交流。我们基本每周在 Skype 上开完计划会议之后，就把要做的任务创建到 [Fengche.co](https://fengche.co "高效任务管理工具") 上，之后大家所有关于任务的安排、执行、讨论等就直接用工具了，不再需要同步状态，不再需要动不动就骚扰其他人，始终让团队保持在专注高效的状态，极大地提升了我们的协作效率。
+我们自己创业的项目，本身就是为了让团队专注高效的工作，能非常简单地集成到工作流程，很方便地进行计划安排，进度跟踪和沟通交流。我们基本每周在 Skype 上开完计划会议之后，就把要做的任务创建到 [Fengche.co](https://fengcheco.com "高效任务管理工具") 上，之后大家所有关于任务的安排、执行、讨论等就直接用工具了，不再需要同步状态，不再需要动不动就骚扰其他人，始终让团队保持在专注高效的状态，极大地提升了我们的协作效率。
 
 #### Dropbox
 

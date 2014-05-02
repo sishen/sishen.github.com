@@ -5,7 +5,9 @@ tags: rails, learning
 disqus_identifier: rails-for-beginners
 ---
 
-![DHH Talks About Rails And Beginner](rails-for-beginners/dhh-talks-about-rails-and-beginners.png)
+<aside class="aside">
+  ![DHH Talks About Rails And Beginner](rails-for-beginners/dhh-talks-about-rails-and-beginners.png)
+</aside>
 
 今年 2 月初，我 和 [Daniel](http://lvguoning.com)，[Terry](http://terrytai.com)，[Kevin](http://knwang.com) 在 [Teahour.FM](http://teahour.fm) 上聊了一期 Ruby 与 Rails 的学习经历和对初学者的学习建议 [How to Learn Ruby and Rails](http://teahour.fm/2013/02/03/learning-ruby-and-rails.html)。而这竟然成为了目前 Teahour 这么多期里面最受欢迎的一期。Rails 4 发布在即，看上去 Rails 已经越来越不适合初学者学习。所以对于初学者而言，了解正确的学习方式无痛上路显得就格外重要。
 

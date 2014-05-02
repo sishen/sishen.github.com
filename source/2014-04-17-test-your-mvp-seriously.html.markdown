@@ -17,10 +17,8 @@ description: "跨越鸿沟，从天使用户走向大众用户，其关键在于
 
 READMORE
 
-![High-Tech Product Life-Cycle](test-your-mvp-seriously/product-lifecycle.png)
-
 <aside class="aside">
-  ![Crossing the Chasm](test-your-mvp-seriously/crossing-the-chasm.png)
+  ![High-Tech Product Life-Cycle](test-your-mvp-seriously/product-lifecycle.png)
 </aside>
 
 Geoffrey A. Moore 在其经典著作 『[Crossing the Chasm](http://en.wikipedia.org/wiki/Crossing_the_Chasm) 』 里，提出了技术产品的生命周期定律，在天使用户和早期大众用户之间有一条很难跨越的鸿沟。结合精益创业的思想，MVP 迭代的做法正是为了能尽可能的去跨过去，可以说，MVP 是给天使用户而做，验证想法修正迭代以期最后改进成适合早期大众用户的真正产品。所以，一定要非常严肃的对待 MVP，而其中关键又是从用户那里得到足够的反馈。然而，既然我们需要用户，需要反馈，那是不是甩开膀子，用免费的方式，有足够的眼球和吆喝就可以了呢？很不幸的是，绝大部分情况下，不是。大量的免费用户也意味着大量的噪音，你得从中找到真正的意见，找到真正用户愿意付钱的点和用户不关心的点。回到价值交换上，用户之所以愿意掏钱成为客户的原因是你的产品的某个价值，越早的了解这个价值并有针对性的去放大这个价值会越助于你跨越鸿沟。想想以下一些场景，是否感觉很熟悉？
@@ -36,9 +34,3 @@ Geoffrey A. Moore 在其经典著作 『[Crossing the Chasm](http://en.wikipedia
 收费的另外一个好处是，你的支持成本在初期会降低很多，尤其在本来资源就紧缺的环境下。能提供很好的用户支持一般是创业公司相比较大公司能提供的优势，所以我们无法对一个用户说，因为你没付钱我们就不提供服务或者差一级的服务，每个愿意来花时间提意见的用户都应该得到我们的感谢，不管有多吹毛求疵。所以，这种时候商业模式的区别能帮你省很多力，让你去服务你更愿意服务的客户。
 
 所有的 MVP 验证行为都是市场行为，依托于大量的假设和验证。你可以通过分析获取隐藏在数据背后的事实，参考『[创业成长，从分析开始](http://yedingding.com/2014/03/27/growth-from-analytics.html)』，也可以通过与用户交流或者采访来获得真实的反馈。所以，请一定要根据你的 MVP，找到对的人群，严肃的，测试提供的解决方案的价值。如果你认可一个产品给你带来的价值，获益远超过你的付出，也请好好考虑是否购买使用，这不仅仅是支持，也是双赢，更是对整个生态圈的改善。
-
-#### 关于我 ####
-
-我是一位技术创业者，目前团队的产品是风车，一款最适合创业团队的高效项目管理工具。风车可以节省你们大量的时间，把花时间真正花在刀刃上，也即在产品本身。[现在就开始使用风车！](https://fengcheco.com?utm_content=testmvp)
-
-最后，如果你读到这里了，你应该在新浪微博上[加我为好友](http://weibo.com/presently)。

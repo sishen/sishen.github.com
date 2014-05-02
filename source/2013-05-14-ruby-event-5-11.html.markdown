@@ -4,11 +4,13 @@ date: 2013-05-14 08:00 +08:00
 tags: ruby, event, hangzhou
 ---
 
-![Hangzhou Ruby Event May 11th](ruby-event-5-11/event.jpg)
+<aside class="aside">
+  ![Hangzhou Ruby Event May 11th](ruby-event-5-11/event.jpg)
+</aside>
 
 上周六我们在杭州举行了面对长三角的小型 Ruby 爱好者沙龙，5 个小时，6 位分享嘉宾，70多位参与者，很好很强大。
 
-我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 [Fengche.co](https://fengche.co) 团队的另外两位创始人 [Terry](http://terrytai.com) 和 [Ben](http://beenhero.com) 允许我用工作时间来做这件事，感谢淘宝阿里技术协会(ATA)对社区的一贯支持和本次提供场地设备和茶歇点心，感谢 [SegmentFault](http://segmentfault.com) 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 ([@fswordlee](https://twitter.com/fswordlee))，李华顺 ([@huacnlee](https://twitter.com/huacnlee))，武鑫 ([@SaitoWu](https://twitter.com/SaitoWu))和吕戈 ([@night_song](https://twitter.com/night_song)) 一起组织活动。
+我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 [Fengche.co](https://fengcheco.com) 团队的另外两位创始人 [Terry](http://terrytai.com) 和 [Ben](http://beenhero.com) 允许我用工作时间来做这件事，感谢淘宝阿里技术协会(ATA)对社区的一贯支持和本次提供场地设备和茶歇点心，感谢 [SegmentFault](http://segmentfault.com) 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 ([@fswordlee](https://twitter.com/fswordlee))，李华顺 ([@huacnlee](https://twitter.com/huacnlee))，武鑫 ([@SaitoWu](https://twitter.com/SaitoWu))和吕戈 ([@night_song](https://twitter.com/night_song)) 一起组织活动。
 
 这次沙龙分享嘉宾阵容非常强大，分享主题非常有料，很有幸能得到他们的支持，特别是远道而来的曹力 ([@ShiningRay](https://twitter.com/shiningray)) 和黄志敏 ([@flyerhzm](https://twitter.com/flyerhzm))。6 场演讲场场精彩，我这里小记一下。
 
@@ -50,4 +52,6 @@ Ruby 大家都会用，但是却很少人会关心 Ruby 是怎么实现的，Rub
 
 这次活动我们是有录像的，还需要花时间剪辑，之后会把视频放出来，敬请期待！感谢这次活动各位讲师的精彩演讲，希望活动能持续的办下去！会后我们也进行了亲切的会晤，气氛异常的热烈。
 
-![After Event](ruby-event-5-11/after-event.jpg)
+<aside class="aside">
+  ![After Event](ruby-event-5-11/after-event.jpg)
+</aside>

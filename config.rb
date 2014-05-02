@@ -76,6 +76,14 @@ helpers do
   def disqus_identifier(article)
     article.data["disqus_identifier"] || article.title.parameterize
   end
+
+  def nav_li(href, title)
+    if current_path == href || (current_path == "index.html" && href == "")
+      "<li class='active'><a href='/#{href}'>#{title}</a></li>"
+    else
+      "<li><a href='/#{href}'>#{title}</a></li>"
+    end
+  end
 end
 
 set :css_dir, 'stylesheets'

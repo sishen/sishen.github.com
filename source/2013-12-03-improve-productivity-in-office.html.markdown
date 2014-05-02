@@ -1,13 +1,15 @@
 ---
 title: "不要让办公室成为你的效率杀手"
 date: 2013-12-03 16:00 +08:00
-tags: 团队协作, 高效, 效率, productivity, collaboration
+tags: 团队协作, 高效, 效率
 disqus_identifier: "office-productivity"
 keywords: 团队协作, 高效工作, 生产力, 办公室
 description: 本文叶玎玎介绍了如何充分利用办公室带来的优势，让团队高效的工作和更好的协作，保持高生产力。
 ---
 
-![Productivity City](improve-productivity-in-office/productivity-city.png)
+<aside class="aside">
+  ![Productivity City](improve-productivity-in-office/productivity-city.png)
+</aside>
 
 上个月在北京的时候去拜访了一下[天放](http://litianfang.com/)，[课程格子](http://kechenggezi.com)有两项措施我特别喜欢，一个是 productivity city，如上图，是在办公室里隔出来的非常独立的一个小房间，里面不准说话，手机必须静音，同时这个房间不能超过三个人。天放介绍了一下这个是给团队成员需要专注工作时提供的一个特殊场所。另一点是天放给所以员工提供了住房补贴，鼓励团队的人住在公司边上，这样就可以不用浪费时间在交通上，以一个饱满的状态进入工作状态。
 
@@ -48,4 +50,4 @@ READMORE
 
 **做正确的事情。**首先要让合适的人去做合适的事，显然让我去做视觉设计就不是在做正确的事。另外，正确的事情一般是跟时间有关，需要大家都清楚现在的目标是什么，什么是最高优先级的任务，大家各自的状态是什么，管理方式是否合理，而这些正是 Fengche.co 的巨大价值，随时让大家保持在一个节奏上，让合适的资源在正确的时间能立刻去做最适合的事。
 
-如果你在团队高效协作上有什么经验，欢迎留言分享给大家，或者加我 Skype 或者 [Weibo](http://weib.com/presently) 聊聊。如果你觉得团队目前效率不够高，不妨试试推行我上面提的几点方式，试试 [Fengche.co](https://fengche.co "高效协作工具")，它不一定是你看上去最简单的，但肯定是最适合小团队的高效协作工具。
+如果你在团队高效协作上有什么经验，欢迎留言分享给大家，或者加我 Skype 或者 [Weibo](http://weib.com/presently) 聊聊。如果你觉得团队目前效率不够高，不妨试试推行我上面提的几点方式，试试 [Fengche.co](https://fengcheco.com "高效协作工具")，它不一定是你看上去最简单的，但肯定是最适合小团队的高效协作工具。

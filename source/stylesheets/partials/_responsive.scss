@@ -1,10 +1,34 @@
 @media (max-width: 960px) {
+  #header {
+    padding-bottom: 1em;
+
+    #avatar {
+      padding-top: 2em;
+
+      img {
+        width: 110px;
+      }
+    }
+
+    .site-title {
+      font-size: 2em;
+    }
+  }
   .main {
-    padding: 0 20px 20px;
+    .title {
+      font-size: 2.1em;
+      line-height: 1.2em;
+    }
+    .meta {
+      font-size: 16px !important;
+    }
+    .container {
+      padding: 60px 90px 15px 90px;
+    }
     .post {
       padding: 0;
       .title { margin: 22px auto 0; }
-      .content { 
+      .content {
         padding: 0;
         .aside {
           margin: 0 20px 0 0;
@@ -19,18 +43,42 @@
         margin: 0;
         text-align: left;
       }
-      .meta { 
-        margin: 3px 0 20px; 
+      .meta {
+        margin: 3px 0 20px;
         padding: 0;
         li { display: inline-block; }
       }
       .aside-block blockquote, .aside blockquote { padding: 20px; }
+
+      .about {
+        .author-photo img {
+          width: 110px !important;
+          height: 110px !important;
+        }
+        .author-content {
+          margin-left: 140px !important;
+          font-size: 16px !important;
+
+          h4 {
+            margin-bottom: 0.8em !important;
+          }
+          p {
+            margin-bottom: 0.5em !important;
+          }
+          .social-action {
+            font-size: 16px !important;
+          }
+        }
+        .entr {
+          display: none;
+        }
+      }
     }
   }
 
   .main .comments { margin:0; padding: 0; }
   .main .post.profile .connect a { margin-right: 20px; }
-  .announcement { 
+  .announcement {
     position: static;
     p { padding: 0; }
     .avatar { width: 20px; height:20px; margin-right: 3px; }
@@ -38,34 +86,126 @@
   }
 }
 
+@media (max-width: 750px) {
+  #header {
+    .site-title {
+      display: none;
+    }
+  }
+  .main .container {
+    padding: 50px 70px 10px 70px;
+
+    .about {
+      .author-photo img {
+        width: 80px !important;
+        height: 80px !important;
+      }
+      .author-content {
+        margin-left: 110px !important;
+        font-size: 14px !important;
+
+        h4 {
+          margin-bottom: 0.5em !important;
+        }
+        p {
+          margin-bottom: 0.5em !important;
+        }
+        .social-action {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #header {
+    padding-bottom: 0.5em;
+
+    #avatar {
+      padding-top: 1.5em;
+
+      img {
+        width: 100px;
+      }
+    }
+
+    .site-description {
+      font-size: .8em;
+    }
+  }
+
+  .main .container {
+    padding: 30px 50px 5px 50px;
+
+    .title {
+      font-size: 2.0em !important;
+      line-height: 1.1em !important;
+    }
+    .meta {
+      font-size: 15px !important;
+    }
+
+    .share {
+      zoom: 0.8;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  #header {
+    padding-bottom: 0.3em;
+
+    #avatar {
+      padding-top: 1.2em;
+
+      img {
+        width: 80px;
+
+        &:hover {
+          position: relative;
+          @include transform(translateY(-0.25em));
+        }
+      }
+    }
+  }
+
+  .main .container {
+    padding: 20px 40px 5px 40px;
+
+    .share {
+      zoom: 0.8;
+    }
+  }
+}
+
 @media print, screen and (max-width: 480px) {
-  .sidebar { 
-    position: relative;
-    width: auto;
-    .site-name { display: inline-block; }
-    .social-connect {
+  #header {
+    #avatar {
       position: absolute;
-      top: 5px;
-      right: 20px;
-      margin: 0;
-    }
-    .social-connect li i { font-size: 12px; }
-    .global-nav { display: inline-block;}
-    .global-nav li {
-      display: inline-block;
-      margin-left: 1em;
+      top: 10px;
+      left: 10px;
+
+      img {
+        width: 40px;
+      }
     }
   }
+
   .main { margin: 0; min-height: inherit; }
-  .main .post .content { 
-    padding: 0;
-    .aside {
-      width: auto;
-      margin: 0;
-      &:before { display: none; }
+  .main .container {
+    padding: 10px 20px 0px 20px;
+
+    .title {
+      font-size: 1.8em !important;
+      line-height: 1em !important;
     }
-  }
-  .copyright {
-    position: relative;
+    .meta {
+      font-size: 14px !important;
+    }
+
+    .social-action .twitter {
+      margin-left: 10px !important;
+    }
   }
 }

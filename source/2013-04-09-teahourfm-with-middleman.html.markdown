@@ -4,8 +4,10 @@ date: 2013-04-09 10:00 +08:00
 tags: teahour, middleman, static site
 ---
 
-![TeahourFM](teahourfm-with-middleman/logo.png "Teahour.fm Logo")
-<br/>
+<aside class="aside">
+  ![TeahourFM](teahourfm-with-middleman/logo.png "Teahour.fm Logo")
+</aside>
+
 [Teahour.fm](http://teahour.fm) 是是由四位程序员 [Terry Tai](http://terrytai.com)，[Daniel Lv](http://lgn21st.com)，[Kevin Wang](http://knwang.com) 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD
 
 这周团队在北京活动，顺便参加了 [Beijing Rubyist](http://www.bjrubyist.org/) 线下活动，分享了一些 [teahour.fm](http://teahour.fm) 网站设计和开发的一些思考。具体 slides 可以参考 [speakerdeck](https://speakerdeck.com/sishen/teahour-dot-fm)。
@@ -41,7 +43,9 @@ MiddleMan 做的取巧的地方是这个框架用的所有的东西都是你平�
 
 ### How It Works ###
 
-![Teahour Workflow](teahourfm-with-middleman/workflow.png)
+<aside class="aside">
+  ![Teahour Workflow](teahourfm-with-middleman/workflow.png)
+</aside>
 
 1. 开始一篇新文章
 

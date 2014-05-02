@@ -4,24 +4,17 @@ date: 2014-03-12 12:00 +08:00
 tags: bootstrap, startup
 disqus_identifier: 'bootstrapping-startup'
 keywords: bootstrap, 创业, 技术创业, 风车
-description: "本文基于叶玎玎在风车 Fengche.co 两年的创业实践和思考，认为对于技术创业团队来说，选择 Bootstrap 比选择投资创业更加合适，但是需要特别注意几个问题: 深思熟虑、核心价值、时间成本和发布。"
+description: "本文基于叶玎玎在风车 Fengche.co 两年的创业实践和思考，认为对于技术创业团队来说，在开始阶段选择 Bootstrap 比选择投资创业更加合适，但是需要特别注意几个问题: 深思熟虑、核心价值、时间成本和发布。"
 ---
 
 <aside class="aside-block">
-  <blockquote>
-    <p>
-        本文摘自我发表在 36kr 专栏的文章 [Bootstrapping Your Startup idea - 如何低成本创业](http://www.36kr.com/p/210316.html)。
-    </p>
-  </blockquote>
-
-  <small>图片 &copy; [Inc.com](http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html)</small>
+  ![Bootstrapping](bootstrapping-your-startup-idea/bootstrapping.jpg)
 </aside>
 
-![Bootstrapping](bootstrapping-your-startup-idea/bootstrapping.jpg)
 
 自从在博客上放了 Skype 账号，聊过不少有意思的人，大多都是有创业的想法，也有不错的项目想法，但是犹豫着要不要做，认为没有投资的话不太可行，不太敢启动项目。每次我都会说，只要你开始了，即使使用自有资金，只要合理的使用和合理的做事，其实并没你想的那么困难，足够能给项目开启一个很好的头和到达一定的阶段了。
 
-我们在一开始准备自己做[风车](https://fengche.co)的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，[GitHub](https://github.com) 和 [37Signals](https://37signals.com)，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。
+我们在一开始准备自己做[风车](https://fengcheco.com)的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，[GitHub](https://github.com) 和 [37Signals](https://37signals.com)，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。
 
 1. 相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。
 2. 在产品开发初期，其实成本不高，主要还是时间付出。而在产品出来的时候，你也有很多低成本的推广方式。
@@ -38,7 +31,7 @@ READMORE
 
 #### 专注核心价值
 
-草根团队，没钱没资源，怎么破？尤其是当你使用自有资金的时候，做决策的事情一定要谨记，这是否是我们的产品核心价值，是否是最紧急的任务，如果不是的就放放。这也会让我们能更加有效的利用资源和更加高效的执行。同时，如果事情不涉及核心价值，尽量去拥抱云，尝试一些好的第三方服务，宁愿花一点钱来换时间。比如在[风车](https://fengche.co)里，我们使用了 [Linode](http://linode.com) 作为应用服务器，[Amazon S3](http://aws.amazon.com/cn/s3/‎) 作为文件存储，[七牛](http://qiniu.com)作为静态文件 CDN，[Pusher](http://pusher.com) 作为实时消息推送系统，[Olark](https://www.olark.com) 作为在线客服系统，[FastSpring](http://www.fastspring.com/) 作为付费订阅系统，[SendCloud](http://sendcloud.sohu.com) 和 [SES](http://aws.amazon.com/cn/ses/) 作为邮件发送服务商，而我们自己，只花时间在提高团队协作这个核心价值上。
+草根团队，没钱没资源，怎么破？尤其是当你使用自有资金的时候，做决策的事情一定要谨记，这是否是我们的产品核心价值，是否是最紧急的任务，如果不是的就放放。这也会让我们能更加有效的利用资源和更加高效的执行。同时，如果事情不涉及核心价值，尽量去拥抱云，尝试一些好的第三方服务，宁愿花一点钱来换时间。比如在[风车](https://fengcheco.com)里，我们使用了 [Linode](http://linode.com) 作为应用服务器，[Amazon S3](http://aws.amazon.com/cn/s3/‎) 作为文件存储，[七牛](http://qiniu.com)作为静态文件 CDN，[Pusher](http://pusher.com) 作为实时消息推送系统，[Olark](https://www.olark.com) 作为在线客服系统，[FastSpring](http://www.fastspring.com/) 作为付费订阅系统，[SendCloud](http://sendcloud.sohu.com) 和 [SES](http://aws.amazon.com/cn/ses/) 作为邮件发送服务商，而我们自己，只花时间在提高团队协作这个核心价值上。
 
 #### 用最熟悉的技术
 
@@ -51,10 +44,9 @@ READMORE
 #### Ship It
 
 <aside class="aside">
-  ![ship it](bootstrapping-your-startup-idea/shipit.png)
 </aside>
 
-去年在 [RubyConf China](http://rubyconfchina.org) 上，[Zach Holman](http://zachholman.com) 介绍到 GitHub 公司里用的最多的表情符号是 ":shipit:"，发布是 GitHub 的核心文化之一。而这却是绝大多数创业者最容易犯的错误。我们每天都能给自己找很多理由说发布时机未到，比如产品不够完美需要再改进，比如怕给用户的第一印象不好，
+去年在 [RubyConf China](http://rubyconfchina.org) 上，[Zach Holman](http://zachholman.com) 介绍到 GitHub 公司里用的最多的表情符号是 <img src="/images/bootstrapping-your-startup-idea/shipit.png" alt="ship it" width="30px" style="margin:0"/>(:shipit:)，发布是 GitHub 的核心文化之一。而这却是绝大多数创业者最容易犯的错误。我们每天都能给自己找很多理由说发布时机未到，比如产品不够完美需要再改进，比如怕给用户的第一印象不好，
 比如如果有某些新功能会更好，比如还需要再多测试一会，尤其是当资金暂时充足时。请放弃这些想法，ship it，ship it，不要怕。我们知道它的确还不够完美，但是也知道发布并不是终点，我们仍然都会每天去改进它，越早的发布，就能越早的去检验想法，就能越早的获得用户反馈。在风车里面，我们坚持持续发布，让我们觉得一个功能或者一个修改已经准备好了后（并不是完美后），我们会选择直接发布，然后观察用户的反应。
 
 #### When to Stop
@@ -62,3 +54,9 @@ READMORE
 这是一个我经常思考的问题，也可能是你在思考的问题，什么时候我该停止 Bootstrap 而去寻找资本的支持了？一般来说资本带来的是催化作用，所以最合适的时机是在成长期。当我们意识到每天有很多重要的事情要去做，但是现在因为缺少时间和资源去做这些事，同样的时间成本获得的回报在变小的话，那么就是一个很明显的信号需要寻找外部的支持了。
 
 Bootstrap 听上去很难，但是其实并没有那么难，反而能让你更专注创业的两大核心：产品和客户。如果你的想法的确是需要资本的支持的话，对于草根团队而言，Bootstrap 阶段同时又是一个很好的自证阶段，证明你们是认真的在对待这件事和认真的做着这件事。所以，如果你有创业之心并且内心觉得自己准备好了，那就放下恐惧之心，勇敢的去做吧。
+
+---
+
+<span class="footnotes">
+  <small>本文图片 &copy; [Inc.com](http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html)</small>
+</span>

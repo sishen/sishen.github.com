@@ -1,11 +1,120 @@
 body {
   position: relative;
   color: $textColor;
-  background-color: $sidebarBgColor;
+  background: #f5f5f5;
   font-size: $baseFontSize;
   line-height: $baseLineHeight;
   font-family: $baseFontFamily;
   margin: 0;
+}
+
+#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  z-index: 10;
+  background: url("/images/fengche-banner-bg.png") no-repeat fixed;
+  background-size: 100% auto;
+
+  img {
+    left: 0px;
+    width: 100%;
+    //height: 500px;
+    position: relative;
+  }
+}
+
+#header {
+  position: relative;
+  z-index: 20;
+  padding-bottom: 2em;
+
+  #nav {
+    background-color: rgba(0, 0, 0, .4);
+    -webkit-transition: padding-left .5s ease-out;
+
+    ul {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      list-style-image: none;
+
+      li {
+        display: inline-block;
+        position: relative;
+        text-align: -webkit-match-parent;
+        margin-left: 35px;
+
+        &:first-child {
+          margin-left: 0px;
+        }
+
+        &.active a {
+          color: #fff;
+        }
+
+        a {
+          color: rgba(255, 255, 255, .6);
+          display: inline-block;
+          font-size: 14px;
+          line-height: 46px;
+          text-transform: none;
+          text-decoration: none;
+          letter-spacing: 1px;
+          font-weight: 400;
+          font-style: normal;
+        }
+      }
+    }
+  }
+
+  #avatar {
+    padding-top: 3em;
+    margin-bottom: 20px;
+    img {
+      width: 128px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      @include border-radius(100%);
+      @include box-shadow(0 0 0 0.618em rgba(0, 0, 0, 0.05));
+      @include transition(all ease 0.4s);
+      &:hover {
+        position: relative;
+        @include transform(translateY(-0.75em));
+      }
+    }
+  }
+
+  .site-title, .site-description {
+    text-align: center;
+    color: #fff;
+  }
+
+  .site-title {
+    margin: 0;
+    margin-bottom: 1rem;
+    line-height: 1.333;
+    position: relative;
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .site-description {
+    font-size: .844em;
+    font-weight: 400;
+    letter-spacing: 4px;
+    @include opacity(0.75);
+
+    a {
+      color: #fff;
+    }
+  }
 }
 
 a {
@@ -19,115 +128,18 @@ p {
   margin: 0 0 1.5em 0;
 }
 
-.sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: $sideWidth;
-  padding: 10px 20px;
-  color: #f8f8f8;
-  font-size: 13px;
-  height: 100%;
-  min-height: 100%;
-  ul { 
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    color: $sidebarLinkColor;
-    line-height: 30px;
-    &:hover {
-      color: lighten($sidebarLinkColor, 30%);
-    }
-  }
-  .site-name {
-    font-size: 1.8em;
-    line-height: 1.7;
-    margin: 10px auto;
-    a {
-      color: $siteNameColor;
-      &:hover {
-        color: $sidebarLinkColor;
-      }
-    }
-  }
-  .site-desc {
-    font-size: 11px;
-    font-weight: normal;
-    color: #495863;
-    color: rgba(255,255,255,.5);
-  }
-  .social-connect {
-    margin: 20px auto;
-    li {
-      display: inline-block;
-      margin-right: 8px;
-      i { font-size: 14px; }
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }
-  .block {
-    padding: 5px 12px 10px;
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: center;
-    color: rgba(255,255,255,.45);
-    background-color: rgba(255,255,255,.1);
-    .block-title {
-      font-size: 12px;
-      margin: 0;
-    }
-    .block-cnt { margin: 0; }
-    &.ad {
-      position: absolute;
-      bottom: 80px;
-    }
-  }
-}
-
 .main {
-  background-color: $mainBgColor;
-  margin: 0 0 0 $sideWidth+40;
-  padding: $asideGap 0 0;
-  height: 100%;
-  min-height: 1000px;
-  @include clearfix;
-}
+  position: relative;
+  z-index: 15;
 
-.announcement {
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-  width: 100%;
-  padding: 7px 0 5px;
-  border-bottom: 1px solid $hairLineColor;
-  background-color: $mainBgColor;
-  transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -webkit-transition: all .3s ease-in-out;
-  .avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    vertical-align: middle;
-    margin-right: 1em;
-  }
-  p {
-    color: $asideColor;
-    margin: 0;
-    padding: 0 20px;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  &.sticky {
+  .container {
+    height: 100%;
+    min-height: 1000px;
+    max-width: 740px;
+    width: auto;
+    margin: 0 auto;
+    padding: 70px 110px 20px 110px;
     background-color: #fff;
-    opacity: .95;
-    p {
-      color: darken($asideColor, 20%);
-    }
   }
 }
 
@@ -135,30 +147,53 @@ p {
   position: relative;
   margin: 0;
   padding: 0;
-  margin-top: -2.8em;
   max-width: $copyMaxWidth + $asideWidth;
+  border-bottom: 1px solid #d4d7d8;
+  height: 40px;
   li {
     list-style: none;
-    a { 
+    a {
       display: inline-block;
-      padding: 2.8em 5%;
-      border-right: 1px solid $hairLineColor;
+      line-height: 40px;
       &:hover {
         background-color: darken($mainBgColor, 5%);
       }
     }
     &.next a {
       float: right;
-      border-left: 1px solid $hairLineColor;
     }
   }
 }
 
 .copyright {
-  position: fixed;
-  bottom: 0;
-  font-size: 11px;
-  color: #495863;
-  color: rgba(255,255,255,.45);
-  p { margin: 10px 20px; }
+  font-size: .95em;
+  overflow-x: hidden;
+  background-color: #fff;
+  color: rgba(119, 119, 119, .5);
+  position: relative;
+  min-height: 100px;
+
+  p {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+    li {
+      display: inline-block;
+      margin-right: 8px;
+      i {
+        font-size: 1.2em;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }

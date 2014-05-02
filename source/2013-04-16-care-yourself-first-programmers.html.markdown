@@ -4,7 +4,9 @@ date: 2013-04-16 20:00 +08:00
 tags: programmer, healthy, productivity
 ---
 
-![Herman Miller Emboy](care-yourself-first-programmers/embody.png)
+<aside class="aside">
+  ![Herman Miller Emboy](care-yourself-first-programmers/embody.png)
+</aside>
 
 上周入了梦想已久的 [Herman Miller Embody](http://www.hermanmiller.cn/Product/Embody-Chairs) 椅子，这几天也有不少朋友在问体验报告，想知道花这么多钱买一把椅子是否值得。在这我说说我的感受。
 
@@ -16,7 +18,9 @@ READMORE
 
 如果你还在犹豫是否购买一把好椅子，我觉得可以思考一下你有多少时间是坐在椅子上。健康是无价的，很多人愿意花钱去买更好的车，但是我觉得椅子更值得投资，你花在椅子上的时间比车子要多多了，而且是一把至少可以坐上 15 年的椅子。如果想购买 Herman Miller，我建议大家走经销商渠道，价格比海淘或者淘宝都给力，因为目前零售主要是为了推广品牌，基本不赚钱，同时经销商渠道可以享受 12 年质保。这些信息是我购买的那家经销商告诉你，至于你信不信，反正我是信了，:)
 
-![Herman Miller Aeron](care-yourself-first-programmers/aeron.png)
+<aside class="aside">
+  ![Herman Miller Aeron](care-yourself-first-programmers/aeron.png)
+</aside>
 
 除了 Embody 以外，Herman Miller 家的还可以考虑 [Herman Miller Aeron](http://www.hermanmiller.cn/Product/Aeron-Chairs)。我这里介绍一下我个人对 Embody 和 Aeron 的感受，我也是体验了一下午最后做出决定要购买 Embody。Aeron 是 Embody 的上一代产品，一直牢牢占据着地球上最舒适安全座椅的称号，只到 Embody 的出现。Aeron 相比 Embody 而言更像传统的办公椅，它不像 Embody，无论怎么坐都感觉非常贴腰，而是你需要自己去调节到最适合你的位置。但是一旦你找到了那个位置，其实也是非常的舒适。Aeron 有两种不同的腰靠，经典型的是一字腰靠，新型的是 Y 字腰靠，我个人体验更加喜欢 Y 字腰靠。在 Aeron 和 Embody 之间，因为我个人更偏好自由的坐姿和被 Embody 的时尚外形打动，最后还是选择了 Embody。不过，有一点 Embody 比不上 Aeron 的是散热，Aeron 的网椅设计决定了它的散热性更好。
 
@@ -26,4 +30,4 @@ READMORE
 
 我时常跟朋友开玩笑说“当我们拼不过智商的时候，我们就拼身体”。没有任何投资可以跟身体相比。关爱自己的身体，善待自己，才能更好的工作。所以我们在 Teahour.FM 第 5 期的时候，特地讨论了能给程序员带来帮助的设备和如何锻炼和保护自己的身体，有兴趣的朋友可以在[这里](http://teahour.fm/2013/03/05/hardware-for-developers.html)收听。
 
-我目前坐在 Embody 上开发的产品是一个适合小团队使用的项目管理工具和在线协作工具 [Fengche.co](https://fengche.co)，希望它能帮忙我更好的改进这个产品，:)
+我目前坐在 Embody 上开发的产品是一个适合小团队使用的项目管理工具和在线协作工具 [Fengche.co](https://fengcheco.com)，希望它能帮忙我更好的改进这个产品，:)
