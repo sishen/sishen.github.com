@@ -47,59 +47,43 @@
     <script src="/javascripts/all.js"></script>
   </head>
   <body class="x2014 x2014_03 x2014_03_20 x2014_03_20_fengcheco-architecture">
-    <aside class="sidebar">
-      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/profile.html">Profile</a></li>
-        </ul>
-      </nav>
-
-      <nav class="social-connect">
-        <ul>
-          <li><a href="https://github.com/sishen"><i class="icon-github"></i></a></li>
-          <li><a href="http:///weibo.com/presently"><i class="icon-weibo"></i></a></li>
-          <li><a href="https://twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
-          <li><a href="https://facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
-        </ul>
-      </nav>
-
-      <!-- Ad -->
-      <div class="block ad">
-        <h4 class="block-title"><a href="https://fengcheco.com/?utm_content=sidebar" alt="风车协作">Fengche.co</a></h4>
-        <p class="block-cnt">团队协作工具</p>
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
       </div>
-
-    </aside>
-
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
     <section class="main">
       <div class="container">
         
-  <div class="announcement">
-	  <p>
-      
-        <img class="avatar" src="/images/yedingding.png" alt="Yedingding" />
-如果你在远程工作、团队协作、项目管理和创业方面需要意见，欢迎找我约个时间，免费咨询！Skype: sishen.freecity | QQ: 61819318
-
-      
-    </p>
-  </div>
-
   <article class="post single">
 
     <header>
   <h2 class="title">
     <a href="/2014/03/20/fengcheco-architecture.html">『风车』技术架构介绍</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Mar 20, 2014
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>March 20, 2014</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/风车.html">风车</a>
       
@@ -107,9 +91,9 @@
       
         <a href="/tags/系统架构.html">系统架构</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p><aside class="aside">
@@ -170,7 +154,7 @@
 <p>Spine 上面已经介绍了不少，这里再介绍一个我很喜欢的特性：<em>Asynchronous interfaces</em>。当我们决定把逻辑从服务端移到客户端的时候，就是要提高用户的整个使用体验，要能非常迅速的对用户行为做出响应。所以，当用户做了一个操作更新数据的时候，不要再显示个 loading spinner，让用户去等待数据更新完毕，而是应该立刻给出页面的变化。这就是异步 UI，通过解耦客户端 UI 交互跟服务端数据同步，保证了交互的流畅性。</p>
 
 <p><aside class="aside">
-  <img alt="CoffeeScript" src="/images/fengcheco-architecture/dhh-coffee.png?1393869410" />
+  <img alt="CoffeeScript" src="/images/fengcheco-architecture/dhh-coffee.png?1399041455" />
 </aside></p>
 
 <h5>CoffeeScript + Eco</h5>
@@ -295,6 +279,36 @@
 欢迎交流！我可以针对一些常见的问题我来写 (二)，(三) 等。
 </span></p>
 
+
+  <div class="bdsharebuttonbox share">
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+  </div>
+  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <div class="clearfix"></div>
+  <div class="about">
+    <div class="author-photo">
+      <img src="/images/yedingding.png?1399041455" />
+    </div>
+    <div class="author-content">
+      <h4>关于我</h4>
+
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+
+      <p class="social-action">
+        <span class="weibo">
+          <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
+        </span>
+        <span class="twitter">
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">Follow on Twitter</a>
+        </span>
+      </p>
+    </div>
+  </div>
 </div>
 
   </article>
@@ -320,14 +334,21 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
+
+        <footer class="copyright">
+          <p>&copy; 2014 Dingding Ye</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
       </div>
     </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy;2013 Dingding Ye</a></p>
-      </div>
-    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

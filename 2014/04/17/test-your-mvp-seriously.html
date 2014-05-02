@@ -47,67 +47,51 @@
     <script src="/javascripts/all.js"></script>
   </head>
   <body class="x2014 x2014_04 x2014_04_17 x2014_04_17_test-your-mvp-seriously">
-    <aside class="sidebar">
-      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/profile.html">Profile</a></li>
-        </ul>
-      </nav>
-
-      <nav class="social-connect">
-        <ul>
-          <li><a href="https://github.com/sishen"><i class="icon-github"></i></a></li>
-          <li><a href="http:///weibo.com/presently"><i class="icon-weibo"></i></a></li>
-          <li><a href="https://twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
-          <li><a href="https://facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
-        </ul>
-      </nav>
-
-      <!-- Ad -->
-      <div class="block ad">
-        <h4 class="block-title"><a href="https://fengcheco.com/?utm_content=sidebar" alt="风车协作">Fengche.co</a></h4>
-        <p class="block-cnt">团队协作工具</p>
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
       </div>
-
-    </aside>
-
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
     <section class="main">
       <div class="container">
         
-  <div class="announcement">
-	  <p>
-      
-        <img class="avatar" src="/images/yedingding.png" alt="Yedingding" />
-如果你在远程工作、团队协作、项目管理和创业方面需要意见，欢迎找我约个时间，免费咨询！Skype: sishen.freecity | QQ: 61819318
-
-      
-    </p>
-  </div>
-
   <article class="post single">
 
     <header>
   <h2 class="title">
     <a href="/2014/04/17/test-your-mvp-seriously.html">Test Your MVP, Seriously</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Apr 17, 2014
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>April 17, 2014</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/创业.html">创业</a>
       
         <a href="/tags/mvp.html">MVP</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p><aside class="aside">
@@ -120,10 +104,8 @@
 
 <p></p>
 
-<p><img alt="High-Tech Product Life-Cycle" src="/images/test-your-mvp-seriously/product-lifecycle.png?1397731401" /></p>
-
 <p><aside class="aside">
-  <img alt="Crossing the Chasm" src="/images/test-your-mvp-seriously/crossing-the-chasm.png?1397731401" />
+  <img alt="High-Tech Product Life-Cycle" src="/images/test-your-mvp-seriously/product-lifecycle.png?1399041455" />
 </aside></p>
 
 <p>Geoffrey A. Moore 在其经典著作 『<a href="http://en.wikipedia.org/wiki/Crossing_the_Chasm">Crossing the Chasm</a> 』 里，提出了技术产品的生命周期定律，在天使用户和早期大众用户之间有一条很难跨越的鸿沟。结合精益创业的思想，MVP 迭代的做法正是为了能尽可能的去跨过去，可以说，MVP 是给天使用户而做，验证想法修正迭代以期最后改进成适合早期大众用户的真正产品。所以，一定要非常严肃的对待 MVP，而其中关键又是从用户那里得到足够的反馈。然而，既然我们需要用户，需要反馈，那是不是甩开膀子，用免费的方式，有足够的眼球和吆喝就可以了呢？很不幸的是，绝大部分情况下，不是。大量的免费用户也意味着大量的噪音，你得从中找到真正的意见，找到真正用户愿意付钱的点和用户不关心的点。回到价值交换上，用户之所以愿意掏钱成为客户的原因是你的产品的某个价值，越早的了解这个价值并有针对性的去放大这个价值会越助于你跨越鸿沟。想想以下一些场景，是否感觉很熟悉？</p>
@@ -142,12 +124,36 @@
 
 <p>所有的 MVP 验证行为都是市场行为，依托于大量的假设和验证。你可以通过分析获取隐藏在数据背后的事实，参考『<a href="http://yedingding.com/2014/03/27/growth-from-analytics.html">创业成长，从分析开始</a>』，也可以通过与用户交流或者采访来获得真实的反馈。所以，请一定要根据你的 MVP，找到对的人群，严肃的，测试提供的解决方案的价值。如果你认可一个产品给你带来的价值，获益远超过你的付出，也请好好考虑是否购买使用，这不仅仅是支持，也是双赢，更是对整个生态圈的改善。</p>
 
-<h4>关于我</h4>
 
-<p>我是一位技术创业者，目前团队的产品是风车，一款最适合创业团队的高效项目管理工具。风车可以节省你们大量的时间，把花时间真正花在刀刃上，也即在产品本身。<a href="https://fengcheco.com?utm_content=testmvp">现在就开始使用风车！</a></p>
+  <div class="bdsharebuttonbox share">
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+  </div>
+  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <div class="clearfix"></div>
+  <div class="about">
+    <div class="author-photo">
+      <img src="/images/yedingding.png?1399041455" />
+    </div>
+    <div class="author-content">
+      <h4>关于我</h4>
 
-<p>最后，如果你读到这里了，你应该在新浪微博上<a href="http://weibo.com/presently">加我为好友</a>。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
+      <p class="social-action">
+        <span class="weibo">
+          <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
+        </span>
+        <span class="twitter">
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">Follow on Twitter</a>
+        </span>
+      </p>
+    </div>
+  </div>
 </div>
 
   </article>
@@ -173,14 +179,21 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
+
+        <footer class="copyright">
+          <p>&copy; 2014 Dingding Ye</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
       </div>
     </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy;2013 Dingding Ye</a></p>
-      </div>
-    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

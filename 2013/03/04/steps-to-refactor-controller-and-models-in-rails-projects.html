@@ -46,72 +46,56 @@
     <script src="/javascripts/all.js"></script>
   </head>
   <body class="x2013 x2013_03 x2013_03_04 x2013_03_04_steps-to-refactor-controller-and-models-in-rails-projects">
-    <aside class="sidebar">
-      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/profile.html">Profile</a></li>
-        </ul>
-      </nav>
-
-      <nav class="social-connect">
-        <ul>
-          <li><a href="https://github.com/sishen"><i class="icon-github"></i></a></li>
-          <li><a href="http:///weibo.com/presently"><i class="icon-weibo"></i></a></li>
-          <li><a href="https://twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
-          <li><a href="https://facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
-        </ul>
-      </nav>
-
-      <!-- Ad -->
-      <div class="block ad">
-        <h4 class="block-title"><a href="https://fengcheco.com/?utm_content=sidebar" alt="风车协作">Fengche.co</a></h4>
-        <p class="block-cnt">团队协作工具</p>
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
       </div>
-
-    </aside>
-
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
     <section class="main">
       <div class="container">
         
-  <div class="announcement">
-	  <p>
-      
-        <img class="avatar" src="/images/yedingding.png" alt="Yedingding" />
-如果你在远程工作、团队协作、项目管理和创业方面需要意见，欢迎找我约个时间，免费咨询！Skype: sishen.freecity | QQ: 61819318
-
-      
-    </p>
-  </div>
-
   <article class="post single">
 
     <header>
   <h2 class="title">
     <a href="/2013/03/04/steps-to-refactor-controller-and-models-in-rails-projects.html">重构 Rails 项目之最佳实践</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Mar 04, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>March 04, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/rails.html">Rails</a>
       
         <a href="/tags/refactor.html">Refactor</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p>春节前受 <a title="Terry Tai's Blog" href="http://terrytai.com">Terry</a> 邀请帮助国内的一个公益项目 <a title="开放课堂, 设计和实践综合实践课的平台" href="https://newclass.org">Re-education</a> 做代码重构。开放课堂项目是由<a title="教育大发现" href="http://sociallearnlab.org/">教育大发现社区</a>发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 <a href="https://github.com/twers/re-education">GitHub</a>，采用 Ruby on Rails 作为开发框架。</p>
 
-<p>很高兴我们 <a href="https://fengche.co">Fengche.co</a> 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 <a title="Free Screen Sharing and Online Meetings" href="https://join.me">Join.me</a> 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而<strong>对外不改变</strong>原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 <a title="#036 Refactor openclass by Dingding Ye" href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding">RailsCasts China</a> 观看视频。</p>
+<p>很高兴我们 <a href="https://fengcheco.com">Fengche.co</a> 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 <a title="Free Screen Sharing and Online Meetings" href="https://join.me">Join.me</a> 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而<strong>对外不改变</strong>原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 <a title="#036 Refactor openclass by Dingding Ye" href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding">RailsCasts China</a> 观看视频。</p>
 
 <p>Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 <a title="Convention over Congiuration" href="http://en.wikipedia.org/wiki/Convention_over_Configuration">CoC</a>, <a title="Don't Repeat Yourself" href="http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself">DRY</a>。而代码组织方式，则是按照 <a title="Model–view–controller" href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> 模式，推崇 &ldquo;Skinny Controller, Fat Model&quot;，把应用逻辑尽可能的放在 Models 中。</p>
 
@@ -215,9 +199,9 @@
 
 <p>对于项目初期而言，做好这两个基本就够了。但是，随着逻辑的增多，代码量不断增加，我们会发现 Models 开始变得臃肿，整体维护性开始降低。如果一个 Model 对象有效代码行超过了 100 行，我个人认为因为引起警觉了，要思考一下有没有重构点。一般而言，我们有下面几种方法。</p>
 
-<h4>[Concern](<a href="http://en.wikipedia.org/wiki/Concern_(computer_science)">http://en.wikipedia.org/wiki/Concern_(computer_science)</a></h4>
+<h4><a href="http://en.wikipedia.org/wiki/Concern_(computer_science">Concern</a></h4>
 
-<p>Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 <a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns">Put chubby models on a diet with concerns</a> 和 Rails 4 的相关 <a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81">commit</a>。具体使用可以参照上面的博客和下面我们在 <a title="Lean Collaborative Project Management Tool" href="https://fengche.co">Fengche.co</a> 里的实际例子。</p>
+<p>Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 <a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns">Put chubby models on a diet with concerns</a> 和 Rails 4 的相关 <a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81">commit</a>。具体使用可以参照上面的博客和下面我们在 <a title="Lean Collaborative Project Management Tool" href="https://fengcheco.com">Fengche.co</a> 里的实际例子。</p>
 <pre class="highlight ruby"><span class="k">module</span> <span class="nn">Membershipable</span>
   <span class="kp">extend</span> <span class="no">ActiveSupport</span><span class="o">::</span><span class="no">Concern</span>
 
@@ -407,6 +391,36 @@
 
 <p>基本上上面是我在一个 Rails 项目里重构 Controller 和 Model 时会使用的几种方法，希望对你有用。Terry Tai 上周在他的博客里分享了<a href="http://terrytai.com/2013/02/15/refactor-session-for-re-education-in-thought-works.html">他在重构方面的一些想法</a>，也很有价值，推荐阅读。</p>
 
+
+  <div class="bdsharebuttonbox share">
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+  </div>
+  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <div class="clearfix"></div>
+  <div class="about">
+    <div class="author-photo">
+      <img src="/images/yedingding.png?1399041455" />
+    </div>
+    <div class="author-content">
+      <h4>关于我</h4>
+
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+
+      <p class="social-action">
+        <span class="weibo">
+          <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
+        </span>
+        <span class="twitter">
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">Follow on Twitter</a>
+        </span>
+      </p>
+    </div>
+  </div>
 </div>
 
   </article>
@@ -432,14 +446,21 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
+
+        <footer class="copyright">
+          <p>&copy; 2014 Dingding Ye</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
       </div>
     </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy;2013 Dingding Ye</a></p>
-      </div>
-    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

@@ -47,59 +47,43 @@
     <script src="/javascripts/all.js"></script>
   </head>
   <body class="x2013 x2013_09 x2013_09_11 x2013_09_11_practical-git-flow-for-startups">
-    <aside class="sidebar">
-      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/profile.html">Profile</a></li>
-        </ul>
-      </nav>
-
-      <nav class="social-connect">
-        <ul>
-          <li><a href="https://github.com/sishen"><i class="icon-github"></i></a></li>
-          <li><a href="http:///weibo.com/presently"><i class="icon-weibo"></i></a></li>
-          <li><a href="https://twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
-          <li><a href="https://facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
-        </ul>
-      </nav>
-
-      <!-- Ad -->
-      <div class="block ad">
-        <h4 class="block-title"><a href="https://fengcheco.com/?utm_content=sidebar" alt="风车协作">Fengche.co</a></h4>
-        <p class="block-cnt">团队协作工具</p>
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
       </div>
-
-    </aside>
-
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
     <section class="main">
       <div class="container">
         
-  <div class="announcement">
-	  <p>
-      
-        <img class="avatar" src="/images/yedingding.png" alt="Yedingding" />
-如果你在远程工作、团队协作、项目管理和创业方面需要意见，欢迎找我约个时间，免费咨询！Skype: sishen.freecity | QQ: 61819318
-
-      
-    </p>
-  </div>
-
   <article class="post single">
 
     <header>
   <h2 class="title">
     <a href="/2013/09/11/practical-git-flow-for-startups.html">实用 Git 工作流</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Sep 11, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>September 11, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/团队协作.html">团队协作</a>
       
@@ -107,24 +91,22 @@
       
         <a href="/tags/项目管理.html">项目管理</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p>在 <a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html">「让代码审核成为你的团队习惯」</a> 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。</p>
 
 <blockquote>
-    <p>我们有 master-dev 分支，比较大的功能才会新开 branch，小功能都是直接到 dev 上的，再加上团队在一起开发所以固定时间看昨日的代码，效果还不错。我们同样没有 QA，自己做的 ticket 也会找对方来做测试，但多是功能的完整性上的测试了。</p>
-    <p><cite> - <a href="http://weibo.com/iamroody" target="_blank">@iarmroody</a></cite></p>
+    <p>我们有 master-dev 分支，比较大的功能才会新开 branch，小功能都是直接到 dev 上的，再加上团队在一起开发所以固定时间看昨日的代码，效果还不错。我们同样没有 QA，自己做的 ticket 也会找对方来做测试，但多是功能的完整性上的测试了。<cite> - <a href="http://weibo.com/iamroody" target="_blank">@iarmroody</a></cite></p>
 </blockquote>
 
 <blockquote>
-    <p>我们团队小，每个开发人员一个 git 分支，基本上工作不会互相打扰。我们的分支策略是，对于新功能，从主干开一个功能分支，然后每个开发在功能分支上开个人分支。合并时，先 BI（Backward Integration)，，再 FI（Forward Integration)。每周四定期合并，合并时 review。之所以放在周四，是因为如果合并出错，周五还有时间修复。</p>
-    <p><cite> - <a href="http://weibo.com/u/2128792480" target="_blank">@施懿民</a></cite></p>
+    <p>我们团队小，每个开发人员一个 git 分支，基本上工作不会互相打扰。我们的分支策略是，对于新功能，从主干开一个功能分支，然后每个开发在功能分支上开个人分支。合并时，先 BI（Backward Integration)，，再 FI（Forward Integration)。每周四定期合并，合并时 review。之所以放在周四，是因为如果合并出错，周五还有时间修复。<cite> - <a href="http://weibo.com/u/2128792480" target="_blank">@施懿民</a></cite></p>
 </blockquote>
 
-<p>每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 <a href="https://fengche.co">Fengche.co</a> 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。</p>
+<p>每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 <a href="https://fengcheco.com">Fengche.co</a> 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。</p>
 
 <p>在选择代码级别的项目管理工作流程的时候，我们希望能达到这样的目标：</p>
 
@@ -136,19 +118,23 @@
 
 <p>所以，为了达到持续交付，我们必须随时有一个可发布的分支，同时，工作分支能很简单很早的 merge 过来。为了做到随时随地的代码审查，我们必须每一次更改都要有迹可循，且和其他更改没有交叉。为了方便代码沟通，我们必须有独立的分支来做独立的事。所以，像开头列出的两种方式，首先代码审查会很麻烦，因为代码容易混在一起，不够独立，做不到异步随时审查，而需要大家一起花时间专门执行代码审查。同时，会推迟 merge 的发生，带来的更多的不确定性，比如冲突的增加，时间的拖长等等，就更不要说持续交付了。所有这些，都是效率的杀手，是应该尽量去避免的。下面看看我们的工作流程。</p>
 
-<p><img alt="Git Flow in Fengche.co" src="http://yedingding.com/images/practical-git-flow-for-startups/git-flow.png" /></p>
+<p><aside class="aside">
+  <img alt="Git Flow in Fengche.co" src="http://yedingding.com/images/practical-git-flow-for-startups/git-flow.png" />
+</aside></p>
 
 <p>我们有三种性质的分支：1) Master  2) Feature or Bug 3) Staging。所有在时间线上的变化都只跟着 feature 或者 bug 走，跟人无关，也就是项目推进的自然法则。对了，版本控制系统我们用 Git，而不是 SVN，好处就不多讲了，主要是三点：1) 分布式 2) 建分支很容易 3) merge 很简单。如果你对这个不太了解，可以看看 <a href="http://gitcafe.com">GitCafe</a> 的 <a href="https://gitcafe.com/beginning_git">开始 Git 文档</a>。</p>
 
 <h4>Master 分支</h4>
 
-<p>对于我们而言，master 分支是非常特别的，它必须是可以部署的分支，也就是通常意义上的 production。比如对于 <a href="https://fengche.co">Fengche.co</a>，现在线上跑的等同于我们代码里的 master 分支。所以，master 上的任何代码更改都只能是从别的分支 merge 过来，在代码审查过后。</p>
+<p>对于我们而言，master 分支是非常特别的，它必须是可以部署的分支，也就是通常意义上的 production。比如对于 <a href="https://fengcheco.com">Fengche.co</a>，现在线上跑的等同于我们代码里的 master 分支。所以，master 上的任何代码更改都只能是从别的分支 merge 过来，在代码审查过后。</p>
 
 <h4>Feature or Bug 分支</h4>
 
 <p>我们开发时不区分功能特性和 Bug，所有都一致按任务处理。所以，为了方便持续交付和代码审查，我们会人为的细分任务，比如在 9 月份，我们有下面这些任务计划。</p>
 
-<p><img alt="features and bugs" src="http://yedingding.com/images/practical-git-flow-for-startups/features-bugs.png" /></p>
+<p><aside class="aside">
+  <img alt="features and bugs" src="http://yedingding.com/images/practical-git-flow-for-startups/features-bugs.png" />
+</aside></p>
 
 <p>我们在开始实现这个功能或者修复这个 bug 的时候，就基于 master 支持创建一个新分支。之所以基于 master，正是因为上面提到过 master 永远是可以部署的分支，那么基于 master 开的分支就可以直接被 merge 回 master 做发布。</p>
 <pre class="highlight plaintext">(yedingding)$ ~/Fengche.co › git checkout -b 754_usage_analytics -t master
@@ -158,9 +144,9 @@ Switch to a new branch named "746_integrate_mobile"
 (roy)$ ~/Fengche.co › git checkout -b 77_comment_via_email -t master
 Switch to a new branch named "77_comment_via_email"
 </pre>
-<p>从分支创建例子上来看，我们是按照 &lt;sid&gt;&#95;&lt;ticket title&gt; 的方式来命名。sid 是这个任务在 Fengche.co 的任务 ID，ticket title 是任务在 Fengche.co 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 <a href="https://fengche.co">Fengche.co</a> 中，比如提交到 754&#95;usage&#95;analytics 的 commits 会自动关联到 Fengche.co 这个任务的动态里，也可以在 commit 消息里加上 &ldquo;ref #754&rdquo;, &ldquo;resolved #754&rdquo; 这样的文本，也会自动做关联，如下图。</p>
+<p>从分支创建例子上来看，我们是按照 &lt;sid&gt;&#95;&lt;ticket title&gt; 的方式来命名。sid 是这个任务在 Fengche.co 的任务 ID，ticket title 是任务在 Fengche.co 上的标题概述。通过每个任务开发都基于 master 开新分支，就保证了，这个新分支能很容易的跟 master 做 diff 来做代码审查，然后被 merge 回 master。我们也把这种工作方式集成到了 <a href="https://fengcheco.com">Fengche.co</a> 中，比如提交到 754&#95;usage&#95;analytics 的 commits 会自动关联到 Fengche.co 这个任务的动态里，也可以在 commit 消息里加上 &ldquo;ref #754&rdquo;, &ldquo;resolved #754&rdquo; 这样的文本，也会自动做关联，如下图。</p>
 
-<p><img alt="Activity" src="http://blog.pragmatic.ly/images/integrate-version-control-system-with-pragmat/vcs-integration.png" /></p>
+<p><img alt="Activity" src="https://fengcheco.com/blog/images/integrate-version-control-system-with-pragmat/vcs-integration.png" /></p>
 
 <p>这里，在创建 pull request 发布做代码审查前，我们需要先同步 master，也就是 merge master 到正在开发的分支，确保没有 break 和可以正常 merge。然后，团队其他成员会介入做代码审查，当然之前会要求齐全的测试，通过后就可以 merge 会 master 做发布了。用这种方法，需要注意的是，merge 必须得及时，不然如果留下很多个分支没有 merge 的话，解决冲突是个麻烦的事情，更不要说有时会遇到功能有依赖关系的情况时。</p>
 
@@ -180,6 +166,36 @@ Switch to a new branch named "77_comment_via_email"
 
 <p>以上就是我们代码级别的项目管理工作流程，希望对你有帮助。个人觉得这个流程很适合 lean 的敏捷创业团队，能快速迭代快速交付。你们是怎么做的呢，欢迎交流，可以在微博上直接 <a href="http://weibo.com/presently">@yedingding</a> 或者 <a href="http://weibo.com/pragmaticly">@pragmaticly</a>！</p>
 
+
+  <div class="bdsharebuttonbox share">
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+  </div>
+  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <div class="clearfix"></div>
+  <div class="about">
+    <div class="author-photo">
+      <img src="/images/yedingding.png?1399041455" />
+    </div>
+    <div class="author-content">
+      <h4>关于我</h4>
+
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+
+      <p class="social-action">
+        <span class="weibo">
+          <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
+        </span>
+        <span class="twitter">
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">Follow on Twitter</a>
+        </span>
+      </p>
+    </div>
+  </div>
 </div>
 
   </article>
@@ -205,14 +221,21 @@ Switch to a new branch named "77_comment_via_email"
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 
+
+        <footer class="copyright">
+          <p>&copy; 2014 Dingding Ye</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
       </div>
     </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy;2013 Dingding Ye</a></p>
-      </div>
-    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

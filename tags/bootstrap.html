@@ -41,32 +41,28 @@
     <script src="/javascripts/all.js"></script>
   </head>
   <body class="tags tags_bootstrap">
-    <aside class="sidebar">
-      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/profile.html">Profile</a></li>
-        </ul>
-      </nav>
-
-      <nav class="social-connect">
-        <ul>
-          <li><a href="https://github.com/sishen"><i class="icon-github"></i></a></li>
-          <li><a href="http:///weibo.com/presently"><i class="icon-weibo"></i></a></li>
-          <li><a href="https://twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
-          <li><a href="https://facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
-        </ul>
-      </nav>
-
-      <!-- Ad -->
-      <div class="block ad">
-        <h4 class="block-title"><a href="https://fengcheco.com/?utm_content=sidebar" alt="风车协作">Fengche.co</a></h4>
-        <p class="block-cnt">团队协作工具</p>
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
       </div>
-
-    </aside>
-
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
     <section class="main">
       <div class="container">
         <h1 class="tag-page-title">Articles tagged '<em>bootstrap</em>'</h1>
@@ -78,39 +74,29 @@
   <h2 class="title">
     <a href="/2014/03/12/bootstrapping-your-startup-idea.html">Bootstrapping Your Startup idea</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Mar 12, 2014
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Mar 12, 2014</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/bootstrap.html">bootstrap</a>
       
         <a href="/tags/startup.html">startup</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p><aside class="aside-block">
-  <blockquote>
-    <p>
-        本文摘自我发表在 36kr 专栏的文章 <a href="http://www.36kr.com/p/210316.html">Bootstrapping Your Startup idea - 如何低成本创业</a>。
-    </p>
-  </blockquote></p>
-
-<p><small>图片 &copy; <a href="http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html">Inc.com</a></small>
+  <img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" />
 </aside></p>
-
-<p><img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /></p>
 
 <p>自从在博客上放了 Skype 账号，聊过不少有意思的人，大多都是有创业的想法，也有不错的项目想法，但是犹豫着要不要做，认为没有投资的话不太可行，不太敢启动项目。每次我都会说，只要你开始了，即使使用自有资金，只要合理的使用和合理的做事，其实并没你想的那么困难，足够能给项目开启一个很好的头和到达一定的阶段了。</p>
 
-<p>我们在一开始准备自己做<a href="https://fengche.co">风车</a>的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，<a href="https://github.com">GitHub</a> 和 <a href="https://37signals.com">37Signals</a>，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。</p>
+<p>我们在一开始准备自己做<a href="https://fengcheco.com">风车</a>的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，<a href="https://github.com">GitHub</a> 和 <a href="https://37signals.com">37Signals</a>，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。</p>
 
 <ol>
 <li>相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。</li>
@@ -141,14 +127,21 @@
   
 </div>
 
+
+        <footer class="copyright">
+          <p>&copy; 2014 Dingding Ye</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
       </div>
     </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy;2013 Dingding Ye</a></p>
-      </div>
-    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

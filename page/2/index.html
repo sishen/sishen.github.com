@@ -41,32 +41,28 @@
     <script src="/javascripts/all.js"></script>
   </head>
   <body class="page page_2 page_2_index">
-    <aside class="sidebar">
-      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/profile.html">Profile</a></li>
-        </ul>
-      </nav>
-
-      <nav class="social-connect">
-        <ul>
-          <li><a href="https://github.com/sishen"><i class="icon-github"></i></a></li>
-          <li><a href="http:///weibo.com/presently"><i class="icon-weibo"></i></a></li>
-          <li><a href="https://twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
-          <li><a href="https://facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
-        </ul>
-      </nav>
-
-      <!-- Ad -->
-      <div class="block ad">
-        <h4 class="block-title"><a href="https://fengcheco.com/?utm_content=sidebar" alt="风车协作">Fengche.co</a></h4>
-        <p class="block-cnt">团队协作工具</p>
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
       </div>
-
-    </aside>
-
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
     <section class="main">
       <div class="container">
         <div id="posts">
@@ -76,14 +72,12 @@
   <h2 class="title">
     <a href="/2013/08/08/dig-into-code-review-process.html">让代码审查成为你的团队习惯</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Aug 08, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Aug 08, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/团队协作.html">团队协作</a>
       
@@ -91,23 +85,26 @@
       
         <a href="/tags/code-review.html">Code Review</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p>在 <a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html">「远程工作经验谈 - 如何适应及如何管理」</a> 一文中，我在规则这章节提到了代码审查，收到不少朋友的提问和反馈，故在本文中拓展开来聊聊。</p>
 
 <p>在 <a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5">Wikipedia</a> 上，对代码审查的定义是</p>
-<pre class="highlight plaintext">代码审查（英语：Code Review）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查[1]。
-</pre>
+
+<blockquote>
+代码审查（英语：Code Review）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查[1]。
+</blockquote>
+
 <p>可以看出，代码审查主要是为了软件质量和个人开发修养。巧合的是，但凡我接触过的靠谱的团队，无一不是在团队中推行严格的代码审查制度。这个就像是一种习惯，直接融入在团队血液之中。</p>
 
 <h3>为什么我们要求代码审查</h3>
 
 <p>人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。</p>
 
-<p>在我们 <a title="团队高效协作工具" href="https://fengche.co">Fengche.co</a> 的实践中，代码审查给我们带来的三点好处。</p>
+<p>在我们 <a title="团队高效协作工具" href="https://fengcheco.com">Fengche.co</a> 的实践中，代码审查给我们带来的三点好处。</p>
 
 <p>
 
@@ -125,14 +122,12 @@
   <h2 class="title">
     <a href="/2013/07/24/remote-team-the-things-you-should-know.html">远程工作经验谈 - 如何适应及如何管理</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Jul 24, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Jul 24, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/远程工作.html">远程工作</a>
       
@@ -140,15 +135,16 @@
       
         <a href="/tags/团队协作.html">团队协作</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
-  <p><img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1384953321">
-前记：本文源于我在知乎上回答的<a href="http://www.zhihu.com/question/20011303/answer/17978689">「团队成员都在异地办公有哪些优劣？」</a>。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。</p>
+  <p><aside class="aside"><img alt="Remote Work WorldMap" src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1399041455"></aside></p>
 
-<p>算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 <a title="团队高效协作工具" href="https://fengche.co">Fengche.co</a>，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。</p>
+<p>前记：本文源于我在知乎上回答的<a href="http://www.zhihu.com/question/20011303/answer/17978689">「团队成员都在异地办公有哪些优劣？」</a>。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。</p>
+
+<p>算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 <a title="团队高效协作工具" href="https://fengcheco.com">Fengche.co</a>，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。</p>
 
 <h3>团队</h3>
 
@@ -160,7 +156,7 @@
 
 <h4>团队情感</h4>
 
-<p>如果你找到了自律并耐得住寂寞的人一起工作，那么恭喜你。下面就是你得信任他，100% 的信任，如果你花时间去思考他到底是不是在用心工...</p>
+<p>如果你找到了自律并耐得住寂寞的人一起工作，那么恭喜你。下面就是你得信任他，100% 的信任，如果你花时间去思考他到底是不是在用心...</p>
 
   <p>
     ......
@@ -176,27 +172,25 @@
   <h2 class="title">
     <a href="/2013/07/04/video-for-startup.html">创业工具箱之视频篇</a>
   </h2>
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Jul 04, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
+      
+        <a href="/tags/创业.html">创业</a>
+      
+        <a href="/tags/工具.html">工具</a>
+      
+        <a href="/tags/视频.html">视频</a>
+      
+    </span>
+  </div>
 </header>
 
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Jul 04, 2013
-    </li>
-    <li class="tags">
-      
-        <a href="/tags/startup.html">startup</a>
-      
-        <a href="/tags/tools.html">tools</a>
-      
-        <a href="/tags/video.html">video</a>
-      
-    </li>
-  </ul>
-</aside>
-
 <div class="content">
-  <p><img alt="Fengche.co Tour Video" src="/images/video-for-startup/example.png?1384953321"></p>
+  <p><aside class="aside"><img alt="Fengche.co Tour Video" src="/images/video-for-startup/example.png?1384953321"></aside></p>
 
 <p>前天在微博上发了一条消息介绍视频托管服务 <a href="http://wistia.com">Wista</a>，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。</p>
 
@@ -214,7 +208,7 @@
 
 <h4>Wistia</h4>
 
-<p><a href="http://wistia.com">Wistia</a> 是目前 <a href="https://fengche.co">Fengche.co</a> 在用的视频托管商，你可以<a href="https://fengche.co/tour">点击这里</a>看看实际效果。作为一个还未被墙希望也不要被墙的服务，他满足了我的所有需求...</p>
+<p><a href="http://wistia.com">Wistia</a> 是目前 <a href="https://fengcheco.com">Fengche.co</a> 在用的视频托管商，你可以<a href="https://fengcheco.com/tour">点击这里</a>看看实际效果。作为一个还未被墙希望也不要被墙的服务，他满足了我的所有需求...</p>
 
   <p>
     ......
@@ -230,41 +224,36 @@
   <h2 class="title">
     <a href="/2013/05/22/happy-hackathon.html">黑客马拉松 - 玩脱了就行！</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      May 22, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>May 22, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/hackathon.html">hackathon</a>
       
         <a href="/tags/hacking.html">hacking</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
-  <p><img alt="Rails Rumbling" src="/images/happy-hackathon/rumbling.jpg?1384953321"></p>
+  <p><aside class="aside"><img alt="Rails Rumbling" src="/images/happy-hackathon/rumbling.jpg?1384953321"></aside></p>
 
 <p>去年十月参加 <a href="http://railsrumble.com">Rails Rumble 2012</a>，做了一个 <a href="http://call4review.com">call4review.com</a>，虽然现在已经很少打理，但是偶尔用到几次也觉得挺有价值。这是第二次参加 Rails Rumble，2010 年和 <a href="http://lvguoning.com">Daniel</a>、<a href="http://terrytai.com">Terry</a>、<a href="#">David Pots</a> 做了个 IMGateway，2012 年和 <a href="http://beenhero.com">Ben</a>、<a href="http://terrytai.com">Terry</a> 做了这个 Call4Review，每每谈论起整个过程，个个眉飞目舞，意犹未尽的样子。其实就两个字，好玩！Just for fun，这不正是黑客精神的很好诠释嘛。</p>
 
 <blockquote>
-  <p>当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。</p>
-  <p><cite>— <img alt="Daniel" height="36" src="https://secure.gravatar.com/avatar/b338e877fffff7a61d90a799c081c85b?size=72" width="36"><a href="//lvguoning.com">Daniel</a></cite></p>
+  <p>当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。<cite>— <a href="//lvguoning.com">Daniel</a></cite></p>
 </blockquote>
 
 <blockquote>
-  <p>犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣…</p>
-  <p><cite>— <img alt="Terry" height="36" src="https://secure.gravatar.com/avatar/85a64fb3375926c0be5c75eccf40e853?size=72" width="36"><a href="//terrytai.com">Terry</a></cite></p>
+  <p>犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣… <cite>— <a href="//terrytai.com">Terry</a></cite></p>
 </blockquote>
 
 <blockquote>
-  <p>是一场极限'运动‘, 在严格的限定时间里产出自己最大的效能, 很刺激很过瘾.</p>
-  <p><cite>— <img alt="Ben" height="36" src="https://secure.gravatar.com/avatar/e7ac2850f5cfb29baaf97625c7bd590c?size=72" width="36"><a href="//beenhero.com">Ben</a></cite></p>
+  <p>是一场极限'运动‘, 在严格的限定时间里产出自己最大的效能, 很刺激很过瘾. <cite>— <a href="//beenhero.com">Ben</a></cite></p>
 </blockquote>
 
 <p>相对惭愧的是，国内的黑客马拉松参加的少，只因为习惯了远程工作，对于这种限定场地的反而感觉到了不自在。上周跟<a href="http://segmentfault.com/u/sunny">高阳</a>聊起黑客马拉松，获得了一些有意思的信息，也知道他们最近正在搞 <a href="http://segmentfault.com/codejam-2013">CodeJam</a>。程序员大多都很宅，远程工作的就是死宅了… ❨╯°□°❩╯︵ ┻━┻  提供和限定场地可以让参加的团队能互相交流，思想碰撞，有一种跟线上比赛完全不一样的感官享受。</p>
@@ -275,7 +264,7 @@
 <li>做最小化的东西，你只有 48 小时的开发时间，把功能砍到不能再砍。</li>
 <li>充分的准备，不要在比赛的时候去做选择方案的事。规则不允许提前开发，但是你应该对开发中遇到的所有技术难点都提前有尝试。</li>
 <li>一个好的协作工具。48 小时开发是非常高强度的，交流可以靠吼，进度控制管理必须靠工具，这样团队的每个人才能专注开发。</li>
-<li>做什么不是关键，相信大家平时会有很多创意，随便选个，最主要是玩的尽...</li>
+<li>做什么不是关键，相信大家平时会有很多创意，随便选个，最主要是玩的尽兴，不是吗？</li>
 </ol>
 
   <p>
@@ -292,14 +281,12 @@
   <h2 class="title">
     <a href="/2013/05/14/ruby-event-5-11.html">记 5 月 11 号 Ruby 开发者沙龙</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      May 14, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>May 14, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/ruby.html">ruby</a>
       
@@ -307,16 +294,16 @@
       
         <a href="/tags/hangzhou.html">hangzhou</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
-  <p><img alt="Hangzhou Ruby Event May 11th" src="/images/ruby-event-5-11/event.jpg?1368509827"></p>
+  <p><aside class="aside"><img alt="Hangzhou Ruby Event May 11th" src="/images/ruby-event-5-11/event.jpg?1368509827"></aside></p>
 
 <p>上周六我们在杭州举行了面对长三角的小型 Ruby 爱好者沙龙，5 个小时，6 位分享嘉宾，70多位参与者，很好很强大。</p>
 
-<p>我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 <a href="https://fengche.co">Fengche.co</a> 团队的另外两位创始人 <a href="http://terrytai.com">Terry</a> 和 <a href="http://beenhero.com">Ben</a> 允许我用工作时间来做这件事，感谢淘宝阿里技术协会(ATA)对社区的一贯支持和本次提供场地设备和茶歇点心，感谢 <a href="http://segmentfault.com">SegmentFault</a> 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 (<a href="https://twitter.com/fswordlee">@fswordlee</a>)，李华顺 (<a href="https://twitter.com/huacnlee">@huacnlee</a>)，武鑫 (<a href="https://twitter.com/SaitoWu">@SaitoWu</a>)和吕戈 (<a href="https://twitter.com/night_song">@night_song</a>) 一起组织活动。</p>
+<p>我个人很喜欢 Daniel 之前在上海搞的季度 ShanghaiOnRails 线下活动，给长三角的 Rubyists 提供了交流学习的时间和平台，每次参加都感觉收获不浅。可惜随着 Daniel 的退隐江湖，这个活动也就搁置了一段时间。上个月我和杭州 Ruby 社区的朋友聊了一下，决定在杭州也搞一期，希望未来有上海的朋友苏州的朋友也能牵头搞这件事，促进城际间的交流。其实对于活动本身，只要搞定了场地问题，其他都不是问题了，时间选个周末，讲师大家一期安排。在这里感谢一下我所在 <a href="https://fengcheco.com">Fengche.co</a> 团队的另外两位创始人 <a href="http://terrytai.com">Terry</a> 和 <a href="http://beenhero.com">Ben</a> 允许我用工作时间来做这件事，感谢淘宝阿里技术协会(ATA)对社区的一贯支持和本次提供场地设备和茶歇点心，感谢 <a href="http://segmentfault.com">SegmentFault</a> 提供会议报名组织支持，感谢杭州 Ruby 社区的李建业 (<a href="https://twitter.com/fswordlee">@fswordlee</a>)，李华顺 (<a href="https://twitter.com/huacnlee">@huacnlee</a>)，武鑫 (<a href="https://twitter.com/SaitoWu">@SaitoWu</a>)和吕戈 (<a href="https://twitter.com/night_song">@night_song</a>) 一起组织活动。</p>
 
 <p>这次沙龙分享嘉宾阵容非常强大，分享主题非常有料，很有幸能得到他们的支持，特别是远道而来的曹力 (<a href="https://twitter.com/shiningray">@ShiningRay</a>) 和黄志敏 (<a href="https://twitter.com/flyerhzm">@flyerhzm</a>)。6 场演讲场场精彩，我这里小记一下。</p>
 
@@ -338,25 +325,25 @@
   <h2 class="title">
     <a href="/2013/04/22/rails-for-beginners.html">Rails 初学者指南</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Apr 22, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Apr 22, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/rails.html">rails</a>
       
         <a href="/tags/learning.html">learning</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
-  <p><img alt="DHH Talks About Rails And Beginner" src="/images/rails-for-beginners/dhh-talks-about-rails-and-beginners.png?1366647275" /></p>
+  <p><aside class="aside">
+  <img alt="DHH Talks About Rails And Beginner" src="/images/rails-for-beginners/dhh-talks-about-rails-and-beginners.png?1366647275" />
+</aside></p>
 
 <p>今年 2 月初，我 和 <a href="http://lvguoning.com">Daniel</a>，<a href="http://terrytai.com">Terry</a>，<a href="http://knwang.com">Kevin</a> 在 <a href="http://teahour.fm">Teahour.FM</a> 上聊了一期 Ruby 与 Rails 的学习经历和对初学者的学习建议 <a href="http://teahour.fm/2013/02/03/learning-ruby-and-rails.html">How to Learn Ruby and Rails</a>。而这竟然成为了目前 Teahour 这么多期里面最受欢迎的一期。Rails 4 发布在即，看上去 Rails 已经越来越不适合初学者学习。所以对于初学者而言，了解正确的学习方式无痛上路显得就格外重要。</p>
 
@@ -380,14 +367,12 @@
   <h2 class="title">
     <a href="/2013/04/16/care-yourself-first-programmers.html">关爱程序员之 Herman Miller Embody 体验报告</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Apr 16, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Apr 16, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/programmer.html">programmer</a>
       
@@ -395,12 +380,14 @@
       
         <a href="/tags/productivity.html">productivity</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
-  <p><img alt="Herman Miller Emboy" src="/images/care-yourself-first-programmers/embody.png?1366131396" /></p>
+  <p><aside class="aside">
+  <img alt="Herman Miller Emboy" src="/images/care-yourself-first-programmers/embody.png?1366131396" />
+</aside></p>
 
 <p>上周入了梦想已久的 <a href="http://www.hermanmiller.cn/Product/Embody-Chairs">Herman Miller Embody</a> 椅子，这几天也有不少朋友在问体验报告，想知道花这么多钱买一把椅子是否值得。在这我说说我的感受。</p>
 
@@ -424,14 +411,12 @@
   <h2 class="title">
     <a href="/2013/04/09/teahourfm-with-middleman.html">Teahour.fm, Static Site by Middleman</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Apr 09, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Apr 09, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/teahour.html">teahour</a>
       
@@ -439,12 +424,14 @@
       
         <a href="/tags/static-site.html">static site</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
-  <p><img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346"><br><a href="http://teahour.fm">Teahour.fm</a> 是是由四位程序员 <a href="http://terrytai.com">Terry Tai</a>，<a href="http://lgn21st.com">Daniel Lv</a>，<a href="http://knwang.com">Kevin Wang</a> 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD</p>
+  <p><aside class="aside"><img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346"></aside></p>
+
+<p><a href="http://teahour.fm">Teahour.fm</a> 是是由四位程序员 <a href="http://terrytai.com">Terry Tai</a>，<a href="http://lgn21st.com">Daniel Lv</a>，<a href="http://knwang.com">Kevin Wang</a> 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD</p>
 
 <p>这周团队在北京活动，顺便参加了 <a href="http://www.bjrubyist.org/">Beijing Rubyist</a> 线下活动，分享了一些 <a href="http://teahour.fm">teahour.fm</a> 网站设计和开发的一些思考。具体 slides 可以参考 <a href="https://speakerdeck.com/sishen/teahour-dot-fm">speakerdeck</a>。</p>
 
@@ -465,7 +452,7 @@
 <li>不能做站内评论，需要依托 disqus 这些评论解决方案</li>
 </ul><h3>MiddleMan</h3>
 
-<p>MiddleMan ...</p>
+<p>MiddleMan...</p>
 
   <p>
     ......
@@ -481,27 +468,25 @@
   <h2 class="title">
     <a href="/2013/03/04/steps-to-refactor-controller-and-models-in-rails-projects.html">重构 Rails 项目之最佳实践</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Mar 04, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Mar 04, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/rails.html">Rails</a>
       
         <a href="/tags/refactor.html">Refactor</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p>春节前受 <a title="Terry Tai's Blog" href="http://terrytai.com">Terry</a> 邀请帮助国内的一个公益项目 <a title="开放课堂, 设计和实践综合实践课的平台" href="https://newclass.org">Re-education</a> 做代码重构。开放课堂项目是由<a title="教育大发现" href="http://sociallearnlab.org/">教育大发现社区</a>发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 <a href="https://github.com/twers/re-education">GitHub</a>，采用 Ruby on Rails 作为开发框架。</p>
 
-<p>很高兴我们 <a href="https://fengche.co">Fengche.co</a> 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 <a title="Free Screen Sharing and Online Meetings" href="https://join.me">Join.me</a> 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而<strong>对外不改变</strong>原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 <a title="#036 Refactor openclass by Dingding Ye" href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding">RailsCasts China</a> 观看视频。</p>
+<p>很高兴我们 <a href="https://fengcheco.com">Fengche.co</a> 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 <a title="Free Screen Sharing and Online Meetings" href="https://join.me">Join.me</a> 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而<strong>对外不改变</strong>原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 <a title="#036 Refactor openclass by Dingding Ye" href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding">RailsCasts China</a> 观看视频。</p>
 
 <p>Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 <a title="Convention over Congiuration" href="http://en.wikipedia.org/wiki/Convention_over_Configuration">CoC</a>, <a title="Don't Repeat Yourself" href="http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself">DRY</a>。而代码组织方式，则是按照 <a title="Model–view–controller" href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> 模式，推崇 &ldquo;Skinny Controller, Fat Model&quot;，把应用逻辑尽可能的放在 Models 中。</p>
 
@@ -521,14 +506,12 @@
   <h2 class="title">
     <a href="/2013/01/22/the-nil-podcast-with-terry-and-daniel.html">The Missing Chinese Podcast About Tech</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Jan 22, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Jan 22, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/podcast.html">Podcast</a>
       
@@ -538,9 +521,9 @@
       
         <a href="/tags/javascript.html">Javascript</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
   <p><img title="Terry, Daniel and Me" alt="Terry, Daniel and me" src="/images/the-nil-podcast-with-terry-and-daniel/nil-podcast.png?1365745413" /></p>
@@ -589,14 +572,21 @@
   
 </div>
 
+
+        <footer class="copyright">
+          <p>&copy; 2014 Dingding Ye</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
       </div>
     </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy;2013 Dingding Ye</a></p>
-      </div>
-    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

@@ -41,32 +41,28 @@
     <script src="/javascripts/all.js"></script>
   </head>
   <body class="tags tags_middleman">
-    <aside class="sidebar">
-      <h1 class="site-name"><a href="/">Dingding Ye</a></h1>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/profile.html">Profile</a></li>
-        </ul>
-      </nav>
-
-      <nav class="social-connect">
-        <ul>
-          <li><a href="https://github.com/sishen"><i class="icon-github"></i></a></li>
-          <li><a href="http:///weibo.com/presently"><i class="icon-weibo"></i></a></li>
-          <li><a href="https://twitter.com/yedingding"><i class="icon-twitter"></i></a></li>
-          <li><a href="https://facebook.com/yedingding"><i class="icon-facebook"></i></a></li>
-        </ul>
-      </nav>
-
-      <!-- Ad -->
-      <div class="block ad">
-        <h4 class="block-title"><a href="https://fengcheco.com/?utm_content=sidebar" alt="风车协作">Fengche.co</a></h4>
-        <p class="block-cnt">团队协作工具</p>
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
       </div>
-
-    </aside>
-
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
     <section class="main">
       <div class="container">
         <h1 class="tag-page-title">Articles tagged '<em>middleman</em>'</h1>
@@ -78,14 +74,12 @@
   <h2 class="title">
     <a href="/2013/04/09/teahourfm-with-middleman.html">Teahour.fm, Static Site by Middleman</a>
   </h2>
-</header>
-
-<aside class="aside-block">
-  <ul class="meta">
-    <li class="date">
-      Apr 09, 2013
-    </li>
-    <li class="tags">
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Apr 09, 2013</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
       
         <a href="/tags/teahour.html">teahour</a>
       
@@ -93,12 +87,14 @@
       
         <a href="/tags/static-site.html">static site</a>
       
-    </li>
-  </ul>
-</aside>
+    </span>
+  </div>
+</header>
 
 <div class="content">
-  <p><img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346"><br><a href="http://teahour.fm">Teahour.fm</a> 是是由四位程序员 <a href="http://terrytai.com">Terry Tai</a>，<a href="http://lgn21st.com">Daniel Lv</a>，<a href="http://knwang.com">Kevin Wang</a> 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD</p>
+  <p><aside class="aside"><img title="Teahour.fm Logo" alt="TeahourFM" src="/images/teahourfm-with-middleman/logo.png?1365745346"></aside></p>
+
+<p><a href="http://teahour.fm">Teahour.fm</a> 是是由四位程序员 <a href="http://terrytai.com">Terry Tai</a>，<a href="http://lgn21st.com">Daniel Lv</a>，<a href="http://knwang.com">Kevin Wang</a> 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD</p>
 
 <p>这周团队在北京活动，顺便参加了 <a href="http://www.bjrubyist.org/">Beijing Rubyist</a> 线下活动，分享了一些 <a href="http://teahour.fm">teahour.fm</a> 网站设计和开发的一些思考。具体 slides 可以参考 <a href="https://speakerdeck.com/sishen/teahour-dot-fm">speakerdeck</a>。</p>
 
@@ -119,7 +115,7 @@
 <li>不能做站内评论，需要依托 disqus 这些评论解决方案</li>
 </ul><h3>MiddleMan</h3>
 
-<p>MiddleMan ...</p>
+<p>MiddleMan...</p>
 
   <p>
     ......
@@ -139,14 +135,21 @@
   
 </div>
 
+
+        <footer class="copyright">
+          <p>&copy; 2014 Dingding Ye</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
       </div>
     </section>
 
-    <footer>
-      <div class="copyright">
-        <p>&copy;2013 Dingding Ye</a></p>
-      </div>
-    </footer>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">

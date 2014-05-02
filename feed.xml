@@ -62,7 +62,7 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-    &lt;img alt="Writing Process" src="/images/you-should-write/mindnode.png?1398745718" /&gt;
+    &lt;img alt="Writing Process" src="/images/you-should-write/mindnode.png?1399041455" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;不要再给自己找借口了，放轻松点，我们不是作家要写一部小说，我们只是作者要写点东西，而如前面所言，写作能让我们梳理整个知识体系，这就够了。Medium 的 slogan 我觉得非常好，『Everyone&amp;rsquo;s stories and ideas』，我们每天都在接收新的信息和新的想法，为何不把它记录成字呢？不要一开始就苛求完美，永远记得&lt;strong&gt;坏的开始就等于成功的一半&lt;/strong&gt;。我觉得我写的每一篇初稿都很烂，但是每次修改都让我觉得比前一次好一点点。到最后发布时，看起来也还不错，至少自己挺满意。&lt;/p&gt;
@@ -70,12 +70,6 @@
 &lt;p&gt;细细分析，写作的整个过程其实跟做产品还蛮像的。一篇文章的出炉，需要历经计划、调研、初稿、复审、修订和发布的过程。做计划时需要了解文章读者是谁，他们的期望是什么，确定主题思想。调研时比较同类文章，梳理整个思路。一般在这个阶段后，我已经基本有了一个脑图。初稿就严格按照脑图需求，迅速成文。之后听取朋友反馈，多次修订，最后发布。整就一个精益写作的过程。&lt;/p&gt;
 
 &lt;p&gt;写作是一个非常值得培养的习惯。这个技能的练成，没有捷径，唯有不停的练习。时代在回归，人也要回归。千里之行，始于足下，YOU should get started!&lt;/p&gt;
-
-&lt;h4&gt;关于我&lt;/h4&gt;
-
-&lt;p&gt;我是一位技术创业者，目前团队的产品是风车，很多本博客的分享都是基于在风车上的实战经验。&lt;a href="https://fengcheco.com?utm_content=writing"&gt;Why not try Fengche.co now?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最后，如果你读到这里了，你应该在新浪微博上&lt;a href="http://weibo.com/presently"&gt;加我为好友&lt;/a&gt;。&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -106,10 +100,8 @@
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt="High-Tech Product Life-Cycle" src="/images/test-your-mvp-seriously/product-lifecycle.png?1397731401" /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Crossing the Chasm" src="/images/test-your-mvp-seriously/crossing-the-chasm.png?1397731401" /&gt;
+  &lt;img alt="High-Tech Product Life-Cycle" src="/images/test-your-mvp-seriously/product-lifecycle.png?1399041455" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;Geoffrey A. Moore 在其经典著作 『&lt;a href="http://en.wikipedia.org/wiki/Crossing_the_Chasm"&gt;Crossing the Chasm&lt;/a&gt; 』 里，提出了技术产品的生命周期定律，在天使用户和早期大众用户之间有一条很难跨越的鸿沟。结合精益创业的思想，MVP 迭代的做法正是为了能尽可能的去跨过去，可以说，MVP 是给天使用户而做，验证想法修正迭代以期最后改进成适合早期大众用户的真正产品。所以，一定要非常严肃的对待 MVP，而其中关键又是从用户那里得到足够的反馈。然而，既然我们需要用户，需要反馈，那是不是甩开膀子，用免费的方式，有足够的眼球和吆喝就可以了呢？很不幸的是，绝大部分情况下，不是。大量的免费用户也意味着大量的噪音，你得从中找到真正的意见，找到真正用户愿意付钱的点和用户不关心的点。回到价值交换上，用户之所以愿意掏钱成为客户的原因是你的产品的某个价值，越早的了解这个价值并有针对性的去放大这个价值会越助于你跨越鸿沟。想想以下一些场景，是否感觉很熟悉？&lt;/p&gt;
@@ -127,12 +119,6 @@
 &lt;p&gt;收费的另外一个好处是，你的支持成本在初期会降低很多，尤其在本来资源就紧缺的环境下。能提供很好的用户支持一般是创业公司相比较大公司能提供的优势，所以我们无法对一个用户说，因为你没付钱我们就不提供服务或者差一级的服务，每个愿意来花时间提意见的用户都应该得到我们的感谢，不管有多吹毛求疵。所以，这种时候商业模式的区别能帮你省很多力，让你去服务你更愿意服务的客户。&lt;/p&gt;
 
 &lt;p&gt;所有的 MVP 验证行为都是市场行为，依托于大量的假设和验证。你可以通过分析获取隐藏在数据背后的事实，参考『&lt;a href="http://yedingding.com/2014/03/27/growth-from-analytics.html"&gt;创业成长，从分析开始&lt;/a&gt;』，也可以通过与用户交流或者采访来获得真实的反馈。所以，请一定要根据你的 MVP，找到对的人群，严肃的，测试提供的解决方案的价值。如果你认可一个产品给你带来的价值，获益远超过你的付出，也请好好考虑是否购买使用，这不仅仅是支持，也是双赢，更是对整个生态圈的改善。&lt;/p&gt;
-
-&lt;h4&gt;关于我&lt;/h4&gt;
-
-&lt;p&gt;我是一位技术创业者，目前团队的产品是风车，一款最适合创业团队的高效项目管理工具。风车可以节省你们大量的时间，把花时间真正花在刀刃上，也即在产品本身。&lt;a href="https://fengcheco.com?utm_content=testmvp"&gt;现在就开始使用风车！&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;最后，如果你读到这里了，你应该在新浪微博上&lt;a href="http://weibo.com/presently"&gt;加我为好友&lt;/a&gt;。&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -165,7 +151,9 @@
 
 &lt;h3&gt;&lt;a href="http://www.google.com/intl/zh-CN_ALL/analytics/index.html"&gt;Google Analytics&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img alt="Google Analytics" src="/images/growth-from-analytics/google_analytics.png?1395948474" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Google Analytics" src="/images/growth-from-analytics/google_analytics.png?1399041455" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;说起分析工具，估计 Google Analytics 是目前使用最广泛的，强大且免费。Google Analytics 主要给我们提供了几大关键指标：&lt;/p&gt;
 
@@ -183,7 +171,9 @@
 
 &lt;h3&gt;&lt;a href="https://mixpanel.com"&gt;Mixpanel&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img alt="Mixpanel" src="/images/growth-from-analytics/mixpanel.png?1395948474" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Mixpanel" src="/images/growth-from-analytics/mixpanel.png?1399041455" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;Mixpanel 从页面访问量数据的局限跳出来，转而以用户行为为驱动。Mixpanel 主要给我们提供了几大关键指标：&lt;/p&gt;
 
@@ -198,7 +188,9 @@
 
 &lt;h3&gt;&lt;a href="https://www.kissmetrics.com"&gt;KissMetrics&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img alt="KissMetrics" src="/images/growth-from-analytics/KissMetrics.png?1395948474" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="KissMetrics" src="/images/growth-from-analytics/KissMetrics.png?1395948474" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;KissMetrics 跟 Mixpanel 很类似，都是以用户行为为导向的分析工具，所提供的功能也基本一致。不过 KissMetrics 在针对用户的行为分析上做的更深入也更简单，能让你更加清楚地了解用户行为背后的各方数据。Mixpanel 也能做，就是需要更多的去学习它的功能。&lt;/p&gt;
 
@@ -208,7 +200,9 @@
 
 &lt;h3&gt;&lt;a href="http://usercycle.com"&gt;UserCycle&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img alt="UserCycle" src="/images/growth-from-analytics/usercycle.png?1395948474" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="UserCycle" src="/images/growth-from-analytics/usercycle.png?1399041455" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;UserCycle 的卖点很简单，你并不需要大量的数据，你真正需要的是每次专注一个指标，获取能让你用来提升这个指标的目标数据，进而提供执行的辅助。如果说 Google Analytics、Mixpanel 和 KissMetrics 是纯粹的分析工具的话，UserCycle 则做得更多，从统计到用户分组、从分组到生命周期维护、从生命周期到分组实验测试，各方面了解用户行为，提升用户的价值。&lt;/p&gt;
 
@@ -220,7 +214,9 @@
 
 &lt;h3&gt;&lt;a href="http://customer.io/"&gt;Customer.io&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img alt="Customer.io" src="/images/growth-from-analytics/customer.png?1395948474" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Customer.io" src="/images/growth-from-analytics/customer.png?1399041455" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;Customer.io 做的事情比起来就简单多了，它也只做了整个分析过程中的某一点，&lt;strong&gt;生命周期邮件（Lifecycle Email）&lt;/strong&gt;。一个产品的成功与否，关键在于看有多少忠诚的客户，邮件互动就是为了制造忠诚的客户。而邮件互动的关键又在于如何在正确的时间给正确的用户发正确的内容来提高邮件打开率。同样以&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;为例，对于活跃的用户我需要跟用户互动的目标和跟一次性用户互动的目标显然会不同，所以也就不能给同样的邮件内容。所以，我必须了解用户之间的差异，基于用户的不同行为发送不同的邮件来互动，而这，就是 Customer.io 在解决的问题，专注在邮件互动这一块。&lt;/p&gt;
 
@@ -228,7 +224,9 @@
 
 &lt;h3&gt;&lt;a href="https://www.optimizely.com/"&gt;Optimize.ly&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img alt="Optimizely" src="/images/growth-from-analytics/optimizely.png?1395948474" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Optimizely" src="/images/growth-from-analytics/optimizely.png?1399041455" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;非常简单直接的标语，Optimize.ly 就是 A/B 测试的利器。A/B 测试对于现在的创业者来说已经不再陌生，但是如何去做以及怎么做对于很多人来说都略显陌生。当我们定义好我们想去尝试的实验，可以通过 Optimize.ly 非常简单的修改页面，然后剩下的就不用操心了，可以说即使是没有技术背景的市场人员也能很简单的学会如何做 A/B 测试。Optimize.ly 会根据用户行为的不同，给出不同的测试报告，让我们能真真切切的了解对于转化率的影响，持续的改进流程和页面来让产品变得更好。&lt;/p&gt;
 
@@ -338,7 +336,7 @@
 &lt;p&gt;Spine 上面已经介绍了不少，这里再介绍一个我很喜欢的特性：&lt;em&gt;Asynchronous interfaces&lt;/em&gt;。当我们决定把逻辑从服务端移到客户端的时候，就是要提高用户的整个使用体验，要能非常迅速的对用户行为做出响应。所以，当用户做了一个操作更新数据的时候，不要再显示个 loading spinner，让用户去等待数据更新完毕，而是应该立刻给出页面的变化。这就是异步 UI，通过解耦客户端 UI 交互跟服务端数据同步，保证了交互的流畅性。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="CoffeeScript" src="/images/fengcheco-architecture/dhh-coffee.png?1393869410" /&gt;
+  &lt;img alt="CoffeeScript" src="/images/fengcheco-architecture/dhh-coffee.png?1399041455" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;h5&gt;CoffeeScript + Eco&lt;/h5&gt;
@@ -474,20 +472,12 @@
       <name>Dingding Ye</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;
-        本文摘自我发表在 36kr 专栏的文章 &lt;a href="http://www.36kr.com/p/210316.html"&gt;Bootstrapping Your Startup idea - 如何低成本创业&lt;/a&gt;。
-    &lt;/p&gt;
-  &lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;图片 &amp;copy; &lt;a href="http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html"&gt;Inc.com&lt;/a&gt;&lt;/small&gt;
+  &lt;img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /&gt;&lt;/p&gt;
 
 &lt;p&gt;自从在博客上放了 Skype 账号，聊过不少有意思的人，大多都是有创业的想法，也有不错的项目想法，但是犹豫着要不要做，认为没有投资的话不太可行，不太敢启动项目。每次我都会说，只要你开始了，即使使用自有资金，只要合理的使用和合理的做事，其实并没你想的那么困难，足够能给项目开启一个很好的头和到达一定的阶段了。&lt;/p&gt;
 
-&lt;p&gt;我们在一开始准备自己做&lt;a href="https://fengche.co"&gt;风车&lt;/a&gt;的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，&lt;a href="https://github.com"&gt;GitHub&lt;/a&gt; 和 &lt;a href="https://37signals.com"&gt;37Signals&lt;/a&gt;，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。&lt;/p&gt;
+&lt;p&gt;我们在一开始准备自己做&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，&lt;a href="https://github.com"&gt;GitHub&lt;/a&gt; 和 &lt;a href="https://37signals.com"&gt;37Signals&lt;/a&gt;，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。&lt;/li&gt;
@@ -500,20 +490,12 @@
 
 &lt;p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;
-        本文摘自我发表在 36kr 专栏的文章 &lt;a href="http://www.36kr.com/p/210316.html"&gt;Bootstrapping Your Startup idea - 如何低成本创业&lt;/a&gt;。
-    &lt;/p&gt;
-  &lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;图片 &amp;copy; &lt;a href="http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html"&gt;Inc.com&lt;/a&gt;&lt;/small&gt;
+  &lt;img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /&gt;&lt;/p&gt;
 
 &lt;p&gt;自从在博客上放了 Skype 账号，聊过不少有意思的人，大多都是有创业的想法，也有不错的项目想法，但是犹豫着要不要做，认为没有投资的话不太可行，不太敢启动项目。每次我都会说，只要你开始了，即使使用自有资金，只要合理的使用和合理的做事，其实并没你想的那么困难，足够能给项目开启一个很好的头和到达一定的阶段了。&lt;/p&gt;
 
-&lt;p&gt;我们在一开始准备自己做&lt;a href="https://fengche.co"&gt;风车&lt;/a&gt;的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，&lt;a href="https://github.com"&gt;GitHub&lt;/a&gt; 和 &lt;a href="https://37signals.com"&gt;37Signals&lt;/a&gt;，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。&lt;/p&gt;
+&lt;p&gt;我们在一开始准备自己做&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，&lt;a href="https://github.com"&gt;GitHub&lt;/a&gt; 和 &lt;a href="https://37signals.com"&gt;37Signals&lt;/a&gt;，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。&lt;/li&gt;
@@ -532,7 +514,7 @@
 
 &lt;h4&gt;专注核心价值&lt;/h4&gt;
 
-&lt;p&gt;草根团队，没钱没资源，怎么破？尤其是当你使用自有资金的时候，做决策的事情一定要谨记，这是否是我们的产品核心价值，是否是最紧急的任务，如果不是的就放放。这也会让我们能更加有效的利用资源和更加高效的执行。同时，如果事情不涉及核心价值，尽量去拥抱云，尝试一些好的第三方服务，宁愿花一点钱来换时间。比如在&lt;a href="https://fengche.co"&gt;风车&lt;/a&gt;里，我们使用了 &lt;a href="http://linode.com"&gt;Linode&lt;/a&gt; 作为应用服务器，&lt;a href="http://aws.amazon.com/cn/s3/‎"&gt;Amazon S3&lt;/a&gt; 作为文件存储，&lt;a href="http://qiniu.com"&gt;七牛&lt;/a&gt;作为静态文件 CDN，&lt;a href="http://pusher.com"&gt;Pusher&lt;/a&gt; 作为实时消息推送系统，&lt;a href="https://www.olark.com"&gt;Olark&lt;/a&gt; 作为在线客服系统，&lt;a href="http://www.fastspring.com/"&gt;FastSpring&lt;/a&gt; 作为付费订阅系统，&lt;a href="http://sendcloud.sohu.com"&gt;SendCloud&lt;/a&gt; 和 &lt;a href="http://aws.amazon.com/cn/ses/"&gt;SES&lt;/a&gt; 作为邮件发送服务商，而我们自己，只花时间在提高团队协作这个核心价值上。&lt;/p&gt;
+&lt;p&gt;草根团队，没钱没资源，怎么破？尤其是当你使用自有资金的时候，做决策的事情一定要谨记，这是否是我们的产品核心价值，是否是最紧急的任务，如果不是的就放放。这也会让我们能更加有效的利用资源和更加高效的执行。同时，如果事情不涉及核心价值，尽量去拥抱云，尝试一些好的第三方服务，宁愿花一点钱来换时间。比如在&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;里，我们使用了 &lt;a href="http://linode.com"&gt;Linode&lt;/a&gt; 作为应用服务器，&lt;a href="http://aws.amazon.com/cn/s3/‎"&gt;Amazon S3&lt;/a&gt; 作为文件存储，&lt;a href="http://qiniu.com"&gt;七牛&lt;/a&gt;作为静态文件 CDN，&lt;a href="http://pusher.com"&gt;Pusher&lt;/a&gt; 作为实时消息推送系统，&lt;a href="https://www.olark.com"&gt;Olark&lt;/a&gt; 作为在线客服系统，&lt;a href="http://www.fastspring.com/"&gt;FastSpring&lt;/a&gt; 作为付费订阅系统，&lt;a href="http://sendcloud.sohu.com"&gt;SendCloud&lt;/a&gt; 和 &lt;a href="http://aws.amazon.com/cn/ses/"&gt;SES&lt;/a&gt; 作为邮件发送服务商，而我们自己，只花时间在提高团队协作这个核心价值上。&lt;/p&gt;
 
 &lt;h4&gt;用最熟悉的技术&lt;/h4&gt;
 
@@ -545,10 +527,9 @@
 &lt;h4&gt;Ship It&lt;/h4&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="ship it" src="/images/bootstrapping-your-startup-idea/shipit.png?1394601591" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
-&lt;p&gt;去年在 &lt;a href="http://rubyconfchina.org"&gt;RubyConf China&lt;/a&gt; 上，&lt;a href="http://zachholman.com"&gt;Zach Holman&lt;/a&gt; 介绍到 GitHub 公司里用的最多的表情符号是 &amp;rdquo;:shipit:&amp;ldquo;，发布是 GitHub 的核心文化之一。而这却是绝大多数创业者最容易犯的错误。我们每天都能给自己找很多理由说发布时机未到，比如产品不够完美需要再改进，比如怕给用户的第一印象不好，
+&lt;p&gt;去年在 &lt;a href="http://rubyconfchina.org"&gt;RubyConf China&lt;/a&gt; 上，&lt;a href="http://zachholman.com"&gt;Zach Holman&lt;/a&gt; 介绍到 GitHub 公司里用的最多的表情符号是 &lt;img src="/images/bootstrapping-your-startup-idea/shipit.png" alt="ship it" width="30px" style="margin:0"/&gt;(:shipit:)，发布是 GitHub 的核心文化之一。而这却是绝大多数创业者最容易犯的错误。我们每天都能给自己找很多理由说发布时机未到，比如产品不够完美需要再改进，比如怕给用户的第一印象不好，
 比如如果有某些新功能会更好，比如还需要再多测试一会，尤其是当资金暂时充足时。请放弃这些想法，ship it，ship it，不要怕。我们知道它的确还不够完美，但是也知道发布并不是终点，我们仍然都会每天去改进它，越早的发布，就能越早的去检验想法，就能越早的获得用户反馈。在风车里面，我们坚持持续发布，让我们觉得一个功能或者一个修改已经准备好了后（并不是完美后），我们会选择直接发布，然后观察用户的反应。&lt;/p&gt;
 
 &lt;h4&gt;When to Stop&lt;/h4&gt;
@@ -556,6 +537,12 @@
 &lt;p&gt;这是一个我经常思考的问题，也可能是你在思考的问题，什么时候我该停止 Bootstrap 而去寻找资本的支持了？一般来说资本带来的是催化作用，所以最合适的时机是在成长期。当我们意识到每天有很多重要的事情要去做，但是现在因为缺少时间和资源去做这些事，同样的时间成本获得的回报在变小的话，那么就是一个很明显的信号需要寻找外部的支持了。&lt;/p&gt;
 
 &lt;p&gt;Bootstrap 听上去很难，但是其实并没有那么难，反而能让你更专注创业的两大核心：产品和客户。如果你的想法的确是需要资本的支持的话，对于草根团队而言，Bootstrap 阶段同时又是一个很好的自证阶段，证明你们是认真的在对待这件事和认真的做着这件事。所以，如果你有创业之心并且内心觉得自己准备好了，那就放下恐惧之心，勇敢的去做吧。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;span class="footnotes"&gt;
+  &lt;small&gt;本文图片 &amp;copy; &lt;a href="http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html"&gt;Inc.com&lt;/a&gt;&lt;/small&gt;
+&lt;/span&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -574,7 +561,7 @@
 
 &lt;p&gt;10 月 29 号，著名洗脑公司 &lt;a href="http://37signals.com/"&gt;37signals&lt;/a&gt; 发布万众期待的新书 &lt;a href="http://37signals.com/remote/"&gt;《Remote - Office Not Required》&lt;/a&gt;，随书 37signals 发布新网站 &lt;a href="http://weworkremotely.com"&gt;http://weworkremotely.com&lt;/a&gt;，专门做远程工作招聘服务。回想年初，Yahoo 宣布取消远程工作方式时，舆论哗然，远程工作是否适合互联网团队，曾在 IT 圈引起激烈讨论，却着实让人对远程工作充满了憧憬。而现在年底 37signal 的新书，必然会让远程工作这把火燃烧得更旺盛。&lt;/p&gt;
 
-&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要"。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，...&lt;/p&gt;</summary>
+&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengcheco.com"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要"。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
   &lt;blockquote&gt;
     &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 12 月刊里的文章。&lt;/p&gt;
@@ -583,7 +570,7 @@
 
 &lt;p&gt;10 月 29 号，著名洗脑公司 &lt;a href="http://37signals.com/"&gt;37signals&lt;/a&gt; 发布万众期待的新书 &lt;a href="http://37signals.com/remote/"&gt;《Remote - Office Not Required》&lt;/a&gt;，随书 37signals 发布新网站 &lt;a href="http://weworkremotely.com"&gt;http://weworkremotely.com&lt;/a&gt;，专门做远程工作招聘服务。回想年初，Yahoo 宣布取消远程工作方式时，舆论哗然，远程工作是否适合互联网团队，曾在 IT 圈引起激烈讨论，却着实让人对远程工作充满了憧憬。而现在年底 37signal 的新书，必然会让远程工作这把火燃烧得更旺盛。&lt;/p&gt;
 
-&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengche.co"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要&amp;quot;。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，至少看上去很好的在完成工作，尤其是几十年的经历告诉了我们在办公室工作是“正确”的工作方式。我这里用了“不确定”，而不是“不相信”。如果一家公司是不相信的话，那只能证明公司找了错误的人，还有人进了错误的公司。下面来谈谈公司采用远程会有哪些好处。&lt;/p&gt;
+&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengcheco.com"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要&amp;quot;。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，至少看上去很好的在完成工作，尤其是几十年的经历告诉了我们在办公室工作是“正确”的工作方式。我这里用了“不确定”，而不是“不相信”。如果一家公司是不相信的话，那只能证明公司找了错误的人，还有人进了错误的公司。下面来谈谈公司采用远程会有哪些好处。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
   &lt;img alt="Remote: Office Not Required" src="/images/are-you-ready-for-remote-work/remote_front.png?1389984911" /&gt;
