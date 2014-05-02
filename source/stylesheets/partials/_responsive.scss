@@ -190,6 +190,10 @@
         width: 40px;
       }
     }
+
+    .site-description {
+      letter-spacing: 3px !important;
+    }
   }
 
   .main { margin: 0; min-height: inherit; }
@@ -204,8 +208,59 @@
       font-size: 14px !important;
     }
 
+    .about {
+      .author-content {
+        margin-left: 90px !important;
+      }
+    }
+
     .social-action .twitter {
       margin-left: 10px !important;
+    }
+  }
+}
+
+@media print, screen and (max-width: 400px) {
+  #header {
+    nav ul li {
+      margin-left: 20px !important;
+      &:first-child {
+        margin-left: 10px !important;
+      }
+    }
+
+    #avatar {
+      padding-top: 1em;
+    }
+
+    .site-description {
+      letter-spacing: 2px !important;
+    }
+  }
+
+  .main .container {
+    .about {
+      .author-photo img {
+        width: 70px !important;
+        height: 70px !important;
+      }
+      .author-content {
+        margin-left: 80px !important;
+        font-size: 13px !important;
+
+        p {
+          margin-bottom: 0.4em !important;
+        }
+        .social-action {
+          font-size: 14px !important;
+          position: absolute;
+          left: 40px;
+
+          .twitter {
+            margin-left: 20px !important;
+          }
+        }
+      }
     }
   }
 }
