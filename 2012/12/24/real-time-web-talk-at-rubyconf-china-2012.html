@@ -160,6 +160,14 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
       }
+
+      $.ready(function() {
+        $('#disqus_thread iframe').css('height', '').css({
+          'height': '500px',
+          'height': 'auto !important',
+          'min-height': '500px'
+        });
+      }
     </script>
 
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
