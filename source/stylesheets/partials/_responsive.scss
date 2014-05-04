@@ -1,4 +1,7 @@
 @media (max-width: 960px) {
+  #banner {
+    background: url("/images/fengche-banner-bg-960.png") no-repeat fixed;
+  }
   #header {
     padding-bottom: 1em;
 
@@ -119,6 +122,9 @@
 }
 
 @media (max-width: 650px) {
+  #banner {
+    background: url("/images/fengche-banner-bg-650.png") no-repeat fixed;
+  }
   #header {
     padding-bottom: 0.5em;
 
@@ -180,6 +186,9 @@
 }
 
 @media print, screen and (max-width: 480px) {
+  #banner {
+    background: url("/images/fengche-banner-bg-480.png") no-repeat fixed;
+  }
   #header {
     #avatar {
       position: absolute;
