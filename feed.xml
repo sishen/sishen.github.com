@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>The Voice of Dingding Ye</title>
-  <subtitle>Share Fun, Life and Thoughts in Fengche.co</subtitle>
+  <title>追随本心 - 叶玎玎</title>
+  <subtitle> 叶玎玎在技术、创业、团队协作和项目管理上的思考和分享</subtitle>
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
@@ -16,7 +16,7 @@
     <published>2014-04-29T04:00:00Z</published>
     <updated>2014-04-29T04:00:00Z</updated>
     <author>
-      <name>Dingding Ye</name>
+      <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
     &lt;img alt="Writing" src="/images/you-should-write/writing.jpg?1398745718" /&gt;
@@ -79,7 +79,7 @@
     <published>2014-04-17T07:00:00Z</published>
     <updated>2014-04-17T07:00:00Z</updated>
     <author>
-      <name>Dingding Ye</name>
+      <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
   &lt;img alt="Crossing the Chasm" src="/images/test-your-mvp-seriously/mvp.png?1397752296" /&gt;
@@ -128,7 +128,7 @@
     <published>2014-03-27T12:00:00Z</published>
     <updated>2014-03-27T12:00:00Z</updated>
     <author>
-      <name>Dingding Ye</name>
+      <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
   &lt;img alt="Growth Hacker Definition" src="/images/growth-from-analytics/growth-hacker-definition.jpg?1395948474" /&gt;
@@ -254,7 +254,7 @@
     <published>2014-03-20T02:00:00Z</published>
     <updated>2014-03-20T02:00:00Z</updated>
     <author>
-      <name>Dingding Ye</name>
+      <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
   &lt;img title="风车" alt="Fengche.co" src="/images/fengcheco-architecture/logo.png?1393869410" /&gt;
@@ -469,7 +469,7 @@
     <published>2014-03-12T04:00:00Z</published>
     <updated>2014-03-12T04:00:00Z</updated>
     <author>
-      <name>Dingding Ye</name>
+      <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
   &lt;img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /&gt;
@@ -552,7 +552,7 @@
     <published>2014-01-17T10:55:00Z</published>
     <updated>2014-01-17T10:55:00Z</updated>
     <author>
-      <name>Dingding Ye</name>
+      <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;&lt;blockquote&gt;
     &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 12 月刊里的文章。&lt;/p&gt;
