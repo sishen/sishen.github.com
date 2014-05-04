@@ -1,7 +1,7 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  xml.title "The Voice of Dingding Ye"
-  xml.subtitle "Share Fun, Life and Thoughts in Fengche.co"
+  xml.title "Do Great Things - 叶玎玎"
+  xml.subtitle " 叶玎玎在技术、创业、团队协作和项目管理上的思考和分享"
   xml.id "http://yedingding.com"
   xml.link "href" => "http://yedingding.com/"
   xml.link "href" => "http://yedingding.com/feed.xml", "rel" => "self"
@@ -15,7 +15,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.id article.url
       xml.published article.date.to_time.iso8601
       xml.updated article.date.to_time.iso8601
-      xml.author { xml.name "Dingding Ye" }
+      xml.author { xml.name "叶玎玎" }
       xml.summary article.summary, "type" => "html"
       xml.content article.body, "type" => "html"
     end
