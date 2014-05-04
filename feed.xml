@@ -5,10 +5,405 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-04-29T04:00:00Z</updated>
+  <updated>2014-05-04T04:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Teahour #50: 和 Jing 聊聊 Qubit 的产品和技术栈</title>
+    <link rel="alternate" href="/2014/05/04/teahour-50-with-jing.html"/>
+    <id>/2014/05/04/teahour-50-with-jing.html</id>
+    <published>2014-05-04T04:00:00Z</published>
+    <updated>2014-05-04T04:00:00Z</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;blockquote&gt;
+  目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
+&lt;/blockquote&gt;
+
+&lt;p&gt;本文是 Teahour 第 50 期 &lt;a href="http://teahour.fm/2014/04/08/interview-with-dong-jing.html"&gt;『和Qubit的工程师聊聊A/B testing, Node 和 Ruby』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls name="media"&gt;&lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_50.m4a" type="audio/mpeg"&gt;&lt;/source&gt;&lt;/audio&gt;&lt;/p&gt;
+
+&lt;h3&gt;Part 1 - HackerNews Meetup&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：大家好，欢迎收听 Teahour，我是本期的主持人玎玎。本期由我一个人主持，邀请到了来自英国的 Qubit 公司的工程师董京，来 Teahour 做客。董京，你好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：大家好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：首先你做一个自我介绍吧，让大家来了解一下你的背景。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我现在在英国时区，大早上爬起来跟叶玎玎聊这些事情还是蛮困难的。因为我平时上班也没有起来这么早。我现在在英国创业公司（&lt;a href="http://www.qubitproducts.com/"&gt;Qubit&lt;/a&gt;），工作了 3 年多了。之前我还有在 F1 赛车和英国电信工作过，都是技术方面的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK，我跟你认识其实也挺蛮巧的。你在英国生活了很多年，今年回国，在 Twitter 上联系到我，说想组织一个活动——是上海的 &lt;a href="http://hnshanghai.com/"&gt;Hacker News 的线下聚会&lt;/a&gt;。当初你是怎么想到回国时组织这样一个活动呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我个人虽然比较了解海外的创业市场，但是对中国的创业的环境几乎完全不了解。我在回国的时候想去了解一下，但是发现没有太多渠道或者机会去找聚会。所以我就突然想到，干脆我就自己从头到尾组织一个，找各个公司去 sponsor，自己一个人去联系 speaker。这其实还是蛮有趣的一个经历。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：对，我感觉这次活动也办得...&lt;/p&gt;</summary>
+    <content type="html">&lt;blockquote&gt;
+  目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
+&lt;/blockquote&gt;
+
+&lt;p&gt;本文是 Teahour 第 50 期 &lt;a href="http://teahour.fm/2014/04/08/interview-with-dong-jing.html"&gt;『和Qubit的工程师聊聊A/B testing, Node 和 Ruby』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_50.m4a" type="audio/mpeg"&gt;
+&lt;/audio&gt;&lt;/p&gt;
+
+&lt;h3&gt;Part 1 - HackerNews Meetup&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：大家好，欢迎收听 Teahour，我是本期的主持人玎玎。本期由我一个人主持，邀请到了来自英国的 Qubit 公司的工程师董京，来 Teahour 做客。董京，你好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：大家好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：首先你做一个自我介绍吧，让大家来了解一下你的背景。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我现在在英国时区，大早上爬起来跟叶玎玎聊这些事情还是蛮困难的。因为我平时上班也没有起来这么早。我现在在英国创业公司（&lt;a href="http://www.qubitproducts.com/"&gt;Qubit&lt;/a&gt;），工作了 3 年多了。之前我还有在 F1 赛车和英国电信工作过，都是技术方面的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK，我跟你认识其实也挺蛮巧的。你在英国生活了很多年，今年回国，在 Twitter 上联系到我，说想组织一个活动——是上海的 &lt;a href="http://hnshanghai.com/"&gt;Hacker News 的线下聚会&lt;/a&gt;。当初你是怎么想到回国时组织这样一个活动呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我个人虽然比较了解海外的创业市场，但是对中国的创业的环境几乎完全不了解。我在回国的时候想去了解一下，但是发现没有太多渠道或者机会去找聚会。所以我就突然想到，干脆我就自己从头到尾组织一个，找各个公司去 sponsor，自己一个人去联系 speaker。这其实还是蛮有趣的一个经历。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：对，我感觉这次活动也办得还可以。虽然场地上可能还可以有一些提高，但是总体上来说，你一个人办的也还可以。我记得你一个人联系我后，就自己做了一个页面，也设计得很高大上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：那个页面其实还是蛮搞笑的。如果国内有一个可以组织活动的平台，我希望用那个平台。但是我完全没有找到合适的平台，所以我基本上从头到尾，一个晚上，把后台和前台全部写出来了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：八卦一下，用什么写的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：后台是用 Node.js 写的。我是这样考虑的，那个服务器很小，我不希望需要用太多的内存，所以我没有选择 &lt;a href="http://rubyonrails.org/"&gt;Rails&lt;/a&gt; 或者是其他大的框架，就是一个很简单的 &lt;a href="http://nodejs.org/"&gt;Node.js&lt;/a&gt; 和 &lt;a href="http://expressjs.com/"&gt;Express&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：听起来你是 Node 和 Rails 双修了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：平时我在工作的时候，这两个东西还是用得非常多的。基本上公司的 Rails 构架都是我一个人，后台大约 70－80% 是我写出来的，大约有 6 - 7 个 Node 服务器在后面。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK，那 Teahour 听众也了解到我们其实已经往 Node.js 社区偏了。开个玩笑。你在英国会经常参加这样的 meetup 吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对啊，我经常参加。这边的聚会是非常非常多的。你想了解有什么样的 meetup 可以到在国外还是蛮盛行的网站，叫 &lt;a href="http://www.meetup.com/"&gt;meetup.com&lt;/a&gt;。在中国还是可以用的，你可以在上面发现很多很多活动，不光光是技术圈的 meetup。还有些关于个人兴趣爱好的活动可以去。可以在周末或者晚上找到很多活动。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你觉得参加这些 meetup 对你最大的收获是什么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：最大的收获是我认识了很多圈内的人。我发现大家还是有这个需求的，但是没有太多的人去组织。从我个人体验来说，从头到尾办一次这样的活动要花费很多的精力。不单单是联系 speaker，我还要组织场地，要提前预定、要提前到场去检查，这不只是一个周末的事，从开始到结束要花至少两个礼拜的时间。晚上还要操很多心，要保证这个活动的宣传要做到位，后续通知要做到位，有很多很多事情要做到位。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：辛苦。你也提到过，月底会组织一个远程的聚会，可能会更加辛苦。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对。好消息是，我昨天刚和我公司的 CTO 联系过，他说如果公司的 budget 足够，他下个月礼拜五可以跟我确认一下，能不能在六月或者五月回国办一个活动。希望是一个好消息。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK。我知道你在组织活动的同时，还在为公司寻找一些 deverlopers，同时还提供一个到英国工作的机会。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：是这样，创业的，不管是在美国还是在欧洲，都是非常缺人才的。我们在用各种方法去寻找适合的人才，无论在哪里。像我的同事里，前端和中端的工作组大概有 8 个人，这些人里没有一个是纯英国人。我们中有波兰人、立陶宛人、意大利人，再加上我一个中国人，有很多不同的文化。我们也尝试在美国找工程师，而美国，特别是在硅谷，也是非常非常缺人才。尤其是 startup。有经验的人未必适合做创业的工作。&lt;/p&gt;
+
+&lt;h3&gt;Part 2 - Qubit 产品和技术栈介绍&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那和我们介绍一下你们公司其实是做什么的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我们公司做的方面还是挺多的。其中一个目标就是提高电商在线的销售率。这需要通过很多渠道。大家可能对这个市场不是特别了解，在欧洲和美国的电商都希望自己建立一个品牌。在中国大家都要提高在淘宝上的销售率。而在外国都是要在 Google 这个平台，在搜索引擎这个平台上竞争，竞标从而提高网站的浏览量，然后提高销售率。&lt;/p&gt;
+
+&lt;p&gt;我们主要通过跟踪用户的行为，做一些个性化的需求的调整，从而提高销售率。我们公司一个产品 —— &lt;a href="http://www.qubitproducts.com/tag-management"&gt;OpenTag&lt;/a&gt;，他是可以管理网站用户跟踪标签(Tag/Script)的产品。我们很早进入到这个产业里。大家可能对这个产业不了解，一般来说，这个主要的产业趋势是在网站上跟踪各个用户的行为。比如&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;的网站上面，叶玎玎用到了 &lt;a href="https://mixpanel.com/"&gt;Mixpanel&lt;/a&gt;。对我们来说这只不过是一个提供商 (provider)。OpenTag 是一个平台，可以实时更改它们。可以使用 Mixpanel，或者 &lt;a href="https://www.google.com/analytics/web/"&gt;GA（Google Analytics）&lt;/a&gt;，或者 &lt;a href="https://www.kissmetrics.com/"&gt;KISSMetrics&lt;/a&gt;，即可以实时去更改在线网站跟踪代码，只需要花 5 分钟时间。&lt;/p&gt;
+
+&lt;p&gt;对于电商网站来说，这个需求是非常非常高的。在国内虽然有淘宝，但你完全没有机会在其上做个性化的调整。没有办法了解某个用户的具体信息。而如果你有自己的电商平台，你是完全可以做到的。你可以用第三方的工具，比如说 Mixpanel，或者是 GA，或者 &lt;a href="https://www.optimizely.com/"&gt;Optimizely&lt;/a&gt;，去做一些 A/B testing，去做一些具体的跟踪方案。或者通过一些具体的个性化网站的更改方案。&lt;/p&gt;
+
+&lt;p&gt;但问题是，很多中小型或者中大型的电商的开发过程都由第三方开发的，项目周期是非常长的。比如说一个企业公司——乐购，他需要找一个第三方去更改他的网站——添加一个跟踪代码，这个周期起码需要两到三个月。因为他们需要认证、要 approval，然后再等第三方把这个东西做好，还要再测试。&lt;/p&gt;
+
+&lt;p&gt;通过我们的 OpenTag，这样一个标签管理的工具，我们可以在 5 分钟内把跟踪代码放到网上，可以做各种的逻辑管理。比如用户一定要从 Google Search 进入网站才能启动这个标签，来跟踪这个用户。在这个产业内，我们做得还是非常大的。我们发布一年半以后，Google 才做了他们的 &lt;a href="https://www.google.com/tagmanager/"&gt;Google Tag Manager&lt;/a&gt;，也是可以管理标签的。大家感兴趣的，可以搜一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你们在找怎样的人呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：目前，我们非常缺对 JavaScript 了解非常深入的。我们在面试的时候，自己说了解 JavaScript 的人的理解一般还是比较表面的。可能只懂怎么用 &lt;a href="https://jquery.com/"&gt;jQuery&lt;/a&gt;，写很简单的界面的逻辑。但是我们可能是需要招一些深入了解 JavaScript 的人，比如说了解到 &lt;a href="http://wiki.ecmascript.org/doku.php?id=harmon:specification_drafts"&gt;ES6（ECMAScript 6）&lt;/a&gt; 版本的一些具体的功能有什么，如 &lt;code&gt;class&lt;/code&gt; 和 &lt;code&gt;constructor&lt;/code&gt;，而且要了解整个 JS 的趋势。&lt;/p&gt;
+
+&lt;p&gt;我们面临的问题是什么呢？我们的很多工具直接部署在客户的网站上，他们的环境是完全未知的，所以我们要保证在各种情况下面我们的代码都可以在客户的网站上运行。这是一件非常非常难的事情。我举一个非常简单的例子，是我们曾遇到一个非常狗血的问题。大家原来应该用到过一个比较老的框架—— &lt;a href="http://prototypejs.org/"&gt;Prototype JS&lt;/a&gt;。很多电商的网站运用这些陈旧的JS库，会自动 overrides window.JSON 上的方法。而我们经常会处理一些 JSON 数据，而它在 serialize 和 deserialize 的时候处理大的 JSON 非常低效，还会经常出错。特别是 JSON 中有 nested array 时它就完全不能处理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：对，然后你们是怎么解决这些问题的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我们有自己的一个测试平台，在内部里面可以每天晚上实时运行一些 JavaScript 测试代码，调用各种不同的开发环境在客户的网站上运行，通过测试来达到部署前的测试和部署之后的监控测试，遇到问题之后具体个别处理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK，听起来就是说你们对 JS 的要求还是比较高的。是比较纯粹的 JS 开发。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对，是一个 full cycle，因为我们通过跟踪用户，是通过 JS 来的。然后再回到后台，整理用户数据。但我们另一个目标是如何通过行动来改变在线销售率。很多做分析的网站，比如 GA，或者 Mixpanel，他们的目标倾向于分析。但在很多情况下，分析完之后，如果要做行动、要怎么样改进一个网站还是一个未知数。我们的目标是提供一个简单的解决方案来帮用户提高销售率。我们偏向于行动，不仅有数据分析，而且还有工具可以评价如何让你尽快的做实实在在的更改。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这一点我还是挺有兴趣了解的。如你提的问题，GA 也好， Mixpanel 也好，他只是告诉你了一个数据，比如这个页面到下一个页面的 flow 转换了多少，用户访问了哪些东西。而我确实知道了一些问题，但是如何解决这些问题。我只能去猜，只能去试，之后看转化率有没有提高。你说用了一些解决方案，能大概举一些例子吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我们大部分的客户都是电商，所以很多解决方案都是跟电商相关的东西。比如说一些客户的网站上，用一些 personalized 的方案。是在 homepage 上面提醒明天会下雨，以此接近用户。帮助产品重新做一个包装，让他们可以比较贴近用户一些。这是其中一种方案。另外一种方案，是在一些产品上面显示是不是已经快没有存货了。比如只有两到三个存货的时候，我们可以做一个界面上的更改，提醒用户，这个产品有很多人买，已经只剩下两个货物了，你是不是要买它。经过测试，根据用户的个性和需求，再加上产品的销售量提示会增加很多销售量。比如一个产品的销量提高 2%。&lt;/p&gt;
+
+&lt;p&gt;对于大多数的电商来说，2% 的提高是非常大的。我们的客户有 &lt;a href="https://www.arcadiagroup.co.uk/"&gt;Arcadia Group&lt;/a&gt;，其中一个出名品牌叫做 &lt;a href="http://www.topshop.com/"&gt;Topshop&lt;/a&gt;，是专门给女孩子卖衣服的。如果提高百分之二的销售率对它来说是非常有利的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：了解。你们做的是电商垂直，所以你们说有关于电商的很多数据。通过这个数据提供一些建议。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对。我们一个未公开但是已经部署的产品也倾向于 enterprise。如果要做比较的话，我拿 &lt;a href="https://www.strikingly.com/"&gt;Strikingly&lt;/a&gt;来作例子。大家应该对 Strikingly 比较熟悉，是蛮有趣的，由中国人开发的产品，但是被 YC 投资了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：是我们已前的嘉宾。『&lt;a href="http://teahour.fm/2013/08/21/strikingly-yc-and-startup.html"&gt;28期：和Strikingly的CTO Dafeng聊聊他们和Y-Combinator的故事&lt;/a&gt;』&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对。以我个人的见解来说，他们的产品与外国的一个产品叫做 &lt;a href="https://webflow.com/"&gt;Webflow&lt;/a&gt;，是非常非常像的。而且我觉得，Webflow 稍微做的比 Strikingly 专业一些，有很多页面调整的功能是可以更改的，UI 界面也做的非常好。我不知道他们解决的是一个什么问题。对于我来说，Webflow 和 Strikingly 是二十一世纪的 FrontPage。他们把 FrontPage 移到了网络上，但是没有解决用户的需求。如果我是开发人员，我绝对不会去用 Webflow 或 Strikingly 去做网站。我有能力去用 offline 的工具开发，而且我觉得更加顺手，所以我不需要用他们的工具。如果我是一个 designer 的话，我也不太会用这个平台，我会用 PS，或者是其他的 offline 的工具。对一个不懂设计的人用这个网站，你也不能完全保证，他能把这个网站做到怎么好。就是说，这两个产品都是在一个中间层，面对的用户都不是特别的确定。所以我对这种产品稍微有一点怀疑。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这里说一下我自己的见解。他们的用户群是很确定的。开发设计网页需要一个比较好的 layout，让有美感的，但是不会做网页的人，去做自己的设计。他适合用于展示页面，比如说演员或者模特，他知道怎样的东西是好看的，但是他不会做网页，他可以通过拖拽加一些东西做一些很好看的网页。包括一些摄影的、一些学生。学生可能要给自己做很简单的网站，包括一些页面，来做产品的展示。他有比较确定的用户群体。这类用户是想做网站，而没有做网站的开发能力，所以要找一个相对来说比较简单的工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：所以是他本身有一些设计的功底，或者一些设计的天分，然后只要把这个页面做好，再加上内容展示。在商业角度上来说，我可能觉得这一部分虽然还是有机会挣钱的，但不是特别多。毕竟以我的背景来说，我更倾向于 enterprise ，这些小的商业模式赚得钱可能会少一些。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK，这个可能就不太确定了。我觉得应该发展得很好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：其实我还是蛮喜欢的。我们公司有个产品还是类似于他们的。我们对整个网络有另外一种看法，所有的网站设计趋势都是忘组件化发展的。大部分网站都是可以按模块来算的。不管是图像、文字、段落、复杂的 animation，或者是 slide，都是按模块来算的，你不能跳出模块。我们是以这个角度看待网站开发的。&lt;/p&gt;
+
+&lt;p&gt;我们的一个解决方案叫 Deliver，通过分析更改网站的任何一个 component。对于一个开发者，专业地开发一个方案，放到市场上。然后市场的人通过调用开发人员已经开发过的方案部署到网站上面。这样就完全做到专业的人可以用专业的线下工具开发，再用我们的接口模块和工具，指出这个组件在哪个网站可以运作，能够提高多少销售率。对于那些非专业，没有太多 design、设计方面天赋的人就可以通过 drag-drop 来测试一下这个组件是不是对电商的品牌有利。&lt;/p&gt;
+
+&lt;p&gt;这个产业——做 A/B testing 还是有很多公司的。另外一个做得比较好的叫做 Optimizely。我不知道叶玎玎有没用过这工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我觉得好贵。（&lt;small&gt;&lt;em&gt;作者注: 记错产品价格了，Optimizely 的价格还是比较合适的&lt;/em&gt;&lt;/small&gt;）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：如果想用免费的工具，Google 还是有一个这样的工具的，也有 A/B testing 的功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：说起 A/B testing ，你们是怎么做的呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我们的结构非常复杂。你想了解前端还是后端？做 A/B testing，主要靠 JavaScript，实时地替换页面。有 50% 的人可以看到 B 的页面，有 50% 的人可以看到 A 的页面。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我比较贪心一点，想了解前后端。我想去尝试一下，但是没有实战的经验，时间上也不太允许。但我想学习这方面的知识。你们是做分析的，还给用户提供建议，对于怎样更好地提高转化率，你们自己也会很多的 A/B testing 吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：恩，是的。我们内部也做了蛮多的 A/B testing。我们会用自己的工具去做。但还要通过从非专业和非技术的角度上去改善产品。比如我们的产品经理会假设，如果这个页面的模块更改成什么样子，也许会提高百分之多少的销售率，或者达到目标。这个目标需要自己定义。对电商来说，我的目标就是用户买完东西，到最后的 checkout page，然后到 payment，最后 confirmation。但是对于其他用户来说，可能希望用户到注册页面、希望更多的人填自己的邮件地址，subscribe 我的信件。也可能是，让大家点击一个链接，或者是滚动页面到最下面的位置。可以有很多不同的目标，所以要有不同的途径去实现目标。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那一般来说在前端，根据目标可能会有不同的板式，或者不同的操作过程。那你们是如何保证样本的独立性？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：大部分跟踪是通过 cookie 的，一般都是用 first party cookie。在欧洲，用第三方的 cookie 有很多限制，不能做太多的跨域名跟踪。一般都是在同一个域名下做跟踪。当这个用户第一次登上这个网站之后，会有一个自己的 id。其实可以在淘宝上看到，登陆后用户会有一个 cookie ip。再具体点，用户每一个动作会发到我们的服务器上，我们有一系列的后台运算。我们有专门的做数学模型的博士在我们公司做运算模型。通过运算模型，再把数据发到后台。我们用 &lt;a href="https://hive.apache.org/"&gt;Hive&lt;/a&gt;、&lt;a href="https://hadoop.apache.org/"&gt;Hadoop&lt;/a&gt;、&lt;a href="https://storm.incubator.apache.org/"&gt;Storm&lt;/a&gt;，来做一些实时的分析。这还是一件非常困难的事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：再请教一下，你们后台的 A/B testing 是对前台做一个限制还是怎样？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：用 cookie 去实现 A/B testing，其实还是很 limit 的一种方式。大部分企业用户需要了解整个用户的全部的浏览历史。比如说我们有很多用户的数据，来预测一个用户一生会在网站上消费多少。通过这些分析，才能做一些具体的 A/B testing。比如说我要测试一些用户，这些用户的一生会在这个网站上花超过 1000 英镑，针对这些用户，我们再做一些具体的 A/B testing。给他一些优惠，给他一些 promotion，让这些用户群体上受到一些特别的待遇来测试。我们需要通过跟踪，通过一些后台的数据分析用户的历史。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：相当于不是在代码级别的分片，而是对于一些过去行为在后台计算得到结果，推算他会不会做出一个购买行为。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对我们公司来说，前台后台还是区别蛮大的。如果说前台工作的话，不光光包括前端代码，还包括 middle stack ，全部都要做。对于我自己来说，我平时的工作都是从写 &lt;a href="http://puppetlabs.com/"&gt;Puppet&lt;/a&gt; 开始。如果大家不是很了解的话，就是管理服务器的脚本。从管理服务器开始，到 application logic 再写到前端，是一个非常辛苦的工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：全栈。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：恩。要切换自己的一个 context 还是非常困难的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你们现在开发有多少人？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我刚加入的时候整个公司就一层楼，大概有 28 个人。现在公司已经有两层楼了，整个公司从美国到英国到法国还有德国加起来一共有将近 90 个人，工程师可能占一半的数量。前端工程师有将近 10 个，包括 manager。其他人都是做后台的。后台这部分，我们在欧洲还是做得非常大的。按数量来算，我们每天要收到 1.6 个亿的数据点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这么大的数据是怎么处理的。介绍一下你们存储这方面？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我不能介绍太多，因为我不是主要做这个方面的。我可以从层面上说一下。如果你了解 Mixpanel 的数据模型，他们没有数据结构的，都是通过 event 来做的，会比较简单 (scalability的原因)。这个行业里大家都要跟踪用户行为，但是没有一个公司去定义一个数据结构。之前我参加了一个项目，是由我们公司首先提出的一个 standard，让大家都是要这个数据结构。运用这个电商数据结构提高跟踪的效率、跟踪代码的更改效率，这样你可以从不同的平台上做切换，也可以更好的做一些网站应用的 implementation。&lt;/p&gt;
+
+&lt;p&gt;我们这个 specification 叫做 &lt;a href="http://www.w3cdigitaldatatoolkit.com/"&gt;Universal Variable&lt;/a&gt;，这个通用变量里有描述到用户的行为，页面的产品，页面的 type/category，比如是 homepage、产品的页面、checkout、basket（购物篮）。这个 spec 已经被列入到 W3C，你可以在 GitHub 上看到 &lt;a href="https://github.com/QubitProducts/UniversalVariable"&gt;specficaiton&lt;/a&gt;。有很多公司都是参加到了这个 spec 的审评的过程，有W3C、Google、IBM。当然还包括我们的 Qubit，也是主要的项目 leader。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那你能简单介绍 Qubit 的后台用到了什么？你刚才说每天有 Billion 级的数据，如何 scale？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我们有很多 data center，大部分都是在 Amazon 上面。最早是前台的 JS 发数据到后台，接收这个数据。接收端最早是用 Node 写的。当时我们大概可以 handle 的数量在几百万这样。当时 Node 版本是 0.4。在去年，我们做了一个实验，把它换到 &lt;a href="http://jbossas.jboss.org/"&gt;JBoss&lt;/a&gt; 上，才 handle 到 billion 上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;： handle billion 是指每天的接收的 data point？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对。还是不需要太多的 backup server 才能做到。到后面我们发现 Node 很难 debug，经常有一些 memory 的问题。特别是在早期 0.4、0.6 的时候。虽然接收数据、forwarding 很简单，但是做了实验后还是放到了 Java 平台上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：还是 Java 更靠谱一点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你们有尝试最新版的 Node 吗？测过最大的时候能达到什么程度？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：没有尝试过，因为大家都很忙。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：已经受伤了是吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对。然后从接收数据到这个模块，再存到 HDFS 上面。之后我们有一个程序把这些数据实时发布到 Hbase、Storm 和 Hive。再做一些运算，根据具体的数据结构的需求把它写入到 Hive 里面，再通过 Storm 和 Hbase 做一些量的分析。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK，听起来主要是 Hbase 做数据库存储，Hive 做类 SQL 查询这样的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：其实中间还有很多的技术。比如说 &lt;a href="https://cassandra.apache.org/"&gt;Cassandra&lt;/a&gt;，做一些 queue 的处理。我们原先用 Cassandra 遇到了一些蛮奇怪的问题，说实在没有办法用下去了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：能吐槽一下么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：这个我就不能吐槽了，也是听别人说的。这么大的数据玩起来还是挺有意思的。有很多 challege。因为这些数据还是有很多 noise 的，所以要做很多测试、删除，包括有一些 bots，垃圾信息，全部都要隔离开。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那有个问题我想了解，你们拿到数据后处理，到最后得到的结果有多少延时？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：大概做到 5 - 10 分钟。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那计算还是相当快的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：相当快。我们在 Amazon 上面就有将近 300 台服务器。而且不包括 &lt;a href="https://aws.amazon.com/ec2/spot-instances/"&gt;Spot Instance&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这个就不是一般人能玩的了。你之前聊到 Node 和 Ruby，特别是你是团队里面唯一一个用 Ruby 的，而其他人都在用 Node？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：可能这样说有点太过了，可能公司里 10 个人有 2 - 3 个会 Ruby。但是根据实际情况，我们的工作主要和 JavaScript 有关，所以 JS 的开发人员相对多一些。总体倾向于 Node.js。一般同事只懂一个语言，就是 JavaScript。也不是说这样不好，大家都用自己知道的东西做事。对实现功能和 startup，也没有太多的不好。用自己不习惯的语言做一些实现功能，毕竟不会做得特别好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那你们有这么多人，为什么还坚持换到 Java？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：因为写数据接收的那一块是属于后台的工作，而不是属于前台的工作。我们前台主要是做一些产品方面。后台存储处理和前台关系不大。&lt;/p&gt;
+
+&lt;h3&gt;Part 3 - Ruby、Node 的比较和欧洲创业社区&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：难得碰到一个 Node 和 Ruby 双修的。我们在&lt;a href="http://teahour.fm/2014/02/24/first-nodejs.html"&gt;以前（45期：和《深入浅出Node.js》作者朴灵一起聊聊Node.js）&lt;/a&gt;采访朴灵的时候，由我和 Terry 两人主持。而我们对 Node 都不太了解，只好让朴灵来说。你两边都玩，那么你对这两个语言怎么看？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我个人还是比较偏向 Ruby 的，希望 Ruby 稍微给一点力。但是以现在的趋势来说，Node 的还是很有希望的。比如 ES6 的 sppec，发展趋势蛮好。但是我对这个社区不是特别感兴趣。虽然有层出不穷的 library，但是真正写得好的还是很少，特别是做过单元测试的。但是有一些好东西，比如 ES6 添加了很多编程语言的功能，比如 &lt;code&gt;constructor&lt;/code&gt;，可以写 OOP。Node 可以做 kernel work、annotation 和 dependency injection，慢慢成熟。我前两天还看到有些人在 ES6 上写了一些 spec——怎么样让 Node 实现多线程，实现平行计算。还是很有希望的社群。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：有没有感觉，在欧洲 Node 社区在不断发展，Ruby 社区有点相对 go down？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：有这个趋势。但是我在跟很多创业公司谈的时候，大部分创业的人还是在用 Ruby。有个比较大的创业公司叫 &lt;a href="https://state.com/"&gt;state.com&lt;/a&gt;，他的投资方是因特网之父(Tim Berners-Lee)。这个公司在英国，我之前也和他们开发人员聊过。他们用 Ruby，也用 Node.js。Node.js 不做太多后台的数据处理，主要倾向于前台的渲染。state 做的不是 single page project，需要考虑 SEO。但是通过 Node 做一些优化。大部分的后台的 API 都还是用 Rails 写的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这个挺有意思的。Node 在中间，然后在前端后端，相对于在中间做了一个桥。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：其实我们公司差不多也是这样类似的构架，我们虽然没有利用 Node 做 SEO，但是我之前说过大概有 6 - 7 个程序，6 - 7 个 logic 都是在用 Node 写的。比如一个 proxy 是用 Node 写出来的。但是也是非常困难，我们需要为此做一些 process management。Node 是一个 single event loop，要保证程序 crash 以后不会影响到其他的用户，需要做很多高端的优化。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：了解。这个是 single event loop 的缺点。说到英国的创业环境，我想要了解一下。我可能知道的不多，但是像我们风车在用的 &lt;a href="http://pusher.com/"&gt;Pusher&lt;/a&gt;，支付上用的 &lt;a href="https://stripe.com/"&gt;Stripe&lt;/a&gt;，都是英国的创业公司。所以英国的创业公司是怎样的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：英国的创业环境应该是很好的，大家的趋势都是互帮互助。我发现一个非常好的现象，大部分有创业精神的人，都不是从天而降的一个点子，而是从自己的需求开始。有一个比较出名的打出租车的公司叫 &lt;a href="https://hailocab.com/london"&gt;Hailo&lt;/a&gt;，在英国是一个做的比较大的公司。它是用手机打车的一个工具。我之前和他们聊的时候，他们的需求也是从自身的需求开始的。这个创业者，家里两代人都是开出租车的。一开始宣传的时候都是从自己家人开始宣传的。比如说我爸爸，我妈妈他们都需要提高载客的时间，从这个地方开始宣传的。&lt;/p&gt;
+
+&lt;p&gt;还有一些比较好玩的，是在欧洲的一个建立旅游行程的工具，叫 &lt;a href="http://citymapper.com/london"&gt;CityMapper&lt;/a&gt;。用来标记从这个地点怎么坐公交车、坐地铁到另外一个地点。这个需求也是从自身开始。原来没有什么工具能做到很准确的推送和预测，他就从头到尾写了这样一个工具。到后来，这样一个工具，在法国和纽约都比较热门。我身边的朋友都在用这个工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那英国的创业环境和欧盟的其他国家比起来怎么样？我弄欧盟签证的时候，除了英国不行，其他都行。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：去欧盟其他国家其实还是蛮方便的。你可以申请法国的签证。法国属于欧盟，会给你一个比较长时间的签证，然后用欧盟的多入境的签证，1 年的时间内可以在欧盟里随便进出。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：但是，除了英国。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对，除了英国。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这很头疼。那对于整个欧洲来说，英国的整个创业环境处在哪一个层次？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我不敢说其他城市，伦敦的环境还是非常好的。在伦敦有很多很棒的创业公司。非常非常多，我都没有办法数了。我原来参加活动的时候，和一个人在台下聊过，1 年后他已经在台上聊自己的产品了。所以我真的很佩服外国人。他们实在是太有魄力了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：既然你们考虑在国内招人，然后让他人肉翻墙。那么介绍一下英国的衣食住行。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：衣食住行的话，一般来说，做工程师的话，工资都是在 30000 英镑/年。一般的初级工程师是这个价格。最贵的东西是房租和交通，吃饭上花的钱不是特别多。我觉得在上海吃饭的价格跟英国差不多了。但是伦敦的房租很贵，地铁也很贵。大概的价格是这样的。我现在一室一厅的房子的房租大概是 1000 朝上一个月。英国地铁是分区的，从 1 区到 6 区。我买了 1 区到 2 区的地铁票，包月是 120 英镑。地铁票每年都在涨价，去年是 116/月，今年是 120/月。所以说这都是大头。吃饭的话一个月如果你比较省的话，大概 500 英镑以下就可以做到。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：按照你这个介绍的话，junior 的工资是 30000 英镑/年吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我找工作的时候对银行和金融没有特别感兴趣。如果做金融的话，junior 的工资相对高一些，大概是 40000 英镑朝上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：国内的很多程序员真的非常优秀。如果是 senior 的话，在英国的收入能达到怎样的水平？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：senior 的话，当然不能跟 Facebook 比，至少在 60000 英镑朝上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：所以可以给国内一些人参考。现在人肉翻墙是一个很火的话题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：特别是上海，上海这个天气，真的是没有办法形容。因为我是2月2日回上海的，那个飞机要迫降到厦门然后再到厦门，就是因为雾霾，整个飞机晚点了 6 个小时。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：但是伦敦比上海就少了一个霾，雾还是有的嘛。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：雾其实没有很多，但是雨很多，我在回上海的时候差不多一个月没有见过太阳。冬天一直在下雨。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：像 Qubit 来说，待了 3 年多，是家创业公司，之前你提到 F1，在英国电信有过工作经历，所以我想了解你在 F1 干嘛了？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我之前在 F1 做了两个赛季，主要是帮他们写一些赛车策略上的软件。看赛车的话，国内应该还是有很多 F1 的 fans。从专业角度上看，F1 要看策略。看策略还是蛮有意思的。在欧洲有一些电视台，他们有一些策略的软件，能提前预测，赛车的油要加多少，轮胎要换什么样子，driver 是怎么开车的。每个赛车队都是有自己的一套软件的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你在哪个赛车队？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我之前在雷诺，现在车队改名叫莲花。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你相当于做策略分析？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：帮他们提供一些软件。做策略分析要专业的策略分析师。但我在层面上还是有一些了解的。每个车队都有一些历史数据，包括每个赛车手开车的习惯是什么，如 &lt;a href="https://en.wikipedia.org/wiki/Lewis_Hamilton"&gt;Lewis Hamilton&lt;/a&gt; 他打弯的时候是非常用力的，有一边的轮胎在磨损上比其他赛车手要高一些。数据接收的话，大部分赛车预测的数据都是实时给出。有一个公司叫 FOM（Formula One Management有限公司），他们提供整个比赛的规则和数据。大部分数据都是和时间有关，比如车子通过每一个赛道的时间是多少，他跑到第几圈。在赛外知道这件事情，还是非常 surprise 的。他们可以通过非常简单的一个时间数据就可以从头到尾了解到这个 driver 的 performance，包括其他车手的 performance。还是蛮有趣的一个工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：听起来是科技改变赛车。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：这有件搞笑的事。虽然看起来他很高端，但当年的时候，那些数据都是靠人工提供的。有一个人在赛道拿着一个计时器，每辆赛车跑过的时候他都会按一下计时器。但是现在会好一点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你有没上去玩过？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我没有上去过。不过我之前的办公室是在雷诺的一个工厂里面，在一个很偏僻，没有人烟的地方。上班如果骑车或者开车，只能看到一些动物，比如狐狸，梅花鹿，总之就是很偏僻的小山村。之前雷诺的工场分了两个。一个是在英国，一个是在法国。法国主要是造引擎的。英国是造车架的，包括整个车子的外框、车头。就是前翼、后翼和车身。英国这里还包括提供一些软件更新。那时候我的办公室楼下就是组装的地方。每个车队都要准备 4 辆车，2 个给 driver，另外两台给车手赛前预备。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：想想都觉得酷。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：基本上每天下午都要试引擎。每天 5 点钟之后，在我办公室下面要开引擎热车，那声音非常非常响。他们加了消音器之后，声音还是非常非常响。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：不过从这段经历啊，到你后面的东西，都是在和数据打交道。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：都是在这个产业里做的。不知道怎么可以脱离这个行业。我对数据处理，怎么样让用户了解怎么去使用数据的了解还是比较多的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：其实不用脱离啊，我觉得这块现在很好。大数据其实很火。那你在学校是学什么的呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我是 Computer science 的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你是在计算机专业里偏数据这一块吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：偏理论一些。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你在英国待了多久？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：差不多 10 个年头了吧。然后 5 年学习，5 年工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：相当于在英国读了个大学就开始工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：大学本科和硕士，然后再工作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：英国本硕只要 5 年。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：本科是 4 年，硕士 1 年。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：硕士在英国只需要 1 年，还是你学的比较快？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：只要 1 年。我是在帝国理工攻读的硕士。在帝国理工，学硕士是非常折磨人的。帝国理工是一个蛮有名以工程著名的学校，毕业率是非常低。如果你学 EE，或者是 CS，基本上毕业率在 60%。我第一次接触 Ruby 的时候是在 2008 年，还是比较早的。我记得 08 年那时候，Ruby 的版本是 1.8，Rails 刚出到 2。我大学的一个学长，他是一个很不淡定的人。他毕业的时候，一直想做一个创业公司，一个 social network。他找到我，说，“那好吧，那我们要用什么来写？”他可能想写 PHP，而我又是一个 hipster 的人，想学一个新的语言。当时我就比较喜欢 Ruby，所以就很莫名其妙的看了这一套东西。所以说就帮他做了一点东西。但是他当时对这个东西不是特别感兴趣。所以我跟他就是因为兴趣不合，就分开来了，也祝福他能把东西做好。后来我在大学毕业论文的时候，就写了一套 social network。我对这个东西还是蛮感兴趣的，就用 Rails 构架了一个 social network，有点像 Facebook，有点像 forum。像一个论坛，但是这个论坛里可以构架一些 apps。我记得当时在论文里写了一些关于 BDD 的东西。我还是蛮早的时候就接触了这一套东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：刚才你提到了一些 Node 不是特别舒服的地方，比如不太注重工程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我可能是片面的了解了。大部分写前端代码的人，没有太多的后端的经验。当然有些工程师有，但是他们没有太多后端的经历的话，对于一些具体的比较工程类的构架或者是怎么样能写出可以维护的代码不太了解。但都是因人而异。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我们原来采访了朴灵嘛，朴灵也提到了类似的观点。把 Node 用得比较好的，都是来自后端的人。他们在后端有一些比较强的 background，到了前端这块，他们的整个思维会带过来。真正做得好的，能推进 Node 的可能会是后端的这些人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：非常同意。&lt;/p&gt;
+
+&lt;h3&gt;Part 4 - Share Picks&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：今天非常感谢你这么早起来录这一期的 Teahour，今天的节目就到这里为止。下面就是我们 Teahour 的一个例行环节，叫 short picks。Short picks 就是你可以任意分享一个你觉得有意思的东西，或者想玩的东西，或者在看的一本书。你先来？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：好吧。我说的可能会稍微长一点。我的兴趣还是蛮多的。去年我大概花了 1 年的去玩多轴飞行器。我推荐大家去看看这个公司，叫做 &lt;a href="http://store.3drobotics.com/"&gt;3DR（3DRobotics）&lt;/a&gt;，是 Chris Anderson 开的一个专门做飞行器的公司。最近这个主题还是蛮流行的。最近的新闻中 Facebook 要做他们自己的飞行器。而之前 Amazon 也有用他们自己的飞行器做一些货物的 delivery。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：自动送货。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：这一方面是一个趋势。我对这个方面也是蛮感兴趣的。大家可以看一下 3DR。和一个最新的飞行控制器的平台，叫 &lt;a href="http://3drobotics.com/pixhawk/"&gt;Pixhawk&lt;/a&gt;。这个飞行控制器是一个非常好的 32 位飞行控制器。之前的都是 8 位的，而这个控制器可以做平行计算，可以加非常多的感光器件。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：没有图片，我没法想象。我看过一种，是 4 个圆组成的方，每一个圆里有一个机扇的那种。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：差不多吧。他是分多轴的嘛。你可以选 4 个，选 6 个。如果大家看《爸爸去哪儿》，他们拍摄的时候都是用那个拍的。他在空中拍摄都是用四轴拍的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你等一下可以给我一张你在玩那个的照片。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：我可以给一个链接给大家看我是怎么把它&lt;a href="http://instagram.com/p/fI1EzmPbGW/"&gt;摔坏的录像&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：好的。这个我没玩过，我不太了解。但是我在外面看别人玩过，是挺好玩的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：这个东西还算是蛮贵的。我有一个理想就是退休后读一个博士，往这个方向读。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：好吧。听你这么介绍，是可编程的吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：对，是可编程的。这个社区还是蛮大的。有不同版本的飞行控制器，有几个比较有名的，有一个叫 ??。有一个法国人，他把任天堂 Wii Remote 的 controller 全部拆掉，然后把它改成了一个飞控的平衡控制器。在另外一个社区 3DR，他们专门造的一个飞行控制器，叫 APM。也是一个非常有名的飞行控制器。最近他们发布的一个 Pixhawk，这个新的控制器可以用Lua编译代码。之前老的都是要写类似于 C 的代码，通过 Arduino 来编译的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：什么时候让我看看你那个摔坏的视频能不能打动我，我也想尝试一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：玩这个要注意安全，还是蛮危险的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：也就是说这个不太适合给小孩子当玩具。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：不太适合，这个东西不是属于玩具类的，是属于“杀伤性武器”。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：好的，OK。那我放弃这个想法。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：你可以买一些很简单的，还有一些玩具类的，不需要太多的调试就可以飞的那些。那些还是可以做玩具的。它有一些小的飞行控制器，大概有手掌那么大吧。还是可以给小孩子玩玩的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我觉得小孩子应该还是挺喜欢玩得。谢谢介绍。还有没有其他的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：没有了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK，那今天我的 picks 是一个软件。最近 Google 停止支持 Gmail Notifier 了。那我向大家推荐一个我朋友写的软件，叫 &lt;a href="http://ashchan.com/projects/gmail-notifr"&gt;Gmail Notifr&lt;/a&gt;，是一个 open source 的在 Mac 上的客户端。很多人的工作习惯都会例行处理邮件。有的时候，我们看到一个邮件提醒，让我们知道大概什么东西发过来了。但是我们不会想实时的去检查，而是每隔一小时两小时，让它自动去检查一下，然后告诉我邮箱里有邮件。所以说用一个 Gmail Notifr，会比较简单的一点，让你觉得工作的更加高效。所以我就推荐一下我朋友写的，我自己在用的不错的软件，叫做—— Gmail Notifr。在 Mac App Store 可以下载。大家可以来支持一下，尝试一下。当然他也是开源的，你可以免费下载。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：那不错，我记得在回国的时候，由于我很多的邮件都是在 Gmail 上，访问起来非常慢。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：对。而且用 web 的话会更加慢，用客户端会好很多。IMAP 还好一点。OK，这就是我今天的 picks，最后非常感谢董京来到我们的 Teahour 做客，希望下一次有机会可以在跟你深入聊一下 Qubit 用到的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：可以啊。然后还要告诉大家一下，希望大家期待正在计划组织下一次 Hacker News Meetup。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：顺便说一说，因为你现在正在招人。你可以留个邮箱，让大家可以直接联系你。我相信会有很多人听了这期节目会对加入你们的团队有兴趣。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：好的。或者大家可以在微博上&lt;a href="http://www.weibo.com/u/2462586132"&gt;@我&lt;/a&gt;，我就会看到。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：好，那就这样？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：好。谢谢。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：88&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;董京&lt;/strong&gt;：88&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>YOU should write!</title>
     <link rel="alternate" href="/2014/04/29/you-should-write.html"/>
@@ -543,96 +938,6 @@
 &lt;p&gt;&lt;span class="footnotes"&gt;
   &lt;small&gt;本文图片 &amp;copy; &lt;a href="http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html"&gt;Inc.com&lt;/a&gt;&lt;/small&gt;
 &lt;/span&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>远程工作，你准备好了吗？</title>
-    <link rel="alternate" href="/2014/01/17/are-you-ready-for-remote-work.html"/>
-    <id>/2014/01/17/are-you-ready-for-remote-work.html</id>
-    <published>2014-01-17T10:55:00Z</published>
-    <updated>2014-01-17T10:55:00Z</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;&lt;blockquote&gt;
-    &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 12 月刊里的文章。&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;10 月 29 号，著名洗脑公司 &lt;a href="http://37signals.com/"&gt;37signals&lt;/a&gt; 发布万众期待的新书 &lt;a href="http://37signals.com/remote/"&gt;《Remote - Office Not Required》&lt;/a&gt;，随书 37signals 发布新网站 &lt;a href="http://weworkremotely.com"&gt;http://weworkremotely.com&lt;/a&gt;，专门做远程工作招聘服务。回想年初，Yahoo 宣布取消远程工作方式时，舆论哗然，远程工作是否适合互联网团队，曾在 IT 圈引起激烈讨论，却着实让人对远程工作充满了憧憬。而现在年底 37signal 的新书，必然会让远程工作这把火燃烧得更旺盛。&lt;/p&gt;
-
-&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengcheco.com"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要"。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;本文摘自我发表在 &lt;a href="http://programmer.csdn.net/"&gt;《程序员》&lt;/a&gt; 杂志 12 月刊里的文章。&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;10 月 29 号，著名洗脑公司 &lt;a href="http://37signals.com/"&gt;37signals&lt;/a&gt; 发布万众期待的新书 &lt;a href="http://37signals.com/remote/"&gt;《Remote - Office Not Required》&lt;/a&gt;，随书 37signals 发布新网站 &lt;a href="http://weworkremotely.com"&gt;http://weworkremotely.com&lt;/a&gt;，专门做远程工作招聘服务。回想年初，Yahoo 宣布取消远程工作方式时，舆论哗然，远程工作是否适合互联网团队，曾在 IT 圈引起激烈讨论，却着实让人对远程工作充满了憧憬。而现在年底 37signal 的新书，必然会让远程工作这把火燃烧得更旺盛。&lt;/p&gt;
-
-&lt;p&gt;对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 &lt;a title="简单高效的团队协作工具" href="https://fengcheco.com"&gt;Fengche.co&lt;/a&gt; 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要&amp;quot;。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合是他不确定员工在远程的情况下还能仍然像在办公室里一样很好的完成工作，至少看上去很好的在完成工作，尤其是几十年的经历告诉了我们在办公室工作是“正确”的工作方式。我这里用了“不确定”，而不是“不相信”。如果一家公司是不相信的话，那只能证明公司找了错误的人，还有人进了错误的公司。下面来谈谈公司采用远程会有哪些好处。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Remote: Office Not Required" src="/images/are-you-ready-for-remote-work/remote_front.png?1389984911" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h3&gt;远程工作的好处&lt;/h3&gt;
-
-&lt;h4&gt;更好的团队成员&lt;/h4&gt;
-
-&lt;p&gt;招聘难在现在看来是个永恒的话题，公司一直在寻找靠谱的人才，靠谱的人却有不同的机会做选择。前不久，有个香港的朋友招人，接受远程工作，一个下午收到十几二十封简历，看上去都是很不错的人，而这些是他在香港本地不敢想的。又比如我上一家公司 Intridea，公司有三十多个人，分布在华盛顿、加州、马里兰、北京、上海、杭州、福州、常州、阿根廷、巴西、乌克兰等十几个地方，且在我看来都是非常优秀的工程师，相反在公司所在地华盛顿，几乎招不到人。所以一旦采用远程工作，你的招聘将不受地域所限，而是直接面向世界各地。同时，远程工作能让团队更稳定，比如程序员都梦想去的公司 GitHub，自创立以来没有一个员工离职，我敢说这里面就有远程工作的功劳。&lt;/p&gt;
-
-&lt;h4&gt;更少的运营成本&lt;/h4&gt;
-
-&lt;p&gt;我记得我第一次到 Intridea 在 DC 的办公室以后，第一感觉是怎么这么小的一个地方，整个基本就是一厅两室五六十平方，还不如我自己家里，而这就是一个有三四十号员工的公司，一个已创立四年的公司，年营收将近千万美元，每天都在飞速运转飞速发展。而对比着如中关村、硅谷这样的地方，你要一间能容纳三四十号员工的场地，至少要百万人民币级别一年。所以一旦远程的话，你已经不需要在 CBD 有一个大办公室了，你的员工也会因此省下一大笔的居住成本，这也意味着你更有可能以更低的薪资水平招到更好的人。比如我有些朋友，就选择了降薪离开了北京，虽然还是在同一家公司，做同样的事情。&lt;/p&gt;
-
-&lt;h4&gt;更多的工作时间&lt;/h4&gt;
-
-&lt;p&gt;我没在大城市工作过，最主要的是我不愿意在交通上浪费过多时间，那些我原本可以用来更好工作和学习的时间。很简单的一个算术，假设一个工程师的一天工作时间是 8 小时，有效工作时间一般是 4 到 5 个小时，然后大城市如北京上海一个人一天平均花在交通上的时间是 2 到 3 小时，有没有发现只要一对比那是多么可怕的事实，更不要说人在花了一个半小时后到办公室后是怎样的一个疲劳状态。而远程工作者们一般是这样的一个工作状态，早上从从容容地醒来，吃完早饭泡上一杯茶，精神饱满地开始一天的工作。傍晚时，会出去健身跑步等等，然后回来洗个澡吃完晚饭继续扫尾，从绝对时间上来说，每天能多做很多事。当然，更不要提那些无法区分工作时间和个人时间的远程家伙们，简直个个都是代码狂魔，每天工作十到十二小时是家常便饭的事。&lt;/p&gt;
-
-&lt;h4&gt;更好的工作效率&lt;/h4&gt;
-
-&lt;p&gt;当然，我们要说工作不是只拼时间，要拼效率。但是从工作效率上来说，远程工作者的效率会更多。我去课程格子办公室拜访的时候发现他们专门有个“高产室 (productivity city)”，天放介绍这个是专门给一些员工要独处专注做事的时候提供的，里面有三大规矩。一是不能说话，也就是不需要面对面沟能，二是手机必须静音，三是不能超过三个人的，也就是降低人之间的干扰。在我看来就是在尝试一种变相的远程工作方式。要高效，首先得专注，而专注就需要没有干扰，减少上下文切换。但是在办公室里，人会时不时的被走动的同事，被交谈中的同事所干扰，时间被切成很多个碎片，每次都要重新去回顾上个碎片时做到什么程度了，效率必然低下。所以我有做 CTO 的朋友白天只跟同事交流要做什么事情和指导，所以技术性的编码工作都留到下班后晚上独处的时候完成。&lt;/p&gt;
-
-&lt;h4&gt;更全的用户支持&lt;/h4&gt;
-
-&lt;p&gt;月初跟 Basho 的 Eric Redmond 聊起他们公司的人员情况，介绍到他们在美国，欧洲和日本都有分公司，这样子跨时区远程协作，一个很大的好处是当美国的同事去休息的时候，日本的同事可以像客户提供用户支持，反之也一样，所以他们能做到工作日 7x24 的用户支持，这对于做产品的人来说是多么美好的事。所以，如果你需要人做更全的用户支持，与其招人三班倒，何不考虑尝试招一个跨时区的员工呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Remote Working Solution" src="/images/are-you-ready-for-remote-work/fengcheco.png?1389984911" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h3&gt;要注意和解决的问题&lt;/h3&gt;
-
-&lt;p&gt;凡事都是双面的，有利必有弊，那么远程工作会有什么缺点呢？首当其冲的是沟通效率变差。不可否认，面对面交流永远是最好的沟通方式，因为沟通除了语言以外，还有肢体上的，表情上的，而这些是远程工作的软肋，更不要说现在很多团队沟通基本还是靠吼。所幸的是，现在已经有了很多的科技手段来降低沟通成本，也越来越多的人出来分享在远程工作团队解决沟通问题的经验。也正因为沟通成本的提高，却会让你重新审视每次沟通的必要性，也会让你尽可能地去高效沟通，比如沟通前一定要想清楚为什么而沟通，也就是沟通的目地，沟通时如何最好的表达观点、减少误会，也就是沟通的过程，结束后也会去记录沟通的结果，沉淀下来。还有一个缺点就是缺乏全局的掌控，项目如何管理，信息如何同步和更新。因为远程工作的缘故，一些本来在办公室很容易干的事情比如会议、比如状态查看都需要换个全新的方式去执行和适应，这个的确是个大问题，也是现在很多新型的协作工具希望去解决的问题，如 HipChat、Fengche.co 等。下面我介绍一下我们是如何解决这些问题的。&lt;/p&gt;
-
-&lt;h4&gt;沟通交流问题，如何达到或接近面对面沟通效果&lt;/h4&gt;
-
-&lt;p&gt;按照事情轻重缓慢来分，我们把沟通分成了四类。第一种是重要而紧急的沟通，第二种是重要而不紧急的沟通，第三种是不重要而紧急的沟通，第四种是不重要而不紧急的沟通。只有对于第一类沟通，我们才会采用安排时间会议的方式，而其它会用文字异步沟通，甚至审视沟通的必要性。在工具上，我们主要用 Skype、HipChat 和 Fengche.co，基本不用 email 来沟通。&lt;/p&gt;
-
-&lt;p&gt;Skype，语音会议工具，当我们需要做方向性的头脑风暴，做每周计划安排或者站立会议的时候。这些保证整个团队要往同一个地方使力的沟通，重要且紧急，直接语音远比文本高效。会议工具其实也做过不少，比如 WebEx，GoToMeeting，Join.me，但是 Skype 胜在足够简单并且语音质量足够用。&lt;/p&gt;
-
-&lt;p&gt;HipChat，群组聊天工具，超好用，而且可以很方便的跟第三方服务做集成。我们基本上在上面讨论事情和共享信息，当然也会扯扯淡。我最喜欢 HipChat 的地方是它够纯净，干干净净的一个工作空间，没有一丝干扰，不像 QQ 一样揉杂了个人空间和工作空间，动不动就收到个人聊天消息的影响。只有给团队提供了一个能专注的工具，才能让他们有专注工作的可能性。&lt;/p&gt;
-
-&lt;p&gt;而具体做的事情或者任务的沟通，大多属于重要而不紧急的沟通，Fengche.co 就很适合。如果在某个任务上需要讨论，直接在该任务下留言就可以了，相关的人在得到通知后会参与进来讨论。这样，也不会出现某两个人之间讨论了，其他团队成员不知情导致重复沟通的情况。&lt;/p&gt;
-
-&lt;h4&gt;项目管理问题，如何管理让项目朝好的方向发展&lt;/h4&gt;
-
-&lt;p&gt;在项目管理上，务实第一，至于算不算 Scrum，Kanban, Scrumban 抑或 XP 这些流程并不重要，重要的是要找到适合团队的，这个也是一个不停的迭代改进的过程。我们实践下来，有很多的模式，比如类 Kanban 流程，Git 工作流，持续发布，代码审核，都是能很好的促进项目健康良好发展的方式。在项目管理工具上，我们希望要能 HipChat 这种聊天工具一样，是一个能专注工作高效工作的工具。这也是我们创造和使用 Fengche.co 的原因，让工具回归到最初的目的，真正地帮助团队工作，让团队尽可能少的浪费时间在工具上，而不是为了用而用，目前来看是最适合中小型开发团队的轻量级项目管理工具。&lt;/p&gt;
-
-&lt;p&gt;项目管理上也会涉及到文档知识管理，目前来看 Dropbox 是一个很不错的选择，分享公司内部文档，书籍和一些设计稿再合适不过了。我就喜欢这些只做好一件事情的工具产品。&lt;/p&gt;
-
-&lt;h4&gt;信息同步问题，如何了解团队每个人的当前状态&lt;/h4&gt;
-
-&lt;p&gt;信息同步主要包括两个方面，你目前个人的状态是如何的，你接下来有哪些计划？这样整个团队才能保持一样的节奏，能做出是合适的安排，不至于出现因为信息不同步造成计划失控，或者互相等待的情况。了解一个项目的状态是容易的，因为指标是明显的，但是了解一个团队的状态就相对难的多，尤其是当团队在多项目同时在跑的时候，远程时特别容易出现某些人任务过载或者某些人任务过少。要解决这个问题，还是要靠工具，我们也是用 Fengche.co，来了解团队里所有人的当前状态。而计划，我们使用公司日历，每个人有事情不在工作时间需要直接在日历里面添加一个事项，这样做计划的时候就会看到，可以增加一些备份选择。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Are you ready" src="/images/are-you-ready-for-remote-work/ready.jpg?1389984911" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h3&gt;你准备好了吗？&lt;/h3&gt;
-
-&lt;p&gt;我有足够的理由相信，未来人们有权利和有资本选择在什么地方和什么时候工作，不接受远程工作的公司会慢慢落后，尤其是新的一代人成长起来的时候，所以如果想尝试一下看看这是不是一个更好的方式，可以慢慢的改变看看是否能适应，比如“高产室”，比如每周先减至 4 天在办公室工作，然后 3 天，2 天，每次调整前大家明确下目标，为啥要怎么做，如何能做到最好，遇到哪些问题，可以怎么解决，不断的总结，不断的改进，那么真正的全部远程工作会水到渠成。迈出了这一步，一切将变得容易，一切将得到改变。&lt;/p&gt;
 </content>
   </entry>
 </feed>
