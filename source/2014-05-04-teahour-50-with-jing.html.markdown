@@ -1,5 +1,5 @@
 ---
-title: "Teahour #50: 和 Jing 聊聊 Qubit 的产品和技术栈"
+title: "和 Jing 聊聊 Qubit 的产品和技术栈"
 date: 2014-05-04 12:00 +08:00
 tags: teahour, transcript, node, ruby
 disqus_identifier: "teahour-ep50"

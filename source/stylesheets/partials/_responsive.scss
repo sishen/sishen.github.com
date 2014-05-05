@@ -19,7 +19,7 @@
   }
   .main {
     .title {
-      font-size: 2.1em;
+      font-size: 1.9em;
       line-height: 1.2em;
     }
     .meta {
@@ -118,6 +118,10 @@
         }
       }
     }
+
+    .profile .projects h3 {
+      font-size: 0.95em !important;
+    }
   }
 }
 
@@ -145,7 +149,7 @@
     padding: 30px 50px 5px 50px;
 
     .title {
-      font-size: 2.0em !important;
+      font-size: 1.8em !important;
       line-height: 1.1em !important;
     }
     .meta {
@@ -154,6 +158,10 @@
 
     .share {
       zoom: 0.8;
+    }
+
+    .profile .projects h3 {
+      font-size: 0.85em !important;
     }
   }
 }
@@ -210,7 +218,7 @@
     padding: 10px 20px 0px 20px;
 
     .title {
-      font-size: 1.8em !important;
+      font-size: 1.7em !important;
       line-height: 1em !important;
     }
     .meta {
@@ -225,6 +233,10 @@
 
     .social-action .twitter {
       margin-left: 10px !important;
+    }
+
+    .profile .projects h3 {
+      font-size: 0.75em !important;
     }
   }
 }
