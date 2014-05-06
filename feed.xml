@@ -24,6 +24,8 @@
 
 &lt;p&gt;本期音频文本非常感谢&lt;a href="http://weibo.com/wuyicun"&gt;@吴怡村&lt;/a&gt;的整理。本文是 Teahour 第 51 期 &lt;a href="http://teahour.fm/2014/04/21/interview-with-ari-lerner.html"&gt;『Interview with Ari Lerner about AngularJS』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
 
+&lt;p&gt;&lt;audio controls name="media"&gt;&lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_51.m4a" type="audio/mpeg"&gt;&lt;/source&gt;&lt;/audio&gt;&lt;/p&gt;
+
 &lt;h4&gt;Part 1: AnguarJS talk&lt;/h4&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Hello everybody and welcome to Teahour. This is episode 51 and today we have &lt;a title="Ari's Github" href="https://github.com/auser"&gt;Ari Lerner&lt;/a&gt;. Hi Ari.&lt;/p&gt;
@@ -34,6 +36,10 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;本期音频文本非常感谢&lt;a href="http://weibo.com/wuyicun"&gt;@吴怡村&lt;/a&gt;的整理。本文是 Teahour 第 51 期 &lt;a href="http://teahour.fm/2014/04/21/interview-with-ari-lerner.html"&gt;『Interview with Ari Lerner about AngularJS』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_51.m4a" type="audio/mpeg"&gt;
+&lt;/audio&gt;&lt;/p&gt;
 
 &lt;h4&gt;Part 1: AnguarJS talk&lt;/h4&gt;
 
