@@ -1,9 +1,9 @@
 ---
 title: "和 Jing 聊聊 Qubit 的产品和技术栈"
 date: 2014-05-04 12:00 +08:00
-tags: teahour, transcript, node, ruby
+tags: teahour, node, ruby
 disqus_identifier: "teahour-ep50"
-keywords: teahour, transcript, 文本
+keywords: teahour, node, ruby
 description: "Teahour 第 50 期由叶玎玎主持，邀请到了 Quibit 公司的核心工程师董京，来一起聊聊 Qubit 的产品和技术栈，比如分析工具的实现、Ruby、Node、A/B Test 等。"
 ---
 
