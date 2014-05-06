@@ -5,10 +5,291 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-05-04T04:00:00Z</updated>
+  <updated>2014-05-06T06:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>与 Ari Lerner 聊 AngularJS</title>
+    <link rel="alternate" href="/2014/05/06/teahour-51-angular-with-ari-lerner.html"/>
+    <id>/2014/05/06/teahour-51-angular-with-ari-lerner.html</id>
+    <published>2014-05-06T06:00:00Z</published>
+    <updated>2014-05-06T06:00:00Z</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;blockquote&gt;
+  目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
+&lt;/blockquote&gt;
+
+&lt;p&gt;本期音频文本非常感谢&lt;a href="http://weibo.com/wuyicun"&gt;@吴怡村&lt;/a&gt;的整理。本文是 Teahour 第 51 期 &lt;a href="http://teahour.fm/2014/04/21/interview-with-ari-lerner.html"&gt;『Interview with Ari Lerner about AngularJS』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h4&gt;Part 1: AnguarJS talk&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Hello everybody and welcome to Teahour. This is episode 51 and today we have &lt;a title="Ari's Github" href="https://github.com/auser"&gt;Ari Lerner&lt;/a&gt;. Hi Ari.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I worked at &lt;a href="http://www.att.com/"&gt;At&amp;amp;T&lt;/a&gt; for about five and a half years or so and at AT&amp;amp;T I was originally hired to build their internal competitor to &lt;a href="https://aws.amazon.com/ec2/"&gt;EC2&lt;/a&gt;. I helped build their internal cloud and I built what was actually one of the first open-source clones of &lt;a href="https://www.heroku.com/"&gt;Heroku&lt;/a&gt; entirely in &lt;a href="http://www.erlang.org/"&gt;Erlang&lt;/a&gt; called &lt;a href="https://github.com/auser/beehive"&gt;Beehive&lt;/a&gt;. In my later time at AT&amp;amp;T, I worked on their developer services. I helped build their single sign-on...&lt;/p&gt;</summary>
+    <content type="html">&lt;blockquote&gt;
+  目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
+&lt;/blockquote&gt;
+
+&lt;p&gt;本期音频文本非常感谢&lt;a href="http://weibo.com/wuyicun"&gt;@吴怡村&lt;/a&gt;的整理。本文是 Teahour 第 51 期 &lt;a href="http://teahour.fm/2014/04/21/interview-with-ari-lerner.html"&gt;『Interview with Ari Lerner about AngularJS』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h4&gt;Part 1: AnguarJS talk&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Hello everybody and welcome to Teahour. This is episode 51 and today we have &lt;a title="Ari's Github" href="https://github.com/auser"&gt;Ari Lerner&lt;/a&gt;. Hi Ari.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I worked at &lt;a href="http://www.att.com/"&gt;At&amp;amp;T&lt;/a&gt; for about five and a half years or so and at AT&amp;amp;T I was originally hired to build their internal competitor to &lt;a href="https://aws.amazon.com/ec2/"&gt;EC2&lt;/a&gt;. I helped build their internal cloud and I built what was actually one of the first open-source clones of &lt;a href="https://www.heroku.com/"&gt;Heroku&lt;/a&gt; entirely in &lt;a href="http://www.erlang.org/"&gt;Erlang&lt;/a&gt; called &lt;a href="https://github.com/auser/beehive"&gt;Beehive&lt;/a&gt;. In my later time at AT&amp;amp;T, I worked on their developer services. I helped build their single sign-on gateway. I helped contribute to their next-generation text messaging gateway. So all the stuff that I&amp;rsquo;m referring to is all back-end services, really server-side heavy. So when I left AT&amp;amp;T, I felt like I was ready to go. I left AT&amp;amp;T with all this back-end experience and an idea for an application that I was writing kind of in nights and weekends at that time. And I wrote this beautiful calendaring system and I realized I had very little front-end skills, at least knowledge of front-end frameworks. I knew &lt;a href="http://backbonejs.org/"&gt;Backbone&lt;/a&gt; and I really did not like working with Backbone: writing so much code just to get simple things working. At that time, I thought there had to be a different way. So I started exploring different front-end libraries. I found &lt;a href="http://knockoutjs.com/"&gt;Knockout&lt;/a&gt;. I used Knockout for a little while and I found &lt;a href="http://emberjs.com/"&gt;Ember&lt;/a&gt;. This was Ember pre-1.0 days. And I found &lt;a href="https://angularjs.org/"&gt;Angular&lt;/a&gt; and Angular just felt right. Everything about writing Angular, even back then when it was quite young, I felt like it was onto the next generation of writing web applications. So I&amp;rsquo;ve been working with Angular since February of 2013, just a year and a couple months.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: That&amp;rsquo;s really interesting because that&amp;rsquo;s about the same time when I picked up Angular as well. I actually had very similar experience. I did some backbone development before Angular and it was very much an eye-opening experience when I looked at Angular. It was just amazingly easy to get started and be productive. The two-way binding. Was it Angular or was it Knockout that invented two-way binding?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Angular didn&amp;rsquo;t invent two-way binding but it invented the abstraction of JavaScript into the DOM.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: That was very nice because when I used to work with Backbone, I had to work with the DOM a lot, like write code, look at this element and etc. But with Angular, I felt like if I did it right I didn&amp;rsquo;t need to touch the DOM at all in my Angular code. That was very nice.&lt;/p&gt;
+
+&lt;p&gt;So we can talk about Angular more a little bit. The other thing I liked about Angular was testing. I was surprised by how thorough it was. Maybe you can talk on that as well?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Coming from a back-end perspective where testing is really easy, there&amp;rsquo;s been a lot of thought over the past 15 to 20 years or so in software development about testing. Moving to the front-end back in those days (1.5, 2 years ago where in software it&amp;rsquo;s eternity), testing was almost unheard of. You have &lt;a href="http://docs.seleniumhq.org/"&gt;Selenium&lt;/a&gt; testing that are relatively arbitrary ways of doing front-end testing and managing your front-end from a test perspective. So it was really refreshing when you move to Angular where everything is tested and everything is written to be testable and you have these fantastic tools like &lt;a href="http://jasmine.github.io/"&gt;Jasmine&lt;/a&gt; and &lt;a href="http://karma-runner.github.io/0.12/index.html"&gt;Karma&lt;/a&gt; and nowadays with &lt;a href="https://github.com/angular/protractor"&gt;Protractor&lt;/a&gt; which is just awesome. Now if you&amp;rsquo;re writing an Angular app and you&amp;rsquo;re not writing tests you&amp;rsquo;re missing half the reason why you would use Angular in the first place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK. Yeah, I think before Angular I was definitely doing  more of the Selenium, the whole integration testing. I think part of the reason was, before Angular my JavaScript code was really just everywhere: a lot of jQuery here and there. I wrote some JavaScript myself but there wasn&amp;rsquo;t really a good way even if I wanted to do the testing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, that&amp;rsquo;s one of the reasons when you move away from writing your application code as a one-off application. You move to a structure, where as you just mentioned, you have lots of jQuery embedded all over your application in somewhat of an unstructured way. Testing is hard. It&amp;rsquo;s also hard to maintain, to manage and to get team members working on the code base when everything is everywhere. That&amp;rsquo;s one of the benefits of using a framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: So let&amp;rsquo;s say when you work on an Angular app, what&amp;rsquo;s the typical workflow? Do you develop the front-end stuff separately, step out the back-end or I guess you still do integration testing for the whole full stack?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yes, to test in Angular, you have the end-to-end test or the integration test. It&amp;rsquo;s also known as black-box testing. So basically the concept behind is that you&amp;rsquo;re automating someone opening a web browser and clicking around. So rather than every single time you make a change, using your mouse, reloading a page and clicking on buttons and making sure they work, you script that so you tell the browser what it wants to click on and move on and all that fun stuff. That&amp;rsquo;s end-to-end testing. Normally what I would do is I&amp;rsquo;ll write my end-to-end tests first. I&amp;rsquo;ll have an idea for my application and because the API, the functionality of my application will change as it naturally does (it always does) when you&amp;rsquo;re writing code. I tend to write end-to-end tests that match the functionality that I definitely know that I&amp;rsquo;m going to have. And as I was developing the app, I&amp;rsquo;ll run my end-to-end every once in a while and make sure that functionality still exists and fix it when it breaks and as I change the structure of application, I&amp;rsquo;ll change the structure of the tests. When things are settled out a little bit deeper I&amp;rsquo;ll start writing unit tests and unit tests themselves are exactly what they sound like where you&amp;rsquo;re testing units of code. When you&amp;rsquo;re writing a service, for instance, an Angular service, you would write a unit test for that service and make sure the data is exactly how you expect the data to be and you step out the back-end. Notice I didn&amp;rsquo;t say you step out the back-end in the end-to-end testing. Normally when I&amp;rsquo;m doing end-to-end testing, I won&amp;rsquo;t step out the back-end: I&amp;rsquo;ll write a light-weight server in the back-end that provides data the way I will consume in my front-end even if I&amp;rsquo;m not writing the back-end if I&amp;rsquo;m more concerned with the front-end.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: All right, but you don&amp;rsquo;t just load fixtures for the data, you still have a back-end server that serves the actual data. You have API endpoints in your head, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I do, when I&amp;rsquo;m doing end-to-end testing. And that doesn&amp;rsquo;t mean that I&amp;rsquo;m developing a full back-end application. When I do write code, I&amp;rsquo;ll write a back-end server that just loads JSON fixtures and serves those.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK. To talk deeper in Angular, my experience says that everything was really good and this is maybe when I got to a confusion point myself with Angular. Everything was good when I was doing two-way binding: you don&amp;rsquo;t have to scope, controllers and all that. Even when I started doing services that was OK. I felt like I could get that but things really got complicated when I started working with directives. Was that a common experience?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, so I&amp;rsquo;ll answer that in just a second. In order to give you a little bit of background information on where this enters, I teach Angular at a couple of schools here in San Francisco to real-life students and I also do corporate training; I teach large and small teams of Angular developers around the Bay Area and the United States and potentially in China later this year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Do you know when you&amp;rsquo;re coming to China? Do you have a class already?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I think from what I can tell, I&amp;rsquo;m speaking at &lt;a href="http://velocity.oreilly.com.cn/"&gt;China Velocity&lt;/a&gt;, it&amp;rsquo;s the O&amp;#39;Reilly conference in Beijing. I think that&amp;rsquo;s in August. It&amp;rsquo;s not quite confirmed yet so I may be in Beijing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK. That&amp;rsquo;s nice. When you&amp;rsquo;re in Beijing, definitely let me know. If you want to, we can do some get-together. There are a lot of developer events happening in Beijing, even major cities, so if we can hook you up with some events that would be cool.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, sounds good. So one of the most common questions that I get the most when I&amp;rsquo;m teaching. I should mention that I teach people of all ages and of all skills: both really experienced developers who were asking questions to very specific scenarios and to people who have never written code before. Universally two questions that most people are confused on are services and directives. The differences in services and what matters in that and also what is a directive and how do you build a directive. So I hope that the next sentence will help clear that up and help you. Basically, a directive itself is simply a function and it&amp;rsquo;s a function that runs on an element to augment that element. That&amp;rsquo;s it. It&amp;rsquo;s just a function. If we have slides here, I would walk you through my generic slide deck. This is a somewhat oversimplification of how the browser works and it&amp;rsquo;s also not entirely true of about what I&amp;rsquo;m about to say but that&amp;rsquo;s how I like to think about it when I explain directives. When a browser encounters an HTML tag, for instance, when it encounters an &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tag, you can think about it like that the browser is running the h1 method. It&amp;rsquo;s saying: Oh I found an h1 method that needs to be called so I&amp;rsquo;ll run that method. A directive is kind of like a composition of that element. In that same scenario, the browser would say: Oh there&amp;rsquo;s an &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tag. Great. I need to run the &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; tag element; and then Angular would say: Oh and there&amp;rsquo;s a directive on this element called &lt;code&gt;ng-click&lt;/code&gt; and now I need to run the function on this &lt;code&gt;ng-click&lt;/code&gt; element. So directives themselves conceptually are very simple; in practice though they can be a little bit more complex about how they work. The majority of my teaching when I do teach to live classes, I spend a lot of time on events, directives and how they work and when you use them and when you don&amp;rsquo;t use them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, it felt like when I was building the app, when things got complicated, there wasn&amp;rsquo;t a lot of good documentation with sample apps with very complicated business logic so that I can see how they organize the app. On the high level I understood how I should do it but there were still a lot of nitty-gritties that I just couldn&amp;rsquo;t figure out myself. So I actually went to the IRC room for Angular and I was asking around. One of the guys there, he was very helpful by the way, which probably says that the framework has a very good community. He was very helpful. He basically said you should do directives for this and walked me through an example on how to do it but a lot of the things he said I just couldn&amp;rsquo;t find anywhere in the documentation. I wouldn&amp;rsquo;t have known that if he didn&amp;rsquo;t walk me through that scenario.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure. So actually you bring up the point of how I started working on the book. When I started with Angular, one of the things I noticed right away was that the documentation was terrible. And there was really no documentation. Even today, the official documentation is getting better but it&amp;rsquo;s still not an easy landscape. And because there was not enough documentation, the way I ended up learning Angular was by walking through the source code and looking at how things work and trying to understand that to fill in the blanks. I realized as much as I liked walking through source code, there were also a lot of people who don&amp;rsquo;t like walking through source code to learn. So the way I stumbled upon why I should write a book is because my learning of Angular was somewhat treacherous and now that writing a 600-page book and constantly updating it will definitely hammer in good practice into anyone through a couple months of writing. Now that I have that under my belt and now that I understand the framework really in depth and I teach a lot and I write a lot on it, those types of questions are getting easier and easier for me to answer and also easier and easier for others to answer due to the fact that I write and share a lot.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, I haven&amp;rsquo;t done a lot of front-end JavaScript development for the last maybe half a year to 9 month or so but I look forward to going back and seeing the best practices that are emerging from the community. Back in the days, I felt like it was a little bit chaotic and it definitely feels like every problem I was trying to solve, I constantly felt like I was asking myself: should I use services for this or maybe this is a directive or maybe I can go either way. There&amp;rsquo;re many ways to solve a problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, it&amp;rsquo;s also a natural process too. You&amp;rsquo;re referring to community standards and best practices. That doesn&amp;rsquo;t happen overnight: if you think back to the early days of the internet there were all sorts of protocols. There were rival things, rival even TCP/IP and there was no standard way of communicating. Like SYN-ACK was not a well-understood concept back in the day. Should I wrap my packets in 64 bits or should I do in 32? It&amp;rsquo;s natural and also if you think about it from a micro level, it&amp;rsquo;s natural when you&amp;rsquo;re writing your own program, your APIs wildly changes than you were first writing your application. The longer the time goes on, those things settle down and your internal application APIs start to settle down and they don&amp;rsquo;t change as wild. The same thing can be said when you build frameworks. Now we&amp;rsquo;re kind of hitting a spot when Angular itself is mature to a point where the APIs are settling out and there were really well-understood best practices and although the framework itself is still constantly changing, it&amp;rsquo;s changing less and less from an external perspective.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Actually, I can tell you the thing I do like about Angular is the general thinking of it, just expanding the html. I think I read somewhere that says teach browser new tricks. That really makes sense. That way of thinking, packaging code and organizing code make a lot of sense.&lt;/p&gt;
+
+&lt;p&gt;You probably get this a lot. The kind of where Angular is in the whole new generation of new JavaScript MVCs coming up nowadays like every few weeks there&amp;rsquo;s a new one. How do you see Angular compare with some other JavaScript MVCs?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, I think a lot of the &amp;ldquo;new generation of MVC frameworks&amp;rdquo; because JavaScript itself is taking off as a new language, which came out 5 or 6 years ago. So somewhat legitimized JavaScript itself as a language and it become the more JavaScript is used on the server side the more we&amp;rsquo;re seeing this evolution of JavaScript itself. I think with the advent of ES6, which is a completely new version of JavaScript and it&amp;rsquo;s awesome. By the way, if you haven&amp;rsquo;t used it or a least haven&amp;rsquo;t explored it, it promises to make a lot of things easier and more standard.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: It&amp;rsquo;s Chrome that does not support it yet right? I think FireFox does.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: &lt;a href="https://www.google.ca/intl/en/chrome/browser/canary.html"&gt;Chrome Canary&lt;/a&gt; does. Chrome itself, if you enable the experimental features it does. The latest version of Firefox does support ES6. And of course if you use bleeding edge &lt;a href="http://nodejs.org/"&gt;Node&lt;/a&gt; it supports ES6 too. Even if you&amp;rsquo;re not using the bleeding edge version of Node you can use the ES6 flags and enable ES6 when you&amp;rsquo;re running.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, there&amp;rsquo;s a lot of exciting things in there. &lt;code&gt;Object.observe&lt;/code&gt;, is it ES6 or ES7? I think it&amp;rsquo;s 6, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I believe that&amp;rsquo;s ES6. It may have been pushed to ES7 but I would be really surprised if it did. I&amp;rsquo;m pretty sure it&amp;rsquo;s still ES6. Getting back to the point, with the changing landscape of JavaScript, it&amp;rsquo;s approaching us pretty quickly and with more eyes on JavaScript, we&amp;rsquo;re getting a lot of different ways to view how we build front-end client-side JavaScript applications and you&amp;rsquo;re getting also the same thing from the back-end perspective but it&amp;rsquo;s very different. In terms of how does this reflect what frameworks we should use to build our client-side applications, really I think a lot of that depends on what you&amp;rsquo;re doing and what type of application. I think there is both matter of preference and also matter of community and where they stand in terms of their longevity. I think Angular itself has Google sponsoring it. Google has hundreds of projects that depend on Angular and depend on the Angular team internally so Google is paying for some really awesome developers to build Angular itself and to continue to advance it. They think when you look at that in comparison to a lot of other frameworks, there&amp;rsquo;s a lot of other frameworks that are just out there because an author decided that they like how it looks or because a group of people got behind a single project and use their off-time to develop the framework and I think if you&amp;rsquo;re building something in a professional perspective, at least for me it&amp;rsquo;s really important that what I&amp;rsquo;m building won&amp;rsquo;t just go away because the author decided he didn&amp;rsquo;t like writing it anymore or the community slowed down because the author was less involved or there is no sponsoring the framework to be developed. So I constantly get asked the question: should I use Ember? should I use Knockout or should I use Angular? My generic answer for that is: what are you building? If you&amp;rsquo;re not building an action RPG game in the browser, let&amp;rsquo;s say use Angular. The conventions are really well set up and the community is incredibly vibrant. Again it&amp;rsquo;s backed by one of the world&amp;rsquo;s top internet companies with some of the smartest JavaScript minds available today working on it and there&amp;rsquo;s just a gigantic explosion of the interests in Angular so it&amp;rsquo;s not going away; it&amp;rsquo;s only getting better.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: It&amp;rsquo;s interesting you mentioned Ember because as far as I know when you build an Ember app the premise is you want to move all the logic to the front-end and leave your back-end as a pipe to the database. Is Angular the same way or is it less demanding in a way?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I have not built an Angular app that depends on a server-side rendering, all my Angular apps in production, both my apps and my clients&amp;#39;. I used to contract Angular development are all deployed in &lt;a href="https://aws.amazon.com/"&gt;AWS&lt;/a&gt;, on &lt;a href="http://aws.amazon.com/s3/"&gt;S3&lt;/a&gt; so there is no server backing it. They are simple just files and those files load up and they talk to a back-end and that back-end is simply a pipe to a database or a couple of databases depending on the application. So that&amp;rsquo;s the long answer. The short answer is yes, it has the exact premise if you want it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: I kind of feel that way already because I started just with coding Angular into a Rails application and I then kept asking myself: should I put it in the server-side or on the front-end and it&amp;rsquo;s a lot of conflict. Maybe it&amp;rsquo;s just way easier if I decided to move to the client-side and just leave the server to do very simple things.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yes, again it depends on what you&amp;rsquo;re building. If you&amp;rsquo;re building an application that needs incredibly tight security, you probably want that served by a back-end, at least of some sort, even a light-weight back-end is OK.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Speaking to that, I think maybe that can be an advantage to Angular as well because I don&amp;rsquo;t think I could have done that with Ember. For Angular I can just for this part of the UI. If I want to put an Angular in, I can surgically enhance one area whereas Ember tries to take over my routes and URLs and all that. I have less room to negotiate with the framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, I should mention that if your preference is Ember and this is not just you Kevin, but anyone. If your preference is Ember, use Ember. If you&amp;rsquo;re going to be building a production level application, do use the best tools that you are comfortable with to get you moving faster rather than just use the tool because it&amp;rsquo;s hot. I can say that Ember itself pre-1.0 was a really terrible framework. I&amp;rsquo;m sorry Ember guys. But post-1.0 they took a lot of ideas that the Angular team had built and integrated those into the Ember framework. It&amp;rsquo;s actually a relatively decent framework. I mean I don&amp;rsquo;t like writing in Ember because I feel like there&amp;rsquo;s a lot that I have to do in order to maintain my Ember application and make it a nice experience for me as a developer. One of the reasons I really enjoy Angular is I don&amp;rsquo;t have to do that. I can communicate and build my app super fast on Angular whereas Ember takes a little bit different cognitive overhead to develop some nice apps. But again that&amp;rsquo;s me, if you like writing Ember and you&amp;rsquo;re writing a production-level application and you need that production-level application, don&amp;rsquo;t fight with the framework, fight to make the best experience for your users. I can&amp;rsquo;t say if you&amp;rsquo;re not doing that and you&amp;rsquo;re not in the phase where you&amp;rsquo;re developing your application for production level, definitely explore Angular though because that will make you a much faster to rapidly build rich interactive experiences for you users.&lt;/p&gt;
+
+&lt;h4&gt;Part 2: Full stack developer&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: So let&amp;rsquo;s change the topic a little bit. I noticed that your company is &lt;a href="http://www.fullstack.io/"&gt;Fullstack.io&lt;/a&gt; and there&amp;rsquo;s this emergence of concept of full-stack developer. How do you think about that and obviously you guys are invested in this idea. Was that mostly because of the popularity of JavaScript for the last 5 years maybe? Why the concept now is becoming so popular and you see all the hiring requirements and everybody wants full-stack developers?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, this exists because of the recruiters of the world are constantly looking for what&amp;rsquo;s the next thing. Recruiters run on finding developers for companies and constantly want the best developers. So in the recruiting world you get these buzzwords that pop up all the time: data scientists for a little while, full-stack developers kind of right now, cloud engineers before, server-side engineers before, rockstars used to be a thing. In terms of what full-stack means itself, when you&amp;rsquo;re talking about web application developers, full-stack itself simply means you can write server-side code and front-end code and I attribute the growth of the &amp;ldquo;full-stack developer&amp;rdquo; due to the fact that Node came out and allowed developers who were already comfortable writing front-end code to become comfortable writing server-side code.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yea it definitely felt that way because that&amp;rsquo;s about the time when this concept started to emerge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yea. So for &lt;a href="http://www.fullstack.io/"&gt;Fullstack&lt;/a&gt;, we named ourselves Fullstack because at the time I was doing some hardware contracting and the fact that I was doing hardware contracting as well as writing JavaScript kind of land itself to the name.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Oh, you&amp;rsquo;re doing JavaScript and hardware? What type of hardware?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: That&amp;rsquo;s one of the unique things about our company itself. A quick aside is we have experience that goes from low-level embedded hardware all the way up to the stack.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: That&amp;rsquo;s really the full stack!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: It&amp;rsquo;s a full stack. If you can build the hardware and you can build the OS and you can write the browser-side that will communicate, that&amp;rsquo;s pretty full-stack. We were doing a lot of &lt;a href="http://www.raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt; work back to the day and embedded computing to answer your question.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: So this really predates the modern-day concept of full-stack developer, not just you can write server code and JavaScript code.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, it&amp;rsquo;s somewhat unfortunate that full stack itself is different meaning than we like to share it as.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: That&amp;rsquo;s interesting because do you guys do web app consulting nowadays?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: We used to. We&amp;rsquo;ve done a lot less consulting right now. One of my passions is teaching and the more I&amp;rsquo;m contracting, the less I can teach, the less I can write to teach, the less I can interact with students so these days we&amp;rsquo;re not doing very much contracting, at least for the time being.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK. I guess what I wanted to check with you is what&amp;rsquo;s your favourite framework on the back end? Obvious Angular is what you want to use on the front end. Do you see yourself reaching for node more or still Rails?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Good question. I don&amp;rsquo;t get asked that question all that often. Depends on what I&amp;rsquo;m doing. So these days if I just want to get an application up and I want to get it out I&amp;rsquo;ll use Rails. I&amp;rsquo;ll use Rails strictly as an API server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: &lt;a href="https://github.com/rails-api/rails-api"&gt;Rails::API&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I don&amp;rsquo;t use Rails::API although Rails::API is much faster than out-of-box Rails. Last time I checked, they weren&amp;rsquo;t compatible with Rails 4 so I didn&amp;rsquo;t use them but they&amp;rsquo;re probably compatible now. My two favourite languages right now that I really enjoy writing in is &lt;a href="http://golang.org/"&gt;Go Lang&lt;/a&gt;, which comes out of Google, and &lt;a href="http://clojure.org/"&gt;Clojure&lt;/a&gt;. So anytime that I can find an excuse to write a Go Lang server or a Clojure server, I definitely go for it. Again it depends on what I&amp;rsquo;m writing. If I&amp;rsquo;m writing something really heavy in statistical application or I&amp;rsquo;m doing anything with machine learning or big data I&amp;rsquo;ll tend to use Clojure and if I&amp;rsquo;m doing for fast response times I&amp;rsquo;ll use Go.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, that&amp;rsquo;s interesting because I looked at Go, I haven&amp;rsquo;t looked at Clojure yet, it feels like it&amp;rsquo;s very low level. So maybe that goes well with Angular, the rich JavaScript MVC part where you just have a pipe to the database and just move the logic to the front-end. Maybe that&amp;rsquo;s a good combination.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, I try to make my server-side as dumb as it possibly can be and my client-side as smart as it possibly can be. Obviously there are some places that breaks down: if you have security concerns you can&amp;rsquo;t put your security on the client-side because it&amp;rsquo;s just exposed to the world. In that case, you&amp;rsquo;ll have a back-end to store user data and stuff like that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: I&amp;rsquo;m surprised you did not mention &lt;a href="http://www.erlang.org/"&gt;Erlang&lt;/a&gt; because you did say in the beginning that you did some Erlang projects before so how come no luck for Erlang?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Actually, I still love Erlang. Erlang is very good for very specific use cases. The use case that I mentioned before was for a open-source clone of Heroku. It&amp;rsquo;s super good for processing, routing and distributed computing. So as much as I love Erlang and Erlang itself is fantastic, I like writing in Erlang, some people don&amp;rsquo;t. I really like writing in it. I haven&amp;rsquo;t found a good use case for me to have an excuse to work on Erlang in a while. I do love it though. If you haven&amp;rsquo;t used it, you should definitely look at it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK, but you definitely did not mention Node.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I do like Node. Node is kind of a my competitor to Rails. Things that I like about Node or things I don&amp;rsquo;t like about Rails, I&amp;rsquo;ll go and use Node. I really like writing small Node applications. So if you&amp;rsquo;re doing SOA style applications, as opposed to using Rails, Node is really good for that. You can have a server-side that&amp;rsquo;s just dedicated to user and authorization and authentication and that can be its own SOA application. And node has fantastic support for that through something called &lt;a href="http://passportjs.org/"&gt;Passport&lt;/a&gt;. Sometimes I get really annoyed with Node because JavaScript itself can be kind of an ugly language and if you&amp;rsquo;re not careful with how you write your code or you don&amp;rsquo;t use promises and you use a lot of callbacks, Node itself can be really hairy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, but you did mention promise. I think that&amp;rsquo;s kind of a way to get out of the callback hell.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, promises are awesome.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: You talked about using Node in a SOA type of context. I guess the opposite of that is a large application, a lot of workflowy logic. That&amp;rsquo;s when you don&amp;rsquo;t want to use Node. Is that right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: If we&amp;rsquo;re talking about me, yeah. Node itself is a competitor to Rails in my opinion. So if you enjoy writing Node in that large application, you definitely can use Node to do that. My particular preference is to it for small projects.&lt;/p&gt;
+
+&lt;h4&gt;Part 3: Book Authoring&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK. Let&amp;rsquo;s change topics again. You recently wrote 3 books. I want to talk about the book-writing process. So maybe you can walk me through. Maybe you can start with why you wanted to write these books and what you went through the process of actually writing it?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, we can open that can of worms. As I mentioned before, I was learning Angular by reading source and scouring the web for as much documentation as I could, I realized there was not enough out there to support what I was looking for. So I identified this as an area of opportunity, where I could help others learn Angular from my experience of learning it myself so when I first started writing the book, I had this idea that I would write kind of a mini beginner&amp;rsquo;s guide to Angular and when I say mini it&amp;rsquo;s anywhere between 50 to 100, maybe pushing 200 pages. I thought it would definitely not break 200 pages. One of the things I found as I was writing the beginner&amp;rsquo;s guide is that the beginner&amp;rsquo;s guide itself would help get started on Angular, it&amp;rsquo;ll help get over the hump of learning Angular, but that&amp;rsquo;s a really arbitrary limitation. What I found was that by writing a mini book, I would only be helping a very small subset of people who either like to read the documentation or my beginner&amp;rsquo;s guide. So one of the things early on what I started to do is I started writing this blog and it&amp;rsquo;s running now and we get hundreds and thousands of visits. It&amp;rsquo;s called &lt;a href="http://www.ng-newsletter.com/"&gt;ng-newsletter&lt;/a&gt; and I focused on the beginner&amp;rsquo;s guide to that. Our first series of posts were the beginner&amp;rsquo;s guide to Angular that was the beginning of the book. If you look at the comments in any of the first 7 articles or so, you&amp;rsquo;ll see that people are saying yes but what about this, what about that and because I was getting so many of those types of comments, I started teaching by that point after I&amp;rsquo;ve written those initial posts. I got more questions about like what&amp;rsquo;s next, so that kind of started leading me to continue to write this book and continue to put more thought into the full design of the book, not just beginner&amp;rsquo;s guide, but professional&amp;rsquo;s guide to writing Angular applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: So at that point, you know you wanted to write a book, not just newsletters or blogs?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yep. So I have also recently left AT&amp;amp;T, and after that I was wanting to deploy this application and I kind of found that my interest in teaching overtook my interest in building and deploying and running this other application so I came to this conclusion that I really wanted to simply just write the book and I was still continuing to develop past that as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: So this was mid-end last year?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yes, I started writing in May but not seriously. That was when I was starting to write the Angular cook book which is unreleased because I moved on to write &lt;a href="https://www.ng-book.com/"&gt;ng-book&lt;/a&gt; but I can still come back to that. I started writing in May, not really dedicated to it and I really got dedicated in July and just started writing and writing and writing and I can tell you, from personal experience, if you&amp;rsquo;re thinking about writing a book, consider really hard. It&amp;rsquo;s hard especially when you get to the point where you&amp;rsquo;re approaching the end of the book and you have to go back and clean up a bunch of things. It&amp;rsquo;s hard. It&amp;rsquo;s not an easy process and you also have to sit down every single day and write something. It got to the point where I was writing about 1000 words a day and that&amp;rsquo;s a couple hours worth of work. So if you&amp;rsquo;re not writing for a couple hours every single day&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Is that kind of a hack, a way to keep you going? You&amp;rsquo;ll  keep the momentum like i just need to get today&amp;rsquo;s share done?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, there was a professor out of Stanford, &lt;a href="http://www.bjfogg.com/"&gt;BJ Fogg&lt;/a&gt;, who wrote &lt;a href="http://tinyhabits.com/"&gt;Tiny Habit&lt;/a&gt;. Essentially what he says is set up triggers for yourself such that you can create a new habit when you encounter that trigger. For instance, his example was as you walk into the bathroom and brush your teeth when you put your toothbrush down into the toothbrush holder and hear the ding, then pick up the floss. If you set it up enough time, even if you don&amp;rsquo;t floss but you pick up the floss, it&amp;rsquo;ll start to become second nature where you hear that ding, you pick up the floss, oh now you find yourself flossing your teeth simply because you set up a habit for yourself. It also says reward yourself with that too. So even if you pick up the floss, go have a cookie (even though that&amp;rsquo;s kind of the opposite). So in order to actually get this book done, I had to set up triggers for myself like that: as soon as I sat down at my computer and I opened up my email client, I would open up my notes for what I needed to write during that day and fill that out and then go back to my email client so that by the time that I was ready to start writing, I had already written the outline for what I was going to write later that day and because I had set this habit up every single time, every single day I would open up my email client, which could happen multiple times a day, I would find myself getting more and more excited and more and more ready to write the sections that I was going to be writing. So yes, it&amp;rsquo;s absolutely a life hack to get myself to write a 600-page book.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: That sounds very intimidating. We&amp;rsquo;re in the process of writing some very small books and even that is (hard). I just couldn&amp;rsquo;t imagine myself writing 600 books.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Also 600 books would be a lot of work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Did you plan to write that many?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: No way! I thought I would write a 100-page book and I thought that was a lot.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: So yeah, other than forcing yourself to start writing two hours every day, what are the other challenges while writing this book?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I think one of the biggest parts was build up the audience, build up the people who would eventually become customers of the book. I wasn&amp;rsquo;t just writing the book, I was also writing ng-newsletters, I was also talking in events and I was also doing guest writing for other blogs and writing newspaper/magazine articles and etc. I was also writing code and contributing back to Angular and also I had a day job. At that time I was consulting. Most of the challenges was even just finding that time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: So you talked about building audiences. Are you talking about going to events to talk to people so people know who you are and they know that you&amp;rsquo;re writing a book so maybe they&amp;rsquo;ll go on your pre-launch email list? Is that the general process?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: When I talk to people in person that&amp;rsquo;s more of building up a network of friends. When I&amp;rsquo;m talking about building an audience, I spend an extraordinary amount of time crafting what I write for ng-newsletter. I write a lot for ng-newsletter. Just the latest &lt;a href="http://www.ng-newsletter.com/posts/building-2048-in-angularjs.html"&gt;post&lt;/a&gt; on ng-newsletter is about building a game. It&amp;rsquo;s about building 2048. In that I covered test-driven development; I covered animation; I covered CSS transformations; I covered end-to-end testing; I covered some light-weight game development topics. That was a gigantic post. I think if you print it out it&amp;rsquo;s something like 22 or 25 pages. When I talk about building an audience, what I mean is trying to spend as much time as I can afford to spend building up posts to let people know on the Internet who I am. That&amp;rsquo;s pretty much where we started. The ng-newsletter list itself has about 2,500 people at this point and that&amp;rsquo;s because I still spend so much time building up and writing those posts. So building an audience is hard. That&amp;rsquo;s probably the hardest part about being an independent author and independent business owner.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, I can imagine if you didn&amp;rsquo;t have the audience when you launched the book, right away you can&amp;rsquo;t have people interested in buying, then it&amp;rsquo;ll be kind of a depressing experience like hey I launched a book and nobody knows.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, you want to set yourself out if you&amp;rsquo;re thinking about running your business or if you&amp;rsquo;re thinking about writing a book. A quick aside, I actually don&amp;rsquo;t believe in stealth start-ups. I think if you&amp;rsquo;re doing something stealth, you&amp;rsquo;re losing audiences, you&amp;rsquo;re losing potential customers. If your company calls itself a stealth start-up, then you&amp;rsquo;re cutting off your top line. But back into that, if you&amp;rsquo;re thinking about writing or a book or launching some software, think about how you can communicate that to the rest of the world, you&amp;rsquo;ll have to spend (time building an audience). I spent probably 60% of the time when I was writing this book on writing ng-newsletter articles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK, so the majority of time you spent on making yourself known and making free educational articles, resources that help contribute back to the framework. So the popularity of the book is a result of that, right? The book itself is great but that&amp;rsquo;s not enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, you can have the best artwork in the world or the best song in the world but if nobody hears it then it can&amp;rsquo;t be the best song in the world. It&amp;rsquo;s definitely not enough to have great software or to have great words on the page. One of the reasons why you would go to a publisher in the first place is distribution. You write a book for O&amp;#39;Rielly because O&amp;#39;rielly does the legwork of distributing your book and O&amp;#39;rielly has tens of thousands if not hundreds of thousands of people on email lists and event pages and personal connections with libraries and bookstores and other distributors like that. The downside of that is almost everything other than distribution you can do for yourself if you&amp;rsquo;re writing a book and you can self-publish, especially with all the tools today.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: What tools did you use?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: There&amp;rsquo;s a bunch. I have a home-brewed, which I wouldn&amp;rsquo;t do in the future, but I&amp;rsquo;ll be open-sourcing it. It should already be open-sourced but if it&amp;rsquo;s not, I&amp;rsquo;ll open source it. It&amp;rsquo;s called Pandoc so I have a workflow that&amp;rsquo;s built off Pandoc when writing my ng-book. Also my other mini books are written using a combination of Pandoc and Markdown or Latex or even I have a couple of mini books written in ASCII doc. But it all works through my tool which is just a workflow chain around Pandoc. You can also use &lt;a href="https://leanpub.com/"&gt;Leanpub&lt;/a&gt;. Leanpub is awesome. They have their own sales distribution channel, they have their own email list  and all that fun stuff. Also one of the really nice things about Leanpub is that they allow you to pre-sale the book. That&amp;rsquo;s another thing. As I was writing writing the book, I didn&amp;rsquo;t mention before is I opened it up for pre-sale very early on when I was at about 200 pages and that helped immensely. One of the benefits that I found that I got when I was pre-releasing was I got a lot of feedback on the book really early on so it allowed me to define what I needed to write more on or what I needed to write less on and it really helped that everyone who bought the pre-released version of the book was very sympathetic to the fact that I was working as hard as I could at the time to write the book so I got less angry comments early on than I would get later because the book wasn&amp;rsquo;t finished or something was incorrect or I have misspelling here and pre-releasing helped me to find that. Still to this day, I get a lot of help from the community in part because I make it known that I&amp;rsquo;m an independent book seller and I work really hard on making sure that the books and the materials that I produce and sell to the community are the best that they can possibly find and because my customers know that, I get a lot of help. When people find bugs or misspellings or weird grammatical sentences they&amp;rsquo;ll help and they&amp;rsquo;ll contribute back to the book and it makes it better for everybody. That&amp;rsquo;s really awesome. So definitely pre-release if you&amp;rsquo;re thinking about writing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, that almost feels like a &lt;a href="http://theleanstartup.com/"&gt;lean startup&lt;/a&gt; idea. You also want to just release it and see how much interest you&amp;rsquo;re gonna get. When you pre-sale the book, did you actually take the emails and actually charged their credit cards at that point?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Yeah, I did. In order to deliver the book, I had to have your email so I could actually send you the book and that helped with the list itself, especially when we have updates to the book cause we know who&amp;rsquo;s bought the book and we can send email updates. Another thing that&amp;rsquo;s really nice about having an email list is we were kind of on the dawn of launching our &lt;a href="http://www.fullstackedu.com/"&gt;video site&lt;/a&gt; and we have anyone who&amp;rsquo;s bought the book we have their emails and we&amp;rsquo;re going to be sending some pretty heavy discounts to our email list of people who have supported the book to our video site. So that when we launch our video site, we have this list of supporters that we benefit from because we can get feedback. This is very similar to pre-launching the book, we can get immediate feedback about the videos and the video site itself and we also can launch it to friendly people and also people who have shown interest in what we&amp;rsquo;re producing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Speaking of the videos, is this a video site for the book or is it new material?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: It&amp;rsquo;s new material. We&amp;rsquo;re likely going to move our existing ng-book stuff onto it. This may or may not happen. I can&amp;rsquo;t speak to that right now beyond we&amp;rsquo;re thinking about moving people over to it but that&amp;rsquo;s just an idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: But I do notice that you have a website just for the book. Maybe our listeners are not aware of this. On &lt;a href="https://www.ng-book.com/"&gt;ng-book.com&lt;/a&gt;, I noticed that you have 3 different packages: it&amp;rsquo;s not just a book. You have one package of the book with source code and you have another package of book, source code, video, sample app and a team license. I don&amp;rsquo;t see this a lot from book authors. Is this the plan from the beginning or you just felt like doing more videos and giving more resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: That&amp;rsquo;s a good question. There&amp;rsquo;s a company called PeepCode that used to exist before a company called &lt;a href="http://pluralsight.com/"&gt;Pluralsight&lt;/a&gt; bought them. I was shooting the Angular video for them in June of last year. That&amp;rsquo;s why it took me until July to get serious about writing the book cause I was shooting a screencast on Angular for PeepCode although I was still writing ng-newsletter. I had shot about 3 hours worth of screencasts for PeepCode and PeepCode got bought by Pluralsight and I talked to the Pluralsight and went through their video author workflow and decided that it wasn&amp;rsquo;t really the best deal for me so I pulled my video from Pluralsight which hadn&amp;rsquo;t been launched yet so I had this 3-hour video that I worked really hard on and crafted really hard too that was kind of sitting around. I launched the book with a single package but I realized I had this video sitting around and I had a bunch of sample apps that I&amp;rsquo;ve written to do teaching to teach my students about Angular so it kind of just dawned on me and through discussion with my co-founder, that should definitely be a part of another package so I went through the work of cleaning things up. I wrote a secondary sample book that went along with it. I wrote an in-depth discussion about how one of the sample apps works and wrote another 100 pages or so about and packaged everything up into the second package. That&amp;rsquo;s how the second package came about.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: It definitely makes sense because if I&amp;rsquo;m committed to buying the book, I&amp;rsquo;m probably committed to Angular then I definitely want to get all the learning materials and it&amp;rsquo;s also coming from you that goes with the book. I think that&amp;rsquo;s a pretty good deal.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Thank you for the compliments and to continue on that line of thought, one of the things we found is that people were buying the second package because they heard so much good feedback about the video which itself it&amp;rsquo;s a 3-hour-long screencast to Angular. Because we&amp;rsquo;re getting such good feedback about the video, one of the things that we realize is a lot of the video resources out there right now for Angular are micro. They lose context: when you know how to build a router, that&amp;rsquo;s great, but how does that fit in with the rest of your application. One of the most constant questions I get from people who have even watched another site called &lt;a href="https://egghead.io/"&gt;Egghead&lt;/a&gt; . They&amp;rsquo;re really awesome but they&amp;rsquo;re not really great for learning Angular. They&amp;rsquo;re really great for learning concepts of Angular. It&amp;rsquo;s called &lt;a href="http://fullstackedu.com/"&gt;fullstackedu.com&lt;/a&gt; by the way. One of the great pitches to fullstackedu.com is that it&amp;rsquo;s not a concept learning site, it&amp;rsquo;s a professional learning site to teach the full stack of here&amp;rsquo;s how everything works. We have potentially a couple different videos coming out. I&amp;rsquo;m doing one on using Angular to build mobile apps. We&amp;rsquo;re launching with one on Angular on Rails, the right way to include those two. We have potentially an author, a UX guy from Apple who&amp;rsquo;ll be shooting the guide to doing UX development. It&amp;rsquo;s possible that we&amp;rsquo;ll have an expert in security who&amp;rsquo;s contracted by the Department of Defense constantly to do a security training course. We have a lot of what we&amp;rsquo;d like to call them expert-level screencasts going into the site and all that came out of the feedback that we have a lot of people who really like the long-form video.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Is this launched yet?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: You can go to the site right now. It&amp;rsquo;s a sign-up page. We&amp;rsquo;re launching in beta next week for early audience members, trying to get some feedback from them and a couple weeks later we&amp;rsquo;ll do a general launch and hopefully by then we&amp;rsquo;ll have those two videos ready to go. We definitely have one ready to go right now. We&amp;rsquo;re just building up the touring around the actual site itself. I believe we&amp;rsquo;ll do a video on how we built fullstackedu.com so if you&amp;rsquo;re interested in learning how to build a system that accepts payments with users. That one was written in Rails along with a really advanced client-side application. That&amp;rsquo;ll be available on fullstackedu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Cool. So that&amp;rsquo;ll be a subscription service?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: We&amp;rsquo;re not entirely sure about what the pricing looks like quite yet. We&amp;rsquo;re launching as a subscription service but we have the capability to do both subscription and non-subscription. We&amp;rsquo;ll play around with our audience. This is one of the reasons, we&amp;rsquo;re going to play around with what our audience likes the most. We&amp;rsquo;ve done some early UX testing and it seems like mostly people like subscription v.s. one-time purchases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: OK. I also want to talk about how the book writing experience started from last May to now helped you professionally.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I&amp;rsquo;m so glad you asked that question. If I can enumerate a little bit of what it&amp;rsquo;s given me: Writing a book has given me publicity; it&amp;rsquo;s made my name known; it&amp;rsquo;s given me legitimacy that I can teach; It&amp;rsquo;s introduced me, in fact before last May I didn&amp;rsquo;t really do teaching. I only found that I had a passion for teaching after I started teaching and that was because I was writing a book at the time and I uncovered that I really enjoyed doing it. Now I speak at conferences, I&amp;rsquo;m sought out as an expert in Angular. You guys found me so I&amp;rsquo;m speaking on this podcast because I wrote a book on Angular. I advice for startups because I wrote a book. My professional career is as vibrant as it is right now because I did the work of writing a book and building audience and really dedicated myself to write the book and also to my audience. One of the really nice things that it&amp;rsquo;s done is also the number of recruiters and job offers that I get is skyrocketed. It has also helped me learn how to build a business. It&amp;rsquo;s connected me to really smart people. I&amp;rsquo;ve encountered really upset early mornings when I get angry emails and without the process of writing the book, I would freak out about that. I would not have the experience that I have today to learn how to deal with customer development the way that I have and this is coming from someone who&amp;rsquo;s done 21 years of professional software development. My career explosion has happened simply because I wrote a book. I don&amp;rsquo;t want to downplay the amount of work that it took but writing the book itself made me an expert in Angular and made me a recognized expert in the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: That&amp;rsquo;s amazing. Was it also because when you started writing the book, it was still quite new and there wasn&amp;rsquo;t a lot of books or learning materials on the subject? In other words, if somebody else is to write a book today, should they look at those areas to start instead of writing a book on a highly-covered subject?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: That&amp;rsquo;s a good question. I&amp;rsquo;ll answer that in 2 ways. First one is if you&amp;rsquo;re going to write a book, regardless of what topic it&amp;rsquo;s on, I&amp;rsquo;d recommend you focus on building the audience. The reason I say that is because you&amp;rsquo;ll find, as you&amp;rsquo;re writing a book or the software that you&amp;rsquo;re going to release, that your audience grows or doesn&amp;rsquo;t grow, are they communicative or are they not communicative, are they interested in paying you or are they not interested in paying you and that&amp;rsquo;ll help inform if the subject you&amp;rsquo;re writing on is important. I know some very successful people who have a couple books on PHP and PHP has been around for a long, long time and their books are incredibly successful. So it&amp;rsquo;s not necessarily about the topic. The topic itself, because I wrote on Angular, I got really lucky in the fact that Angular was not very well-covered when I started writing this book. I got lucky in the fact that I became an expert in Angular and one of the early experts in Angular. The fact that I got lucky in the sense that I was writing on the topic that didn&amp;rsquo;t have a lot of other people writing to it, but that doesn&amp;rsquo;t mean if I was writing a book on PHP that I would have any less success or at least I don&amp;rsquo;t believe that. So if you happen to be a particular expert on PHP, definitely write on PHP but focus on building your audience and focus on making sure that what you&amp;rsquo;re writing on is of interest to that audience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: That&amp;rsquo;s interesting because I would have thought the opposite. I would have thought you got to be early on the ship and make a name for yourself. For instance, I&amp;rsquo;m more involved in the Ruby on Rails community, it feels like in general this area is very well-covered. There are a lot of good tutorials and books in this area so it&amp;rsquo;ll be difficult to carve out a new niche.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Right, one of the unique things about Rails in comparison to Angular, one of the advantages it has is in fact it has this huge audience of professionals working in Rails. So the fact that you have this huge audience of people means there&amp;rsquo;s a plethora of different interests within the Rails community. So you get all these different niches about types of people that would be interested so if you&amp;rsquo;re writing a book on Rails for designers for instance, that&amp;rsquo;s not a well-covered area of the Rails community. How does a designer pick up Rails or how do you think about Rails from a designer&amp;rsquo;s perspective, that type of thing. The other thing is that if you&amp;rsquo;re writing about a well-covered topic, despite the fact that all these other books exist, there might not be an audience for all those other books. Like we just said, you could have the best song ever written in the whole world but if no one hears it then who cares? I did a look on Amazon for the number of Rails books and there&amp;rsquo;s a lot of them. I&amp;rsquo;ll be willing to bet a lot of them go unread and a lot of them don&amp;rsquo;t have a lot of readers and people who would potentially read your book if you&amp;rsquo;re writing a book in Rails if you spend the time to build your audience and get a growing list, then you can have just as much success in terms of popularity than if you&amp;rsquo;re writing in a space that&amp;rsquo;s relatively uncovered. I just happened to be lucky that I found a field and started writing in it and that space is relatively uncovered and that didn&amp;rsquo;t have that many people although it&amp;rsquo;s growing now.&lt;/p&gt;
+
+&lt;h4&gt;Part 4: Share Picks&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Yeah, so what I got out of this is definitely spend a lot of time building the audience, maybe spend more time doing that, making yourself known than just focus on the technical writing. I think that&amp;rsquo;s the advice every aspiring author can take.&lt;/p&gt;
+
+&lt;p&gt;OK, Ari. That&amp;rsquo;s all the questions I want to talk about today. In the end of the interview, typically we ask the guests to share some picks. So anything that you find fun, cool, or interesting that you want to share with us?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure. Can I share some software? The &lt;a href="http://www.alfredapp.com/"&gt;Alfred app&lt;/a&gt; is probably my favourite piece of software that&amp;rsquo;s made me more productive than any other piece of software ever.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Did you buy addon packages?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I did.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: You gotta tell me which ones you used cause I&amp;rsquo;ve been looking for those. I think I have the &lt;a href="https://agilebits.com/onepassword"&gt;1Password&lt;/a&gt; one.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Oh, the second pick I was gonna say is definitely use 1Password. It&amp;rsquo;s awesome. I no longer have to memorize my really difficult passwords. I use an algorithm when I make passwords by the way based on the site that I&amp;rsquo;m on but 1Password has made that way easier and I no longer do that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: You made your own algorithm for passwords for websites? Can you share that supposing you don&amp;rsquo;t use it any more, so maybe it doesn&amp;rsquo;t matter if you share it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Sure, I&amp;rsquo;ll write a post on it and I&amp;rsquo;ll ping you so you can let your audience know. Other things, the &lt;a href="http://golang.org/"&gt;Go Lang&lt;/a&gt; is awesome. It&amp;rsquo;s super fun to write in. So if you haven&amp;rsquo;t written in Go Lang, if you like C and low level languages, Go Lang is super awesome. And if you&amp;rsquo;ve never ridden a scooter before, I rode a scooter for the first time a couple weeks ago and it&amp;rsquo;s super fun and now I&amp;rsquo;m addicted so scooter is my last pick.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Is that like a &lt;a href="http://www.segway.com/"&gt;Segway&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: No, it&amp;rsquo;s like a low power motorcycle. It&amp;rsquo;s not technical.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: How fast does it go?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I think the top speed is 27 mph. Super slow but it&amp;rsquo;s still super fun. It also makes for a really good date.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: My pick here today is a software tool called &lt;a href="https://www.rogueamoeba.com/audiohijackpro/"&gt;AudioHijackPro&lt;/a&gt;. It&amp;rsquo;s the tool I&amp;rsquo;m using right now to record this conversation. We used to use a combination of several things, LineIn, you&amp;rsquo;ll have to use GarageBand to record, it was pretty cumbersome but this just took all the pain out of that so I&amp;rsquo;m pretty happy with this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: All right, Ari. Thanks for coming and it&amp;rsquo;s definitely very fun to talk with you today. Let me know when you go to Beijing and I&amp;rsquo;ll see what we can do. We may set a meetup together for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Awesome. Thanks. This is super fun and keep on writing code!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: All right. Bye!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: Bye!&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;span class="footnotes"&gt;
+  再次感谢&lt;a href="http://weibo.com/wuyicun"&gt;@吴怡村&lt;/a&gt;对于本期节目音频的整理。
+&lt;/span&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>和 Jing 聊聊 Qubit 的产品和技术栈</title>
     <link rel="alternate" href="/2014/05/04/teahour-50-with-jing.html"/>
@@ -854,89 +1135,6 @@
 
 &lt;p&gt;&lt;span class="footnotes"&gt;
 欢迎交流！我可以针对一些常见的问题我来写 (二)，(三) 等。
-&lt;/span&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Bootstrapping Your Startup idea</title>
-    <link rel="alternate" href="/2014/03/12/bootstrapping-your-startup-idea.html"/>
-    <id>/2014/03/12/bootstrapping-your-startup-idea.html</id>
-    <published>2014-03-12T04:00:00Z</published>
-    <updated>2014-03-12T04:00:00Z</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
-  &lt;img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;自从在博客上放了 Skype 账号，聊过不少有意思的人，大多都是有创业的想法，也有不错的项目想法，但是犹豫着要不要做，认为没有投资的话不太可行，不太敢启动项目。每次我都会说，只要你开始了，即使使用自有资金，只要合理的使用和合理的做事，其实并没你想的那么困难，足够能给项目开启一个很好的头和到达一定的阶段了。&lt;/p&gt;
-
-&lt;p&gt;我们在一开始准备自己做&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，&lt;a href="https://github.com"&gt;GitHub&lt;/a&gt; 和 &lt;a href="https://37signals.com"&gt;37Signals&lt;/a&gt;，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。&lt;/li&gt;
-&lt;li&gt;在产品开发初期，其实成本不高，主要还是时间付出。而在产品出来的时候，你也有很多低成本的推广方式。&lt;/li&gt;
-&lt;li&gt;在产品开发初期，因为是自有资金的原因，相比会更节俭，一分钱扳两份花，同时花钱会更有目的性，这样即使后面资本进来，这段经历会让我们更加懂得如何花钱。&lt;/li&gt;
-&lt;li&gt;创业是一个想法不停修正的过程，而这个修正来源于跟用户的大量沟通交流，尤其是在初期，所以会让你把精力放在用户和产品本身，而不用浪费在寻找资本上。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;所以，如果有心尝试，与其犹豫不决、畏头畏脚，不如勇敢的迈出去，绝对另有一番天地，:) 但是作为一个技术型团队，有下面几点需要特别注意。有些是我们犯过的错误，有些是身边的朋友犯过的错误。&lt;/p&gt;
-
-&lt;p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside-block"&gt;
-  &lt;img alt="Bootstrapping" src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1394601591" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;自从在博客上放了 Skype 账号，聊过不少有意思的人，大多都是有创业的想法，也有不错的项目想法，但是犹豫着要不要做，认为没有投资的话不太可行，不太敢启动项目。每次我都会说，只要你开始了，即使使用自有资金，只要合理的使用和合理的做事，其实并没你想的那么困难，足够能给项目开启一个很好的头和到达一定的阶段了。&lt;/p&gt;
-
-&lt;p&gt;我们在一开始准备自己做&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，&lt;a href="https://github.com"&gt;GitHub&lt;/a&gt; 和 &lt;a href="https://37signals.com"&gt;37Signals&lt;/a&gt;，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。&lt;/li&gt;
-&lt;li&gt;在产品开发初期，其实成本不高，主要还是时间付出。而在产品出来的时候，你也有很多低成本的推广方式。&lt;/li&gt;
-&lt;li&gt;在产品开发初期，因为是自有资金的原因，相比会更节俭，一分钱扳两份花，同时花钱会更有目的性，这样即使后面资本进来，这段经历会让我们更加懂得如何花钱。&lt;/li&gt;
-&lt;li&gt;创业是一个想法不停修正的过程，而这个修正来源于跟用户的大量沟通交流，尤其是在初期，所以会让你把精力放在用户和产品本身，而不用浪费在寻找资本上。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;所以，如果有心尝试，与其犹豫不决、畏头畏脚，不如勇敢的迈出去，绝对另有一番天地，:) 但是作为一个技术型团队，有下面几点需要特别注意。有些是我们犯过的错误，有些是身边的朋友犯过的错误。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4&gt;足够的思考，严肃的思考&lt;/h4&gt;
-
-&lt;p&gt;一个优秀的工程师实现功能的时候，不是一上来就敲代码，而是理清需求，做好设计，最后才是编码。一个优秀的作家，在写文章的时候，也不是直接落笔，而是确定主题，组织结构，最后才是撰写。项目也是如此。在正式启动前一定要有足够的思考，多角度的思考，各种假设论证，合理规划，最后才是执行。出来混，总是要还的。所以不要担心花了很多时间思考而没有行动，缜密的思考绝对是有益的，最怕的想到什么就直接做了，轻易开始，草草结束。&lt;/p&gt;
-
-&lt;h4&gt;专注核心价值&lt;/h4&gt;
-
-&lt;p&gt;草根团队，没钱没资源，怎么破？尤其是当你使用自有资金的时候，做决策的事情一定要谨记，这是否是我们的产品核心价值，是否是最紧急的任务，如果不是的就放放。这也会让我们能更加有效的利用资源和更加高效的执行。同时，如果事情不涉及核心价值，尽量去拥抱云，尝试一些好的第三方服务，宁愿花一点钱来换时间。比如在&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;里，我们使用了 &lt;a href="http://linode.com"&gt;Linode&lt;/a&gt; 作为应用服务器，&lt;a href="http://aws.amazon.com/cn/s3/‎"&gt;Amazon S3&lt;/a&gt; 作为文件存储，&lt;a href="http://qiniu.com"&gt;七牛&lt;/a&gt;作为静态文件 CDN，&lt;a href="http://pusher.com"&gt;Pusher&lt;/a&gt; 作为实时消息推送系统，&lt;a href="https://www.olark.com"&gt;Olark&lt;/a&gt; 作为在线客服系统，&lt;a href="http://www.fastspring.com/"&gt;FastSpring&lt;/a&gt; 作为付费订阅系统，&lt;a href="http://sendcloud.sohu.com"&gt;SendCloud&lt;/a&gt; 和 &lt;a href="http://aws.amazon.com/cn/ses/"&gt;SES&lt;/a&gt; 作为邮件发送服务商，而我们自己，只花时间在提高团队协作这个核心价值上。&lt;/p&gt;
-
-&lt;h4&gt;用最熟悉的技术&lt;/h4&gt;
-
-&lt;p&gt;在技术世界里，每天都会产生非常多的名词，每天都能看到很多新鲜的东西出来，很让人兴奋。所以，我们不自觉的就想找个项目去实践一番。今天这个选型，明天那个选型，着实令人着迷。作为一个技术人，对技术的热衷是一个好事，然而，请一定要记住，你最应该去挑战的不是这些新技术，而是产品的成功。所以，请千万克制住尝试新技术的欲望，用你可能都已经觉得枯燥的最熟悉的最简单的技术栈，去快速实现，推出市场，持续改进。我们常说，&amp;quot;Quick and dirty&amp;quot;，但真要做到这点对技术人员来说还是很有难度的，尤其是像我这样的有洁癖的人。但是，创业过程中，检验你的价值已经不再只是技术架构，代码结构等技术层面的事情，所以必须得妥协，一切以产品的成功为准则。&lt;/p&gt;
-
-&lt;h4&gt;不追新不优化&lt;/h4&gt;
-
-&lt;p&gt;”我在这个项目里使用了 XX 和 XX 技术，花了多少时间来优化，现在能同时支撑多少用户，比起之前同类网站靠谱得多，不怕用户突然爆发性增长“ 是否觉得很熟悉？这是不少技术团队很喜欢说的桥段。但是，可惜的是很多时候这些产品可能到关掉都见不到这么多用户。套用 Donald Knuth 的一句话，&amp;quot;&lt;a href="http://c2.com/cgi/wiki?PrematureOptimization"&gt;过早优化是万恶之源&lt;/a&gt;&amp;ldquo;，同时适用，千万不要为了数字上的满足感浪费时间去优化。同时，也不要盲目的去更新使用的一些框架和库，除非你真正觉得带来的收益会大于时间付出。所以风车到现在都没有更新到 Ruby 2.0 和 Rails 4.0，因为这些在目前来说根本不重要&lt;/p&gt;
-
-&lt;h4&gt;Ship It&lt;/h4&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;去年在 &lt;a href="http://rubyconfchina.org"&gt;RubyConf China&lt;/a&gt; 上，&lt;a href="http://zachholman.com"&gt;Zach Holman&lt;/a&gt; 介绍到 GitHub 公司里用的最多的表情符号是 &lt;img src="/images/bootstrapping-your-startup-idea/shipit.png" alt="ship it" width="30px" style="margin:0"/&gt;(:shipit:)，发布是 GitHub 的核心文化之一。而这却是绝大多数创业者最容易犯的错误。我们每天都能给自己找很多理由说发布时机未到，比如产品不够完美需要再改进，比如怕给用户的第一印象不好，
-比如如果有某些新功能会更好，比如还需要再多测试一会，尤其是当资金暂时充足时。请放弃这些想法，ship it，ship it，不要怕。我们知道它的确还不够完美，但是也知道发布并不是终点，我们仍然都会每天去改进它，越早的发布，就能越早的去检验想法，就能越早的获得用户反馈。在风车里面，我们坚持持续发布，让我们觉得一个功能或者一个修改已经准备好了后（并不是完美后），我们会选择直接发布，然后观察用户的反应。&lt;/p&gt;
-
-&lt;h4&gt;When to Stop&lt;/h4&gt;
-
-&lt;p&gt;这是一个我经常思考的问题，也可能是你在思考的问题，什么时候我该停止 Bootstrap 而去寻找资本的支持了？一般来说资本带来的是催化作用，所以最合适的时机是在成长期。当我们意识到每天有很多重要的事情要去做，但是现在因为缺少时间和资源去做这些事，同样的时间成本获得的回报在变小的话，那么就是一个很明显的信号需要寻找外部的支持了。&lt;/p&gt;
-
-&lt;p&gt;Bootstrap 听上去很难，但是其实并没有那么难，反而能让你更专注创业的两大核心：产品和客户。如果你的想法的确是需要资本的支持的话，对于草根团队而言，Bootstrap 阶段同时又是一个很好的自证阶段，证明你们是认真的在对待这件事和认真的做着这件事。所以，如果你有创业之心并且内心觉得自己准备好了，那就放下恐惧之心，勇敢的去做吧。&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;span class="footnotes"&gt;
-  &lt;small&gt;本文图片 &amp;copy; &lt;a href="http://www.inc.com/elle-kaplan/three-reasons-bootstrapping-has-been-crucial-to-my-business.html"&gt;Inc.com&lt;/a&gt;&lt;/small&gt;
 &lt;/span&gt;&lt;/p&gt;
 </content>
   </entry>
