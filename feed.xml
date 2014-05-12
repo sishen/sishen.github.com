@@ -5,10 +5,432 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-05-06T06:00:00Z</updated>
+  <updated>2014-05-12T04:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>和李天放聊课程格子创业故事</title>
+    <link rel="alternate" href="/2014/05/12/talk-about-kechenggezhi-with-tstyle11.html"/>
+    <id>/2014/05/12/talk-about-kechenggezhi-with-tstyle11.html</id>
+    <published>2014-05-12T04:00:00Z</published>
+    <updated>2014-05-12T04:00:00Z</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;&lt;img alt="课程格子" src="/images/talk-about-kechenggezhi-with-tstyle11/kechenggezhi.png?1399900780"&gt;&lt;/aside&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
+&lt;/blockquote&gt;
+
+&lt;p&gt;本文是 Teahour 第 34 期 &lt;a href="http://teahour.fm/2013/10/14/interview-with-tstyle11-about-kechenggezi.html"&gt;『和李天放聊课程格子创业故事』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;点这里&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls name="media"&gt;&lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_34.m4a" type="audio/mpeg"&gt;&lt;/source&gt;&lt;/audio&gt;&lt;/p&gt;
+
+&lt;h3&gt;Part 1 - 天放的工作经历&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：大家好，欢迎收听 Teahour 第 34 期，我是主持人玎玎。这期跟我一起主持的还有 Terry。Terry，你好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：Hi，大家好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我感觉我好久没有当 DJ 了。刚经过了中秋和国庆假期，我还是很怀念这种感觉的。这一期我们很荣幸地邀请到了&lt;a href="http://kechenggezi.com/"&gt;课程格子&lt;/a&gt;的创始人李天放来 Teahour 做客。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：Hello，大家好。很高兴来到这里。我叫李天放，正在北京创业，做的是一个叫课程格子的手机应用，是一个给大学生用的工具。主打是课程表，是帮助你更轻松愉快的度过大学四年生涯的工具。我们是非常偏技术的团队，也一直在用 Ruby on Rails。来到这里和大家分享还是很开心的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：又来了一个 Ruby 社群的朋友。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：这个不是我们有偏向性，只是正好有找到一个 Rails 团队。上一次也是正好找到一个用 Python 的。所以我们 Teahour 是没有什么立场的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：天放隐瞒了很多他的背景啊。我想听天放分享一下他的工作经历，感觉会有很多不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我是在美国长大的，在那儿读小学、中学、大学，毕业后在微软的 Xbox Live 团队，为开发者提供平台工具。我 07 年去了硅谷，参加了一个小创业公司 —— &lt;a href="https://www.palantir.com/"&gt;Palantir&lt;/a&gt;，是做 2B 的东西，做大数据的。在那儿工作了 3 年后回到了中国。这家公司似乎默默无闻，没有融资等活动，直到...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="课程格子" src="/images/talk-about-kechenggezhi-with-tstyle11/kechenggezhi.png?1399900780" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
+&lt;/blockquote&gt;
+
+&lt;p&gt;本文是 Teahour 第 34 期 &lt;a href="http://teahour.fm/2013/10/14/interview-with-tstyle11-about-kechenggezi.html"&gt;『和李天放聊课程格子创业故事』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;点这里&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。同时，欢迎加 Teahour 好友，&lt;a href="http://weibo.com/teahourfm"&gt;微博&lt;/a&gt;和 &lt;a href="https://twitter.com/teahourfm"&gt;Twitter&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_34.m4a" type="audio/mpeg"&gt;
+&lt;/audio&gt;&lt;/p&gt;
+
+&lt;h3&gt;Part 1 - 天放的工作经历&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：大家好，欢迎收听 Teahour 第 34 期，我是主持人玎玎。这期跟我一起主持的还有 Terry。Terry，你好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：Hi，大家好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我感觉我好久没有当 DJ 了。刚经过了中秋和国庆假期，我还是很怀念这种感觉的。这一期我们很荣幸地邀请到了&lt;a href="http://kechenggezi.com/"&gt;课程格子&lt;/a&gt;的创始人李天放来 Teahour 做客。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：Hello，大家好。很高兴来到这里。我叫李天放，正在北京创业，做的是一个叫课程格子的手机应用，是一个给大学生用的工具。主打是课程表，是帮助你更轻松愉快的度过大学四年生涯的工具。我们是非常偏技术的团队，也一直在用 Ruby on Rails。来到这里和大家分享还是很开心的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：又来了一个 Ruby 社群的朋友。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：这个不是我们有偏向性，只是正好有找到一个 Rails 团队。上一次也是正好找到一个用 Python 的。所以我们 Teahour 是没有什么立场的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：天放隐瞒了很多他的背景啊。我想听天放分享一下他的工作经历，感觉会有很多不同。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我是在美国长大的，在那儿读小学、中学、大学，毕业后在微软的 Xbox Live 团队，为开发者提供平台工具。我 07 年去了硅谷，参加了一个小创业公司 —— &lt;a href="https://www.palantir.com/"&gt;Palantir&lt;/a&gt;，是做 2B 的东西，做大数据的。在那儿工作了 3 年后回到了中国。这家公司似乎默默无闻，没有融资等活动，直到最近才有人发现，上了媒体报道。现在公司已经 10 年了，才慢慢有了名气，受到别人的注意和报道。&lt;/p&gt;
+
+&lt;p&gt;我回来之后试着创业，做了 2 年多了，做过几个产品，目前在做课程格子。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：当初为什么想到要回国创业，而不是在硅谷做事情？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：当初我回来没有想创业，回来是见爷爷奶奶。从硅谷离开后，我想给自己放个假，去周游世界。但是我发现自己挺呆不住，就回到家里和家人一起玩。我们在东北，冬天特别冷。但是我不直到北京也特别冷，就跑到北京来玩。一开始我问了一下北京创业圈的朋友，听说北京有很多创业公司、投资人和很多互联网用户，我就想看看我能做些什么。当时，他们说不说海归，连 ABC 的成功率都是 0，是因为你不接地气，你也不够草根，也不了解屌丝用户。我觉得挺有道理，1 年都没有考虑过这些事情。&lt;/p&gt;
+
+&lt;p&gt;后来，我的好朋友 Chris 在创新工场做投资。当时他们在做“助跑计划”，算是中国的 YCombinator。我也不知道，但觉得挺好，李开复老师也很有名，原来是 Google 的。他就说你来试 3 个月，试一试再说。当时我也没事干，我就来试着做一些事情。我就一个人去了。当时，我没有团队，没有钱，没有 idea，就去了创业工场，从那儿开始做了。我觉得创业做了点东西，别人说不好的时候，就会觉得很丢人。我会觉得自己能做得更好，就慢慢地往前做。回头一看，都已经两年半了。所以我创业的开始还是蛮随机的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这两年半你在北京还适应么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：我觉得北京是个特别适合工作的地方。因为天气不好嘛，冬天冷夏天热，待在电脑前写代码还是挺好的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这个理由我还是第一次听说。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：你在微软做的东西是比较偏底层么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：对，是很偏技术吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：就是和 Web 没有关系。那你的第二家公司呢？是做什么方面的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们是做 2B 的，用的是 Java，是 full service。有点像 Bloomberg，就是把整个 solution 卖个别的公司，让他们用自己的服务器跑。价格很贵，刚开始只有几百个用户，每个用户就要付很多钱。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我研究了一下，为何你要放弃 Plantir 这样一个很好的机会回来呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：当时我就没有想太多吧。那是我们在硅谷不是唯一一家做 2B 的公司，要为一些大银行和大型机构做一些BD。我们旁边就是 Facebook 和 Twitter，朋友都是这个圈里的。他们就会说这周我们又增了 100 万用户，我昨天写了 1 个 feature，今天就有了 100 万次点击。我当时听了心里就很不平衡。作为一个程序员，你会希望写的程序会有很多人用到。而我们可能 6 个月才出一个版本，这个版本只有 10 个人用。我可能想做一个有大量用户的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：需要一种成就感吧？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：希望有更多的人用。我花这么多力气给 10 个高端用户做定制不够好玩。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：这可能给后面做 mobile 和 web 垫下基础。最早在创新工程一个人的时候，做项目有没有做出来什么东西？包括前端都自己做吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：我当时做的是一个 Android 版本的交友应用，有点像陌陌。当时我一个人在北京，朋友很少，我会去豆瓣同城上找一些活动参加。我有一些奇怪的爱好，就是打 magic，我就想做一个 Android App，看有没有共同爱好的人一起去看个电影，吃个饭，交些朋友。这就是创新工场3个月做出来的项目，只有我一个人，只做了 Android 版本、Web 和很简单的后台。那个产品还是挺有意思的。但是交友部分就很奇怪。那时候我不懂运营，也没有经验，但做的过程中也有一些用户在用。我看了一下数据，男女比例就特别不平衡，男性用户有 87%。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：狼多肉少是吧！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：对啊。一堆宅男在上面自己玩，也玩不起来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：说起来格子是你做的第几个产品？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：是我在中国做的第三个产品。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：第二个是什么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：当时的计划叫 nada。活动这块很好玩，但交友就偏运营了。我也不知道去哪里找很多美女，或者至少是达人。干脆我们就把交友放弃了，专门做活动。国外有很多类似的产品，比如 &lt;a href="http://www.meetup.com"&gt;meetup.com&lt;/a&gt;，&lt;a href="http://eventbrite.com/"&gt;eventbrite.com&lt;/a&gt;，想去滑雪就可以在 meetup 上组个队，做公交或者拼车一起去滑雪。这挺有意思的，我们就把交友砍掉了，改了个名字，叫做计划FM（原使用jihua.fm），也是因为当时买不起 jihua.com。是一个社交化的 Calendar，这是我们第二个产品。我们先做了一个网页版，然后是 iPhone、Android，这个产品可能做了一年多。&lt;/p&gt;
+
+&lt;h3&gt;Part 2 - 课程格子的创业故事和经验分享&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你是怎么从第二个产品切换到课程格子呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：切换到课程格子是一个非常偶然的事情。我们当时做的日历，是一个垂直活动日历。我发现有好多大学生在用活动日历，他们会把学校的演讲、社团活动放上去。当时，我们就想这是很好地一个人群，大学里的活动的质量也很高。但是中国 IT 圈之外的活动其实去了很多都没有意思，有很多用户去了一两次就不去了。我们发现有两个好的圈子，一个是技术圈的技术分享，另外一个是大学圈，有很多演讲。我们就想专注做这两件事。&lt;/p&gt;
+
+&lt;p&gt;我们怎么可以给大学生做一个更好的东西，也许我们可以做一个课程表，把他们的课程和活动放在一起，这样他们就可以在上课之后去参加这些活动。所以我们就做了一个 side project，花了一周的时间做了一个课表版本的计划FM，当时叫做课程计划。课程计划有点奇怪，就改名叫做课程格子。课程格子一开始就是一个 side project。大约是 12 年 4 月份我们做出了这个产品。结果这个一周做完的产品在 App Store 上，课程格子的用户增长远远超过了主产品。我们就觉得很奇怪，后来实在是受不了了。这可能是更垂直、更大的一个需求，干脆就把精力放在这上面。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：刚开始做课程格子时候，你们的团队是怎么样的一个构成呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我可能带了一些硅谷的那些正确的做法。招人的时候，就把我们公司那一套，和 Google、Facebook 招人的方法搬过来。相对来说，要求非常高。比如我只招 full stack programer。一定要来了之后从前端到后台，数据、运维、CSS 和 HTML 都能写，这是我们的需求。这样我们就完全雇不到任何人。说起来有1年的时间直到我们转型，就招到了 2 个工程师，这就是我们唯一的团队。后面又雇到了 1 个设计师，我们一直是 3-4 个人。4 个人一直做到转型至课程格子。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;： 我听起来你们的 idea 好像一个比一个垂直，一个比一个偏工具。一开始可能是一个很 general 的 App，后来到了更垂直的活动组织，最后到了工具性质很重，也更垂直的一个工具。你们在最开始发现课程格子这么受欢迎，你预料到了里面会融入一些 social networking 的元素呢还是就把工具做好。是不是工具不能太满足你一开始的想法和初衷？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：这挺有趣的。我上周看了一篇文章，&lt;a href="http://paulgraham.com/"&gt;Paul Graham&lt;/a&gt; 写的。上面写到看到很多 YC 的 application，上面的 idea 好多都是把两个关键词拼在一起，变成一个新的 idea。比如我看别人做了一个活动网站，就把 social 加上去，我就是 social 活动网站。&lt;/p&gt;
+
+&lt;p&gt;当时我们不懂，我们的 idea 都是这么想出来的。比如我们能不能拿一点移动的、social 的idea。比如豆瓣同城，我们就是一个移动的 social 的豆瓣同城，就是拿一些关键词随机的拼。我觉得这样超级不靠谱，这样拼出来的 idea 听上去都是挺好的，可以讲出道理，但是做出来没有人用。这可能是我们花了 1、2 年才得到的教训。就是这样拼 idea 是很不靠谱的。后来我们就不想这些 idea 或者关键词、定位、战略，就是找到一个很简单的需求，看到有人用，和用户聊你为什么要用这个产品。当时课程格子就是发现只有一个垂直用户的时候是多么好的事情。当时做计划FM的时候，有的人是互联网圈的，做 IT 技术讨论、互联网讨论，有的人说可能想去电影，有的人在大学当课表在用。你做用户调研的时候，要跟 5-6 种非常不一样的人聊，他们完全不是一个人群，有些是学生、白领、年轻人、老人。这样去聊会聊出一堆需求，没有办法拿用户的反馈做任何事情。我们做课程格子的时候，发现所有用户都是大学生。作为一个产品经理、程序员，这是一件非常好的事情。你和 10 个用户聊，虽然他们需求不是一模一样，但是非常接近。他们给你的反馈也是非常一致的。我们发现做一个垂直领域的时候，用户的需求就会特别靠谱，有价值。这样我们才越做越窄。一个非常小的用户群和需求可以让我们更好地设计产品。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：从一个 segment 入手，相对来说更容易一些。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：但是有没有想到过这样的群体比较窄，而且是学生群体。从 bussiness model 来讲，向他们收钱听起来不太靠谱。有没有想过这方面的问题呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们开始没想太多这个方面的。一开始拿这个产品和投资人聊的时候，是他们提出了这个问题。我说我们找出了一个特别好的产品，增长特别快，用户特别喜欢，数据也特别好。而且没有人做大学生市场。创新工场的 partner 投资人就说这是有原因的嘛，因为大学生市场里面有一些天生的短圈。用户群有限，只有 2、3 千万人，第二个是所有的用户 4 年后就不是大学生了，他们是移动人群。第三个是消费力低，大学生没有钱。所以别人不做是有原因的，不是你们才找到了这个用户群。&lt;/p&gt;
+
+&lt;p&gt;他说的挺有道理的。因为我们也不是 MBA，也不是做咨询的，肯定是不能分析出一个比别人好的产品，就不要想这个事情了，看看能做到什么情况。我们知道这些不完美的地方，但也许我们可以在中间找到一条路。虽然只有 2、3 千万人，但是这是一个很大的用户群，而且还是有很多真正的问题需要解决的。假如我们做的够好，这里面还是有很多有趣的事情可以做的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我觉得有一个比较好的地方是这个群体是不会缩的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：但这个问题可能是你每年都要做一些宣传。如果没有跟上，你的用户可能就不会使用产品了。毕业后的用户虽然很忠实，但是还是不会再用了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：所以我想知道格子有没有计划去留住着一些人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们的产品和战略都是想去模拟真实世界发生的事情。第一次创业，我们都是想去改变人们的行为，改变社会的行为。但是发现这件事是不可能的。其实真正的大学生毕业之后，还会和大学的同学 keep in touch。特别是好的大学，都会有一个群，所谓的 Alumni Club。&lt;/p&gt;
+
+&lt;p&gt;比如一些学长，还会和学校有联系。比如一个同学在某个大学毕业后，去了一个公司，可能两三年后这个公司回来校招，可能他就是校招的带领者。因为他会演讲，会讲自己的一些故事，帮助学弟学妹找到工作机会。这是一个 example。毕业不是一个结束，至少有一些方式我们是可以留住这些用户的。但是像 Linkedin 和 Facebook 这样的公司还是证明这样的事情是可以做到的。因为我们才做了 1 年多，做的是课程表。课程表用的最多的是大一、大二的学生，因为大三、大四的学生课比较少。所以我们觉得我们还有时间。不用因为毕业用户的流失担心，我们至少还有 1 年的时间去 figure out 这个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：所以就是且行且看，遇到问题解决问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：非常好的一点是每个变化都是有数据在支撑的。是根据真实数据，而没有太多的试错。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：我想了解一下你们团队现在的情况。你们完全在做课程格子这个产品了，我想知道你们团队的规模。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们融资之后也只有 5 个人，2 个程序员，1 个设计师，1 个客服，客服也是我们的产品经理，1 个人做其他所有的杂事。我们这5个人的团队很稳定。直到今年的3月份，我们还是这个规模。后来发现我们只做课程表，5 个人的团队已经足够了。我们发现大学里还有一些其他的需求，没有人来解决。所以那时候我们就下定决心拓展一下团队。最近的半年，团队的增长比较多，我们现在有 10 多人，不到 20 个。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：能谈下分工么？我知道很多团队客服可能是一些 manager，也可能是程序员。能具体聊一下为什么客服很重要？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我没有在中国上过学，而且已经毕业了，是 80 后不是 90 后。我做一个大学生产品，肯定不能挖掘需求。所以有一个非常好的渠道和大学生聊。其实真正聊需求是需要很高智商的事情。你不能把用户当做自己的产品经理和设计师。你可能听到他有很多 idea，但是你得知道他 idea 后面的痛点和需求。我们花了很久的时间来做这件事情。&lt;/p&gt;
+
+&lt;p&gt;而且我们的客服就是产品经理。在中国产品经理是个很吃香的职位，不需要编程。我面了好多人，都没有合适的人选。作为一个工程师，我不需要产品经理给我文档。我们的产品经理是主要面对用户，是去听他们的故事、他们的痛点的人。听你说我们是以数据为导向的，其实这只占 3-4 成，和用户的对话占 6-7 成。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你刚才提到产品经理通过一些渠道去和用户交流。你们是怎样从用户那收到反馈意见呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：一开始，我们用了一个反馈工具。打开 App，在课表设置、反馈里可以在里面给我们反馈。这是最早的渠道。后面我们做了一些 social 的功能，所以我们有聊天。我们每个人都有账号和一张课表，但是是假的。有的时候就用聊天和用户沟通。我们也花了一些时间去做微博和人人账号，都有几十万的大学生。还有一个微信账号，这是一个和用户沟通的好方式。我经常也会到微博上去搜一下“课程格子”，有的人会分享一下他们的课表，我有时会在底下留言，比如“你的课表好漂亮”、“你的课怎么这么少啊，你是学什么的”，就是这样和用户在微博上搭讪。这是我用的主要的几个渠道。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：听上去既有主动的，也有被动的。被动的可能就是让用户主动来找你们，主动的就是你在微博。我想知道你们在主动的这方面还有没有做更多的东西？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：在线下还有。我觉得进校园是最好的一个方式，比如直接去学校。我也去过中国不少的学校。特别是要出北京。可能北京的学校都是比较好的学校，不能完全代表全国的各个大学。比如我们去过青岛、武汉、上海、广州这些地方。去大学里找一个学生会、社团，和她们做一些面对面的交流。我们一个月也会组织一个访问课程格子办公室。让北京一些用户，给她们一些吃的，每人一件 T-shirt，让它们用我们的产品。多创造一些线下的机会。有一个特别的好处，我们可以让工程师和用户一起聊，看他们用 App，看到一些 bug，和设计的不好的地方，是一个很好的动力来源。每一次我们的工程师做完用户调研后都特别有动力，当天就说我一定要把我看到的 bug 立即全部修好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：相当 Nice。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：你们有没有做过很多接地气的团队都要用一个 QQ 群。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：当然我们是有一个 qq 群。但可能不是主要的渠道。作为一个程序员，我的 IM 工具都是关的。我非常害怕那些 real time 打断我的聊天方式，所以我都在用 Email 和微信这种方式。QQ 群我不用，但是我们的客服小朋友们都在 QQ 群里聊天，帮助用户
+。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：有点意思啊。听你说你们已经有 10 多个人了。你每天还在写代码吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：大概两个月前我80%时间还是在写代码、code review。现在团队变化比较大，新人比较多，写的代码比较少一些。但还是很多时间讨论设计，分模块，code review。code review 还是比较多，我就看每个 checkin，看大家写代码，大概花了一半时间在上面。其他的就是和用户聊天，考虑下一步做什么。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你介绍了很多方式去接触用户。你也收到了很多反馈。有很多可能是你想做的，但是资源是有限的，不可能满足用户的所有需求。你们在迭代中如何甄别用户的需求并排列优先级？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们会把大家的 idea 收集起来，然后扔到一个 board 上。我们有一个专门存 idea 的地方。每一个 milestone 我们会拿出一些 idea 来讨论用户的真正目的是什么，如何用简单的方式去实现需求。比如有很多人想要在添加课程时增加搜索功能或者按院系排列。最后我们发现他们想要的是最快地生成列表。所以我们就做了从他们的教育网导入，比他们自己提出的 idea 都好。我们会找到真正的需求是什么。&lt;/p&gt;
+
+&lt;p&gt;第二点是，我们 15 人中 9 人是工程师，hacking 是个好玩的事情，对别人可能是成本，但对我们是个好玩的事情。所以我们有个好 idea，就会发出去。我们现在有个系统，我们可以只给某些学校发 feature，我们可以在几千个学校里发 feature。不好的就砍掉。做错了也不是什么大问题，多做一些就多砍一些，慢慢尝试，这就是我们做新 idea 的一个基本理念吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这个很有意思。我很少看到对 native 应用做 A/B testing，但是 web 这边的经验会比较多。我想请你多介绍一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：因为我们原来做计划，以网站为主，每天都会发布好多个版本，像是 A/B testing。现在干脆就是我们做一个新的功能，不好的就砍掉。我看国外的一些公司有一些好的实践。Tumblr 当年表示我们网站就只有 10 个功能，我们出 1 个功能就砍 1 个功能。这可能就是磨合产品的过程。我们没有用特别的高端技术，比如 HTML 5。就是把功能加到客户端，下一个版本去掉。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：但是 App 这方面用户升级不是需要成本吗？你们就这样试？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：但是用户不会每一个新版本都更新。但是当你有了 100 万用户这样的规模的时候，给 10% 的人出一个 patch，其中 10% 安装使用了，还是有 1 万个人使用了。这样就有足够的数据看这功能好不好用，他们喜不喜欢。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我想回到原点。你们从计划转过来，一开始可能只有课程表的功能，用户的接受度可能需要花时间权衡。你们是怎么看 MVP 这件事呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们觉得 MVP 特别重要。第一是节省资源。第二是证明你想清楚了。有的时候你的 MVP 功能太多，你不愿意做 MVP，你可能就没有真正想清楚你想做什么。如果一开始你的 idea 只是随意拼凑的，比如一个社交化的旅游分享社区。这样你是很难拆出一个 MVP 的，你要从功能的角度取代。我觉得 MVP 就是一个特别明确的列表，就做三件事情。对我们来说就是：生成课表、分享给朋友、添加课程。这就是我们第一版的 MVP 的三个 feature。我觉得想清楚三个 feature 就发出去，这是一件好事。发的功能越少，做用户数据分析也更简单。只发一个功能，所有的数据和问用户都会关于这个功能。所以我们是很喜欢 MVP 这样的模式。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：当你发布第一个版本的时候，第一波推广是如何做的呢？你会需要特定的用户去评价这个应用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：资源上的限制对我们是挺好的。我们第一版只支持 10 个学校。别的学校在注册的时候就会提示不支持，对不起，请等一等。所以限量是一个好的办法。我记得知乎这个产品当时就用了一个不正式发布的方式先运营。第二个是一开始我们需要的用户不是很多，可能 100 个就够了，所以是可以用很高的成本去获得用户。像国外的一些 startup，先做一些不 scale 的事情。这是我们学到的一个道理。因为工程师可能从第一天就开始考虑方案怎么 scale 到 10 万、100 万用户。但是一开始用一些不 scale 的方法可能是最好的。所以第一版我们雇了一个北大的学生组建的咨询公司，雇了 7 个小朋友帮我们做咨询。要求就是每天用课表，告诉 5 个朋友，相对来说我们还给了他们每个人挺多钱的。所以我们的前 100 个用户的获取成本可能是每个上百块。但是也无所谓，因为只有 100 人。所以这个方法还是挺好的。但是后来就不要做这些事情了，太贵也没有意义。但是前 100 个用户可以不惜任何代价获取。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我觉得这样新用户就会非常愿意给你意见。这可能就是我们做的比较差的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：那么过了100个之后，你们的推广手段是什么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们第一天有个非常清楚的理念，就是这个产品不能推广。第一个就是线上的广告对我们是不划算的。比如一个广告在应用市场上看到的人里，10 个人里面可能不到 8 个人不是大学生。我们的推广成本就会比别人过 5-10 倍。第二个是大学生群体是流动人群，这样我们就需要每年推广，每年都会有百万大一新生进入系统。所以我们决定不推广，而是让用户滚起来。&lt;/p&gt;
+
+&lt;p&gt;我们一开始就内测了几轮后，就在 2012 年秋季学期正式发布了 1.0 版本。我记得我们是 8 月 29 号上线的。9 月 1 号很多学校开学，我们就看市场的数据。一个很 lucky 的一件事情就是，我们当时的设计可能很干净，苹果可能就给了我们一周的 editor 推荐，对用户增长很有帮助。我记得计划FM 1 年还不到 10 万用户，那时还没有关。开学的第一周课程格子的用户就超过了计划，我们做了 1 年的产品。所以那一刻我们就决定做这件事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：那这个产品就真的解决了一个用户痛点。听起来就是一个 organic 的增长，也没有做什么宣传，口口相传就达到了很好的情况。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：但是应用市场有这么多应用，我可能有课表的需求，但我不一定会去搜，或者也不确定怎么解决。但是总要有一个渠道去让我知道这个东西。我不知道你在这个方面做了什么事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们做了一个很接地气的事情，很草根的事情。我们建立了一个校园大使的系统，我们会在每一个学校会找到一个学生代表，这个同学告诉他朋友，我们会给他一些资源，一些 T-shirt，抱枕、小卡片、卡套、笔记本这些小东西。他们可以用这些做活动。这个系统可能有点像实习或者众包，是这两个维度之间的事情，我们就把他叫做课程格子校园大使系统。这是非常有用的。他可以让一个学校没有任何用户的时候，从 0 到 50 个用户的期间，全部可以靠这一个同学影响到。校园是一个很封闭的地方。从 50 个到 500 个到 5000 个反而是相对自然的。但是没有人用就真的没有人用。这是一个用户增长的一大因素。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我可能对时间线上有点混乱。开始你限制了 10 个学校，正式发布放开了限制了吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们是 2012 年 4、5 月才开始想这件事情，6 月才去发新版本，当时的时机也不是特别好。我们发版本的时候大家都快放假了，课都快上完了，都没有什么人用课表了。那时我们想第一个学期做 10 个学校，第二个学期做 100 个学校，第三个学期做 1000 个学校。这是当时我们的计划。然后做到第二个学期的时候，开到了 100 个学校。最后发现前一周下载量很多，90% 的用户下载后就说我们学校不能用，就在 App Store 上给我们 1 星的评价，说为什么不支持我们的学校。当时我们也很头疼，就取消了这个限制。也没有想太多，很多人在客服上找我们。所以就放开了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：刚发布时 Android 和 iOS 都有么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们先发的 iOS，当时我们是想做计划的时候，先做 iOS 可能产品可以做的更爽一点。一年前 Android 还没有这么快，一些高级的动画还很卡。我们先把 iOS 做好，先做口碑，做个用起来很爽的 App。结果后来发现大学生里 iOS 和 Android 的比例差距太大了，不做 Android 是不行的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我也是这么想的，所以我就在想为什么一开始做 iOS。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：我想八卦一下这个数据在大学生里是什么样的。Android VS iOS。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们也做过市场调查，大概 3：1。我们先做的 iOS，并持续被苹果推荐，9 月份推荐了两次，给我们带来了很多下载。一开始我们的数据是 95% 的用户是 iOS 的用户，之后每个月 iOS 用户的比例都在跌。现在大概是已经将近 4：1（70%），这个比例还是在每天增长。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这两种手机价格差别太大了。特别是在太学生群体里。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：是的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：刚才听了你的推广思路，都是挺好的。你有没有什么推广的失败案例，踩错的点？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们一开始想找一些大公司合作。但合作方式收效甚微，很大的公司也不太搭理你，给你资源。第二是我们当时也做了一些周边的 App，用小 App 给大 App 带流量。所以一开始就做了一些校花的 App，社团助手。还有大学生喜欢打 Dota，我们就做了一个 Dota 的 App，猜谜和战略。我们可能做了 7、8 个 App 发出去，App 里还留了很明显的课程格子广告。这些事情可能不成功，而且很分心。我们最宝贵的资源是开发、设计和产品，但是浪费在上面很不好。这可能是我们做的最糟糕的选择。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你也提到和大公司合作，上个月你们有一个招聘模块，可能还是要和大公司合作吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：其实招聘数据是很好获取的，基本都是公开的。写一个爬虫，1 天就能拿到所有的数据。但是真正要把招聘做深。因为公司招学生是一个 B2C 的东西，公司的资源是我们没有办法获取的。&lt;/p&gt;
+
+&lt;p&gt;有很多51，智联，这些公司就是非常 2B 的公司。做产品的可能不到他们公司不到 1% 的人。我们的第一步没有做到这么深，也没有招聘。还是从需求的角度。这几年大学生可能非常不好找工作，所以我们就和他们聊。很多人说他们非常担心找不到工作，所以就去所有的校园招聘投。只要有可能，就去海投。海投是他们的关键词，他们不关心去哪儿，但只要去得足够多，能找到一份工作就很不错了。当然最好的学生肯定不是这样子。但 90% 学生是这样想的。所以一个学生平均会去很多个校园照片，管理这个需要一个 Calendar。我们就做了一个很简单的 feature，你可以看到你学校和周边学校的招聘活动。你可以把它添到你的课表上，这样可以在上完第 6 节课，我就去这个招聘活动。比如你要在 9 月到 10 月去 15-20 个招聘活动是需要一些管理的。我们通过这个思路去做了一个校园招聘助手。但我们离真正的招聘公司还差很远。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：也是从用户的需求。我大概能理解。你们做格子时还在创新工场么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：创新工场只有 3 个月。我们做计划FM的时候就已经搬出来了，现在已经有两年没有回到创新工场了。我们 11 年 6 月份就从工场离开，在外面自己做。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：因为我最近看到你们有在&lt;a href="http://www.yunjiasuqi.cn/%E2%80%8E"&gt;微软云加速&lt;/a&gt;的 program 里面。
+&lt;strong&gt;李天放&lt;/strong&gt;：对。我们是 13 年 7月 加入计划，这是很好的一个机会。我们在创新工场还是有很好的体验的。大家会说很多创新工场的好处和坏处，他们的口碑也是很复杂的。但是我还是有很好的体验，我回国之后在中国没有任何前同事，很少的朋友，也没有任何圈子。所以创业还是需要一些资源的。&lt;/p&gt;
+
+&lt;p&gt;包括招人。你一个人在外面，没有任何圈子，连实习生你都招不到。所以我一开始去创新工场，当时有20多个团队，都在一起，所以跟其中几个团队变成了好朋友，从他们那里得到了很多指导。然后我们就出来了。因为这可能在最早期的阶段很有用，但是后面的阶段要自己去探索。但是今年3月份，我们雇了很多人，从5个人到15个人，2/3的团队是第一次创业，很年轻，我们觉得有一个好的 incubator，对他们的成长是很有帮助的。他们可以看看别的创业团队是怎么做事的。这是我们去微软云加速最大的原因，给我们的新的同学一个好的 social 环境。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：Cool，这已经涵盖了我想问的一些问题。给一些创业团队意见要不要进入一些孵化器。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：关于孵化器，最好的是可以把融资和环境分开来看。作为一个 VC 孵化器，作为一个环境提供者很糟糕，一定要分开来考虑。这是我们得到的最大的经验。&lt;/p&gt;
+
+&lt;h3&gt;Part 3 - 课程格子的技术选择&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：OK。我们毕竟是一个技术型的 podcast，我们回来聊一点技术。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：好，我等了很久了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我想请天放介绍一下技术栈。听下来计划和格子的技术栈是很一样的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：对。我们的前端都是 native，没有 share 任何东西，Android 和 iOS。后台是 Ruby on Rails，用的 MySQL，Redis。主要还是 MySQL 用的比较多。所有东西在 Linux 上面。聊天是用 Erlang 写的。基本上是这些比较大的模块。还有一个搜索的模块，搜索课程、教室、老师，用的是 Sphinx，Rails 这用了 thinking-sphinx。基本上是这样。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;: ok。聊天这部分你们是自己做的，还是用了一些现成的 ejabberd 这样的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们是用了 ejabberd，后来自己打开，改一些自己需要的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：听起来和我们挺像的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们可以交流一些。我们的团队经验可能没有你们多，技术团队是比较缺乏经验的。哪天可以请教一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：太谦虚了。我想知道你说的这样的 full stack。除了 server 端的，Android 和 iOS 都是你自己会的么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：计划的第一版是我写的。我们第一个工程师非常好，现在是我们的技术总监，算是 full stack。把 Android 和聊天接过来了。所以很久一段时间，我做iOS 网站和后台，他做 Android 和聊天。现在我们是有 8 个全职工程师了，每块都有很专业的人来做了。我做也有很多不了解的东西，就去网上搜一搜，尽量用最便宜的方式实现。现在我们 iOS 和 Android 各有一个团队。后端就没有分那么多，包括 Web、数据、逻辑、聊天、API 一起做。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我想了解一下 web。你们还是一个 mobile 的应用，你们在 web 上做了哪些呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：非常少。我们的 web 基本不是对外的。因为我们有个校园大使，就做了个后台管理这些大师，他们的成绩。我们可以给她们分发一些任务。这可能是很长时间我们唯一的 web 产品。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：相对来说，用户使用你们的东西全部都通过手机 native 来走。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：是的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那相当于你们只有 API 接口。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：是的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：那我想了解一下，现在有很多新闻都在说 LinkedIn、Twitter、Groupon，都从 Rails 换到了 Node。作为一个中间层。我想知道你的看法。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：对，我觉得这也是在我们计划之内。我们有好多台 web server，用户也没有那么多。我在买机器的时候就在想真的需要这么多吗？我听人家说你换成 Go 就可以把 20 台服务器换成 2 台了。但可能一直比较忙，创业的挣扎时候，赶进度的时候就疏忽了。我觉得我们可能会尝试一些，把一些最慢的 API call 一个个转成比较高效的技术框架。一开始我们是有个网页版的课程格子，但经历不够就砍掉了。一开始选 Ruby on Rails 是因为 API 和 HTML 一起支持其实是挺干净的一套系统。后来不做 web 了，我们的选择又多了很多了。但是还没有换。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你会不会觉得，用着用着 Rails 就不符合你们的需求了。你们是纯 API 的，你们有没有尝试过一些别的 Ruby 框架？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：最近我们尝试一些小的新功能的时候都是用 Sinatra 在做的。分享看代码的时候都会干净很多。现在我们做主页之类的时候，我们的设计师可以自己写 HTML、CSS、JavaScript，但他们装 Rails 是很麻烦的。我们的 Rails 用了很多插件，他们装个 ImageMagick，装个 Sphinx，装个 Redis，对设计师很麻烦。所以我们用 Sinatra 就一个文件，做好就可以直接把写好的 CSS、HTML 同步过去了。所以觉得 Rails 在很多人碰的时候有点笨重。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;： 我也觉得 Sinatra 做 API 蛮爽的。但你们也提到你们有很多 server。你们一开始就是考虑 dedicate server 而不是从云开始用吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们是 11 年开始做的，那时好的云服务不多。在国外我们一直用 AWS，也会有点不习惯国内的云服务的用户体验和接口。跟 AWS 比起来都太土了，用起来很不爽。还有一个考虑是，我们很多大学生是在校园里面，我们不知道中国的网络情况。所以我们就专门找了一个可以多线的 hosting。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;: OK。那你们现在有多少 server。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：可能有 2、30 台吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：你们会有专门的 SA 来管吗？还是你们的程序员来兼做 SA？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：一直到今年 7 月都是我在管，没有人愿意做这件事情。大家说 CEO 不就是来扮演扫地的吗，只有我一个人和机房打交道。7 月份来了一个运维很专业的同学，他原来在游戏公司做过，也做过很大 scale 的。然后他就把这块接过来了。我们一直没有找到很好的运维工程师。要是有的话，我们还是需要的。因为管机器还是很花时间和心思的事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我还是要澄清一点，只是 Rails 不太适合你，但是 Ruby 上还是有很多可以走异步的。你现在只要把 Rails 的 controller 和 request 部分改写了，像 AR 就可以继续用的。这样也可以达成 20 台变成 2 台的目的。但是你要用异步去弄。各种 API framework 在 Ruby 这都有。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：我记得&lt;a href="http://huangzhimin.com"&gt;黄志敏&lt;/a&gt;好像分享过一个&lt;a href="https://speakerdeck.com/flyerhzm/gou-jian-yi-bu-apifu-wu"&gt;这样的经验&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：因为这是他在 OpenFeint 的真实经验，20 台变成 1、2 台机器。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我觉得这很好，event machine 我们也在看。我们一直在用 Passenger，试图把它们改成 Thin。因为请求特别多，每个请求其实还是挺便宜的。我们虽然是一个程序员为主的公司，但很多东西都做得不是最高效的。一开始我们选择了 VC 这条路线，没有走 lifestyle 的路线。有一些投资人会给你一些压力让你尽量追赶业务。有的时候我很羡慕自己可以 bootstrap 起来，从零开始，100% 按照自己的想法来说。不能说控制吧，投资人也没有控制我们，比如我可以花 6 个月的时间优化清理代码，现在有的时候我在做这件事情的时候，就觉得是不是太对不起我们的投资人了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：你们有没有统计过课程格子的后端代码有多少行了？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：多少行我从来没有看过。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：因为他模块挺多的。所以很难估计。&lt;/p&gt;
+
+&lt;h3&gt;Part 4 - 格子的工作流程和团队文化&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：那我换一个问题，你刚才也提到了团队大了，你会做一些 code review 工作，大家的水平慢慢会有点层次不齐，你们的 process 是怎么样的？怎么样做一个 code review，怎么样做一个 feature，怎么样开发？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：还有怎么样来培养人？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们一开始的 process 是很乱的。因为 3 月份我们只有2、3个工程师。都不用动同样的代码。我们一直在用 git，代码在 github 上。但我们没有一个 git process，大家自己使用 branch。一开始我们用 git flow，觉得不太适合后台。因为后台不用每次上传一个 tag，稍微简化了 git flow，我们有一个 develop branch，一个 master 是随时可以发布的。每个人在自己的 branch 上面，所以的 code review 是通过 git 来做。其实我有的时候在 github 上看一下大家新的动态。不是特别 formal。我们有一个 stage server。我们所有东西都放在 stage server 上，大家都有 push 权限。因为太多代码我看不过来，我会大致看一下。新同学来的第一个月，我会每天看他做的所有事情。等到他基本掌握了我们的风格和知识的时候，就基本 independent，不要求 code review。一个月之后，你觉得你需要 code review，就叫一个人来帮你做。我们现在是这个状态。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：是只有你在做 code review 还是交叉 review？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：任何人。还有些是专门的，iOS 团队互相做 code review，Android 团队两人互相做 code review。我们的模块比较多。后台大部分是我在做。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：那你们会用 pull request 吗？个人的 branch 怎么进入 master，是提一个 pull request，还是告诉你做完了，让你来 review 后merge。是怎么样的情况。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：是后面的情况，我们没有用 pull request。我们直接 review 后 merge。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：正好你说了这两点，我在 blog 上有分享我们团队的经验，第一篇是 &lt;a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html"&gt;让代码审查成为你的团队习惯&lt;/a&gt;、第二篇是&lt;a href="http://yedingding.com/2013/09/11/practical-git-flow-for-startups.html"&gt;实用 Git 工作流&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我之前看过第一篇，但是没有看过第二篇。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：有一篇是讲我们的 git flow 的，另外一篇是讲我们如何做 code review 的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我看过第一篇，那个 blog 对我们是有启发的。我们当时没有 process，所以在建立 process 的时候就在网上搜，就搜到你的 blog，觉得这是个好的主意，好像是这样我才发现了 git flow。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我不知道你们还要不要人？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们非常需要人。我们到了一个规模，可以再想一下除了课程表还可以做些什么东西。每个东西都是一条产品线。我们是非常缺人的，是我们最大的一个瓶颈。我都忘了我第三个主要工作，就是招人。相对来说，我们还是蛮挑剔的。
+刚开始时，我的渠道不太对。我也不知道怎么招人，我就在51和智联上招聘，就来了好多人投简历。一开始我很兴奋。第一天我的 admin 给了 400 份简历。我觉得这里面至少可以找到 10 个好的程序员，我就花了好久时间全都看了，就发了笔试题，当面面试。结果 400 个里面没有 1 个可以雇的人，这给了我很大的打击。这样的话我们可能永远雇不到要的人，我们不能宅在办公室里，要想到一些方法找到一些好的人。我也是刚刚才意识到这一点。现在我就在想我要到哪里去找聪明的程序员。当然，找起来太不容易了，只要找到一个就尽全力把他弄过来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：考虑到你们拒了 400 个人的经历，我能不能问一下你们的要求是怎样的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我这是黑了一下智联这样的招聘网站。其实渠道真的差了很多。现在我们在 Ruby China 上发了一个帖子一共可能就 4-5 人回了，4-5人 里就有一个同学过来，非常好。他还没有毕业，我就已经给他了一个全职的 offer。他可能 10 月就会加入。&lt;/p&gt;
+
+&lt;p&gt;4-5 个人里就能找到一个人，对比 400 个人一个都没有。所以不同圈子里还是有很多差别的。这两年我招人觉得第一个要聪明，悟性高，学习能力特别强，基本是唯一的要求。第二个上是 culture fit。我们的面试流程更接近硅谷，流程很长。一开始很短，请你过来之后至少有 3 个程序员和你聊。至少有 3 个 interview，我是第 4 个。这是一个双方的认识的机会。我们一共就 8 个程序员，你跟 3 个人聊过了也大概知道了工作的风格和人的风格。大家是喜欢什么，爱好是不是匹配。工作方式和理念、vision 都可以感受一下。&lt;/p&gt;
+
+&lt;p&gt;我们每个人都会有一票否决权。从 culture fit 上，每个人都可以一票否决，其实很少用到，来的人都蛮不错的。而且做一个创业公司，每一个人都可以选择做事情的方式，和谁一起工作。给大家一票否决权，可以让大家觉得可以 control 我的 teammate 是谁，我的队友是谁。这就是我们的一个基本流程。一个是聪不聪明，第二是文化匹配。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：你会让面试者和你们一起工作一天了解他的能力和你们是不是匹配？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们一些好的 candidate 过来，都可能要半天 4 小时。其实也差不多了。我们会给她们一些 coding problem，编程是一个很大的一部分。我们来之前是没有电话面试的，我们会给大家发一道题。这道题是很简单的。比如 iOS 题就是写一个列表，这个列表稍微有一些比较慢的计算，可以在不卡的情况下滑动列表，大约能在1小时内完成，就是我们的第一个面试，来讨论你为什么要这样写代码，或者为什么这样设计。我们可能会有一些基本的算法和数据结构，基本是这样的流程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：OK。你们现在因为分了很多全职，像 iOS，Android，后台都有。你们最缺的是哪个？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我们最缺的是后台。iOS 和 Android 挺稳定的。直到今年，最后 hire 的两个 candidate 中有一个 Ruby 经验的。前一年我们都没有雇到一个会 Ruby 的。Rails 其实是很好上手的，但用得好就比较难。所以我们很缺有这种经验的人。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：所以你们在招的主要也是后台的。要不要再说几句宣言，让大家来给你们投一个简历。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：好啊。我们也不能说我们是最牛的团队，但是有一些比别的公司好的，有价值的地方。&lt;/p&gt;
+
+&lt;p&gt;第一个是，我是 1 号员工，我是程序员，我一直在硅谷工作。我至少直到一个好的程序员的环境是怎么样的。我在硅谷 3-4 年也看了很多好的团队，我不知道能不能在中国复制一个好的环境。但是至少是我的一个意图。我是想做一个特别好的 hacker friendly 的一个环境、文化，去用技术解决问题。&lt;/p&gt;
+
+&lt;p&gt;第二个我们在中国走 VC 路线的团队的 size 是比较小的。A 轮之后，我们只有 6 人。我们也没有任何计划去扩展到 50 个，100 人这样。我们只招聪明的，比较适合团队的。所以环境还是不错的。&lt;/p&gt;
+
+&lt;p&gt;第三是我们做的事情虽然不是特别创新，但是是自己慢慢琢磨在做的。因为国外没有课程表这样的东西。其实在中国做大学生市场的人也非常非常少。至少我们解决了一个值得解决的问题。也许不是我们现在做的这件事，但是是为了大学生这个市场。不但有商业价值，还是有真正的社会价值。&lt;/p&gt;
+
+&lt;p&gt;为什么每年有 700 万的大学生花了 4 年时间和父母多年的积蓄，加上辛苦的高考，上大学。但出来的时候能做的事情非常少，这么多人找不到工作。所有的公司也都招不到好的员工。从一个大的角度上，这个 social structure 里是有一些很低效的。也许我们可以利用一些技术来把这些事情变得更高效。假如我是个程序员，我最关心的事情是，跟聪明的人一起工作，做一些有意义的事情，有一个好的 culture 好的环境，大家做的开心。我们就尽量把这三件事做好。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：这是我们很向往的方向。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：大家有兴趣地赶快投啊。&lt;/p&gt;
+
+&lt;h3&gt;Part 5 - Share Picks&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：我会在 Share notes 中留下天放的联系方式。那这期就到这里，我们进入最后一个环节。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：我先来吧，那我分享一下很老的一本书，是《&lt;a href="http://pragprog.com/book/btlang/seven-languages-in-seven-weeks"&gt;Seven Languages in Seven Weeks&lt;/a&gt;》。我现在看到 scala 这一章了。我觉得这本书很有意思。虽然这个分类有很多书了，但是这本我还没来得及看。我觉得程序员一段时间花很短的时间去了解一个 language 是很有意义的。可以帮助你更了解你现在用的 language。&lt;/p&gt;
+
+&lt;p&gt;我觉得作者学语言的方法很有意思。如果你把这方法掌握了，如果你要快速了解一门语言，你也可以用这个思路去做。你也可以很快地掌握一个语言的本质而不是只是 Hello World。我推荐程序员可以读一读这本书。这个也是《Seven Languages in Seven Weeks》的第一本著作。也不算很新了，没有看过的我推荐大家可以看一看。这是我的 picks。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：说起《Seven Languages in Seven Weeks》，我想我们也采访过 seven database 的作者，然后我一直没有收到听众的一些反馈，也不知道大家对英文的接受度如何。欢迎大家反馈，让我们考虑要不要请《Seven Languages in Seven Weeks》的作者来 Teahour 聊。天放刚才说到一些process，我自己在个人博客上分享了一些如何做 code review 和git flow 的两篇文章。我会在 Share Notes 中贴出链接。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：我推荐一本书吧，我十一期间看的一本书，叫做《Masters of Doom》。我在 Hacker News 上看到的。Doom 是 90 年代很火的游戏，是 Id 公司的创业历史。有个很有名的程序员——John Carmack。这本书可能是我1年来几十本里最好的一本。应该有中文版，可以在&lt;a href="http://book.douban.com/subject/1438119/"&gt;豆瓣&lt;/a&gt;上查一查。&lt;/p&gt;
+
+&lt;p&gt;这本书是 90 年代的创业故事，是很 pure 的，没有这么多融资和浮躁的市场。就是两个人一开始想做一个游戏，做了一个非常非常大，几十亿美元的公司。&lt;/p&gt;
+
+&lt;p&gt;第二点是里面的两个主角之一John Carmack。虽然是个写实的书，但把他写的像一个神一样。在碰到不可跨越的问题的时候，他就会用完全意想不到的方法解决问题。就像金庸小说的主角一样，他一个人过关斩将发明出来3D 的方式。我觉得非常励志。程序员 hero 可能没有那么多，如果你是一个程序员，你可以多一个 hero，多一个可以崇拜的英雄。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：OK。我们这一期就到现在为止。非常感谢天放来我们 teahour 做客。也欢迎以后可以再来跟我们做交流。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：下次再见。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;李天放&lt;/strong&gt;：再见，88，&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;叶玎玎&lt;/strong&gt;：88。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terry&lt;/strong&gt;：88。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;span class="footnotes"&gt;
+  天放最近刚更新了课程格子的招聘信息，主要是招 Tech Lead、Ruby 工程师和 Growth Hacker，大家可以看 &lt;a href="http://kechenggezi.com/jobs"&gt;http://kechenggezi.com/jobs&lt;/a&gt;。
+&lt;/span&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>与 Ari Lerner 聊 AngularJS</title>
     <link rel="alternate" href="/2014/05/06/teahour-51-angular-with-ari-lerner.html"/>
@@ -18,7 +440,9 @@
     <author>
       <name>叶玎玎</name>
     </author>
-    <summary type="html">&lt;blockquote&gt;
+    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;&lt;img alt="AngularJS" src="/images/teahour-51-angular-with-ari-lerner/AngularJS.png?1399900780"&gt;&lt;/aside&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
   目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
 &lt;/blockquote&gt;
 
@@ -30,8 +454,12 @@
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;: Hello everybody and welcome to Teahour. This is episode 51 and today we have &lt;a title="Ari's Github" href="https://github.com/auser"&gt;Ari Lerner&lt;/a&gt;. Hi Ari.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I worked at &lt;a href="http://www.att.com/"&gt;At&amp;amp;T&lt;/a&gt; for about five and a half years or so and at AT&amp;amp;T I was originally hired to build their internal competitor to &lt;a href="https://aws.amazon.com/ec2/"&gt;EC2&lt;/a&gt;. I helped build their internal cloud and I built what was actually one of the first open-source clones of &lt;a href="https://www.heroku.com/"&gt;Heroku&lt;/a&gt; entirely in &lt;a href="http://www.erlang.org/"&gt;Erlang&lt;/a&gt; called &lt;a href="https://github.com/auser/beehive"&gt;Beehive&lt;/a&gt;. In my later time at AT&amp;amp;T, I worked on their developer services. I helped build their single sign-on...&lt;/p&gt;</summary>
-    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ari&lt;/strong&gt;: I worked at &lt;a href="http://www.att.com/"&gt;At&amp;amp;T&lt;/a&gt; for about five and a half years or so and at AT&amp;amp;T I was originally hired to build their internal competitor to &lt;a href="https://aws.amazon.com/ec2/"&gt;EC2&lt;/a&gt;. I helped build their internal cloud and I built what was actually one of the first open-source clones of &lt;a href="https://www.heroku.com/"&gt;Heroku&lt;/a&gt; entirely in &lt;a href="http://www.erlang.org/"&gt;Erlang&lt;/a&gt; called &lt;a href="https://github.com/auser/beehive"&gt;Beehive&lt;/a&gt;. In my later time at AT&amp;amp;T, I worked on their developer services. I helped build their single sign...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="AngularJS" src="/images/teahour-51-angular-with-ari-lerner/AngularJS.png?1399900780" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
   目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
 &lt;/blockquote&gt;
 
@@ -926,221 +1354,6 @@
 
 &lt;p&gt;&lt;span class="footnotes"&gt;
   It&amp;rsquo;s easier to teach an engineer business than it is to teach a business person engineering. - by Paul Graham
-&lt;/span&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>『风车』技术架构介绍</title>
-    <link rel="alternate" href="/2014/03/20/fengcheco-architecture.html"/>
-    <id>/2014/03/20/fengcheco-architecture.html</id>
-    <published>2014-03-20T02:00:00Z</published>
-    <updated>2014-03-20T02:00:00Z</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img title="风车" alt="Fengche.co" src="/images/fengcheco-architecture/logo.png?1393869410" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;上周末，应邀在 &lt;a href="http://hnshanghai.com"&gt;Hacker News 上海聚会&lt;/a&gt;和 &lt;a href="http://shruby.github.io/"&gt;Ruby 上海活动&lt;/a&gt;上做了『风车』架构介绍的分享，在此感谢各位组织者和活动场地提供方。&lt;/p&gt;
-
-&lt;p&gt;风车这个项目开始于 2011 年 11 月份，之前叫做 Pragmatic.ly。从第一天开始我们基本上就定了大致的框架结构，在今天回头看，基本上整个架构都没有什么变化，可以算是个很成熟和很适合时代的方案，☺。&lt;/p&gt;
-
-&lt;p&gt;最近一两年，作为技术人员，我们都能很明显的感觉到前端技术的飞速发展，比如 HTML5 支持，移动端优先、响应式界面设计以及层出不穷的各种客户端框架。而所有这些，都是基于一点：浏览器的高速发展。Chrome、Firefox、Safari、Opera 甚至于 IE，最近几年发展的都很快，不夸张的说，这些浏览器已经不再是浏览器，而是成为开放平台，有各自的扩展插件机制。这些极大地改变了网站开发的方式，网站开始应用化。&lt;/p&gt;
-
-&lt;p&gt;风车即是如此，设计得非常接近桌面应用，比如下面这些特点：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;重客户端，所有的业务逻辑都在客户端，响应非常迅速&lt;/li&gt;
-&lt;li&gt;单页系统，项目内操作不需要刷新页面，操作非常流畅&lt;/li&gt;
-&lt;li&gt;三栏布局，左中右栏自左向右各司其职，信息非常清晰&lt;/li&gt;
-&lt;li&gt;实时更新，项目内任何更新都会实时的同步到你的页面&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;而在这个设计的背后，就是其本身的技术栈。&lt;/p&gt;
-
-&lt;p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img title="风车" alt="Fengche.co" src="/images/fengcheco-architecture/logo.png?1393869410" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;上周末，应邀在 &lt;a href="http://hnshanghai.com"&gt;Hacker News 上海聚会&lt;/a&gt;和 &lt;a href="http://shruby.github.io/"&gt;Ruby 上海活动&lt;/a&gt;上做了『风车』架构介绍的分享，在此感谢各位组织者和活动场地提供方。&lt;/p&gt;
-
-&lt;p&gt;风车这个项目开始于 2011 年 11 月份，之前叫做 Pragmatic.ly。从第一天开始我们基本上就定了大致的框架结构，在今天回头看，基本上整个架构都没有什么变化，可以算是个很成熟和很适合时代的方案，☺。&lt;/p&gt;
-
-&lt;p&gt;最近一两年，作为技术人员，我们都能很明显的感觉到前端技术的飞速发展，比如 HTML5 支持，移动端优先、响应式界面设计以及层出不穷的各种客户端框架。而所有这些，都是基于一点：浏览器的高速发展。Chrome、Firefox、Safari、Opera 甚至于 IE，最近几年发展的都很快，不夸张的说，这些浏览器已经不再是浏览器，而是成为开放平台，有各自的扩展插件机制。这些极大地改变了网站开发的方式，网站开始应用化。&lt;/p&gt;
-
-&lt;p&gt;风车即是如此，设计得非常接近桌面应用，比如下面这些特点：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;重客户端，所有的业务逻辑都在客户端，响应非常迅速&lt;/li&gt;
-&lt;li&gt;单页系统，项目内操作不需要刷新页面，操作非常流畅&lt;/li&gt;
-&lt;li&gt;三栏布局，左中右栏自左向右各司其职，信息非常清晰&lt;/li&gt;
-&lt;li&gt;实时更新，项目内任何更新都会实时的同步到你的页面&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;而在这个设计的背后，就是其本身的技术栈。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4&gt;总览&lt;/h4&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img title="风车架构" alt="Fengche.co Overview" src="/images/fengcheco-architecture/arch.png?1393869410" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://spinejs.com"&gt;Spine.JS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://rubyonrails.org/"&gt;Rails&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pusher.com"&gt;Pusher&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;风车在客户端使用的是 Spine.JS，后端使用的是 Ruby on Rails。实时消息同步用的是 Pusher。(三个里面有两个因为莫名其妙的原因打不开&amp;hellip; -.-)&lt;/p&gt;
-
-&lt;p&gt;Spine.js 是一个轻量级的 MVC JavaScript 库，由&lt;a href="http://shop.oreilly.com/product/0636920018421.do"&gt;《Javascript Web Applications》&lt;/a&gt;的作者 &lt;a href="http://alexmaccaw.com"&gt;Alex MacCaw&lt;/a&gt; 基于 Backbone.js 改良。Spine 库使用 CoffeeScript 编写，整体代码量仅一千行左右，比起 Angular.js, Ember.js 这些框架来说少的多，非常容易学习和上手。&lt;/p&gt;
-
-&lt;p&gt;Rails 目前我们在使用的还是 3.2 版本，基本上是用来做 API 服务器，只管数据，不做逻辑。上周活动有些朋友也问到基本只做 API 服务器，为啥不选用更轻量的方案如 Sinatra，Grape 之类。一是从开发上来说，Rails 默认这一套用起来比较舒服，我们除了 API 之外还有一些第三方应用的集成和管理性功能，所以整体建站更方便。二是我们目前还没遇到大的性能上问题，所以没必要去更换。如果下一阶段真有需要了，会把 RESTful API 专门独立出来。&lt;/p&gt;
-
-&lt;p&gt;Pusher 是一个基于 WebSocket 的实时消息推送服务，集成到应用中也非常方便。即使在不支持 WebSocket 的浏览器里（对，没错，说的就是 IE），也提供默认的备用方式，可选择 Flash Socket 或者 SockJS。整体体验来说，Pusher 算是一个很不错的解决方法，轻、快，给我们节省了大量开发时间，只需要关注产品的核心价值。不过如果你的应用对于实时性要求非常严格，比如交易系统，可能 Pusher 的稳定性还不够符合你要求，因为你懂的一些网络原因。&lt;/p&gt;
-
-&lt;p&gt;当浏览器刷新页面的时候，会向服务端发起一个请求。服务端收到这个请求后，会返回一个不带数据的纯 HTML 空模板。然后客户端渲染模板后，再次通过 RESTful API 向服务端请求项目的真实数据（JSON 格式），再由客户端对数据做处理并呈现，得到用户真正看到的页面。之后，会跟 Pusher 服务器建立一条 WebSocket 的长连接，接收推送信息。当服务端有任何更新的时候，会发送消息到 Pusher 服务器，再由 Pusher 服务器传输到客户端浏览器，页面同时也得到更新。以上，就是一个简单的过程。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img title="风车前端架构" alt="Fengche.co Frontend Overview" src="/images/fengcheco-architecture/frontend.png?1393869410" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h4&gt;客户端&lt;/h4&gt;
-
-&lt;p&gt;上面也介绍过了，风车的前端用的是 Spine.JS 和 jQuery。在移动端稍微有点不同，是 Spine.JS Mobile 和 Zepto。在目前这个时候，我计算了一下，压缩后的 JS 和 CSS，包括所有第三方的库，已经将近 270 KB。这里感谢一下&lt;a href="http://www.qiniu.com"&gt;七牛云存储&lt;/a&gt;，风车的这些静态文件因他们的 CDN 服务，能很快的下载到用户端，加速页面的加载。&lt;/p&gt;
-
-&lt;h5&gt;Spine.JS&lt;/h5&gt;
-
-&lt;p&gt;Spine 上面已经介绍了不少，这里再介绍一个我很喜欢的特性：&lt;em&gt;Asynchronous interfaces&lt;/em&gt;。当我们决定把逻辑从服务端移到客户端的时候，就是要提高用户的整个使用体验，要能非常迅速的对用户行为做出响应。所以，当用户做了一个操作更新数据的时候，不要再显示个 loading spinner，让用户去等待数据更新完毕，而是应该立刻给出页面的变化。这就是异步 UI，通过解耦客户端 UI 交互跟服务端数据同步，保证了交互的流畅性。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="CoffeeScript" src="/images/fengcheco-architecture/dhh-coffee.png?1399041455" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h5&gt;CoffeeScript + Eco&lt;/h5&gt;
-
-&lt;p&gt;这里真的很佩服 DHH，当时力排众难固执地在 Rails 3 里面默认加入了 &lt;a href="http://coffeescript.org"&gt;CoffeeScript&lt;/a&gt;，让 CoffeeScript 迅速地流行起来。Coffee 是那种一用就能上瘾的东西，我们几乎所有的 JS 代码都是用 Coffee 写的，最后编译出来的纯 JS 代码也很具有可读性。即使是让人诟病的调试复杂度，对于熟悉代码结构和 Coffee 的人来说也从来不是问题，更不用说现在还提供了 &lt;a href="http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/"&gt;Source Maps&lt;/a&gt; 的支持。&lt;a href="https://github.com/sstephenson/eco"&gt;Eco&lt;/a&gt; 是 &amp;ldquo;Embedded CoffeeScript templates&amp;quot;，语法跟 ERB 很像，作为一个 Ruby 开发人员没法不喜欢，:)&lt;/p&gt;
-
-&lt;h5&gt;Model-View-Controller&lt;/h5&gt;
-
-&lt;p&gt;从 MVC 框架来说，Controller 层，主要负责接受请求并处理请求，对应到客户端，请求就是事件，所以 Controller 负责对 DOM 事件的处理和 Router 事件的处理。基于此，风车前端有两种类型的 Controller，一种是跟页面 DOM 打交道的，一种是跟路由打交道的。基于 DOM 的 Controller 是按照页面的结构设计，每个 Controller 对应于一个单独的 DOM 模块，比如风车里面的侧边栏对应一个 Controller，侧边栏里面的任务列表部分和团队成员部分又分别对应一个 Controller，等等。这些 DOM Controller 会监视 DOM 上事件的发生，以及 DOM 对应的数据的更新。而基于 Router 的 Controller 是按照 URL 来设计，用来监视页面 URL 的变化，比如每一项任务都对应于一个单独的 URL，那么点击行为会导致 URL 的变化，这个变化会被 Router Controller 捕捉到，执行相应的操作，整个过程跟 Dom 没有任何关系。&lt;/p&gt;
-
-&lt;p&gt;Model 层，负责所有跟数据有关的处理。绝大多数时候，数据是 URL 对应，所以 Model 层绝大多数时间只需要跟 Router Controller 交互。Router Controller 从 Model 准备好数据后，会触发一个事件，交由 DOM Controller 去渲染相应的页面。&lt;/p&gt;
-
-&lt;p&gt;除了 MVC 三层之外，风车在设计上还使用了很多 HTML5 的特性，除了之前介绍的 WebSocket 之外，还有 History、Web Notification、Drag &amp;amp; Drop 和 LocalStorage。&lt;/p&gt;
-
-&lt;h5&gt;HTML5 History pushState&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href="http://diveintohtml5.info/history.html"&gt;History&lt;/a&gt; 是 Router Controller 的实现基础。我们都已经很习惯了浏览器页面的前进后退来访问历史页面。而很多富客户端应用因为 URL 没有发生改变，就很难支持这点。HTML5 History 就是为了解决这个问题，而在 JavaScript 端提供的一个实现。当我们访问下一个页面的时候，会 push 这个 URL 到栈里，当我们按后退时，会 pop 出这个 URL。Router Controller 需要定义一系列要响应的 URL，这样一旦匹配，就会截获页面跳转，转而去执行相应的代码，渲染出对应数据。所以在风车里，每次页面的修改都是对应一个唯一的 URL，这样除了可以前进后退外，还有个额外的好处是刷新页面后，总是可以回到刷新前的 URL。当然，需要在客户端和服务端用同一套路由。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Web Notification" src="/images/fengcheco-architecture/feature-notification.png?1393869410" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h5&gt;HTML5 桌面通知&lt;/h5&gt;
-
-&lt;p&gt;Web Notification 是桌面端的通知，当一个跟用户相关的事件发生时，比如团队里有人分配了一个任务给你，或有人在讨论里 @ 了你，就会收到一个通知。目前 Chrome 和 Safari 已经直接支持 Web Notification，Firefox 最新版已经支持，老版本需要安装一个插件支持，而 IE 在 10 以上才支持，而且必须加入 pinned site 列表里。具体的可以参考我之前在&lt;a href="https://fengcheco.com/blog/its-not-perfect-but-its-time-to-integrate-web"&gt;风车官方博客&lt;/a&gt;里面写的这篇详细介绍 HTML5 Web Notification 的文章。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Drag &amp;amp; Drop" src="/images/fengcheco-architecture/dnd.png?1393869410" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h5&gt;HTML5 拖放&lt;/h5&gt;
-
-&lt;p&gt;Drag &amp;amp; Drop 之前已经有很多 JS 的实现了，比如 jQuery UI 里面就有 DnD 的支持，HTML5 在规范制定的时候，也把 DnD 加入了进来，做了标准化。风车里面是用的 HTML5 的规范，主要用于把任务拖到某个任务列表里，某个成员里和拖到同个列表不同的位置。&lt;/p&gt;
-
-&lt;h5&gt;有限离线支持&lt;/h5&gt;
-
-&lt;p&gt;上面也介绍了，Spine 里面有个特性是异步 UI，但是如果我们跟服务器之间的连接出现短暂的问题，比如网络断了，那么就会在客户端更新了，但是服务端却没有同步到，这样用户一刷新，就会发现丢数据了。我们针对这个情况，一般发现同步失败，就先把未同步的数据放到 &lt;a href="http://diveintohtml5.info/detect.html#storage"&gt;LocalStorage&lt;/a&gt; 里面，每隔一段时间重试一下，直到同步成功。所以，在页面加载后，即使离线情况下，短暂时间使用风车也不是问题。但是，因为我们目前实现的很有限，也没做版本控制系统，所以在极端情况下，比如团队里不同人对同一个任务做出了更新，后同步的数据会覆盖掉先同步的。因为这种情况很少发生，所以目前我们没花大时间去改进它。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img title="风车后端架构" alt="Fengche.co Backend Overview" src="/images/fengcheco-architecture/backend.png?1393869410" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h4&gt;服务端&lt;/h4&gt;
-
-&lt;p&gt;风车的整个服务端是基于 Ruby on Rails，前面也已经给了一些介绍。我在之前的&lt;a href="http://yedingding.com/2013/03/04/steps-to-refactor-controller-and-models-in-rails-projects.html"&gt;重构 Rails 项目之最佳实践&lt;/a&gt;介绍了一些可以用来写出更好的代码结构的方法。在风车中，我们也在标准的 MVC 三层之外，加了 Service 层和 Presenter 层。&lt;/p&gt;
-
-&lt;h5&gt;Service Layer&lt;/h5&gt;
-
-&lt;p&gt;为了保持 Controller 结构的尽可能简单，对于一些复杂的又不仅属于某个 Model 的请求处理逻辑，我们在 Controller 和 Model 之间引入了新的一层：Service 层。举个例子，风车目前集成了 GitHub、GitLab 和 BitBucket 的 hook。当用户向远端推送提交的时候，GitHub/BitBucket 会向风车的服务器发起一个请求，包含这些提交的信息。在风车这边收到这些请求的时候，首先需要去做特征判断，查明是来自于哪一个服务。然后分析判断推送消息，是否绑定到具体的任务。最后根据消息，判断是否要更新状态和创建讨论。整个处理的逻辑比较复杂又相对独立，涉及多个 Model 并且有多种不同的策略，非常适合抽象成一个 Service。另外的一些场景比如 Analytics Service，Password Service，Email Handler Service 等。&lt;/p&gt;
-
-&lt;h5&gt;Presenter Layer&lt;/h5&gt;
-
-&lt;p&gt;熟悉 Rails 开发的朋友一般都知道，View 层应该仅仅是用来显示数据，我们应该避免在 View 里面有逻辑。但是，很多时候会不可避免的会有一些很难维护的 View。去年 RubyConf China 2013，来自台湾的讲师 xdite 就介绍了如何写出可维护的 View，详见&lt;a href="https://leanpub.com/rails-view-book"&gt;这里&lt;/a&gt;。不过对于风车而言，大量的 View 是在客户端，服务端很少，只是提供了一些数据准备，所以没用多少技巧。只是因为数据准备涉及到了多个 Model 的数据以及来自于 Redis 数据库里面的数据，所以我们独立出了 Presenter Object，用来管理这些逻辑，而不是放在 View 里面。&lt;/p&gt;
-
-&lt;h5&gt;Observer&lt;/h5&gt;
-
-&lt;p&gt;Observer 一般而言是监控数据的，当数据创建、更新或者删除时，可以执行一些相应的操作，比如用户注册后可以发送注册邮件。但是风车里面的 Observer 有些许不同，除了监控数据以外，我们还监控 Controller，来了解数据变化相对应的请求信息，比如操作用户是谁。这里主要借鉴了 Rails 自带的 Caching Sweeper，后面我们会专门写一篇文章来介绍。&lt;/p&gt;
-
-&lt;h5&gt;Sidekiq&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href="http://sidekiq.org"&gt;Sidekiq&lt;/a&gt; 是一个简单强大的消息队列系统，目前可以说是 Ruby 世界里后台处理的首选。同类的选择还有 resque、delayed_job 等，但是 Sidekiq 之所以能迅速成为首选是基于两个特点，一是基于 Actor 模式的并行处理机制，二是基于 Redis 的 pubsub 模型，所以能用更少的内存资源来获得一样的处理能力。在风车里只要是能延迟的操作我们就会全放到后台执行，比如发送通知、数据统计、创建初始数据等等。这样子，我们就能让每个请求在最短的时间内完成，提高整个系统的吞吐量。Sidekiq 在收到消息后会在后台处理，即使失败了也会重试，更加可靠。&lt;/p&gt;
-
-&lt;h5&gt;Percona&lt;/h5&gt;
-
-&lt;p&gt;风车的主数据库还是使用了关系数据库 &lt;a href="http://www.percona.com"&gt;Percona&lt;/a&gt;，是基于 MySQL 的一个分支，但是因为使用了 Percona 公司自己研发的 XtraDB 存储引擎，具有更好的性能。另外一点好处是 Percona 号称是最接近官方 MySQL Enterprise 发行版的版本，可以完全与 MySQL 兼容，我可以很方便的做切换而不用修改代码。&lt;/p&gt;
-
-&lt;h5&gt;Redis&lt;/h5&gt;
-
-&lt;p&gt;&lt;a href="http://redis.io"&gt;Redis&lt;/a&gt; 在风车里面主要是两个用途：1. 用作 Caching Store，存储 View Cache 和 Record Cache 2. 加速数据访问，在内存中存储一些会频繁读写的数据，减少对 Percona 数据库的访问，比如 UID 映射表、统计信息之类。使用 Redis 而不是 Memcached 的原因是首先 Redis 的数据是持久的，不会因为重启而丢失，因为我们有一些无法立刻重建的数据，比如用户的在线状态，第二点是 Redis 可以用来存储一些复杂数据结构，比如 List 和 Set，对于统计信息来说非常合适。今年 Redis 3.0 有望正式发布，到时有 Redis Cluster 的支持，可以期待带来更好的性能。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Fengche.co Current Server" src="/images/fengcheco-architecture/current-server.png?1394601591" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h4&gt;扩展性&lt;/h4&gt;
-
-&lt;p&gt;以上但是风车整体的技术架构，不复杂，但是非常实用。目前我们只使用了 Linode 上的单台机器，因为业务逻辑主要在前端，后端以 API 为主，所以性能问题并不突出。但是还是得承认健壮性有所缺乏，一旦后台某点发生故障，比如数据库或者 Redis，都会影响到服务的正常运行。下面来谈谈后台架构的一些可扩展性，来源于我之前的工作，但并没有上风车实践。&lt;/p&gt;
-
-&lt;h5&gt;Rails&lt;/h5&gt;
-
-&lt;p&gt;Rails 一直被人诟病的是其的性能，最近也经常能看到不少类似 XX 应用从 Rails 迁移到 Node.js 后获得 YY 倍的性能之类的报道。上期 &lt;a href="http://teahour.fm/2014/02/24/first-nodejs.html"&gt;Teahour&lt;/a&gt; 跟朴灵也聊到，Node.js 是从框架上用事件驱动和非阻塞来保证高性能，减少程序员犯错。同样的效果，Ruby 也能做到，但是对程序员本身的要求会更高。几种可能的扩展方式。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Fengche.co Current Server" src="/images/fengcheco-architecture/server-goal1.png?1394601590" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Rails 应用本身很好水平扩展，我们目前用 Unicorn 作为应用服务器，使用 Nginx 作为前端服务器。Unicorn 是一个基于 Rack 的高性能 HTTP 服务器，Nginx 作为反向代理，通过 Unix Socket 或者 TCP 协议跟 Unicorn 通讯。所以，如果短期内流量增多，扩充机器性能是一个办法，也可以通过增加机器，在前端加负载均衡，后端加 Unicorn 进程数来提高系统吞吐量和处理能力。&lt;/li&gt;
-&lt;li&gt;从 Rails 应用中抽取 API 部分为独立的应用，因为前端和后端之间基本只有 API 通讯。API 部分可以使用更高性能的方案，比如 Ruby 世界里有 &lt;a href="http://postrank-labs.github.io/goliath/"&gt;Goliath&lt;/a&gt; + &lt;a href="https://github.com/intridea/grape‎"&gt;Grape&lt;/a&gt;。Goliath 跟 Node.js 的概念一样，都是异步非阻塞的高性能 HTTP 服务器。而 Grape 是非常轻量级的 API 框架。&lt;/li&gt;
-&lt;li&gt;当然也可以考虑用 JRuby 或者 Node.js 或者 Go，:p&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Fengche.co Current Server" src="/images/fengcheco-architecture/server-goal2.png?1394601590" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;h5&gt;Percona&lt;/h5&gt;
-
-&lt;p&gt;目前在数据库方便的优化不多，我们也只是在优化索引和尽量避免连表查询。不过风车这个应用性质决定了不会是大数据，尤其是我们有些数据还不通过 Percona 存储。惭愧的是目前风车只是做到了数据的备份，但是还没有做 Cluster、主从、读写分离这些，不过都是会在遇到瓶颈时去尝试的。跳出关系型数据库，也许可以尝试一些文档数据库如 Mongo，应该也蛮合适的。&lt;/p&gt;
-
-&lt;h5&gt;Redis&lt;/h5&gt;
-
-&lt;p&gt;Redis 对于风车最大的作用是用来存储分析数据，节省掉数据库的访问和运算。因为 Redis 在 2.X 版本的时候没有 Cluster 实现，目前要做扩展只能在上层通过一致性哈希来获得有限的支持。3.0 目前已经发布 beta 版，内建的 Cluster 功能还在测试中，值得期待。另外对于 Redis 的主从复制，针对不同的应用场景会有不同的问题，比如 Redis 持久化策略、主从间同步策略等。在百万级别以上的数据上，Redis 就必须要调优了，同时，每次重启的时候也很痛苦，重建库要花不少时间。所以，有可能的话，对数据进行分片，尽量只让新鲜数据或者常用数据留在内存里，陈旧数据可以存储到磁盘上。&lt;/p&gt;
-
-&lt;h5&gt;Sidekiq&lt;/h5&gt;
-
-&lt;p&gt;Sidekiq 本身是基于线程的单进程运行模式，使用 Redis 做为消息队列。所以，Sidekiq 的并行能力很容易提升，只要多起几个进程就可以了，前提是数据库和 Redis 都扛得住，当然还有内存这些硬件资源。&lt;/p&gt;
-
-&lt;h5&gt;Pusher&lt;/h5&gt;
-
-&lt;p&gt;这个就是使用在线服务的好处，花点钱把性能问题留给他们吧，价格也算合理，:)&lt;/p&gt;
-
-&lt;h4&gt;结语&lt;/h4&gt;
-
-&lt;p&gt;目前来说，我相信这套架构还能让我们撑不少时间，也可以很方便的做水平扩展。对于一个技术驱动型团队，这是我们的优势，也是对待事情应有的态度。感谢所有风车使用到的开源软件和在线服务，才能让我们这么&amp;quot;小&amp;quot;的一个团队，能有更好的时间专注在产品的核心价值上，节省时间去做&amp;quot;大&amp;quot;事。作为一个团队协作工具，风车也想帮助你们更好的工作。如果你懂得时间的价值，那么你应该使用风车来管理你的项目。风车，让协作更简单，让协作更高效。&lt;/p&gt;
-
-&lt;p&gt;有想法吗？&lt;a href="https://fengcheco.com"&gt;现在就试试吧&lt;/a&gt;！&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;span class="footnotes"&gt;
-欢迎交流！我可以针对一些常见的问题我来写 (二)，(三) 等。
 &lt;/span&gt;&lt;/p&gt;
 </content>
   </entry>
