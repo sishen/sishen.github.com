@@ -1,6 +1,6 @@
 @media (max-width: 960px) {
   #banner {
-    background: url("/images/fengche-banner-bg-960.png") no-repeat fixed;
+    background: url("/images/fengche-banner-bg-960.jpg") no-repeat fixed;
   }
   #header {
     padding-bottom: 1em;
@@ -91,6 +91,10 @@
 
 @media (max-width: 750px) {
   #header {
+    padding-top: 0px !important;
+    form {
+      display: none !important;
+    }
     .site-title {
       display: none;
     }
@@ -127,7 +131,7 @@
 
 @media (max-width: 650px) {
   #banner {
-    background: url("/images/fengche-banner-bg-650.png") no-repeat fixed;
+    background: url("/images/fengche-banner-bg-650.jpg") no-repeat fixed;
   }
   #header {
     padding-bottom: 0.5em;
@@ -195,7 +199,7 @@
 
 @media print, screen and (max-width: 480px) {
   #banner {
-    background: url("/images/fengche-banner-bg-480.png") no-repeat fixed;
+    background: url("/images/fengche-banner-bg-480.jpg") no-repeat fixed;
   }
   #header {
     #avatar {

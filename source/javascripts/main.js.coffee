@@ -12,10 +12,9 @@ $ ->
     e.preventDefault()
     $(this).parent(".aside").toggleClass("stretch")
 
-  $(document).on "scroll", (e) ->
-  	top = $(window).scrollTop()
-  	ele = $('.announcement')
-  	if top > 0
-      ele.addClass('sticky')
-    else
-      ele.removeClass('sticky')
+  $("#subscribe-cta form").on 'submit', (e) ->
+    $.cookie("subscribed", "1")
+
+  if $.cookie('subscribed') is "1"
+    $("#subscribe-cta form").css('display', 'none')
+    $("#header").css('padding-top', 0)
