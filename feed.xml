@@ -5,10 +5,87 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-05-15T05:04:00Z</updated>
+  <updated>2014-05-20T04:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>我们是如何使用风车的</title>
+    <link rel="alternate" href="/2014/05/20/how-fengche-use-fengche-to-build-fengche.html"/>
+    <id>/2014/05/20/how-fengche-use-fengche-to-build-fengche.html</id>
+    <published>2014-05-20T04:00:00Z</published>
+    <updated>2014-05-20T04:00:00Z</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;h3&gt;前言&lt;/h3&gt;
+
+&lt;p&gt;随着使用风车的团队越来越多，不少人都问我有没有一些风车使用最佳实践，很想知道我们风车团队自己是怎么使用风车这个工具的。所以在这里我就介绍一下我们的使用方式，整体来说，因为团队性质原因，会更加贴近产品开发团队。&lt;/p&gt;
+
+&lt;h3&gt;背景&lt;/h3&gt;
+
+&lt;p&gt;任何离开背景的使用方法都是没有意义的，所以在介绍我们如何使用风车前，先介绍一下我们的背景，如果你读过我之前写的一些文章的话，你可能会有所了解，我们是一个远程开发团队，每个成员都在不同的地方，主要通过在线沟通，所以在进度管理和沟通交流上很需要一个管理工具，对远程有兴趣的可以参看我的这篇文章 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;『远程工作经验谈 - 如何适应及如何管理』&lt;/a&gt;。二是风车的诞生初衷是为了解决我自己在项目管理上的问题的。我的上一份工作是一个企业社交工具的技术负责人，需要做项目管理的工作，我们前前后后使用过不少的工具，非常不尽如人意，我每天需要在工具上浪费一两个小时，非常痛苦，所以就萌生了自己做一个刚刚好的工具，风车就是这么来的。可以说，风车一开始是专门为开发人员打造的项目管理工具。尽管现在更加的普适，适用于任何流程化任务管理的场景，风车还是非常适合开发团队做项目管理用。&lt;/p&gt;
+
+&lt;p&gt;</summary>
+    <content type="html">&lt;h3&gt;前言&lt;/h3&gt;
+
+&lt;p&gt;随着使用风车的团队越来越多，不少人都问我有没有一些风车使用最佳实践，很想知道我们风车团队自己是怎么使用风车这个工具的。所以在这里我就介绍一下我们的使用方式，整体来说，因为团队性质原因，会更加贴近产品开发团队。&lt;/p&gt;
+
+&lt;h3&gt;背景&lt;/h3&gt;
+
+&lt;p&gt;任何离开背景的使用方法都是没有意义的，所以在介绍我们如何使用风车前，先介绍一下我们的背景，如果你读过我之前写的一些文章的话，你可能会有所了解，我们是一个远程开发团队，每个成员都在不同的地方，主要通过在线沟通，所以在进度管理和沟通交流上很需要一个管理工具，对远程有兴趣的可以参看我的这篇文章 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;『远程工作经验谈 - 如何适应及如何管理』&lt;/a&gt;。二是风车的诞生初衷是为了解决我自己在项目管理上的问题的。我的上一份工作是一个企业社交工具的技术负责人，需要做项目管理的工作，我们前前后后使用过不少的工具，非常不尽如人意，我每天需要在工具上浪费一两个小时，非常痛苦，所以就萌生了自己做一个刚刚好的工具，风车就是这么来的。可以说，风车一开始是专门为开发人员打造的项目管理工具。尽管现在更加的普适，适用于任何流程化任务管理的场景，风车还是非常适合开发团队做项目管理用。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3&gt;计划&lt;/h3&gt;
+
+&lt;p&gt;对于风车，我们有很多计划，比如日历、自定义状态等。但是毕竟资源所限，事情得一个一个来做，所以我们得区分长期计划和短期计划。对应到风车里，我们大量的使用收集箱和任务列表，如下图。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Planning" src="/images/how-fengche-use-fengche-to-build-fengche/planning.png?1400582492" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;风车是项目、任务列表和任务的三层结构。任务列表作为中间很重要的一环，是任务的集合，用来组织和管理任务。对开发来说，任务列表主要就是迭代周期。所以，我们会有两类非常重要的列表，一是当前迭代列表，二是短期计划列表。当前迭代列表如上图的&lt;strong&gt;『Dashboard Stats』&lt;/strong&gt;和&lt;strong&gt;『May Day』&lt;/strong&gt;，短期计划列表如上图的&lt;strong&gt;『六月工作计划』&lt;/strong&gt;。这里之所以有两个当前迭代列表是因为『Dashboard Stats』是一个大且独立的功能，会有很多小任务，需要多人协作，所以我们单独拿出来跟踪，而『May Day』是真正的当前迭代列表。至于『六月工作计划』，顾名思义，就是我们计划在下个月做的一些事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;『收集箱』&lt;/strong&gt;是另外一个很重要的列表，用来收集暂时还没有计划、零散的想法，比如一些未来有可能会加的功能。这里主要供我们做头脑风暴，当跟用户交流时有一些有意思的点后，就在收集箱记录下来，但是暂时不在当前周期做任何评估。等到了新的迭代开始前，我会过一遍收集箱，调整优先级，把一些能开始做的放入到短期计划列表中。&lt;/p&gt;
+
+&lt;p&gt;也许这时你有个新的问题，『收集箱』和『六月工作计划』是否有冲突或者冗余？这两者还是很不一样的。收集箱里存放的更多是用户故事这种，从用户角度出发的需求定义，粒度大，把一件事情说清楚就可以了。而六月执行计划里任务则从用户故事细化，变成可执行的任务，同时，这个列表也用来记录一些不太紧急的 bug。&lt;/p&gt;
+
+&lt;p&gt;所以当做计划时，事情就方便了，可以直接在『六月工作计划』里选择优先级高的任务，移动到新的当前迭代列表就可以了。与此同时，会对任务做一些简单的评估以及分配，确保工作量合理。而已经完成的任务列表，此时已经可以归档掉了。&lt;/p&gt;
+
+&lt;h3&gt;执行&lt;/h3&gt;
+
+&lt;p&gt;计划后就是执行期了，流程化的任务执行是风车的核心，让正确的人能在正确的时间去做正确的事情。要做到这点，首先必须确保大家的信息对称和一致，任何人都知道项目里发生了什么，事情做到了哪一步了。所以，我们要求任何人开始做某个任务的时候，都必须更新状态到『进行中』，同时，同时在进行中的任务最好不要超过一个。如果任务完成了，需要更新状态到『已完成』，可以让团队其他成员进行验收。所以，我随时都可以了解当前迭代进行到什么状态了，团队每个人正在做什么，哪些任务已经完成等待验收，哪些任务已经验收通过部署到线上，哪些任务还需要完成，如下图。同时，事情有轻重缓急，有重要不重要、紧急不紧急两个维度，所以我们约定待办列表里越上面的任务越紧急，同时在任务详情里设置重要或者不重要。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="任务清单" src="/images/how-fengche-use-fengche-to-build-fengche/center.png?1400582492" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;每个任务在待办的状态时并不一定会被分配给某位成员，我们更主张主动的去领任务，看看有什么自己可以做的，包括即使已经被分配给别人了。除了负责人以外，有些任务需要多人协作，比如上图 Roy 在实现『下载所有附件』的功能时，需要我这边提供一些前端实现上的帮忙，所以我会被 Roy 加入到协作者列表里面，这样这个任务发生的任何变化都会实时的通知到 Roy 和我，包括动态和讨论。关于协作者这个功能的用法，可以参考 Roy 写得这篇文章，&lt;a href="https://fengcheco.com/blog/new-feature-task-followers/"&gt;『新功能：协作者』&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="任务详情" src="/images/how-fengche-use-fengche-to-build-fengche/details.png?1400582492" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;讨论是另一个工作上非常重要的部分。我们是远程团队，大部分沟通都发生在线上，即使在线下我也不主张随意的去打断同事，见我之前写的文章 &lt;a href="http://yedingding.com/2013/12/03/improve-productivity-in-office.html"&gt;『不要让办公室成为你的效率杀手』&lt;/a&gt;。我们会尽量把跟任务执行相关的事情都放到风车里讨论，主要是出于两点考虑。首先是任何讨论都是按照主题划分的，对比用 QQ 这些聊天工具，实时的交流体验一样，但是主题明确，不会错乱，过程和结论也都有记录，随时可以回顾和查找。同时，对比交流直接靠吼，虽然讨论是同步推送到所有团队成员那里，但是可以异步处理，没有打断别人，可以等到完成手上工作后才去处理。有时如果需要把某个人拉进来讨论一些 feature，直接用 @ mention 就可以了，对方就会收到实时的通知。&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="任务讨论" src="/images/how-fengche-use-fengche-to-build-fengche/activity.png?1400582492" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;作为产品团队，时常会有一些新的需求进来，亦或是一些 bug。我们是允许随时有新的任务进来的，但是如果是哪种迟一天做早一天做关系不大的任务，就没必要添加进来打乱节奏了。&lt;/p&gt;
+
+&lt;h3&gt;发布&lt;/h3&gt;
+
+&lt;p&gt;作为产品团队，只有发布才是带来最终价值的，这也是我坚持做持续发布，而不是等整个迭代结束后统一发布的原因。另外，我们的代码质量更多的依赖代码审核和自动化测试，而不是放在 staging 环境做人肉测试，除非是一些比较大拿不准的变化。我在之前的文章&lt;a href="http://yedingding.com/2013/09/11/practical-git-flow-for-startups.html"&gt;『实用 GIT 工作流』&lt;/a&gt;介绍了我们团队使用的代码工作流，简单说，就是必须随时有一个可发布的分支，对应风车是 master 分支，同时，工作分支对应风车里的具体任务，跟 git commits 结合起来，同时能很简单很早的 merge 过来。我们的代码审核流程可以阅读这篇文章&lt;a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html"&gt;『让代码审查成为你的团队习惯』&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3&gt;总结&lt;/h3&gt;
+
+&lt;p&gt;回到风车的设计初衷，我们就是想设计一个刚刚好的工具，即使以后会有所扩展，但是一致的原则是用户使用仍然要简单高效，如果违背了这个原则，那么宁愿砍功能。我希望用户在使用时能专注做事，不要被冗余的东西所干扰，分散注意力或者带来额外的操作成本，这也是我们在可视范围只放必要东西的原因，让用户可以节省时间，更多的花在做事执行上。尽管用户会有各种各样的要求，希望能加这个功能那个功能，但是我会非常慎重的去筛选，我真的受够了过去在那些复杂的工具上浪费一两个小时！！！&lt;/p&gt;
+
+&lt;p&gt;如果说风车只有一个价值，那就是能让你的团队真正的不断优化工作流程。偶尔能听到一些人说人是最重要的，流程和工具无所谓，我只能说声呵呵，要不你就是能力没到，要不你就是没用过好的工具。一个简单的工具加上一个优化的流程能让整个团队事半功倍，这也是为什么在敏捷项目管理过程中会单独有个非常重要的步骤 &lt;strong&gt;Retrospective&lt;/strong&gt;，正是为了迭代改进流程。当你有了合适的人和合适的流程，千万不要忽略合适的工具，它真的会带来很大的不同，无论是不是风车。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>采访《七周七数据库》作者 Eric Redmond - 数据库的故事 </title>
     <link rel="alternate" href="/2014/05/15/database-with-eric-redmond.html"/>
@@ -18,7 +95,7 @@
     <author>
       <name>叶玎玎</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;&lt;img alt="AngularJS" src="/images/database-with-eric-redmond/database.jpg?1400134984"&gt;&lt;/aside&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;&lt;img alt="Sever Database in Seven Weeks" src="/images/database-with-eric-redmond/database.jpg?1400134984"&gt;&lt;/aside&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
@@ -34,7 +111,7 @@
 
 &lt;p&gt;&lt;strong&gt;Eric&lt;/strong&gt;: Sure, as you’ve mentioned, I’m Eric Redmond. I’m relevant to this episode. I co-authored a book with &lt;a href="https://twitter.com/hexlib"&gt;Jim Wilson&lt;/a&gt; called &lt;a href="http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks"&gt;Seven Databases in Seven Weeks&lt;/a&gt;. And the idea was that with all the changes that have been recurring in the database marketplace over the past few years, it was probably the single...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="AngularJS" src="/images/database-with-eric-redmond/database.jpg?1400134984" /&gt;
+  &lt;img alt="Sever Database in Seven Weeks" src="/images/database-with-eric-redmond/database.jpg?1400134984" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1436,55 +1513,6 @@ We can talk about Postgres for example. In any non-distributed systems, you have
 &lt;p&gt;细细分析，写作的整个过程其实跟做产品还蛮像的。一篇文章的出炉，需要历经计划、调研、初稿、复审、修订和发布的过程。做计划时需要了解文章读者是谁，他们的期望是什么，确定主题思想。调研时比较同类文章，梳理整个思路。一般在这个阶段后，我已经基本有了一个脑图。初稿就严格按照脑图需求，迅速成文。之后听取朋友反馈，多次修订，最后发布。整就一个精益写作的过程。&lt;/p&gt;
 
 &lt;p&gt;写作是一个非常值得培养的习惯。这个技能的练成，没有捷径，唯有不停的练习。时代在回归，人也要回归。千里之行，始于足下，YOU should get started!&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Test Your MVP, Seriously</title>
-    <link rel="alternate" href="/2014/04/17/test-your-mvp-seriously.html"/>
-    <id>/2014/04/17/test-your-mvp-seriously.html</id>
-    <published>2014-04-17T07:00:00Z</published>
-    <updated>2014-04-17T07:00:00Z</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Crossing the Chasm" src="/images/test-your-mvp-seriously/mvp.png?1397752296" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;最近 MetaLabs 既 Flow 之后正式对外发布了一款面向团队的新产品 &lt;a href="http://www.usepeak.com/"&gt;Peak&lt;/a&gt;，看着挺吸引人，所以准备去玩玩看。不过当我进入注册页面后，我犹豫了，相对冗长的信息填写，还要求信用卡信息，再回去看看定价方案，必须年费支付，思考了一会，最后打了退堂鼓。我们做产品的都会有一个共识，尽可能的降低用户的进入门槛，减少注册路径，让用户能尽快的了解产品的特色。而这里 Peak 是反其道而行之，我相信跟我一样因为犹豫最后放弃了的访问会不在少数。但是细细思考后，这种验证 MVP 的方法真好！&lt;/p&gt;
-
-&lt;p&gt;精益创业的核心是以最低的成本做出最小可行产品（MVP），小步验证快速迭代。这里面很难的一点是，怎样才算『最小可行』产品，即使同一个团队每个人心中的答案可能都不太一样，所以最后只能由用户说话。Peak 和我现在在做的风车一样，都属于企业服务，所以最好的验证方式就是用户用&lt;strong&gt;真金白银&lt;/strong&gt;来实际支持你，变成了客户。只有这样，我们才能知道到底是不是在正确的道路上，我们提供的解决方式是否具有足够的价值。国外的企业服务在产品刚推出期间经常会用类似的进入方式，如 14-天免费试用、信用卡准入、年费支付、甚至还有预付等等。我很喜欢这种方式，商业社会从第一天开始，其本质和基础就是建立在价值交换上，你给我提供了价值，我付给你钱，就这么简单。所以，从一开始就开始以吸纳客户为目的的 MVP 验证方式在我看来非常正确，反观国内，不知从何时起，得屌丝者得天下之论甚行，大多创业者喜欢跑马圈地，先把用户圈起来，然后想着总有一天有机会来剪羊毛。然而，可惜的是，绝大多数的创业团队，都撑不到那一天。&lt;/p&gt;
-
-&lt;p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Crossing the Chasm" src="/images/test-your-mvp-seriously/mvp.png?1397752296" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;最近 MetaLabs 既 Flow 之后正式对外发布了一款面向团队的新产品 &lt;a href="http://www.usepeak.com/"&gt;Peak&lt;/a&gt;，看着挺吸引人，所以准备去玩玩看。不过当我进入注册页面后，我犹豫了，相对冗长的信息填写，还要求信用卡信息，再回去看看定价方案，必须年费支付，思考了一会，最后打了退堂鼓。我们做产品的都会有一个共识，尽可能的降低用户的进入门槛，减少注册路径，让用户能尽快的了解产品的特色。而这里 Peak 是反其道而行之，我相信跟我一样因为犹豫最后放弃了的访问会不在少数。但是细细思考后，这种验证 MVP 的方法真好！&lt;/p&gt;
-
-&lt;p&gt;精益创业的核心是以最低的成本做出最小可行产品（MVP），小步验证快速迭代。这里面很难的一点是，怎样才算『最小可行』产品，即使同一个团队每个人心中的答案可能都不太一样，所以最后只能由用户说话。Peak 和我现在在做的风车一样，都属于企业服务，所以最好的验证方式就是用户用&lt;strong&gt;真金白银&lt;/strong&gt;来实际支持你，变成了客户。只有这样，我们才能知道到底是不是在正确的道路上，我们提供的解决方式是否具有足够的价值。国外的企业服务在产品刚推出期间经常会用类似的进入方式，如 14-天免费试用、信用卡准入、年费支付、甚至还有预付等等。我很喜欢这种方式，商业社会从第一天开始，其本质和基础就是建立在价值交换上，你给我提供了价值，我付给你钱，就这么简单。所以，从一开始就开始以吸纳客户为目的的 MVP 验证方式在我看来非常正确，反观国内，不知从何时起，得屌丝者得天下之论甚行，大多创业者喜欢跑马圈地，先把用户圈起来，然后想着总有一天有机会来剪羊毛。然而，可惜的是，绝大多数的创业团队，都撑不到那一天。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="High-Tech Product Life-Cycle" src="/images/test-your-mvp-seriously/product-lifecycle.png?1399041455" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;Geoffrey A. Moore 在其经典著作 『&lt;a href="http://en.wikipedia.org/wiki/Crossing_the_Chasm"&gt;Crossing the Chasm&lt;/a&gt; 』 里，提出了技术产品的生命周期定律，在天使用户和早期大众用户之间有一条很难跨越的鸿沟。结合精益创业的思想，MVP 迭代的做法正是为了能尽可能的去跨过去，可以说，MVP 是给天使用户而做，验证想法修正迭代以期最后改进成适合早期大众用户的真正产品。所以，一定要非常严肃的对待 MVP，而其中关键又是从用户那里得到足够的反馈。然而，既然我们需要用户，需要反馈，那是不是甩开膀子，用免费的方式，有足够的眼球和吆喝就可以了呢？很不幸的是，绝大部分情况下，不是。大量的免费用户也意味着大量的噪音，你得从中找到真正的意见，找到真正用户愿意付钱的点和用户不关心的点。回到价值交换上，用户之所以愿意掏钱成为客户的原因是你的产品的某个价值，越早的了解这个价值并有针对性的去放大这个价值会越助于你跨越鸿沟。想想以下一些场景，是否感觉很熟悉？&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;有用户告诉你：&amp;quot;你的产品做的很棒，是我见过做得最好的。&amp;quot;&lt;/li&gt;
-&lt;li&gt;有用户告诉你：&amp;quot;我一直都很想做一个这样的工具，现在你们做出来了，太好了。&amp;quot;&lt;/li&gt;
-&lt;li&gt;有用户告诉你：&amp;quot;第一次使用感觉非常舒服，体验非常好，很适合我们。&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;等等，这些是我在做『&lt;a href="https://fengcheco.com"&gt;风车&lt;/a&gt;』时从一些用户那里听到的，但是很不幸的是，说喜欢和花钱购买是两个天差地别的行为，好多这样友好的用户到最后都没有成为客户，也就只能让你在那个瞬间自我满足一下。更糟的是，有些用户可能还会给你一些混淆视听的意见，比如觉得如果有哪些哪些功能会更好。如果你好好的研究过用户，你会发现一件很好玩的事，就是用户和客户对应用的改进意见会有很大的不同。所以，最好的验证 MVP 方式不是看是否有足够大的用户量进来，而是有多少用户真正的需要你的产品并为之付费。一个产品从付费客户开始，会让你更好的了解你产品对于别人的价值，即使没有人愿意付费也是给你一个非常好的调整信号。所以，像 Peak 这种在产品推出之初，增加进入的门槛，让真正对 Peak 提供的解决方案感兴趣的潜在客户进来，在我看来是一种非常正确和值得学习的方式。&lt;/p&gt;
-
-&lt;p&gt;不知为啥，每次我跟一些人介绍风车是收费的时候，整个气氛就会突然变尴尬，好像收费是非常可耻的行为是的。尤其是喜欢开源的技术人员，更会觉得谈钱比较伤感情，只要能做一个别人喜欢用的产品，而不在乎能不能有钱赚。可惜商业是残酷的，没什么好在意的，我反而觉得免费是最偷懒和最懦弱的做法。&amp;quot;Stop talking, take my money&amp;quot; 是很多产品人做产品梦想遇到的事情，但是却很多时候藏着掖着，最后为了如何从免费用户那里赚钱想尽办法，甚至于直接去卖用户了，违背了一开始做产品的初衷。所以，如果你做的产品是一个为别人提供价值的产品，比如企业工具类，请放心大胆的，从第一天开始，就慎重考虑是否免费。如果你连收费都不敢，凭什么让我相信你不是玩一下见势不对就跑路的态度，那时时间比起金钱对我来说才是更大的损失。 免费的模式固然有其很多好处，但是从收费开始会让你更好的了解你的客户，更好的了解你的产品，你也完全可以在后期调整商业模式，提供收费外的其他选择，比如免费增值，但是建立在真正足够了解用户为啥掏钱的原因的基础上。&lt;/p&gt;
-
-&lt;p&gt;收费的另外一个好处是，你的支持成本在初期会降低很多，尤其在本来资源就紧缺的环境下。能提供很好的用户支持一般是创业公司相比较大公司能提供的优势，所以我们无法对一个用户说，因为你没付钱我们就不提供服务或者差一级的服务，每个愿意来花时间提意见的用户都应该得到我们的感谢，不管有多吹毛求疵。所以，这种时候商业模式的区别能帮你省很多力，让你去服务你更愿意服务的客户。&lt;/p&gt;
-
-&lt;p&gt;所有的 MVP 验证行为都是市场行为，依托于大量的假设和验证。你可以通过分析获取隐藏在数据背后的事实，参考『&lt;a href="http://yedingding.com/2014/03/27/growth-from-analytics.html"&gt;创业成长，从分析开始&lt;/a&gt;』，也可以通过与用户交流或者采访来获得真实的反馈。所以，请一定要根据你的 MVP，找到对的人群，严肃的，测试提供的解决方案的价值。如果你认可一个产品给你带来的价值，获益远超过你的付出，也请好好考虑是否购买使用，这不仅仅是支持，也是双赢，更是对整个生态圈的改善。&lt;/p&gt;
 </content>
   </entry>
 </feed>

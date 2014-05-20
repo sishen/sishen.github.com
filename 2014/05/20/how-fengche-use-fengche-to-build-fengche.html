@@ -1,0 +1,253 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="zh"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh"><![endif]-->
+<!--[if gt IE 8]<!-->
+<html class="no-js" lang="zh">
+  <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+
+    <title>
+      我们是如何使用风车的| Do Great Things -  叶玎玎
+    </title>
+
+    <meta name="description" content="  随着使用风车的团队越来越多，不少人都问我有没有一些风车使用最佳实践，很想知道我们风车团队自己是怎么使用风车这个工具开发风车这个工具的。所以在这里我就介绍一下我们的使用方式，整体来说，因为团队性质原因，会更加贴近产品开发团队。
+">
+    <meta name="keywords" content="风车, 流程, 产品开发">
+    <meta name="author" content="叶玎玎">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="google-site-verification" content="uXO_mIxt-ybh2KtYPvdchE0XN8xpJeMZd2MqueSOsdQ" />
+
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="Ben He's Homepage" href="/feed.xml" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <script src="/javascripts/all.js"></script>
+  </head>
+  <body class="x2014 x2014_05 x2014_05_20 x2014_05_20_how-fengche-use-fengche-to-build-fengche">
+    <div id="banner" style="height: 440px">
+    </div>
+    <header id="header">
+      <div id="subscribe-cta">
+        <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
+          <label for="email">分享技术、创业、团队协作和项目管理上的思考，每周更新</label>
+          <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
+          <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
+        </form>
+      </div>
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="http://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
+    <section class="main">
+      <div class="container">
+        
+  <article class="post single">
+
+    <header>
+  <h2 class="title">
+    <a href="/2014/05/20/how-fengche-use-fengche-to-build-fengche.html">我们是如何使用风车的</a>
+  </h2>
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>May 20, 2014</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
+      
+        <a href="/tags/风车.html">风车</a>
+      
+        <a href="/tags/流程.html">流程</a>
+      
+    </span>
+  </div>
+</header>
+
+<div class="content">
+  <h3>前言</h3>
+
+<p>随着使用风车的团队越来越多，不少人都问我有没有一些风车使用最佳实践，很想知道我们风车团队自己是怎么使用风车这个工具的。所以在这里我就介绍一下我们的使用方式，整体来说，因为团队性质原因，会更加贴近产品开发团队。</p>
+
+<h3>背景</h3>
+
+<p>任何离开背景的使用方法都是没有意义的，所以在介绍我们如何使用风车前，先介绍一下我们的背景，如果你读过我之前写的一些文章的话，你可能会有所了解，我们是一个远程开发团队，每个成员都在不同的地方，主要通过在线沟通，所以在进度管理和沟通交流上很需要一个管理工具，对远程有兴趣的可以参看我的这篇文章 <a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html">『远程工作经验谈 - 如何适应及如何管理』</a>。二是风车的诞生初衷是为了解决我自己在项目管理上的问题的。我的上一份工作是一个企业社交工具的技术负责人，需要做项目管理的工作，我们前前后后使用过不少的工具，非常不尽如人意，我每天需要在工具上浪费一两个小时，非常痛苦，所以就萌生了自己做一个刚刚好的工具，风车就是这么来的。可以说，风车一开始是专门为开发人员打造的项目管理工具。尽管现在更加的普适，适用于任何流程化任务管理的场景，风车还是非常适合开发团队做项目管理用。</p>
+
+<p></p>
+
+<h3>计划</h3>
+
+<p>对于风车，我们有很多计划，比如日历、自定义状态等。但是毕竟资源所限，事情得一个一个来做，所以我们得区分长期计划和短期计划。对应到风车里，我们大量的使用收集箱和任务列表，如下图。</p>
+
+<p><aside class="aside">
+  <img alt="Planning" src="/images/how-fengche-use-fengche-to-build-fengche/planning.png?1400582492" />
+</aside></p>
+
+<p>风车是项目、任务列表和任务的三层结构。任务列表作为中间很重要的一环，是任务的集合，用来组织和管理任务。对开发来说，任务列表主要就是迭代周期。所以，我们会有两类非常重要的列表，一是当前迭代列表，二是短期计划列表。当前迭代列表如上图的<strong>『Dashboard Stats』</strong>和<strong>『May Day』</strong>，短期计划列表如上图的<strong>『六月工作计划』</strong>。这里之所以有两个当前迭代列表是因为『Dashboard Stats』是一个大且独立的功能，会有很多小任务，需要多人协作，所以我们单独拿出来跟踪，而『May Day』是真正的当前迭代列表。至于『六月工作计划』，顾名思义，就是我们计划在下个月做的一些事情。</p>
+
+<p><strong>『收集箱』</strong>是另外一个很重要的列表，用来收集暂时还没有计划、零散的想法，比如一些未来有可能会加的功能。这里主要供我们做头脑风暴，当跟用户交流时有一些有意思的点后，就在收集箱记录下来，但是暂时不在当前周期做任何评估。等到了新的迭代开始前，我会过一遍收集箱，调整优先级，把一些能开始做的放入到短期计划列表中。</p>
+
+<p>也许这时你有个新的问题，『收集箱』和『六月工作计划』是否有冲突或者冗余？这两者还是很不一样的。收集箱里存放的更多是用户故事这种，从用户角度出发的需求定义，粒度大，把一件事情说清楚就可以了。而六月执行计划里任务则从用户故事细化，变成可执行的任务，同时，这个列表也用来记录一些不太紧急的 bug。</p>
+
+<p>所以当做计划时，事情就方便了，可以直接在『六月工作计划』里选择优先级高的任务，移动到新的当前迭代列表就可以了。与此同时，会对任务做一些简单的评估以及分配，确保工作量合理。而已经完成的任务列表，此时已经可以归档掉了。</p>
+
+<h3>执行</h3>
+
+<p>计划后就是执行期了，流程化的任务执行是风车的核心，让正确的人能在正确的时间去做正确的事情。要做到这点，首先必须确保大家的信息对称和一致，任何人都知道项目里发生了什么，事情做到了哪一步了。所以，我们要求任何人开始做某个任务的时候，都必须更新状态到『进行中』，同时，同时在进行中的任务最好不要超过一个。如果任务完成了，需要更新状态到『已完成』，可以让团队其他成员进行验收。所以，我随时都可以了解当前迭代进行到什么状态了，团队每个人正在做什么，哪些任务已经完成等待验收，哪些任务已经验收通过部署到线上，哪些任务还需要完成，如下图。同时，事情有轻重缓急，有重要不重要、紧急不紧急两个维度，所以我们约定待办列表里越上面的任务越紧急，同时在任务详情里设置重要或者不重要。</p>
+
+<p><aside class="aside">
+  <img alt="任务清单" src="/images/how-fengche-use-fengche-to-build-fengche/center.png?1400582492" />
+</aside></p>
+
+<p>每个任务在待办的状态时并不一定会被分配给某位成员，我们更主张主动的去领任务，看看有什么自己可以做的，包括即使已经被分配给别人了。除了负责人以外，有些任务需要多人协作，比如上图 Roy 在实现『下载所有附件』的功能时，需要我这边提供一些前端实现上的帮忙，所以我会被 Roy 加入到协作者列表里面，这样这个任务发生的任何变化都会实时的通知到 Roy 和我，包括动态和讨论。关于协作者这个功能的用法，可以参考 Roy 写得这篇文章，<a href="https://fengcheco.com/blog/new-feature-task-followers/">『新功能：协作者』</a>。</p>
+
+<p><aside class="aside">
+  <img alt="任务详情" src="/images/how-fengche-use-fengche-to-build-fengche/details.png?1400582492" />
+</aside></p>
+
+<p>讨论是另一个工作上非常重要的部分。我们是远程团队，大部分沟通都发生在线上，即使在线下我也不主张随意的去打断同事，见我之前写的文章 <a href="http://yedingding.com/2013/12/03/improve-productivity-in-office.html">『不要让办公室成为你的效率杀手』</a>。我们会尽量把跟任务执行相关的事情都放到风车里讨论，主要是出于两点考虑。首先是任何讨论都是按照主题划分的，对比用 QQ 这些聊天工具，实时的交流体验一样，但是主题明确，不会错乱，过程和结论也都有记录，随时可以回顾和查找。同时，对比交流直接靠吼，虽然讨论是同步推送到所有团队成员那里，但是可以异步处理，没有打断别人，可以等到完成手上工作后才去处理。有时如果需要把某个人拉进来讨论一些 feature，直接用 @ mention 就可以了，对方就会收到实时的通知。</p>
+
+<p><aside class="aside">
+  <img alt="任务讨论" src="/images/how-fengche-use-fengche-to-build-fengche/activity.png?1400582492" />
+</aside></p>
+
+<p>作为产品团队，时常会有一些新的需求进来，亦或是一些 bug。我们是允许随时有新的任务进来的，但是如果是哪种迟一天做早一天做关系不大的任务，就没必要添加进来打乱节奏了。</p>
+
+<h3>发布</h3>
+
+<p>作为产品团队，只有发布才是带来最终价值的，这也是我坚持做持续发布，而不是等整个迭代结束后统一发布的原因。另外，我们的代码质量更多的依赖代码审核和自动化测试，而不是放在 staging 环境做人肉测试，除非是一些比较大拿不准的变化。我在之前的文章<a href="http://yedingding.com/2013/09/11/practical-git-flow-for-startups.html">『实用 GIT 工作流』</a>介绍了我们团队使用的代码工作流，简单说，就是必须随时有一个可发布的分支，对应风车是 master 分支，同时，工作分支对应风车里的具体任务，跟 git commits 结合起来，同时能很简单很早的 merge 过来。我们的代码审核流程可以阅读这篇文章<a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html">『让代码审查成为你的团队习惯』</a>。</p>
+
+<h3>总结</h3>
+
+<p>回到风车的设计初衷，我们就是想设计一个刚刚好的工具，即使以后会有所扩展，但是一致的原则是用户使用仍然要简单高效，如果违背了这个原则，那么宁愿砍功能。我希望用户在使用时能专注做事，不要被冗余的东西所干扰，分散注意力或者带来额外的操作成本，这也是我们在可视范围只放必要东西的原因，让用户可以节省时间，更多的花在做事执行上。尽管用户会有各种各样的要求，希望能加这个功能那个功能，但是我会非常慎重的去筛选，我真的受够了过去在那些复杂的工具上浪费一两个小时！！！</p>
+
+<p>如果说风车只有一个价值，那就是能让你的团队真正的不断优化工作流程。偶尔能听到一些人说人是最重要的，流程和工具无所谓，我只能说声呵呵，要不你就是能力没到，要不你就是没用过好的工具。一个简单的工具加上一个优化的流程能让整个团队事半功倍，这也是为什么在敏捷项目管理过程中会单独有个非常重要的步骤 <strong>Retrospective</strong>，正是为了迭代改进流程。当你有了合适的人和合适的流程，千万不要忽略合适的工具，它真的会带来很大的不同，无论是不是风车。</p>
+
+
+  <div class="bdsharebuttonbox share">
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+    <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+  </div>
+  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <div class="clearfix"></div>
+  <div class="about">
+    <div class="author-photo">
+      <img src="/images/yedingding.png?1399041455" />
+    </div>
+    <div class="author-content">
+      <h4>关于我</h4>
+
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+
+      <p class="social-action">
+        <span class="weibo">
+          <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
+        </span>
+        <span class="twitter">
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">Follow on Twitter</a>
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+  </article>
+
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      if (window.location.host === "yedingding.com") {
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
+        var disqus_identifier = 'fengche-with-fengche';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      }
+
+      $.ready(function() {
+        $('#disqus_thread iframe').css('height', '').css({
+          'height': '500px',
+          'height': 'auto !important',
+          'min-height': '500px'
+        });
+      });
+    </script>
+
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
+
+        <footer class="copyright">
+          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen"><i class="fa fa-github"></i></a></li>
+            <li><a href="http:///weibo.com/presently"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://cn.linkedin.com/in/yedingding"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-37202649-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  </body>
+</html>
