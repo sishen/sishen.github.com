@@ -8,7 +8,7 @@ description: "本期由 Kevin Wang 主持，Dingding Ye 协作主持，邀请到
 ---
 
 <aside class="aside">
-  ![AngularJS](database-with-eric-redmond/database.jpg)
+  ![Sever Database in Seven Weeks](database-with-eric-redmond/database.jpg)
 </aside>
 
 <blockquote>
