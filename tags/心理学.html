@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="/stylesheets/application.css">
     <script src="/javascripts/all.js"></script>
   </head>
-  <body class="tags tags_nosql">
+  <body class="tags tags_---">
     <div id="banner" style="height: 440px">
     </div>
     <header id="header">
@@ -71,53 +71,48 @@
     </header>
     <section class="main">
       <div class="container">
-        <h1 class="tag-page-title">Articles tagged '<em>nosql</em>'</h1>
+        <h1 class="tag-page-title">Articles tagged '<em>心理学</em>'</h1>
 
 <div id="posts">
     <article class="post">
       <header>
   <h2 class="title">
-    <a href="/2014/05/15/database-with-eric-redmond.html">采访《七周七数据库》作者 Eric Redmond - 数据库的故事 </a>
+    <a href="/2014/06/17/know-your-consumers.html">你是否关注过消费者心理？</a>
   </h2>
   <div class="meta">
     <span class="dates">
-      <i class="fa fa-calendar-o"></i> <span class='date'>May 15, 2014</span>
+      <i class="fa fa-calendar-o"></i> <span class='date'>Jun 17, 2014</span>
     </span>
     <span class="tags">
       <i class="fa fa-tags"></i>
-        <a href="/tags/teahour.html">teahour</a>
-        <a href="/tags/database.html">database</a>
-        <a href="/tags/nosql.html">nosql</a>
+        <a href="/tags/市场营销.html">市场营销</a>
+        <a href="/tags/心理学.html">心理学</a>
     </span>
   </div>
 </header>
 
 <div class="content">
   <p><aside class="aside">
-  <img alt="Sever Database in Seven Weeks" src="/images/database-with-eric-redmond/database.jpg?1400134984">
+  <img alt="消费者心理学" src="/images/know-your-consumers/consumer-psychology.jpg?1403056180">
 </aside></p>
 
-<blockquote>
-  目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
-</blockquote>
+<p>上一期 <a href="http://teahour.fm/2014/05/22/talk-about-finddog.html">Teahour</a> 跟找狗网的创始人 James 聊起 2C 产品和 2B 产品的区别时，James 提到 2C 更多的是心理学操控，在人性的操控上，给大家多一些很奇怪的好处，比如最近在台湾很火的麦当劳早安闹钟应用，在你设立闹钟起床的同时，可以去麦当劳领取一份早餐优惠劵，又有一些好玩的点让你去分享这份经历，成为热门新闻话题，瞬间引爆，上架首日就冲上 App Store 免费排行榜第一名，没有刷榜喔。仔细思考这个案例其实很有意思，里面有很多的心理学及设计考量，而这些往往是我很少关注的。</p>
 
-<p>本期音频文本非常感谢<a href="http://weibo.com/wuyicun">@吴怡村</a>的整理。本文是 Teahour 第 18 期 <a href="http://teahour.fm/2013/06/03/databases-with-eric-redmond.html">『Interview with Eric Redmond about Database』</a> 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 <a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en">http://itunes.apple.com/cn/podcast/teahour.fm/id608387170</a>。Android 用户可以使用 <a href="http://m.coolapk.com/apk/de.danoeh.antennapod">AntennaPod</a> 来订阅。同时，欢迎加 Teahour 好友，<a href="http://weibo.com/teahourfm">微博</a>和 <a href="https://twitter.com/teahourfm">Twitter</a>。</p>
+<p>移动平台、实时技术、社会化媒体、微信营销、O2O，过去几年这些名词发展的很快，给创业者带来了很大的机会，也带来了新的挑战。那是否堆砌几个关键词就能成功了？显然不是，用户根本不关心这些新概念抑或新特性，如何能用这些来提高用户满意度，影响用户的购买决策过程，才是真正的关键，而这，既是消费者心理学，又是社会心理学。</p>
 
-<p><audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_18.m4a" type="audio/mpeg">
-</source></audio></p>
+<p>百度百科对<a href="http://baike.baidu.com/subview/165512/5093838.htm">消费者心理学</a>的介绍中，提到了人类行为的几种常见心理以及不同类型的人群的消费心理差别。让我们回想一下自己最近几次的消费经历，不管是软件、服务还是实物，你为什么要买这个东西？你是非常理智的进行消费行为的吗？你是否受到外界因素的影响？你是否属于冲动型消费？大多数情况下，我们并不如我们自己想的那么理智，我们的消费行为是受到情感因素的影响，在一定的推波助澜下做出的决定，当然，我们后面会给自己找出千百种理由，来说服自己为何这次消费是合理的。</p>
 
-<h4>Part 1: Introduction and the CAP theorem</h4>
+<p><aside class="aside">
+  <img alt="农夫山泉" src="/images/know-your-consumers/nongfusanquan.jpg?1403056180">
+</aside></p>
 
-<p><strong>Kevin</strong>: Welcome everybody! In this episode, we have <a href="http://coderoshi.com/">Eric Redmond</a> with us. I’m your host <a href="http://knwang.com/">Kevin</a> and we also have <a href="http://yedingding.com/">Dingding</a>. Eric, why don’t you introduce yourself first?</p>
-
-<p><strong>Eric</strong>: Sure, as you’ve mentioned, I’m Eric Redmond. I’m relevant to this episode. I co-authored a book with <a href="https://twitter.com/hexlib">Jim Wilson</a> called <a href="http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks">Seven Databases in Seven Weeks</a>. And the idea was that with all the changes that have been recurring in the database marketplace over the past few years, it was probably the...</p>
+<p>这是农夫山泉的一则广告，营销其实也是如此。我们并不是要去也不能创造出消费者的一个需求，而是去激发他未开发或者未意识到的需求，驱使他做出消费决策。如何去寻找到这个需求并且刺激用户，正是分辨好的营销人员和差的营销人员的差别。Simon Sinek 曾在 TEDx 上做过一次非常棒的分享<a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action">『How great leaders...</a></p>
 
   <p>
     ......
   </p>
   <p>
-    <a href="/2014/05/15/database-with-eric-redmond.html">Read more →</a>
+    <a href="/2014/06/17/know-your-consumers.html">Read more →</a>
   </p>
 </div>
     </article>
