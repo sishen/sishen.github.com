@@ -13,10 +13,21 @@ $ ->
     $(this).parent(".aside").toggleClass("stretch")
 
   $("#subscribe-cta form").on 'submit', (e) ->
-    $.cookie("subscribed", "1")
+    $.cookie("subscribed", "1", { expires: 365 })
     $("#subscribe-cta form").css('display', 'none')
     $("#header").css('padding-top', 0)
 
   if $.cookie('subscribed') is "1"
     $("#subscribe-cta form").css('display', 'none')
     $("#header").css('padding-top', 0)
+
+  $(".rss a").on 'click', (e) ->
+    e.preventDefault()
+    e.stopPropagation()
+    $(".subscribe-form form").toggle()
+
+  $(".subscribe-form form").on 'submit', (e) ->
+    $.cookie("subscribed", "1", { expires: 365 })
+    $("#subscribe-cta form").css('display', 'none')
+    $("#header").css('padding-top', 0)
+    $(".subscribe-form form").toggle()
