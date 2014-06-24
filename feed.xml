@@ -19,16 +19,16 @@
       <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="WWDC 2014" src="/images/write-the-code-change-the-world/WWDC14.png?1403585998"&gt;
+  &lt;img alt="WWDC 2014" src="/images/write-the-code-change-the-world/WWDC14.png?1403585998" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
-&lt;p&gt;“Write the Code. Change the world.”, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Write the Code. Change the world.&amp;rdquo;, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。&lt;/p&gt;
 
 &lt;p&gt;六一应 &lt;a href="http://segementfault.com"&gt;SegmentFault&lt;/a&gt;&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 高阳邀请，在其两周年黑客马拉松活动中作为技术创业者的代表，做一个分享。虽然作为创业者分享经验很不够格，不过这两年做风车下来也的确有一些想法，另外通过 &lt;a href="http://teahour.fm"&gt;Teahour&lt;/a&gt; 从不少创业者那里学到了很多，所以也就在活动上做了一次简短的即兴演讲，刚好跟 『Write the Code. Change the world』有点关联。&lt;/p&gt;
 
 &lt;p&gt;SegmentFault 的使命是『创造属于开发者的时代』，我个人很喜欢这个远景，很美好。作为开发者，处在现在这个时代，我们是幸运的。我记得我 06 年的时候第一次跟朋友创业做互联网产品，当时什么东西都要自己去管，比如要自己买服务器、找 IDC 托管、产品开发中如果需要用什么服务都要自己做，真的是很讨厌，既浪费时间又浪费精力。而现在呢，相比较起来我们去制作一个产品的成本已经很低了，一个团队，三个月时间迅速开发原型，云主机用 UCloud 之类，文件存储用又拍云，发邮件用 SendCloud，还有各种开放平台等等。所以，作为一个开发者，作为一个会写代码的人&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;，我们有个很大的优势，就是就算整个世界抛弃了你，你还是能一个人去把产品开发出来，启动成本很低。&lt;/p&gt;
 
-&lt;p&gt;但是，是否启动成本低，我们就应该甩开膀子干呢？千万别，思考清楚了，宁愿在真正开始做事情前...&lt;/p&gt;</summary>
+&lt;p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
   &lt;img alt="WWDC 2014" src="/images/write-the-code-change-the-world/WWDC14.png?1403585998" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
@@ -38,6 +38,8 @@
 &lt;p&gt;六一应 &lt;a href="http://segementfault.com"&gt;SegmentFault&lt;/a&gt;&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 高阳邀请，在其两周年黑客马拉松活动中作为技术创业者的代表，做一个分享。虽然作为创业者分享经验很不够格，不过这两年做风车下来也的确有一些想法，另外通过 &lt;a href="http://teahour.fm"&gt;Teahour&lt;/a&gt; 从不少创业者那里学到了很多，所以也就在活动上做了一次简短的即兴演讲，刚好跟 『Write the Code. Change the world』有点关联。&lt;/p&gt;
 
 &lt;p&gt;SegmentFault 的使命是『创造属于开发者的时代』，我个人很喜欢这个远景，很美好。作为开发者，处在现在这个时代，我们是幸运的。我记得我 06 年的时候第一次跟朋友创业做互联网产品，当时什么东西都要自己去管，比如要自己买服务器、找 IDC 托管、产品开发中如果需要用什么服务都要自己做，真的是很讨厌，既浪费时间又浪费精力。而现在呢，相比较起来我们去制作一个产品的成本已经很低了，一个团队，三个月时间迅速开发原型，云主机用 UCloud 之类，文件存储用又拍云，发邮件用 SendCloud，还有各种开放平台等等。所以，作为一个开发者，作为一个会写代码的人&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;，我们有个很大的优势，就是就算整个世界抛弃了你，你还是能一个人去把产品开发出来，启动成本很低。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;但是，是否启动成本低，我们就应该甩开膀子干呢？千万别，思考清楚了，宁愿在真正开始做事情前多花时间思考。我在去年曾经写过一篇文章&lt;a href="http://yedingding.com/2013/10/11/how-to-find-tech-cofounder.html"&gt;『如何吸引技术合伙人』&lt;/a&gt;，其中很关键的两点是看对方是否对 idea 有足够的认识以及是否有 traction 可以验证。换位思考，我们自己创业时，也应该如此，多思考，好的坏的都要思考。&lt;/p&gt;
 
