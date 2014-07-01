@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/follmann/middleman-favicon-maker.git
-  revision: bfd964db0a47c658f9bf76df6ed9744e2565c372
-  specs:
-    middleman-favicon-maker (3.7)
-      favicon_maker (~> 1.3)
-      middleman-core (>= 3.0.0)
-
-GIT
   remote: git://github.com/middleman/middleman-livereload.git
   revision: 2fb67583a565940d88c6a2fa2538af5eb390ba4d
   specs:
@@ -57,7 +49,6 @@ GEM
       chunky_png (>= 0.8.0)
       compass (>= 0.10.0)
     daemons (1.1.9)
-    docile (1.1.5)
     dotenv (0.11.1)
       dotenv-deployment (~> 0.0.2)
     dotenv-deployment (0.0.2)
@@ -67,8 +58,6 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.2.0)
-    favicon_maker (1.3)
-      docile (~> 1.1)
     ffi (1.9.3)
     foreman (0.71.0)
       dotenv (~> 0.11.1)
@@ -199,7 +188,6 @@ DEPENDENCIES
   middleman
   middleman-blog
   middleman-deploy
-  middleman-favicon-maker!
   middleman-livereload!
   middleman-smusher!
   middleman-syntax!

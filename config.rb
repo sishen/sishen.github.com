@@ -111,10 +111,6 @@ configure :build do
   # Enable cache buster
   activate :cache_buster
 
-  # Make favicons
-  # use: https://github.com/follmann/middleman-favicon-maker
-  activate :favicon_maker
-
   # Use relative URLs
   # activate :relative_assets
 
