@@ -27,6 +27,20 @@ body {
   }
 }
 
+#cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  z-index: 10;
+  opacity: 0.8;
+
+  img {
+    max-width: 100%;
+  }
+}
+
 #subscribe-cta {
   form {
     background-color: #A6C6AF;
@@ -89,6 +103,12 @@ body {
         padding: 2px 6px;
       }
     }
+  }
+}
+
+.with-cover {
+  #header {
+    padding-bottom: 3em;
   }
 }
 

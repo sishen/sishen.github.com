@@ -94,7 +94,7 @@ set :images_dir, 'images'
 
 
 set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, autolink: true, smartypants: true, footnotes: true
+set :markdown, fenced_code_blocks: true, autolink: true, smartypants: true, footnotes: true, strikethrough: true
 
 # Livereload
 # use: https://github.com/middleman/middleman-livereload

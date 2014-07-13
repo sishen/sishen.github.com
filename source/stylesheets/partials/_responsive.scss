@@ -1,9 +1,15 @@
+@media (max-width: 1280px) {
+  #header {
+    padding-bottom: 2em !important;
+  }
+}
+
 @media (max-width: 960px) {
   #banner {
     background: url("/images/fengche-banner-bg-960.jpg") no-repeat fixed;
   }
   #header {
-    padding-bottom: 1em;
+    padding-bottom: 1em !important;
 
     #avatar {
       padding-top: 2em;
@@ -134,7 +140,7 @@
     background: url("/images/fengche-banner-bg-650.jpg") no-repeat fixed;
   }
   #header {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em !important;
 
     #avatar {
       padding-top: 1.5em;
@@ -172,7 +178,7 @@
 
 @media (max-width: 550px) {
   #header {
-    padding-bottom: 0.3em;
+    padding-bottom: 0.3em !important;
 
     #avatar {
       padding-top: 1.2em;
@@ -191,6 +197,11 @@
   .main .container {
     padding: 20px 40px 5px 40px;
 
+    .title {
+      font-size: 1.6em !important;
+      line-height: 1.1em !important;
+    }
+
     .share {
       zoom: 0.8;
     }
@@ -203,17 +214,11 @@
   }
   #header {
     #avatar {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-
-      img {
-        width: 40px;
-      }
+      display: none;
     }
 
     .site-description {
-      letter-spacing: 3px !important;
+      display: none;
     }
   }
 
@@ -222,11 +227,22 @@
     padding: 10px 20px 0px 20px;
 
     .title {
-      font-size: 1.7em !important;
-      line-height: 1em !important;
+      font-size: 1.4em !important;
+      line-height: 1.1em !important;
+      text-align: left;
     }
     .meta {
+      margin-top: 10px;
+      text-align: left;
       font-size: 14px !important;
+
+      > span {
+        display: block;
+      }
+
+      .tags {
+        display: none;
+      }
     }
 
     .about {
@@ -264,6 +280,9 @@
   }
 
   .main .container {
+    .title {
+      font-size: 1.2em !important;
+    }
     .about {
       .author-photo img {
         width: 70px !important;
@@ -281,8 +300,12 @@
           position: absolute;
           left: 40px;
 
+          .weibo {
+            margin-left: 10px !important;
+          }
+
           .twitter {
-            margin-left: 20px !important;
+            margin-left: 10px !important;
           }
         }
       }
