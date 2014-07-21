@@ -46,7 +46,7 @@
 &lt;p&gt;一个产品的成功，也许需要天时地利人和&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;，但是要做到不失败相对就容易的多了。我想分享一些我们做事的方式，希望能帮助到你。这里没有互联网思维，这里没有成功学，有的只是真正的工作实践心得，甚至有些也许都是很笨的，但是希望这些分享能给你带来一点点的启发，并且还能付诸于实践。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class=“aside”&gt;
-  &lt;img alt="Scrum Roles" src="/images/deliver-better-product-i/KnibergRoles.jpg?1404985052" /&gt;
+  &lt;img alt="Scrum Roles" src="http://yedingding.com/images/deliver-better-product-i/KnibergRoles.jpg?1404985052" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;上图是对 Scrum 敏捷方法不同角色的职责的很好诠释，即使是对于不采用 Scrum 的团队来说，我们也应该这样去做产品。做正确的事情，正确的做事情，并且快速的做事情，这样一个团队，最佳情况就是总是能在正确的时间用正确的方法做正确的事，非常完美。对于这个系列的计划，我希望能涵盖产品的整个生命线。本文开篇，主要介绍如何做产品远景和形态探索，后面的文章会涉及如何做用户角色分析，如何做用户故事、如何做计划评估、如果做迭代计划、如何协作执行、如何做回顾测试、如何做用户访谈等&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
@@ -58,7 +58,7 @@
 &lt;p&gt;正如我在&lt;a href="http://yedingding.com/2014/06/17/know-your-consumers.html"&gt;「你是否关注过消费者心理？」&lt;/a&gt; 所写，优秀的市场营销者，会先去传递产品的使命，然后才是与使命匹配的具体需求实现。对外如此，对内同样需要如此，不然团队事情会做的很茫然。为什么我们要做这个功能，为什么我们不做那个功能？为什么我们现在需要做这个，而不是那个？回忆一下，曾经你有没有问过自己这些问题，为什么会问这些问题。究其原因，其实是产品的使命和远景缺乏透明，或者不够简单和清晰，最终导致了执行层面的混乱。用句最近流行的话来讲，『你不要用战术的勤奋来掩盖战略的懒惰』，不要去逃避寻找远景这个答案。只有有了产品远景，后面的路才能走得顺，不然相信我，出来混，迟早是要还的。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class=“aside”&gt;
-  &lt;img alt="Vision" src="/images/deliver-better-product-i/vision.jpg?1404985052" /&gt;
+  &lt;img alt="Vision" src="http://yedingding.com/images/deliver-better-product-i/vision.jpg?1404985052" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;那么，应该如何才能定出一个好的产品远景呢？作为一个创业者，我们时常被要求用一句话来描述清楚产品，远景也应该如此。经典的 30 秒电梯游说就非常适合用来做产品远景测试，&lt;/p&gt;
@@ -88,7 +88,7 @@
 &lt;p&gt;当有了这个远景以后，我们就应该围绕着这个远景去定义产品形态，设计出一个用户想用、用户知道怎么用并且可以做出来的产品&lt;sup id="fnref3"&gt;&lt;a href="#fn3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;。这个过程，需要整个团队一起参与和努力，更需要相互信任和尊重，以远景为中心，多从用户的角度出发和思考，慢慢聚拢收窄需求，最终的的目标是寻找到最小可行产品，用最小成本去做测试，看看我们是不是在正确的方向上。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class=“aside”&gt;
-  &lt;img alt="Discovery" src="/images/deliver-better-product-i/discovery.jpg?1404985052" /&gt;
+  &lt;img alt="Discovery" src="http://yedingding.com/images/deliver-better-product-i/discovery.jpg?1404985052" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;MVP 的确定，绝对不是一蹴而就，而是需要一段时间的反复探索、试错和纠正，有时甚至需要原型的辅助测试。所以，在探索的过程中，我们需要不同时刻带不同的帽子。&lt;/p&gt;
@@ -151,7 +151,7 @@
 &lt;p&gt;那么，这个特殊的企业号能做什么？让我们先来看看服务号和公众号能做什么。风车目前在开发服务号，基本功能也是一些简单的快速任务入口和项目动态通知提醒，再在其上是提供服务信息和客服。这里最大的问题是服务号连接的是企业里的个人和企业服务提供商，而不是企业本身和企业服务提供商。如果我们要做到后者，就需要企业自身去申请服务号，然后跟风车做对接。而这，从传言来看，就是微信即将推出的企业号，唯一不同的是由微信来制定标准接口，类似苹果的应用商店，规定应用接入的规范，而风车只需要作为其中一个应用接入即可，事情将简单很多。而因此，企业也从多应用入口变成一个企业号入口。&lt;/p&gt;
 
 &lt;p&gt;微信企业号的最大价值，在我看来主要是两点，不是它能做微信打卡，也不是它能做微信报销等，而是它解决了企业的两大基本问题，一是统一了账号系统，...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;img alt="WeChat" src="/images/wechat-enterprise-challenge/wechat-645x250.jpg?1404392414" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img alt="WeChat" src="http://yedingding.com/images/wechat-enterprise-challenge/wechat-645x250.jpg?1404392414" /&gt;&lt;/p&gt;
 
 &lt;p&gt;对于一位在企业服务领域的创业者来说，最近几天最具有爆炸力的新闻莫如是微信继公众号、服务号之后，即将推出企业号，旨在连接人和企业。一时间，媒体、企业、创业者，都开始思考着各种可能性，到底企业号最后会是以什么形态出现，对于目前不瘟不火的企业服务市场又将会带来什么样的变化。&lt;/p&gt;
 
@@ -214,7 +214,7 @@
 
 &lt;p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="WWDC 2014" src="/images/write-the-code-change-the-world/WWDC14.png?1403585998" /&gt;
+  &lt;img alt="WWDC 2014" src="http://yedingding.com/images/write-the-code-change-the-world/WWDC14.png?1403585998" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Write the Code. Change the world.&amp;rdquo;, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。&lt;/p&gt;
@@ -238,7 +238,7 @@
 &lt;p&gt;所以，如果你要开始一个项目，问自己这三个问题。思考清楚后，追随你的内心，做出选择，奋力向前。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Maslow 5 层需求模型" src="/images/write-the-code-change-the-world/maslow-hierarchy-of-needs.jpg?1403585998" /&gt;
+  &lt;img alt="Maslow 5 层需求模型" src="http://yedingding.com/images/write-the-code-change-the-world/maslow-hierarchy-of-needs.jpg?1403585998" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;我那篇文章有个读者曾问过我，如果是我自己，创业最想得到的是什么。我的回答是，能自己主导做一些真正有社会价值的事，并且经济回报有盼头。我不是圣人，所以不否认是有物质的追求在，但是理想层面上的精神追求会更多点。马斯洛在其基本五层需求模型理论中指出，人类最底层的是衣食住行等生理需求，上一层是安全上的需求，第三层是作为社会群体在社交上的需求，第四层是尊重的需求，最上层是自我实现的需求，一种创造的需要。如果我们是工作的话，生理需求和安全需求会很容易满足。然后是社交需求、尊重需求的满足，最后我们才会考虑自我实现。但是创业不同，我认为创业是直接跳过了下面的四层，更多的是在追求自我实现的需求，去实现自己的理想和目标，所以愿意在一定时间内放弃自己的一些下层需求。&lt;/p&gt;
@@ -246,7 +246,7 @@
 &lt;p&gt;我们都知道，创业成功的几率是非常小的，100 个项目里面有 90 个是失败的，有 8 个不失败但是也就那样，只有 2 个是非常成功的。Scott Shane&lt;sup id="fnref3"&gt;&lt;a href="#fn3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; 在其著名畅销书 &lt;a href="http://www.amazon.com/The-Illusions-Entrepreneurship-Entrepreneurs-Investors/dp/0300158564"&gt;『The Illusions of Entrepreneurship』&lt;/a&gt; 就披露了很多关于创业者的黑暗事实，比如大多数创业公司会在 5 年内倒闭，大多数创业者比他工作的时候收入要低，大多数创业者收入不稳定，大多数创业者工作时间比工作要更长。理想很美好，现实很残酷，但是即使知道这些，我们是否就会失去创业的勇气？不！因为我们都有那么一点小理想，我们在追求自我实现，所以不如让我们姑且忘掉未来的成败，而是专注在成长和价值的提高上。而且，即使失败率如此之高，我们还是有办法来降低，比如更好的利用时间，更高效的做事，这也是我为啥坚持做风车的原因，风车本质上就是高效任务管理工具，让你们更好的成长，因为时间管理说白了到最后就是任务管理。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Feature Usage" src="/images/write-the-code-change-the-world/feature-usage.jpg?1403585998" /&gt;&lt;br/&gt;
+  &lt;img alt="Feature Usage" src="http://yedingding.com/images/write-the-code-change-the-world/feature-usage.jpg?1403585998" /&gt;&lt;br/&gt;
   &lt;small&gt;Source: Standish Group, Feature usage of software projects&lt;/small&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
@@ -305,7 +305,7 @@
 
 &lt;p&gt;这是农夫山泉的一则广告，营销其实也是如此。我们并不是要去也不能创造出消费者的一个需求，而是去激发他未开发或者未意识到的需求，驱使他做出消费决策。如何去寻找到这个需求并且刺激用户，正是分辨好的营销人员和差的营销人员的差别。Simon Sinek 曾在 TEDx 上做过一次非常棒的分享&lt;a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action"&gt;『How great leaders...&lt;/a&gt;&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="消费者心理学" src="/images/know-your-consumers/consumer-psychology.jpg?1403056180" /&gt;
+  &lt;img alt="消费者心理学" src="http://yedingding.com/images/know-your-consumers/consumer-psychology.jpg?1403056180" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;上一期 &lt;a href="http://teahour.fm/2014/05/22/talk-about-finddog.html"&gt;Teahour&lt;/a&gt; 跟找狗网的创始人 James 聊起 2C 产品和 2B 产品的区别时，James 提到 2C 更多的是心理学操控，在人性的操控上，给大家多一些很奇怪的好处，比如最近在台湾很火的麦当劳早安闹钟应用，在你设立闹钟起床的同时，可以去麦当劳领取一份早餐优惠劵，又有一些好玩的点让你去分享这份经历，成为热门新闻话题，瞬间引爆，上架首日就冲上 App Store 免费排行榜第一名，没有刷榜喔。仔细思考这个案例其实很有意思，里面有很多的心理学及设计考量，而这些往往是我很少关注的。&lt;/p&gt;
@@ -315,13 +315,13 @@
 &lt;p&gt;百度百科对&lt;a href="http://baike.baidu.com/subview/165512/5093838.htm"&gt;消费者心理学&lt;/a&gt;的介绍中，提到了人类行为的几种常见心理以及不同类型的人群的消费心理差别。让我们回想一下自己最近几次的消费经历，不管是软件、服务还是实物，你为什么要买这个东西？你是非常理智的进行消费行为的吗？你是否受到外界因素的影响？你是否属于冲动型消费？大多数情况下，我们并不如我们自己想的那么理智，我们的消费行为是受到情感因素的影响，在一定的推波助澜下做出的决定，当然，我们后面会给自己找出千百种理由，来说服自己为何这次消费是合理的。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="农夫山泉" src="/images/know-your-consumers/nongfusanquan.jpg?1403056180" /&gt;
+  &lt;img alt="农夫山泉" src="http://yedingding.com/images/know-your-consumers/nongfusanquan.jpg?1403056180" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;这是农夫山泉的一则广告，营销其实也是如此。我们并不是要去也不能创造出消费者的一个需求，而是去激发他未开发或者未意识到的需求，驱使他做出消费决策。如何去寻找到这个需求并且刺激用户，正是分辨好的营销人员和差的营销人员的差别。Simon Sinek 曾在 TEDx 上做过一次非常棒的分享&lt;a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action"&gt;『How great leaders inspire action』&lt;/a&gt;，介绍了他提出的黄金圈法则。其中很简单的一点是，用户并不为你做的东西买单，而是用户在为你&lt;strong&gt;为什么(Why)你要做这个东西&lt;/strong&gt;买单，即产品创造的使命。所以优秀的市场营销者，会先去传递产品的使命，然后才是与使命匹配的具体需求实现，由内而外地与消费者建立建立信任关系&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Golden Circle" src="/images/know-your-consumers/golden-circle.png?1403056180" /&gt;
+  &lt;img alt="Golden Circle" src="http://yedingding.com/images/know-your-consumers/golden-circle.png?1403056180" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;上个月，老罗的锤子手机发布会便是一次非常成功的消费者心理操控案例，其中有两个非常具有传播性的点。从理想主义者到『我不是为了输赢，我就是认真！！』的工匠精神，和『令科技巨头蒙羞的 100 万元的 OpenSSL 基金会捐款』 ，都瞬间击中感动党泪点。后面无论是微博上还是微信上的晒单，都能感受到这些感动党那股跟老罗一样的”认真劲”。而这些人，如果我们仔细分析锤子手机的定价策略和营销手段，不难看出正是老罗要的第一批客户。老罗的第一步，不需要颠覆，不需要证明自己是乔帮主第二，他需要的是足够的订单，给自己给团队争取时间，让他能在未来进入大众市场，做出真正心目中的手机。所以，他去做用户分类，去做产品定位，然后把产品展示到这群用户面前。第一步，很成功！&lt;/p&gt;
@@ -345,7 +345,7 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="推荐书籍" src="/images/know-your-consumers/books.png?1403056180" /&gt;
+  &lt;img alt="推荐书籍" src="http://yedingding.com/images/know-your-consumers/books.png?1403056180" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;技术在不停进步的同时，人也在进步，现在的消费者已经越来越少被电视报纸等传统轰炸式营销方式所影响，我们需要从更深层次的用户需求出发来参与到消费决策过程。所以，当我们在花时间创造一个卓越产品的同时，也请不要忘了去打造卓越的用户体验，不仅是产品使用上的，也需要是消费过程中的。学会如何打造和培养卓越的用户体验对你产品的成功是至关重要的。一篇学习过程中简单的随想，希望能给你带来一些不同的想法，后面再跟大家分享更多一些具体的实战经验。如果你有兴趣了解更多，推荐一本书，来自 Robert Cialdini 的 &lt;a href="http://www.amazon.com/Influence-Practice-Robert-B-Cialdini/dp/0205609996"&gt;Influence: Science and Practice&lt;/a&gt;。&lt;/p&gt;
@@ -403,7 +403,7 @@
 &lt;p&gt;对于风车，我们有很多计划，比如日历、自定义状态等。但是毕竟资源所限，事情得一个一个来做，所以我们得区分长期计划和短期计划。对应到风车里，我们大量的使用收集箱和任务列表，如下图。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Planning" src="/images/how-fengche-use-fengche-to-build-fengche/planning.png?1400582492" /&gt;
+  &lt;img alt="Planning" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/planning.png?1400582492" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;风车是项目、任务列表和任务的三层结构。任务列表作为中间很重要的一环，是任务的集合，用来组织和管理任务。对开发来说，任务列表主要就是迭代周期。所以，我们会有两类非常重要的列表，一是当前迭代列表，二是短期计划列表。当前迭代列表如上图的&lt;strong&gt;『Dashboard Stats』&lt;/strong&gt;和&lt;strong&gt;『May Day』&lt;/strong&gt;，短期计划列表如上图的&lt;strong&gt;『六月工作计划』&lt;/strong&gt;。这里之所以有两个当前迭代列表是因为『Dashboard Stats』是一个大且独立的功能，会有很多小任务，需要多人协作，所以我们单独拿出来跟踪，而『May Day』是真正的当前迭代列表。至于『六月工作计划』，顾名思义，就是我们计划在下个月做的一些事情。&lt;/p&gt;
@@ -419,19 +419,19 @@
 &lt;p&gt;计划后就是执行期了，流程化的任务执行是风车的核心，让正确的人能在正确的时间去做正确的事情。要做到这点，首先必须确保大家的信息对称和一致，任何人都知道项目里发生了什么，事情做到了哪一步了。所以，我们要求任何人开始做某个任务的时候，都必须更新状态到『进行中』，同时，同时在进行中的任务最好不要超过一个。如果任务完成了，需要更新状态到『已完成』，可以让团队其他成员进行验收。所以，我随时都可以了解当前迭代进行到什么状态了，团队每个人正在做什么，哪些任务已经完成等待验收，哪些任务已经验收通过部署到线上，哪些任务还需要完成，如下图。同时，事情有轻重缓急，有重要不重要、紧急不紧急两个维度，所以我们约定待办列表里越上面的任务越紧急，同时在任务详情里设置重要或者不重要。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="任务清单" src="/images/how-fengche-use-fengche-to-build-fengche/center.png?1400582492" /&gt;
+  &lt;img alt="任务清单" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/center.png?1400582492" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;每个任务在待办的状态时并不一定会被分配给某位成员，我们更主张主动的去领任务，看看有什么自己可以做的，包括即使已经被分配给别人了。除了负责人以外，有些任务需要多人协作，比如上图 Roy 在实现『下载所有附件』的功能时，需要我这边提供一些前端实现上的帮忙，所以我会被 Roy 加入到协作者列表里面，这样这个任务发生的任何变化都会实时的通知到 Roy 和我，包括动态和讨论。关于协作者这个功能的用法，可以参考 Roy 写得这篇文章，&lt;a href="https://fengcheco.com/blog/new-feature-task-followers/"&gt;『新功能：协作者』&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="任务详情" src="/images/how-fengche-use-fengche-to-build-fengche/details.png?1400582492" /&gt;
+  &lt;img alt="任务详情" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/details.png?1400582492" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;讨论是另一个工作上非常重要的部分。我们是远程团队，大部分沟通都发生在线上，即使在线下我也不主张随意的去打断同事，见我之前写的文章 &lt;a href="http://yedingding.com/2013/12/03/improve-productivity-in-office.html"&gt;『不要让办公室成为你的效率杀手』&lt;/a&gt;。我们会尽量把跟任务执行相关的事情都放到风车里讨论，主要是出于两点考虑。首先是任何讨论都是按照主题划分的，对比用 QQ 这些聊天工具，实时的交流体验一样，但是主题明确，不会错乱，过程和结论也都有记录，随时可以回顾和查找。同时，对比交流直接靠吼，虽然讨论是同步推送到所有团队成员那里，但是可以异步处理，没有打断别人，可以等到完成手上工作后才去处理。有时如果需要把某个人拉进来讨论一些 feature，直接用 @ mention 就可以了，对方就会收到实时的通知。&lt;/p&gt;
 
 &lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="任务讨论" src="/images/how-fengche-use-fengche-to-build-fengche/activity.png?1400582492" /&gt;
+  &lt;img alt="任务讨论" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/activity.png?1400582492" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;p&gt;作为产品团队，时常会有一些新的需求进来，亦或是一些 bug。我们是允许随时有新的任务进来的，但是如果是哪种迟一天做早一天做关系不大的任务，就没必要添加进来打乱节奏了。&lt;/p&gt;
@@ -476,7 +476,7 @@
 
 &lt;p&gt;&lt;strong&gt;Eric&lt;/strong&gt;: Sure, as you’ve mentioned, I’m Eric Redmond. I’m relevant to this episode. I co-authored a book with &lt;a href="https://twitter.com/hexlib"&gt;Jim Wilson&lt;/a&gt; called &lt;a href="http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks"&gt;Seven Databases in Seven Weeks&lt;/a&gt;. And the idea was that with all the changes that have been recurring in the database marketplace over the past few years, it was probably the...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Sever Database in Seven Weeks" src="/images/database-with-eric-redmond/database.jpg?1400134984" /&gt;
+  &lt;img alt="Sever Database in Seven Weeks" src="http://yedingding.com/images/database-with-eric-redmond/database.jpg?1400134984" /&gt;
 &lt;/aside&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
