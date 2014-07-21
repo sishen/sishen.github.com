@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.title "Do Great Things - 叶玎玎"
@@ -9,6 +10,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.author { xml.name "Blog Author" }
 
   blog.articles[0..5].each do |article|
+    next unless article.published?
     xml.entry do
       xml.title article.title
       xml.link "rel" => "alternate", "href" => article.url
@@ -17,7 +19,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.updated article.date.to_time.iso8601
       xml.author { xml.name "叶玎玎" }
       xml.summary article.summary, "type" => "html"
-      xml.content article.body, "type" => "html"
+      xml.content article.body.gsub("src=\"/images", "src=\"http://yedingding.com/images"), "type" => "html"
     end
   end
 end

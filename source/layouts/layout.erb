@@ -45,8 +45,7 @@
       <div id="banner" style="height: 440px">
       </div>
     <% else %>
-      <div id="cover" style="height: 500px;">
-        <img src="<%= yield_content(:cover).chomp %>"/>
+      <div id="cover" style="height: 500px;background-image:url(<%= yield_content(:cover).chomp %>);background-size: 100% auto;">
       </div>
     <% end %>
     <header id="header">
