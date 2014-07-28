@@ -17,6 +17,7 @@ keywords: node-webkit, 应用开发, 桌面开发
 * 游戏，比如 [Brandon Must Die!](http://www.brandonmustdie.com/)
 * 媒体类应用，比如 [Popcorn Time](http://popcorntime.io/)
 * 工具软件，比如 [Haroopod](http://pad.haroopress.com/)
+* 企业内部应用，比如数据显示应用
 * 终端应用，比如 POS 机。
 
 可以看出，领域非常丰富，其中也不乏一些设计精良体验优美的应用。可以说，很大程度上，这得益于目前硬件的性能提升和 Web 的发展，动画、图形、音频、视频、2D、3D、WebGL 等等，都让基于 HTML5 的应用开发充满了想象力。
@@ -27,7 +28,7 @@ Node 是一个基于 Google Chrome V8 引擎的轻量级 Javascript 运行平台
 
 Webkit 是 Web 内容的渲染引擎。举个例子，一个网页由 HTML、CSS 和 JavaScript 组成，页面加载后会被语法分析器解析成树，然后交由 Webkit 做渲染，这样才得到一个我们看到的页面。在 node-webkit 里，选择了是基于 Webkit 二次开发的 Blink 引擎，正好其 JavaScript 解析引擎也是 node 所采用的 V8 引擎。
 
-由于浏览器安全模型的缘故，Webkit 并不能访问到系统调用，而这却是桌面应用的必须。Node 本身支持系统级的 API，但是缺乏对于渲染的支持，所以文睿在 2011 就有了做 node-webkit 的想法，把两者揉合在一起，既能对接操作系统，又能提供用户交互。在做简单尝试用 webkit-gtk 和 node 来做实验后，在 2012 年用 Chromium 替代了 webkit-gtk。
+由于浏览器安全模型的缘故，Webkit 并不能访问到系统调用，而这却是桌面应用的必须。Node 本身支持系统级的 API，但是缺乏对于渲染的支持，所以文睿在 2011 就有了做 node-webkit 的想法，把两者揉合在一起，既能对接操作系统，又能提供用户交互。在做简单尝试用 webkit-gtk 和 node 来做实验后，在 2012 年开始转向 Chromium，从一开始使用的 Chromium Embeded Framework（CEF）到后面完全基于 Chromium。
 
 得益于 node 和 Chromium 自身的蓬勃发展，node-webkit 也发展的很快，到今天已经发布到了 0.10 版本。下面来讲讲 node-webkit 的一些主要实现细节。
 
@@ -35,15 +36,15 @@ node 是一个事件驱动的框架，消息处理基于 libuv 实现。webkit �
 
 解决了事件处理统一的问题后，node 和 webkit 的揉合还需要互相能访问。node-webkit 里面存在着两个 context，node context 和 webkit context，互相访问也就是 Context 能互通，访问各自的对象。所以在 node-webkit 初始化的时候，node  context 会被注入到 WebKit 里面。之后，Webkit context 就可以访问到 node context 了。
 
-同时，node-webkit 也降低了 Webkit 的安全模型。熟悉 Web 开发的朋友都知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 [Same-origin Policy](http://en.wikipedia.org/wiki/Same_origin_policy)。但是 node-webkit 设置了所有页面都共享同一个 security token，包括 node context
-和 webkit context，这样子，就不会再存在什么跨域访问的问题 。但是另一方面，作为应用开发者，对于不受信任的用户行为输入，一定要做保护，防止因为这个造成一些破坏性行为。
+同时，node-webkit 对 Webkit 的安全模型也做了一些修改。在 node-webkit 中，有两种不同的 Frames，Node frame 和 normal frame[^1]。熟悉 Web 开发的朋友应该知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 [Same-origin Policy](http://en.wikipedia.org/wiki/Same_origin_policy)。node-webkit 中的 normal frame，跟浏览器中的一样，仍然有这个限制。但是在 Node frame 中，将不再有这个限制，所有的 Node frame 中共享同一个 security token，包括 node context
+和 webkit context，跨域访问被允许，也就能访问到 node context 中的对象。所以作为应用开发者，对于不受信任的用户行为输入一定要做保护，防止因为这个造成一些破坏性行为，或者放入 normal frame 中。
 
 <aside class="aside">
   ![Chromium Layers](node-webkit-intro/chromium-layers.jpg)
   <small>Chromium Conceptual Application Layers</small>
 </aside>
 
-值得注意的是，尽管 Chrome 本身对于 HTML5 的支持已经比较完备了，但是有些特性是在浏览器层即上图的 Browser 实现，而 node-webkit 中 webkit 只到了 Content Layer 即上图的 WebContent，node-webkit 本身的实现等于浏览器层。所以，node-webkit 对于一些 HTML5 特性还缺乏支持，比如 Web Notification[^1]。不过，目前 Chromium 团队正在把这些 HTML5 特性的支持解耦移动到 Content Layer，这个对于 node-webkit 来说绝对是个非常好的消息。
+值得注意的是，尽管 Chrome 本身对于 HTML5 的支持已经比较完备了，但是有些特性是在浏览器层即上图的 Browser 实现，而 node-webkit 中 webkit 只到了 Content Layer 即上图的 WebContent，node-webkit 本身的实现等于浏览器层。所以，node-webkit 对于一些 HTML5 特性还缺乏支持，比如 Web Notification[^2]。不过，目前 Chromium 团队正在把这些 HTML5 特性的支持解耦移动到 Content Layer，这个对于 node-webkit 来说绝对是个非常好的消息。
 
 如果你细心的看上图的话，你会发现浏览器层还有 UI 绘制部分。node-webkit 也是一样，实现了直接绘制原生 UI 控件的 API，比如菜单、系统托盘、剪贴板等。这部分实现，的确也是主要参考了 Chromium 的跨平台 UI 实现。
 
@@ -51,4 +52,6 @@ node 是一个事件驱动的框架，消息处理基于 libuv 实现。webkit �
 
 如果你想了解最多 node-webkit 的信息，可以听听我们这期 [Teahour 节目](http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html)。如果你想开发跨平台的桌面应用，那么官方的 [Wiki](https://github.com/rogerwang/node-webkit/wiki) 绝对是个很好的开始。
 
-[^1]:  目前已经有 [PR](https://github.com/rogerwang/node-webkit/pull/1951) 实现了 Notification，相信不久会在 node-webkit 正式版中被支持。
+[^1]: 对于 node-webkit 的安全模型，具体可以参考 https://github.com/rogerwang/node-webkit/wiki/Security，了解如何使用这两种不同的 Frame。
+
+[^2]: 目前已经有 [PR](https://github.com/rogerwang/node-webkit/pull/1951) 实现了 Notification，相信不久会在 node-webkit 正式版中被支持。
