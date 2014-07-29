@@ -87,7 +87,7 @@
 
 &lt;p&gt;如果你细心的看上图的话，你会发现浏览器层还有 UI 绘制部分。node-webkit 也是一样，实现了直接绘制原生 UI 控件的 API，比如菜单、系统托盘、剪贴板等。这部分实现，的确也是主要参考了 Chromium 的跨平台 UI 实现。&lt;/p&gt;
 
-&lt;p&gt;目前 node-webkit 的正式版是 0.10.0，基于 �Node v0.11.13 和 Chromium 35.0.1916.113。node-webkit 的大版本更新策略是跟着 Chromium 的版本升级而升级，比如 0.10.0 中的 10。如果 node-webkit 本身有更新或者 node 版本有更新，对应升级的是第三个数字，也就是 0.10.0 中的最后一个 0。&lt;/p&gt;
+&lt;p&gt;目前 node-webkit 的正式版是 0.10.0，基于 Node v0.11.13 和 Chromium 35.0.1916.113。node-webkit 的大版本更新策略是跟着 Chromium 的版本升级而升级，比如 0.10.0 中的 10。如果 node-webkit 本身有更新或者 node 版本有更新，对应升级的是第三个数字，也就是 0.10.0 中的最后一个 0。&lt;/p&gt;
 
 &lt;p&gt;如果你想了解最多 node-webkit 的信息，可以听听我们这期 &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour 节目&lt;/a&gt;。如果你想开发跨平台的桌面应用，那么官方的 &lt;a href="https://github.com/rogerwang/node-webkit/wiki"&gt;Wiki&lt;/a&gt; 绝对是个很好的开始。&lt;/p&gt;
 
@@ -96,7 +96,7 @@
 &lt;ol&gt;
 
 &lt;li id="fn1"&gt;
-&lt;p&gt;对于 node-webkit 的安全模型，具体可以参考 &lt;a href="https://github.com/rogerwang/node-webkit/wiki/Security%EF%BC%8C%E4%BA%86%E8%A7%A3%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%BF%99%E4%B8%A4%E7%A7%8D%E4%B8%8D%E5%90%8C%E7%9A%84"&gt;https://github.com/rogerwang/node-webkit/wiki/Security，了解如何使用这两种不同的&lt;/a&gt; Frame。&amp;nbsp;&lt;a href="#fnref1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于 node-webkit 的安全模型，具体可以参考 &lt;a href="https://github.com/rogerwang/node-webkit/wiki/Security"&gt;https://github.com/rogerwang/node-webkit/wiki/Security&lt;/a&gt;, 了解如何使用这两种不同的 Frame。&amp;nbsp;&lt;a href="#fnref1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li id="fn2"&gt;
