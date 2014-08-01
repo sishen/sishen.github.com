@@ -5,10 +5,102 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-07-28T12:00:00+08:00</updated>
+  <updated>2014-08-01T09:00:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>What you should know before starting node-webkit</title>
+    <link rel="alternate" href="/2014/08/01/node-webkit-intro-en.html"/>
+    <id>/2014/08/01/node-webkit-intro-en.html</id>
+    <published>2014-08-01T09:00:00+08:00</published>
+    <updated>2014-08-01T09:00:00+08:00</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="node-webkit" src="http://yedingding.com/images/node-webkit-intro/nw.jpg"&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  This article is translated by &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; of my article &lt;a href="http://yedingding.com/2014/07/28/node-webkit-intro.html"&gt;开始 NODE-WEBKIT 前，你应该知道的&lt;/a&gt;. &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people’s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you’re interested, why not &lt;a href="mailto:yicun.wu@uwaterloo.ca"&gt;drop her an email&lt;/a&gt;?
+&lt;/blockquote&gt;
+
+&lt;p&gt;Last weekend, &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour&lt;/a&gt; invited &lt;a href="https://twitter.com/wwr"&gt;Roger Wang&lt;/a&gt;, the creator of node-webkit to talk about the stories behind node-webkit and the use of HTML5 in desktop app development. Various web-based desktop app frameworks such as node-webkit, Chrome Apps, Titanium, TideSDK and Atom Shell have been developed over recent years and node-webkit remains one of the best.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&lt;/a&gt; project was started in 2011. It is an app runtime that allows...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="node-webkit" src="http://yedingding.com/images/node-webkit-intro/nw.jpg" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  This article is translated by &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; of my article &lt;a href="http://yedingding.com/2014/07/28/node-webkit-intro.html"&gt;开始 NODE-WEBKIT 前，你应该知道的&lt;/a&gt;. &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people&amp;rsquo;s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you&amp;rsquo;re interested, why not &lt;a href="mailto:yicun.wu@uwaterloo.ca"&gt;drop her an email&lt;/a&gt;?
+&lt;/blockquote&gt;
+
+&lt;p&gt;Last weekend, &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour&lt;/a&gt; invited &lt;a href="https://twitter.com/wwr"&gt;Roger Wang&lt;/a&gt;, the creator of node-webkit to talk about the stories behind node-webkit and the use of HTML5 in desktop app development. Various web-based desktop app frameworks such as node-webkit, Chrome Apps, Titanium, TideSDK and Atom Shell have been developed over recent years and node-webkit remains one of the best.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&lt;/a&gt; project was started in 2011. It is an app runtime that allows developers to use Web technologies (i.e. HTML5, CSS and JavaScript) to develop native apps. As developers, we only need to maintain one codebase which can be compiled to Windows, Mac and Linux native apps. The node-webkit project currently has almost 15000 Stars and over 1600 Forks on GitHub and it&amp;rsquo;s a very popular open source project built by a Chinese developer. In the episode, Roger introduced the following common categories of apps using node-webkit:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Desktop IDEs such as &lt;a href="http://www.lighttable.com/"&gt;Light Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Games such as &lt;a href="http://www.brandonmustdie.com/"&gt;Brandon Must Die!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Media apps such as &lt;a href="http://popcorntime.io/"&gt;Popcorn Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tools such as &lt;a href="http://pad.haroopress.com/"&gt;Haroopod&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Enterprise apps such as metrics apps&lt;/li&gt;
+&lt;li&gt;Terminals such as POS terminals&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We could see that the apps are diverse and there&amp;rsquo;s no lack of elegant apps. The full of imagination can be attributed to hardware performance improvements, developments of Web, animations, graphics, audios, videos, 2D, 3D, WebGl, etc.&lt;/p&gt;
+
+&lt;p&gt;Essentially, node-webkit is only a web app runtime. When we talk about desktop apps, we think of GUI, responses to user actions and system-level interactions, so how did node-webkit manage to do that? In order to learn more about that, we need to first learn about Node and WebKit.&lt;/p&gt;
+
+&lt;p&gt;Node is a lightweight JavaScript runtime based on the Google Chrome V8 engine. Node is written in C++ and lives in the operating-system application layer where it supports a lot of OS APIs such as file system and network operations therefore it can be used to build system and server-side apps.&lt;/p&gt;
+
+&lt;p&gt;WebKit is a web browser engine. Let&amp;rsquo;s take a web page as an example: it&amp;rsquo;s built with HTML, CSS and JavaScript. After the page is loaded, it will be parsed into a tree and handed off to WebKit for rendering hence forming the page we see in a browser. Node-webkit is based on Blink, which is a rendering engine forked from WebKit and whose JavsScript engine is V8, which is also used in Node.&lt;/p&gt;
+
+&lt;p&gt;The browser security model prevents WebKit from issuing system calls, which is a must-have for desktop applications; since Node itself has system-level APIs but lacks rendering support, Roger had the idea in 2011 to create node-webkit, combining system-level operations and user interactions. After some trials with WebKitGTK and Node, he started using Chromium in 2012, basing the project entirely on Chromium from the initial Chromium Embedded Framework (CEF).&lt;/p&gt;
+
+&lt;p&gt;Following the fast development of Node and Chromium, node-webkit is at version 0.10 today. We&amp;rsquo;ll dive into the details of how node-webkit works.&lt;/p&gt;
+
+&lt;p&gt;Node is an event-driven framework with message processing based on libuv. The JS engine of WebKit is based on MessagePump of Chrome, which is also event-driven. Event-driven can be explained as when an event happens, for example, user input comes in, the corresponding code is executed to process the event. Node-webkit combines the event-processing of Node and WebKit into a single message loop.&lt;/p&gt;
+
+&lt;p&gt;We still have another challenge after combining event processing: we need to find a way for Node and WebKit to access the context of each other. There are two contexts in node-webkit: the Node context and the WebKit context. Accessing the context of each other means accessing the objects of each other, so during the initialization of node-webkit, the Node context will be injected into WebKit so that the WebKit context will have access to the Node context.&lt;/p&gt;
+
+&lt;p&gt;Node-webkit has made changes to the security model of WebKit as well. In node-webkit, there are two kinds of frames: Node frames and normal frames&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. If you&amp;rsquo;re familiar with Web development, you probably know that issuing a cross-domain AJAX request will result in errors imposed by &lt;a href="http://en.wikipedia.org/wiki/Same_origin_policy"&gt;same-origin policy&lt;/a&gt;. The same restriction is imposed on normal frames of node-webkit as in a browser. However, there is no such restriction on Node frames: the same security token is shared in all Node frames, including the Node&amp;rsquo;s context and the WebKit&amp;rsquo;s Context, and cross-domain access are allowed and objects in the Node&amp;rsquo;s context are accessible too. Therefore, app developers must take precaution with untrusted user input to prevent destructive actions or put them into a normal frame.&lt;/p&gt;
+
+&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="Chromium Layers" src="http://yedingding.com/images/node-webkit-intro/chromium-layers.jpg" /&gt;
+  &lt;small&gt;Chromium Conceptual Application Layers&lt;/small&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;It is worth noting that even though Chrome supports HTML5 pretty well, some features are implemented on the Browser layer (see the graph above) and the WebKit in node-webkit inherits up to the Contents layer (i.e. the WebContents layer on the above image) as node-webkit itself is the implementation of the Browser layer. Therefore, some HTML5 features such as Web Notification&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; are not supported in node-webkit. Nevertheless, the Chromium team is moving these HTML5 features onto the Content layer, which is definitely good news for node-webkit.&lt;/p&gt;
+
+&lt;p&gt;If you look at the above graph carefully, you will find there is also UI rendering in the Browser layer. Node-webkit implements UI rendering in the same way: it has native UI component APIs such as Menu, System Tray, Clipboard etc. The implementation is inspired from the cross-platform UI of Chromium.&lt;/p&gt;
+
+&lt;p&gt;The current version of node-webkit is 0.10.0, based on Node v0.11.13 and Chromium v35.0.1916.113. Node-webkit bases its major updates on Chromium versions, hence the 10 in 0.10.0. The version change corresponding to Node or node-webkit itself is the third part of the version number, e.g. the last 0 in 0.10.0.&lt;/p&gt;
+
+&lt;p&gt;If you would like to learn more about node-webkit, you can listen to our &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour Episode&lt;/a&gt;. If you are tempted to develop a cross-platform desktop app, then the official &lt;a href="https://github.com/rogerwang/node-webkit/wiki"&gt;Wiki&lt;/a&gt; would definitely be a good place to start.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class="footnotes"&gt;
+  Thank you again for the translation, Wendy. If anyone is interested, check out her &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;linkedin&lt;/a&gt;. Wish you all the best in the job hunting.
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id="fn1"&gt;
+&lt;p&gt;Please refer to &lt;a href="https://github.com/rogerwang/node-webkit/wiki/Security"&gt;https://github.com/rogerwang/node-webkit/wiki/Security&lt;/a&gt; to learn more about the node-webkit security model and and how to use these two kinds of frames.&amp;nbsp;&lt;a href="#fnref1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id="fn2"&gt;
+&lt;p&gt;Notification has been implemented by &lt;a href="https://github.com/rogerwang/node-webkit/pull/1951"&gt;PR&lt;/a&gt; and it&amp;rsquo;s already included in latest release 0.10.1.&amp;nbsp;&lt;a href="#fnref2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry>
     <title>开始 node-webkit 前，你应该知道的</title>
     <link rel="alternate" href="/2014/07/28/node-webkit-intro.html"/>
@@ -466,83 +558,6 @@
 
 &lt;/ol&gt;
 &lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>我们是如何使用风车的</title>
-    <link rel="alternate" href="/2014/05/20/how-fengche-use-fengche-to-build-fengche.html"/>
-    <id>/2014/05/20/how-fengche-use-fengche-to-build-fengche.html</id>
-    <published>2014-05-20T12:00:00+08:00</published>
-    <updated>2014-05-20T12:00:00+08:00</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;h3&gt;前言&lt;/h3&gt;
-
-&lt;p&gt;随着使用风车的团队越来越多，不少人都问我有没有一些风车使用最佳实践，很想知道我们风车团队自己是怎么使用风车这个工具的。所以在这里我就介绍一下我们的使用方式，整体来说，因为团队性质原因，会更加贴近产品开发团队。&lt;/p&gt;
-
-&lt;h3&gt;背景&lt;/h3&gt;
-
-&lt;p&gt;任何离开背景的使用方法都是没有意义的，所以在介绍我们如何使用风车前，先介绍一下我们的背景，如果你读过我之前写的一些文章的话，你可能会有所了解，我们是一个远程开发团队，每个成员都在不同的地方，主要通过在线沟通，所以在进度管理和沟通交流上很需要一个管理工具，对远程有兴趣的可以参看我的这篇文章 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;『远程工作经验谈 - 如何适应及如何管理』&lt;/a&gt;。二是风车的诞生初衷是为了解决我自己在项目管理上的问题的。我的上一份工作是一个企业社交工具的技术负责人，需要做项目管理的工作，我们前前后后使用过不少的工具，非常不尽如人意，我每天需要在工具上浪费一两个小时，非常痛苦，所以就萌生了自己做一个刚刚好的工具，风车就是这么来的。可以说，风车一开始是专门为开发人员打造的项目管理工具。尽管现在更加的普适，适用于任何流程化任务管理的场景，风车还是非常适合开发团队做项目管理用。&lt;/p&gt;
-
-&lt;p&gt;</summary>
-    <content type="html">&lt;h3&gt;前言&lt;/h3&gt;
-
-&lt;p&gt;随着使用风车的团队越来越多，不少人都问我有没有一些风车使用最佳实践，很想知道我们风车团队自己是怎么使用风车这个工具的。所以在这里我就介绍一下我们的使用方式，整体来说，因为团队性质原因，会更加贴近产品开发团队。&lt;/p&gt;
-
-&lt;h3&gt;背景&lt;/h3&gt;
-
-&lt;p&gt;任何离开背景的使用方法都是没有意义的，所以在介绍我们如何使用风车前，先介绍一下我们的背景，如果你读过我之前写的一些文章的话，你可能会有所了解，我们是一个远程开发团队，每个成员都在不同的地方，主要通过在线沟通，所以在进度管理和沟通交流上很需要一个管理工具，对远程有兴趣的可以参看我的这篇文章 &lt;a href="http://yedingding.com/2013/07/24/remote-team-the-things-you-should-know.html"&gt;『远程工作经验谈 - 如何适应及如何管理』&lt;/a&gt;。二是风车的诞生初衷是为了解决我自己在项目管理上的问题的。我的上一份工作是一个企业社交工具的技术负责人，需要做项目管理的工作，我们前前后后使用过不少的工具，非常不尽如人意，我每天需要在工具上浪费一两个小时，非常痛苦，所以就萌生了自己做一个刚刚好的工具，风车就是这么来的。可以说，风车一开始是专门为开发人员打造的项目管理工具。尽管现在更加的普适，适用于任何流程化任务管理的场景，风车还是非常适合开发团队做项目管理用。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3&gt;计划&lt;/h3&gt;
-
-&lt;p&gt;对于风车，我们有很多计划，比如日历、自定义状态等。但是毕竟资源所限，事情得一个一个来做，所以我们得区分长期计划和短期计划。对应到风车里，我们大量的使用收集箱和任务列表，如下图。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Planning" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/planning.png?1400582492" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;风车是项目、任务列表和任务的三层结构。任务列表作为中间很重要的一环，是任务的集合，用来组织和管理任务。对开发来说，任务列表主要就是迭代周期。所以，我们会有两类非常重要的列表，一是当前迭代列表，二是短期计划列表。当前迭代列表如上图的&lt;strong&gt;『Dashboard Stats』&lt;/strong&gt;和&lt;strong&gt;『May Day』&lt;/strong&gt;，短期计划列表如上图的&lt;strong&gt;『六月工作计划』&lt;/strong&gt;。这里之所以有两个当前迭代列表是因为『Dashboard Stats』是一个大且独立的功能，会有很多小任务，需要多人协作，所以我们单独拿出来跟踪，而『May Day』是真正的当前迭代列表。至于『六月工作计划』，顾名思义，就是我们计划在下个月做的一些事情。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;『收集箱』&lt;/strong&gt;是另外一个很重要的列表，用来收集暂时还没有计划、零散的想法，比如一些未来有可能会加的功能。这里主要供我们做头脑风暴，当跟用户交流时有一些有意思的点后，就在收集箱记录下来，但是暂时不在当前周期做任何评估。等到了新的迭代开始前，我会过一遍收集箱，调整优先级，把一些能开始做的放入到短期计划列表中。&lt;/p&gt;
-
-&lt;p&gt;也许这时你有个新的问题，『收集箱』和『六月工作计划』是否有冲突或者冗余？这两者还是很不一样的。收集箱里存放的更多是用户故事这种，从用户角度出发的需求定义，粒度大，把一件事情说清楚就可以了。而六月执行计划里任务则从用户故事细化，变成可执行的任务，同时，这个列表也用来记录一些不太紧急的 bug。&lt;/p&gt;
-
-&lt;p&gt;所以当做计划时，事情就方便了，可以直接在『六月工作计划』里选择优先级高的任务，移动到新的当前迭代列表就可以了。与此同时，会对任务做一些简单的评估以及分配，确保工作量合理。而已经完成的任务列表，此时已经可以归档掉了。&lt;/p&gt;
-
-&lt;h3&gt;执行&lt;/h3&gt;
-
-&lt;p&gt;计划后就是执行期了，流程化的任务执行是风车的核心，让正确的人能在正确的时间去做正确的事情。要做到这点，首先必须确保大家的信息对称和一致，任何人都知道项目里发生了什么，事情做到了哪一步了。所以，我们要求任何人开始做某个任务的时候，都必须更新状态到『进行中』，同时，同时在进行中的任务最好不要超过一个。如果任务完成了，需要更新状态到『已完成』，可以让团队其他成员进行验收。所以，我随时都可以了解当前迭代进行到什么状态了，团队每个人正在做什么，哪些任务已经完成等待验收，哪些任务已经验收通过部署到线上，哪些任务还需要完成，如下图。同时，事情有轻重缓急，有重要不重要、紧急不紧急两个维度，所以我们约定待办列表里越上面的任务越紧急，同时在任务详情里设置重要或者不重要。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="任务清单" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/center.png?1400582492" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;每个任务在待办的状态时并不一定会被分配给某位成员，我们更主张主动的去领任务，看看有什么自己可以做的，包括即使已经被分配给别人了。除了负责人以外，有些任务需要多人协作，比如上图 Roy 在实现『下载所有附件』的功能时，需要我这边提供一些前端实现上的帮忙，所以我会被 Roy 加入到协作者列表里面，这样这个任务发生的任何变化都会实时的通知到 Roy 和我，包括动态和讨论。关于协作者这个功能的用法，可以参考 Roy 写得这篇文章，&lt;a href="https://fengcheco.com/blog/new-feature-task-followers/"&gt;『新功能：协作者』&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="任务详情" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/details.png?1400582492" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;讨论是另一个工作上非常重要的部分。我们是远程团队，大部分沟通都发生在线上，即使在线下我也不主张随意的去打断同事，见我之前写的文章 &lt;a href="http://yedingding.com/2013/12/03/improve-productivity-in-office.html"&gt;『不要让办公室成为你的效率杀手』&lt;/a&gt;。我们会尽量把跟任务执行相关的事情都放到风车里讨论，主要是出于两点考虑。首先是任何讨论都是按照主题划分的，对比用 QQ 这些聊天工具，实时的交流体验一样，但是主题明确，不会错乱，过程和结论也都有记录，随时可以回顾和查找。同时，对比交流直接靠吼，虽然讨论是同步推送到所有团队成员那里，但是可以异步处理，没有打断别人，可以等到完成手上工作后才去处理。有时如果需要把某个人拉进来讨论一些 feature，直接用 @ mention 就可以了，对方就会收到实时的通知。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="任务讨论" src="http://yedingding.com/images/how-fengche-use-fengche-to-build-fengche/activity.png?1400582492" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;作为产品团队，时常会有一些新的需求进来，亦或是一些 bug。我们是允许随时有新的任务进来的，但是如果是哪种迟一天做早一天做关系不大的任务，就没必要添加进来打乱节奏了。&lt;/p&gt;
-
-&lt;h3&gt;发布&lt;/h3&gt;
-
-&lt;p&gt;作为产品团队，只有发布才是带来最终价值的，这也是我坚持做持续发布，而不是等整个迭代结束后统一发布的原因。另外，我们的代码质量更多的依赖代码审核和自动化测试，而不是放在 staging 环境做人肉测试，除非是一些比较大拿不准的变化。我在之前的文章&lt;a href="http://yedingding.com/2013/09/11/practical-git-flow-for-startups.html"&gt;『实用 GIT 工作流』&lt;/a&gt;介绍了我们团队使用的代码工作流，简单说，就是必须随时有一个可发布的分支，对应风车是 master 分支，同时，工作分支对应风车里的具体任务，跟 git commits 结合起来，同时能很简单很早的 merge 过来。我们的代码审核流程可以阅读这篇文章&lt;a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html"&gt;『让代码审查成为你的团队习惯』&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3&gt;总结&lt;/h3&gt;
-
-&lt;p&gt;回到风车的设计初衷，我们就是想设计一个刚刚好的工具，即使以后会有所扩展，但是一致的原则是用户使用仍然要简单高效，如果违背了这个原则，那么宁愿砍功能。我希望用户在使用时能专注做事，不要被冗余的东西所干扰，分散注意力或者带来额外的操作成本，这也是我们在可视范围只放必要东西的原因，让用户可以节省时间，更多的花在做事执行上。尽管用户会有各种各样的要求，希望能加这个功能那个功能，但是我会非常慎重的去筛选，我真的受够了过去在那些复杂的工具上浪费一两个小时！！！&lt;/p&gt;
-
-&lt;p&gt;如果说风车只有一个价值，那就是能让你的团队真正的不断优化工作流程。偶尔能听到一些人说人是最重要的，流程和工具无所谓，我只能说声呵呵，要不你就是能力没到，要不你就是没用过好的工具。一个简单的工具加上一个优化的流程能让整个团队事半功倍，这也是为什么在敏捷项目管理过程中会单独有个非常重要的步骤 &lt;strong&gt;Retrospective&lt;/strong&gt;，正是为了迭代改进流程。当你有了合适的人和合适的流程，千万不要忽略合适的工具，它真的会带来很大的不同，无论是不是风车。&lt;/p&gt;
 </content>
   </entry>
 </feed>

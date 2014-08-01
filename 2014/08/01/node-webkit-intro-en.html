@@ -1,0 +1,272 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="zh"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh"><![endif]-->
+<!--[if gt IE 8]<!-->
+<html class="no-js" lang="zh">
+  <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+
+    <title>
+      What you should know before starting node-webkit| Do Great Things -  叶玎玎
+    </title>
+
+    <meta name="description" content="叶玎玎在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="keywords" content="node-webkit">
+    <meta name="author" content="叶玎玎">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="google-site-verification" content="uXO_mIxt-ybh2KtYPvdchE0XN8xpJeMZd2MqueSOsdQ" />
+
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" title="Ben He's Homepage" href="/feed.xml" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <script src="/javascripts/all.js"></script>
+  </head>
+  <body class="x2014 x2014_08 x2014_08_01 x2014_08_01_node-webkit-intro-en ">
+      <div id="banner" style="height: 440px">
+      </div>
+    <header id="header">
+      <div id="subscribe-cta">
+        <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
+          <label for="email">分享技术、创业、团队协作和项目管理上的思考，每周更新</label>
+          <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
+          <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
+        </form>
+      </div>
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="http://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
+    <section class="main">
+      <div class="container">
+        
+  <article class="post single">
+
+    <header>
+  <h2 class="title">
+    <a href="/2014/08/01/node-webkit-intro-en.html">What you should know before starting node-webkit</a>
+  </h2>
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>August 01, 2014</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
+        <a href="/tags/node-webkit.html">node-webkit</a>
+    </span>
+  </div>
+</header>
+
+<div class="content">
+  <p><aside class="aside">
+  <img alt="node-webkit" src="http://yedingding.com/images/node-webkit-intro/nw.jpg" />
+</aside></p>
+
+<blockquote>
+  This article is translated by <a href="http://www.linkedin.com/in/yicunwu">Wendy</a> of my article <a href="http://yedingding.com/2014/07/28/node-webkit-intro.html">开始 NODE-WEBKIT 前，你应该知道的</a>. <a href="http://www.linkedin.com/in/yicunwu">Wendy</a> now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people&rsquo;s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you&rsquo;re interested, why not <a href="mailto:yicun.wu@uwaterloo.ca">drop her an email</a>?
+</blockquote>
+
+<p>Last weekend, <a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html">Teahour</a> invited <a href="https://twitter.com/wwr">Roger Wang</a>, the creator of node-webkit to talk about the stories behind node-webkit and the use of HTML5 in desktop app development. Various web-based desktop app frameworks such as node-webkit, Chrome Apps, Titanium, TideSDK and Atom Shell have been developed over recent years and node-webkit remains one of the best.</p>
+
+<p>The <a href="https://github.com/rogerwang/node-webkit">node-webkit</a> project was started in 2011. It is an app runtime that allows developers to use Web technologies (i.e. HTML5, CSS and JavaScript) to develop native apps. As developers, we only need to maintain one codebase which can be compiled to Windows, Mac and Linux native apps. The node-webkit project currently has almost 15000 Stars and over 1600 Forks on GitHub and it&rsquo;s a very popular open source project built by a Chinese developer. In the episode, Roger introduced the following common categories of apps using node-webkit:</p>
+
+<ul>
+<li>Desktop IDEs such as <a href="http://www.lighttable.com/">Light Table</a></li>
+<li>Games such as <a href="http://www.brandonmustdie.com/">Brandon Must Die!</a></li>
+<li>Media apps such as <a href="http://popcorntime.io/">Popcorn Time</a></li>
+<li>Tools such as <a href="http://pad.haroopress.com/">Haroopod</a></li>
+<li>Enterprise apps such as metrics apps</li>
+<li>Terminals such as POS terminals</li>
+</ul>
+
+<p>We could see that the apps are diverse and there&rsquo;s no lack of elegant apps. The full of imagination can be attributed to hardware performance improvements, developments of Web, animations, graphics, audios, videos, 2D, 3D, WebGl, etc.</p>
+
+<p>Essentially, node-webkit is only a web app runtime. When we talk about desktop apps, we think of GUI, responses to user actions and system-level interactions, so how did node-webkit manage to do that? In order to learn more about that, we need to first learn about Node and WebKit.</p>
+
+<p>Node is a lightweight JavaScript runtime based on the Google Chrome V8 engine. Node is written in C++ and lives in the operating-system application layer where it supports a lot of OS APIs such as file system and network operations therefore it can be used to build system and server-side apps.</p>
+
+<p>WebKit is a web browser engine. Let&rsquo;s take a web page as an example: it&rsquo;s built with HTML, CSS and JavaScript. After the page is loaded, it will be parsed into a tree and handed off to WebKit for rendering hence forming the page we see in a browser. Node-webkit is based on Blink, which is a rendering engine forked from WebKit and whose JavsScript engine is V8, which is also used in Node.</p>
+
+<p>The browser security model prevents WebKit from issuing system calls, which is a must-have for desktop applications; since Node itself has system-level APIs but lacks rendering support, Roger had the idea in 2011 to create node-webkit, combining system-level operations and user interactions. After some trials with WebKitGTK and Node, he started using Chromium in 2012, basing the project entirely on Chromium from the initial Chromium Embedded Framework (CEF).</p>
+
+<p>Following the fast development of Node and Chromium, node-webkit is at version 0.10 today. We&rsquo;ll dive into the details of how node-webkit works.</p>
+
+<p>Node is an event-driven framework with message processing based on libuv. The JS engine of WebKit is based on MessagePump of Chrome, which is also event-driven. Event-driven can be explained as when an event happens, for example, user input comes in, the corresponding code is executed to process the event. Node-webkit combines the event-processing of Node and WebKit into a single message loop.</p>
+
+<p>We still have another challenge after combining event processing: we need to find a way for Node and WebKit to access the context of each other. There are two contexts in node-webkit: the Node context and the WebKit context. Accessing the context of each other means accessing the objects of each other, so during the initialization of node-webkit, the Node context will be injected into WebKit so that the WebKit context will have access to the Node context.</p>
+
+<p>Node-webkit has made changes to the security model of WebKit as well. In node-webkit, there are two kinds of frames: Node frames and normal frames<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>. If you&rsquo;re familiar with Web development, you probably know that issuing a cross-domain AJAX request will result in errors imposed by <a href="http://en.wikipedia.org/wiki/Same_origin_policy">same-origin policy</a>. The same restriction is imposed on normal frames of node-webkit as in a browser. However, there is no such restriction on Node frames: the same security token is shared in all Node frames, including the Node&rsquo;s context and the WebKit&rsquo;s Context, and cross-domain access are allowed and objects in the Node&rsquo;s context are accessible too. Therefore, app developers must take precaution with untrusted user input to prevent destructive actions or put them into a normal frame.</p>
+
+<p><aside class="aside">
+  <img alt="Chromium Layers" src="http://yedingding.com/images/node-webkit-intro/chromium-layers.jpg" />
+  <small>Chromium Conceptual Application Layers</small>
+</aside></p>
+
+<p>It is worth noting that even though Chrome supports HTML5 pretty well, some features are implemented on the Browser layer (see the graph above) and the WebKit in node-webkit inherits up to the Contents layer (i.e. the WebContents layer on the above image) as node-webkit itself is the implementation of the Browser layer. Therefore, some HTML5 features such as Web Notification<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> are not supported in node-webkit. Nevertheless, the Chromium team is moving these HTML5 features onto the Content layer, which is definitely good news for node-webkit.</p>
+
+<p>If you look at the above graph carefully, you will find there is also UI rendering in the Browser layer. Node-webkit implements UI rendering in the same way: it has native UI component APIs such as Menu, System Tray, Clipboard etc. The implementation is inspired from the cross-platform UI of Chromium.</p>
+
+<p>The current version of node-webkit is 0.10.0, based on Node v0.11.13 and Chromium v35.0.1916.113. Node-webkit bases its major updates on Chromium versions, hence the 10 in 0.10.0. The version change corresponding to Node or node-webkit itself is the third part of the version number, e.g. the last 0 in 0.10.0.</p>
+
+<p>If you would like to learn more about node-webkit, you can listen to our <a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html">Teahour Episode</a>. If you are tempted to develop a cross-platform desktop app, then the official <a href="https://github.com/rogerwang/node-webkit/wiki">Wiki</a> would definitely be a good place to start.</p>
+
+<p><span class="footnotes">
+  Thank you again for the translation, Wendy. If anyone is interested, check out her <a href="http://www.linkedin.com/in/yicunwu">linkedin</a>. Wish you all the best in the job hunting.
+</span></p>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn1">
+<p>Please refer to <a href="https://github.com/rogerwang/node-webkit/wiki/Security">https://github.com/rogerwang/node-webkit/wiki/Security</a> to learn more about the node-webkit security model and and how to use these two kinds of frames.&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn2">
+<p>Notification has been implemented by <a href="https://github.com/rogerwang/node-webkit/pull/1951">PR</a> and it&rsquo;s already included in latest release 0.10.1.&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+  <div class="bdsharebuttonbox share">
+    <span style="float:left;padding:6px;margin-right:12px;">
+      Share with <i class="fa fa-heart" style="color:red;margin-right:6px"></i>
+      <span class="arrow"></span>
+    </span>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+  </div>
+  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <div class="clearfix"></div>
+  <div class="about">
+    <div class="author-photo">
+      <img src="/images/yedingding.png?1399041455" />
+    </div>
+    <div class="author-content">
+      <h4>关于我</h4>
+
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+
+      <div class="social-action">
+        <span class="rss">
+          <i class="fa fa-rss"></i> <a href="#subscribe">订阅博客</a>
+        </span>
+        <span class="weibo">
+          <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
+        </span>
+        <span class="twitter">
+          <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">加 Twitter 好友</a>
+        </span>
+
+        <div class="subscribe-form">
+          <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
+            <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
+            <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </article>
+
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      if (window.location.host === "yedingding.com") {
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'yedingding'; // required: replace example with your forum shortname
+        var disqus_identifier = 'what-you-should-know-before-starting-node-webkit';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      }
+
+      $.ready(function() {
+        $('#disqus_thread iframe').css('height', '').css({
+          'height': '500px',
+          'height': 'auto !important',
+          'min-height': '500px'
+        });
+      });
+    </script>
+
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
+
+        <footer class="copyright">
+          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.google.com/+DingdingYe" rel="author" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo"></i></a></li>
+            <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-37202649-1");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  </body>
+</html>
