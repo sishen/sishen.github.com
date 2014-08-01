@@ -30,13 +30,13 @@ Webkit 是 Web 内容的渲染引擎。举个例子，一个网页由 HTML、CSS
 
 由于浏览器安全模型的缘故，Webkit 并不能访问到系统调用，而这却是桌面应用的必须。Node 本身支持系统级的 API，但是缺乏对于渲染的支持，所以文睿在 2011 就有了做 node-webkit 的想法，把两者揉合在一起，既能对接操作系统，又能提供用户交互。在做简单尝试用 webkit-gtk 和 node 来做实验后，在 2012 年开始转向 Chromium，从一开始使用的 Chromium Embeded Framework（CEF）到后面完全基于 Chromium。
 
-得益于 node 和 Chromium 自身的蓬勃发展，node-webkit 也发展的很快，到今天已经发布到了 0.10 版本。下面来讲讲 node-webkit 的一些主要实现细节。
+得益于 Node 和 Chromium 自身的蓬勃发展，node-webkit 也发展的很快，到今天已经发布到了 0.10 版本。下面来讲讲 node-webkit 的一些主要实现细节。
 
-node 是一个事件驱动的框架，消息处理基于 libuv 实现。webkit 的 JS 引擎也是事件驱动的，是 Chrome 自己实现的 MessagePump。所谓事件驱动，简单说就是当某个事件发生的时候，比如有用户输入进来，去执行对应的处理代码。 所以，node-webkit 统一了 node 和 webkit 中的事件处理方式，在一个消息循环中去处理 node 里和 webkit 里的不同事件。
+Node 是一个事件驱动的框架，消息处理基于 libuv 实现。Webkit 的 JS 引擎也是事件驱动的，是 Chrome 自己实现的 MessagePump。所谓事件驱动，简单说就是当某个事件发生的时候，比如有用户输入进来，去执行对应的处理代码。 所以，node-webkit 统一了 node 和 webkit 中的事件处理方式，在一个消息循环中去处理 node 里和 webkit 里的不同事件。
 
-解决了事件处理统一的问题后，node 和 webkit 的揉合还需要互相能访问。node-webkit 里面存在着两个 context，node context 和 webkit context，互相访问也就是 Context 能互通，访问各自的对象。所以在 node-webkit 初始化的时候，node  context 会被注入到 WebKit 里面。之后，Webkit context 就可以访问到 node context 了。
+解决了事件处理统一的问题后，node 和 webkit 的揉合还需要互相能访问。node-webkit 里面存在着两个 context，node context 和 webkit context，互相访问也就是 Context 能互通，访问各自的对象。所以在 node-webkit 初始化的时候，node context 会被注入到 WebKit 里面。之后，Webkit context 就可以访问到 node context 了。
 
-同时，node-webkit 对 Webkit 的安全模型也做了一些修改。在 node-webkit 中，有两种不同的 Frames，Node frame 和 normal frame[^1]。熟悉 Web 开发的朋友应该知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 [Same-origin Policy](http://en.wikipedia.org/wiki/Same_origin_policy)。node-webkit 中的 normal frame，跟浏览器中的一样，仍然有这个限制。但是在 Node frame 中，将不再有这个限制，所有的 Node frame 中共享同一个 security token，包括 node context
+同时，node-webkit 对 Webkit 的安全模型也做了一些修改。在 node-webkit 中，有两种不同的 frames，node frame 和 normal frame[^1]。熟悉 Web 开发的朋友应该知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 [Same-origin Policy](http://en.wikipedia.org/wiki/Same_origin_policy)。node-webkit 中的 normal frame，跟浏览器中的一样，仍然有这个限制。但是在 node frame 中，将不再有这个限制，所有的 node frame 中共享同一个 security token，包括 node context
 和 webkit context，跨域访问被允许，也就能访问到 node context 中的对象。所以作为应用开发者，对于不受信任的用户行为输入一定要做保护，防止因为这个造成一些破坏性行为，或者放入 normal frame 中。
 
 <aside class="aside">
@@ -48,10 +48,10 @@ node 是一个事件驱动的框架，消息处理基于 libuv 实现。webkit �
 
 如果你细心的看上图的话，你会发现浏览器层还有 UI 绘制部分。node-webkit 也是一样，实现了直接绘制原生 UI 控件的 API，比如菜单、系统托盘、剪贴板等。这部分实现，的确也是主要参考了 Chromium 的跨平台 UI 实现。
 
-目前 node-webkit 的正式版是 0.10.0，基于 Node v0.11.13 和 Chromium 35.0.1916.113。node-webkit 的大版本更新策略是跟着 Chromium 的版本升级而升级，比如 0.10.0 中的 10。如果 node-webkit 本身有更新或者 node 版本有更新，对应升级的是第三个数字，也就是 0.10.0 中的最后一个 0。
+目前 node-webkit 的正式版是 0.10.0，基于 Node v0.11.13 和 Chromium 35.0.1916.113。node-webkit 的大版本更新策略是跟着 Chromium 的版本升级而升级，比如 0.10.0 中的 10。如果 node-webkit 本身有更新或者 node 版本有更新，对应升级的是第三个数字，也就是 0.10.0 中的最后一个 0。
 
 如果你想了解最多 node-webkit 的信息，可以听听我们这期 [Teahour 节目](http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html)。如果你想开发跨平台的桌面应用，那么官方的 [Wiki](https://github.com/rogerwang/node-webkit/wiki) 绝对是个很好的开始。
 
-[^1]: 对于 node-webkit 的安全模型，具体可以参考 https://github.com/rogerwang/node-webkit/wiki/Security，了解如何使用这两种不同的 Frame。
+[^1]: 对于 node-webkit 的安全模型，具体可以参考 https://github.com/rogerwang/node-webkit/wiki/Security, 了解如何使用这两种不同的 Frame。
 
 [^2]: 目前已经有 [PR](https://github.com/rogerwang/node-webkit/pull/1951) 实现了 Notification，相信不久会在 node-webkit 正式版中被支持。
