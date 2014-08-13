@@ -42,7 +42,7 @@
     <link rel="stylesheet" href="/stylesheets/application.css">
     <script src="/javascripts/all.js"></script>
   </head>
-  <body class="tags tags_learning ">
+  <body class="tags tags_excel ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
@@ -73,44 +73,49 @@
     </header>
     <section class="main">
       <div class="container">
-        <h1 class="tag-page-title">Articles tagged '<em>learning</em>'</h1>
+        <h1 class="tag-page-title">Articles tagged '<em>excel</em>'</h1>
 
 <div id="posts">
     <article class="post">
       <header>
   <h2 class="title">
-    <a href="/2013/04/22/rails-for-beginners.html">Rails 初学者指南</a>
+    <a href="/2014/08/13/use-excel-for-project-management.html">Excel，熟悉又不熟悉的项目管理工具</a>
   </h2>
   <div class="meta">
     <span class="dates">
-      <i class="fa fa-calendar-o"></i> <span class='date'>Apr 22, 2013</span>
+      <i class="fa fa-calendar-o"></i> <span class='date'>Aug 13, 2014</span>
     </span>
     <span class="tags">
       <i class="fa fa-tags"></i>
-        <a href="/tags/rails.html">rails</a>
-        <a href="/tags/learning.html">learning</a>
+        <a href="/tags/excel.html">excel</a>
+        <a href="/tags/项目管理.html">项目管理</a>
     </span>
   </div>
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="DHH Talks About Rails And Beginner" src="/images/rails-for-beginners/dhh-talks-about-rails-and-beginners.png?1366647275" />
-</aside></p>
+  <blockquote>
+<p>本文转载自<a href="https://fengcheco.com/blog/use-excel-for-project-management/">风车官方博客</a>。</p>
+</blockquote>
 
-<p>今年 2 月初，我 和 <a href="http://lvguoning.com">Daniel</a>，<a href="http://terrytai.com">Terry</a>，<a href="http://knwang.com">Kevin</a> 在 <a href="http://teahour.fm">Teahour.FM</a> 上聊了一期 Ruby 与 Rails 的学习经历和对初学者的学习建议 <a href="http://teahour.fm/2013/02/03/learning-ruby-and-rails.html">How to Learn Ruby and Rails</a>。而这竟然成为了目前 Teahour 这么多期里面最受欢迎的一期。Rails 4 发布在即，看上去 Rails 已经越来越不适合初学者学习。所以对于初学者而言，了解正确的学习方式无痛上路显得就格外重要。</p>
+<p>如果有人在市场上做个调查，目前使用最广泛的项目管理工具是啥，我估计结果不是  Microsoft Project，不是 Jira，不是 Redmine，而是 Excel。在做风车的过程中，接触到不少团队，包括一些跟互联网很近的技术创业公司，都在使用 Excel 管理项目，也有一些用户问我们如何能从 Excel 管理平滑地迁移过来。所以，风车在首页特别跟 Excel 做了对比，我们也的确有不少客户是从 Excel 管理转到风车。这篇文章就来谈谈用 Excel 做项目管理的利与弊。</p>
 
-<p>我在 06 年底开始接触 Rails 的时候，Rails 版本还是 1.2，Ruby 版本 1.8.6。那时我主要是一个后端开发程序员，不懂 Web 开发，不会 HTML，CSS，JS。但是那时的 Rails 学习起来比较简单，特别是搭配着 <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails">Agile Web Development With Rails (2nd Edition)</a>，跟着例子走基本就了解了 Rails 的方方面面。再跟自己的已知的知识体系做结合，也算非常平滑的学习曲线。</p>
+<p>要了解 Excel 管理项目的利与弊，得先了解如何用 Excel 来管理项目，Excel 能做什么，怎么做。项目管理，从本质上就是两件事情，计划安排和进度跟踪。计划安排包括计划和安排。计划是确定要做什么事情，并分解成一个个任务，比如在 Excel 里面按照 <a href="http://www.baike.com/wiki/WBS">WBS</a> 来做计划。而安排就是根据分解任务确定谁做什么事情以及什么时候做什么事情，比如在 Excel 里面制作<a href="http://baike.baidu.com/view/1653.htm">甘特图</a>来做安排。进度跟踪包括进度和跟踪。进度是了解项目的进展，哪些已经完成，哪些有待完成，比如可以在 Excel 里面绘制<a href="http://baike.baidu.com/view/3798770.htm">燃尽图</a>来展现进度。跟踪是及时了解团队每个人的状态，某个任务完成度如何了，这里更多的是通过沟通来更新到 Excel 中。</p>
 
-<p>而如今，你在学习 Rails 的时候，你会发现很多额外的东西，比如 CoffeeScript，Asset Pipeline。而 Rails 4 很多新特性如 Cache Digest (Russion-Doll caching), TuoboLinks，前端倾斜更是会让新手直接晕掉。我们现在已经听到越来越多的新手抱怨 Rails 难学了。DHH 曾经发过一篇很有名的博文 <a href="http://david.heinemeierhansson.com/2012/rails-is-omakase.html">Rails is omakase</a>，中文翻译版见<a href="http://ruby-china.org/topics/7791">这里</a>。在 DHH 和 Rails Core Team 眼里，Rails 框架希望提供的是他们认为的 Web 开发的最佳实践，而这个最佳实践，必然跟他们过去这么多年的开发经历相关。在我看来，基本上 Rails 的框架演变过程跟 Web 开发技术的演变过程是一致的。但是对于初学者而言，在没有经历过足够的痛的前提下，要理解很多<strong>改进</strong>就成了一件不容易的事情。特别是当目前 Web 开发开始向前端倾斜的时候，对开发人员的素质要求越来越高，全能化，全栈化，摆在初学者面前的是个极大的挑战。</p>
+<p>关于具体可以怎么用 Excel 来做项目管理，我做了一个例子，在<a href="https://fengcheco.com/blog/downloads/Excel-Project-Management.xlsx">这里</a>下载，有兴趣可以参考，基本上涵盖了我上面提到的这些事情。</p>
 
-<p>
+<p>Excel 不是专业的项目管理工具，但是 Excel 又无所不能。在我心目中，Windows 并不是微软最成功的软件，Office 才是。使用 Excel，有下面这几点好处。</p>
+
+<ol>
+<li>
+<strong>普及，群众基础扎实</strong>。可以说，Office 在很多人眼里就等于电脑，你去外面配个电脑装个机都能在系统之外附赠一个 Office。这也带来了 Excel 基本上可...</li>
+</ol>
 
   <p>
     ......
   </p>
   <p>
-    <a href="/2013/04/22/rails-for-beginners.html">Read more →</a>
+    <a href="/2014/08/13/use-excel-for-project-management.html">Read more →</a>
   </p>
 </div>
     </article>
