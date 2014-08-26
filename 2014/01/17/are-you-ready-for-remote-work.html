@@ -16,7 +16,7 @@
     <title>
       远程工作，你准备好了吗？| Do Great Things -  叶玎玎
     </title>
-
+    <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
     <meta name="description" content="  8 年远程办公经历，经历过中型团队，也经历过小团队，有创业团队，也有开发团队。远程工作在带来好处的同时也充满着不可驾驭性，我们该怎样正确的充分利用远程工作的优点，解决沟通交流、项目管理和信息同步的问题。本文给出了作者的思考。
 ">
     <meta name="keywords" content="远程工作, 远程办公, remote">
@@ -44,9 +44,10 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="stylesheet" href="/stylesheets/application.css">
+    <link type='text/css' rel='stylesheet' href='http://tinysou-cdn.qiniudn.com/tinysou.min.css' media='all' />
     <script src="/javascripts/all.js"></script>
+    <script src = 'http://tinysou-cdn.qiniudn.com/tinysou-nojquery.js'></script>
   </head>
   <body class="x2014 x2014_01 x2014_01_17 x2014_01_17_are-you-ready-for-remote-work ">
       <div id="banner" style="height: 440px">
@@ -76,6 +77,9 @@
       <h2 class="site-description">
         <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
+      <form class='search'>
+        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
+      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -273,6 +277,25 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
+    </script>
+    <!-- tinysou plugin -->
+    <script>
+      $(document).ready(function () {
+        var customRenderActFunction = function(item) {
+          var out = '<p class="title">' + item['document']['title'] + '</p>';
+          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
+          return out;
+        };
+        $('#ts-search-input').tinysouSearch({
+          engineKey: '26a1afe2b042da01d29f',
+          perPage: 5,
+          resultLimit: 5,
+          resultContainingElement: '#ts-results-container',
+          renderStyle: 'new_page',
+          resultPageURL: '/search.html',
+          renderActFunction: customRenderActFunction
+        });
+      })
     </script>
   </body>
 </html>

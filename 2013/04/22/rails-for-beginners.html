@@ -16,7 +16,7 @@
     <title>
       Rails 初学者指南| Do Great Things -  叶玎玎
     </title>
-
+    <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
     <meta name="description" content="叶玎玎在技术、创业、团队协作和项目管理上的思考和分享">
     <meta name="keywords" content="rails, learning">
     <meta name="author" content="叶玎玎">
@@ -43,9 +43,10 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="stylesheet" href="/stylesheets/application.css">
+    <link type='text/css' rel='stylesheet' href='http://tinysou-cdn.qiniudn.com/tinysou.min.css' media='all' />
     <script src="/javascripts/all.js"></script>
+    <script src = 'http://tinysou-cdn.qiniudn.com/tinysou-nojquery.js'></script>
   </head>
   <body class="x2013 x2013_04 x2013_04_22 x2013_04_22_rails-for-beginners ">
       <div id="banner" style="height: 440px">
@@ -75,6 +76,9 @@
       <h2 class="site-description">
         <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
+      <form class='search'>
+        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
+      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -260,6 +264,25 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
+    </script>
+    <!-- tinysou plugin -->
+    <script>
+      $(document).ready(function () {
+        var customRenderActFunction = function(item) {
+          var out = '<p class="title">' + item['document']['title'] + '</p>';
+          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
+          return out;
+        };
+        $('#ts-search-input').tinysouSearch({
+          engineKey: '26a1afe2b042da01d29f',
+          perPage: 5,
+          resultLimit: 5,
+          resultContainingElement: '#ts-results-container',
+          renderStyle: 'new_page',
+          resultPageURL: '/search.html',
+          renderActFunction: customRenderActFunction
+        });
+      })
     </script>
   </body>
 </html>

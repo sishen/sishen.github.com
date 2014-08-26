@@ -16,7 +16,7 @@
     <title>
       和李天放聊课程格子创业故事| Do Great Things -  叶玎玎
     </title>
-
+    <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
     <meta name="description" content="  本期由叶玎玎主持，邀请到了课程格子的创始人李天放来跟我们一起聊聊他两年多的创业经历。天放是一个美籍华人，三年前放弃硅谷大好的机会回国创业，课程格子是他的第三个产品，在本期节目中他介绍了他和他的团队是如何找到这个需求，如何做 MVP，如何宣传推广，如何跟用户交流，如何做产品级别测试等等的经验，也介绍了课程格子的技术架构和团队文化。
 ">
     <meta name="keywords" content="teahour, startup，团队建设">
@@ -44,9 +44,10 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="stylesheet" href="/stylesheets/application.css">
+    <link type='text/css' rel='stylesheet' href='http://tinysou-cdn.qiniudn.com/tinysou.min.css' media='all' />
     <script src="/javascripts/all.js"></script>
+    <script src = 'http://tinysou-cdn.qiniudn.com/tinysou-nojquery.js'></script>
   </head>
   <body class="x2014 x2014_05 x2014_05_12 x2014_05_12_talk-about-kechenggezhi-with-tstyle11 ">
       <div id="banner" style="height: 440px">
@@ -76,6 +77,9 @@
       <h2 class="site-description">
         <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
+      <form class='search'>
+        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
+      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -586,6 +590,25 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
+    </script>
+    <!-- tinysou plugin -->
+    <script>
+      $(document).ready(function () {
+        var customRenderActFunction = function(item) {
+          var out = '<p class="title">' + item['document']['title'] + '</p>';
+          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
+          return out;
+        };
+        $('#ts-search-input').tinysouSearch({
+          engineKey: '26a1afe2b042da01d29f',
+          perPage: 5,
+          resultLimit: 5,
+          resultContainingElement: '#ts-results-container',
+          renderStyle: 'new_page',
+          resultPageURL: '/search.html',
+          renderActFunction: customRenderActFunction
+        });
+      })
     </script>
   </body>
 </html>

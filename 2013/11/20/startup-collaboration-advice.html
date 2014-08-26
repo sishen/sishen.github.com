@@ -16,7 +16,7 @@
     <title>
       小团队如何高效协作| Do Great Things -  叶玎玎
     </title>
-
+    <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
     <meta name="description" content="  小团队尤其是创业型开发团队，如何才能高效协作？在我看来，必须得目标一致、合理安排、易者优先、免扰模式、状态同步、代码审查、过程审查和健康工作。
 ">
     <meta name="keywords" content="创业, 团队协作, 小团队, 技术团队">
@@ -44,9 +44,10 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="stylesheet" href="/stylesheets/application.css">
+    <link type='text/css' rel='stylesheet' href='http://tinysou-cdn.qiniudn.com/tinysou.min.css' media='all' />
     <script src="/javascripts/all.js"></script>
+    <script src = 'http://tinysou-cdn.qiniudn.com/tinysou-nojquery.js'></script>
   </head>
   <body class="x2013 x2013_11 x2013_11_20 x2013_11_20_startup-collaboration-advice ">
       <div id="banner" style="height: 440px">
@@ -76,6 +77,9 @@
       <h2 class="site-description">
         <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
+      <form class='search'>
+        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
+      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -262,6 +266,25 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
+    </script>
+    <!-- tinysou plugin -->
+    <script>
+      $(document).ready(function () {
+        var customRenderActFunction = function(item) {
+          var out = '<p class="title">' + item['document']['title'] + '</p>';
+          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
+          return out;
+        };
+        $('#ts-search-input').tinysouSearch({
+          engineKey: '26a1afe2b042da01d29f',
+          perPage: 5,
+          resultLimit: 5,
+          resultContainingElement: '#ts-results-container',
+          renderStyle: 'new_page',
+          resultPageURL: '/search.html',
+          renderActFunction: customRenderActFunction
+        });
+      })
     </script>
   </body>
 </html>

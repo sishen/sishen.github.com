@@ -1,0 +1,6 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName> Yedingding Blog</ShortName>
+  <Description>Yedingding Blog</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" method="get" template="http://yedingding.com/search.html#tsq={searchTerms}&amp;tsp=0"/>
+</OpenSearchDescription>

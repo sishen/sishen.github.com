@@ -16,7 +16,7 @@
     <title>
       Deliver Better Product (I)| Do Great Things -  叶玎玎
     </title>
-
+    <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
     <meta name="description" content="  做正确的事情，正确的做事情，并且快速的做事情，这样一个创业团队，最佳情况就是总是能在正确的时间用正确的方法做正确的事，非常完美。本文主要介绍如何做产品远景和 MVP 形态探索，后面的系列文章目前计划会涉及如何做用户角色分析，如何做用户故事、如何做计划评估、如果做迭代计划、如何协作执行、如何做回顾测试、如何做用户访谈等。
 ">
     <meta name="keywords" content="创业, MVP, 项目管理">
@@ -44,9 +44,10 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="stylesheet" href="/stylesheets/application.css">
+    <link type='text/css' rel='stylesheet' href='http://tinysou-cdn.qiniudn.com/tinysou.min.css' media='all' />
     <script src="/javascripts/all.js"></script>
+    <script src = 'http://tinysou-cdn.qiniudn.com/tinysou-nojquery.js'></script>
   </head>
   <body class="x2014 x2014_07 x2014_07_09 x2014_07_09_deliver-better-product-i with-cover">
       <div id="cover" style="height: 500px;background-image:url(    /images/deliver-better-product-i/cover-bg.jpg);background-size: 100% auto;">
@@ -76,6 +77,9 @@
       <h2 class="site-description">
         <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
+      <form class='search'>
+        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
+      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -294,6 +298,25 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
+    </script>
+    <!-- tinysou plugin -->
+    <script>
+      $(document).ready(function () {
+        var customRenderActFunction = function(item) {
+          var out = '<p class="title">' + item['document']['title'] + '</p>';
+          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
+          return out;
+        };
+        $('#ts-search-input').tinysouSearch({
+          engineKey: '26a1afe2b042da01d29f',
+          perPage: 5,
+          resultLimit: 5,
+          resultContainingElement: '#ts-results-container',
+          renderStyle: 'new_page',
+          resultPageURL: '/search.html',
+          renderActFunction: customRenderActFunction
+        });
+      })
     </script>
   </body>
 </html>
