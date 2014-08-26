@@ -1,3 +1,7 @@
+---
+layout: false
+---
+
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="<%= data.site.lang %>"><![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="<%= data.site.lang %>"><![endif]-->
@@ -11,7 +15,7 @@
     <title>
       <%= yield_content(:title).blank? ? data.site.title :  yield_content(:title).chomp.strip + '| ' + data.site.title %>
     </title>
-    <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
+
     <meta name="description" content="<%= yield_content(:description).blank? ? data.site.description.chomp.strip : yield_content(:description)  %>">
     <meta name="keywords" content="<%= yield_content(:keywords).blank? ? data.site.keywords.join(',') : yield_content(:keywords).chomp.strip %>">
     <meta name="author" content="<%= data.site.author %>">
@@ -73,10 +77,6 @@
           </ul>
         </nav>
       </div>
-      <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png"/></a>
-      </div>
-      <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
         <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
@@ -86,7 +86,7 @@
     </header>
     <section class="main">
       <div class="container">
-        <%= yield %>
+        <div id='ts-results-container'></div>
 
         <footer class="copyright">
           <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
@@ -135,3 +135,5 @@
     </script>
   </body>
 </html>
+
+
