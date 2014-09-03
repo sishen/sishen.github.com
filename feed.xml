@@ -5,7 +5,7 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-08-13T10:00:00+08:00</updated>
+  <updated>2014-08-12T21:00:00-05:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Excel，熟悉又不熟悉的项目管理工具</title>
     <link rel="alternate" href="/2014/08/13/use-excel-for-project-management.html"/>
     <id>/2014/08/13/use-excel-for-project-management.html</id>
-    <published>2014-08-13T10:00:00+08:00</published>
-    <updated>2014-08-13T10:00:00+08:00</updated>
+    <published>2014-08-12T21:00:00-05:00</published>
+    <updated>2014-08-12T21:00:00-05:00</updated>
     <author>
       <name>叶玎玎</name>
     </author>
@@ -79,8 +79,8 @@
     <title>What you should know before starting node-webkit</title>
     <link rel="alternate" href="/2014/08/01/node-webkit-intro-en.html"/>
     <id>/2014/08/01/node-webkit-intro-en.html</id>
-    <published>2014-08-01T09:00:00+08:00</published>
-    <updated>2014-08-01T09:00:00+08:00</updated>
+    <published>2014-07-31T20:00:00-05:00</published>
+    <updated>2014-07-31T20:00:00-05:00</updated>
     <author>
       <name>叶玎玎</name>
     </author>
@@ -171,8 +171,8 @@
     <title>开始 node-webkit 前，你应该知道的</title>
     <link rel="alternate" href="/2014/07/28/node-webkit-intro.html"/>
     <id>/2014/07/28/node-webkit-intro.html</id>
-    <published>2014-07-28T12:00:00+08:00</published>
-    <updated>2014-07-28T12:00:00+08:00</updated>
+    <published>2014-07-27T23:00:00-05:00</published>
+    <updated>2014-07-27T23:00:00-05:00</updated>
     <author>
       <name>叶玎玎</name>
     </author>
@@ -269,8 +269,8 @@
     <title>Deliver Better Product (I)</title>
     <link rel="alternate" href="/2014/07/09/deliver-better-product-i.html"/>
     <id>/2014/07/09/deliver-better-product-i.html</id>
-    <published>2014-07-09T12:00:00+08:00</published>
-    <updated>2014-07-09T12:00:00+08:00</updated>
+    <published>2014-07-08T23:00:00-05:00</published>
+    <updated>2014-07-08T23:00:00-05:00</updated>
     <author>
       <name>叶玎玎</name>
     </author>
@@ -391,8 +391,8 @@
     <title>微信企业号，Do or Die?</title>
     <link rel="alternate" href="/2014/07/03/wechat-enterprise-challenge.html"/>
     <id>/2014/07/03/wechat-enterprise-challenge.html</id>
-    <published>2014-07-03T20:00:00+08:00</published>
-    <updated>2014-07-03T20:00:00+08:00</updated>
+    <published>2014-07-03T07:00:00-05:00</published>
+    <updated>2014-07-03T07:00:00-05:00</updated>
     <author>
       <name>叶玎玎</name>
     </author>
@@ -453,8 +453,8 @@
     <title>Write the code. Change the world.</title>
     <link rel="alternate" href="/2014/06/24/write-the-code-change-the-world.html"/>
     <id>/2014/06/24/write-the-code-change-the-world.html</id>
-    <published>2014-06-24T08:00:00+08:00</published>
-    <updated>2014-06-24T08:00:00+08:00</updated>
+    <published>2014-06-23T19:00:00-05:00</published>
+    <updated>2014-06-23T19:00:00-05:00</updated>
     <author>
       <name>叶玎玎</name>
     </author>
