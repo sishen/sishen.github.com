@@ -5,10 +5,70 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-08-13T10:00:00+08:00</updated>
+  <updated>2014-10-21T08:00:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>RubyConf China 2014</title>
+    <link rel="alternate" href="/2014/10/21/rubyconf-china-2014.html"/>
+    <id>/2014/10/21/rubyconf-china-2014.html</id>
+    <published>2014-10-21T08:00:00+08:00</published>
+    <updated>2014-10-21T08:00:00+08:00</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="RubyConf China 2014" src="/images/rubyconf-china-2014/RubyConfChina-2014.png?1413826305"&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
+
+&lt;p&gt;去年，我们尝试了多种改变，第一次跑到上海之外的城市，第一次邀请了如此多的国外著名讲师，第一次尝试官方 After Party，第一次等，获得了参会者的众多好评，也留下了非常美好的回忆。而今年的 RubyConf China，看似没有去年的阵容豪华，看似没有去年的气氛喧闹，但是我们还是很乐观的相信今年会是非常特别的一年，今年我们也在创造很多第一次。&lt;/p&gt;
+
+&lt;p&gt;今年的大会筹办其实蛮早就开始，但是作为一个纯志愿者组织的大会，尤其三位主办人姜军、吕国宁和我都是在创业，时间超级不够用，整体办会经历可以说是跌宕起伏，所幸大多有惊无险。姜军数次跟我谈起想今年尝试不同的方式，想跳出往年固定的主题演讲式，给参会者带来更多不同的体验和更多的参与感和情感互动。所以，我们今年放弃了从海外邀请嘉宾，专注在形式上做突破，为明年的大会做好基础，也就有了你今天看到的大会行程。&lt;/p&gt;
+
+&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks 带来的半天 TDD Workshop，Rails 源码分析之 ActiveRecord 以及由我支持的两场 Ruby 职场...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
+  &lt;img alt="RubyConf China 2014" src="http://yedingding.com/images/rubyconf-china-2014/RubyConfChina-2014.png?1413826305" /&gt;
+&lt;/aside&gt;&lt;/p&gt;
+
+&lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
+
+&lt;p&gt;去年，我们尝试了多种改变，第一次跑到上海之外的城市，第一次邀请了如此多的国外著名讲师，第一次尝试官方 After Party，第一次等，获得了参会者的众多好评，也留下了非常美好的回忆。而今年的 RubyConf China，看似没有去年的阵容豪华，看似没有去年的气氛喧闹，但是我们还是很乐观的相信今年会是非常特别的一年，今年我们也在创造很多第一次。&lt;/p&gt;
+
+&lt;p&gt;今年的大会筹办其实蛮早就开始，但是作为一个纯志愿者组织的大会，尤其三位主办人姜军、吕国宁和我都是在创业，时间超级不够用，整体办会经历可以说是跌宕起伏，所幸大多有惊无险。姜军数次跟我谈起想今年尝试不同的方式，想跳出往年固定的主题演讲式，给参会者带来更多不同的体验和更多的参与感和情感互动。所以，我们今年放弃了从海外邀请嘉宾，专注在形式上做突破，为明年的大会做好基础，也就有了你今天看到的大会行程。&lt;/p&gt;
+
+&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks 带来的半天 TDD Workshop，Rails 源码分析之 ActiveRecord 以及由我支持的两场 Ruby 职场相关的圆桌讨论。除此之外，当然还有必不可少的 After Party，供大家进行亲切热烈的交流。&lt;/p&gt;
+
+&lt;p&gt;在此，感谢 &lt;a href="https://shou.tv/"&gt;Shou.tv&lt;/a&gt;、&lt;a href="http://gitcafe.com/"&gt;GitCafe&lt;/a&gt;、&lt;a href="http://upyun.com"&gt;又拍云服务&lt;/a&gt;、&lt;a href="http://www.ucloud.cn"&gt;UCloud&lt;/a&gt;、&lt;a href="http://www.qiniu.com"&gt;七牛云存储&lt;/a&gt; 等众多赞助商的支持，煽情的说，没有你们，就没有这次的大会，感谢！&lt;/p&gt;
+
+&lt;p&gt;同时，感谢 &lt;a href="http://36kr.com"&gt;36Kr&lt;/a&gt;、&lt;a href="http://www.3wcoffee.com"&gt;3W 咖啡&lt;/a&gt;、&lt;a href="http://www.ingchuang.com/explore/"&gt;硬创帮&lt;/a&gt;、&lt;a href="http://segmentfault.com"&gt;SegmentFault&lt;/a&gt; 等对本次大会的场地和媒体支持。&lt;/p&gt;
+
+&lt;p&gt;随贴附赠 10 个不去 RubyConf China 的理由。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;主办方太业余&lt;/li&gt;
+&lt;li&gt;中文演讲太多&lt;/li&gt;
+&lt;li&gt;票价太便宜&lt;/li&gt;
+&lt;li&gt;内容太干&lt;/li&gt;
+&lt;li&gt;游戏性太强&lt;/li&gt;
+&lt;li&gt;社区太多元&lt;/li&gt;
+&lt;li&gt;妹子太多&lt;/li&gt;
+&lt;li&gt;周末太忙&lt;/li&gt;
+&lt;li&gt;雾霾太严重&lt;/li&gt;
+&lt;li&gt;北京太远&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;但是我们只需要 1 个去 RubyConf China 的理由。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;我爱 Ruby&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;大会官网见这里 &lt;a href="http://rubyconfchina.org"&gt;http://rubyconfchina.org&lt;/a&gt;，报名热线点这里&lt;a href="http://19wu.com/rubyconfchina"&gt;http://19wu.com/rubyconfchina&lt;/a&gt;。11 月 1 号早上 8 点，北京大学中关新园 2 号楼，到时候见！&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Excel，熟悉又不熟悉的项目管理工具</title>
     <link rel="alternate" href="/2014/08/13/use-excel-for-project-management.html"/>
@@ -443,93 +503,6 @@
 
 &lt;li id="fn3"&gt;
 &lt;p&gt;敏捷宣言中文版见&lt;a href="http://agilemanifesto.org/iso/zhchs/"&gt;这里&lt;/a&gt;&amp;nbsp;&lt;a href="#fnref3" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Write the code. Change the world.</title>
-    <link rel="alternate" href="/2014/06/24/write-the-code-change-the-world.html"/>
-    <id>/2014/06/24/write-the-code-change-the-world.html</id>
-    <published>2014-06-24T08:00:00+08:00</published>
-    <updated>2014-06-24T08:00:00+08:00</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="WWDC 2014" src="/images/write-the-code-change-the-world/WWDC14.png?1403585998" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Write the Code. Change the world.&amp;rdquo;, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。&lt;/p&gt;
-
-&lt;p&gt;六一应 &lt;a href="http://segmentfault.com"&gt;SegmentFault&lt;/a&gt;&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 高阳邀请，在其两周年黑客马拉松活动中作为技术创业者的代表，做一个分享。虽然作为创业者分享经验很不够格，不过这两年做风车下来也的确有一些想法，另外通过 &lt;a href="http://teahour.fm"&gt;Teahour&lt;/a&gt; 从不少创业者那里学到了很多，所以也就在活动上做了一次简短的即兴演讲，刚好跟 『Write the Code. Change the world』有点关联。&lt;/p&gt;
-
-&lt;p&gt;SegmentFault 的使命是『创造属于开发者的时代』，我个人很喜欢这个远景，很美好。作为开发者，处在现在这个时代，我们是幸运的。我记得我 06 年的时候第一次跟朋友创业做互联网产品，当时什么东西都要自己去管，比如要自己买服务器、找 IDC 托管、产品开发中如果需要用什么服务都要自己做，真的是很讨厌，既浪费时间又浪费精力。而现在呢，相比较起来我们去制作一个产品的成本已经很低了，一个团队，三个月时间迅速开发原型，云主机用 UCloud 之类，文件存储用又拍云，发邮件用 SendCloud，还有各种开放平台等等。所以，作为一个开发者，作为一个会写代码的人&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;，我们有个很大的优势，就是就算整个世界抛弃了你，你还是能一个人去把产品开发出来，启动成本很低。&lt;/p&gt;
-
-&lt;p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="WWDC 2014" src="http://yedingding.com/images/write-the-code-change-the-world/WWDC14.png?1403585998" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Write the Code. Change the world.&amp;rdquo;, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。&lt;/p&gt;
-
-&lt;p&gt;六一应 &lt;a href="http://segmentfault.com"&gt;SegmentFault&lt;/a&gt;&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 高阳邀请，在其两周年黑客马拉松活动中作为技术创业者的代表，做一个分享。虽然作为创业者分享经验很不够格，不过这两年做风车下来也的确有一些想法，另外通过 &lt;a href="http://teahour.fm"&gt;Teahour&lt;/a&gt; 从不少创业者那里学到了很多，所以也就在活动上做了一次简短的即兴演讲，刚好跟 『Write the Code. Change the world』有点关联。&lt;/p&gt;
-
-&lt;p&gt;SegmentFault 的使命是『创造属于开发者的时代』，我个人很喜欢这个远景，很美好。作为开发者，处在现在这个时代，我们是幸运的。我记得我 06 年的时候第一次跟朋友创业做互联网产品，当时什么东西都要自己去管，比如要自己买服务器、找 IDC 托管、产品开发中如果需要用什么服务都要自己做，真的是很讨厌，既浪费时间又浪费精力。而现在呢，相比较起来我们去制作一个产品的成本已经很低了，一个团队，三个月时间迅速开发原型，云主机用 UCloud 之类，文件存储用又拍云，发邮件用 SendCloud，还有各种开放平台等等。所以，作为一个开发者，作为一个会写代码的人&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;，我们有个很大的优势，就是就算整个世界抛弃了你，你还是能一个人去把产品开发出来，启动成本很低。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;但是，是否启动成本低，我们就应该甩开膀子干呢？千万别，思考清楚了，宁愿在真正开始做事情前多花时间思考。我在去年曾经写过一篇文章&lt;a href="http://yedingding.com/2013/10/11/how-to-find-tech-cofounder.html"&gt;『如何吸引技术合伙人』&lt;/a&gt;，其中很关键的两点是看对方是否对 idea 有足够的认识以及是否有 traction 可以验证。换位思考，我们自己创业时，也应该如此，多思考，好的坏的都要思考。&lt;/p&gt;
-
-&lt;p&gt;去年中国 Ruby 大会上，Kevin Dewalt 曾经做过一次非常精彩的演讲 &lt;a href="http://www.infoq.com/cn/presentations/combination-ror-and-better-startup-strategy-in-business"&gt;『How to Use Rails and Ruby to validate your Startup idea』&lt;/a&gt;，他认为，一个产品的成功，在一开始就得思考这三个问题。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Problem - 问题？&lt;/strong&gt;. 你是否在解决一个真正的问题？你需要从第一天开始就去验证你的假设，这需要你去做产品定位和采访潜在用户。在没有找到这个答案之前，做其它任何的都是徒劳的。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Revenue - 会买？&lt;/strong&gt;. 我们得考虑商业价值，也就是人们是否愿意花钱解决这个问题？不管你在解决多少实际的问题，但是如果多数用户还是宁愿忍受这个问题也不愿意花钱买解决方案，那还是不值得做，得慎重。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Channel - 怎么卖&lt;/strong&gt;. 你有没有一个有效的渠道去推到愿意花钱解决这个问题的人？问题就在那里，也有足够的人愿意付钱，最后就是问问你能否推广到这个群体去，同时还能有盈利。如果你的推广成本大于你的收入，那么还是没法做。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;所以，如果你要开始一个项目，问自己这三个问题。思考清楚后，追随你的内心，做出选择，奋力向前。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Maslow 5 层需求模型" src="http://yedingding.com/images/write-the-code-change-the-world/maslow-hierarchy-of-needs.jpg?1403585998" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;我那篇文章有个读者曾问过我，如果是我自己，创业最想得到的是什么。我的回答是，能自己主导做一些真正有社会价值的事，并且经济回报有盼头。我不是圣人，所以不否认是有物质的追求在，但是理想层面上的精神追求会更多点。马斯洛在其基本五层需求模型理论中指出，人类最底层的是衣食住行等生理需求，上一层是安全上的需求，第三层是作为社会群体在社交上的需求，第四层是尊重的需求，最上层是自我实现的需求，一种创造的需要。如果我们是工作的话，生理需求和安全需求会很容易满足。然后是社交需求、尊重需求的满足，最后我们才会考虑自我实现。但是创业不同，我认为创业是直接跳过了下面的四层，更多的是在追求自我实现的需求，去实现自己的理想和目标，所以愿意在一定时间内放弃自己的一些下层需求。&lt;/p&gt;
-
-&lt;p&gt;我们都知道，创业成功的几率是非常小的，100 个项目里面有 90 个是失败的，有 8 个不失败但是也就那样，只有 2 个是非常成功的。Scott Shane&lt;sup id="fnref3"&gt;&lt;a href="#fn3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; 在其著名畅销书 &lt;a href="http://www.amazon.com/The-Illusions-Entrepreneurship-Entrepreneurs-Investors/dp/0300158564"&gt;『The Illusions of Entrepreneurship』&lt;/a&gt; 就披露了很多关于创业者的黑暗事实，比如大多数创业公司会在 5 年内倒闭，大多数创业者比他工作的时候收入要低，大多数创业者收入不稳定，大多数创业者工作时间比工作要更长。理想很美好，现实很残酷，但是即使知道这些，我们是否就会失去创业的勇气？不！因为我们都有那么一点小理想，我们在追求自我实现，所以不如让我们姑且忘掉未来的成败，而是专注在成长和价值的提高上。而且，即使失败率如此之高，我们还是有办法来降低，比如更好的利用时间，更高效的做事，这也是我为啥坚持做风车的原因，风车本质上就是高效任务管理工具，让你们更好的成长，因为时间管理说白了到最后就是任务管理。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Feature Usage" src="http://yedingding.com/images/write-the-code-change-the-world/feature-usage.jpg?1403585998" /&gt;&lt;br/&gt;
-  &lt;small&gt;Source: Standish Group, Feature usage of software projects&lt;/small&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;对于大多数技术创业者来说，也许基本只有时间成本，可是时间对我们来说是一个非常昂贵的东西，所以要学会合理地利用时间和资源。钱是赚不完的，但是时间过了就找不回来了，这也是为什么我们要时刻提醒自己要专注在核心价值的地方。这并不是说我们应该工作的更努力，工作的时间应该要更长，而是努力用最小的时间去换取最大的价值。如果不是自己的产品价值，那么就不需要做，勇于对用户说不，价值少的可以考虑让第三方来做等等。Standish Group&lt;sup id="fnref4"&gt;&lt;a href="#fn4" rel="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt; 曾在 2002 年做过一次市场调查，对于一个软件产品，平均竟然有 64% 的功能是用户从来不用或者很少用到的，而经常用到的只有 20%。所以，不要浪费时间精力去做那 64%！同时，比起不停的埋头开发，要不停的去了解用户，与用户沟通，保持改进，提高客户满意度，这些都是可以让我们降低失败率的手段。&lt;/p&gt;
-
-&lt;p&gt;最后，以我自勉的几个字做结尾：『勿忘初心，但行好事，莫问前程』。&lt;/p&gt;
-
-&lt;p&gt;PS：SegmentFault 2014 黑客马拉松北京站凑巧也在这个周末举行，有兴趣可以去参加一下，地址戳&lt;a href="http://segmentfault.com/e/hackathon-beijing-2014"&gt;这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;div class="footnotes"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id="fn1"&gt;
-&lt;p&gt;SegementFault 是国内最活跃的黑客马拉松组织者。&amp;nbsp;&lt;a href="#fnref1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li id="fn2"&gt;
-&lt;p&gt;现在学编程的门槛已经很低了，只要愿意并且投入时间就可。Udemy 上有不少非常好的课程，一般人我不告诉他。&amp;nbsp;&lt;a href="#fnref2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li id="fn3"&gt;
-&lt;p&gt;Scott Shane 是创业研究领域的著名学者、凯思西储大学管理学院教授，也是一位投资人。&amp;nbsp;&lt;a href="#fnref3" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li id="fn4"&gt;
-&lt;p&gt;Standish Group 是美国专门从事跟踪 IT 项目成功或失败的权威机构，它每年会发布一个 CHAOS Report，给出IT项目相关调查数据结果。&amp;nbsp;&lt;a href="#fnref4" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;/ol&gt;
