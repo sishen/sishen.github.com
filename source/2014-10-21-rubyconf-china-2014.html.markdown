@@ -1,6 +1,6 @@
 ---
 title: "RubyConf China 2014"
-date: 2014-10-21 01:00 CST
+date: 2014-10-21 08:00 +08:00
 tags: ruby, rubyconf
 keywords: ruby
 ---
