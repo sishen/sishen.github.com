@@ -5,10 +5,121 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-10-21T08:00:00+08:00</updated>
+  <updated>2014-10-22T18:00:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>采访达峰 - I've shipped the Code. What's next?</title>
+    <link rel="alternate" href="/2014/10/22/rcc2014-dafeng.html"/>
+    <id>/2014/10/22/rcc2014-dafeng.html</id>
+    <published>2014-10-22T18:00:00+08:00</published>
+    <updated>2014-10-22T18:00:00+08:00</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;p&gt;&lt;img alt="Data Measure" src="/images/rcc2014-dafeng/data-measure.jpg?1413974934"&gt;&lt;/p&gt;
+
+&lt;p&gt;本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 &lt;a href="http://localhost:4568/2014/10/22/work-after-ship-code-with-dafeng.html"&gt;http://localhost:4568/2014/10/22/work-after-ship-code-with-dafeng.html&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_56.m4a" type="audio/mpeg"&gt;
+&lt;/source&gt;&lt;/audio&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：你好！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：虽然上过节目，还是按照惯例，给大家打个招呼和做下简单的自我介绍吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：大家好，我是郭达峰，是第一家进入 YC 孵化器的华人团队 Strikingly 的联合创始人。在 Strikingly 主要负责技术这一块。我从14岁开始编程，创建 Strikingly 之前我也写过几款超过 2000 万用户的 Facebook 应用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I’ve shipped the Code. What’s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：好的好的。要讲一下这个内容是什么，可能要先讲一下选这个题目的原因。我相信这次大会上有很多团队都是在创业，或者在创业团队工作的人。作为创业团队为什么选 Ruby ，就是因为 Ruby 可以快速开发，这一点对创业公司非常重要。&lt;/p&gt;
+
+&lt;p&gt;我自己参加过不同的讲座和不同的技术分享，发现国内这种分析很多都是专注在技术上，比如：...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;&lt;img alt="Data Measure" src="http://yedingding.com/images/rcc2014-dafeng/data-measure.jpg?1413974934" /&gt;&lt;/p&gt;
+
+&lt;p&gt;本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 &lt;a href="http://localhost:4568/2014/10/22/work-after-ship-code-with-dafeng.html"&gt;http://localhost:4568/2014/10/22/work-after-ship-code-with-dafeng.html&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;audio controls name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_56.m4a" type="audio/mpeg"&gt;
+&lt;/audio&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：你好！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：虽然上过节目，还是按照惯例，给大家打个招呼和做下简单的自我介绍吧。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：大家好，我是郭达峰，是第一家进入 YC 孵化器的华人团队 Strikingly 的联合创始人。在 Strikingly 主要负责技术这一块。我从14岁开始编程，创建 Strikingly 之前我也写过几款超过 2000 万用户的 Facebook 应用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I&amp;rsquo;ve shipped the Code. What&amp;rsquo;s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：好的好的。要讲一下这个内容是什么，可能要先讲一下选这个题目的原因。我相信这次大会上有很多团队都是在创业，或者在创业团队工作的人。作为创业团队为什么选 Ruby ，就是因为 Ruby 可以快速开发，这一点对创业公司非常重要。&lt;/p&gt;
+
+&lt;p&gt;我自己参加过不同的讲座和不同的技术分享，发现国内这种分析很多都是专注在技术上，比如：测试应该怎么做，性能应该怎么优化，或者在架构方面的技术。听完很多这样的分享之后，我觉得对于创业公司来讲 ，在追求技术的时候，有时候却忽略了创业的初衷。我们的初衷是：&lt;strong&gt;Want to make something people want!&lt;/strong&gt; 我们想做成一款大家会喜爱的产品，大家会用的产品。你可能可以有 100% 的测试覆盖率，性能非常优化，有完美的架构，但是如果没有用户用你的产品的话，&lt;strong&gt;What does it even matter?&lt;/strong&gt; 根本就不重要！我发现作为技术人，我们常常把上线当成是终点。上线了，搞定了，就以为用户自己就会来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：我曾经也犯过同样的错误！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：产品完成、上线是我们比较擅长的，我们做技术的，这个是我们的专长之一。这是我们的特长专业。其实从上线的产品到用户热爱的产品还有很长的一段路。我发现很多人都在讲技术，都在讲怎么把产品做上线，越快上线，或者上线之后技术上的维护。很少有人讲，上线之后改善产品。我今天想分享的这个就是技术人员，怎样利用技术去做上线之后改善产品的事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：其实改善产品在我看来有很多种方向，那你在这支大会上是从哪个角度改善产品的？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我着重去做的就是怎么样把产品做到 Make something people want! 我用一个框架讲这个内容：如果你不去测量的话，你不确定产品有没有在改进（&lt;strong&gt;You can&amp;rsquo;t improve if you don&amp;rsquo;t measure&lt;/strong&gt;）。如果你不去测量一个新功能对产品的影响，你没有办法有力的说明产品在改善。我讲的内容会通过数据分为三步：&lt;/p&gt;
+
+&lt;p&gt;1、一开始上线，创业初级的时候，你没有数据的时候，你应该用什么方式去改善产品；
+2、有一些数据时，应该怎么做；
+3、做到完全的有数据驱动的产品改善的流程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：我开始有点明白了。其实整一套像比较火的概念：Growth Hacker ，专注于 User Growth 。就像你说从 User Growth 分成几个阶段：从没有用户怎么做，有了一定用户怎么做，有大批用户怎么做。是讲这块对吧？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：目的当然是要更多用户来用我们的产品，但是你要拿到更多的用户，你可以有很多方法，你可以去做市场，上广告。这也是增加用户的方法。我想讲的是，怎么去改善产品，从产品本身去改变。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：可以稍微不要卖这么多关子啊，举个例子啊。比如说，我一开始没有用户的时候嘛，然后我产品上去了，这个时候你觉得要怎么做呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：没有数据的时候你根本没法 measure 东西。其实在没有数据的时候，YC 讲过一句话是，我认为在初期最优化的：一开始的时候只做 2.5 件事。我上次分享的时候也讲过：第一件事情，make product；第二件事情，是 talk to users；第 0.5 件事情，是 exercise。&lt;/p&gt;
+
+&lt;p&gt;实际上第二件事情是当你没有数据的时候你最应该做的。这个时候，你应该想尽不同的方法跟你的用户沟通，他们的需求是什么，这是我会分享的。你总不可能每次都给你的用户打电话吧？第一次你会不好意思，第二次你会觉得这么奇怪啊，每天都打电话给我。我会给出几个方法，让流程更自然一点，也能更有效的帮助你去跟用户沟通，反馈你整个的开发流程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：我都有点不想把这个当成一个会前采访了，想直接来跟你讲下去了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我们采访完之后我们可以分享下~~~&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：我们刚刚讲的是没有数据的时候。没有数据的时候做法肯定会和有数据的时候不太一样啦。当我第一阶段已经顺利迈过去之后，有数据之后，会遇到一个问题：噪音很多。这个时候有什么奇技淫巧可以用吗？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：这个要讲一下。我相信很多团队也遇到一个问题：用户有很多声音。他想要这个，想要那个，我到底要去听哪一个声音呢？团队里面也有一些纠纷。A 觉得那个对，B 觉得另外一个对，那到底应该用什么样的框架来做决策呢？实际上就是数据。当有些数据的时候，你可以综合数据和判断去做决策。比如说，做一些 A / B 测试，或者开发完之后这功能是可以提高某方面的数据的。那我们可以做一个测试。先把这个功能发布给某些用户，结果如何。如果结果好的话，我们再去花更多的时间把功能做好。如果我们效果很差的话，我们再专注在另外的事情上。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：这个有点像最近被吐槽很多的：微博的 V6 版本，你可以手动升级，是这样子么？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：这个倒不一定。我觉得 V6 的这个概念比较跨越性，很难说 V6 失败，就把它 rollback 到 V5。这种跨越性的进展，我认为很多时候从用户沟通完之后，你也可以做测试，但是并没有办法做到这么大规模的，我将的更多的是小的 feature。像它这么大的功能肯定也不是每天发生的。但是在一些小功能的话，我们可能每个星期都有很多这种测试同时进行中。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：这点好像我在去年的大会还跟 Github 的 Zach Holman 聊过怎么做。Github 那边好像也是类似这种。他们 Github 在发布新的 UI 也介绍过：在发布前他们只在内部和 shipped 了几个 clients 用并且用了很久了。他们那边自己用了很久才会正式的给所有用户。包括 Facebook 那边，上次不知道是不是听你介绍的，每个正式发布的功能都有人已经用了半年以上了~~~&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：Facebook 那边是叫 Dark Release 。Github 用的这方法，我记得在几个星期之前 Holman 也写过一篇文章：&lt;strong&gt;Move fast, break nothing!&lt;/strong&gt; 实际上它也讲了很多从 process 本身，engineering process 本身去做一些事情。我讲跟他这个不是同一种方法，是类似的这种方法。Github 数据更多，同时 run 的 campaign 也会更多。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：这个真的很精彩，是我非常非常想去学习的东西。正好你们这边有非常多的实战经验，所以，这次大会我一定要非常仔细的向你请教。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我想做这个分享，也是因为我们经历过这一轮：我们从第一步没有数据的时候，到有些数据；在第二步的时候你的数据量或者你跟踪的所有的行为还不完整的时候，你从主观的看哪些功能比较好，到开始引入一些数据的分析之后；到现在第三步，有很多数据的时候，这个时候我们怎么把主观的这些东西客观化，用数据启动。我想做这样一个分享。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：非常精彩~~~ 但是我有一点想了解：你刚刚说的这些有些是工程学上的，有些是产品学上的。我们毕竟是一个技术的分享大会，所以工程学上，你会着重哪一点呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：在 Strikingly ，并不是我一个人把这些事情都想透的。作为一个 CTO ，技术负责人，我是把公司发展、开始用数据驱动这些决定的时候，我作为技术人，我 improve 哪些东西，我开发了哪些东西，去帮助整个公司慢慢往这个方向走——这是我想讲的。所以我会分享一些我们用的工具，我们用了哪些方法，一些很实战的东西！如果你是创业的，你回家以后马上就可以开始直接应用到的东西。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：其实我觉得你带来了一个很大的东西，目前在国内圈子里很少分享的一点：工程师更应该去了解它的用户，而且是通过 measure 的方式了解他的用户。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我为什么很强调数据这一点，为什么框架都是数据这一点：数据不是假的！我作为一个技术人，我跟另外一个团队成员，我可能真的是只是说，这个功能好不好，我认为好，他认为不好。到最后，这样的纠纷没有实际的意义：所有的东西都很主观，以至于到最后都不知道该做什么。这时候有数据的话，这个就是很客观的事实。你说这个功能好，我们推出一个 MVP，试一试能不能实际上改变这个数据。如果改变不到的话，要不说明这个功能不对，或者我们可以再改进一下。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：从另外一个角度，我不确定：这个可以来了解一下你们的实战经历。从你们目前的经历来说，你要做这些东西，在开发上花额外的时间，你们从开发上多花的成本和结果来说，你来怎么评估和衡量这两点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：这个时候我会去讲，在你没有数据，你肯定是跟用户沟通来决定的。这个第一阶段你可以走很远很远，我个人认为不是说我有多少用户，公司成立多久了来决定的——这个是根据公司情况。你跟用户沟通完之后，你会真的发现，很多东西很难做决定的时候。你先把第一阶段用到尽，很难再用主观的方式来判断哪一些功能是要开发的时候，我们再进入下一个阶段。这个时候你才能够 justify 么。如果你第一步没有数据，通过跟用户沟通的时候，你都可以做的很好的话，你就没有必要进入下一步。这是我个人的看法。这意思我的分享会非常着重在第一步和第二步。在你没有数据，或者只有一点点数据的时候你应该做什么。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：Ok，这真的是非常实战的一些经验。好了，今天到此为止了，我真的是非常期待你的 Talk 。感谢你今天抽出时间来录节目，我们在 Ruby 大会上见。我一定要把你抓来好好聊一下。如果大家做一个好产品感兴趣，对如何把产品上线之后继续做好产品，这一场大家一定不要错过。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：好，大家大会上见~~~&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>RubyConf China 2014</title>
     <link rel="alternate" href="/2014/10/21/rubyconf-china-2014.html"/>
@@ -441,68 +552,6 @@
 
 &lt;li id="fn4"&gt;
 &lt;p&gt;“If I had asked people what they wanted, they would have said faster horses.” - Henry Ford, the founder of the Ford Motor Company&amp;nbsp;&lt;a href="#fnref4" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>微信企业号，Do or Die?</title>
-    <link rel="alternate" href="/2014/07/03/wechat-enterprise-challenge.html"/>
-    <id>/2014/07/03/wechat-enterprise-challenge.html</id>
-    <published>2014-07-03T20:00:00+08:00</published>
-    <updated>2014-07-03T20:00:00+08:00</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="WeChat" src="/images/wechat-enterprise-challenge/wechat-645x250.jpg?1404392414"&gt;&lt;/p&gt;
-
-&lt;p&gt;对于一位在企业服务领域的创业者来说，最近几天最具有爆炸力的新闻莫如是微信继公众号、服务号之后，即将推出企业号，旨在连接人和企业。一时间，媒体、企业、创业者，都开始思考着各种可能性，到底企业号最后会是以什么形态出现，对于目前不瘟不火的企业服务市场又将会带来什么样的变化。&lt;/p&gt;
-
-&lt;p&gt;“如果腾讯抄你们或者进入这个市场，你们会怎么办？”这是国内的 VC 们很喜欢问的一个问题。而现在腾讯是实实在在的进入了。腾讯的进入，对于像风车这样的标准化 SaaS 团队协作服务来说，到底会是一个机遇，还是一个灭顶之灾呢？&lt;/p&gt;
-
-&lt;p&gt;从第一天知道这个消息的时候，我一直都是觉得这是一个好事，我非常乐于看到微信进入这个市场。不管我们承不承认，微信现在已经实实在在的渗透到了企业内部，使用粘度之高简直令人发指。如果在任何一个企业做一个调查，统计使用时间最多的办公软件，我相信微信都跳不出前三，即使它定位不在办公。公司员工之间在用微信沟通，公司客户之间在用微信沟通，创业者投资人之间也用微信在沟通，所以微信进入这个市场的时机已然成熟。&lt;/p&gt;
-
-&lt;p&gt;那么，这个特殊的企业号能做什么？让我们先来看看服务号和公众号能做什么。风车目前在开发服务号，基本功能也是一些简单的快速任务入口和项目动态通知提醒，再在其上是提供服务信息和客服。这里最大的问题是服务号连接的是企业里的个人和企业服务提供商，而不是企业本身和企业服务提供商。如果我们要做到后者，就需要企业自身去申请服务号，然后跟风车做对接。而这，从传言来看，就是微信即将推出的企业号，唯一不同的是由微信来制定标准接口，类似苹果的应用商店，规定应用接入的规范，而风车只需要作为其中一个应用接入即可，事情将简单很多。而因此，企业也从多应用入口变成一个企业号入口。&lt;/p&gt;
-
-&lt;p&gt;微信企业号的最大价值，在我看来主要是两点，不是它能做微信打卡，也不是它能做微信报销等，而是它解决了企业的两大基本问题，一是统一了账号系统，...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;img alt="WeChat" src="http://yedingding.com/images/wechat-enterprise-challenge/wechat-645x250.jpg?1404392414" /&gt;&lt;/p&gt;
-
-&lt;p&gt;对于一位在企业服务领域的创业者来说，最近几天最具有爆炸力的新闻莫如是微信继公众号、服务号之后，即将推出企业号，旨在连接人和企业。一时间，媒体、企业、创业者，都开始思考着各种可能性，到底企业号最后会是以什么形态出现，对于目前不瘟不火的企业服务市场又将会带来什么样的变化。&lt;/p&gt;
-
-&lt;p&gt;“如果腾讯抄你们或者进入这个市场，你们会怎么办？”这是国内的 VC 们很喜欢问的一个问题。而现在腾讯是实实在在的进入了。腾讯的进入，对于像风车这样的标准化 SaaS 团队协作服务来说，到底会是一个机遇，还是一个灭顶之灾呢？&lt;/p&gt;
-
-&lt;p&gt;从第一天知道这个消息的时候，我一直都是觉得这是一个好事，我非常乐于看到微信进入这个市场。不管我们承不承认，微信现在已经实实在在的渗透到了企业内部，使用粘度之高简直令人发指。如果在任何一个企业做一个调查，统计使用时间最多的办公软件，我相信微信都跳不出前三，即使它定位不在办公。公司员工之间在用微信沟通，公司客户之间在用微信沟通，创业者投资人之间也用微信在沟通，所以微信进入这个市场的时机已然成熟。&lt;/p&gt;
-
-&lt;p&gt;那么，这个特殊的企业号能做什么？让我们先来看看服务号和公众号能做什么。风车目前在开发服务号，基本功能也是一些简单的快速任务入口和项目动态通知提醒，再在其上是提供服务信息和客服。这里最大的问题是服务号连接的是企业里的个人和企业服务提供商，而不是企业本身和企业服务提供商。如果我们要做到后者，就需要企业自身去申请服务号，然后跟风车做对接。而这，从传言来看，就是微信即将推出的企业号，唯一不同的是由微信来制定标准接口，类似苹果的应用商店，规定应用接入的规范，而风车只需要作为其中一个应用接入即可，事情将简单很多。而因此，企业也从多应用入口变成一个企业号入口。&lt;/p&gt;
-
-&lt;p&gt;微信企业号的最大价值，在我看来主要是两点，不是它能做微信打卡，也不是它能做微信报销等，而是它解决了企业的两大基本问题，一是统一了账号系统，二是提供了工作入口。&lt;/p&gt;
-
-&lt;p&gt;一个企业内部会使用到很多不同的应用，每个应用都可能会有其自成一套的用户系统，对于企业来说很是头疼。标准化登陆系统是有，比如 &lt;a href="http://en.wikipedia.org/wiki/LDAP"&gt;LDAP&lt;/a&gt;、&lt;a href="http://en.wikipedia.org/wiki/Saml"&gt;SAML&lt;/a&gt;、&lt;a href="http://www.ca.com/us/securecenter/ca-siteminder.aspx"&gt;Siteminder&lt;/a&gt; 或者 &lt;a href="http://en.wikipedia.org/wiki/Kerberos_(protocol)"&gt;Kerberos&lt;/a&gt; 这些 SSO 方案，但是一来小企业很少有能力上这种方案，二来非标准化下不同的企业有他自己的方案，每个都支持对于创业团队来说非常麻烦，所以员工账号系统的统一管理对于企业来说一直是个很大的痛点。但是，如果创业团队专门去做一个员工账号系统的服务，又会面临无人对接的困境，阻力大大。所以，微信的推出，一定程度上可以解决这个问题，企业服务只需要对接微信账号系统就可，而微信也控制了这个最最基本却又非常重要的员工入口。&lt;/p&gt;
-
-&lt;p&gt;如果说企业里面有什么服务是必需品，那非沟通服务莫属。也许你们不用风车这样的任务管理工具，但是你一定会用微信这样的沟通工具；也许你们不用印象笔记这样的知识管理工具，但是你一定会用微信这样的沟通工具；也许你们不用 Yammer 这样的社交管理工具，但是你一定会用微信这样的沟通工具。沟通工具非常适合做企业工作的入口，来汇总分散在各地的信息。比如对于风车团队来说，我们使用 HipChat，里面会汇总我们在 BitBucket 上的代码提交信息，在 UserVoice 上的用户支持信息，我们的部署通知系统消息，我们的集成测试信息，我们的任务管理消息等等。沟通工具仍是沟通工具，我们不用它来当任务管理用，也不当知识管理用，但是它天然就是很好的信息聚合系统，也是员工可能一天在线最长的应用。这段时间国外大红大紫的 Slack&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 便是同样的概念。&lt;/p&gt;
-
-&lt;p&gt;所以，从上面两点来说，我觉得微信企业号的出现，对于企业服务创业者来说，更多的是机遇，而不是挑战。它非但不会压缩企业服务提供商的生存空间，而且会开放平台给企业开发者，可以让大家共同来构建生态圈，对于微信、企业和创业者来说都是三方共赢的好事。同时，因为腾讯的介入，对于创业者来说，企业服务市场的教育成本会大大降低。这一次，&lt;strong&gt;微信连接人和企业&lt;/strong&gt;&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-
-&lt;p&gt;目前对微信企业号的最大质疑在于员工不想与企业分享微信号，员工抗拒在微信中使用企业应用，因为&lt;del&gt;还让不让人下班了&lt;/del&gt;。姑且不说现在有些人就是用两个微信号的，一个加公司同事，另一个用来加个人朋友，单单说质疑微信企业号会造成员工压榨的情况，我只能说：“妈蛋，搞得好像没有微信企业号就不加班似的。看我口型，跟我喊，『用风车，不加班』，『用风车，不加班』。” 唉，讨厌，搞得我跟传销似的，敏捷宣言&lt;sup id="fnref3"&gt;&lt;a href="#fn3" rel="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt;第一句，『个体和互动高于流程和工具』，尊重个体，加强团队之间的互动，然后才是合适的流程和相配合的工具。真用好了，我相信微信企业号及其生态圈可以成为中小企业成长的一把屠龙刀。&lt;/p&gt;
-
-&lt;p&gt;你怎么看微信企业号，你们现在有用微信在做一些工作上的事情吗？欢迎留言交流。&lt;/p&gt;
-
-&lt;div class="footnotes"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id="fn1"&gt;
-&lt;p&gt;&lt;a href="https://slack.com"&gt;Slack&lt;/a&gt; 是国外新进最火的企业沟通工具，没有之一，我不是他的用户，但是他的很多东西让我眼前一亮，后面专门写篇文章分析。&amp;nbsp;&lt;a href="#fnref1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li id="fn2"&gt;
-&lt;p&gt;封闭不开放是腾讯一直的尿性，希望这次微信不要让我们失望&amp;hellip;.&amp;nbsp;&lt;a href="#fnref2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li id="fn3"&gt;
-&lt;p&gt;敏捷宣言中文版见&lt;a href="http://agilemanifesto.org/iso/zhchs/"&gt;这里&lt;/a&gt;&amp;nbsp;&lt;a href="#fnref3" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;/ol&gt;
