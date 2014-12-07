@@ -13,7 +13,7 @@ description: 小团队尤其是创业型开发团队，如何才能高效协作�
   </blockquote>
 </aside>
 
-毫无疑问，[Stephen R. Covey](https://www.stephencovey.com/‎) 的[《The 7 Habits of Highly Effective People》](https://www.stephencovey.com/7habits/7habits.php)和 [David Allen](www.davidco.com/) 的 [《Getting Things Done: The Art of Stress-Free Productivity》](https://secure.davidco.com/store/catalog/GETTING-THINGS-DONE-PAPERBACK-p-16175.php) 是个人管理类的超级畅销书，让我们学会如何才能成为高效能人士。然而，即使团队里的所有人都是高效能人士，这个团队也不一定是 个高效能团队。我们常说“一个和尚有水喝，两个和尚挑水喝，三个和尚没水喝”，正是出于这个道理。顾名思义，团队协作是指所有团队成员之间协同、合作，里 面会有分工、沟通、协调，甚至会有妥协，所以我们需要一些规则和工具来帮助团队提高协作效率。本文的一些心得和实践来自于我在小团队（<10）的经验，并且在团队内部相互信任、目标一致的基础上，所以不涉及办公室人事管理，适合于创业型开发团队。
+毫无疑问，[Stephen R. Covey](https://www.stephencovey.com/‎) 的[《The 7 Habits of Highly Effective People》](https://www.stephencovey.com/7habits/7habits.php)和 [David Allen](http://www.davidco.com/) 的 [《Getting Things Done: The Art of Stress-Free Productivity》](https://secure.davidco.com/store/catalog/GETTING-THINGS-DONE-PAPERBACK-p-16175.php) 是个人管理类的超级畅销书，让我们学会如何才能成为高效能人士。然而，即使团队里的所有人都是高效能人士，这个团队也不一定是 个高效能团队。我们常说“一个和尚有水喝，两个和尚挑水喝，三个和尚没水喝”，正是出于这个道理。顾名思义，团队协作是指所有团队成员之间协同、合作，里 面会有分工、沟通、协调，甚至会有妥协，所以我们需要一些规则和工具来帮助团队提高协作效率。本文的一些心得和实践来自于我在小团队（<10）的经验，并且在团队内部相互信任、目标一致的基础上，所以不涉及办公室人事管理，适合于创业型开发团队。
 
 <aside class="aside">
   ![Same Goal](startup-collaboration-advice/collaboration-hands.jpg)

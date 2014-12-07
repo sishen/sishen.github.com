@@ -4,7 +4,7 @@ date: 2014-03-27 20:00 +08:00
 tags: 创业, 统计分析, Growth Hacker
 disqus_identifier: 'growth-from-analytics'
 keywords: 创业, 技术创业, 统计分析, Growth Hacker, Marketing
-description: Growth Hacking 的定义是技术创业型团队通过数据分析和量化指标来推广产品时所使用的一种市场运营技术，其中有两个非常重要的点，分析和指标。现在市场上也有很多优秀的统计分析工具如 Mixpanel、KissMetrics、Usercycle 等来帮助创业团队更好的成长，本文介绍了这些不同的工具各有什么侧重点以及什么时候用什么工具。
+description: Growth Hacking 的定义是技术创业型团队通过数据分析和量化指标来推广产品时所使用的一种市场运营技术，其中有两个非常重要的点，分析和指标。现在市场上也有很多优秀的工具来帮助创业团队更好的成长，本文介绍了这些不同的工具各有什么侧重点以及什么时候用什么工具。
 ---
 
 <aside class="aside">

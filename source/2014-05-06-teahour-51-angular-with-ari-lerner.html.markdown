@@ -4,7 +4,7 @@ date: 2014-05-06 14:00 +08:00
 tags: teahour, angularjs, full-stack, book
 disqus_identifier: "teahour-ep51"
 keywords: teahour, angularjs, 全栈工程师, 写书
-description: "In Teahour Episode #51 Kevin interview with Ari to talk about AngularJS. Ari is the author of ng-book, The Complete Book on AngularJS, Riding Rails with AngularJS and D3 on AngularJS. Also he is the CTO and Founder at FullStack LLC."
+description: "In this Episode Kevin interview with Ari to talk about AngularJS. Ari is the author of ng-book, The Complete Book on AngularJS, Riding Rails with AngularJS and D3 on AngularJS."
 ---
 
 <aside class="aside">

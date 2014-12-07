@@ -4,7 +4,7 @@ date: 2014-04-29 12:00 +08:00
 tags: 写作,
 disqus_identifier: "you-should-write"
 keywords: 写作, Personal Branding
-description: "上周的 teahour 迎来了两大内容平台的创业者做客，简书的林立和 Logdown 的 xdite。社交网站的爆发同时也给人带入了碎片化时代，人们在快速消费内容，快速生产内容，越来越少的人愿意沉下心思考，记录一些文字，少了很多精彩。所以很高兴能看到这一年间内容平台的真正回归，Medium、简书、Logdown、Ghost 等。不要低估文字的力量，写作能给我们生活工作带来很多好处。Everyone，YOU should write."
+description: "上周的 teahour 迎来了两大内容平台的创业者做客，林立和xdite。社交网站的爆发同时也给人带入了碎片化时代，人们在快速消费内容，快速生产内容，越来越少的人愿意沉下心思考，记录一些文字，少了很多精彩。所以很高兴能看到这一年间内容平台的真正回归。不要低估文字的力量，写作能给我们生活工作带来很多好处。"
 ---
 
 <aside class="aside">

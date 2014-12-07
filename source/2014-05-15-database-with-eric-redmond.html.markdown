@@ -4,7 +4,7 @@ date: 2014-05-15 13:04 +08:00
 tags: teahour, database, nosql
 disqus_identifier: "teahour-ep18"
 keywords: teahour, database, nosql
-description: "本期由 Kevin Wang 主持，Dingding Ye 协作主持，邀请到 《Seven Databases in Seven Weeks》 作者 Eric Redmond 畅聊数据库。Eric 目前是 Riak 的核心开发人员，在两个小时时间了，Eric 介绍了 PostgreSQL、MongoDB、CouchDB、HBase、Cassandra、Redis、Riak、Neo4J 的各自设计思想和优缺点，同时在最后也分享了他个人在数据库选择上的一些考虑原则。"
+description: "本期由 Kevin Wang 主持，邀请《七天七数据库》 作者 Eric Redmond 畅聊数据库，介绍了 PostgreSQL、MongoDB、CouchDB、HBase、Cassandra、Redis、Riak、Neo4J 的各自设计思想和优缺点，同时在最后也分享了他个人在数据库选择上的一些考虑原则。"
 ---
 
 <aside class="aside">
