@@ -12,8 +12,8 @@
       Do Great Things -  叶玎玎
     </title>
     <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
-    <meta name="description" content="Fengche.co 创始人、Teahour 主播。远程工作者，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
-    <meta name="keywords" content="项目管理,团队协作,创业,技术,系统架构">
+    <meta name="description" content="GrowingIO 联合创始人、Fengche.co 创始人、Teahour 主播，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="keywords" content="创业,技术,项目管理,团队协作,系统架构">
     <meta name="author" content="叶玎玎">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -30,18 +30,18 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691570">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691570">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css">
-    <script src="/javascripts/all.js"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691570">
+    <script src="/javascripts/all.js?1470691570"></script>
   </head>
-  <body class="LICENSE ">
+  <body class="tags tags_tag-- ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
@@ -57,47 +57,76 @@
           <ul>
             <li><a href='/'>所有文章</a></li>
             <li><a href='/profile.html'>关于我</a></li>
-            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
             <li><a href="http://teahour.fm">Teahour</a></li>
           </ul>
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691570" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
-        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
-      <form class='search'>
-        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
-      </form>
     </header>
     <section class="main">
       <div class="container">
-        <p>Copyright &copy; HTML5 Boilerplate</p>
+        <h2 class="tag-page-title">Articles tagged '<em>tag管理</em>'</h2>
 
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the &ldquo;Software&rdquo;), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:</p>
+<div id="posts">
+    <article class="post">
+      <header>
+  <h2 class="title">
+    <a href="/2016/08/09/the-future-of-tagging.html">从埋点到「无埋点」，是过去和未来的差别</a>
+  </h2>
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Aug 09, 2016</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
+        <a href="/tags/tag%E7%AE%A1%E7%90%86.html">tag管理</a>
+        <a href="/tags/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E5%A2%9E%E9%95%BF.html">数据驱动增长</a>
+    </span>
+  </div>
+</header>
 
-<p>The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.</p>
+<div class="content">
+  <p>自从 GrowingIO 去年发布无埋点方案以后，就获得外部很多的关注，一方面感觉到很神奇，只加了一段 SDK 就能实时地，全量地，自动地收到用户行为数据了，另一方面数据开始沉淀，这样业务人员就可以在任何时候都回溯，很多人在问这是怎么实现的。</p>
 
-<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.</p>
+<p>的确，这里面有很多我们称之为黑科技的东西在里面，有在运行时的操作，也有在编译期做修改的，同时又要求能站在用户行为分析的角度去思考 SDK 的应用场景和数据逻辑，对于 SDK 开发团队来说有非常高的要求。</p>
+
+<p>无<a href="https://blog.growingio.com/posts/monitorting-points-pain">埋点采集技术</a>原理说起来很简单，主要是基于树形结构和事件驱动模型，有兴趣的可以看看我之前写的一篇文章：无需埋点的数据分析原理 <a href="https://blog.growingio.com/posts/esoterica_2">https://blog.growingio.com/posts/esoterica_2</a> 。</p>
+
+<p>就我所知，类似的无埋点方案，阿里做过，百度做过，腾讯也做过。之前就有阿里杭州的小伙伴们专门来北京跟我们做这一块的技术交流，都是非常优秀的小伙伴。但是只有当你真正去尝试解决并且产品化的时候，你才会发现这想起来简单的事情做起来是多么的困难，这里面的水有多深。没有什么比 Ninety-Ninety Rule 能更形象的表达这个事情了。</p>
+
+<p><img src="https://assets.growingio.com/blog/storage/image/aea633123f8271db3fa4d69d289c5a3c.jpeg" alt="Ninety-Ninety Rule"></p>
+
+<p>今天，我想借这篇文章跟大家介绍一下我们是如何思考这个事情的。</p>
+
+<p><strong>一、无埋点更适应当下的互联网公司</strong></p>
+
+<p>当下的时代是一个大前端时代，Web、手机APP的使用时间越来越长，以前的应用程序，前端的代码量并不大，但是如今随着JavaScript的发展，移动端APP的飞速发展，同时大家使用手机APP和网站的时间越来越碎片化，很多行为不一定要提交到服务器，用户只是做了和前端的一些交互操作，很多关于用户体验的代码都在前端实现。比如在一个旅游网站上面，用户对起点和目的地的条件选择，对酒店的房型的选择，下拉菜单的内容点击，只要用户不提交这个请求，后端的服务器，就无法记录用户的这些行为。</p>
+
+<p>这也是...</p>
+
+  <p>
+    ......
+  </p>
+  <p>
+    <a href="/2016/08/09/the-future-of-tagging.html">Read more →</a>
+  </p>
+</div>
+    </article>
+
+    <ul class="pager">
+    </ul>
+</div>
 
 
         <footer class="copyright">
-          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
           <ul>
             <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -121,36 +150,6 @@ SOFTWARE.</p>
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
-    </script>
-    <!-- tinysou plugin -->
-    <script>
-      $(function() {
-        var customRenderActFunction = function(item) {
-          var out = '<p class="title">' + item['document']['title'] + '</p>';
-          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
-          return out;
-        };
-        var option = {
-          engineKey: '26a1afe2b042da01d29f',
-          perPage: 5,
-          resultLimit: 5,
-          resultContainingElement: '#ts-results-container',
-          renderStyle: 'new_page',
-          resultPageURL: '/search.html',
-          renderActFunction: customRenderActFunction
-        };
-        (function(w,d,t,u,n,s,e){
-          s = d.createElement(t);
-          s.src = u;
-          s.async = 1;
-          w[n] = function(r){
-            w[n].opts = r;
-          };
-          e = d.getElementsByTagName(t)[0];
-          e.parentNode.insertBefore(s, e);
-        })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-        _ts(option);
-      })
     </script>
   </body>
 </html>

@@ -17,7 +17,7 @@
       开始 node-webkit 前，你应该知道的| Do Great Things -  叶玎玎
     </title>
     <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
-    <meta name="description" content="Fengche.co 创始人、Teahour 主播。远程工作者，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="description" content="GrowingIO 联合创始人、Fengche.co 创始人、Teahour 主播，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
     <meta name="keywords" content="node-webkit, 应用开发, 桌面开发">
     <meta name="author" content="叶玎玎">
 
@@ -35,16 +35,16 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691564">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691564">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css">
-    <script src="/javascripts/all.js"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691564">
+    <script src="/javascripts/all.js?1470691564"></script>
   </head>
   <body class="x2014 x2014_07 x2014_07_28 x2014_07_28_node-webkit-intro ">
       <div id="banner" style="height: 440px">
@@ -62,21 +62,18 @@
           <ul>
             <li><a href='/'>所有文章</a></li>
             <li><a href='/profile.html'>关于我</a></li>
-            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
             <li><a href="http://teahour.fm">Teahour</a></li>
           </ul>
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691564" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
-        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
-      <form class='search'>
-        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
-      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -94,15 +91,15 @@
     <span class="tags">
       <i class="fa fa-tags"></i>
         <a href="/tags/node-webkit.html">node-webkit</a>
-        <a href="/tags/应用开发.html">应用开发</a>
+        <a href="/tags/%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91.html">应用开发</a>
     </span>
   </div>
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="node-webkit" src="/images/node-webkit-intro/nw.jpg?1406554637" />
-</aside></p>
+  <aside class="aside">
+  ![node-webkit](node-webkit-intro/nw.jpg)
+</aside>
 
 <p>上周末在 <a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html">Teahour</a> 邀请到了 node-webkit 的作者<a href="https://twitter.com/wwr">王文睿</a>来做客，聊了一下 node-webkit 的故事和 HTML5 技术在应用程序开发领域的发展，很有收获。最近几年，用 Web 技术来开发应用程序的框架层出不穷，如 node-webkit, Chrome Apps, Titanium, TideSDK, Atom Shell，而 node-webkit 正是这些框架中的一个佼佼者。</p>
 
@@ -136,10 +133,10 @@
 <p>同时，node-webkit 对 Webkit 的安全模型也做了一些修改。在 node-webkit 中，有两种不同的 frames，node frame 和 normal frame<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>。熟悉 Web 开发的朋友应该知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 <a href="http://en.wikipedia.org/wiki/Same_origin_policy">Same-origin Policy</a>。node-webkit 中的 normal frame，跟浏览器中的一样，仍然有这个限制。但是在 node frame 中，将不再有这个限制，所有的 node frame 中共享同一个 security token，包括 node context
 和 webkit context，跨域访问被允许，也就能访问到 node context 中的对象。所以作为应用开发者，对于不受信任的用户行为输入一定要做保护，防止因为这个造成一些破坏性行为，或者放入 normal frame 中。</p>
 
-<p><aside class="aside">
-  <img alt="Chromium Layers" src="/images/node-webkit-intro/chromium-layers.jpg?1406554637" />
+<aside class="aside">
+  ![Chromium Layers](node-webkit-intro/chromium-layers.jpg)
   <small>Chromium Conceptual Application Layers</small>
-</aside></p>
+</aside>
 
 <p>值得注意的是，尽管 Chrome 本身对于 HTML5 的支持已经比较完备了，但是有些特性是在浏览器层即上图的 Browser 实现，而 node-webkit 中 webkit 只到了 Content Layer 即上图的 WebContent，node-webkit 本身的实现等于浏览器层。所以，node-webkit 对于一些 HTML5 特性还缺乏支持，比如 Web Notification<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>。不过，目前 Chromium 团队正在把这些 HTML5 特性的支持解耦移动到 Content Layer，这个对于 node-webkit 来说绝对是个非常好的消息。</p>
 
@@ -179,12 +176,12 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1399041455" />
+      <img src="/images/yedingding.png?1470691564" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
 
-      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
       <div class="social-action">
         <span class="rss">
@@ -241,7 +238,7 @@
 
 
         <footer class="copyright">
-          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
           <ul>
             <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -265,36 +262,6 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
-    </script>
-    <!-- tinysou plugin -->
-    <script>
-      $(function() {
-        var customRenderActFunction = function(item) {
-          var out = '<p class="title">' + item['document']['title'] + '</p>';
-          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
-          return out;
-        };
-        var option = {
-          engineKey: '26a1afe2b042da01d29f',
-          perPage: 5,
-          resultLimit: 5,
-          resultContainingElement: '#ts-results-container',
-          renderStyle: 'new_page',
-          resultPageURL: '/search.html',
-          renderActFunction: customRenderActFunction
-        };
-        (function(w,d,t,u,n,s,e){
-          s = d.createElement(t);
-          s.src = u;
-          s.async = 1;
-          w[n] = function(r){
-            w[n].opts = r;
-          };
-          e = d.getElementsByTagName(t)[0];
-          e.parentNode.insertBefore(s, e);
-        })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-        _ts(option);
-      })
     </script>
   </body>
 </html>

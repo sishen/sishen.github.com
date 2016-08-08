@@ -12,8 +12,8 @@
       Do Great Things -  叶玎玎
     </title>
     <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
-    <meta name="description" content="Fengche.co 创始人、Teahour 主播。远程工作者，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
-    <meta name="keywords" content="项目管理,团队协作,创业,技术,系统架构">
+    <meta name="description" content="GrowingIO 联合创始人、Fengche.co 创始人、Teahour 主播，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="keywords" content="创业,技术,项目管理,团队协作,系统架构">
     <meta name="author" content="叶玎玎">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -30,16 +30,16 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691565">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691565">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css">
-    <script src="/javascripts/all.js"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691565">
+    <script src="/javascripts/all.js?1470691565"></script>
   </head>
   <body class="index ">
       <div id="banner" style="height: 440px">
@@ -57,25 +57,66 @@
           <ul>
             <li class='active'><a href='/'>所有文章</a></li>
             <li><a href='/profile.html'>关于我</a></li>
-            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
             <li><a href="http://teahour.fm">Teahour</a></li>
           </ul>
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691565" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
-        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
-      <form class='search'>
-        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
-      </form>
     </header>
     <section class="main">
       <div class="container">
         <div id="posts">
+    <article class="post">
+      <header>
+  <h2 class="title">
+    <a href="/2016/08/09/the-future-of-tagging.html">从埋点到「无埋点」，是过去和未来的差别</a>
+  </h2>
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Aug 09, 2016</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
+        <a href="/tags/tag%E7%AE%A1%E7%90%86.html">tag管理</a>
+        <a href="/tags/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E5%A2%9E%E9%95%BF.html">数据驱动增长</a>
+    </span>
+  </div>
+</header>
+
+<div class="content">
+  <p>自从 GrowingIO 去年发布无埋点方案以后，就获得外部很多的关注，一方面感觉到很神奇，只加了一段 SDK 就能实时地，全量地，自动地收到用户行为数据了，另一方面数据开始沉淀，这样业务人员就可以在任何时候都回溯，很多人在问这是怎么实现的。</p>
+
+<p>的确，这里面有很多我们称之为黑科技的东西在里面，有在运行时的操作，也有在编译期做修改的，同时又要求能站在用户行为分析的角度去思考 SDK 的应用场景和数据逻辑，对于 SDK 开发团队来说有非常高的要求。</p>
+
+<p>无<a href="https://blog.growingio.com/posts/monitorting-points-pain">埋点采集技术</a>原理说起来很简单，主要是基于树形结构和事件驱动模型，有兴趣的可以看看我之前写的一篇文章：无需埋点的数据分析原理 <a href="https://blog.growingio.com/posts/esoterica_2">https://blog.growingio.com/posts/esoterica_2</a> 。</p>
+
+<p>就我所知，类似的无埋点方案，阿里做过，百度做过，腾讯也做过。之前就有阿里杭州的小伙伴们专门来北京跟我们做这一块的技术交流，都是非常优秀的小伙伴。但是只有当你真正去尝试解决并且产品化的时候，你才会发现这想起来简单的事情做起来是多么的困难，这里面的水有多深。没有什么比 Ninety-Ninety Rule 能更形象的表达这个事情了。</p>
+
+<p><img src="https://assets.growingio.com/blog/storage/image/aea633123f8271db3fa4d69d289c5a3c.jpeg" alt="Ninety-Ninety Rule"></p>
+
+<p>今天，我想借这篇文章跟大家介绍一下我们是如何思考这个事情的。</p>
+
+<p><strong>一、无埋点更适应当下的互联网公司</strong></p>
+
+<p>当下的时代是一个大前端时代，Web、手机APP的使用时间越来越长，以前的应用程序，前端的代码量并不大，但是如今随着JavaScript的发展，移动端APP的飞速发展，同时大家使用手机APP和网站的时间越来越碎片化，很多行为不一定要提交到服务器，用户只是做了和前端的一些交互操作，很多关于用户体验的代码都在前端实现。比如在一个旅游网站上面，用户对起点和目的地的条件选择，对酒店的房型的选择，下拉菜单的内容点击，只要用户不提交这个请求，后端的服务器，就无法记录用户的这些行为。</p>
+
+<p>这也是...</p>
+
+  <p>
+    ......
+  </p>
+  <p>
+    <a href="/2016/08/09/the-future-of-tagging.html">Read more →</a>
+  </p>
+</div>
+    </article>
     <article class="post">
       <header>
   <h2 class="title">
@@ -97,9 +138,9 @@
 <div class="content">
   <p>本文是 Teahour 第 60 期 <a href="http://teahour.fm/2014/08/07/machine-learning-with-ding-lei.html">『与丁磊聊机器学习和数据科学』</a> 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 <a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en">http://itunes.apple.com/cn/podcast/teahour.fm/id608387170</a>。Android 用户可以使用 <a href="http://m.coolapk.com/apk/de.danoeh.antennapod">AntennaPod</a> 来订阅。</p>
 
-<p><audio controls name="media">
+<audio controls name="media">
   <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg">
-</source></audio></p>
+</source></audio>
 
 <h3>Part 1 - Data Science 的前世今生</h3>
 
@@ -135,20 +176,20 @@
     <span class="tags">
       <i class="fa fa-tags"></i>
         <a href="/tags/rubyconf.html">rubyconf</a>
-        <a href="/tags/产品.html">产品</a>
-        <a href="/tags/创业.html">创业</a>
+        <a href="/tags/%E4%BA%A7%E5%93%81.html">产品</a>
+        <a href="/tags/%E5%88%9B%E4%B8%9A.html">创业</a>
     </span>
   </div>
 </header>
 
 <div class="content">
-  <p><img alt="Data Measure" src="/images/rcc2014-dafeng/data-measure.jpg?1413974934"></p>
+  <p><img src="/images/rcc2014-dafeng/data-measure.jpg?1470691565" alt="Data Measure"></p>
 
 <p>本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 <a href="http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html">http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html</a>。</p>
 
-<p><audio controls name="media">
+<audio controls name="media">
   <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg">
-</source></audio></p>
+</source></audio>
 
 <p><strong>Dingding</strong>：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。</p>
 
@@ -190,9 +231,9 @@
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="RubyConf China 2014" src="/images/rubyconf-china-2014/RubyConfChina-2014.png?1413871483">
-</aside></p>
+  <aside class="aside">
+  ![RubyConf China 2014](rubyconf-china-2014/RubyConfChina-2014.png)
+</aside>
 
 <p>倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。</p>
 
@@ -200,7 +241,7 @@
 
 <p>今年的大会筹办其实蛮早就开始，但是作为一个纯志愿者组织的大会，尤其三位主办人姜军、吕国宁和我都是在创业，时间超级不够用，整体办会经历可以说是跌宕起伏，所幸大多有惊无险。姜军数次跟我谈起想今年尝试不同的方式，想跳出往年固定的主题演讲式，给参会者带来更多不同的体验和更多的参与感和情感互动。所以，我们今年放弃了从海外邀请嘉宾，专注在形式上做突破，为明年的大会做好基础，也就有了你今天看到的大会行程。</p>
 
-<p>今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks 带来的半天 TDD Workshop，Rails 源码分析之 ActiveRecord 以及由我支持的两场 Ruby 职场...</p>
+<p>今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks...</p>
 
   <p>
     ......
@@ -222,7 +263,7 @@
     <span class="tags">
       <i class="fa fa-tags"></i>
         <a href="/tags/excel.html">excel</a>
-        <a href="/tags/项目管理.html">项目管理</a>
+        <a href="/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.html">项目管理</a>
     </span>
   </div>
 </header>
@@ -270,9 +311,9 @@
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="node-webkit" src="http://yedingding.com/images/node-webkit-intro/nw.jpg">
-</aside></p>
+  <aside class="aside">
+  ![node-webkit](http://yedingding.com/images/node-webkit-intro/nw.jpg)
+</aside>
 
 <blockquote>
   This article is translated by <a href="http://www.linkedin.com/in/yicunwu">Wendy</a> of my article <a href="http://yedingding.com/2014/07/28/node-webkit-intro.html">开始 NODE-WEBKIT 前，你应该知道的</a>. <a href="http://www.linkedin.com/in/yicunwu">Wendy</a> now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people’s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you’re interested, why not <a href="mailto:yicun.wu@uwaterloo.ca">drop her an email</a>?
@@ -280,7 +321,7 @@
 
 <p>Last weekend, <a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html">Teahour</a> invited <a href="https://twitter.com/wwr">Roger Wang</a>, the creator of node-webkit to talk about the stories behind node-webkit and the use of HTML5 in desktop app development. Various web-based desktop app frameworks such as node-webkit, Chrome Apps, Titanium, TideSDK and Atom Shell have been developed over recent years and node-webkit remains one of the best.</p>
 
-<p>The <a href="https://github.com/rogerwang/node-webkit">node-webkit</a> project was started in 2011. It is an app runtime that allows...</p>
+<p>The <a href="https://github.com/rogerwang/node-webkit">node...</a></p>
 
   <p>
     ......
@@ -302,15 +343,15 @@
     <span class="tags">
       <i class="fa fa-tags"></i>
         <a href="/tags/node-webkit.html">node-webkit</a>
-        <a href="/tags/应用开发.html">应用开发</a>
+        <a href="/tags/%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91.html">应用开发</a>
     </span>
   </div>
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="node-webkit" src="/images/node-webkit-intro/nw.jpg?1406554637">
-</aside></p>
+  <aside class="aside">
+  ![node-webkit](node-webkit-intro/nw.jpg)
+</aside>
 
 <p>上周末在 <a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html">Teahour</a> 邀请到了 node-webkit 的作者<a href="https://twitter.com/wwr">王文睿</a>来做客，聊了一下 node-webkit 的故事和 HTML5 技术在应用程序开发领域的发展，很有收获。最近几年，用 Web 技术来开发应用程序的框架层出不穷，如 node-webkit, Chrome Apps, Titanium, TideSDK, Atom Shell，而 node-webkit 正是这些框架中的一个佼佼者。</p>
 
@@ -331,7 +372,7 @@
 
 <p>可以看出，领域非常丰富，其中也不乏一些设计精良体验优美的应用。可以说，很大程度上，这得益于目前硬件的性能提升和 Web 的发展，动画、图形、音频、视频、2D、3D、WebGL 等等，都让基于 HTML5 的应用开发充满了想象力。</p>
 
-<p>从本质上来说，node-webkit 只是一个 web 应用的桌面运行环境。当我们说到桌面应用的时候，我们会想到需要有呈现给用户的界面，也需要能响应用户行为，跟系统打交道...</p>
+<p>从本质上来说，node-webkit 只是一个 web 应用的桌面运行环境。当我们说到桌面...</p>
 
   <p>
     ......
@@ -352,9 +393,9 @@
     </span>
     <span class="tags">
       <i class="fa fa-tags"></i>
-        <a href="/tags/创业.html">创业</a>
+        <a href="/tags/%E5%88%9B%E4%B8%9A.html">创业</a>
         <a href="/tags/mvp.html">MVP</a>
-        <a href="/tags/项目管理.html">项目管理</a>
+        <a href="/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.html">项目管理</a>
     </span>
   </div>
 </header>
@@ -368,9 +409,9 @@
 
 <p>一个产品的成功，也许需要天时地利人和<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>，但是要做到不失败相对就容易的多了。我想分享一些我们做事的方式，希望能帮助到你。这里没有互联网思维，这里没有成功学，有的只是真正的工作实践心得，甚至有些也许都是很笨的，但是希望这些分享能给你带来一点点的启发，并且还能付诸于实践。</p>
 
-<p><aside class="“aside”">
-  <img alt="Scrum Roles" src="/images/deliver-better-product-i/KnibergRoles.jpg?1404985052">
-</aside></p>
+<aside class="“aside”">
+  ![Scrum Roles](deliver-better-product-i/KnibergRoles.jpg)
+</aside>
 
 <p>上图是对 Scrum 敏捷方法不同角色的职责的很好诠释，即使是对于不采用 Scrum 的团队来说，我们也应该这样去做产品。做正确的事情，正确的做事情，并且快速的做事情，这样一个团队，最佳情况就是总是能在正确的时间用正确的方法做正确的事，非常完美。对于这个系列的计划，我希望能涵盖产品的整个生命线。本文开篇，主要介绍如何做产品远景和形态探索，后面的文章会涉及如何做用户角色分析，如何做用户故事、如何做计划评估、如果做迭代计划、如何协作执行、如何做回顾测试、如何做用户访谈等<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>。</p>
 
@@ -378,7 +419,7 @@
 <p>Great Product starts with Vision</p>
 </blockquote>
 
-<p>正如我在<a href="http://yedingding.com/2014/06/17/know-your-consumers.html">「你是否关注过消费者心理？」</a> 所写，优秀的市场营销者，会先去传递产品的使命，然后才是与使命匹配的具体需求实现。对外如此，对内同样需要如此，不然团队事情会做的很茫然。为什么我们要做这个功能，为什么我们不做那个功能？为什么我们现在需要做这个，而不是那个？回忆一下，曾经你有没有问过自己这些问题，为什么会...</p>
+<p>正如我在<a href="http://yedingding.com/2014/06/17/know-your-consumers.html">「你是否关注过消费者心理？」</a> 所写，优秀的市场营销者，会先去传递产品的使命，然后才是与使命匹配的具体需求实现。对外如此，对内同样需要如此，不然团队事情会做的很茫然。为什么我们要做这个功...</p>
 
   <p>
     ......
@@ -399,14 +440,14 @@
     </span>
     <span class="tags">
       <i class="fa fa-tags"></i>
-        <a href="/tags/微信.html">微信</a>
-        <a href="/tags/企业服务.html">企业服务</a>
+        <a href="/tags/%E5%BE%AE%E4%BF%A1.html">微信</a>
+        <a href="/tags/%E4%BC%81%E4%B8%9A%E6%9C%8D%E5%8A%A1.html">企业服务</a>
     </span>
   </div>
 </header>
 
 <div class="content">
-  <p><img alt="WeChat" src="/images/wechat-enterprise-challenge/wechat-645x250.jpg?1404392414"></p>
+  <p><img src="/images/wechat-enterprise-challenge/wechat-645x250.jpg?1470691565" alt="WeChat"></p>
 
 <p>对于一位在企业服务领域的创业者来说，最近几天最具有爆炸力的新闻莫如是微信继公众号、服务号之后，即将推出企业号，旨在连接人和企业。一时间，媒体、企业、创业者，都开始思考着各种可能性，到底企业号最后会是以什么形态出现，对于目前不瘟不火的企业服务市场又将会带来什么样的变化。</p>
 
@@ -437,72 +478,29 @@
     </span>
     <span class="tags">
       <i class="fa fa-tags"></i>
-        <a href="/tags/技术创业.html">技术创业</a>
-        <a href="/tags/程序员.html">程序员</a>
+        <a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%9B%E4%B8%9A.html">技术创业</a>
+        <a href="/tags/%E7%A8%8B%E5%BA%8F%E5%91%98.html">程序员</a>
     </span>
   </div>
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="WWDC 2014" src="/images/write-the-code-change-the-world/WWDC14.png?1403585998" />
-</aside></p>
+  <aside class="aside">
+  ![WWDC 2014](write-the-code-change-the-world/WWDC14.png)
+</aside>
 
-<p>&ldquo;Write the Code. Change the world.&rdquo;, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。</p>
+<p>“Write the Code. Change the world.”, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。</p>
 
 <p>六一应 <a href="http://segmentfault.com">SegmentFault</a><sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> 高阳邀请，在其两周年黑客马拉松活动中作为技术创业者的代表，做一个分享。虽然作为创业者分享经验很不够格，不过这两年做风车下来也的确有一些想法，另外通过 <a href="http://teahour.fm">Teahour</a> 从不少创业者那里学到了很多，所以也就在活动上做了一次简短的即兴演讲，刚好跟 『Write the Code. Change the world』有点关联。</p>
 
 <p>SegmentFault 的使命是『创造属于开发者的时代』，我个人很喜欢这个远景，很美好。作为开发者，处在现在这个时代，我们是幸运的。我记得我 06 年的时候第一次跟朋友创业做互联网产品，当时什么东西都要自己去管，比如要自己买服务器、找 IDC 托管、产品开发中如果需要用什么服务都要自己做，真的是很讨厌，既浪费时间又浪费精力。而现在呢，相比较起来我们去制作一个产品的成本已经很低了，一个团队，三个月时间迅速开发原型，云主机用 UCloud 之类，文件存储用又拍云，发邮件用 SendCloud，还有各种开放平台等等。所以，作为一个开发者，作为一个会写代码的人<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>，我们有个很大的优势，就是就算整个世界抛弃了你，你还是能一个人去把产品开发出来，启动成本很低。</p>
 
-<p>
 
   <p>
     ......
   </p>
   <p>
     <a href="/2014/06/24/write-the-code-change-the-world.html">Read more →</a>
-  </p>
-</div>
-    </article>
-    <article class="post">
-      <header>
-  <h2 class="title">
-    <a href="/2014/06/17/know-your-consumers.html">你是否关注过消费者心理？</a>
-  </h2>
-  <div class="meta">
-    <span class="dates">
-      <i class="fa fa-calendar-o"></i> <span class='date'>Jun 17, 2014</span>
-    </span>
-    <span class="tags">
-      <i class="fa fa-tags"></i>
-        <a href="/tags/市场营销.html">市场营销</a>
-        <a href="/tags/心理学.html">心理学</a>
-    </span>
-  </div>
-</header>
-
-<div class="content">
-  <p><aside class="aside">
-  <img alt="消费者心理学" src="/images/know-your-consumers/consumer-psychology.jpg?1403056180">
-</aside></p>
-
-<p>上一期 <a href="http://teahour.fm/2014/05/22/talk-about-finddog.html">Teahour</a> 跟找狗网的创始人 James 聊起 2C 产品和 2B 产品的区别时，James 提到 2C 更多的是心理学操控，在人性的操控上，给大家多一些很奇怪的好处，比如最近在台湾很火的麦当劳早安闹钟应用，在你设立闹钟起床的同时，可以去麦当劳领取一份早餐优惠劵，又有一些好玩的点让你去分享这份经历，成为热门新闻话题，瞬间引爆，上架首日就冲上 App Store 免费排行榜第一名，没有刷榜喔。仔细思考这个案例其实很有意思，里面有很多的心理学及设计考量，而这些往往是我很少关注的。</p>
-
-<p>移动平台、实时技术、社会化媒体、微信营销、O2O，过去几年这些名词发展的很快，给创业者带来了很大的机会，也带来了新的挑战。那是否堆砌几个关键词就能成功了？显然不是，用户根本不关心这些新概念抑或新特性，如何能用这些来提高用户满意度，影响用户的购买决策过程，才是真正的关键，而这，既是消费者心理学，又是社会心理学。</p>
-
-<p>百度百科对<a href="http://baike.baidu.com/subview/165512/5093838.htm">消费者心理学</a>的介绍中，提到了人类行为的几种常见心理以及不同类型的人群的消费心理差别。让我们回想一下自己最近几次的消费经历，不管是软件、服务还是实物，你为什么要买这个东西？你是非常理智的进行消费行为的吗？你是否受到外界因素的影响？你是否属于冲动型消费？大多数情况下，我们并不如我们自己想的那么理智，我们的消费行为是受到情感因素的影响，在一定的推波助澜下做出的决定，当然，我们后面会给自己找出千百种理由，来说服自己为何这次消费是合理的。</p>
-
-<p><aside class="aside">
-  <img alt="农夫山泉" src="/images/know-your-consumers/nongfusanquan.jpg?1403056180">
-</aside></p>
-
-<p>这是农夫山泉的一则广告，营销其实也是如此。我们并不是要去也不能创造出消费者的一个需求，而是去激发他未开发或者未意识到的需求，驱使他做出消费决策。如何去寻找到这个需求并且刺激用户，正是分辨好的营销人员和差的营销人员的差别。Simon Sinek 曾在 TEDx 上做过一次非常棒的分享<a href="http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action">『How great leaders...</a></p>
-
-  <p>
-    ......
-  </p>
-  <p>
-    <a href="/2014/06/17/know-your-consumers.html">Read more →</a>
   </p>
 </div>
     </article>
@@ -514,7 +512,7 @@
 
 
         <footer class="copyright">
-          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
           <ul>
             <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -538,36 +536,6 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
-    </script>
-    <!-- tinysou plugin -->
-    <script>
-      $(function() {
-        var customRenderActFunction = function(item) {
-          var out = '<p class="title">' + item['document']['title'] + '</p>';
-          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
-          return out;
-        };
-        var option = {
-          engineKey: '26a1afe2b042da01d29f',
-          perPage: 5,
-          resultLimit: 5,
-          resultContainingElement: '#ts-results-container',
-          renderStyle: 'new_page',
-          resultPageURL: '/search.html',
-          renderActFunction: customRenderActFunction
-        };
-        (function(w,d,t,u,n,s,e){
-          s = d.createElement(t);
-          s.src = u;
-          s.async = 1;
-          w[n] = function(r){
-            w[n].opts = r;
-          };
-          e = d.getElementsByTagName(t)[0];
-          e.parentNode.insertBefore(s, e);
-        })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-        _ts(option);
-      })
     </script>
   </body>
 </html>

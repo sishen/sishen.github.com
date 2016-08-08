@@ -17,7 +17,7 @@
       'Real Time Web' talk at RubyConf China 2012| Do Great Things -  叶玎玎
     </title>
     <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
-    <meta name="description" content="Fengche.co 创始人、Teahour 主播。远程工作者，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="description" content="GrowingIO 联合创始人、Fengche.co 创始人、Teahour 主播，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
     <meta name="keywords" content="rubyconf, rubyconf china, realtime, ruby">
     <meta name="author" content="叶玎玎">
 
@@ -35,16 +35,16 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691565">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691565">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css">
-    <script src="/javascripts/all.js"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691565">
+    <script src="/javascripts/all.js?1470691565"></script>
   </head>
   <body class="x2012 x2012_12 x2012_12_24 x2012_12_24_real-time-web-talk-at-rubyconf-china-2012 ">
       <div id="banner" style="height: 440px">
@@ -62,21 +62,18 @@
           <ul>
             <li><a href='/'>所有文章</a></li>
             <li><a href='/profile.html'>关于我</a></li>
-            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
             <li><a href="http://teahour.fm">Teahour</a></li>
           </ul>
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691565" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
-        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
-      <form class='search'>
-        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
-      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -102,13 +99,13 @@
 </header>
 
 <div class="content">
-  <p><img title="Dingding @ RubyConf China" alt="rubyconfchina" src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1365745312" /></p>
+  <p><img src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1470691565" title="Dingding @ RubyConf China" alt="rubyconfchina" /></p>
 
 <p>很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (<a href="https://twitter.com/lgn21st">@lgn21st</a>)和李华顺 (<a href="https://twitter.com/huacnlee">@huacnlee</a>)。</p>
 
 <p>参加了过往的三界大会，这次参加更有感触，总得感觉就一个词: &ldquo;进步&quot;。举办方在进步，演讲嘉宾在进步，参会者也在进步。Ruby 社区在我眼里是个非常可爱非常开放的社区，可惜这次因事没有跟大家聊尽兴，略有遗憾。</p>
 
-<p>这次我的主题是实时 Web 的各种技术方案和选择策略，主要基于我这三年的工作经验。我这三年主要在做两个产品。第一个是 Present.ly, 一个企业微博工具。往企业里加入社交元素，实时性会减少沟通成本，增强员工之间的交流协作。这个项目我在 2009 年末开始做，选用了 <a href="http://xmpp.org/extensions/xep-0124.html">BOSH</a>，一种在 HTTP 协议上模拟双向连接的传输协议，基本属于 <a href="http://en.wikipedia.org/wiki/Comet_(programming))%20的变种，只是基于%20[XMPP](http://xmpp.org/)%20赋予了它更多的额外价值。第二个是%20[Fengche.co](https://fengcheco.com)，我今年开始的创业项目。Fengche.co%20是一个轻量级的敏捷开发管理工具，实时性能让团队的所有成员随时保持在同一个节奏上，同时引导团队多交流。大家可以多试用多提意见，欢迎吐槽，:">COMET</a>。Fengche.co 在实时技术上选用了 WebSocket，而非我之前一直使用的 BOSH。主要是在启动项目时有两方面考虑，第一是 XMPP 相对更重，前期开发时间和维护时间都会有所增加。第二是 WebSocket 标准已经正式发布，目前浏览器的支持也基本跟上。不过即使现在让我回过头重新来选，我还会继续选 WebSocket，欲知详情，请看视频，;p</p>
+<p>这次我的主题是实时 Web 的各种技术方案和选择策略，主要基于我这三年的工作经验。我这三年主要在做两个产品。第一个是 Present.ly, 一个企业微博工具。往企业里加入社交元素，实时性会减少沟通成本，增强员工之间的交流协作。这个项目我在 2009 年末开始做，选用了 <a href="http://xmpp.org/extensions/xep-0124.html">BOSH</a>，一种在 HTTP 协议上模拟双向连接的传输协议，基本属于 <a href="http://en.wikipedia.org/wiki/Comet_(programming)) 的变种，只是基于 [XMPP](http://xmpp.org/) 赋予了它更多的额外价值。第二个是 [Fengche.co](https://fengcheco.com)，我今年开始的创业项目。Fengche.co 是一个轻量级的敏捷开发管理工具，实时性能让团队的所有成员随时保持在同一个节奏上，同时引导团队多交流。大家可以多试用多提意见，欢迎吐槽，:">COMET</a>。Fengche.co 在实时技术上选用了 WebSocket，而非我之前一直使用的 BOSH。主要是在启动项目时有两方面考虑，第一是 XMPP 相对更重，前期开发时间和维护时间都会有所增加。第二是 WebSocket 标准已经正式发布，目前浏览器的支持也基本跟上。不过即使现在让我回过头重新来选，我还会继续选 WebSocket，欲知详情，请看视频，;p</p>
 
 <p>关于这个主题的视频和 PPT，大家可以在 <a href="http://railscast-china.com/episodes/rubyconf-2012-yedingding">railscasts-china.com/episodes/rubyconf-2012-yedingding</a> 观看。我们在 <a href="http://ruby-china.org/topics/6870">ruby-china.org/topics/6870/topics/6870</a> 也有更深入的讨论，也感谢 qhwa (<a href="https://twitter.com/qhwa">@qhwa</a>) 指出我在 Flash Socket 上的认识误区，<a href="http://ruby-china.org/topics/6891">对Flash Socket的补充</a>。如果是用 Flash 方案的话，也可以自己定义通讯协议，自己写 server，基本就是写 Socket 程序那样子做。热烈欢迎大家多讨论，希望我这块砖抛出去能引来更多的玉，:)</p>
 
@@ -131,12 +128,12 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1399041455" />
+      <img src="/images/yedingding.png?1470691565" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
 
-      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
       <div class="social-action">
         <span class="rss">
@@ -193,7 +190,7 @@
 
 
         <footer class="copyright">
-          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
           <ul>
             <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -217,36 +214,6 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
-    </script>
-    <!-- tinysou plugin -->
-    <script>
-      $(function() {
-        var customRenderActFunction = function(item) {
-          var out = '<p class="title">' + item['document']['title'] + '</p>';
-          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
-          return out;
-        };
-        var option = {
-          engineKey: '26a1afe2b042da01d29f',
-          perPage: 5,
-          resultLimit: 5,
-          resultContainingElement: '#ts-results-container',
-          renderStyle: 'new_page',
-          resultPageURL: '/search.html',
-          renderActFunction: customRenderActFunction
-        };
-        (function(w,d,t,u,n,s,e){
-          s = d.createElement(t);
-          s.src = u;
-          s.async = 1;
-          w[n] = function(r){
-            w[n].opts = r;
-          };
-          e = d.getElementsByTagName(t)[0];
-          e.parentNode.insertBefore(s, e);
-        })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-        _ts(option);
-      })
     </script>
   </body>
 </html>

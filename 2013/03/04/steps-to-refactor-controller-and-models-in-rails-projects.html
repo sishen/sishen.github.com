@@ -17,7 +17,7 @@
       重构 Rails 项目之最佳实践| Do Great Things -  叶玎玎
     </title>
     <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
-    <meta name="description" content="Fengche.co 创始人、Teahour 主播。远程工作者，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="description" content="GrowingIO 联合创始人、Fengche.co 创始人、Teahour 主播，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
     <meta name="keywords" content="Rails, Refactor">
     <meta name="author" content="叶玎玎">
 
@@ -35,16 +35,16 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691565">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691565">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css">
-    <script src="/javascripts/all.js"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691565">
+    <script src="/javascripts/all.js?1470691565"></script>
   </head>
   <body class="x2013 x2013_03 x2013_03_04 x2013_03_04_steps-to-refactor-controller-and-models-in-rails-projects ">
       <div id="banner" style="height: 440px">
@@ -62,21 +62,18 @@
           <ul>
             <li><a href='/'>所有文章</a></li>
             <li><a href='/profile.html'>关于我</a></li>
-            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
             <li><a href="http://teahour.fm">Teahour</a></li>
           </ul>
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691565" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
-        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
-      <form class='search'>
-        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
-      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -100,20 +97,20 @@
 </header>
 
 <div class="content">
-  <p>春节前受 <a title="Terry Tai's Blog" href="http://terrytai.com">Terry</a> 邀请帮助国内的一个公益项目 <a title="开放课堂, 设计和实践综合实践课的平台" href="https://newclass.org">Re-education</a> 做代码重构。开放课堂项目是由<a title="教育大发现" href="http://sociallearnlab.org/">教育大发现社区</a>发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 <a href="https://github.com/twers/re-education">GitHub</a>，采用 Ruby on Rails 作为开发框架。</p>
+  <p>春节前受 <a href="http://terrytai.com" title="Terry Tai's Blog">Terry</a> 邀请帮助国内的一个公益项目 <a href="https://newclass.org" title="开放课堂, 设计和实践综合实践课的平台">Re-education</a> 做代码重构。开放课堂项目是由<a href="http://sociallearnlab.org/" title="教育大发现">教育大发现社区</a>发起，成都 ThoughtWorks，成都彩程设计公司，成都超有爱教育科技有限公司等一起合作开发和运营的教育公益网站，是一个提供给小学3-6年级师生设计和开展综合实践课的教育开放平台。项目代码放在 <a href="https://github.com/twers/re-education">GitHub</a>，采用 Ruby on Rails 作为开发框架。</p>
 
-<p>很高兴我们 <a href="https://fengcheco.com">Fengche.co</a> 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 <a title="Free Screen Sharing and Online Meetings" href="https://join.me">Join.me</a> 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而<strong>对外不改变</strong>原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 <a title="#036 Refactor openclass by Dingding Ye" href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding">RailsCasts China</a> 观看视频。</p>
+<p>很高兴我们 <a href="https://fengcheco.com">Fengche.co</a> 团队能参与到这个公益项目的开发中，我相信这是个对社会很有价值的事情。征得发起方的同意，我把这次重构工作做成了一次在线秀，也正是因为这次这样的形式，和很多朋友直接在 <a href="https://join.me" title="Free Screen Sharing and Online Meetings">Join.me</a> 上交流了很多 Rails 项目重构方面的想法。通俗点说，重构就是对内要通过修改代码结构等方法让代码变得更美，提高可阅读性和可维护性，而<strong>对外不改变</strong>原来的行为，不做任何功能的修改。所以我们做重构要做好两点: 1) 一次只做一件事情，不能修改了多个地方后再做验证 2) 小步增量前进，路是一步一步走出来的。同时，为了保证重构的正确性，必须要测试保护，每一次小步修改都必须要保证集成测试仍然通过。之所以要保护集成测试而非单元测试，正是因为重构只改变内部结构，而不改变外部行为，所以，单元测试是可能失败的(其实概率也不高)，而集成测试是不允许失败的。基于 Re-education 的代码，这次重构主要涉及了 Controllers 和 Models 两个方面。有兴趣的朋友可以去 <a href="http://railscasts-china.com/episodes/refactor-openclass-by-dingding" title="#036 Refactor openclass by Dingding Ye">RailsCasts China</a> 观看视频。</p>
 
-<p>Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 <a title="Convention over Congiuration" href="http://en.wikipedia.org/wiki/Convention_over_Configuration">CoC</a>, <a title="Don't Repeat Yourself" href="http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself">DRY</a>。而代码组织方式，则是按照 <a title="Model–view–controller" href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> 模式，推崇 &ldquo;Skinny Controller, Fat Model&quot;，把应用逻辑尽可能的放在 Models 中。</p>
+<p>Rails 做为一个 Web 开发框架，几个哲学一直影响着它的发展，比如 <a href="http://en.wikipedia.org/wiki/Convention_over_Configuration" title="Convention over Congiuration">CoC</a>, <a href="http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself" title="Don't Repeat Yourself">DRY</a>。而代码组织方式，则是按照 <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" title="Model–view–controller">MVC</a> 模式，推崇 &ldquo;Skinny Controller, Fat Model&quot;，把应用逻辑尽可能的放在 Models 中。</p>
 
 <p></p>
 
 <h3>Skinny Controller, Fat Model</h3>
 
 <p>让我们来看最实际的例子，来自 Re-education 的代码。</p>
-<pre><code class="highlight ruby"><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+<pre class="highlight ruby"><code><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
   <span class="k">def</span> <span class="nf">create</span>
-    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="p">.</span><span class="nf">new</span> <span class="n">params</span><span class="o">[</span><span class="ss">:publisher</span><span class="o">]</span>
+    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="p">.</span><span class="nf">new</span> <span class="n">params</span><span class="p">[</span><span class="ss">:publisher</span><span class="p">]</span>
 
     <span class="c1"># trigger validation</span>
     <span class="vi">@publisher</span><span class="p">.</span><span class="nf">valid?</span>
@@ -122,7 +119,7 @@
       <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:validation_code</span><span class="p">,</span> <span class="s2">"验证码有误"</span>
     <span class="k">end</span>
 
-    <span class="k">if</span> <span class="o">!</span><span class="p">(</span><span class="n">params</span><span class="o">[</span><span class="ss">:password_copy</span><span class="o">]</span><span class="p">.</span><span class="nf">eql?</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span><span class="p">)</span> <span class="k">then</span>
+    <span class="k">if</span> <span class="o">!</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="ss">:password_copy</span><span class="p">].</span><span class="nf">eql?</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span><span class="p">)</span> <span class="k">then</span>
       <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span><span class="p">.</span><span class="nf">add</span> <span class="ss">:password</span><span class="p">,</span> <span class="s2">"两次密码输入不一致"</span>
     <span class="k">end</span>
 
@@ -131,7 +128,7 @@
       <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span> <span class="o">=</span> <span class="no">Digest</span><span class="o">::</span><span class="no">MD5</span><span class="p">.</span><span class="nf">hexdigest</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">password</span>
       <span class="vi">@publisher</span><span class="p">.</span><span class="nf">save!</span>
 
-      <span class="n">session</span><span class="o">[</span><span class="ss">:user_id</span><span class="o">]</span> <span class="o">=</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">id</span>
+      <span class="n">session</span><span class="p">[</span><span class="ss">:user_id</span><span class="p">]</span> <span class="o">=</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">id</span>
       <span class="n">redirect_to</span> <span class="n">publisher_path</span><span class="p">(</span><span class="vi">@publisher</span><span class="p">)</span>
     <span class="k">else</span>
       <span class="nb">p</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">errors</span>
@@ -140,7 +137,6 @@
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre>
-
 <p>按照 &quot;Skinny Controller, Fat Model&rdquo; 的标准，这段代码有这么几个问题:</p>
 
 <ol>
@@ -149,9 +145,9 @@
 </ol>
 
 <p>从权责而言，Controller 负责的是接收 HTTP Request，并返回 HTTP Response。而具体如何处理和返回什么数据，则应该交由其他模块比如 Model/View 去完成，Controller 只需要当好控制器即可。所以，从这点上讲，如果一个 action 行数超过 10 行，那绝对已经构成了重构点。如果一个 action 对一个 model 变量引用了超过 3 次，也应该构成了重构点。下面是我重构后的代码。</p>
-<pre><code class="highlight ruby"><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
+<pre class="highlight ruby"><code><span class="k">class</span> <span class="nc">PublishersController</span> <span class="o">&lt;</span> <span class="no">ApplicationController</span>
   <span class="k">def</span> <span class="nf">create</span>
-    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="p">.</span><span class="nf">new</span> <span class="n">params</span><span class="o">[</span><span class="ss">:publisher</span><span class="o">]</span>
+    <span class="vi">@publisher</span> <span class="o">=</span> <span class="no">Publisher</span><span class="p">.</span><span class="nf">new</span> <span class="n">params</span><span class="p">[</span><span class="ss">:publisher</span><span class="p">]</span>
 
     <span class="k">if</span> <span class="vi">@publisher</span><span class="p">.</span><span class="nf">save_with_captcha</span>
       <span class="nb">self</span><span class="p">.</span><span class="nf">current_user</span> <span class="o">=</span> <span class="vi">@publisher</span>
@@ -188,7 +184,6 @@
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre>
-
 <p>在上面的重构中，我主要遵循了两个方法。</p>
 
 <ol>
@@ -210,8 +205,8 @@
 
 <h4><a href="http://en.wikipedia.org/wiki/Concern_(computer_science">Concern</a></h4>
 
-<p>Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 <a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns">Put chubby models on a diet with concerns</a> 和 Rails 4 的相关 <a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81">commit</a>。具体使用可以参照上面的博客和下面我们在 <a title="Lean Collaborative Project Management Tool" href="https://fengcheco.com">Fengche.co</a> 里的实际例子。</p>
-<pre><code class="highlight ruby"><span class="k">module</span> <span class="nn">Membershipable</span>
+<p>Concern 其实也就是我们通常说的 Shared Mixin Module，也就是把 Controllers/Models 里面一些通用的应用逻辑抽象到一个 Module 里面做封装，我们约定叫它 Concern。而 Rails 4 已经内建支持 Concern, 也就是在创建新 Rails 项目的同时，会创建 app/models/concerns 和 app/controllers/concerns。大家可以看看 DHH 写的这篇博客 <a href="http://37signals.com/svn/posts/3372-put-chubby-models-on-a-diet-with-concerns">Put chubby models on a diet with concerns</a> 和 Rails 4 的相关 <a href="https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81">commit</a>。具体使用可以参照上面的博客和下面我们在 <a href="https://fengcheco.com" title="Lean Collaborative Project Management Tool">Fengche.co</a> 里的实际例子。</p>
+<pre class="highlight ruby"><code><span class="k">module</span> <span class="nn">Membershipable</span>
   <span class="kp">extend</span> <span class="no">ActiveSupport</span><span class="o">::</span><span class="no">Concern</span>
 
   <span class="n">included</span> <span class="k">do</span>
@@ -247,7 +242,6 @@
   <span class="kp">include</span> <span class="no">Membershipable</span>
 <span class="k">end</span>
 </code></pre>
-
 <p>通过上面的例子，可以看到 Project 和 Account 都可以拥有很多个用户，所以 Membershipable 是公共逻辑，可以抽象成 Concern 并在需要的类里面 include，达到了 DRY 的目的。</p>
 
 <h4><a href="http://en.wikipedia.org/wiki/Delegation_pattern">Delegation Pattern</a></h4>
@@ -255,7 +249,7 @@
 <p>Delegation Pattern 是另外一种重构 Models 的利器。所谓委托模式，也就是我们把一些本跟 Model 数据结构浅耦合的东西抽象成一个对象，然后把相关方法委托给这个对象，同样看看具体例子。</p>
 
 <p>未重构前:</p>
-<pre><code class="highlight ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+<pre class="highlight ruby"><code><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">has_one</span> <span class="ss">:user_profile</span>
 
   <span class="k">def</span> <span class="nf">birthday</span>
@@ -271,9 +265,8 @@
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre>
-
 <p>当我们需要调用的 user_profile 属性越来越多的时候，会发现方法会不断增加。这个时候，通过 delegate, 我们可以把代码变得更加的简单。</p>
-<pre><code class="highlight ruby"><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
+<pre class="highlight ruby"><code><span class="k">class</span> <span class="nc">User</span> <span class="o">&lt;</span> <span class="no">ActiveRecord</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">has_one</span> <span class="ss">:user_profile</span>
 
   <span class="n">delegate</span> <span class="ss">:birthday</span><span class="p">,</span> <span class="ss">:tomezone</span><span class="p">,</span> <span class="ss">:hometown</span><span class="p">,</span> <span class="ss">to: :profile</span>
@@ -284,13 +277,12 @@
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre>
-
 <p>关于更多的如何在 Rails 里使用 delegate 的方法，参考官方文档 <a href="http://apidock.com/rails/Module/delegate">delegate module</a></p>
 
 <h4>Acts As XXX</h4>
 
 <p>相信大家对 acts-as-list，acts-as-tree 这些插件都不陌生，acts-as-xxx 系列其实跟 Concern 差不多，只是它有时不单单是一个 Module，而是一个拥有更多丰富功能的插件。这个方式在重构 Models 时也是非常的有用。还是举个例子。</p>
-<pre><code class="highlight ruby"><span class="k">module</span> <span class="nn">ActiveRecord</span>
+<pre class="highlight ruby"><code><span class="k">module</span> <span class="nn">ActiveRecord</span>
   <span class="k">module</span> <span class="nn">Acts</span> <span class="c1">#:nodoc:</span>
     <span class="k">module</span> <span class="nn">Cache</span> <span class="c1">#:nodoc:</span>
       <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">included</span><span class="p">(</span><span class="n">base</span><span class="p">)</span>
@@ -299,8 +291,8 @@
 
       <span class="k">module</span> <span class="nn">ClassMethods</span>
         <span class="k">def</span> <span class="nf">acts_as_cache</span><span class="p">(</span><span class="n">options</span> <span class="o">=</span> <span class="p">{</span> <span class="p">})</span>
-          <span class="n">klass</span> <span class="o">=</span> <span class="n">options</span><span class="o">[</span><span class="ss">:class_name</span><span class="o">]</span> <span class="o">||</span> <span class="s2">"</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2">Cache"</span><span class="p">.</span><span class="nf">constantize</span>
-          <span class="n">options</span><span class="o">[</span><span class="ss">:delegate</span><span class="o">]</span> <span class="o">||=</span> <span class="o">[]</span>
+          <span class="n">klass</span> <span class="o">=</span> <span class="n">options</span><span class="p">[</span><span class="ss">:class_name</span><span class="p">]</span> <span class="o">||</span> <span class="s2">"</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2">Cache"</span><span class="p">.</span><span class="nf">constantize</span>
+          <span class="n">options</span><span class="p">[</span><span class="ss">:delegate</span><span class="p">]</span> <span class="o">||=</span> <span class="p">[]</span>
 
           <span class="nb">class_eval</span> <span class="o">&lt;&lt;-</span><span class="no">EOV</span><span class="sh">
             def acts_as_cache_class
@@ -310,8 +302,8 @@
             after_commit :create_cache, :if =&gt; :persisted?
             after_commit :destroy_cache, on: :destroy
 
-            if </span><span class="si">#{</span><span class="n">options</span><span class="o">[</span><span class="ss">:delegate</span><span class="o">]</span><span class="si">}</span><span class="sh">.any?
-              delegate *</span><span class="si">#{</span><span class="n">options</span><span class="o">[</span><span class="ss">:delegate</span><span class="o">]</span><span class="si">}</span><span class="sh">, to: :cache
+            if </span><span class="si">#{</span><span class="n">options</span><span class="p">[</span><span class="ss">:delegate</span><span class="p">]</span><span class="si">}</span><span class="sh">.any?
+              delegate *</span><span class="si">#{</span><span class="n">options</span><span class="p">[</span><span class="ss">:delegate</span><span class="p">]</span><span class="si">}</span><span class="sh">, to: :cache
             end
 
             include ::ActiveRecord::Acts::Cache::InstanceMethods
@@ -344,7 +336,6 @@
   <span class="n">acts_as_cache</span>
 <span class="k">end</span>
 </code></pre>
-
 <h3>Beyond MVC</h3>
 
 <p>如果你在使用了这些方式重构后还是不喜欢代码结构，那么我觉得可能仅仅 MVC 三层就不能满足你需求了，我们需要更多的抽象，比如 Java 世界广而告之的 Service 层或者 Presenter 层。这个更多是个人习惯的问题，比如有些人认为应用逻辑(业务逻辑)不应该放在数据层(Model)，或者一个 Model 只应该管好他自己的事情，多个 Model 的融合需要另外的类来做代理。关于这些的争论已经属于意识形态的范畴，个人的观点是视需要而定，没必要一上来就进入 Service 或者 Presenter，保持代码的简单性，毕竟减少项目 Bugs 的永恒不变法就是没有代码。但是，一旦达到可适用范围，该引入时就引入。这里也给大家介绍一些我们在用的方法。</p>
@@ -352,12 +343,12 @@
 <h4>Service</h4>
 
 <p>之前已经提到 Controller 层应该只接受 HTTP Request，返回 HTTP Response，中间的处理部分应该交由其他部分。我们可以优先把这部分逻辑放在 Model 层处理。但是，Model 层本身从定义而言应该是只和数据打交道，而不应该过多涉及业务逻辑。这个时候我们就需要用到 Service 层。继续例子!</p>
-<pre><code class="highlight ruby"><span class="k">class</span> <span class="nc">ProjectHookService</span>
+<pre class="highlight ruby"><code><span class="k">class</span> <span class="nc">ProjectHookService</span>
   <span class="kp">attr_reader</span> <span class="ss">:project</span><span class="p">,</span> <span class="ss">:data</span>
 
   <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">hook_params</span> <span class="o">=</span> <span class="p">{})</span>
     <span class="vi">@project</span> <span class="o">=</span> <span class="no">Project</span><span class="p">.</span><span class="nf">from_param</span><span class="p">(</span><span class="n">hook_params</span><span class="p">)</span>
-    <span class="vi">@data</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">hook_params</span><span class="o">[</span><span class="s1">'payload'</span><span class="o">]</span><span class="p">)</span>
+    <span class="vi">@data</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">hook_params</span><span class="p">[</span><span class="s1">'payload'</span><span class="p">])</span>
   <span class="k">end</span>
 
   <span class="k">def</span> <span class="nf">parse</span>
@@ -386,13 +377,12 @@
   <span class="k">end</span>
 <span class="k">end</span>
 </code></pre>
-
 <p>如果大家仔细分析这段代码的话，会发现用 Service 是最好的方案，既不应该放在 Controller，又不适合放在 Model。如果你需要大量使用这种模式，可以考虑一下看看 <a href="https://github.com/karmajunkie/imperator">Imperator</a> 这个 Gem，算是 Rails 世界里对 Service Layer 实现比较好的库了。</p>
 
 <h4>Presenter</h4>
 
 <p>关于 Presenter，不得不提的是一个 Gem <a href="https://github.com/jamesgolick/active_presenter">ActivePresenter</a>，基本跟 ActiveRecord 的使用方法一样，如果项目到了一定规模比如有了非常多的 Models，那么可以关注一下 Presenter 模式，会是一个很不错的补充。</p>
-<pre><code class="highlight ruby"><span class="k">class</span> <span class="nc">SignupPresenter</span> <span class="o">&lt;</span> <span class="no">ActivePresenter</span><span class="o">::</span><span class="no">Base</span>
+<pre class="highlight ruby"><code><span class="k">class</span> <span class="nc">SignupPresenter</span> <span class="o">&lt;</span> <span class="no">ActivePresenter</span><span class="o">::</span><span class="no">Base</span>
   <span class="n">presents</span> <span class="ss">:user</span><span class="p">,</span> <span class="ss">:account</span>
 <span class="k">end</span>
 
@@ -401,7 +391,6 @@
                     <span class="ss">:user_password_confirmation</span> <span class="o">=&gt;</span> <span class="s1">'123456'</span><span class="p">,</span>
                     <span class="ss">:account_subdomain</span> <span class="o">=&gt;</span> <span class="s1">'pragmaticly'</span><span class="p">)</span>
 </code></pre>
-
 <h3>We&rsquo;re good now</h3>
 
 <p>基本上上面是我在一个 Rails 项目里重构 Controller 和 Model 时会使用的几种方法，希望对你有用。Terry Tai 上周在他的博客里分享了<a href="http://terrytai.com/2013/02/15/refactor-session-for-re-education-in-thought-works.html">他在重构方面的一些想法</a>，也很有价值，推荐阅读。</p>
@@ -421,12 +410,12 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1399041455" />
+      <img src="/images/yedingding.png?1470691565" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
 
-      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
       <div class="social-action">
         <span class="rss">
@@ -483,7 +472,7 @@
 
 
         <footer class="copyright">
-          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
           <ul>
             <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -507,36 +496,6 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
-    </script>
-    <!-- tinysou plugin -->
-    <script>
-      $(function() {
-        var customRenderActFunction = function(item) {
-          var out = '<p class="title">' + item['document']['title'] + '</p>';
-          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
-          return out;
-        };
-        var option = {
-          engineKey: '26a1afe2b042da01d29f',
-          perPage: 5,
-          resultLimit: 5,
-          resultContainingElement: '#ts-results-container',
-          renderStyle: 'new_page',
-          resultPageURL: '/search.html',
-          renderActFunction: customRenderActFunction
-        };
-        (function(w,d,t,u,n,s,e){
-          s = d.createElement(t);
-          s.src = u;
-          s.async = 1;
-          w[n] = function(r){
-            w[n].opts = r;
-          };
-          e = d.getElementsByTagName(t)[0];
-          e.parentNode.insertBefore(s, e);
-        })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-        _ts(option);
-      })
     </script>
   </body>
 </html>

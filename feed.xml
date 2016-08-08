@@ -5,10 +5,105 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2014-11-20T22:00:00+08:00</updated>
+  <updated>2016-08-09T00:00:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>从埋点到「无埋点」，是过去和未来的差别</title>
+    <link rel="alternate" href="/2016/08/09/the-future-of-tagging.html"/>
+    <id>/2016/08/09/the-future-of-tagging.html</id>
+    <published>2016-08-09T00:00:00+08:00</published>
+    <updated>2016-08-09T00:00:00+08:00</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;p&gt;自从 GrowingIO 去年发布无埋点方案以后，就获得外部很多的关注，一方面感觉到很神奇，只加了一段 SDK 就能实时地，全量地，自动地收到用户行为数据了，另一方面数据开始沉淀，这样业务人员就可以在任何时候都回溯，很多人在问这是怎么实现的。&lt;/p&gt;
+
+&lt;p&gt;的确，这里面有很多我们称之为黑科技的东西在里面，有在运行时的操作，也有在编译期做修改的，同时又要求能站在用户行为分析的角度去思考 SDK 的应用场景和数据逻辑，对于 SDK 开发团队来说有非常高的要求。&lt;/p&gt;
+
+&lt;p&gt;无&lt;a href="https://blog.growingio.com/posts/monitorting-points-pain"&gt;埋点采集技术&lt;/a&gt;原理说起来很简单，主要是基于树形结构和事件驱动模型，有兴趣的可以看看我之前写的一篇文章：无需埋点的数据分析原理 &lt;a href="https://blog.growingio.com/posts/esoterica_2"&gt;https://blog.growingio.com/posts/esoterica_2&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;就我所知，类似的无埋点方案，阿里做过，百度做过，腾讯也做过。之前就有阿里杭州的小伙伴们专门来北京跟我们做这一块的技术交流，都是非常优秀的小伙伴。但是只有当你真正去尝试解决并且产品化的时候，你才会发现这想起来简单的事情做起来是多么的困难，这里面的水有多深。没有什么比 Ninety-Ninety Rule 能更形象的表达这个事情了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://assets.growingio.com/blog/storage/image/aea633123f8271db3fa4d69d289c5a3c.jpeg" alt="Ninety-Ninety Rule"&gt;&lt;/p&gt;
+
+&lt;p&gt;今天，我想借这篇文章跟大家介绍一下我们是如何思考这个事情的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一、无埋点更适应当下的互联网公司&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;当下的时代是一个大前端时代，Web、手机APP的使用时间越来越长，以前的应用程序，前端的代码量并不大，但是如今随着JavaScript的发展，移动端APP的飞速发展，同时大家使用手机APP和网站的时间越来越碎片化，很多行为不一定要提交到服务器，用户只是做了和前端的一些交互操作，很多关于用户体验的代码都在前端实现。比如在一个旅游网站上面，用户对起点和目的地的条件选择，对酒店的房型的选择，下拉菜单的内容点击，只要用户不提交这个请求，后端的服务器，就无法记录用户的这些行为。&lt;/p&gt;
+
+&lt;p&gt;这也是...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;自从 GrowingIO 去年发布无埋点方案以后，就获得外部很多的关注，一方面感觉到很神奇，只加了一段 SDK 就能实时地，全量地，自动地收到用户行为数据了，另一方面数据开始沉淀，这样业务人员就可以在任何时候都回溯，很多人在问这是怎么实现的。&lt;/p&gt;
+
+&lt;p&gt;的确，这里面有很多我们称之为黑科技的东西在里面，有在运行时的操作，也有在编译期做修改的，同时又要求能站在用户行为分析的角度去思考 SDK 的应用场景和数据逻辑，对于 SDK 开发团队来说有非常高的要求。&lt;/p&gt;
+
+&lt;p&gt;无&lt;a href="https://blog.growingio.com/posts/monitorting-points-pain"&gt;埋点采集技术&lt;/a&gt;原理说起来很简单，主要是基于树形结构和事件驱动模型，有兴趣的可以看看我之前写的一篇文章：无需埋点的数据分析原理 &lt;a href="https://blog.growingio.com/posts/esoterica_2"&gt;https://blog.growingio.com/posts/esoterica_2&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;就我所知，类似的无埋点方案，阿里做过，百度做过，腾讯也做过。之前就有阿里杭州的小伙伴们专门来北京跟我们做这一块的技术交流，都是非常优秀的小伙伴。但是只有当你真正去尝试解决并且产品化的时候，你才会发现这想起来简单的事情做起来是多么的困难，这里面的水有多深。没有什么比 Ninety-Ninety Rule 能更形象的表达这个事情了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://assets.growingio.com/blog/storage/image/aea633123f8271db3fa4d69d289c5a3c.jpeg" alt="Ninety-Ninety Rule" /&gt;&lt;/p&gt;
+
+&lt;p&gt;今天，我想借这篇文章跟大家介绍一下我们是如何思考这个事情的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一、无埋点更适应当下的互联网公司&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;当下的时代是一个大前端时代，Web、手机APP的使用时间越来越长，以前的应用程序，前端的代码量并不大，但是如今随着JavaScript的发展，移动端APP的飞速发展，同时大家使用手机APP和网站的时间越来越碎片化，很多行为不一定要提交到服务器，用户只是做了和前端的一些交互操作，很多关于用户体验的代码都在前端实现。比如在一个旅游网站上面，用户对起点和目的地的条件选择，对酒店的房型的选择，下拉菜单的内容点击，只要用户不提交这个请求，后端的服务器，就无法记录用户的这些行为。&lt;/p&gt;
+
+&lt;p&gt;这也是为什么大趋势发展下，后端埋点（也就是俗称的打点、埋点）越来越不再适用，后端能采集到的数据是片面并且有限的，一方面后端与前端之间往往是缺乏数据交互的，大量操作都是预加载或者延迟加载，另一方面当用户出现网络故障或者环境问题时，后端再也没有机会知道用户在那些时间点上的操作。比如 Mixpanel 就会直接把数据扔掉。一般我们在说无埋点的时候，都说的是前端 SDK 全量数据采集，在前端尽可能做异步操作，尽量让用户感觉不到任何延时，不仅在客户端能抓取到全量的用户行为数据，同时也会先把数据缓存到本地，等网络正常后再次上传，尽可能保证用户数据的完整性。&lt;/p&gt;
+
+&lt;p&gt;数据分析的目的是为了驱动业务增长，我们需要的是从用户做了什么中找到趋势，找到转化率。《精益分析》书中第一章提到一个好的指标，首先应该是稳定的，其次应该是可比较的。我们的重心就是从数据中找到那些变化点，为什么今天的数据比昨天涨了，或者跌了，今天发生了什么事情，哪个渠道带来的流量，这是不是可持续的，如何才能保持增长。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://assets.growingio.com/blog/storage/image/55c2dac9567c163fe0e3a26fe3ef0c36.jpeg" alt="数据驱动运营" /&gt;&lt;/p&gt;
+
+&lt;p&gt;基于数据和指标去思考为什么、我能做什么、我要做什么以及效果如何，这才是数据驱动。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;二、无埋点能够更好地解决业务需求&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;很多人对于无埋点的理解误区在于认为无埋点只是看一下某个元素的浏览量和点击量，缺乏业务场景，这其实是非常片面的。&lt;/p&gt;
+
+&lt;p&gt;一切都是起源于商业问题。我们做无埋点的初衷是为了减少沟通提高效率，快速得到结果辅助决策。无埋点不等于不写代码，除了那些本身可以在前端采集到的业务数据，我们同时还提供了一系列的高级功能，让用户在集成时花费很轻的成本，就可以采集到更多的业务数据，比如：&lt;/p&gt;
+
+&lt;p&gt;我们有用户属性的集成，用于构建用户画像，从多维度分析一个用户的方方面面；&lt;/p&gt;
+
+&lt;p&gt;我们有页面属性的集成，可以基于业务场景划分一个应用为多个不同的页面组，每个组可以根据业务需求进行各自自己的多维分析；&lt;/p&gt;
+
+&lt;p&gt;我们还有行为属性的集成，可以让你在用户具体行为上集成业务属性。&lt;/p&gt;
+
+&lt;p&gt;这些就如 Google 一样，一方面在数据处理和自然语言处理上不断精进，但是同样会有一套 Semantic Web 的规范，让搜索引擎能够更理解业务。&lt;/p&gt;
+
+&lt;p&gt;而后端埋点，有个非常严重的硬伤是，行为数据和后端数据无法很好的关联，后端数据只是个结果，但是却无法归因。比如当我们去分析注册转化率时，我们会发现因为缺乏很多前端行为交互数据，而不知道有多少人放弃注册了，放弃注册是因为什么，我们应该如何去改进等等。&lt;/p&gt;
+
+&lt;p&gt;在无埋点方案下，我们非常清楚的从用户细查里查看到用户的每一步操作，帮助我们快速定位问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://assets.growingio.com/blog/storage/image/7a3647a30e9a4d10b7bc1455edbfc6cc.jpeg" alt="GrowingIO 用户细查" /&gt;&lt;/p&gt;
+
+&lt;p&gt;同时，我们提供了 GrowingIO 热图让你对群体行为更加一目了然。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://assets.growingio.com/blog/storage/image/18241aee98104d759b868ce3b283c8d3.jpeg" alt="GrowingIO 热图" /&gt;&lt;/p&gt;
+
+&lt;p&gt;任何的数据分析都是基于业务需求场景化的，是一个发现问题、思考原因、提出方案、验证论证的循环过程，如何在用户尽可能少的参与下，能理解和分析出用户的业务场景，是我们一直在努力的方向。这并不是一个人一个团队孤独地在战斗，是一个基于群体的智慧学习的过程。我们会继续深入研究和挖掘这部分，让业务需求能更快更直接的呈现在用户面前。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;三、无埋点是否只是一个宣传的点？&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;像很多改变现在的新科技能力刚面世一样，也有些人会问无埋点到底能产生什么业务价值。&lt;/p&gt;
+
+&lt;p&gt;很难想象，如果3 年后 5 年后，业务端还要不停地和产品经理、分析师、工程师沟通埋点，极其浪费时间和资源。活在当下，立足未来，站在我们今天的成果上来说，我们能很清楚地感觉到，未来在哪里，有多远，如何才能给用户提供最大的价值。&lt;/p&gt;
+
+&lt;p&gt;Nothing Is Impossible. 这是我们在招聘时非常看重的一点。世界上所有做不了的事情，并不是因为真正做不了，而是我们自己认为这个做不了。我们不会因为别人不会做、告诉我们做不了，就不去思考接受认为自己也做不了。总是有那么一群可爱的人，他们就是比较傻，每天想着如何自己能多做一点，让我们客户能更快更方便的直接得到价值。&lt;/p&gt;
+
+&lt;p&gt;今天，我们已经将完成一个数据分析的时间，从原来的几周，缩短到了几小时，节约了大量的跨部门沟通成本和工程师的开发成本。明天，我们还会再从几小时缩短到几秒钟，深入挖掘商业洞察。任何以「难」为借口而让客户迁就于你、浪费大量无谓时间的解决方案都是耍流氓，我们一直有这个信念。越困难的事情，解决了就能带来越大的价值，我们做的越多，客户获取的价值就越高，而这就是为什么今天我们在这里的意义。一切缘起于商业！我的朋友奇点金融的联合创始人海舟说的一句话，我非常喜欢：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://assets.growingio.com/blog/storage/image/d1457300f8eb76466ab7ab81f4a5264c.jpeg" alt="Do Great Things" /&gt;&lt;/p&gt;
+
+&lt;p&gt;最后，感兴趣的可以了解下我们的帮助文档 (&lt;a href="https://help.growingio.com"&gt;https://help.growingio.com&lt;/a&gt;)，看看我们的实现逻辑，明白了的话可以约我聊聊，欢迎一起来做一件非常有技术挑战的事情。&lt;/p&gt;
+
+&lt;p&gt;从 0 到 1，是守旧和改进的区别，是过去和未来的差别。而有这群愿意不断挑战、自我时刻以客户价值为第一位的伙伴一起，是 GrowingIO 走向未来的坚实保障。&lt;/p&gt;
+
+&lt;p&gt;如需转载，请注明文章来源于&lt;span style="font-size: 16px;"&gt;GrowingIO 官方博客：&lt;a href="https://blog.growingio.com"&gt;https://blog.growingio.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>#60 与丁磊聊机器学习和数据科学</title>
     <link rel="alternate" href="/2014/11/20/teahour-60-data-scientist.html"/>
@@ -20,9 +115,9 @@
     </author>
     <summary type="html">&lt;p&gt;本文是 Teahour 第 60 期 &lt;a href="http://teahour.fm/2014/08/07/machine-learning-with-ding-lei.html"&gt;『与丁磊聊机器学习和数据科学』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。&lt;/p&gt;
 
-&lt;p&gt;&lt;audio controls name="media"&gt;
+&lt;audio controls name="media"&gt;
   &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg"&gt;
-&lt;/source&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;/source&gt;&lt;/audio&gt;
 
 &lt;h3&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
 
@@ -39,9 +134,9 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：大数据，或者叫 Data...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;本文是 Teahour 第 60 期 &lt;a href="http://teahour.fm/2014/08/07/machine-learning-with-ding-lei.html"&gt;『与丁磊聊机器学习和数据科学』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。&lt;/p&gt;
 
-&lt;p&gt;&lt;audio controls name="media"&gt;
+&lt;audio controls name="media"&gt;
   &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg"&gt;
-&lt;/audio&gt;&lt;/p&gt;
+&lt;/audio&gt;
 
 &lt;h3&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
 
@@ -320,13 +415,13 @@
     <author>
       <name>叶玎玎</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;img alt="Data Measure" src="/images/rcc2014-dafeng/data-measure.jpg?1413974934"&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src="/images/rcc2014-dafeng/data-measure.jpg" alt="Data Measure"&gt;&lt;/p&gt;
 
 &lt;p&gt;本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 &lt;a href="http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html"&gt;http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;audio controls name="media"&gt;
+&lt;audio controls name="media"&gt;
   &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg"&gt;
-&lt;/source&gt;&lt;/audio&gt;&lt;/p&gt;
+&lt;/source&gt;&lt;/audio&gt;
 
 &lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。&lt;/p&gt;
 
@@ -341,13 +436,13 @@
 &lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：好的好的。要讲一下这个内容是什么，可能要先讲一下选这个题目的原因。我相信这次大会上有很多团队都是在创业，或者在创业团队工作的人。作为创业团队为什么选 Ruby ，就是因为 Ruby 可以快速开发，这一点对创业公司非常重要。&lt;/p&gt;
 
 &lt;p&gt;我自己参加过不同的讲座和不同的技术分享，发现国内这种分析很多都是专注在技术上，比如：测试应该...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;img alt="Data Measure" src="http://yedingding.com/images/rcc2014-dafeng/data-measure.jpg?1413974934" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src="http://yedingding.com/images/rcc2014-dafeng/data-measure.jpg" alt="Data Measure" /&gt;&lt;/p&gt;
 
 &lt;p&gt;本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 &lt;a href="http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html"&gt;http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html&lt;/a&gt;。&lt;/p&gt;
 
-&lt;p&gt;&lt;audio controls name="media"&gt;
+&lt;audio controls name="media"&gt;
   &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg"&gt;
-&lt;/audio&gt;&lt;/p&gt;
+&lt;/audio&gt;
 
 &lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。&lt;/p&gt;
 
@@ -431,9 +526,9 @@
     <author>
       <name>叶玎玎</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="RubyConf China 2014" src="/images/rubyconf-china-2014/RubyConfChina-2014.png?1413871483"&gt;
-&lt;/aside&gt;&lt;/p&gt;
+    <summary type="html">&lt;aside class="aside"&gt;
+  ![RubyConf China 2014](rubyconf-china-2014/RubyConfChina-2014.png)
+&lt;/aside&gt;
 
 &lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
 
@@ -441,10 +536,10 @@
 
 &lt;p&gt;今年的大会筹办其实蛮早就开始，但是作为一个纯志愿者组织的大会，尤其三位主办人姜军、吕国宁和我都是在创业，时间超级不够用，整体办会经历可以说是跌宕起伏，所幸大多有惊无险。姜军数次跟我谈起想今年尝试不同的方式，想跳出往年固定的主题演讲式，给参会者带来更多不同的体验和更多的参与感和情感互动。所以，我们今年放弃了从海外邀请嘉宾，专注在形式上做突破，为明年的大会做好基础，也就有了你今天看到的大会行程。&lt;/p&gt;
 
-&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks 带来的半天 TDD Workshop，Rails 源码分析之 ActiveRecord 以及由我支持的两场 Ruby 职场...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="RubyConf China 2014" src="http://yedingding.com/images/rubyconf-china-2014/RubyConfChina-2014.png?1413871483" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks...&lt;/p&gt;</summary>
+    <content type="html">&lt;aside class="aside"&gt;
+  ![RubyConf China 2014](rubyconf-china-2014/RubyConfChina-2014.png)
+&lt;/aside&gt;
 
 &lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
 
@@ -557,9 +652,9 @@
     <author>
       <name>叶玎玎</name>
     </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="node-webkit" src="http://yedingding.com/images/node-webkit-intro/nw.jpg"&gt;
-&lt;/aside&gt;&lt;/p&gt;
+    <summary type="html">&lt;aside class="aside"&gt;
+  ![node-webkit](http://yedingding.com/images/node-webkit-intro/nw.jpg)
+&lt;/aside&gt;
 
 &lt;blockquote&gt;
   This article is translated by &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; of my article &lt;a href="http://yedingding.com/2014/07/28/node-webkit-intro.html"&gt;开始 NODE-WEBKIT 前，你应该知道的&lt;/a&gt;. &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people’s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you’re interested, why not &lt;a href="mailto:yicun.wu@uwaterloo.ca"&gt;drop her an email&lt;/a&gt;?
@@ -567,10 +662,10 @@
 
 &lt;p&gt;Last weekend, &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour&lt;/a&gt; invited &lt;a href="https://twitter.com/wwr"&gt;Roger Wang&lt;/a&gt;, the creator of node-webkit to talk about the stories behind node-webkit and the use of HTML5 in desktop app development. Various web-based desktop app frameworks such as node-webkit, Chrome Apps, Titanium, TideSDK and Atom Shell have been developed over recent years and node-webkit remains one of the best.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&lt;/a&gt; project was started in 2011. It is an app runtime that allows...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="node-webkit" src="http://yedingding.com/images/node-webkit-intro/nw.jpg" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node...&lt;/a&gt;&lt;/p&gt;</summary>
+    <content type="html">&lt;aside class="aside"&gt;
+  ![node-webkit](http://yedingding.com/images/node-webkit-intro/nw.jpg)
+&lt;/aside&gt;
 
 &lt;blockquote&gt;
   This article is translated by &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; of my article &lt;a href="http://yedingding.com/2014/07/28/node-webkit-intro.html"&gt;开始 NODE-WEBKIT 前，你应该知道的&lt;/a&gt;. &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people&amp;rsquo;s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you&amp;rsquo;re interested, why not &lt;a href="mailto:yicun.wu@uwaterloo.ca"&gt;drop her an email&lt;/a&gt;?
@@ -607,10 +702,10 @@
 
 &lt;p&gt;Node-webkit has made changes to the security model of WebKit as well. In node-webkit, there are two kinds of frames: Node frames and normal frames&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. If you&amp;rsquo;re familiar with Web development, you probably know that issuing a cross-domain AJAX request will result in errors imposed by &lt;a href="http://en.wikipedia.org/wiki/Same_origin_policy"&gt;same-origin policy&lt;/a&gt;. The same restriction is imposed on normal frames of node-webkit as in a browser. However, there is no such restriction on Node frames: the same security token is shared in all Node frames, including the Node&amp;rsquo;s context and the WebKit&amp;rsquo;s Context, and cross-domain access are allowed and objects in the Node&amp;rsquo;s context are accessible too. Therefore, app developers must take precaution with untrusted user input to prevent destructive actions or put them into a normal frame.&lt;/p&gt;
 
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Chromium Layers" src="http://yedingding.com/images/node-webkit-intro/chromium-layers.jpg" /&gt;
+&lt;aside class="aside"&gt;
+  ![Chromium Layers](http://yedingding.com/images/node-webkit-intro/chromium-layers.jpg)
   &lt;small&gt;Chromium Conceptual Application Layers&lt;/small&gt;
-&lt;/aside&gt;&lt;/p&gt;
+&lt;/aside&gt;
 
 &lt;p&gt;It is worth noting that even though Chrome supports HTML5 pretty well, some features are implemented on the Browser layer (see the graph above) and the WebKit in node-webkit inherits up to the Contents layer (i.e. the WebContents layer on the above image) as node-webkit itself is the implementation of the Browser layer. Therefore, some HTML5 features such as Web Notification&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; are not supported in node-webkit. Nevertheless, the Chromium team is moving these HTML5 features onto the Content layer, which is definitely good news for node-webkit.&lt;/p&gt;
 
@@ -634,104 +729,6 @@
 
 &lt;li id="fn2"&gt;
 &lt;p&gt;Notification has been implemented by &lt;a href="https://github.com/rogerwang/node-webkit/pull/1951"&gt;PR&lt;/a&gt; and it&amp;rsquo;s already included in latest release 0.10.1.&amp;nbsp;&lt;a href="#fnref2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>开始 node-webkit 前，你应该知道的</title>
-    <link rel="alternate" href="/2014/07/28/node-webkit-intro.html"/>
-    <id>/2014/07/28/node-webkit-intro.html</id>
-    <published>2014-07-28T12:00:00+08:00</published>
-    <updated>2014-07-28T12:00:00+08:00</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="node-webkit" src="/images/node-webkit-intro/nw.jpg?1406554637"&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;上周末在 &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour&lt;/a&gt; 邀请到了 node-webkit 的作者&lt;a href="https://twitter.com/wwr"&gt;王文睿&lt;/a&gt;来做客，聊了一下 node-webkit 的故事和 HTML5 技术在应用程序开发领域的发展，很有收获。最近几年，用 Web 技术来开发应用程序的框架层出不穷，如 node-webkit, Chrome Apps, Titanium, TideSDK, Atom Shell，而 node-webkit 正是这些框架中的一个佼佼者。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&lt;/a&gt; 这个项目开始于 2011 年，是一个让开发者可以用 Web 技术，也就是 HTML5、CSS 和 JavaScript 来编写桌面程序的应用框架。作为开发者，我们只需要写一份代码，就能编译成跑在 Windows、Mac 和 Linux 下的应用程序。目前在 github 上，node-webkit 有将近 15000 个 Star，1600 个 Fork，可以说是由国人开发的一个非常流行的开源软件。在本期节目中，文睿介绍了目前使用 node-webkit 开发的一些典型应用，大致可以分成这么几类，&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;桌面开发 IDE，比如 &lt;a href="http://www.lighttable.com/"&gt;Light Table&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;游戏，比如 &lt;a href="http://www.brandonmustdie.com/"&gt;Brandon Must Die!&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;媒体类应用，比如 &lt;a href="http://popcorntime.io/"&gt;Popcorn Time&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;工具软件，比如 &lt;a href="http://pad.haroopress.com/"&gt;Haroopod&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;企业内部应用，比如数据显示应用&lt;/li&gt;
-&lt;li&gt;终端应用，比如 POS 机。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;可以看出，领域非常丰富，其中也不乏一些设计精良体验优美的应用。可以说，很大程度上，这得益于目前硬件的性能提升和 Web 的发展，动画、图形、音频、视频、2D、3D、WebGL 等等，都让基于 HTML5 的应用开发充满了想象力。&lt;/p&gt;
-
-&lt;p&gt;从本质上来说，node-webkit 只是一个 web 应用的桌面运行环境。当我们说到桌面应用的时候，我们会想到需要有呈现给用户的界面，也需要能响应用户行为，跟系统打交道...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="node-webkit" src="http://yedingding.com/images/node-webkit-intro/nw.jpg?1406554637" /&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;上周末在 &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour&lt;/a&gt; 邀请到了 node-webkit 的作者&lt;a href="https://twitter.com/wwr"&gt;王文睿&lt;/a&gt;来做客，聊了一下 node-webkit 的故事和 HTML5 技术在应用程序开发领域的发展，很有收获。最近几年，用 Web 技术来开发应用程序的框架层出不穷，如 node-webkit, Chrome Apps, Titanium, TideSDK, Atom Shell，而 node-webkit 正是这些框架中的一个佼佼者。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&lt;/a&gt; 这个项目开始于 2011 年，是一个让开发者可以用 Web 技术，也就是 HTML5、CSS 和 JavaScript 来编写桌面程序的应用框架。作为开发者，我们只需要写一份代码，就能编译成跑在 Windows、Mac 和 Linux 下的应用程序。目前在 github 上，node-webkit 有将近 15000 个 Star，1600 个 Fork，可以说是由国人开发的一个非常流行的开源软件。在本期节目中，文睿介绍了目前使用 node-webkit 开发的一些典型应用，大致可以分成这么几类，&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;桌面开发 IDE，比如 &lt;a href="http://www.lighttable.com/"&gt;Light Table&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;游戏，比如 &lt;a href="http://www.brandonmustdie.com/"&gt;Brandon Must Die!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;媒体类应用，比如 &lt;a href="http://popcorntime.io/"&gt;Popcorn Time&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;工具软件，比如 &lt;a href="http://pad.haroopress.com/"&gt;Haroopod&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;企业内部应用，比如数据显示应用&lt;/li&gt;
-&lt;li&gt;终端应用，比如 POS 机。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;可以看出，领域非常丰富，其中也不乏一些设计精良体验优美的应用。可以说，很大程度上，这得益于目前硬件的性能提升和 Web 的发展，动画、图形、音频、视频、2D、3D、WebGL 等等，都让基于 HTML5 的应用开发充满了想象力。&lt;/p&gt;
-
-&lt;p&gt;从本质上来说，node-webkit 只是一个 web 应用的桌面运行环境。当我们说到桌面应用的时候，我们会想到需要有呈现给用户的界面，也需要能响应用户行为，跟系统打交道。那么，node-webkit 是怎么做到这点的。要了解这个，必须得先了解 node 和 webkit。&lt;/p&gt;
-
-&lt;p&gt;Node 是一个基于 Google Chrome V8 引擎的轻量级 Javascript 运行平台。Node 采用 C++ 编写，直接在操作系统的应用层上，支持很多系统级的 API，如文件操作、网络编程等，所以可以用来编写系统级应用或者服务端应用等。&lt;/p&gt;
-
-&lt;p&gt;Webkit 是 Web 内容的渲染引擎。举个例子，一个网页由 HTML、CSS 和 JavaScript 组成，页面加载后会被语法分析器解析成树，然后交由 Webkit 做渲染，这样才得到一个我们看到的页面。在 node-webkit 里，选择了是基于 Webkit 二次开发的 Blink 引擎，正好其 JavaScript 解析引擎也是 node 所采用的 V8 引擎。&lt;/p&gt;
-
-&lt;p&gt;由于浏览器安全模型的缘故，Webkit 并不能访问到系统调用，而这却是桌面应用的必须。Node 本身支持系统级的 API，但是缺乏对于渲染的支持，所以文睿在 2011 就有了做 node-webkit 的想法，把两者揉合在一起，既能对接操作系统，又能提供用户交互。在做简单尝试用 webkit-gtk 和 node 来做实验后，在 2012 年开始转向 Chromium，从一开始使用的 Chromium Embeded Framework（CEF）到后面完全基于 Chromium。&lt;/p&gt;
-
-&lt;p&gt;得益于 Node 和 Chromium 自身的蓬勃发展，node-webkit 也发展的很快，到今天已经发布到了 0.10 版本。下面来讲讲 node-webkit 的一些主要实现细节。&lt;/p&gt;
-
-&lt;p&gt;Node 是一个事件驱动的框架，消息处理基于 libuv 实现。Webkit 的 JS 引擎也是事件驱动的，是 Chrome 自己实现的 MessagePump。所谓事件驱动，简单说就是当某个事件发生的时候，比如有用户输入进来，去执行对应的处理代码。 所以，node-webkit 统一了 node 和 webkit 中的事件处理方式，在一个消息循环中去处理 node 里和 webkit 里的不同事件。&lt;/p&gt;
-
-&lt;p&gt;解决了事件处理统一的问题后，node 和 webkit 的揉合还需要互相能访问。node-webkit 里面存在着两个 context，node context 和 webkit context，互相访问也就是 Context 能互通，访问各自的对象。所以在 node-webkit 初始化的时候，node context 会被注入到 WebKit 里面。之后，Webkit context 就可以访问到 node context 了。&lt;/p&gt;
-
-&lt;p&gt;同时，node-webkit 对 Webkit 的安全模型也做了一些修改。在 node-webkit 中，有两种不同的 frames，node frame 和 normal frame&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;。熟悉 Web 开发的朋友应该知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 &lt;a href="http://en.wikipedia.org/wiki/Same_origin_policy"&gt;Same-origin Policy&lt;/a&gt;。node-webkit 中的 normal frame，跟浏览器中的一样，仍然有这个限制。但是在 node frame 中，将不再有这个限制，所有的 node frame 中共享同一个 security token，包括 node context
-和 webkit context，跨域访问被允许，也就能访问到 node context 中的对象。所以作为应用开发者，对于不受信任的用户行为输入一定要做保护，防止因为这个造成一些破坏性行为，或者放入 normal frame 中。&lt;/p&gt;
-
-&lt;p&gt;&lt;aside class="aside"&gt;
-  &lt;img alt="Chromium Layers" src="http://yedingding.com/images/node-webkit-intro/chromium-layers.jpg?1406554637" /&gt;
-  &lt;small&gt;Chromium Conceptual Application Layers&lt;/small&gt;
-&lt;/aside&gt;&lt;/p&gt;
-
-&lt;p&gt;值得注意的是，尽管 Chrome 本身对于 HTML5 的支持已经比较完备了，但是有些特性是在浏览器层即上图的 Browser 实现，而 node-webkit 中 webkit 只到了 Content Layer 即上图的 WebContent，node-webkit 本身的实现等于浏览器层。所以，node-webkit 对于一些 HTML5 特性还缺乏支持，比如 Web Notification&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt;。不过，目前 Chromium 团队正在把这些 HTML5 特性的支持解耦移动到 Content Layer，这个对于 node-webkit 来说绝对是个非常好的消息。&lt;/p&gt;
-
-&lt;p&gt;如果你细心的看上图的话，你会发现浏览器层还有 UI 绘制部分。node-webkit 也是一样，实现了直接绘制原生 UI 控件的 API，比如菜单、系统托盘、剪贴板等。这部分实现，的确也是主要参考了 Chromium 的跨平台 UI 实现。&lt;/p&gt;
-
-&lt;p&gt;目前 node-webkit 的正式版是 0.10.0，基于 Node v0.11.13 和 Chromium 35.0.1916.113。node-webkit 的大版本更新策略是跟着 Chromium 的版本升级而升级，比如 0.10.0 中的 10。如果 node-webkit 本身有更新或者 node 版本有更新，对应升级的是第三个数字，也就是 0.10.0 中的最后一个 0。&lt;/p&gt;
-
-&lt;p&gt;如果你想了解最多 node-webkit 的信息，可以听听我们这期 &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour 节目&lt;/a&gt;。如果你想开发跨平台的桌面应用，那么官方的 &lt;a href="https://github.com/rogerwang/node-webkit/wiki"&gt;Wiki&lt;/a&gt; 绝对是个很好的开始。&lt;/p&gt;
-
-&lt;div class="footnotes"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id="fn1"&gt;
-&lt;p&gt;对于 node-webkit 的安全模型，具体可以参考 &lt;a href="https://github.com/rogerwang/node-webkit/wiki/Security"&gt;https://github.com/rogerwang/node-webkit/wiki/Security&lt;/a&gt;, 了解如何使用这两种不同的 Frame。&amp;nbsp;&lt;a href="#fnref1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li id="fn2"&gt;
-&lt;p&gt;目前已经有 &lt;a href="https://github.com/rogerwang/node-webkit/pull/1951"&gt;PR&lt;/a&gt; 实现了 Notification，相信不久会在 node-webkit 正式版中被支持。&amp;nbsp;&lt;a href="#fnref2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;/ol&gt;

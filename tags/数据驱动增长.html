@@ -30,18 +30,18 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691567">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691567">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691570">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691570">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1470691567">
-    <script src="/javascripts/all.js?1470691567"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691570">
+    <script src="/javascripts/all.js?1470691570"></script>
   </head>
-  <body class="tags tags_hackathon ">
+  <body class="tags tags_------ ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
@@ -63,7 +63,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1470691567" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691570" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -72,60 +72,50 @@
     </header>
     <section class="main">
       <div class="container">
-        <h2 class="tag-page-title">Articles tagged '<em>hackathon</em>'</h2>
+        <h2 class="tag-page-title">Articles tagged '<em>数据驱动增长</em>'</h2>
 
 <div id="posts">
     <article class="post">
       <header>
   <h2 class="title">
-    <a href="/2013/05/22/happy-hackathon.html">黑客马拉松 - 玩脱了就行！</a>
+    <a href="/2016/08/09/the-future-of-tagging.html">从埋点到「无埋点」，是过去和未来的差别</a>
   </h2>
   <div class="meta">
     <span class="dates">
-      <i class="fa fa-calendar-o"></i> <span class='date'>May 22, 2013</span>
+      <i class="fa fa-calendar-o"></i> <span class='date'>Aug 09, 2016</span>
     </span>
     <span class="tags">
       <i class="fa fa-tags"></i>
-        <a href="/tags/hackathon.html">hackathon</a>
-        <a href="/tags/hacking.html">hacking</a>
+        <a href="/tags/tag%E7%AE%A1%E7%90%86.html">tag管理</a>
+        <a href="/tags/%E6%95%B0%E6%8D%AE%E9%A9%B1%E5%8A%A8%E5%A2%9E%E9%95%BF.html">数据驱动增长</a>
     </span>
   </div>
 </header>
 
 <div class="content">
-  <aside class="aside">
-  ![Rails Rumbling](happy-hackathon/rumbling.jpg)
-</aside>
+  <p>自从 GrowingIO 去年发布无埋点方案以后，就获得外部很多的关注，一方面感觉到很神奇，只加了一段 SDK 就能实时地，全量地，自动地收到用户行为数据了，另一方面数据开始沉淀，这样业务人员就可以在任何时候都回溯，很多人在问这是怎么实现的。</p>
 
-<p>去年十月参加 <a href="http://railsrumble.com">Rails Rumble 2012</a>，做了一个 <a href="http://call4review.com">call4review.com</a>，虽然现在已经很少打理，但是偶尔用到几次也觉得挺有价值。这是第二次参加 Rails Rumble，2010 年和 <a href="http://lvguoning.com">Daniel</a>、<a href="http://terrytai.com">Terry</a>、<a href="#">David Pots</a> 做了个 IMGateway，2012 年和 <a href="http://beenhero.com">Ben</a>、<a href="http://terrytai.com">Terry</a> 做了这个 Call4Review，每每谈论起整个过程，个个眉飞目舞，意犹未尽的样子。其实就两个字，好玩！Just for fun，这不正是黑客精神的很好诠释嘛。</p>
+<p>的确，这里面有很多我们称之为黑科技的东西在里面，有在运行时的操作，也有在编译期做修改的，同时又要求能站在用户行为分析的角度去思考 SDK 的应用场景和数据逻辑，对于 SDK 开发团队来说有非常高的要求。</p>
 
-<blockquote>
-  <p>当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。<cite>— <a href="//lvguoning.com">Daniel</a></cite></p>
-</blockquote>
+<p>无<a href="https://blog.growingio.com/posts/monitorting-points-pain">埋点采集技术</a>原理说起来很简单，主要是基于树形结构和事件驱动模型，有兴趣的可以看看我之前写的一篇文章：无需埋点的数据分析原理 <a href="https://blog.growingio.com/posts/esoterica_2">https://blog.growingio.com/posts/esoterica_2</a> 。</p>
 
-<blockquote>
-  <p>犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣… <cite>— <a href="//terrytai.com">Terry</a></cite></p>
-</blockquote>
+<p>就我所知，类似的无埋点方案，阿里做过，百度做过，腾讯也做过。之前就有阿里杭州的小伙伴们专门来北京跟我们做这一块的技术交流，都是非常优秀的小伙伴。但是只有当你真正去尝试解决并且产品化的时候，你才会发现这想起来简单的事情做起来是多么的困难，这里面的水有多深。没有什么比 Ninety-Ninety Rule 能更形象的表达这个事情了。</p>
 
-<blockquote>
-  <p>是一场极限'运动’, 在严格的限定时间里产出自己最大的效能, 很刺激很过瘾. <cite>— <a href="//beenhero.com">Ben</a></cite></p>
-</blockquote>
+<p><img src="https://assets.growingio.com/blog/storage/image/aea633123f8271db3fa4d69d289c5a3c.jpeg" alt="Ninety-Ninety Rule"></p>
 
-<p>相对惭愧的是，国内的黑客马拉松参加的少，只因为习惯了远程工作，对于这种限定场地的反而感觉到了不自在。上周跟<a href="http://segmentfault.com/u/sunny">高阳</a>聊起黑客马拉松，获得了一些有意思的信息，也知道他们最近正在搞 <a href="http://segmentfault.com/codejam-2013">CodeJam</a>。程序员大多都很宅，远程工作的就是死宅了… ❨╯°□°❩╯︵ ┻━┻  提供和限定场地可以让参加的团队能互相交流，思想碰撞，有一种跟线上比赛完全不一样的感官享受。</p>
+<p>今天，我想借这篇文章跟大家介绍一下我们是如何思考这个事情的。</p>
 
-<p>这里分享一下我们参加过几次 Rumble 的经验。</p>
+<p><strong>一、无埋点更适应当下的互联网公司</strong></p>
 
-<ol>
-<li>做最小化的东西，你只有 48 小时的开发时间，把功能砍到不能再砍。</li>
-<li>充分的准备，不要在比赛的时候去做选择方案的事。规则不允许提前开发，但是你应该对开发中遇到的所有技术难点都提前有尝试。</li>
-<li>一个好的协作工具。48 小时开发是非常高强度的，交流可以靠吼，进度控制管理必须靠工具，这样团队...</li>
-</ol>
+<p>当下的时代是一个大前端时代，Web、手机APP的使用时间越来越长，以前的应用程序，前端的代码量并不大，但是如今随着JavaScript的发展，移动端APP的飞速发展，同时大家使用手机APP和网站的时间越来越碎片化，很多行为不一定要提交到服务器，用户只是做了和前端的一些交互操作，很多关于用户体验的代码都在前端实现。比如在一个旅游网站上面，用户对起点和目的地的条件选择，对酒店的房型的选择，下拉菜单的内容点击，只要用户不提交这个请求，后端的服务器，就无法记录用户的这些行为。</p>
+
+<p>这也是...</p>
 
   <p>
     ......
   </p>
   <p>
-    <a href="/2013/05/22/happy-hackathon.html">Read more →</a>
+    <a href="/2016/08/09/the-future-of-tagging.html">Read more →</a>
   </p>
 </div>
     </article>

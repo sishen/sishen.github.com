@@ -12,8 +12,8 @@
       Do Great Things -  叶玎玎
     </title>
     <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
-    <meta name="description" content="Fengche.co 创始人、Teahour 主播。远程工作者，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
-    <meta name="keywords" content="项目管理,团队协作,创业,技术,系统架构">
+    <meta name="description" content="GrowingIO 联合创始人、Fengche.co 创始人、Teahour 主播，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="keywords" content="创业,技术,项目管理,团队协作,系统架构">
     <meta name="author" content="叶玎玎">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -30,16 +30,16 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691569">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691569">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css">
-    <script src="/javascripts/all.js"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691569">
+    <script src="/javascripts/all.js?1470691569"></script>
   </head>
   <body class="tags tags_database ">
       <div id="banner" style="height: 440px">
@@ -57,21 +57,18 @@
           <ul>
             <li><a href='/'>所有文章</a></li>
             <li><a href='/profile.html'>关于我</a></li>
-            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
             <li><a href="http://teahour.fm">Teahour</a></li>
           </ul>
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691569" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
-        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
-      <form class='search'>
-        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
-      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -97,9 +94,9 @@
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="Sever Database in Seven Weeks" src="/images/database-with-eric-redmond/database.jpg?1400134984">
-</aside></p>
+  <aside class="aside">
+  ![Sever Database in Seven Weeks](database-with-eric-redmond/database.jpg)
+</aside>
 
 <blockquote>
   目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
@@ -107,15 +104,15 @@
 
 <p>本期音频文本非常感谢<a href="http://weibo.com/wuyicun">@吴怡村</a>的整理。本文是 Teahour 第 18 期 <a href="http://teahour.fm/2013/06/03/databases-with-eric-redmond.html">『Interview with Eric Redmond about Database』</a> 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 <a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en">http://itunes.apple.com/cn/podcast/teahour.fm/id608387170</a>。Android 用户可以使用 <a href="http://m.coolapk.com/apk/de.danoeh.antennapod">AntennaPod</a> 来订阅。同时，欢迎加 Teahour 好友，<a href="http://weibo.com/teahourfm">微博</a>和 <a href="https://twitter.com/teahourfm">Twitter</a>。</p>
 
-<p><audio controls name="media">
+<audio controls name="media">
   <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_18.m4a" type="audio/mpeg">
-</source></audio></p>
+</source></audio>
 
 <h4>Part 1: Introduction and the CAP theorem</h4>
 
 <p><strong>Kevin</strong>: Welcome everybody! In this episode, we have <a href="http://coderoshi.com/">Eric Redmond</a> with us. I’m your host <a href="http://knwang.com/">Kevin</a> and we also have <a href="http://yedingding.com/">Dingding</a>. Eric, why don’t you introduce yourself first?</p>
 
-<p><strong>Eric</strong>: Sure, as you’ve mentioned, I’m Eric Redmond. I’m relevant to this episode. I co-authored a book with <a href="https://twitter.com/hexlib">Jim Wilson</a> called <a href="http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks">Seven Databases in Seven Weeks</a>. And the idea was that with all the changes that have been recurring in the database marketplace over the past few years, it was probably the...</p>
+<p><strong>Eric</strong>: Sure, as you’ve mentioned, I’m Eric Redmond. I’m relevant to this episode. I co-authored a book with <a href="https://twitter.com/hexlib">Jim Wilson</a> called <a href="http://pragprog.com/book/rwdata/seven-databases-in-seven-weeks">Seven Databases in Seven Weeks</a>. And the idea was that with all the changes that have been recurring...</p>
 
   <p>
     ......
@@ -132,7 +129,7 @@
 
 
         <footer class="copyright">
-          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
           <ul>
             <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -156,36 +153,6 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
-    </script>
-    <!-- tinysou plugin -->
-    <script>
-      $(function() {
-        var customRenderActFunction = function(item) {
-          var out = '<p class="title">' + item['document']['title'] + '</p>';
-          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
-          return out;
-        };
-        var option = {
-          engineKey: '26a1afe2b042da01d29f',
-          perPage: 5,
-          resultLimit: 5,
-          resultContainingElement: '#ts-results-container',
-          renderStyle: 'new_page',
-          resultPageURL: '/search.html',
-          renderActFunction: customRenderActFunction
-        };
-        (function(w,d,t,u,n,s,e){
-          s = d.createElement(t);
-          s.src = u;
-          s.async = 1;
-          w[n] = function(r){
-            w[n].opts = r;
-          };
-          e = d.getElementsByTagName(t)[0];
-          e.parentNode.insertBefore(s, e);
-        })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-        _ts(option);
-      })
     </script>
   </body>
 </html>

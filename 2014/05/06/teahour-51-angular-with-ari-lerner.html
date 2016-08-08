@@ -36,16 +36,16 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691564">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691564">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css">
-    <script src="/javascripts/all.js"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1470691564">
+    <script src="/javascripts/all.js?1470691564"></script>
   </head>
   <body class="x2014 x2014_05 x2014_05_06 x2014_05_06_teahour-51-angular-with-ari-lerner ">
       <div id="banner" style="height: 440px">
@@ -63,21 +63,18 @@
           <ul>
             <li><a href='/'>所有文章</a></li>
             <li><a href='/profile.html'>关于我</a></li>
-            <li><a href="https://fengcheco.com">风车</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
             <li><a href="http://teahour.fm">Teahour</a></li>
           </ul>
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1470691564" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
-        <a href="https://fengcheco.com" target="_blank">Fengche.co</a> 主程, <a href="http://teahour.fm">Teahour.fm</a> 主播
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
       </h2>
-      <form class='search'>
-        <input type='text' class='ts-search-input' id='ts-search-input' placeholder='Enter to Search' />
-      </form>
     </header>
     <section class="main">
       <div class="container">
@@ -103,9 +100,9 @@
 </header>
 
 <div class="content">
-  <p><aside class="aside">
-  <img alt="AngularJS" src="/images/teahour-51-angular-with-ari-lerner/AngularJS.png?1399900780" />
-</aside></p>
+  <aside class="aside">
+  ![AngularJS](teahour-51-angular-with-ari-lerner/AngularJS.png)
+</aside>
 
 <blockquote>
   目前 Teahour 的网站不适合放文本，需要重新设计，暂时先放我自己博客上。
@@ -113,13 +110,13 @@
 
 <p>本期音频文本非常感谢<a href="http://weibo.com/wuyicun">@吴怡村</a>的整理。本文是 Teahour 第 51 期 <a href="http://teahour.fm/2014/04/21/interview-with-ari-lerner.html">『Interview with Ari Lerner about AngularJS』</a> 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 <a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en">http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en</a>。Android 用户可以使用 <a href="http://m.coolapk.com/apk/de.danoeh.antennapod">AntennaPod</a> 来订阅。同时，欢迎加 Teahour 好友，<a href="http://weibo.com/teahourfm">微博</a>和 <a href="https://twitter.com/teahourfm">Twitter</a>。</p>
 
-<p><audio controls name="media">
+<audio controls name="media">
   <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_51.m4a" type="audio/mpeg">
-</audio></p>
+</audio>
 
 <h4>Part 1: AnguarJS talk</h4>
 
-<p><strong>Kevin</strong>: Hello everybody and welcome to Teahour. This is episode 51 and today we have <a title="Ari's Github" href="https://github.com/auser">Ari Lerner</a>. Hi Ari.</p>
+<p><strong>Kevin</strong>: Hello everybody and welcome to Teahour. This is episode 51 and today we have <a href="https://github.com/auser" title="Ari's Github">Ari Lerner</a>. Hi Ari.</p>
 
 <p><strong>Ari</strong>: I worked at <a href="http://www.att.com/">At&amp;T</a> for about five and a half years or so and at AT&amp;T I was originally hired to build their internal competitor to <a href="https://aws.amazon.com/ec2/">EC2</a>. I helped build their internal cloud and I built what was actually one of the first open-source clones of <a href="https://www.heroku.com/">Heroku</a> entirely in <a href="http://www.erlang.org/">Erlang</a> called <a href="https://github.com/auser/beehive">Beehive</a>. In my later time at AT&amp;T, I worked on their developer services. I helped build their single sign-on gateway. I helped contribute to their next-generation text messaging gateway. So all the stuff that I&rsquo;m referring to is all back-end services, really server-side heavy. So when I left AT&amp;T, I felt like I was ready to go. I left AT&amp;T with all this back-end experience and an idea for an application that I was writing kind of in nights and weekends at that time. And I wrote this beautiful calendaring system and I realized I had very little front-end skills, at least knowledge of front-end frameworks. I knew <a href="http://backbonejs.org/">Backbone</a> and I really did not like working with Backbone: writing so much code just to get simple things working. At that time, I thought there had to be a different way. So I started exploring different front-end libraries. I found <a href="http://knockoutjs.com/">Knockout</a>. I used Knockout for a little while and I found <a href="http://emberjs.com/">Ember</a>. This was Ember pre-1.0 days. And I found <a href="https://angularjs.org/">Angular</a> and Angular just felt right. Everything about writing Angular, even back then when it was quite young, I felt like it was onto the next generation of writing web applications. So I&rsquo;ve been working with Angular since February of 2013, just a year and a couple months.</p>
 
@@ -181,7 +178,7 @@
 
 <p><strong>Kevin</strong>: It&rsquo;s interesting you mentioned Ember because as far as I know when you build an Ember app the premise is you want to move all the logic to the front-end and leave your back-end as a pipe to the database. Is Angular the same way or is it less demanding in a way?</p>
 
-<p><strong>Ari</strong>: I have not built an Angular app that depends on a server-side rendering, all my Angular apps in production, both my apps and my clients&#39;. I used to contract Angular development are all deployed in <a href="https://aws.amazon.com/">AWS</a>, on <a href="http://aws.amazon.com/s3/">S3</a> so there is no server backing it. They are simple just files and those files load up and they talk to a back-end and that back-end is simply a pipe to a database or a couple of databases depending on the application. So that&rsquo;s the long answer. The short answer is yes, it has the exact premise if you want it.</p>
+<p><strong>Ari</strong>: I have not built an Angular app that depends on a server-side rendering, all my Angular apps in production, both my apps and my clients&rsquo;. I used to contract Angular development are all deployed in <a href="https://aws.amazon.com/">AWS</a>, on <a href="http://aws.amazon.com/s3/">S3</a> so there is no server backing it. They are simple just files and those files load up and they talk to a back-end and that back-end is simply a pipe to a database or a couple of databases depending on the application. So that&rsquo;s the long answer. The short answer is yes, it has the exact premise if you want it.</p>
 
 <p><strong>Kevin</strong>: I kind of feel that way already because I started just with coding Angular into a Rails application and I then kept asking myself: should I put it in the server-side or on the front-end and it&rsquo;s a lot of conflict. Maybe it&rsquo;s just way easier if I decided to move to the client-side and just leave the server to do very simple things.</p>
 
@@ -386,12 +383,12 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1399041455" />
+      <img src="/images/yedingding.png?1470691564" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
 
-      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://fengcheco.com?utm_content=about">Fengche.co</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
       <div class="social-action">
         <span class="rss">
@@ -448,7 +445,7 @@
 
 
         <footer class="copyright">
-          <p>&copy; 2014 叶玎玎(Dingding Ye)</p>
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
           <ul>
             <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
             <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -472,36 +469,6 @@
         var pageTracker = _gat._getTracker("UA-37202649-1");
         pageTracker._trackPageview();
       } catch(err) {}
-    </script>
-    <!-- tinysou plugin -->
-    <script>
-      $(function() {
-        var customRenderActFunction = function(item) {
-          var out = '<p class="title">' + item['document']['title'] + '</p>';
-          out = out.concat('<p class="url">' + item['document']['sections'][0] + '</p>');
-          return out;
-        };
-        var option = {
-          engineKey: '26a1afe2b042da01d29f',
-          perPage: 5,
-          resultLimit: 5,
-          resultContainingElement: '#ts-results-container',
-          renderStyle: 'new_page',
-          resultPageURL: '/search.html',
-          renderActFunction: customRenderActFunction
-        };
-        (function(w,d,t,u,n,s,e){
-          s = d.createElement(t);
-          s.src = u;
-          s.async = 1;
-          w[n] = function(r){
-            w[n].opts = r;
-          };
-          e = d.getElementsByTagName(t)[0];
-          e.parentNode.insertBefore(s, e);
-        })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
-        _ts(option);
-      })
     </script>
   </body>
 </html>
