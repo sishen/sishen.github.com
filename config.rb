@@ -36,9 +36,10 @@ page "feed.xml", :layout => false
 # require 'susy'
 
 # Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+::Compass.configuration do |compass|
+  # config.output_style = :compact
+  ::Sass.load_paths.concat(compass.sass_load_paths)
+end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -124,6 +125,6 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.deploy_method = :git
   deploy.branch = "master"
 end
