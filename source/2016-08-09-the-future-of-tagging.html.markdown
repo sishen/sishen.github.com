@@ -7,11 +7,11 @@ keywords: 无埋点, tagging, 用户行为分析, 数据分析, 增长黑客
 canonical: "https://blog.growingio.com/posts/esoterica_5"
 ---
 
-自从 GrowingIO 去年发布无埋点方案以后，就获得外部很多的关注，一方面感觉到很神奇，只加了一段 SDK 就能实时地，全量地，自动地收到用户行为数据了，另一方面数据开始沉淀，这样业务人员就可以在任何时候都回溯，很多人在问这是怎么实现的。
+自从 [GrowingIO](https://www.growingio.com) 去年发布无埋点方案以后，就获得外部很多的关注，一方面感觉到很神奇，只加了一段 SDK 就能实时地，全量地，自动地收到用户行为数据了，另一方面数据开始沉淀，这样业务人员就可以在任何时候都回溯，很多人在问这是怎么实现的。
 
 的确，这里面有很多我们称之为黑科技的东西在里面，有在运行时的操作，也有在编译期做修改的，同时又要求能站在用户行为分析的角度去思考 SDK 的应用场景和数据逻辑，对于 SDK 开发团队来说有非常高的要求。
 
-无[埋点采集技术](https://blog.growingio.com/posts/monitorting-points-pain)原理说起来很简单，主要是基于树形结构和事件驱动模型，有兴趣的可以看看我之前写的一篇文章：无需埋点的数据分析原理 [https://blog.growingio.com/posts/esoterica_2](https://blog.growingio.com/posts/esoterica_2) 。
+无[埋点采集技术](https://blog.growingio.com/posts/monitorting-points-pain)原理说起来很简单，主要是基于树形结构和事件驱动模型，有兴趣的可以看看我之前写的一篇文章：[无需埋点的数据分析原理](https://blog.growingio.com/posts/esoterica_2) 。
 
 就我所知，类似的无埋点方案，阿里做过，百度做过，腾讯也做过。之前就有阿里杭州的小伙伴们专门来北京跟我们做这一块的技术交流，都是非常优秀的小伙伴。但是只有当你真正去尝试解决并且产品化的时候，你才会发现这想起来简单的事情做起来是多么的困难，这里面的水有多深。没有什么比 Ninety-Ninety Rule 能更形象的表达这个事情了。
 
