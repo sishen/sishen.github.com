@@ -16,7 +16,7 @@ cover: "/images/deliver-better-product-i/cover-bg.jpg"
 
 一个产品的成功，也许需要天时地利人和[^1]，但是要做到不失败相对就容易的多了。我想分享一些我们做事的方式，希望能帮助到你。这里没有互联网思维，这里没有成功学，有的只是真正的工作实践心得，甚至有些也许都是很笨的，但是希望这些分享能给你带来一点点的启发，并且还能付诸于实践。
 
-<aside class=“aside”>
+<aside class="aside">
   ![Scrum Roles](deliver-better-product-i/KnibergRoles.jpg)
 </aside>
 
