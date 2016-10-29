@@ -93,9 +93,8 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-
-set :markdown_engine, :redcarpet
-set :markdown, fenced_code_blocks: true, autolink: true, smartypants: true, footnotes: true, strikethrough: true
+#set :markdown_engine, :redcarpet
+set :markdown, parse_block_html: true, fenced_code_blocks: true, autolink: true, smartypants: true, footnotes: true, strikethrough: true
 
 # Livereload
 # use: https://github.com/middleman/middleman-livereload
