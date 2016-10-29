@@ -30,28 +30,22 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691922">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691922">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1477722040">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1477722040">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1470691922">
-    <script src="/javascripts/all.js?1470691922"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1477722040">
+    <script src="/javascripts/all.js?1477722040"></script>
+    <script src="/javascripts/main.js?1477722040"></script>
   </head>
   <body class="tags tags_---- ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
-      <div id="subscribe-cta">
-        <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-          <label for="email">分享技术、创业、团队协作和项目管理上的思考</label>
-          <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-          <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-        </form>
-      </div>
       <div id="nav">
         <nav class="global-nav">
           <ul>
@@ -63,7 +57,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1470691922" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1477722040" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -94,14 +88,14 @@
 
 <div class="content">
   <aside class="aside">
-  ![WWDC 2014](write-the-code-change-the-world/WWDC14.png)
+  <p><img src="/images/write-the-code-change-the-world/WWDC14.png?1477722040" alt="WWDC 2014"></p>
 </aside>
 
 <p>“Write the Code. Change the world.”, 这个标题是苹果这个月的 WWDC 上的宣传语，看得我很激动，也相信每一个耐不住寂寞的开发者内心里都会有这样的冲动。最近一两年间，越来越多的人开始把编码能力跟读写能力做比较，呼吁每个人都应该去学习编程序，认为这是以后每个人都需要掌握的基础技能。与之同时，黑客马拉松在国内也迅速的火起来，参加过几次，跟一群年轻人聚集在一起，交流想法并付诸于实践，在一个周末完成一个作品，每每想起都是段非常愉悦的经历。</p>
 
-<p>六一应 <a href="http://segmentfault.com">SegmentFault</a><sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup> 高阳邀请，在其两周年黑客马拉松活动中作为技术创业者的代表，做一个分享。虽然作为创业者分享经验很不够格，不过这两年做风车下来也的确有一些想法，另外通过 <a href="http://teahour.fm">Teahour</a> 从不少创业者那里学到了很多，所以也就在活动上做了一次简短的即兴演讲，刚好跟 『Write the Code. Change the world』有点关联。</p>
+<p>六一应 <a href="http://segmentfault.com">SegmentFault</a><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> 高阳邀请，在其两周年黑客马拉松活动中作为技术创业者的代表，做一个分享。虽然作为创业者分享经验很不够格，不过这两年做风车下来也的确有一些想法，另外通过 <a href="http://teahour.fm">Teahour</a> 从不少创业者那里学到了很多，所以也就在活动上做了一次简短的即兴演讲，刚好跟 『Write the Code. Change the world』有点关联。</p>
 
-<p>SegmentFault 的使命是『创造属于开发者的时代』，我个人很喜欢这个远景，很美好。作为开发者，处在现在这个时代，我们是幸运的。我记得我 06 年的时候第一次跟朋友创业做互联网产品，当时什么东西都要自己去管，比如要自己买服务器、找 IDC 托管、产品开发中如果需要用什么服务都要自己做，真的是很讨厌，既浪费时间又浪费精力。而现在呢，相比较起来我们去制作一个产品的成本已经很低了，一个团队，三个月时间迅速开发原型，云主机用 UCloud 之类，文件存储用又拍云，发邮件用 SendCloud，还有各种开放平台等等。所以，作为一个开发者，作为一个会写代码的人<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>，我们有个很大的优势，就是就算整个世界抛弃了你，你还是能一个人去把产品开发出来，启动成本很低。</p>
+<p>SegmentFault 的使命是『创造属于开发者的时代』，我个人很喜欢这个远景，很美好。作为开发者，处在现在这个时代，我们是幸运的。我记得我 06 年的时候第一次跟朋友创业做互联网产品，当时什么东西都要自己去管，比如要自己买服务器、找 IDC 托管、产品开发中如果需要用什么服务都要自己做，真的是很讨厌，既浪费时间又浪费精力。而现在呢，相比较起来我们去制作一个产品的成本已经很低了，一个团队，三个月时间迅速开发原型，云主机用 UCloud 之类，文件存储用又拍云，发邮件用 SendCloud，还有各种开放平台等等。所以，作为一个开发者，作为一个会写代码的人<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>，我们有个很大的优势，就是就算整个世界抛弃了你，你还是能一个人去把产品开发出来，启动成本很低。</p>
 
 
   <p>

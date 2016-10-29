@@ -35,28 +35,22 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691914">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691914">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1477722034">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1477722034">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1470691914">
-    <script src="/javascripts/all.js?1470691914"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1477722034">
+    <script src="/javascripts/all.js?1477722034"></script>
+    <script src="/javascripts/main.js?1477722034"></script>
   </head>
   <body class="x2014 x2014_10 x2014_10_22 x2014_10_22_rcc2014-dafeng ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
-      <div id="subscribe-cta">
-        <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-          <label for="email">分享技术、创业、团队协作和项目管理上的思考</label>
-          <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-          <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-        </form>
-      </div>
       <div id="nav">
         <nav class="global-nav">
           <ul>
@@ -68,7 +62,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1470691914" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1477722034" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -98,12 +92,12 @@
 </header>
 
 <div class="content">
-  <p><img src="/images/rcc2014-dafeng/data-measure.jpg?1470691914" alt="Data Measure" /></p>
+  <p><img src="/images/rcc2014-dafeng/data-measure.jpg?1477722034" alt="Data Measure" /></p>
 
 <p>本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 <a href="http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html">http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html</a>。</p>
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg">
+<audio controls="" name="media">
+  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg" />
 </audio>
 
 <p><strong>Dingding</strong>：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。</p>
@@ -114,7 +108,7 @@
 
 <p><strong>达峰</strong>：大家好，我是郭达峰，是第一家进入 YC 孵化器的华人团队 Strikingly 的联合创始人。在 Strikingly 主要负责技术这一块。我从14岁开始编程，创建 Strikingly 之前我也写过几款超过 2000 万用户的 Facebook 应用。</p>
 
-<p><strong>Dingding</strong>：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I&rsquo;ve shipped the Code. What&rsquo;s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？</p>
+<p><strong>Dingding</strong>：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I’ve shipped the Code. What’s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？</p>
 
 <p><strong>达峰</strong>：好的好的。要讲一下这个内容是什么，可能要先讲一下选这个题目的原因。我相信这次大会上有很多团队都是在创业，或者在创业团队工作的人。作为创业团队为什么选 Ruby ，就是因为 Ruby 可以快速开发，这一点对创业公司非常重要。</p>
 
@@ -126,7 +120,7 @@
 
 <p><strong>Dingding</strong>：其实改善产品在我看来有很多种方向，那你在这支大会上是从哪个角度改善产品的？</p>
 
-<p><strong>达峰</strong>：我着重去做的就是怎么样把产品做到 Make something people want! 我用一个框架讲这个内容：如果你不去测量的话，你不确定产品有没有在改进（<strong>You can&rsquo;t improve if you don&rsquo;t measure</strong>）。如果你不去测量一个新功能对产品的影响，你没有办法有力的说明产品在改善。我讲的内容会通过数据分为三步：</p>
+<p><strong>达峰</strong>：我着重去做的就是怎么样把产品做到 Make something people want! 我用一个框架讲这个内容：如果你不去测量的话，你不确定产品有没有在改进（<strong>You can’t improve if you don’t measure</strong>）。如果你不去测量一个新功能对产品的影响，你没有办法有力的说明产品在改善。我讲的内容会通过数据分为三步：</p>
 
 <p>1、一开始上线，创业初级的时候，你没有数据的时候，你应该用什么方式去改善产品；
 2、有一些数据时，应该怎么做；
@@ -193,16 +187,16 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1470691914" alt="Yedingding" />
+      <img src="/images/yedingding.png?1477722034" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
 
-      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 联合创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
       <div class="social-action">
         <span class="rss">
-          <i class="fa fa-rss"></i> <a href="#subscribe">订阅博客</a>
+          <i class="fa fa-rss"></i> <a href="/feed.xml">订阅博客</a>
         </span>
         <span class="weibo">
           <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
@@ -210,17 +204,11 @@
         <span class="twitter">
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">加 Twitter 好友</a>
         </span>
-
-        <div class="subscribe-form">
-          <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-            <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-            <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-          </form>
-        </div>
       </div>
     </div>
   </div>
 </div>
+
 
   </article>
 

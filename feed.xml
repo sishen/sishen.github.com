@@ -5,10 +5,266 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2016-08-09T00:00:00+08:00</updated>
+  <updated>2016-10-19T23:00:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>增长黑客：如何用数据来驱动产品增长</title>
+    <link rel="alternate" href="/2016/10/19/out-product-death-cycle.html"/>
+    <id>/2016/10/19/out-product-death-cycle.html</id>
+    <published>2016-10-19T23:00:00+08:00</published>
+    <updated>2016-10-19T23:00:00+08:00</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;blockquote&gt;
+  &lt;p&gt;这是我在 2016 年 9 月 24 日 &lt;a href="https://www.teambition.com"&gt;Teambition&lt;/a&gt; 主办的“增长黑客”在中国的演讲稿。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;下载 GrowingIO 互联网公司用户增长秘籍可以&lt;a href="https://blog.growingio.com/posts/hu-lian-wang-chuang-ye-gong-si-yong-hu-zeng-zhang-shi-zhan-mi-ji"&gt;点击这里&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;大家好，我是叶玎玎，&lt;a href="https://www.growingio.com?utm_source=yedingding"&gt;GrowingIO&lt;/a&gt; 的联合创始人和 CTO。今天的主题与“增长黑客”相关，增长离不开分析工具。在过去五年的创业过程中，我使用过很多数据分析工具，经历了无数的痛苦和郁闷之后，我在 14 年底和 Simon、Jonathan 选择一起来解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.growingio.com?utm_source=yedingding"&gt;GrowingIO&lt;/a&gt; 是面向网站和移动应用的新一代数据分析产品，无需埋点即可采集全量、实时用户行为数据，我们希望通过提供一个简单、迅速和规模化的产品，让企业里面的每个人都能用数据去驱动业务增长。用 GrowingIO，即使你不会写代码，你也能成为增长黑客。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="/images/out-product-death-cycle/slack-growth-line.png" alt="Slack Growth Cycle"&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;今天我要分享的主题是『如何用数据来驱动产品增长』。前几天我在问一些朋友想听什么，回答说如何用数据寻找到增长突破口，跨越鸿沟。这张图是 Slack 从上线到 15 年底的每日日活增长曲线，是我们每个产品都很期待的曲线，其背后离不开指标体系的数据支撑。当我们遇到一个瓶颈期，如何从数据中发现该去做什么，如何去做，是目前这个环境给产品经理给市场运营提出的新的要求，也是一个新的岗位『产品增长经理』。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="/images/out-product-death-cycle/growth-role.png" alt="Growth Role"&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;刚才范冰介绍了增长黑客在国内这两年的发展情况，非常精彩。俊元之后也会讲一个如何构建一个增长团队的主题，里面有个非常有意思的问题是，增长团队到底是属于哪个部门？是市场，产品，还是研发？我们也在思考这个问题，等下可以让俊元给大家分享一下他们是怎么做的。之所以有这个问题存在，正好是因为增长黑客的特殊性。有人说这就是变种的市场。是，因为他关心的是用户、品牌和传播。有人说他制造了很多需求，参与了很多产品定义，是属于产品。也有人说他的工作很大一部分是跟数据打交道，采集、ETL、...&lt;/p&gt;</summary>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;这是我在 2016 年 9 月 24 日 &lt;a href="https://www.teambition.com"&gt;Teambition&lt;/a&gt; 主办的“增长黑客”在中国的演讲稿。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;下载 GrowingIO 互联网公司用户增长秘籍可以&lt;a href="https://blog.growingio.com/posts/hu-lian-wang-chuang-ye-gong-si-yong-hu-zeng-zhang-shi-zhan-mi-ji"&gt;点击这里&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;大家好，我是叶玎玎，&lt;a href="https://www.growingio.com?utm_source=yedingding"&gt;GrowingIO&lt;/a&gt; 的联合创始人和 CTO。今天的主题与“增长黑客”相关，增长离不开分析工具。在过去五年的创业过程中，我使用过很多数据分析工具，经历了无数的痛苦和郁闷之后，我在 14 年底和 Simon、Jonathan 选择一起来解决这个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.growingio.com?utm_source=yedingding"&gt;GrowingIO&lt;/a&gt; 是面向网站和移动应用的新一代数据分析产品，无需埋点即可采集全量、实时用户行为数据，我们希望通过提供一个简单、迅速和规模化的产品，让企业里面的每个人都能用数据去驱动业务增长。用 GrowingIO，即使你不会写代码，你也能成为增长黑客。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/slack-growth-line.png" alt="Slack Growth Cycle" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;今天我要分享的主题是『如何用数据来驱动产品增长』。前几天我在问一些朋友想听什么，回答说如何用数据寻找到增长突破口，跨越鸿沟。这张图是 Slack 从上线到 15 年底的每日日活增长曲线，是我们每个产品都很期待的曲线，其背后离不开指标体系的数据支撑。当我们遇到一个瓶颈期，如何从数据中发现该去做什么，如何去做，是目前这个环境给产品经理给市场运营提出的新的要求，也是一个新的岗位『产品增长经理』。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/growth-role.png" alt="Growth Role" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;刚才范冰介绍了增长黑客在国内这两年的发展情况，非常精彩。俊元之后也会讲一个如何构建一个增长团队的主题，里面有个非常有意思的问题是，增长团队到底是属于哪个部门？是市场，产品，还是研发？我们也在思考这个问题，等下可以让俊元给大家分享一下他们是怎么做的。之所以有这个问题存在，正好是因为增长黑客的特殊性。有人说这就是变种的市场。是，因为他关心的是用户、品牌和传播。有人说他制造了很多需求，参与了很多产品定义，是属于产品。也有人说他的工作很大一部分是跟数据打交道，采集、ETL、跑 SQL，比如我这样的，属于研发。都对，所以他是属于三者的结合，是用数据驱动的方式来传播和改进产品。今天我来跟大家分享一下我们这方面的实战经验。&lt;/p&gt;
+
+&lt;h3 id="section"&gt;也许不是增长停止，而是陷入产品死亡循环&lt;/h3&gt;
+
+&lt;p&gt;不知道在座有多少人听过这个名词，Product Death Cycle。如果你每天感觉到增长停滞不前，很多时候可能并不仅仅是停滞不前，往往情况要比你想的要糟的多，你很有可能陷入了产品死亡陷阱。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/product-death-cycle.png" alt="Product Death Cycle" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;不知道大家对这幅图有没有什么感觉，我曾感同身受，陷入进过这种死循环。没人在用我的产品，做用户访谈询问缺失了哪些功能，客户会告知很多想要的东西，我们会如获至宝，开发这些功能，然后满怀激情地又上线了。但是发现还是没有人用，继续问客户、加功能、上线、没人用，一直循环。我们总有那些幻觉，不知道哪里来的强大的自信，我在做的这个功能一定会让用户开始使用这个产品。我们都知道做产品要克制，要多做减法，少做加法，然而真正执行起来就会发现无比的困难。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/feature-usage.png" alt="Feature Usage" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;现在让我们想想我们各自的产品有多少功能，条件反射下你能说出多少功能，比如 GrowingIO 有圈选、单图、看板、留存、漏斗、细查、分群、热图、实时、概览等等。我们可以做无数的功能，公司里大家讨论的热火朝天，研发们键盘敲的霹雳啪响，做功能的感觉真的很爽。然而，Standish Group，美国专门从事跟踪IT项目成功或失败的权威机构，曾做过一个大型的 IT 项目研究，发现大多数的产品里，50% 的功能基本没被使用过，30% 的很少被使用，只有 20% 的经常被使用。所以，比起堆积功能而言，我们更需要思考的是『为什么』，为什么用户不用？&lt;/p&gt;
+
+&lt;p&gt;要知道这为什么，我们可能首先想到的是可以去做用户访谈，市场调研，调查问卷等等，这些都是证之有效的方式。然而，我们往往忽略掉，大量的事实其实已经隐藏在用户给你留下的行为数据背后，只要你稍微往下挖深一点点就都是宝藏。人会说谎，数据不会，如何利用数据去发现事实、找出真相、破解困局，正是我们需要持续学习和锻炼的能力。&lt;/p&gt;
+
+&lt;p&gt;为了挖掘为什么，首先我们得了解事物发展的基本规则。&lt;/p&gt;
+
+&lt;h3 id="section-1"&gt;用户的生命周期&lt;/h3&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/user-stage.png" alt="User Stage" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;上面这张图是一个标准的用户生命周期转化图。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;用户落地到网站或者安装应用后打开，是属于访问用户。&lt;/li&gt;
+  &lt;li&gt;当他被产品的价值吸引后完成注册，就转化成为一个注册用户。&lt;/li&gt;
+  &lt;li&gt;当他体会到产品的价值开始正式使用，就成为一个激活用户。&lt;/li&gt;
+  &lt;li&gt;当他开始频繁使用，就成为了一个活跃用户。&lt;/li&gt;
+  &lt;li&gt;当他更深入使用时，转化成了付费用户&lt;/li&gt;
+  &lt;li&gt;再之后越用越有劲开始推荐给其他人就成为了一个粉丝。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;从上往下，这是一个从访问到粉丝的漏斗，每一步都代表着 AARRR 的一个模型。从访问到注册是用户获取，从注册到价值认同是用户激活，从价值认同到频繁使用是用户留存，从用户留存到购买付费是客户转化，从付费用户到粉丝是用户推荐。需要特别指出的是，对于不同的应用，各个阶段会有不同的表现形式。比如对我们 GrowingIO 来说，我们是需要用户安装 SDK 的，需要用户上传数据给我们，给他做各种数据的呈现。所以我们的用户获取定义并不以到注册为结束，而是到 SDK 安装完成为止。&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/churn-stage.png" alt="Churn Stage" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;还是这张图，如果我们换个角度，每个步骤都在流失用户，每一次的流失，都是一个从访问到放弃的漏斗模型。每一个步骤都在漏水，一乘机就会让你感觉无比的恐怖和痛苦。比起转化，如果我们去关心流失，相信我，结果会让人感觉到触目惊心。&lt;/p&gt;
+
+&lt;aside&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/retention-curve.png" alt="Retention Curve" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;这是典型的一个互联网产品在用户注册的第一个月的留存窘况，是一个非常悲伤的故事。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1000 个用户访问了你的网站&lt;/li&gt;
+  &lt;li&gt;20% 的用户也就是 200 个注册了&lt;/li&gt;
+  &lt;li&gt;80% 的注册用户完成了 Onboarding，也就是 160 个&lt;/li&gt;
+  &lt;li&gt;40% 的注册用户在一天后回访了应用或者网站&lt;/li&gt;
+  &lt;li&gt;20% 的注册用户在一周后回访了应用或者网站&lt;/li&gt;
+  &lt;li&gt;10% 的注册用户在一个月后回访了应用或者网站&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一个月后，1000 个访问用户只剩下了 20 个成为你的活跃用户，只有 2%，而 98% 的用户却都流失了。即使是转化后的 200 个注册用户中，也只有 10% 的用户在一个月后还留着。这就是大多数产品的一个残酷事实，而对比起来，那些头部的应用，往往能在用户刚进入的第一周能达到百分之五六十的留存，&lt;/p&gt;
+
+&lt;p&gt;我不知道在座的各位自家的产品这个数字如何，每年又有多少的预算在市场上。我们有些客户，每年有上百万的预算在 SEM （Search Engine Marketing，搜索引擎营销） 上，在广告投放上，在渠道上，在办各种活动上，做的很热闹，预算也逐年在增长，但是根本不敢停。为啥？因为一旦停止，流量就哗的下去了。流量保持住了，至于 CAC （Customer Acquisition Cost，用户获取成本） 是多少，LTV （Life Time Value，生命周期价值） 是多少，MRR/ARR （Monthly Recurring Revenue/Annual Recurring Revenue，每年循环收入） 是多少，完全蒙蔽的状态。&lt;/p&gt;
+
+&lt;p&gt;如果说每个月倒流进来的用户只有 2% 的留存，那么与其花费大量的成本去打开更大的口子寻找更多的流量导入，我们更需要也更应该关心的是如何让访客尽可能的转化成有效用户。这个转化率的提高，需要我们去理解很多为什么。为什么用户留下了，为什么用户流失了，留下的和流失的用户之间有什么差别，没有转化的用户去了哪里，通过挖掘用户行为去了解其背后的真正原因。&lt;/p&gt;
+
+&lt;p&gt;只有这样，你的 PR 工作，你的市场运营活动，才有意义。&lt;/p&gt;
+
+&lt;h3 id="what---how---why"&gt;What -&amp;gt; How -&amp;gt; Why&lt;/h3&gt;
+
+&lt;p&gt;而要理解这个为什么，首先要去了解用户做了什么，是怎么做的。从中明白为什么后，去执行改进。之后又是循环迭代。&lt;/p&gt;
+
+&lt;p&gt;我们可以采取庖丁解牛的方式，从两个方面去入手查看这个问题，从宏观了解到细节。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;哪些功能被用户频繁的使用&lt;/li&gt;
+  &lt;li&gt;哪些功能能影响用户的留存&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我们先去发现 『What』，也就是用户做了什么。下面我以 GrowingIO 本身为例来解释如何来做。&lt;/p&gt;
+
+&lt;h4 id="section-2"&gt;哪些功能被频繁使用?&lt;/h4&gt;
+
+&lt;p&gt;我的产品有很多功能，到底哪些功能在被用户频繁使用呢？前面已经提到过，80% 的产品功能大多数人都没有使用过，那么如何找到这 80% 和另外的 20% 呢。先从宏观角度入手，我们先通过可视化圈选定义出来我们产品的主要功能，有十来个，在粗粒度上我们对应每个功能页面的访问量，然后得到一张单图，查看这十来个指标在时间线上的用户使用趋势分布图。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/feature-wall.png" alt="Feature Wall" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;这张图是一个堆积图，其中 x 轴是时间，y 轴是页面访问量。堆积图非常适合用来查看数据在时间维度上的差异变化。我们能很明显的感觉到用户主要在使用哪些功能，哪些功能的使用热度在提升，其中，蓝色、灰色和暗红色都是主要的流量贡献者。另外一个角度去看，我们在整个过程中新加的功能，可以看出有些对于流量的贡献是比较低的，这也说明新功能对于用户来说不是一个必须有的功能。&lt;/p&gt;
+
+&lt;h4 id="section-3"&gt;哪些功能影响用户的留存?&lt;/h4&gt;
+
+&lt;p&gt;了解功能使用情况后，我们已经有大致的感觉用户每天在用什么。那么我们需要接下去了解的是哪些功能能留住新用户，让用户有更多的粘度来使用产品，也就是留存情况。我们听过很多关于魔法数字的故事，比如&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LinkedIn 发现在第一周增加 5 个社交关系的用户留存度很高&lt;/li&gt;
+  &lt;li&gt;Facebook 发现在第一周增加 10 个好友的用户留存度很高&lt;/li&gt;
+  &lt;li&gt;Twitter 发现在第一周有 30 个 followers 的用户留存度很高&lt;/li&gt;
+  &lt;li&gt;Dropbox 发现在第一周安装两个以上操作系统的用户留存度很高&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些都是别人家的孩子，那么我们自己产品的魔法数字是啥呢？&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/retention-wall.png" alt="Retention Wall" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;首先让我们从宏观上来了解一下产品各功能的留存情况。该图是我们的功能留存对比图。最底下的是所有新注册的留存情况，也是最糟糕的一条。上面都是使用过一些功能的留存情况，近似等于经历过 Onboarding 流程的用户。很明显的可以看到，有一个非常高的点，也有两个略高于其他功能的功能。 我们就应该思考，为什么这些用户使用了这个功能以后，整个留存就上来了？ 这样，我们大致就有了感觉到底哪些功能能吸引用户回访。&lt;/p&gt;
+
+&lt;p&gt;有了这个大致的认知基础，下面就是魔法数字登场的时候了。这是我们新开发的一个功能，叫做&lt;a href="https://blog.growingio.com/posts/sjfx_34"&gt;留存魔法师&lt;/a&gt;，基于用户全量采集数据进行数据分析，帮你自动找到你产品的魔法数字，让你知道哪些功能跟你的次周留存最相关。同时，你也可以查看上面提到的这些基础功能，看一下魔法数字是多少。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/magic-number.gif" alt="Magic Number" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;比如我们有一个细查功能，七天之内用过 3 次细查功能的用户留存率达到 40% 以上，用过 10 次细查功能的用户留存率达到 60% 以上。用的次数越多，留存率越高，因为代表是一个黏度用户，所以我们并不需要追求留存率最高点，我们需要了解的是，超过某个数字以后，在留存率情况下会突然有个显著的变化。因此，我们关心超过三次用户或者超过两次用户有多少量，超过十次用户有多少量，通过用户量和留存两个对比。当然背后是非常复杂的数据统计模型，通过这种方式，我们就可以知道，到底不同的功能做了多少次以后，就可以产生一些质的变化。这是一个例子，当你使用我们这个功能以后，不用自己做就可以直接得到结论。&lt;/p&gt;
+
+&lt;h3 id="how"&gt;How&lt;/h3&gt;
+
+&lt;p&gt;一旦当你知道用户在做什么的时候，你会知道哪些功能会影响到用户留存，这样能提高你的激活转化率。下面我们思考，做过这些行为和没有做过这些行为的人，到底是怎么做的，也就是要对用户群体做数据分析。&lt;/p&gt;
+
+&lt;p&gt;前些天跟产品经理聊天时，他问了我一个问题：&lt;/p&gt;
+
+&lt;p&gt;像优步这样的产品，用户进来第一天，给他发红包，促进使用。第三天，为了促进消费，再发一个红包。第五天，又会发一个红包。他想知道，对于那些第一天领了红包，第三天、第五天没有领红包和第三天、第五天领了红包和全都没领的人，在用户留存变化上是什么样的情况？&lt;/p&gt;
+
+&lt;p&gt;这三个情况就是分群对比。我们需要知道这三个群体在应用里是怎么做的，做了哪些，没有做哪些。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/segmentation.png" alt="User Segmentation" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;我们会建一个用户分群，可以通过维度切分。比如，今天关心市场投放，这次活动带来多少访问量，维度选择页面来源，再跟指标做结合。第一个分群是第一天领了红包第三天第五天没有领红包的，也就是第一天领红包的按纽点击次数大于零，第三天等于零，第五天等于零。第二个分群是第一天第三天领了红包第五天没有领红包的，也就是第一天第三天领红包的按钮点击次数大于零，第五天等于零。第三个分群是第一天第三天第五天都领了红包的，也就是第一天第三天第五天领红包的按钮点击次数斗大于零。通过这个方式，定义了三个用户分群。一旦定了用户分群，有两件事情可以做：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;比较不同用户群体之间到底有什么相似性，有什么差异性？&lt;/p&gt;
+
+    &lt;p&gt;这是我们目前正在开发的功能，让你找到两个群体之间最大的差别在哪里；&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;当我们宏观上了解不同群体之间的差别，可以再从明细上考虑各个群体里具体的人到底在做什么，怎么做。&lt;/p&gt;
+
+    &lt;p&gt;对于我们来说，每天的注册量可能只有几百个，这个时候会每一个都看一下，每个注册用户按照不同的分群切分，在整个流程中到底做了哪些事情，是怎么做的。我们会有整体的用户细查功能，一旦开始明确用户在整个产品里用什么，之后开始对症下药，找出潜在的问题。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/user-insight.png" alt="User Insights" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;接着我开始一步步去查看这个分群的用户，他是怎么在使用我们的产品的。我们可以去走调研问用户他是怎么使用的，但是没有什么比冷冰冰的直接观察用户做的行为来的更有价值。通过这个用户行为的历史查看，我们可以看到用户在注册的一段时间内做了哪些，没做哪些，使用过哪些功能，有没有被卡在一些步骤上等等。比如针对上面创建的分群，我在一个一个的查看这些用户到底在 Onboarding 过程中做了哪些事情，没有去使用细查功能，是去使用了什么。&lt;/p&gt;
+
+&lt;p&gt;自此，我们开始明白用户对于产品的参与度，知道了用户在做什么，怎么做的，我们可以回过头来思考用户为什么留下，为什么离开了。想清楚了为啥，我们就可以对症下药，思考怎么推粘度最高的功能到用户面前，在什么时候推到他面前，如何让用户最快速度的了解到产品的真正价值。当开发完成上线，我们继续跟踪这个变化带来的效果，持续迭代优化。&lt;/p&gt;
+
+&lt;p&gt;知道了 What，发现了 How，思考了 Why，那么我们就应该去改进产品了。我们一定要去思考：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;能做什么？&lt;/li&gt;
+  &lt;li&gt;要去怎么改进？&lt;/li&gt;
+  &lt;li&gt;让研发做什么？&lt;/li&gt;
+  &lt;li&gt;让产品做什么？&lt;/li&gt;
+  &lt;li&gt;让市场做什么？&lt;/li&gt;
+  &lt;li&gt;让销售做什么？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/action-result.png" alt="Take Action" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;每一步都要去想，有什么事情是可以做的。比如，在整个用户的激活过程中，我们已经知道用户在我们的产品里主要使用哪些功能，我们也知道哪些功能会影响到用户的留存，我们开始构建整个用户的标签体系。一个用户，默认新进来是注册用户，基于他的行为，每使用一个功能，就会标记一个标签，构建不同的画像，然后基于这些画像特征推送不同的内容来促进他的转化。比如上图的结果，是我们选了一批测试用户，基于他们不同的行为，推送了功能案例和功能介绍，导流到高价值功能上，让他能更有兴趣来了解和更容易的上手。最后用户的留存率，从不到 25% 提升到 50%，足足提升两倍。&lt;/p&gt;
+
+&lt;h4 id="what-will-i-do-differently-based-on-the-information"&gt;What will I do differently based on the information&lt;/h4&gt;
+
+&lt;p&gt;当你知道数据有问题的时候，不能只是知道，你要去思考我要怎么执行，怎么做事情，怎么跟踪这个效果。只有这样，我们才能持续地优化。数据对我们来说有两个作用，证明和预测。知史以明镜，知道过去发生的，方能预测未来要发生的。然而，如果仅仅是用来知道过去发生的，但是不转化成为行动，那这个数据不会带来任何价值。我们见过很多人，只是用分析工具来看各种数，却很少去思考如何去改变，很少去用『Why』。看到一个数据报告后，我应该改变什么，我应该怎么去改变，问自己 5 遍这个问题，也许你就能发现不同的视角，明白该去做什么，这才是数据驱动。&lt;/p&gt;
+
+&lt;p&gt;我们从 8 月份开始尝试这些东西，可以很明显的看到，我们选的测试用户群体的留存率得到了很强的提升，我们在下个阶段就会继续强化用户上手培训体系，就算人离开我也得让他离开的很明白。&lt;/p&gt;
+
+&lt;p&gt;另外，同一时间，不要让太多的信息作为输入影响你的决策，在固定的一段时间内，聚焦做一件事情是最高效的方式。仍然回到最开始的漏斗模型，每一步我们都需要有明确的转化率，以此来决定在接下来的阶段哪个步骤的转化率最值得提高，最符合 ROI。一旦明确后，继续细化，定义出更细节的转化漏斗，以此来决定要优化哪些细节。&lt;/p&gt;
+
+&lt;p&gt;比如，如果这个阶段我关注的是用户获取，从访问到 SDK 安装完成，我们就开始拆解整个流程包含哪些步骤，把它分为三大流程：访问进来、用户注册、安装完成。在这三个步骤里，到底哪一个用户流失率最高，提高注册转化率还是安装转化率，从中分析哪个更有价值。&lt;/p&gt;
+
+&lt;p&gt;比如如果定下来改进注册转化率的话，我们就要思考注册经过了多少步骤？可能有三四个页面，每一步的转化率怎么样？明确每一步的转化率之后，又得到一个更小的漏斗，从这个漏斗里知道哪一步的转化率更低，这个时候又开始做拆解，找到最低的转化率，再思考那一步做什么。&lt;/p&gt;
+
+&lt;p&gt;逐级拆解，越往下拆，越能知道下一步该做什么。只有这样，才能做到单点突破，才能一个阶段、一个目标快速执行，才能执行迭代、优化增长你的产品。&lt;/p&gt;
+
+&lt;p&gt;一段时间，一个目标。单点突破，快速执行。&lt;/p&gt;
+
+&lt;h3 id="growth-101"&gt;Growth 101&lt;/h3&gt;
+
+&lt;p&gt;谢谢大家，以上就是我今天的分享。简单点来说，任何产品的增长其实都是在回答两个问题，&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;我是谁&lt;/li&gt;
+  &lt;li&gt;卖给谁&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;不同的阶段，这两个问题的答案也不尽相同。GrowingIO 希望能帮助你们回答这两个问题，辅助你们更有目标的做事，快速增长。我们自己在使用 GrowingIO 过程中，主要是围绕渠道运营，渠道转化，产品运营，留存分析，内容运营等大块展开，成为公司运营的一个强有力支撑。希望他也能成为你们的强有力支撑，参加这场活动的各位，如果有兴趣的话，可以通过扫描这个二维码获取优惠码，体验一下我们的产品。谢谢大家。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/Growing-QR-Code.png" alt="GrowingIO QR Code" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+</content>
+  </entry>
   <entry>
     <title>从埋点到「无埋点」，是过去和未来的差别</title>
     <link rel="alternate" href="/2016/08/09/the-future-of-tagging.html"/>
@@ -115,11 +371,11 @@
     </author>
     <summary type="html">&lt;p&gt;本文是 Teahour 第 60 期 &lt;a href="http://teahour.fm/2014/08/07/machine-learning-with-ding-lei.html"&gt;『与丁磊聊机器学习和数据科学』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。&lt;/p&gt;
 
-&lt;audio controls name="media"&gt;
-  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg"&gt;
-&lt;/source&gt;&lt;/audio&gt;
+&lt;audio controls="" name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg"&gt;&lt;/source&gt;
+&lt;/audio&gt;
 
-&lt;h3&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
+&lt;h3 id="part-1---data-science-"&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：大家好，欢迎再一次来收听我们 Teahour.fm 的节目。今天是第60期，是由我- Kevin 和玎玎来主持。今天我们邀请来的嘉宾是丁磊。丁磊，你好！&lt;/p&gt;
 
@@ -134,11 +390,11 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：大数据，或者叫 Data...&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;本文是 Teahour 第 60 期 &lt;a href="http://teahour.fm/2014/08/07/machine-learning-with-ding-lei.html"&gt;『与丁磊聊机器学习和数据科学』&lt;/a&gt; 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170&lt;/a&gt;。Android 用户可以使用 &lt;a href="http://m.coolapk.com/apk/de.danoeh.antennapod"&gt;AntennaPod&lt;/a&gt; 来订阅。&lt;/p&gt;
 
-&lt;audio controls name="media"&gt;
-  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg"&gt;
+&lt;audio controls="" name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg" /&gt;
 &lt;/audio&gt;
 
-&lt;h3&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
+&lt;h3 id="part-1---data-science-"&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：大家好，欢迎再一次来收听我们 Teahour.fm 的节目。今天是第60期，是由我- Kevin 和玎玎来主持。今天我们邀请来的嘉宾是丁磊。丁磊，你好！&lt;/p&gt;
 
@@ -185,8 +441,12 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：大数据的应用大多数还是企业级的，即企业来建造一个应用的平台，在上面进行数据分析，进行大数据的优化。企业级的才有那么大的数据。如果要具体划分的话，整个生态系统分几类，&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;数据公司，专门做数据平台的，像现在比较火的 &lt;a href="https://databricks.com"&gt;Databricks&lt;/a&gt; 是做 Spark 的，提供 Spark 的平台，原来的 &lt;a href="http://www.cloudera.com"&gt;Cloudera&lt;/a&gt; 提供 Hadoop 。甚至包括一些做机器学习的人，他建立了一些公司，比如说 &lt;a href="http://graphlab.org"&gt;Graphlab&lt;/a&gt;，提供了一些基于图的机器学习的算法平台。这些是纯做平台的公司，不是在一个 Industry 的垂直领域。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;做具体的 Application 的公司。做 application 的公司，因为我个人背景的原因，我接触的大数据集中在广告电商这块。这些公司相对来说数量比较多，需要用到很多大数据的应用。所以你可以说它们是在一个垂直领域的大数据的平台。电商领域也是这样的。现在越来越多在传统领域都想建立大数据，甚至是在保险做广告方面的有很多广告平台公司金融公司包括医疗信息系统公司，都想建立大数据系统的应用。但那些相对于广告和电商才是刚刚发展起来的领域。&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;数据公司，专门做数据平台的，像现在比较火的 &lt;a href="https://databricks.com"&gt;Databricks&lt;/a&gt; 是做 Spark 的，提供 Spark 的平台，原来的 &lt;a href="http://www.cloudera.com"&gt;Cloudera&lt;/a&gt; 提供 Hadoop 。甚至包括一些做机器学习的人，他建立了一些公司，比如说 &lt;a href="http://graphlab.org"&gt;Graphlab&lt;/a&gt;，提供了一些基于图的机器学习的算法平台。这些是纯做平台的公司，不是在一个 Industry 的垂直领域。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;做具体的 Application 的公司。做 application 的公司，因为我个人背景的原因，我接触的大数据集中在广告电商这块。这些公司相对来说数量比较多，需要用到很多大数据的应用。所以你可以说它们是在一个垂直领域的大数据的平台。电商领域也是这样的。现在越来越多在传统领域都想建立大数据，甚至是在保险做广告方面的有很多广告平台公司金融公司包括医疗信息系统公司，都想建立大数据系统的应用。但那些相对于广告和电商才是刚刚发展起来的领域。&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我们现在讲的大数据，最近几年的概念，比如说商业、智能、BI、数据分析甚至统计上的很多东西都已经有很久了。我们现在讲的这个大数据和以前意义上的大数据是一个什么样的关系？&lt;/p&gt;
@@ -208,14 +468,30 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：大家谈数据科学，也谈数据分析，在有些地方数据分析又等于数据科学。这本身没什么界限。不同的人可以得到很多不同的答案。一个搞研究的人，他可能觉得数据分析可能是得用微分方程的叫做分析；对于企业中的一些分析员，可能分析就是做一个 excel 报表。分析这个词存在很多的定义。数据分析有八个层次。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;第一个层次是一个标准的报表，发生了什么事情。比如说月度报表、季度报表。用 excel 就能做出来，甚至用不到 MySQL。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第二层是即席查询，也就是 Ad hoc 的查询。比如说，一周内门诊病人的数量。这个报表即席的做出来。应该 MySQL 就可以了。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第三层是多维分析。相当于 BI 上面的 OLAP 的分析。分析多个变量之间的关系。比如说，碰到一个商业问题，可以分析出来这个问题在哪里。 哪种手机类型的用户的行为是什么样的。这种叫做多维的分析。这也是一种查询，但可能用一些其他的技术，比如 OLAP 的技术。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第四种叫做警报。当一个事情发生以后会告诉你采取哪些行为。这比简单的分析要求更高的东西。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第五层叫做统计分析。比如说可以进行一些频域分析，或者回归分析，从数据中提取规律，是一些比较探索性的统计分析的问题。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第六种叫做预报或者预测，预测一个商品在未来的需求量。比如说进行一些时序分析或一些更高级的统计分析。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第七种叫做预测建模。这是更加像我刚刚所说的机器学习，比如说给他展示某些广告以后，他会进行哪些行为。这些东西就是预测建模。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;最后一种叫做优化，如何提高 ROI ，提高投资回报比。这个东西不光要能预测事情发生的规律，还得能优化它 ，从而使企业的利润更好，使 ROI 更高。这就是它说的最高的一个层次。&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第一个层次是一个标准的报表，发生了什么事情。比如说月度报表、季度报表。用 excel 就能做出来，甚至用不到 MySQL。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第二层是即席查询，也就是 Ad hoc 的查询。比如说，一周内门诊病人的数量。这个报表即席的做出来。应该 MySQL 就可以了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第三层是多维分析。相当于 BI 上面的 OLAP 的分析。分析多个变量之间的关系。比如说，碰到一个商业问题，可以分析出来这个问题在哪里。 哪种手机类型的用户的行为是什么样的。这种叫做多维的分析。这也是一种查询，但可能用一些其他的技术，比如 OLAP 的技术。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第四种叫做警报。当一个事情发生以后会告诉你采取哪些行为。这比简单的分析要求更高的东西。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第五层叫做统计分析。比如说可以进行一些频域分析，或者回归分析，从数据中提取规律，是一些比较探索性的统计分析的问题。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第六种叫做预报或者预测，预测一个商品在未来的需求量。比如说进行一些时序分析或一些更高级的统计分析。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第七种叫做预测建模。这是更加像我刚刚所说的机器学习，比如说给他展示某些广告以后，他会进行哪些行为。这些东西就是预测建模。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;最后一种叫做优化，如何提高 ROI ，提高投资回报比。这个东西不光要能预测事情发生的规律，还得能优化它 ，从而使企业的利润更好，使 ROI 更高。这就是它说的最高的一个层次。&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我觉得这个讲的比较抽象，能不能请你给我们讲几个详细的案例，把那些东西展开在一个案例中具体的说一下。&lt;/p&gt;
@@ -238,7 +514,7 @@
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：第二个是内容。内容也是商业洞察方面很重要的东西。内容是一个很广的词，对不同的 business 他的意义是不同的。比如说 Netflix 包括国内的这些视频网站，它的内容就是这些向用户展示的本身的内容。不同的用户对不同的内容感兴趣。这就是这种视频网站如何跟客户交互的问题。电商网站又有一些其它内容的不同。内容就是一个如何去个性化网站的过程。根据内容的好坏，消费者跟你的网站交互的频率、热度都会有区别。这也是一个 business 它要来优化自己的网站或者 revenue 的方面。第三个是策略，如何吸引消费者。如果有些已经有了消费者，但发现消费者有衰退迹象，越来越少在你的网上买东西，你如何把他吸引回来，这就是一个策略的问题。比如说你可以跟他进行一些沟通，一些 Email 的沟通，或者可以给他投放一些你的优惠券等东西。这后面对 business 确实有一些数据科学方面的算法，可以帮他留住他现有的用户，也可以给增进他跟用户之间的交互，让用户去更多的购买，让用户跟商家之间有更良性的关系。&lt;/p&gt;
 
-&lt;h3&gt;Part 2 - Data Science 在预测分析中的应用&lt;/h3&gt;
+&lt;h3 id="part-2---data-science-"&gt;Part 2 - Data Science 在预测分析中的应用&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我觉得这个部分你可能比较适合，因为你在 Data Science 方面也读了博士，在算法、科学方面比较有长处。&lt;/p&gt;
 
@@ -274,7 +550,7 @@
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：下一方面我们本来想说一下工程方面，但是前面说的多了一点，我想我们今天进入一下案例学习。想让丁磊给我们举一个案例。&lt;/p&gt;
 
-&lt;h3&gt;Part 3 - Case Study&lt;/h3&gt;
+&lt;h3 id="part-3---case-study"&gt;Part 3 - Case Study&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：Netflix 是一个电影租赁网站，在美国这边比较 popular ，他们做推荐引擎做的比较有名。是他们在好几年之前组织了一个竞赛，叫 Netflix 大奖赛。它公布了一些数据集，让大家来做推荐算法。赢了的这个队可以拿到很多钱。很多做机器学习和做数据挖掘的高手都来参加这个竞赛。Netflix 的推荐算法对工业界推动挺大的。在 IEEE Computer 有一篇文章，它大概说了一下他们的推荐算法怎么工作的。Netflix 有一个很大的矩阵，一个是客户的维度，一个是电影的维度。它合并在一起就是一个很大的矩阵。比如说玎玎，你看过五部电影，你在你那一行就有一个不是零的数据，来表示你看电影的时间长度，或者看的次数。这是矩阵在每种信息的表示。Netflix 做的比赛获胜的团队根据这篇文章做的算法是矩阵分解的算法。把巨大的矩阵分解成两个小的矩阵。这就是降低维度的算法。降低度是指把巨大的空间用低维的子空间去拟合，即降维的思想。比如说，你有很多的数据点，在很大的空间中，你用相对低维的空间，比如说几百的上千的，来拟合原来更高维的矩阵。&lt;/p&gt;
 
@@ -323,9 +599,15 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：做机器学习的工具有很多。Hadoop 肯定是一个数据处理的很热门的工具。任何机器学习，任何算法分析都要做很多ETL数据处理的过程。ETL肯定离不开 Hadoop 。现在的趋势是 Spark 变得非常的火。Spark 相对于 Hadoop 也有很多优点：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;首先，可以很有效的利用内存，减少I/O方面的操作，节省很多时间。这是 Hadoop 做的比较差的地方。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;第二，对于一些循环的算法、迭代的算法，Spark在这方面很强。机器学习有很多算法都是非常迭代性的，而 Hadoop 在这方面做的比较差。Spark 现在有个很强的社区，有很多很好的算法都是开源的，都可以使用。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;另外，做一些一般的处理，比如说单机上的处理，采用 Java ，Python ，有的人比较喜欢用 R ，或者是 Scala 等，这些语言，都是很好的工具。&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;首先，可以很有效的利用内存，减少I/O方面的操作，节省很多时间。这是 Hadoop 做的比较差的地方。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;第二，对于一些循环的算法、迭代的算法，Spark在这方面很强。机器学习有很多算法都是非常迭代性的，而 Hadoop 在这方面做的比较差。Spark 现在有个很强的社区，有很多很好的算法都是开源的，都可以使用。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;另外，做一些一般的处理，比如说单机上的处理，采用 Java ，Python ，有的人比较喜欢用 R ，或者是 Scala 等，这些语言，都是很好的工具。&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：像 Matlab 现在还有人用么？&lt;/p&gt;
@@ -344,7 +626,7 @@
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：正常是工业界推动，事实上在很多年也是这样的。最近有个很好玩的事情是学术界反而逆袭了。Spark 完全就是一个学术类的项目起来的。Graph Lab 做的也很好。有一些在学术界做的也非常好的组，他们的实力不亚于一个小型的公司。他们有很好的人在那里，跟工业界接触很多，接触的都是工业界的最棘手的问题，而工业界又没有资源去解决。学术界有一些自由度来研究一些非常有影响力但是非常棘手的问题。工业界绝大多数的公司根本没有资源做这个事情，它首先得创造价值，创造利润。学术界在近几年反而能够很好的运用他们的资源，很多事情确实很好的推动到整个业界来使用，尤其是在近几年，在这些大数据和机器学习接口的地方做的更好。&lt;/p&gt;
 
-&lt;h3&gt;Part 4 - 大数据在其他领域的应用&lt;/h3&gt;
+&lt;h3 id="part-4---"&gt;Part 4 - 大数据在其他领域的应用&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我们可以讲一下大数据在其他领域的一些应用，或者讲机器学习这些话题。斯坦福那边进行 translation ，和 Google 联合来进行翻译、自动驾驶的汽车这些应该都算是机器学习的一些分支吧，或者一些新的研究方面。还有无人驾驶的飞行器。我想听听丁磊对这方面的看法。&lt;/p&gt;
 
@@ -371,8 +653,12 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：作为一个 Data Scientist ，跟传统的工程师是有差异的，是两种完全不同的工作的种类。跟传统的工程师的区别在于：&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;数据科学家特别是好的数据科学家，对东西的数字看的非常清楚，不是仅仅的去写个程序，这是一个最基本的素质。当然他必须得保证程序中整个 flow 中的数据完全准确。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;数据科学家可能还有另外一个作用是能够驱动产品的需求，能够自己提取产品的需求。传统软件工程师的工作，可能是产品经理有一些需求，然后工程师实现，很多公司都是这样构建的。虽然有很多很聪明的工程师，可以非常创造等，但是作为数据科学家，你可以自己探索需求，发现需求。对于一个数据产品，数据科学家对数据产品最清楚，他自己去分析数据。进入数据、分析数据才可能分析这些需求，才可能把数据产品做好。从这点意义上来说，数据科学家是可以驱动产品需求的过程。&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;数据科学家特别是好的数据科学家，对东西的数字看的非常清楚，不是仅仅的去写个程序，这是一个最基本的素质。当然他必须得保证程序中整个 flow 中的数据完全准确。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;数据科学家可能还有另外一个作用是能够驱动产品的需求，能够自己提取产品的需求。传统软件工程师的工作，可能是产品经理有一些需求，然后工程师实现，很多公司都是这样构建的。虽然有很多很聪明的工程师，可以非常创造等，但是作为数据科学家，你可以自己探索需求，发现需求。对于一个数据产品，数据科学家对数据产品最清楚，他自己去分析数据。进入数据、分析数据才可能分析这些需求，才可能把数据产品做好。从这点意义上来说，数据科学家是可以驱动产品需求的过程。&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：它最大的不同，是一般的传统工程师在企业里的结构是从上到下的，指令从上面下来的；而数据科学家是从下到上的，对数据研究研究之后，发现一个东西可以影响上面的管理、策略方面的东西。所以它的影响力在合适的环境里影响力是比较大的。&lt;/p&gt;
@@ -383,7 +669,7 @@
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：我很肯定回答——不一定。但是好的数据科学家，一定要对数字有很强的感觉。一般来说，如果是读计算机或者读了机器学习的 PhD，对数据有感觉，是没有问题的。但是未必要读 PhD 才能有那种感觉。我跟一些很好的数据科学家工作过，他们本身没有 PhD，但是他们绝对有很强的数量的意识，并且能够驱动产品的需求，同样能跟各个团队打交道。在我看来他们是很好的数据科学家，确实在某些方面比一些专业的人才更有优势。他们能够很好地对一些新的领域进行适应。&lt;/p&gt;
 
-&lt;h3&gt;Part 5 - Share Picks&lt;/h3&gt;
+&lt;h3 id="part-5---share-picks"&gt;Part 5 - Share Picks&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：这个话题我们今天就聊到这里吧。今天聊了很久，感谢丁磊过来。那么我下一个 Teahour.fm 惯有的节目是给大家分享一些东西。丁磊，你先开始吧。&lt;/p&gt;
 
@@ -419,9 +705,9 @@
 
 &lt;p&gt;本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 &lt;a href="http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html"&gt;http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html&lt;/a&gt;。&lt;/p&gt;
 
-&lt;audio controls name="media"&gt;
-  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg"&gt;
-&lt;/source&gt;&lt;/audio&gt;
+&lt;audio controls="" name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg"&gt;&lt;/source&gt;
+&lt;/audio&gt;
 
 &lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。&lt;/p&gt;
 
@@ -440,8 +726,8 @@
 
 &lt;p&gt;本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 &lt;a href="http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html"&gt;http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html&lt;/a&gt;。&lt;/p&gt;
 
-&lt;audio controls name="media"&gt;
-  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg"&gt;
+&lt;audio controls="" name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg" /&gt;
 &lt;/audio&gt;
 
 &lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。&lt;/p&gt;
@@ -452,7 +738,7 @@
 
 &lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：大家好，我是郭达峰，是第一家进入 YC 孵化器的华人团队 Strikingly 的联合创始人。在 Strikingly 主要负责技术这一块。我从14岁开始编程，创建 Strikingly 之前我也写过几款超过 2000 万用户的 Facebook 应用。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I&amp;rsquo;ve shipped the Code. What&amp;rsquo;s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I’ve shipped the Code. What’s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：好的好的。要讲一下这个内容是什么，可能要先讲一下选这个题目的原因。我相信这次大会上有很多团队都是在创业，或者在创业团队工作的人。作为创业团队为什么选 Ruby ，就是因为 Ruby 可以快速开发，这一点对创业公司非常重要。&lt;/p&gt;
 
@@ -464,7 +750,7 @@
 
 &lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：其实改善产品在我看来有很多种方向，那你在这支大会上是从哪个角度改善产品的？&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我着重去做的就是怎么样把产品做到 Make something people want! 我用一个框架讲这个内容：如果你不去测量的话，你不确定产品有没有在改进（&lt;strong&gt;You can&amp;rsquo;t improve if you don&amp;rsquo;t measure&lt;/strong&gt;）。如果你不去测量一个新功能对产品的影响，你没有办法有力的说明产品在改善。我讲的内容会通过数据分为三步：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我着重去做的就是怎么样把产品做到 Make something people want! 我用一个框架讲这个内容：如果你不去测量的话，你不确定产品有没有在改进（&lt;strong&gt;You can’t improve if you don’t measure&lt;/strong&gt;）。如果你不去测量一个新功能对产品的影响，你没有办法有力的说明产品在改善。我讲的内容会通过数据分为三步：&lt;/p&gt;
 
 &lt;p&gt;1、一开始上线，创业初级的时候，你没有数据的时候，你应该用什么方式去改善产品；
 2、有一些数据时，应该怎么做；
@@ -527,7 +813,7 @@
       <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;aside class="aside"&gt;
-  ![RubyConf China 2014](rubyconf-china-2014/RubyConfChina-2014.png)
+  &lt;p&gt;&lt;img src="/images/rubyconf-china-2014/RubyConfChina-2014.png" alt="RubyConf China 2014"&gt;&lt;/p&gt;
 &lt;/aside&gt;
 
 &lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
@@ -536,9 +822,9 @@
 
 &lt;p&gt;今年的大会筹办其实蛮早就开始，但是作为一个纯志愿者组织的大会，尤其三位主办人姜军、吕国宁和我都是在创业，时间超级不够用，整体办会经历可以说是跌宕起伏，所幸大多有惊无险。姜军数次跟我谈起想今年尝试不同的方式，想跳出往年固定的主题演讲式，给参会者带来更多不同的体验和更多的参与感和情感互动。所以，我们今年放弃了从海外邀请嘉宾，专注在形式上做突破，为明年的大会做好基础，也就有了你今天看到的大会行程。&lt;/p&gt;
 
-&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks...&lt;/p&gt;</summary>
+&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks 带来的半天 TDD Workshop，Rails 源码分析之 ActiveRecord 以及由我支持的两场 Ruby 职场...&lt;/p&gt;</summary>
     <content type="html">&lt;aside class="aside"&gt;
-  ![RubyConf China 2014](rubyconf-china-2014/RubyConfChina-2014.png)
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/rubyconf-china-2014/RubyConfChina-2014.png" alt="RubyConf China 2014" /&gt;&lt;/p&gt;
 &lt;/aside&gt;
 
 &lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
@@ -556,22 +842,22 @@
 &lt;p&gt;随贴附赠 10 个不去 RubyConf China 的理由。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;主办方太业余&lt;/li&gt;
-&lt;li&gt;中文演讲太多&lt;/li&gt;
-&lt;li&gt;票价太便宜&lt;/li&gt;
-&lt;li&gt;内容太干&lt;/li&gt;
-&lt;li&gt;游戏性太强&lt;/li&gt;
-&lt;li&gt;社区太多元&lt;/li&gt;
-&lt;li&gt;妹子太多&lt;/li&gt;
-&lt;li&gt;周末太忙&lt;/li&gt;
-&lt;li&gt;雾霾太严重&lt;/li&gt;
-&lt;li&gt;北京太远&lt;/li&gt;
+  &lt;li&gt;主办方太业余&lt;/li&gt;
+  &lt;li&gt;中文演讲太多&lt;/li&gt;
+  &lt;li&gt;票价太便宜&lt;/li&gt;
+  &lt;li&gt;内容太干&lt;/li&gt;
+  &lt;li&gt;游戏性太强&lt;/li&gt;
+  &lt;li&gt;社区太多元&lt;/li&gt;
+  &lt;li&gt;妹子太多&lt;/li&gt;
+  &lt;li&gt;周末太忙&lt;/li&gt;
+  &lt;li&gt;雾霾太严重&lt;/li&gt;
+  &lt;li&gt;北京太远&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;但是我们只需要 1 个去 RubyConf China 的理由。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;我爱 Ruby&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;我爱 Ruby&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;大会官网见这里 &lt;a href="http://rubyconfchina.org"&gt;http://rubyconfchina.org&lt;/a&gt;，报名热线点这里&lt;a href="http://19wu.com/rubyconfchina"&gt;http://19wu.com/rubyconfchina&lt;/a&gt;。11 月 1 号早上 8 点，北京大学中关新园 2 号楼，到时候见！&lt;/p&gt;
@@ -587,7 +873,7 @@
       <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;本文转载自&lt;a href="https://fengcheco.com/blog/use-excel-for-project-management/"&gt;风车官方博客&lt;/a&gt;。&lt;/p&gt;
+  &lt;p&gt;本文转载自&lt;a href="https://fengcheco.com/blog/use-excel-for-project-management/"&gt;风车官方博客&lt;/a&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;如果有人在市场上做个调查，目前使用最广泛的项目管理工具是啥，我估计结果不是  Microsoft Project，不是 Jira，不是 Redmine，而是 Excel。在做风车的过程中，接触到不少团队，包括一些跟互联网很近的技术创业公司，都在使用 Excel 管理项目，也有一些用户问我们如何能从 Excel 管理平滑地迁移过来。所以，风车在首页特别跟 Excel 做了对比，我们也的确有不少客户是从 Excel 管理转到风车。这篇文章就来谈谈用 Excel 做项目管理的利与弊。&lt;/p&gt;
@@ -599,11 +885,11 @@
 &lt;p&gt;Excel 不是专业的项目管理工具，但是 Excel 又无所不能。在我心目中，Windows 并不是微软最成功的软件，Office 才是。使用 Excel，有下面这几点好处。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;strong&gt;普及，群众基础扎实&lt;/strong&gt;。可以说，Office 在很多人眼里就等于电脑，你去外面配个电脑装个机都能在系统之外附赠一个 Office。这也带来了 Excel 基本上可...&lt;/li&gt;
+  &lt;li&gt;
+&lt;strong&gt;普及，群众基础扎实&lt;/strong&gt;。可以说，Office 在很多人眼里就等于电脑，你去外面配个电脑装个机都能在系统之外附赠一个 Office。这也带来了 Excel ...&lt;/li&gt;
 &lt;/ol&gt;</summary>
     <content type="html">&lt;blockquote&gt;
-&lt;p&gt;本文转载自&lt;a href="https://fengcheco.com/blog/use-excel-for-project-management/"&gt;风车官方博客&lt;/a&gt;。&lt;/p&gt;
+  &lt;p&gt;本文转载自&lt;a href="https://fengcheco.com/blog/use-excel-for-project-management/"&gt;风车官方博客&lt;/a&gt;。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;如果有人在市场上做个调查，目前使用最广泛的项目管理工具是啥，我估计结果不是  Microsoft Project，不是 Jira，不是 Redmine，而是 Excel。在做风车的过程中，接触到不少团队，包括一些跟互联网很近的技术创业公司，都在使用 Excel 管理项目，也有一些用户问我们如何能从 Excel 管理平滑地迁移过来。所以，风车在首页特别跟 Excel 做了对比，我们也的确有不少客户是从 Excel 管理转到风车。这篇文章就来谈谈用 Excel 做项目管理的利与弊。&lt;/p&gt;
@@ -615,20 +901,20 @@
 &lt;p&gt;Excel 不是专业的项目管理工具，但是 Excel 又无所不能。在我心目中，Windows 并不是微软最成功的软件，Office 才是。使用 Excel，有下面这几点好处。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;普及，群众基础扎实&lt;/strong&gt;。可以说，Office 在很多人眼里就等于电脑，你去外面配个电脑装个机都能在系统之外附赠一个 Office。这也带来了 Excel 基本上可以捻手即来，不需要安装任何软件就可以使用。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;定制性强&lt;/strong&gt;。基于表格的任务属性，粒度可粗可细，根据团队的方法不同可任意调整，可说是 Excel 的最大优点。这也是很多团队喜欢 Excel 的最大原因，完全做到量身定制，不受到任何限制。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;控制性强&lt;/strong&gt;。定制性强带来了一部分的控制性，但是控制性更多的体现在流程上。团队内部流程不需要任何调整就可以直接应用到 Excel 中，而且调整也非常容易，做到了管理者的真正掌控。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt;。宏、函数、筛选、排序、作图等，Excel 的数据处理能力非常强大。Excel 的基本操作撑死也就 Excel 10% 的功能，大多数人只是学会了点皮毛，浪费了如此”好”的一款软件。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;普及，群众基础扎实&lt;/strong&gt;。可以说，Office 在很多人眼里就等于电脑，你去外面配个电脑装个机都能在系统之外附赠一个 Office。这也带来了 Excel 基本上可以捻手即来，不需要安装任何软件就可以使用。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;定制性强&lt;/strong&gt;。基于表格的任务属性，粒度可粗可细，根据团队的方法不同可任意调整，可说是 Excel 的最大优点。这也是很多团队喜欢 Excel 的最大原因，完全做到量身定制，不受到任何限制。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;控制性强&lt;/strong&gt;。定制性强带来了一部分的控制性，但是控制性更多的体现在流程上。团队内部流程不需要任何调整就可以直接应用到 Excel 中，而且调整也非常容易，做到了管理者的真正掌控。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt;。宏、函数、筛选、排序、作图等，Excel 的数据处理能力非常强大。Excel 的基本操作撑死也就 Excel 10% 的功能，大多数人只是学会了点皮毛，浪费了如此”好”的一款软件。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;当然，用 Excel 管理项目的缺点也非常明显。&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;复杂，非常复杂&lt;/strong&gt;。没有人能学会 Excel 所有的功能，只学会百分之二三十的功能就可以称为高手了。以前开过玩笑，微软开发 Excel 的团队也不会用 Excel。Excel 的学习成本是非常高的，见见世面上有多少 Excel/Office 的实用书籍就知道了。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;维护非常耗时，自动化程度低&lt;/strong&gt;。即使你使用了宏和函数，还是需要很多人工的操作，比如任务拆分、甘特图的制作，都需要重排很多数据。现在很多用 Excel 管理项目的团队，会有专门一个助理来做这个事情，每天的工作就是维护 Excel。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;进度跟踪不及时&lt;/strong&gt;。Excel 缺乏实时的信息更新，所以一般做法是每天开会确定一下昨天的进度，专人记录更新到 Excel 里面。这样子，有些问题就会被隐藏下去，无法及时发现，无法在正确的时间让正确的人去做正确的事。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;信息呈现单一，可用性不高&lt;/strong&gt;。Excel 毕竟只是表单数据处理软件，不是专业的项目管理软件，所以在呈现上没有信息架构可言，缺乏重点，用户体验差。同时，无法在上面做一些任务的沟通，项目管理过程被割裂成一块一块。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;成员间同步麻烦&lt;/strong&gt;。沟通的好坏，能否保证所有成员在一个节奏上，直接影响到项目的成败。然而用 Excel 管理项目的话，只能把文件传来传去，也不知道到底这个版本和上个版本有了哪些变化。高级点的会使用 Google Spreadsheet，但是有&lt;del&gt;伟大的墙&lt;/del&gt;的存在，还是诸多不爽。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;复杂，非常复杂&lt;/strong&gt;。没有人能学会 Excel 所有的功能，只学会百分之二三十的功能就可以称为高手了。以前开过玩笑，微软开发 Excel 的团队也不会用 Excel。Excel 的学习成本是非常高的，见见世面上有多少 Excel/Office 的实用书籍就知道了。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;维护非常耗时，自动化程度低&lt;/strong&gt;。即使你使用了宏和函数，还是需要很多人工的操作，比如任务拆分、甘特图的制作，都需要重排很多数据。现在很多用 Excel 管理项目的团队，会有专门一个助理来做这个事情，每天的工作就是维护 Excel。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;进度跟踪不及时&lt;/strong&gt;。Excel 缺乏实时的信息更新，所以一般做法是每天开会确定一下昨天的进度，专人记录更新到 Excel 里面。这样子，有些问题就会被隐藏下去，无法及时发现，无法在正确的时间让正确的人去做正确的事。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;信息呈现单一，可用性不高&lt;/strong&gt;。Excel 毕竟只是表单数据处理软件，不是专业的项目管理软件，所以在呈现上没有信息架构可言，缺乏重点，用户体验差。同时，无法在上面做一些任务的沟通，项目管理过程被割裂成一块一块。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;成员间同步麻烦&lt;/strong&gt;。沟通的好坏，能否保证所有成员在一个节奏上，直接影响到项目的成败。然而用 Excel 管理项目的话，只能把文件传来传去，也不知道到底这个版本和上个版本有了哪些变化。高级点的会使用 Google Spreadsheet，但是有~~伟大的墙~~的存在，还是诸多不爽。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;虽然项目管理中工具并不是最主要的，但是一个好的工具绝对能让事半功倍。如果说过往用 Excel 管理项目是因为专业的项目管理软件很昂贵，学习成本也很高，在此相比而言下 Excel 是一个尚且不错的选择的话，那么现在这个时代，已经有很多轻量级的项目管理工具可以使用，而且价格也非常合适。所以不妨跳出思维，去拥抱新的变化，体验技术创新带来的变革。&lt;/p&gt;
@@ -638,101 +924,9 @@
 &lt;p&gt;&lt;em&gt;另外，作为一家有节操的公司，坚决抵制用数据绑架用户。所以你随时可以把风车项目内的数据导出成 Excel 保存，也会提供 API 让你随时读取数据。&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;你还在用 Excel 管理项目吗？是时候，使用风车保证所有信息的正确同步了！&lt;/strong&gt;&lt;br/&gt;
+  &lt;p&gt;&lt;strong&gt;你还在用 Excel 管理项目吗？是时候，使用风车保证所有信息的正确同步了！&lt;/strong&gt;&lt;br /&gt;
 风车提供了清晰的任务管理体验，分配任务、进度跟踪一目了然。一处编辑、多处实时更新，保持团队成员步调一致，从而使任务管理轻松有序。&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-  </entry>
-  <entry>
-    <title>What you should know before starting node-webkit</title>
-    <link rel="alternate" href="/2014/08/01/node-webkit-intro-en.html"/>
-    <id>/2014/08/01/node-webkit-intro-en.html</id>
-    <published>2014-08-01T09:00:00+08:00</published>
-    <updated>2014-08-01T09:00:00+08:00</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;aside class="aside"&gt;
-  ![node-webkit](http://yedingding.com/images/node-webkit-intro/nw.jpg)
-&lt;/aside&gt;
-
-&lt;blockquote&gt;
-  This article is translated by &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; of my article &lt;a href="http://yedingding.com/2014/07/28/node-webkit-intro.html"&gt;开始 NODE-WEBKIT 前，你应该知道的&lt;/a&gt;. &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people’s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you’re interested, why not &lt;a href="mailto:yicun.wu@uwaterloo.ca"&gt;drop her an email&lt;/a&gt;?
-&lt;/blockquote&gt;
-
-&lt;p&gt;Last weekend, &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour&lt;/a&gt; invited &lt;a href="https://twitter.com/wwr"&gt;Roger Wang&lt;/a&gt;, the creator of node-webkit to talk about the stories behind node-webkit and the use of HTML5 in desktop app development. Various web-based desktop app frameworks such as node-webkit, Chrome Apps, Titanium, TideSDK and Atom Shell have been developed over recent years and node-webkit remains one of the best.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node...&lt;/a&gt;&lt;/p&gt;</summary>
-    <content type="html">&lt;aside class="aside"&gt;
-  ![node-webkit](http://yedingding.com/images/node-webkit-intro/nw.jpg)
-&lt;/aside&gt;
-
-&lt;blockquote&gt;
-  This article is translated by &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; of my article &lt;a href="http://yedingding.com/2014/07/28/node-webkit-intro.html"&gt;开始 NODE-WEBKIT 前，你应该知道的&lt;/a&gt;. &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;Wendy&lt;/a&gt; now lives in Toronto, Canada and is looking to join a startup in US or Canada as backend developer to build innovative products that make people&amp;rsquo;s lives easier and more efficient. Her skills include Node.js, PHP, Python and C++. If you&amp;rsquo;re interested, why not &lt;a href="mailto:yicun.wu@uwaterloo.ca"&gt;drop her an email&lt;/a&gt;?
-&lt;/blockquote&gt;
-
-&lt;p&gt;Last weekend, &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour&lt;/a&gt; invited &lt;a href="https://twitter.com/wwr"&gt;Roger Wang&lt;/a&gt;, the creator of node-webkit to talk about the stories behind node-webkit and the use of HTML5 in desktop app development. Various web-based desktop app frameworks such as node-webkit, Chrome Apps, Titanium, TideSDK and Atom Shell have been developed over recent years and node-webkit remains one of the best.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&lt;/a&gt; project was started in 2011. It is an app runtime that allows developers to use Web technologies (i.e. HTML5, CSS and JavaScript) to develop native apps. As developers, we only need to maintain one codebase which can be compiled to Windows, Mac and Linux native apps. The node-webkit project currently has almost 15000 Stars and over 1600 Forks on GitHub and it&amp;rsquo;s a very popular open source project built by a Chinese developer. In the episode, Roger introduced the following common categories of apps using node-webkit:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Desktop IDEs such as &lt;a href="http://www.lighttable.com/"&gt;Light Table&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Games such as &lt;a href="http://www.brandonmustdie.com/"&gt;Brandon Must Die!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Media apps such as &lt;a href="http://popcorntime.io/"&gt;Popcorn Time&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tools such as &lt;a href="http://pad.haroopress.com/"&gt;Haroopod&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Enterprise apps such as metrics apps&lt;/li&gt;
-&lt;li&gt;Terminals such as POS terminals&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We could see that the apps are diverse and there&amp;rsquo;s no lack of elegant apps. The full of imagination can be attributed to hardware performance improvements, developments of Web, animations, graphics, audios, videos, 2D, 3D, WebGl, etc.&lt;/p&gt;
-
-&lt;p&gt;Essentially, node-webkit is only a web app runtime. When we talk about desktop apps, we think of GUI, responses to user actions and system-level interactions, so how did node-webkit manage to do that? In order to learn more about that, we need to first learn about Node and WebKit.&lt;/p&gt;
-
-&lt;p&gt;Node is a lightweight JavaScript runtime based on the Google Chrome V8 engine. Node is written in C++ and lives in the operating-system application layer where it supports a lot of OS APIs such as file system and network operations therefore it can be used to build system and server-side apps.&lt;/p&gt;
-
-&lt;p&gt;WebKit is a web browser engine. Let&amp;rsquo;s take a web page as an example: it&amp;rsquo;s built with HTML, CSS and JavaScript. After the page is loaded, it will be parsed into a tree and handed off to WebKit for rendering hence forming the page we see in a browser. Node-webkit is based on Blink, which is a rendering engine forked from WebKit and whose JavsScript engine is V8, which is also used in Node.&lt;/p&gt;
-
-&lt;p&gt;The browser security model prevents WebKit from issuing system calls, which is a must-have for desktop applications; since Node itself has system-level APIs but lacks rendering support, Roger had the idea in 2011 to create node-webkit, combining system-level operations and user interactions. After some trials with WebKitGTK and Node, he started using Chromium in 2012, basing the project entirely on Chromium from the initial Chromium Embedded Framework (CEF).&lt;/p&gt;
-
-&lt;p&gt;Following the fast development of Node and Chromium, node-webkit is at version 0.10 today. We&amp;rsquo;ll dive into the details of how node-webkit works.&lt;/p&gt;
-
-&lt;p&gt;Node is an event-driven framework with message processing based on libuv. The JS engine of WebKit is based on MessagePump of Chrome, which is also event-driven. Event-driven can be explained as when an event happens, for example, user input comes in, the corresponding code is executed to process the event. Node-webkit combines the event-processing of Node and WebKit into a single message loop.&lt;/p&gt;
-
-&lt;p&gt;We still have another challenge after combining event processing: we need to find a way for Node and WebKit to access the context of each other. There are two contexts in node-webkit: the Node context and the WebKit context. Accessing the context of each other means accessing the objects of each other, so during the initialization of node-webkit, the Node context will be injected into WebKit so that the WebKit context will have access to the Node context.&lt;/p&gt;
-
-&lt;p&gt;Node-webkit has made changes to the security model of WebKit as well. In node-webkit, there are two kinds of frames: Node frames and normal frames&lt;sup id="fnref1"&gt;&lt;a href="#fn1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. If you&amp;rsquo;re familiar with Web development, you probably know that issuing a cross-domain AJAX request will result in errors imposed by &lt;a href="http://en.wikipedia.org/wiki/Same_origin_policy"&gt;same-origin policy&lt;/a&gt;. The same restriction is imposed on normal frames of node-webkit as in a browser. However, there is no such restriction on Node frames: the same security token is shared in all Node frames, including the Node&amp;rsquo;s context and the WebKit&amp;rsquo;s Context, and cross-domain access are allowed and objects in the Node&amp;rsquo;s context are accessible too. Therefore, app developers must take precaution with untrusted user input to prevent destructive actions or put them into a normal frame.&lt;/p&gt;
-
-&lt;aside class="aside"&gt;
-  ![Chromium Layers](http://yedingding.com/images/node-webkit-intro/chromium-layers.jpg)
-  &lt;small&gt;Chromium Conceptual Application Layers&lt;/small&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;It is worth noting that even though Chrome supports HTML5 pretty well, some features are implemented on the Browser layer (see the graph above) and the WebKit in node-webkit inherits up to the Contents layer (i.e. the WebContents layer on the above image) as node-webkit itself is the implementation of the Browser layer. Therefore, some HTML5 features such as Web Notification&lt;sup id="fnref2"&gt;&lt;a href="#fn2" rel="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; are not supported in node-webkit. Nevertheless, the Chromium team is moving these HTML5 features onto the Content layer, which is definitely good news for node-webkit.&lt;/p&gt;
-
-&lt;p&gt;If you look at the above graph carefully, you will find there is also UI rendering in the Browser layer. Node-webkit implements UI rendering in the same way: it has native UI component APIs such as Menu, System Tray, Clipboard etc. The implementation is inspired from the cross-platform UI of Chromium.&lt;/p&gt;
-
-&lt;p&gt;The current version of node-webkit is 0.10.0, based on Node v0.11.13 and Chromium v35.0.1916.113. Node-webkit bases its major updates on Chromium versions, hence the 10 in 0.10.0. The version change corresponding to Node or node-webkit itself is the third part of the version number, e.g. the last 0 in 0.10.0.&lt;/p&gt;
-
-&lt;p&gt;If you would like to learn more about node-webkit, you can listen to our &lt;a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html"&gt;Teahour Episode&lt;/a&gt;. If you are tempted to develop a cross-platform desktop app, then the official &lt;a href="https://github.com/rogerwang/node-webkit/wiki"&gt;Wiki&lt;/a&gt; would definitely be a good place to start.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class="footnotes"&gt;
-  Thank you again for the translation, Wendy. If anyone is interested, check out her &lt;a href="http://www.linkedin.com/in/yicunwu"&gt;linkedin&lt;/a&gt;. Wish you all the best in the job hunting.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class="footnotes"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-
-&lt;li id="fn1"&gt;
-&lt;p&gt;Please refer to &lt;a href="https://github.com/rogerwang/node-webkit/wiki/Security"&gt;https://github.com/rogerwang/node-webkit/wiki/Security&lt;/a&gt; to learn more about the node-webkit security model and and how to use these two kinds of frames.&amp;nbsp;&lt;a href="#fnref1" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li id="fn2"&gt;
-&lt;p&gt;Notification has been implemented by &lt;a href="https://github.com/rogerwang/node-webkit/pull/1951"&gt;PR&lt;/a&gt; and it&amp;rsquo;s already included in latest release 0.10.1.&amp;nbsp;&lt;a href="#fnref2" rev="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;/ol&gt;
-&lt;/div&gt;
 </content>
   </entry>
 </feed>

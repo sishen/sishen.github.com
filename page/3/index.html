@@ -30,28 +30,22 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691923">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691923">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1477722041">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1477722041">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1470691923">
-    <script src="/javascripts/all.js?1470691923"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1477722041">
+    <script src="/javascripts/all.js?1477722041"></script>
+    <script src="/javascripts/main.js?1477722041"></script>
   </head>
   <body class="page page_3 page_3_index ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
-      <div id="subscribe-cta">
-        <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-          <label for="email">分享技术、创业、团队协作和项目管理上的思考</label>
-          <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-          <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-        </form>
-      </div>
       <div id="nav">
         <nav class="global-nav">
           <ul>
@@ -63,7 +57,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1470691923" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1477722041" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -73,6 +67,55 @@
     <section class="main">
       <div class="container">
         <div id="posts">
+    <article class="post">
+      <header>
+  <h2 class="title">
+    <a href="/2014/03/20/fengcheco-architecture.html">『风车』技术架构介绍</a>
+  </h2>
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Mar 20, 2014</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
+        <a href="/tags/%E9%A3%8E%E8%BD%A6.html">风车</a>
+        <a href="/tags/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E5%B7%A5%E5%85%B7.html">团队协作工具</a>
+        <a href="/tags/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.html">系统架构</a>
+    </span>
+  </div>
+</header>
+
+<div class="content">
+  <aside class="aside">
+  <p><img src="/images/fengcheco-architecture/logo.png?1477722041" alt="Fengche.co" title="风车"></p>
+</aside>
+
+<p>上周末，应邀在 <a href="http://hnshanghai.com">Hacker News 上海聚会</a>和 <a href="http://shruby.github.io/">Ruby 上海活动</a>上做了『风车』架构介绍的分享，在此感谢各位组织者和活动场地提供方。</p>
+
+<p>风车这个项目开始于 2011 年 11 月份，之前叫做 Pragmatic.ly。从第一天开始我们基本上就定了大致的框架结构，在今天回头看，基本上整个架构都没有什么变化，可以算是个很成熟和很适合时代的方案，☺。</p>
+
+<p>最近一两年，作为技术人员，我们都能很明显的感觉到前端技术的飞速发展，比如 HTML5 支持，移动端优先、响应式界面设计以及层出不穷的各种客户端框架。而所有这些，都是基于一点：浏览器的高速发展。Chrome、Firefox、Safari、Opera 甚至于 IE，最近几年发展的都很快，不夸张的说，这些浏览器已经不再是浏览器，而是成为开放平台，有各自的扩展插件机制。这些极大地改变了网站开发的方式，网站开始应用化。</p>
+
+<p>风车即是如此，设计得非常接近桌面应用，比如下面这些特点：</p>
+
+<ol>
+  <li>重客户端，所有的业务逻辑都在客户端，响应非常迅速</li>
+  <li>单页系统，项目内操作不需要刷新页面，操作非常流畅</li>
+  <li>三栏布局，左中右栏自左向右各司其职，信息非常清晰</li>
+  <li>实时更新，项目内任何更新都会实时的同步到你的页面</li>
+</ol>
+
+<p>而在这个设计的背后，就是其本身的技术栈。</p>
+
+
+  <p>
+    ......
+  </p>
+  <p>
+    <a href="/2014/03/20/fengcheco-architecture.html">Read more →</a>
+  </p>
+</div>
+    </article>
     <article class="post">
       <header>
   <h2 class="title">
@@ -92,7 +135,7 @@
 
 <div class="content">
   <aside class="aside-block">
-  ![Bootstrapping](bootstrapping-your-startup-idea/bootstrapping.jpg)
+  <p><img src="/images/bootstrapping-your-startup-idea/bootstrapping.jpg?1477722041" alt="Bootstrapping"></p>
 </aside>
 
 <p>自从在博客上放了 Skype 账号，聊过不少有意思的人，大多都是有创业的想法，也有不错的项目想法，但是犹豫着要不要做，认为没有投资的话不太可行，不太敢启动项目。每次我都会说，只要你开始了，即使使用自有资金，只要合理的使用和合理的做事，其实并没你想的那么困难，足够能给项目开启一个很好的头和到达一定的阶段了。</p>
@@ -100,10 +143,10 @@
 <p>我们在一开始准备自己做<a href="https://fengcheco.com">风车</a>的时候，其实也没太多考虑，很大程度是受到我们非常喜欢的两家公司的影响，<a href="https://github.com">GitHub</a> 和 <a href="https://37signals.com">37Signals</a>，我们也希望能按照我们自己的想法去打磨一款用户喜欢的产品，所以没有想太多，决定先把项目做好。我们有很多的理由去寻找资本，比如降低创业风险、获取更多的资源、人才对接等等。但是这两年走过来，回想起来，感觉挺不错。我也觉得，对于技术驱动型团队，Bootstrap 是一个更合适的启动项目方式。</p>
 
 <ol>
-<li>相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。</li>
-<li>在产品开发初期，其实成本不高，主要还是时间付出。而在产品出来的时候，你也有很多低成本的推广方式。</li>
-<li>在产品开发初期，因为是自有资金的原因，相比会更节俭，一分钱扳两份花，同时花钱会更有目的性，这样即使后面资本进来，这段经历会让我们更加懂得如何花钱。</li>
-<li>创业是一个想法不停修正的过程，而这个修正来源于跟用户的大量沟通交流，尤其是在初期，所以会让你把精力放在用户和产品本身，而不用浪费在寻找资本上。</li>
+  <li>相比非技术人员，技术团队创业的时候有一个天然的优势，可以自己来编写代码实现产品想法。即便只有一个人，也能把事情先做起来。</li>
+  <li>在产品开发初期，其实成本不高，主要还是时间付出。而在产品出来的时候，你也有很多低成本的推广方式。</li>
+  <li>在产品开发初期，因为是自有资金的原因，相比会更节俭，一分钱扳两份花，同时花钱会更有目的性，这样即使后面资本进来，这段经历会让我们更加懂得如何花钱。</li>
+  <li>创业是一个想法不停修正的过程，而这个修正来源于跟用户的大量沟通交流，尤其是在初期，所以会让你把精力放在用户和产品本身，而不用浪费在寻找资本上。</li>
 </ol>
 
 <p>所以，如果有心尝试，与其犹豫不决、畏头畏脚，不如勇敢的迈出去，绝对另有一番天地，:) 但是作为一个技术型团队，有下面几点需要特别注意。有些是我们犯过的错误，有些是身边的朋友犯过的错误。</p>
@@ -138,13 +181,14 @@
 <div class="content">
   <aside class="aside-block">
   <blockquote>
-    <p>本文摘自我发表在 [《程序员》](http://programmer.csdn.net/) 杂志 12 月刊里的文章。</p>
+<pre class="highlight plaintext"><code>&lt;p&gt;本文摘自我发表在 [《程序员》](http://programmer.csdn.net/) 杂志 12 月刊里的文章。&lt;/p&gt;
+</code></pre>
   </blockquote>
 </aside>
 
 <p>10 月 29 号，著名洗脑公司 <a href="http://37signals.com/">37signals</a> 发布万众期待的新书 <a href="http://37signals.com/remote/">《Remote - Office Not Required》</a>，随书 37signals 发布新网站 <a href="http://weworkremotely.com">http://weworkremotely.com</a>，专门做远程工作招聘服务。回想年初，Yahoo 宣布取消远程工作方式时，舆论哗然，远程工作是否适合互联网团队，曾在 IT 圈引起激烈讨论，却着实让人对远程工作充满了憧憬。而现在年底 37signal 的新书，必然会让远程工作这把火燃烧得更旺盛。</p>
 
-<p>对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 <a href="https://fengcheco.com" title="简单高效的团队协作工具">Fengche.co</a> 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要"。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这个不适合...</p>
+<p>对于个人而言，要开始远程工作是一件很容易的事情，就像我在 07 年的时候觉得每天朝九晚五不是我所期望的工作方式，我需要更大的刺激，所以直接从网易离职，然后在网上寻找远程的工作机会，从个人做自由职业者接项目到参与到一家坚持远程工作的公司，再到现在创业做 <a href="https://fengcheco.com" title="简单高效的团队协作工具">Fengche.co</a> 团队协作工作，整个过程选择哪个工作方式的自主权都在我自己这。说服自己的成本比起说服别人的成本可远远小多了。所以，要让公司层面接受远程工作这种新兴的工作方式是个更艰难的决定和更漫长的过程。所以尽管最近半年发现使用远程工作方式的国内 IT 公司开始慢慢变多，但是整体上这种工作方式的公司比例还是非常少。我们可以做个假设，如果你随便去一家公司，问所有员工想不想远程工作，我想答案多半是 “为什么不”，但是你问公司领导要不要远程工作，多半答案会是”为什么要”。对，为什么要？但是如果100% 知道远程工作能带来更好的工作质量，但是会有一段初期的阵痛期，你会选择尝试一下吗？可能会有部分的人的答案是“可能吧”，没有人会拒绝更好。所以，最主要的疑虑在于能不能带来更好的工做质量，也不知道这个是不是适合，而这...</p>
 
   <p>
     ......
@@ -174,7 +218,7 @@
 
 <div class="content">
   <aside class="aside">
-  ![Productivity City](improve-productivity-in-office/productivity-city.png)
+  <p><img src="/images/improve-productivity-in-office/productivity-city.png?1477722041" alt="Productivity City"></p>
 </aside>
 
 <p>上个月在北京的时候去拜访了一下<a href="http://litianfang.com/">天放</a>，<a href="http://kechenggezi.com">课程格子</a>有两项措施我特别喜欢，一个是 productivity city，如上图，是在办公室里隔出来的非常独立的一个小房间，里面不准说话，手机必须静音，同时这个房间不能超过三个人。天放介绍了一下这个是给团队成员需要专注工作时提供的一个特殊场所。另一点是天放给所以员工提供了住房补贴，鼓励团队的人住在公司边上，这样就可以不用浪费时间在交通上，以一个饱满的状态进入工作状态。</p>
@@ -183,8 +227,8 @@
 
 <aside class="aside-block">
   <blockquote>
-    <p>The most valuable asset of a 21st-century institution, whether business or non-business, will be its knowledge workers and their productivity. Knowledge worker productivity is the biggest of the 21st century management challenges.“ - Peter Drucker [ 「Management Challenges for the 21st Century」](http://www.amazon.com/Management-Challenges-Century-Peter-Drucker/dp/0887309992)
- </p>
+<pre class="highlight plaintext"><code>&lt;p&gt;The most valuable asset of a 21st-century institution, whether business or non-business, will be its knowledge workers and their productivity. Knowledge worker productivity is the biggest of the 21st century management challenges." - Peter Drucker [ 「Management Challenges for the 21st Century」](http://www.amazon.com/Management-Challenges-Century-Peter-Drucker/dp/0887309992)
+</code></pre>    <p>&lt;/p&gt;</p>
   </blockquote>
 </aside>
 
@@ -221,17 +265,18 @@
 <div class="content">
   <aside class="aside-block">
   <blockquote>
-    <p>本文摘自我发表在 [《程序员》](http://programmer.csdn.net/) 杂志 10 月刊的文章。</p>
+<pre class="highlight plaintext"><code>&lt;p&gt;本文摘自我发表在 [《程序员》](http://programmer.csdn.net/) 杂志 10 月刊的文章。&lt;/p&gt;
+</code></pre>
   </blockquote>
 </aside>
 
 <p>毫无疑问，<a href="https://www.stephencovey.com/%E2%80%8E">Stephen R. Covey</a> 的<a href="https://www.stephencovey.com/7habits/7habits.php">《The 7 Habits of Highly Effective People》</a>和 <a href="http://www.davidco.com/">David Allen</a> 的 <a href="https://secure.davidco.com/store/catalog/GETTING-THINGS-DONE-PAPERBACK-p-16175.php">《Getting Things Done: The Art of Stress-Free Productivity》</a> 是个人管理类的超级畅销书，让我们学会如何才能成为高效能人士。然而，即使团队里的所有人都是高效能人士，这个团队也不一定是 个高效能团队。我们常说“一个和尚有水喝，两个和尚挑水喝，三个和尚没水喝”，正是出于这个道理。顾名思义，团队协作是指所有团队成员之间协同、合作，里 面会有分工、沟通、协调，甚至会有妥协，所以我们需要一些规则和工具来帮助团队提高协作效率。本文的一些心得和实践来自于我在小团队（&lt;10）的经验，并且在团队内部相互信任、目标一致的基础上，所以不涉及办公室人事管理，适合于创业型开发团队。</p>
 
 <aside class="aside">
-  ![Same Goal](startup-collaboration-advice/collaboration-hands.jpg)
+  <p><img src="/images/startup-collaboration-advice/collaboration-hands.jpg?1477722041" alt="Same Goal"></p>
 </aside>
 
-<h3>目标一致</h3>
+<h3 id="section">目标一致</h3>
 
 <p>不仅要确保团队的长期目标一致，还要确保短期目标一致。如同在足球场踢球，刚开始比赛时，大家战术和思想都是一致的。而一旦进球后，就会出现有人想守，有人想攻的情况，这种不一致会造成局面被动并可能导致输球。创业团队也是如此。所以在任何时候，团队成员都要保持一致意见：现阶段的目标是什么，什么事情对团队最重要，然后所有做的事情都配合这个目标来完成。</p>
 
@@ -263,30 +308,31 @@
 
 <div class="content">
   <aside class="aside">
-  ![Show Me](how-to-find-tech-cofounder/show-me.jpg)
+  <p><img src="/images/how-to-find-tech-cofounder/show-me.jpg?1477722041" alt="Show Me"></p>
 </aside>
 
 <p>昨天在 36kr 看到一篇文章很有意思，<a href="http://www.36kr.com/p/206766.html">「为什么很多技术合伙人参与创业时会先谈钱」</a>，其实简单说就是信任问题，要不对人缺乏信任，要不对要做的事情还缺乏信任。因为一个靠谱的技术人员，可能这种场景又见多了，一开始会出于保护先以怀疑的眼光看待整个事情。比如下面这两个桥段，很多技术朋友都觉得很熟悉。</p>
 
 <blockquote>
-    <p>用了你们的产品觉得不错，团队挺强。我有个非常 NB 的想法，能颠覆行业改变世界，就是没技术团队来做。如果你们跟我一起做的话，一定 XXX</p>
+<pre class="highlight plaintext"><code>&lt;p&gt;用了你们的产品觉得不错，团队挺强。我有个非常 NB 的想法，能颠覆行业改变世界，就是没技术团队来做。如果你们跟我一起做的话，一定 XXX&lt;/p&gt;
+</code></pre>
 </blockquote>
-
 <blockquote>
-    <p>我有个很 NB 的想法，我也认识很多投资人，只要你们给我做出来肯定就能拿到投资再做大，我可以给你 X% 的股份。</p>
+<pre class="highlight plaintext"><code>&lt;p&gt;我有个很 NB 的想法，我也认识很多投资人，只要你们给我做出来肯定就能拿到投资再做大，我可以给你 X% 的股份。&lt;/p&gt;
+</code></pre>
 </blockquote>
 
 <p>我经常会收到这样的邮件或者 IM 消息。如果我回答说要收一定的费用，他们就会非常惊奇，这么好的项目拉你一起玩你竟然还在乎前期的那点收入，真是鼠目寸光。QNMD，真的，我不需要。</p>
 
 <p>也经常有朋友让我给推荐靠谱的技术伙伴，我也一直说：“我可以帮忙牵线。靠谱的人就那么点，也从来不缺乏各种机会，所以如果看轻技术的话就算了。真要谈，请给予足够的尊重和诚意，剩下的真得看缘分。”</p>
 
-<h3>启动项目的机会成本</h3>
+<h3 id="section">启动项目的机会成本</h3>
 
-<p>假设真的启动一个创业项目，表示大家对产品方向的认可，意味着不出意外会在这个产品至少花一两年甚至更久。可是对于技术人员来说，在职业生涯中还有多少个可以折腾的一两年，还有多少次试错的机会。思考的成本是很低的，但是一旦项目开始启动，时间成本机会成本都是巨大的。所以，做为一个技术人员，对待那些拍脑袋想出的 idea，不会说我们做出来试试吧，然后花上个几个月半年的时间奉献自己。相反，会看看你到底有多少诚意，会故意"刁难"你，了解你是否愿意花钱去做这个产品，逼迫你去想得更清楚。</p>
+<p>假设真的启动一个创业项目，表示大家对产品方向的认可，意味着不出意外会在这个产品至少花一两年甚至更久。可是对于技术人员来说，在职业生涯中还有多少个可以折腾的一两年，还有多少次试错的机会。思考的成本是很低的，但是一旦项目开始启动，时间成本机会成本都是巨大的。所以，做为一个技术人员，对待那些拍脑袋想出的 idea，不会说我们做出来试试吧，然后花上个几个月半年的时间奉献自己。相反，会看看你到底有多少诚意，会故意”刁难”你，了解你是否愿意花钱去做这个产品，逼迫你去想得更清楚。</p>
 
-<h3>你是否真的是找技术合伙人</h3>
+<h3 id="section-1">你是否真的是找技术合伙人</h3>
 
-<p>回过头来，仔...</p>
+<p>回过头来，仔细思考一下，你是否真的是在找一个技术合伙人，<strong>合伙人</strong>。技术合伙人相当于 CTO 的角色，...</p>
 
   <p>
     ......
@@ -318,21 +364,16 @@
   <p>在 <a href="http://yedingding.com/2013/08/08/dig-into-code-review-process.html">「让代码审核成为你的团队习惯」</a> 一文中，我们分享了我们团队做代码审核的一些经验心得，在微博上引起了热烈的讨论，引出了一些非常有意思的工作流介绍，比如下面的几点。</p>
 
 <blockquote>
-    <p>我们有 master-dev 分支，比较大的功能才会新开 branch，小功能都是直接到 dev 上的，再加上团队在一起开发所以固定时间看昨日的代码，效果还不错。我们同样没有 QA，自己做的 ticket 也会找对方来做测试，但多是功能的完整性上的测试了。<cite> - <a href="http://weibo.com/iamroody" target="_blank">@iarmroody</a></cite></p>
+<pre class="highlight plaintext"><code>&lt;p&gt;我们有 master-dev 分支，比较大的功能才会新开 branch，小功能都是直接到 dev 上的，再加上团队在一起开发所以固定时间看昨日的代码，效果还不错。我们同样没有 QA，自己做的 ticket 也会找对方来做测试，但多是功能的完整性上的测试了。&lt;cite&gt; - &lt;a href="http://weibo.com/iamroody" target="_blank"&gt;@iarmroody&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+</code></pre>
 </blockquote>
 
 <blockquote>
-    <p>我们团队小，每个开发人员一个 git 分支，基本上工作不会互相打扰。我们的分支策略是，对于新功能，从主干开一个功能分支，然后每个开发在功能分支上开个人分支。合并时，先 BI（Backward Integration)，，再 FI（Forward Integration)。每周四定期合并，合并时 review。之所以放在周四，是因为如果合并出错，周五还有时间修复。<cite> - <a href="http://weibo.com/u/2128792480" target="_blank">@施懿民</a></cite></p>
+<pre class="highlight plaintext"><code>&lt;p&gt;我们团队小，每个开发人员一个 git 分支，基本上工作不会互相打扰。我们的分支策略是，对于新功能，从主干开一个功能分支，然后每个开发在功能分支上开个人分支。合并时，先 BI（Backward Integration)，，再 FI（Forward Integration)。每周四定期合并，合并时 review。之所以放在周四，是因为如果合并出错，周五还有时间修复。&lt;cite&gt; - &lt;a href="http://weibo.com/u/2128792480" target="_blank"&gt;@施懿民&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+</code></pre>
 </blockquote>
 
-<p>每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 <a href="https://fengcheco.com">Fengche.co</a> 在用，之前 10 个人做 Socialspring 也在用。个人觉得非常适合技术型创业团队。</p>
-
-<p>在选择代码级别的项目管理工作流程的时候，我们希望能达到这样的目标：</p>
-
-<ul>
-<li>
-<strong>能够持续交付</strong>：我们没有固定的发布周期，而是一个更改通过审查就可以直接上线，这样我们才能很快地发布新的功能或者 bug 修复，也能快速地获得用户对修改的反馈。...</li>
-</ul>
+<p>每个团队都在寻找最适合自己团队的工作方法，希望能提高工作效率和团队协作。我们也是，这也是为什么我们除了代码审查之外，还需要过程审查这类的执行过程。像上面提到的两种方式，肯定也是在各自团队推行中觉得效果不错的，但是个人觉得在过程上在效率上还是有改进空间的，具体理由看下面，可以对比我们的目标和相应方式。目前我们使用的这一套 Git 工作流，是我们这几年不断的过程演进而来，目前 4 个人做 <a href="https://fengcheco.com">Fengche.co</a> 在用，之前 10 个人做...</p>
 
   <p>
     ......
@@ -366,12 +407,12 @@
 <p>在 <a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5">Wikipedia</a> 上，对代码审查的定义是</p>
 
 <blockquote>
-代码审查（英语：Code Review）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查[1]。
+  <p>代码审查（英语：Code Review）是指对计算机源代码系统化地审查，常用软件同行评审的方式进行，其目的是在找出及修正在软件开发初期未发现的错误，提升软件质量及开发者的技术。代码审查常以不同的形式进行，例如结对编程、非正式的看过整个代码，或是正式的软件检查[1]。</p>
 </blockquote>
 
 <p>可以看出，代码审查主要是为了软件质量和个人开发修养。巧合的是，但凡我接触过的靠谱的团队，无一不是在团队中推行严格的代码审查制度。这个就像是一种习惯，直接融入在团队血液之中。</p>
 
-<h3>为什么我们要求代码审查</h3>
+<h3 id="section">为什么我们要求代码审查</h3>
 
 <p>人们习惯用自己能衡量的东西来判断一件事情，所以对于代码审查而言，我们能看到的是它需要花掉一些人的一些额外的时间，那些本应该用来继续做开发的时间。这也正是代码审查在团队推行遇到的最大阻力。</p>
 
@@ -406,20 +447,24 @@
 
 <div class="content">
   <aside class="aside">
-![Remote Work WorldMap](remote-team-the-things-you-should-know/remote-work-worldmap.jpg)
+  <p><img src="/images/remote-team-the-things-you-should-know/remote-work-worldmap.jpg?1477722041" alt="Remote Work WorldMap"></p>
 </aside>
 
 <p>前记：本文源于我在知乎上回答的<a href="http://www.zhihu.com/question/20011303/answer/17978689">「团队成员都在异地办公有哪些优劣？」</a>。在国外远程工作已经是很习以为常的事情，而国内却仍然是个新鲜事。经常也会有朋友问我如何适应远程工作，如何管理远程团队，觉得还是有挺多的可以交流的，故在这里记录点文字，希望对大家有帮助。</p>
 
 <p>算算从 07 年开始到现在基本都是在异地办公，从一开始一个人兼多种角色做独立开发者，也经历并管理过一个曾多达 18 人的远程团队，到现在 3 个人创业，做团队高效协作工具 <a href="https://fengcheco.com" title="团队高效协作工具">Fengche.co</a>，依然大部分时间远程。大体上远程工作，在我看来主要包含三个方面：1）团队 2）工具 3）规矩。</p>
 
-<h3>团队</h3>
+<h3 id="section">团队</h3>
 
 <p>当我们说到团队适不适合远程工作时，这里会有两层意思：一是团队里的个人是否适合远程工具，二是这个团队适不适合远程工作。</p>
 
-<h4>团队个人</h4>
+<h4 id="section-1">团队个人</h4>
 
-<p>远程工作远不是人们想像中的自由状态，想工作就工作，不想工作就不工作。所以并不是所有人都适合远程工作，只有自律且耐得住寂寞的人才适合远程工作。“自律”，说易行难，却很重要，你在一个完全没有监督的环境，有大把的时间供你挥霍，你能否迅速调整到最佳工作状态，是工作成败的一个很关键因素。如果说当你对所做的事情充满激情而能努力工作的话，那么当激情退却的时候，能否仍然保持自律是个更大的挑战。“耐得住寂寞”是另外一个要求，即使你在一个团队里，大多数时候没有人说话，没有人扯淡，也没有人讨论，甚至当你无法很好把握生活和工作的平衡时有时一天也出不了一次门说不了几句话，所以如果你很看重或热衷职场社交活动的话，那么远程工作并不适合你。然而，一旦你习惯了这种工作方式，你会发现你可以选择更自由的工作方式，有更多的时间可以用来学习，也有更多的时间可...</p>
+<p>远程工作远不是人们想像中的自由状态，想工作就工作，不想工作就不工作。所以并不是所有人都适合远程工作，只有自律且耐得住寂寞的人才适合远程工作。“自律”，说易行难，却很重要，你在一个完全没有监督的环境，有大把的时间供你挥霍，你能否迅速调整到最佳工作状态，是工作成败的一个很关键因素。如果说当你对所做的事情充满激情而能努力工作的话，那么当激情退却的时候，能否仍然保持自律是个更大的挑战。“耐得住寂寞”是另外一个要求，即使你在一个团队里，大多数时候没有人说话，没有人扯淡，也没有人讨论，甚至当你无法很好把握生活和工作的平衡时有时一天也出不了一次门说不了几句话，所以如果你很看重或热衷职场社交活动的话，那么远程工作并不适合你。然而，一旦你习惯了这种工作方式，你会发现你可以选择更自由的工作方式，有更多的时间可以用来学习，也有更多的时间可以陪伴家人，你会喜欢上这种感觉，:)</p>
+
+<h4 id="section-2">团队情感</h4>
+
+<p>如果你找到了自律并耐得住寂寞的人一起工作，那么恭喜你。下面就是你得信任他，100% 的信任，如果你花时间去思考他到底是不...</p>
 
   <p>
     ......
@@ -449,24 +494,25 @@
 
 <div class="content">
   <aside class="aside">
-  ![Fengche.co Tour Video](video-for-startup/example.png)
+  <p><img src="/images/video-for-startup/example.png?1477722041" alt="Fengche.co Tour Video"></p>
 </aside>
 
 <p>前天在微博上发了一条消息介绍视频托管服务 <a href="http://wistia.com">Wista</a>，很多朋友回复并给出很多很好的信息，觉得很有必要汇总一下，希望对创业者有用。</p>
 
 <blockquote>
-    <p>一般那些有产品视频的网站我个人印象分都会有提升，但是打开视频你让我先看 30 秒优酷广告我就有点受不了了，优酷有没有提供付费免广告的服务我不知道，不过 Wistia 是个很靠谱的视频服务，可以看这个例子，<a href="http://t.cn/zQvd8NG" target="_blank">http://t.cn/zQvd8NG</a> 国内问过各个地区的朋友都说速度没问题，清晰度也好 #创业工具箱#</p>
+<pre class="highlight plaintext"><code>&lt;p&gt;一般那些有产品视频的网站我个人印象分都会有提升，但是打开视频你让我先看 30 秒优酷广告我就有点受不了了，优酷有没有提供付费免广告的服务我不知道，不过 Wistia 是个很靠谱的视频服务，可以看这个例子，&lt;a href='http://t.cn/zQvd8NG' target='_blank'&gt;http://t.cn/zQvd8NG&lt;/a&gt; 国内问过各个地区的朋友都说速度没问题，清晰度也好 #创业工具箱#&lt;/p&gt;
+</code></pre>
 </blockquote>
 
 <p>曾经看到过数据，用户在看到一个网站后点进去的平均访问时间是 6 到 7 秒。也就是说你只有七秒的时间来让用户了解你的产品，然后吸引那批感兴趣的用户多停留一段时间。所以很多网站在传达清晰明确的产品信息给你的同时，会提供更多辅助的形象化表达方式。我们常说，一图胜千言，一屏胜万文。有统计一个好的产品介绍视频能带来 <strong>64% 到 85%</strong> 左右的转化率提升，会让你的网站的平均访问时间<strong>提高两分钟</strong>。所以，创业者们，好好思考一下视频，严肃地。</p>
 
 <p>但是，制造一个产品视频会涉及到文案、录制、后期、音乐、托管等，而中间三个是技术创业团队很少具有的能力，我相信这也正是很多产品缺乏视频的一个主要原因。所幸的是，这是一个分工合作的年代，这些专业的事情就应该交给专业的人去做。如果这个不是业务的核心，我相信付出一点点的成本来寻求更好的回报是个更好的选择。这里列一下我了解的和朋友分享的几种托管方案和制作选择。</p>
 
-<h3>视频托管</h3>
+<h3 id="section">视频托管</h3>
 
 <p>先假设你有了视频后，你会选择放在哪里？下面是我经历过的或者朋友推荐的。Youtube 在我亲测下来其实是非常好的选择，无论各方面来讲，可惜被墙掉了，所以本文就忽略了。</p>
 
-<h4>Wistia</h4>
+<h4 id="wistia">Wistia</h4>
 
 <p><a href="http://wistia.com">Wistia</a> 是目前 <a href="https://fengcheco.com">Fengche...</a></p>
 
@@ -475,60 +521,6 @@
   </p>
   <p>
     <a href="/2013/07/04/video-for-startup.html">Read more →</a>
-  </p>
-</div>
-    </article>
-    <article class="post">
-      <header>
-  <h2 class="title">
-    <a href="/2013/05/22/happy-hackathon.html">黑客马拉松 - 玩脱了就行！</a>
-  </h2>
-  <div class="meta">
-    <span class="dates">
-      <i class="fa fa-calendar-o"></i> <span class='date'>May 22, 2013</span>
-    </span>
-    <span class="tags">
-      <i class="fa fa-tags"></i>
-        <a href="/tags/hackathon.html">hackathon</a>
-        <a href="/tags/hacking.html">hacking</a>
-    </span>
-  </div>
-</header>
-
-<div class="content">
-  <aside class="aside">
-  ![Rails Rumbling](happy-hackathon/rumbling.jpg)
-</aside>
-
-<p>去年十月参加 <a href="http://railsrumble.com">Rails Rumble 2012</a>，做了一个 <a href="http://call4review.com">call4review.com</a>，虽然现在已经很少打理，但是偶尔用到几次也觉得挺有价值。这是第二次参加 Rails Rumble，2010 年和 <a href="http://lvguoning.com">Daniel</a>、<a href="http://terrytai.com">Terry</a>、<a href="#">David Pots</a> 做了个 IMGateway，2012 年和 <a href="http://beenhero.com">Ben</a>、<a href="http://terrytai.com">Terry</a> 做了这个 Call4Review，每每谈论起整个过程，个个眉飞目舞，意犹未尽的样子。其实就两个字，好玩！Just for fun，这不正是黑客精神的很好诠释嘛。</p>
-
-<blockquote>
-  <p>当时：困倦，但是兴奋得睡不着觉。事后：几周，几个月，甚至一年后想起 Rumble的经历，依然充满各种欢乐的回忆。<cite>— <a href="//lvguoning.com">Daniel</a></cite></p>
-</blockquote>
-
-<blockquote>
-  <p>犹如一场48小时的电竞比赛… 紧张刺激而又充满乐趣… <cite>— <a href="//terrytai.com">Terry</a></cite></p>
-</blockquote>
-
-<blockquote>
-  <p>是一场极限'运动’, 在严格的限定时间里产出自己最大的效能, 很刺激很过瘾. <cite>— <a href="//beenhero.com">Ben</a></cite></p>
-</blockquote>
-
-<p>相对惭愧的是，国内的黑客马拉松参加的少，只因为习惯了远程工作，对于这种限定场地的反而感觉到了不自在。上周跟<a href="http://segmentfault.com/u/sunny">高阳</a>聊起黑客马拉松，获得了一些有意思的信息，也知道他们最近正在搞 <a href="http://segmentfault.com/codejam-2013">CodeJam</a>。程序员大多都很宅，远程工作的就是死宅了… ❨╯°□°❩╯︵ ┻━┻  提供和限定场地可以让参加的团队能互相交流，思想碰撞，有一种跟线上比赛完全不一样的感官享受。</p>
-
-<p>这里分享一下我们参加过几次 Rumble 的经验。</p>
-
-<ol>
-<li>做最小化的东西，你只有 48 小时的开发时间，把功能砍到不能再砍。</li>
-<li>充分的准备，不要在比赛的时候去做选择方案的事。规则不允许提前开发，但是你应该对开发中遇到的所有技术难点都提前有尝试。</li>
-<li>一个好的协作工具。48 小时开发是非常高强度的，交流可以靠吼，进度控制管理必须靠工具，这样团队...</li>
-</ol>
-
-  <p>
-    ......
-  </p>
-  <p>
-    <a href="/2013/05/22/happy-hackathon.html">Read more →</a>
   </p>
 </div>
     </article>

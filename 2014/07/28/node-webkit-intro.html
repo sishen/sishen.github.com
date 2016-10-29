@@ -35,28 +35,22 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691914">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691914">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1477722035">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1477722035">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1470691914">
-    <script src="/javascripts/all.js?1470691914"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1477722035">
+    <script src="/javascripts/all.js?1477722035"></script>
+    <script src="/javascripts/main.js?1477722035"></script>
   </head>
   <body class="x2014 x2014_07 x2014_07_28 x2014_07_28_node-webkit-intro ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
-      <div id="subscribe-cta">
-        <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-          <label for="email">分享技术、创业、团队协作和项目管理上的思考</label>
-          <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-          <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-        </form>
-      </div>
       <div id="nav">
         <nav class="global-nav">
           <ul>
@@ -68,7 +62,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1470691914" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1477722035" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -98,7 +92,7 @@
 
 <div class="content">
   <aside class="aside">
-  ![node-webkit](node-webkit-intro/nw.jpg)
+  <p><img src="/images/node-webkit-intro/nw.jpg?1477722035" alt="node-webkit" /></p>
 </aside>
 
 <p>上周末在 <a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html">Teahour</a> 邀请到了 node-webkit 的作者<a href="https://twitter.com/wwr">王文睿</a>来做客，聊了一下 node-webkit 的故事和 HTML5 技术在应用程序开发领域的发展，很有收获。最近几年，用 Web 技术来开发应用程序的框架层出不穷，如 node-webkit, Chrome Apps, Titanium, TideSDK, Atom Shell，而 node-webkit 正是这些框架中的一个佼佼者。</p>
@@ -106,12 +100,12 @@
 <p><a href="https://github.com/rogerwang/node-webkit">node-webkit</a> 这个项目开始于 2011 年，是一个让开发者可以用 Web 技术，也就是 HTML5、CSS 和 JavaScript 来编写桌面程序的应用框架。作为开发者，我们只需要写一份代码，就能编译成跑在 Windows、Mac 和 Linux 下的应用程序。目前在 github 上，node-webkit 有将近 15000 个 Star，1600 个 Fork，可以说是由国人开发的一个非常流行的开源软件。在本期节目中，文睿介绍了目前使用 node-webkit 开发的一些典型应用，大致可以分成这么几类，</p>
 
 <ul>
-<li>桌面开发 IDE，比如 <a href="http://www.lighttable.com/">Light Table</a></li>
-<li>游戏，比如 <a href="http://www.brandonmustdie.com/">Brandon Must Die!</a></li>
-<li>媒体类应用，比如 <a href="http://popcorntime.io/">Popcorn Time</a></li>
-<li>工具软件，比如 <a href="http://pad.haroopress.com/">Haroopod</a></li>
-<li>企业内部应用，比如数据显示应用</li>
-<li>终端应用，比如 POS 机。</li>
+  <li>桌面开发 IDE，比如 <a href="http://www.lighttable.com/">Light Table</a></li>
+  <li>游戏，比如 <a href="http://www.brandonmustdie.com/">Brandon Must Die!</a></li>
+  <li>媒体类应用，比如 <a href="http://popcorntime.io/">Popcorn Time</a></li>
+  <li>工具软件，比如 <a href="http://pad.haroopress.com/">Haroopod</a></li>
+  <li>企业内部应用，比如数据显示应用</li>
+  <li>终端应用，比如 POS 机。</li>
 </ul>
 
 <p>可以看出，领域非常丰富，其中也不乏一些设计精良体验优美的应用。可以说，很大程度上，这得益于目前硬件的性能提升和 Web 的发展，动画、图形、音频、视频、2D、3D、WebGL 等等，都让基于 HTML5 的应用开发充满了想象力。</p>
@@ -130,15 +124,15 @@
 
 <p>解决了事件处理统一的问题后，node 和 webkit 的揉合还需要互相能访问。node-webkit 里面存在着两个 context，node context 和 webkit context，互相访问也就是 Context 能互通，访问各自的对象。所以在 node-webkit 初始化的时候，node context 会被注入到 WebKit 里面。之后，Webkit context 就可以访问到 node context 了。</p>
 
-<p>同时，node-webkit 对 Webkit 的安全模型也做了一些修改。在 node-webkit 中，有两种不同的 frames，node frame 和 normal frame<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>。熟悉 Web 开发的朋友应该知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 <a href="http://en.wikipedia.org/wiki/Same_origin_policy">Same-origin Policy</a>。node-webkit 中的 normal frame，跟浏览器中的一样，仍然有这个限制。但是在 node frame 中，将不再有这个限制，所有的 node frame 中共享同一个 security token，包括 node context
+<p>同时，node-webkit 对 Webkit 的安全模型也做了一些修改。在 node-webkit 中，有两种不同的 frames，node frame 和 normal frame<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>。熟悉 Web 开发的朋友应该知道，对不同的站点发起一个 AJAX 请求会返回跨域错误，也就是 <a href="http://en.wikipedia.org/wiki/Same_origin_policy">Same-origin Policy</a>。node-webkit 中的 normal frame，跟浏览器中的一样，仍然有这个限制。但是在 node frame 中，将不再有这个限制，所有的 node frame 中共享同一个 security token，包括 node context
 和 webkit context，跨域访问被允许，也就能访问到 node context 中的对象。所以作为应用开发者，对于不受信任的用户行为输入一定要做保护，防止因为这个造成一些破坏性行为，或者放入 normal frame 中。</p>
 
 <aside class="aside">
-  ![Chromium Layers](node-webkit-intro/chromium-layers.jpg)
-  <small>Chromium Conceptual Application Layers</small>
+  <p><img src="/images/node-webkit-intro/chromium-layers.jpg?1477722035" alt="Chromium Layers" />
+  <small>Chromium Conceptual Application Layers</small></p>
 </aside>
 
-<p>值得注意的是，尽管 Chrome 本身对于 HTML5 的支持已经比较完备了，但是有些特性是在浏览器层即上图的 Browser 实现，而 node-webkit 中 webkit 只到了 Content Layer 即上图的 WebContent，node-webkit 本身的实现等于浏览器层。所以，node-webkit 对于一些 HTML5 特性还缺乏支持，比如 Web Notification<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>。不过，目前 Chromium 团队正在把这些 HTML5 特性的支持解耦移动到 Content Layer，这个对于 node-webkit 来说绝对是个非常好的消息。</p>
+<p>值得注意的是，尽管 Chrome 本身对于 HTML5 的支持已经比较完备了，但是有些特性是在浏览器层即上图的 Browser 实现，而 node-webkit 中 webkit 只到了 Content Layer 即上图的 WebContent，node-webkit 本身的实现等于浏览器层。所以，node-webkit 对于一些 HTML5 特性还缺乏支持，比如 Web Notification<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>。不过，目前 Chromium 团队正在把这些 HTML5 特性的支持解耦移动到 Content Layer，这个对于 node-webkit 来说绝对是个非常好的消息。</p>
 
 <p>如果你细心的看上图的话，你会发现浏览器层还有 UI 绘制部分。node-webkit 也是一样，实现了直接绘制原生 UI 控件的 API，比如菜单、系统托盘、剪贴板等。这部分实现，的确也是主要参考了 Chromium 的跨平台 UI 实现。</p>
 
@@ -147,18 +141,14 @@
 <p>如果你想了解最多 node-webkit 的信息，可以听听我们这期 <a href="http://teahour.fm/2014/07/22/node-webkit-with-rogerwang.html">Teahour 节目</a>。如果你想开发跨平台的桌面应用，那么官方的 <a href="https://github.com/rogerwang/node-webkit/wiki">Wiki</a> 绝对是个很好的开始。</p>
 
 <div class="footnotes">
-<hr>
-<ol>
-
-<li id="fn1">
-<p>对于 node-webkit 的安全模型，具体可以参考 <a href="https://github.com/rogerwang/node-webkit/wiki/Security">https://github.com/rogerwang/node-webkit/wiki/Security</a>, 了解如何使用这两种不同的 Frame。&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
-</li>
-
-<li id="fn2">
-<p>目前已经有 <a href="https://github.com/rogerwang/node-webkit/pull/1951">PR</a> 实现了 Notification，相信不久会在 node-webkit 正式版中被支持。&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
-</li>
-
-</ol>
+  <ol>
+    <li id="fn:1">
+      <p>对于 node-webkit 的安全模型，具体可以参考 https://github.com/rogerwang/node-webkit/wiki/Security, 了解如何使用这两种不同的 Frame。 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>目前已经有 <a href="https://github.com/rogerwang/node-webkit/pull/1951">PR</a> 实现了 Notification，相信不久会在 node-webkit 正式版中被支持。 <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
 </div>
 
 
@@ -176,16 +166,16 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1470691914" alt="Yedingding" />
+      <img src="/images/yedingding.png?1477722035" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
 
-      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 联合创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
       <div class="social-action">
         <span class="rss">
-          <i class="fa fa-rss"></i> <a href="#subscribe">订阅博客</a>
+          <i class="fa fa-rss"></i> <a href="/feed.xml">订阅博客</a>
         </span>
         <span class="weibo">
           <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
@@ -193,17 +183,11 @@
         <span class="twitter">
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">加 Twitter 好友</a>
         </span>
-
-        <div class="subscribe-form">
-          <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-            <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-            <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-          </form>
-        </div>
       </div>
     </div>
   </div>
 </div>
+
 
   </article>
 

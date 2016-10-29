@@ -35,28 +35,22 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1470691914">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1470691914">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1477722034">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1477722034">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1470691914">
-    <script src="/javascripts/all.js?1470691914"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1477722034">
+    <script src="/javascripts/all.js?1477722034"></script>
+    <script src="/javascripts/main.js?1477722034"></script>
   </head>
   <body class="x2014 x2014_11 x2014_11_20 x2014_11_20_teahour-60-data-scientist ">
       <div id="banner" style="height: 440px">
       </div>
     <header id="header">
-      <div id="subscribe-cta">
-        <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-          <label for="email">分享技术、创业、团队协作和项目管理上的思考</label>
-          <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-          <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-        </form>
-      </div>
       <div id="nav">
         <nav class="global-nav">
           <ul>
@@ -68,7 +62,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1470691914" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1477722034" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -100,11 +94,11 @@
 <div class="content">
   <p>本文是 Teahour 第 60 期 <a href="http://teahour.fm/2014/08/07/machine-learning-with-ding-lei.html">『与丁磊聊机器学习和数据科学』</a> 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 <a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en">http://itunes.apple.com/cn/podcast/teahour.fm/id608387170</a>。Android 用户可以使用 <a href="http://m.coolapk.com/apk/de.danoeh.antennapod">AntennaPod</a> 来订阅。</p>
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg">
+<audio controls="" name="media">
+  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg" />
 </audio>
 
-<h3>Part 1 - Data Science 的前世今生</h3>
+<h3 id="part-1---data-science-">Part 1 - Data Science 的前世今生</h3>
 
 <p><strong>Kevin</strong>：大家好，欢迎再一次来收听我们 Teahour.fm 的节目。今天是第60期，是由我- Kevin 和玎玎来主持。今天我们邀请来的嘉宾是丁磊。丁磊，你好！</p>
 
@@ -151,8 +145,12 @@
 <p><strong>丁磊</strong>：大数据的应用大多数还是企业级的，即企业来建造一个应用的平台，在上面进行数据分析，进行大数据的优化。企业级的才有那么大的数据。如果要具体划分的话，整个生态系统分几类，</p>
 
 <ol>
-<li><p>数据公司，专门做数据平台的，像现在比较火的 <a href="https://databricks.com">Databricks</a> 是做 Spark 的，提供 Spark 的平台，原来的 <a href="http://www.cloudera.com">Cloudera</a> 提供 Hadoop 。甚至包括一些做机器学习的人，他建立了一些公司，比如说 <a href="http://graphlab.org">Graphlab</a>，提供了一些基于图的机器学习的算法平台。这些是纯做平台的公司，不是在一个 Industry 的垂直领域。</p></li>
-<li><p>做具体的 Application 的公司。做 application 的公司，因为我个人背景的原因，我接触的大数据集中在广告电商这块。这些公司相对来说数量比较多，需要用到很多大数据的应用。所以你可以说它们是在一个垂直领域的大数据的平台。电商领域也是这样的。现在越来越多在传统领域都想建立大数据，甚至是在保险做广告方面的有很多广告平台公司金融公司包括医疗信息系统公司，都想建立大数据系统的应用。但那些相对于广告和电商才是刚刚发展起来的领域。</p></li>
+  <li>
+    <p>数据公司，专门做数据平台的，像现在比较火的 <a href="https://databricks.com">Databricks</a> 是做 Spark 的，提供 Spark 的平台，原来的 <a href="http://www.cloudera.com">Cloudera</a> 提供 Hadoop 。甚至包括一些做机器学习的人，他建立了一些公司，比如说 <a href="http://graphlab.org">Graphlab</a>，提供了一些基于图的机器学习的算法平台。这些是纯做平台的公司，不是在一个 Industry 的垂直领域。</p>
+  </li>
+  <li>
+    <p>做具体的 Application 的公司。做 application 的公司，因为我个人背景的原因，我接触的大数据集中在广告电商这块。这些公司相对来说数量比较多，需要用到很多大数据的应用。所以你可以说它们是在一个垂直领域的大数据的平台。电商领域也是这样的。现在越来越多在传统领域都想建立大数据，甚至是在保险做广告方面的有很多广告平台公司金融公司包括医疗信息系统公司，都想建立大数据系统的应用。但那些相对于广告和电商才是刚刚发展起来的领域。</p>
+  </li>
 </ol>
 
 <p><strong>Kevin</strong>：我们现在讲的大数据，最近几年的概念，比如说商业、智能、BI、数据分析甚至统计上的很多东西都已经有很久了。我们现在讲的这个大数据和以前意义上的大数据是一个什么样的关系？</p>
@@ -174,14 +172,30 @@
 <p><strong>丁磊</strong>：大家谈数据科学，也谈数据分析，在有些地方数据分析又等于数据科学。这本身没什么界限。不同的人可以得到很多不同的答案。一个搞研究的人，他可能觉得数据分析可能是得用微分方程的叫做分析；对于企业中的一些分析员，可能分析就是做一个 excel 报表。分析这个词存在很多的定义。数据分析有八个层次。</p>
 
 <ol>
-<li><p>第一个层次是一个标准的报表，发生了什么事情。比如说月度报表、季度报表。用 excel 就能做出来，甚至用不到 MySQL。</p></li>
-<li><p>第二层是即席查询，也就是 Ad hoc 的查询。比如说，一周内门诊病人的数量。这个报表即席的做出来。应该 MySQL 就可以了。</p></li>
-<li><p>第三层是多维分析。相当于 BI 上面的 OLAP 的分析。分析多个变量之间的关系。比如说，碰到一个商业问题，可以分析出来这个问题在哪里。 哪种手机类型的用户的行为是什么样的。这种叫做多维的分析。这也是一种查询，但可能用一些其他的技术，比如 OLAP 的技术。</p></li>
-<li><p>第四种叫做警报。当一个事情发生以后会告诉你采取哪些行为。这比简单的分析要求更高的东西。</p></li>
-<li><p>第五层叫做统计分析。比如说可以进行一些频域分析，或者回归分析，从数据中提取规律，是一些比较探索性的统计分析的问题。</p></li>
-<li><p>第六种叫做预报或者预测，预测一个商品在未来的需求量。比如说进行一些时序分析或一些更高级的统计分析。</p></li>
-<li><p>第七种叫做预测建模。这是更加像我刚刚所说的机器学习，比如说给他展示某些广告以后，他会进行哪些行为。这些东西就是预测建模。</p></li>
-<li><p>最后一种叫做优化，如何提高 ROI ，提高投资回报比。这个东西不光要能预测事情发生的规律，还得能优化它 ，从而使企业的利润更好，使 ROI 更高。这就是它说的最高的一个层次。</p></li>
+  <li>
+    <p>第一个层次是一个标准的报表，发生了什么事情。比如说月度报表、季度报表。用 excel 就能做出来，甚至用不到 MySQL。</p>
+  </li>
+  <li>
+    <p>第二层是即席查询，也就是 Ad hoc 的查询。比如说，一周内门诊病人的数量。这个报表即席的做出来。应该 MySQL 就可以了。</p>
+  </li>
+  <li>
+    <p>第三层是多维分析。相当于 BI 上面的 OLAP 的分析。分析多个变量之间的关系。比如说，碰到一个商业问题，可以分析出来这个问题在哪里。 哪种手机类型的用户的行为是什么样的。这种叫做多维的分析。这也是一种查询，但可能用一些其他的技术，比如 OLAP 的技术。</p>
+  </li>
+  <li>
+    <p>第四种叫做警报。当一个事情发生以后会告诉你采取哪些行为。这比简单的分析要求更高的东西。</p>
+  </li>
+  <li>
+    <p>第五层叫做统计分析。比如说可以进行一些频域分析，或者回归分析，从数据中提取规律，是一些比较探索性的统计分析的问题。</p>
+  </li>
+  <li>
+    <p>第六种叫做预报或者预测，预测一个商品在未来的需求量。比如说进行一些时序分析或一些更高级的统计分析。</p>
+  </li>
+  <li>
+    <p>第七种叫做预测建模。这是更加像我刚刚所说的机器学习，比如说给他展示某些广告以后，他会进行哪些行为。这些东西就是预测建模。</p>
+  </li>
+  <li>
+    <p>最后一种叫做优化，如何提高 ROI ，提高投资回报比。这个东西不光要能预测事情发生的规律，还得能优化它 ，从而使企业的利润更好，使 ROI 更高。这就是它说的最高的一个层次。</p>
+  </li>
 </ol>
 
 <p><strong>Kevin</strong>：我觉得这个讲的比较抽象，能不能请你给我们讲几个详细的案例，把那些东西展开在一个案例中具体的说一下。</p>
@@ -204,7 +218,7 @@
 
 <p><strong>丁磊</strong>：第二个是内容。内容也是商业洞察方面很重要的东西。内容是一个很广的词，对不同的 business 他的意义是不同的。比如说 Netflix 包括国内的这些视频网站，它的内容就是这些向用户展示的本身的内容。不同的用户对不同的内容感兴趣。这就是这种视频网站如何跟客户交互的问题。电商网站又有一些其它内容的不同。内容就是一个如何去个性化网站的过程。根据内容的好坏，消费者跟你的网站交互的频率、热度都会有区别。这也是一个 business 它要来优化自己的网站或者 revenue 的方面。第三个是策略，如何吸引消费者。如果有些已经有了消费者，但发现消费者有衰退迹象，越来越少在你的网上买东西，你如何把他吸引回来，这就是一个策略的问题。比如说你可以跟他进行一些沟通，一些 Email 的沟通，或者可以给他投放一些你的优惠券等东西。这后面对 business 确实有一些数据科学方面的算法，可以帮他留住他现有的用户，也可以给增进他跟用户之间的交互，让用户去更多的购买，让用户跟商家之间有更良性的关系。</p>
 
-<h3>Part 2 - Data Science 在预测分析中的应用</h3>
+<h3 id="part-2---data-science-">Part 2 - Data Science 在预测分析中的应用</h3>
 
 <p><strong>Kevin</strong>：我觉得这个部分你可能比较适合，因为你在 Data Science 方面也读了博士，在算法、科学方面比较有长处。</p>
 
@@ -240,7 +254,7 @@
 
 <p><strong>Kevin</strong>：下一方面我们本来想说一下工程方面，但是前面说的多了一点，我想我们今天进入一下案例学习。想让丁磊给我们举一个案例。</p>
 
-<h3>Part 3 - Case Study</h3>
+<h3 id="part-3---case-study">Part 3 - Case Study</h3>
 
 <p><strong>丁磊</strong>：Netflix 是一个电影租赁网站，在美国这边比较 popular ，他们做推荐引擎做的比较有名。是他们在好几年之前组织了一个竞赛，叫 Netflix 大奖赛。它公布了一些数据集，让大家来做推荐算法。赢了的这个队可以拿到很多钱。很多做机器学习和做数据挖掘的高手都来参加这个竞赛。Netflix 的推荐算法对工业界推动挺大的。在 IEEE Computer 有一篇文章，它大概说了一下他们的推荐算法怎么工作的。Netflix 有一个很大的矩阵，一个是客户的维度，一个是电影的维度。它合并在一起就是一个很大的矩阵。比如说玎玎，你看过五部电影，你在你那一行就有一个不是零的数据，来表示你看电影的时间长度，或者看的次数。这是矩阵在每种信息的表示。Netflix 做的比赛获胜的团队根据这篇文章做的算法是矩阵分解的算法。把巨大的矩阵分解成两个小的矩阵。这就是降低维度的算法。降低度是指把巨大的空间用低维的子空间去拟合，即降维的思想。比如说，你有很多的数据点，在很大的空间中，你用相对低维的空间，比如说几百的上千的，来拟合原来更高维的矩阵。</p>
 
@@ -289,9 +303,15 @@
 <p><strong>丁磊</strong>：做机器学习的工具有很多。Hadoop 肯定是一个数据处理的很热门的工具。任何机器学习，任何算法分析都要做很多ETL数据处理的过程。ETL肯定离不开 Hadoop 。现在的趋势是 Spark 变得非常的火。Spark 相对于 Hadoop 也有很多优点：</p>
 
 <ol>
-<li><p>首先，可以很有效的利用内存，减少I/O方面的操作，节省很多时间。这是 Hadoop 做的比较差的地方。</p></li>
-<li><p>第二，对于一些循环的算法、迭代的算法，Spark在这方面很强。机器学习有很多算法都是非常迭代性的，而 Hadoop 在这方面做的比较差。Spark 现在有个很强的社区，有很多很好的算法都是开源的，都可以使用。</p></li>
-<li><p>另外，做一些一般的处理，比如说单机上的处理，采用 Java ，Python ，有的人比较喜欢用 R ，或者是 Scala 等，这些语言，都是很好的工具。</p></li>
+  <li>
+    <p>首先，可以很有效的利用内存，减少I/O方面的操作，节省很多时间。这是 Hadoop 做的比较差的地方。</p>
+  </li>
+  <li>
+    <p>第二，对于一些循环的算法、迭代的算法，Spark在这方面很强。机器学习有很多算法都是非常迭代性的，而 Hadoop 在这方面做的比较差。Spark 现在有个很强的社区，有很多很好的算法都是开源的，都可以使用。</p>
+  </li>
+  <li>
+    <p>另外，做一些一般的处理，比如说单机上的处理，采用 Java ，Python ，有的人比较喜欢用 R ，或者是 Scala 等，这些语言，都是很好的工具。</p>
+  </li>
 </ol>
 
 <p><strong>Kevin</strong>：像 Matlab 现在还有人用么？</p>
@@ -310,7 +330,7 @@
 
 <p><strong>丁磊</strong>：正常是工业界推动，事实上在很多年也是这样的。最近有个很好玩的事情是学术界反而逆袭了。Spark 完全就是一个学术类的项目起来的。Graph Lab 做的也很好。有一些在学术界做的也非常好的组，他们的实力不亚于一个小型的公司。他们有很好的人在那里，跟工业界接触很多，接触的都是工业界的最棘手的问题，而工业界又没有资源去解决。学术界有一些自由度来研究一些非常有影响力但是非常棘手的问题。工业界绝大多数的公司根本没有资源做这个事情，它首先得创造价值，创造利润。学术界在近几年反而能够很好的运用他们的资源，很多事情确实很好的推动到整个业界来使用，尤其是在近几年，在这些大数据和机器学习接口的地方做的更好。</p>
 
-<h3>Part 4 - 大数据在其他领域的应用</h3>
+<h3 id="part-4---">Part 4 - 大数据在其他领域的应用</h3>
 
 <p><strong>Kevin</strong>：我们可以讲一下大数据在其他领域的一些应用，或者讲机器学习这些话题。斯坦福那边进行 translation ，和 Google 联合来进行翻译、自动驾驶的汽车这些应该都算是机器学习的一些分支吧，或者一些新的研究方面。还有无人驾驶的飞行器。我想听听丁磊对这方面的看法。</p>
 
@@ -337,8 +357,12 @@
 <p><strong>丁磊</strong>：作为一个 Data Scientist ，跟传统的工程师是有差异的，是两种完全不同的工作的种类。跟传统的工程师的区别在于：</p>
 
 <ol>
-<li><p>数据科学家特别是好的数据科学家，对东西的数字看的非常清楚，不是仅仅的去写个程序，这是一个最基本的素质。当然他必须得保证程序中整个 flow 中的数据完全准确。</p></li>
-<li><p>数据科学家可能还有另外一个作用是能够驱动产品的需求，能够自己提取产品的需求。传统软件工程师的工作，可能是产品经理有一些需求，然后工程师实现，很多公司都是这样构建的。虽然有很多很聪明的工程师，可以非常创造等，但是作为数据科学家，你可以自己探索需求，发现需求。对于一个数据产品，数据科学家对数据产品最清楚，他自己去分析数据。进入数据、分析数据才可能分析这些需求，才可能把数据产品做好。从这点意义上来说，数据科学家是可以驱动产品需求的过程。</p></li>
+  <li>
+    <p>数据科学家特别是好的数据科学家，对东西的数字看的非常清楚，不是仅仅的去写个程序，这是一个最基本的素质。当然他必须得保证程序中整个 flow 中的数据完全准确。</p>
+  </li>
+  <li>
+    <p>数据科学家可能还有另外一个作用是能够驱动产品的需求，能够自己提取产品的需求。传统软件工程师的工作，可能是产品经理有一些需求，然后工程师实现，很多公司都是这样构建的。虽然有很多很聪明的工程师，可以非常创造等，但是作为数据科学家，你可以自己探索需求，发现需求。对于一个数据产品，数据科学家对数据产品最清楚，他自己去分析数据。进入数据、分析数据才可能分析这些需求，才可能把数据产品做好。从这点意义上来说，数据科学家是可以驱动产品需求的过程。</p>
+  </li>
 </ol>
 
 <p><strong>Kevin</strong>：它最大的不同，是一般的传统工程师在企业里的结构是从上到下的，指令从上面下来的；而数据科学家是从下到上的，对数据研究研究之后，发现一个东西可以影响上面的管理、策略方面的东西。所以它的影响力在合适的环境里影响力是比较大的。</p>
@@ -349,7 +373,7 @@
 
 <p><strong>丁磊</strong>：我很肯定回答——不一定。但是好的数据科学家，一定要对数字有很强的感觉。一般来说，如果是读计算机或者读了机器学习的 PhD，对数据有感觉，是没有问题的。但是未必要读 PhD 才能有那种感觉。我跟一些很好的数据科学家工作过，他们本身没有 PhD，但是他们绝对有很强的数量的意识，并且能够驱动产品的需求，同样能跟各个团队打交道。在我看来他们是很好的数据科学家，确实在某些方面比一些专业的人才更有优势。他们能够很好地对一些新的领域进行适应。</p>
 
-<h3>Part 5 - Share Picks</h3>
+<h3 id="part-5---share-picks">Part 5 - Share Picks</h3>
 
 <p><strong>Kevin</strong>：这个话题我们今天就聊到这里吧。今天聊了很久，感谢丁磊过来。那么我下一个 Teahour.fm 惯有的节目是给大家分享一些东西。丁磊，你先开始吧。</p>
 
@@ -386,16 +410,16 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1470691914" alt="Yedingding" />
+      <img src="/images/yedingding.png?1477722034" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
 
-      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
+      <p><span class="entr">技术创业者，</span>系统架构师，<a href="https://growingio.com?utm_content=about">GrowingIO</a> 联合创始人，<a href="http://teahour.fm">Teahour</a> 主播。</p>
 
       <div class="social-action">
         <span class="rss">
-          <i class="fa fa-rss"></i> <a href="#subscribe">订阅博客</a>
+          <i class="fa fa-rss"></i> <a href="/feed.xml">订阅博客</a>
         </span>
         <span class="weibo">
           <i class="fa fa-weibo"></i> <a href="http://weibo.com/presently">加微博好友</a>
@@ -403,17 +427,11 @@
         <span class="twitter">
           <i class="fa fa-twitter"></i> <a href="https://twitter.com/yedingding">加 Twitter 好友</a>
         </span>
-
-        <div class="subscribe-form">
-          <form action="http://pragmatic.us5.list-manage1.com/subscribe/post?u=73dd7c7fe45b53ba8e6ca952d&amp;id=fb6041ed1a" method="post" class="validate form-inline" target="_blank" novalidate style="margin-bottom:0">
-            <input type="email" name="EMAIL" class="email input-large" placeholder="邮件地址" id="email" required>
-            <input type="submit" value="立刻订阅" name="subscribe" class="btn btn-small btn-success">
-          </form>
-        </div>
       </div>
     </div>
   </div>
 </div>
+
 
   </article>
 
