@@ -1,13 +1,14 @@
-source "https://rubygems.org"
+source 'https://gems.ruby-china.com'
 
 gem "thin"
 gem "rack-contrib"
 
 gem "middleman"
 gem "middleman-blog"
+gem "middleman-livereload"
 gem "middleman-compass"
-gem "middleman-livereload", :git => "git://github.com/middleman/middleman-livereload.git"
-gem "middleman-syntax", :git => "git://github.com/middleman/middleman-syntax.git"
+gem "middleman-syntax"
+gem "middleman-favicon-maker"
 gem "middleman-deploy", "~> 2.0.0.pre.alpha"
 
 # Compass
