@@ -16,8 +16,7 @@ keywords: 算法, teahour, algocasts
 
 因为不可言语的原因，Teahour 被微信内嵌浏览器给封掉了，尴尬地只能把文章放到自己的博客，作为传播媒介。大家可以通过下面来收听本期节目。
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a">
 </audio>
 
 如果之前没有订阅 Teahour 的读者，可以通过 iTunes 播客软件来订阅，URL 是 [http://itunes.apple.com/cn/podcast/teahour.fm/id608387170](http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en)。很快也会更新到荔枝FM和喜马拉雅上去。
@@ -34,8 +33,7 @@ keywords: 算法, teahour, algocasts
 
 2019 年，以 Teahour 开始，很好。
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a">
 </audio>
 
 ## 广告时间

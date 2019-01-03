@@ -31,7 +31,6 @@ audio,
 canvas,
 video {
     display: inline-block;
-    margin-bottom: 2em;
 }
 
 /**
