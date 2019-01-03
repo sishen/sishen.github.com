@@ -36,17 +36,17 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1477738242">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1477738242">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1546510696">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1546510696">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1477738242">
-    <script src="/javascripts/all.js?1477738242"></script>
-    <script src="/javascripts/main.js?1477738242"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1546510696">
+    <script src="/javascripts/all.js?1546510696"></script>
+    <script src="/javascripts/main.js?1546510696"></script>
   </head>
   <body class="x2014 x2014_05 x2014_05_15 x2014_05_15_database-with-eric-redmond ">
       <div id="banner" style="height: 440px">
@@ -63,7 +63,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1477738242" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1546510696" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -94,7 +94,7 @@
 
 <div class="content">
   <aside class="aside">
-  <p><img src="/images/database-with-eric-redmond/database.jpg?1477738242" alt="Sever Database in Seven Weeks" /></p>
+  <p><img src="/images/database-with-eric-redmond/database.jpg?1546510696" alt="Sever Database in Seven Weeks" /></p>
 </aside>
 
 <blockquote>
@@ -107,7 +107,7 @@
   <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_18.m4a" type="audio/mpeg" />
 </audio>
 
-<h4 id="part-1-introduction-and-the-cap-theorem">Part 1: Introduction and the CAP theorem</h4>
+<h4 id="part-1-introduction-and-the-cap-theorem">Part 1: Introduction and the CAP theorem####</h4>
 
 <p><strong>Kevin</strong>: Welcome everybody! In this episode, we have <a href="http://coderoshi.com/">Eric Redmond</a> with us. I’m your host <a href="http://knwang.com/">Kevin</a> and we also have <a href="http://yedingding.com/">Dingding</a>. Eric, why don’t you introduce yourself first?</p>
 
@@ -153,7 +153,7 @@
 
 <p><strong>Eric</strong>: It’s very much a continuum and it’s not just a continuum between consistency and availability for design. In some cases, it’s how you configure your network or how you configure your servers. HBase, for example, you can make it either a consistent or available system. Something like Riak, in theory, could be written in such a way that you could have a fully consistent but not available system. <a href="http://cassandra.apache.org/">Cassadra</a> could be possibly be written that way too. The reason it’s not done that way is because people just don’t want it. We kind of have different customers. People use different databases for different reasons generally speaking, and to answer your question, they do tend to lean one way or the other. But whether they succeed is kind of a different question.</p>
 
-<h4 id="part-2-relational-databases">Part 2: Relational Databases</h4>
+<h4 id="part-2-relational-databases">Part 2: Relational Databases####</h4>
 
 <p><strong>Kevin</strong>: OK. I think this is a good time for us to dive into different genres of databases and see where they fall into this theorem and also what are the trade-offs that they made. Or in other words, when we pick those databases, why do you want to choose one of the databases? We’ll start with relational database cause that’s been around since forever. Where do you think relational databases fall into this CAP theorem?</p>
 
@@ -180,7 +180,7 @@ We can talk about Postgres for example. In any non-distributed systems, you have
 
 <p><strong>Eric</strong>: That’s my front-runner. I’ll be honest, in the past three or four years, I haven’t really been involved much in the relational database world. I pretty much spent my lifetime (10,000 hours) in front of my computer on relational databases and it’s not something I’m interested in going back to. I still think they’re amazing and I still think relational databases will solve the majority of people’s problems. I think that far too many people rush to alternatives for no good reason. But I definitely still throw out Postgres because I just prefer the design and now again this is my entire biased opinion. It’s the one that I’m the most comfortable with. It’s the one that most of my knowledge of the internals peaked around 2004 and at the time its internals were far cleaner and much more flexible than something like MySQL at the time: you could actually write your own indexes rather painlessly. They have just implemented it so you could write your own B-tree style indexes with even less trouble than just flexible scripting almost. I just enjoyed the flexibility and the community.</p>
 
-<h4 id="part-3-nosql-databases">Part 3: NoSQL databases</h4>
+<h4 id="part-3-nosql-databases">Part 3: NoSQL databases####</h4>
 
 <p><strong>Kevin</strong>: Let’s move away from relational databases. There’s this <a href="http://en.wikipedia.org/wiki/NoSQL">NoSQL</a> basket for all of the non-relational ones. My first question is why did NoSQL emerge in the last 10 years? What has changed to give birth to this set of databases?</p>
 
@@ -190,7 +190,7 @@ We can talk about Postgres for example. In any non-distributed systems, you have
 
 <p><strong>Eric</strong>: It’s interesting. If you think of that architecture and you work with the architecture of something like Mongo, you’ll see a lot of similarities where you have a mater node that replicates and then you’ll have your Mongo server that accesses a router and your configuration that track where different keys go, they’ll feed Mongo to decide this shard goes to this replica set. Very similar to the way you would do manually in a relational database. But again your problem comes down to the CAP theorem. It comes down to the fact that you still have to make a consistency-availability trade-off. You can use something like Prosgres but you don’t really get all the benefits anymore. You can’t really easily or realistically join, for example, across a network. Really, the power of relational databases come down to the fact that you can normalize all of your data structures and if it’s normalized, you can query it in pretty much any way you want and more specifically joining. You can join values and create new table types and relations that you get as response. You have effectively lost the ability to do both of those once you start distributing your relational database unless you’re just doing straight-up replication. I know people do this a lot but sometimes I get the feeling they do it just because they just don’t know any better. If you’re doing that, I would recommend just trying something else. Just try a system that was designed to be distributed from the ground up and not shoehorn a system that was not designed to be distributed into becoming a distrusted system. The important thing to note about all of the databases that we’ve mentioned so far, with enough code, you can make them all do anything if you want to hack enough around it. The question is how much effort you really want to put into designing your own kind of database ecosystem, which effectively what you’re doing. You also have to think about operational costs. Yes, you can create these sort of custom clusters of relational database to do the things you want but now you effective have to worry about is this a master node or is this a secondary or is this a configuration or is this a router. You’ve sort of offloaded your development costs and put it squarely on your operational costs. This is something developers don’t often think about when they are coding: coding is the cheapest and fastest phase of your process. The more expensive and much long part of it is operations. Assuming you’re successful as a developer, someone is going to be running and maintaining that code for years. If you design it in such a way that is complex to scale and maintain, you’ve effectively just given some future person a whole lot of work. If you’re not distributing, just use relational database. They’re easy and they have a ton of research behind them for years. SQL is an amazing language. It’s the most successful language ever. Think of any language that’s been around that long. You’re talking about C and SQL in some form, obviously not in the SQL specification. That’s much older than 40 years but the whole relational concept. If you’re distributing, go after a NoSQL solution.</p>
 
-<h4 id="part-4-document-databases-and-column-databaes">Part 4: Document Databases and Column Databaes</h4>
+<h4 id="part-4-document-databases-and-column-databaes">Part 4: Document Databases and Column Databaes####</h4>
 
 <p><strong>Kevin</strong>: Talking about NoSQL, a lot of people equate them to document databases. That seems to be most popular one nowadays. So why don’t we start with document databases? What are the trade-offs and maybe in the CAP theorem context?</p>
 
@@ -216,7 +216,7 @@ We can talk about Postgres for example. In any non-distributed systems, you have
 
 <p><strong>Eric</strong>: Riak, for example, all values are opaque, meaning it doesn’t care what the value is so you can actually put JSON as a value inside of Riak. It has a secondary indexing feature so if you want to index against some of those values, you just make it index and you query against that index. That would make it closer to Mongo in that respect as far as querybility. Or if you want to use MapReduce, you can do that too, which case it’ll be something more close to Couch although Couch is considerably more efficient on the way that it builds its views cause it pre-builds them and just keeps them updated using partial MapReduce as you make updates. You’re absolutely right. There’s much more similarity than differences in that respect.</p>
 
-<h4 id="part-5-key-value-stores">Part 5: Key-value Stores</h4>
+<h4 id="part-5-key-value-stores">Part 5: Key-value Stores####</h4>
 
 <p><strong>Kevin</strong>: We talked about document databases and column databases already and you mentioned Mongo, Couch, HBase and Cassandra. Let’s move to key-value stores. We already touched on Redis already. Maybe you can talk about Redis and Riak in comparison? Those two key-value stores. What are the characteristics of each and so on?</p>
 
@@ -258,7 +258,7 @@ We can talk about Postgres for example. In any non-distributed systems, you have
 
 <p><strong>Eric</strong>: There are all sorts: we have video games companies that are using our stuff to be the back-end for user data and session data, etc or even switching devices where for example on a lot of games you can play on multiple devices: you can save state in one and pick up another and continue playing. These kinds of things are at a very large scale. (They) seem trivial but they’re very hard to get right and you can’t really have a lot of latency in those cases. So it goes beyond just simple shopping carts. There’s also Riak CS which is great for asset storage. People store videos and images. As long as your values are small, you can store anything in Riak. Like I said, values are opaque so a value can be an image, just basics before encoded in whatever. It could just be small thumbnails if you’d like although I would recommend (Riak) CS but you could even use regular Riak as long as your values are bounded. But if you’re unbounded or objects, CS is a good option.</p>
 
-<h4 id="part-6-graph-databases">Part 6: Graph Databases</h4>
+<h4 id="part-6-graph-databases">Part 6: Graph Databases####</h4>
 
 <p><strong>Kevin</strong>: Cool. The last one is a graph database and it’s Neo4j.</p>
 
@@ -288,7 +288,7 @@ We can talk about Postgres for example. In any non-distributed systems, you have
 
 <p><strong>Eric</strong>: Yeah, if you don’t want to run migrations, Mongo is a good one. Mongo is actually being sold recently not so much as big data, as much for fast implementation. So yeah, that’s an option but I wouldn’t necessarily overlook Neo4j in that case either. It has a query language called <a href="http://docs.neo4j.org/chunked/milestone/cypher-query-lang.html">Cypher</a> that I’m re-wrting the book and if I do come out with a second edition, I’ll almost definitely change this to use Cypher because it’s a sleek, cool declarative graph walking language and it’s pretty interesting. It makes it really easy to use a graph data store without having to write code in the way that you have to with … It’s declarative but it’s still effectively code.</p>
 
-<h4 id="part-7-picks">Part 7: Picks</h4>
+<h4 id="part-7-picks">Part 7: Picks####</h4>
 
 <p><strong>Kevin</strong>: I think that’s all the questions. Let’s get to the last phase of this episode, which is picks. Picks is basically where we invite the guest to share something interesting: something you have been doing or you’ve came across with and just share with the audience.</p>
 
@@ -339,7 +339,7 @@ We can talk about Postgres for example. In any non-distributed systems, you have
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1477738242" alt="Yedingding" />
+      <img src="/images/yedingding.png?1546510696" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
@@ -402,7 +402,7 @@ We can talk about Postgres for example. In any non-distributed systems, you have
             <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo" alt="玎玎's 微博"></i></a></li>
             <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter" alt="玎玎's Twitter"></i></a></li>
             <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook" alt="玎玎's Facebook"></i></a></li>
-            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1477738242' alt="玎玎's 知乎"></img></a></li>
+            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1546510696' alt="玎玎's 知乎"></img></a></li>
           </ul>
         </footer>
       </div>

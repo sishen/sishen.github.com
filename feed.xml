@@ -5,10 +5,73 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2016-10-19T23:00:00+08:00</updated>
+  <updated>2019-01-01T10:30:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Teahour: 与 Hawstein 和左程云聊算法和数据结构</title>
+    <link rel="alternate" href="/2019/01/01/teahour-94-algo-with-hawstein-and-chengyun.html"/>
+    <id>/2019/01/01/teahour-94-algo-with-hawstein-and-chengyun.html</id>
+    <published>2019-01-01T10:30:00+08:00</published>
+    <updated>2019-01-01T10:30:00+08:00</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="/images/algo-with-hawstein-and-chengyun/teahour-94.png" alt="Teahour 94"&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;喜大普奔，年更节目 &lt;a href="https://teahour.fm?utm_source=yedingding"&gt;Teahour&lt;/a&gt; 今天更新了！&lt;/p&gt;
+
+&lt;p&gt;上个月，看到嘉和（网名：&lt;a href="http://hawstein.com/?utm_source=yedingding"&gt;Hawstein&lt;/a&gt;）把历经半年呕心沥血之作 &lt;a href="https://algocasts.io/?utm_source=yedingding"&gt;AlgoCasts&lt;/a&gt; 第一次在互联网上传播，又让我回想起了之前做自由职业者的时刻。这既是创作的乐趣，又是奉献的乐趣。过去三年，基本没有再录制过 Teahour，但是这三年我却从这份经历中受益良多，不少 GrowignIO 的同事，都是通过 Teahour 跟我建立连接，让我有机会跟这些优秀的小伙伴一起共事。所以，当看到 AlgoCasts，又想起过去三年，少说也面试过几百个人，发现不少工程师在算法和数据结构这一方面还是有可以提高的空间的，就萌发了冲动要录一期 Teahour 来专门聊聊算法和数据结构。于是在 2019 年元旦，约上了&lt;a href="https://www.nowcoder.com/courses?utm_source=yedingding"&gt;左老师&lt;/a&gt;，另一个我有幸在 GrowingIO 合作过的小伙伴，也是《程序员代码面试指南》的作者、牛客网算法课程初中高级的唯一授课老师，和嘉和一起在 Teahour 侃侃大山。&lt;/p&gt;
+
+&lt;p&gt;因为不可言语的原因，Teahour 被微信内嵌浏览器给封掉了，尴尬地只能把文章放到自己的博客，作为传播媒介。大家可以通过下面来收听本期节目。&lt;/p&gt;
+
+&lt;audio controls="" name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a" type="audio/mpeg"&gt;&lt;/source&gt;
+&lt;/audio&gt;
+
+&lt;p&gt;如果之前没有订阅 Teahour 的读者，可以通过 iTunes 播客软件来订阅，URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170&lt;/a&gt;。很快也会更新到荔枝FM和喜马拉雅上去。&lt;/p&gt;
+
+&lt;p&gt;总体来说，这期节目录得很爽，嘉和和程云都是很有思想的人，各自在追求自己的精彩。如同我在节目最后的 Share Picks 所分享，生命是一件很美妙的东西，我们究其一生，在跟很多人发生连接，我们在理解自己的同时，也在寻求存在的意义。我个人跟阿德勒个体心理学理论特别有共鸣的一点是，我们生活的意义，存在的意义，是为团队贡献力量。奉献，对他人产生兴趣...&lt;/p&gt;</summary>
+    <content type="html">&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/algo-with-hawstein-and-chengyun/teahour-94.png" alt="Teahour 94" /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;喜大普奔，年更节目 &lt;a href="https://teahour.fm?utm_source=yedingding"&gt;Teahour&lt;/a&gt; 今天更新了！&lt;/p&gt;
+
+&lt;p&gt;上个月，看到嘉和（网名：&lt;a href="http://hawstein.com/?utm_source=yedingding"&gt;Hawstein&lt;/a&gt;）把历经半年呕心沥血之作 &lt;a href="https://algocasts.io/?utm_source=yedingding"&gt;AlgoCasts&lt;/a&gt; 第一次在互联网上传播，又让我回想起了之前做自由职业者的时刻。这既是创作的乐趣，又是奉献的乐趣。过去三年，基本没有再录制过 Teahour，但是这三年我却从这份经历中受益良多，不少 GrowignIO 的同事，都是通过 Teahour 跟我建立连接，让我有机会跟这些优秀的小伙伴一起共事。所以，当看到 AlgoCasts，又想起过去三年，少说也面试过几百个人，发现不少工程师在算法和数据结构这一方面还是有可以提高的空间的，就萌发了冲动要录一期 Teahour 来专门聊聊算法和数据结构。于是在 2019 年元旦，约上了&lt;a href="https://www.nowcoder.com/courses?utm_source=yedingding"&gt;左老师&lt;/a&gt;，另一个我有幸在 GrowingIO 合作过的小伙伴，也是《程序员代码面试指南》的作者、牛客网算法课程初中高级的唯一授课老师，和嘉和一起在 Teahour 侃侃大山。&lt;/p&gt;
+
+&lt;p&gt;因为不可言语的原因，Teahour 被微信内嵌浏览器给封掉了，尴尬地只能把文章放到自己的博客，作为传播媒介。大家可以通过下面来收听本期节目。&lt;/p&gt;
+
+&lt;audio controls="" name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a" type="audio/mpeg" /&gt;
+&lt;/audio&gt;
+
+&lt;p&gt;如果之前没有订阅 Teahour 的读者，可以通过 iTunes 播客软件来订阅，URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170&lt;/a&gt;。很快也会更新到荔枝FM和喜马拉雅上去。&lt;/p&gt;
+
+&lt;p&gt;总体来说，这期节目录得很爽，嘉和和程云都是很有思想的人，各自在追求自己的精彩。如同我在节目最后的 Share Picks 所分享，生命是一件很美妙的东西，我们究其一生，在跟很多人发生连接，我们在理解自己的同时，也在寻求存在的意义。我个人跟阿德勒个体心理学理论特别有共鸣的一点是，我们生活的意义，存在的意义，是为团队贡献力量。奉献，对他人产生兴趣，继而互助合作。所以，当嘉和在节目中提到“目前让他更有成就感的是通过自己的分享和输出，让他跟很多人发生了非物理的联系，并且这个过程中他感受到他的付出有意义”，这一点让我深有感触，Teahour 于我而言最大的意义就在于此。&lt;/p&gt;
+
+&lt;p&gt;生活其实非常奇妙，很多点状的付出，在未来某一个点，会连接成线，继而成面，让你感觉一切都是冥冥之中自有天意。在上个月，给团队分享了一下我的一些个人经历，很多行为都是非常随机，却给我持续带来了很大的受益。比如，我今天在 GrowingIO 能和嘉和能和程云一起合作，源于他们之前听了 Teahour，知道我的存在，知道我是怎样的一个人。我三年前之所以开始做 GrowingIO，源于我在 2014 年初写了一篇文章介绍了自己做风车的一些心路历程和经验，然后在美国波士顿的 Jason 读到了这篇文章主动联系了我，后续聊得很开心也有机会去美国在他那里呆了一段时间，机缘巧合下认识了目前 GrowingIO 的 CEO Simon。我之所以能写文章介绍风车的创业经历，源于我在 2010 年伊始接受了另外一个半球美国华盛顿（我人在杭州）的一家创业公司 Intridea 的邀请，建团队做一款新的企业社交产品，认识了 Terry、Ben 这两个后续风车的合伙人一起工作。目前 Terry 是 Nervos 的 CEO，Ben 是 ImToken 的 CEO，能有机会跟他们一起共事，也是我的一个荣幸。而之所以我能在 2010 年能有缘加入 Intridea，源于我在 2008 年做自由职业者的时候，主动参与了一个开源的项目 XRuby，认识了这个项目的发起人学勇并在后续两年一直一起做一些开源的项目。后来学勇加入了 Intridea，就把这个机会介绍给了我。而我能参与到 XRuby，源于我在 2006 年刚毕业的时候，一个师兄找我加入 Keep Discovering Team 一起做创业项目，我投入了所有的业余时间到里面，在过程中第一次接触了 Web 开发、接触了 Ruby，也因为此从网易出来后开始用这些技能做自由职业。一切事情的发生，都感觉非常随机，但是过程中的确有很多事情我并没有想要什么回报，而是单独的想做一些事，想把事情做好，然后有些事情，就自然而然发生了。&lt;/p&gt;
+
+&lt;p&gt;元旦前，跟产品团队小伙伴们一起吃饭的时候，雷小姐问到 2019 年每个人的个人目标是什么，我想了一下是希望能重启个人的品牌建设，希望今年能录一些节目，码一些字。这很大一部分也是受到嘉和的 &lt;a href="https://algocasts.io/?utm_source=yedingding"&gt;AlgoCasts&lt;/a&gt; 的鼓舞，让我重新燃起了冲动，去分享别人的技术人生，去记录自己的个人感悟。这期节目中，我非常喜欢嘉和和程云的一个观点，其实从来没有想过放弃，因为本来这个就是一个爱好，一个自己乐在其中的东西。不要给自己设太大压力，好玩就行。所以，也许并不能做到那么规律，但是这是一个自己需要去投入的事情，一个自己需要去沉淀的事情。&lt;/p&gt;
+
+&lt;aside class="aside"&gt;
+  &lt;p&gt;&lt;img src="http://yedingding.com/images/algo-with-hawstein-and-chengyun/play-for-fun.png" alt="Play For Fun" /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;2019 年，以 Teahour 开始，很好。&lt;/p&gt;
+
+&lt;audio controls="" name="media"&gt;
+  &lt;source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a" type="audio/mpeg" /&gt;
+&lt;/audio&gt;
+
+&lt;h2 id="section"&gt;广告时间&lt;/h2&gt;
+
+&lt;p&gt;嘉和翻译的新书《反应式设计模式》（Reactive Design Patterns）已经上市。程云的《程序员代码面试指南》第 2 版也在预售中，特别指出第 2 版。有兴趣的同学可以考虑下。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>增长黑客：如何用数据来驱动产品增长</title>
     <link rel="alternate" href="/2016/10/19/out-product-death-cycle.html"/>
@@ -861,72 +924,6 @@
 &lt;/ol&gt;
 
 &lt;p&gt;大会官网见这里 &lt;a href="http://rubyconfchina.org"&gt;http://rubyconfchina.org&lt;/a&gt;，报名热线点这里&lt;a href="http://19wu.com/rubyconfchina"&gt;http://19wu.com/rubyconfchina&lt;/a&gt;。11 月 1 号早上 8 点，北京大学中关新园 2 号楼，到时候见！&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Excel，熟悉又不熟悉的项目管理工具</title>
-    <link rel="alternate" href="/2014/08/13/use-excel-for-project-management.html"/>
-    <id>/2014/08/13/use-excel-for-project-management.html</id>
-    <published>2014-08-13T10:00:00+08:00</published>
-    <updated>2014-08-13T10:00:00+08:00</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;blockquote&gt;
-  &lt;p&gt;本文转载自&lt;a href="https://fengcheco.com/blog/use-excel-for-project-management/"&gt;风车官方博客&lt;/a&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;如果有人在市场上做个调查，目前使用最广泛的项目管理工具是啥，我估计结果不是  Microsoft Project，不是 Jira，不是 Redmine，而是 Excel。在做风车的过程中，接触到不少团队，包括一些跟互联网很近的技术创业公司，都在使用 Excel 管理项目，也有一些用户问我们如何能从 Excel 管理平滑地迁移过来。所以，风车在首页特别跟 Excel 做了对比，我们也的确有不少客户是从 Excel 管理转到风车。这篇文章就来谈谈用 Excel 做项目管理的利与弊。&lt;/p&gt;
-
-&lt;p&gt;要了解 Excel 管理项目的利与弊，得先了解如何用 Excel 来管理项目，Excel 能做什么，怎么做。项目管理，从本质上就是两件事情，计划安排和进度跟踪。计划安排包括计划和安排。计划是确定要做什么事情，并分解成一个个任务，比如在 Excel 里面按照 &lt;a href="http://www.baike.com/wiki/WBS"&gt;WBS&lt;/a&gt; 来做计划。而安排就是根据分解任务确定谁做什么事情以及什么时候做什么事情，比如在 Excel 里面制作&lt;a href="http://baike.baidu.com/view/1653.htm"&gt;甘特图&lt;/a&gt;来做安排。进度跟踪包括进度和跟踪。进度是了解项目的进展，哪些已经完成，哪些有待完成，比如可以在 Excel 里面绘制&lt;a href="http://baike.baidu.com/view/3798770.htm"&gt;燃尽图&lt;/a&gt;来展现进度。跟踪是及时了解团队每个人的状态，某个任务完成度如何了，这里更多的是通过沟通来更新到 Excel 中。&lt;/p&gt;
-
-&lt;p&gt;关于具体可以怎么用 Excel 来做项目管理，我做了一个例子，在&lt;a href="https://fengcheco.com/blog/downloads/Excel-Project-Management.xlsx"&gt;这里&lt;/a&gt;下载，有兴趣可以参考，基本上涵盖了我上面提到的这些事情。&lt;/p&gt;
-
-&lt;p&gt;Excel 不是专业的项目管理工具，但是 Excel 又无所不能。在我心目中，Windows 并不是微软最成功的软件，Office 才是。使用 Excel，有下面这几点好处。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-&lt;strong&gt;普及，群众基础扎实&lt;/strong&gt;。可以说，Office 在很多人眼里就等于电脑，你去外面配个电脑装个机都能在系统之外附赠一个 Office。这也带来了 Excel ...&lt;/li&gt;
-&lt;/ol&gt;</summary>
-    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;本文转载自&lt;a href="https://fengcheco.com/blog/use-excel-for-project-management/"&gt;风车官方博客&lt;/a&gt;。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;如果有人在市场上做个调查，目前使用最广泛的项目管理工具是啥，我估计结果不是  Microsoft Project，不是 Jira，不是 Redmine，而是 Excel。在做风车的过程中，接触到不少团队，包括一些跟互联网很近的技术创业公司，都在使用 Excel 管理项目，也有一些用户问我们如何能从 Excel 管理平滑地迁移过来。所以，风车在首页特别跟 Excel 做了对比，我们也的确有不少客户是从 Excel 管理转到风车。这篇文章就来谈谈用 Excel 做项目管理的利与弊。&lt;/p&gt;
-
-&lt;p&gt;要了解 Excel 管理项目的利与弊，得先了解如何用 Excel 来管理项目，Excel 能做什么，怎么做。项目管理，从本质上就是两件事情，计划安排和进度跟踪。计划安排包括计划和安排。计划是确定要做什么事情，并分解成一个个任务，比如在 Excel 里面按照 &lt;a href="http://www.baike.com/wiki/WBS"&gt;WBS&lt;/a&gt; 来做计划。而安排就是根据分解任务确定谁做什么事情以及什么时候做什么事情，比如在 Excel 里面制作&lt;a href="http://baike.baidu.com/view/1653.htm"&gt;甘特图&lt;/a&gt;来做安排。进度跟踪包括进度和跟踪。进度是了解项目的进展，哪些已经完成，哪些有待完成，比如可以在 Excel 里面绘制&lt;a href="http://baike.baidu.com/view/3798770.htm"&gt;燃尽图&lt;/a&gt;来展现进度。跟踪是及时了解团队每个人的状态，某个任务完成度如何了，这里更多的是通过沟通来更新到 Excel 中。&lt;/p&gt;
-
-&lt;p&gt;关于具体可以怎么用 Excel 来做项目管理，我做了一个例子，在&lt;a href="https://fengcheco.com/blog/downloads/Excel-Project-Management.xlsx"&gt;这里&lt;/a&gt;下载，有兴趣可以参考，基本上涵盖了我上面提到的这些事情。&lt;/p&gt;
-
-&lt;p&gt;Excel 不是专业的项目管理工具，但是 Excel 又无所不能。在我心目中，Windows 并不是微软最成功的软件，Office 才是。使用 Excel，有下面这几点好处。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;普及，群众基础扎实&lt;/strong&gt;。可以说，Office 在很多人眼里就等于电脑，你去外面配个电脑装个机都能在系统之外附赠一个 Office。这也带来了 Excel 基本上可以捻手即来，不需要安装任何软件就可以使用。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;定制性强&lt;/strong&gt;。基于表格的任务属性，粒度可粗可细，根据团队的方法不同可任意调整，可说是 Excel 的最大优点。这也是很多团队喜欢 Excel 的最大原因，完全做到量身定制，不受到任何限制。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;控制性强&lt;/strong&gt;。定制性强带来了一部分的控制性，但是控制性更多的体现在流程上。团队内部流程不需要任何调整就可以直接应用到 Excel 中，而且调整也非常容易，做到了管理者的真正掌控。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt;。宏、函数、筛选、排序、作图等，Excel 的数据处理能力非常强大。Excel 的基本操作撑死也就 Excel 10% 的功能，大多数人只是学会了点皮毛，浪费了如此”好”的一款软件。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;当然，用 Excel 管理项目的缺点也非常明显。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;复杂，非常复杂&lt;/strong&gt;。没有人能学会 Excel 所有的功能，只学会百分之二三十的功能就可以称为高手了。以前开过玩笑，微软开发 Excel 的团队也不会用 Excel。Excel 的学习成本是非常高的，见见世面上有多少 Excel/Office 的实用书籍就知道了。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;维护非常耗时，自动化程度低&lt;/strong&gt;。即使你使用了宏和函数，还是需要很多人工的操作，比如任务拆分、甘特图的制作，都需要重排很多数据。现在很多用 Excel 管理项目的团队，会有专门一个助理来做这个事情，每天的工作就是维护 Excel。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;进度跟踪不及时&lt;/strong&gt;。Excel 缺乏实时的信息更新，所以一般做法是每天开会确定一下昨天的进度，专人记录更新到 Excel 里面。这样子，有些问题就会被隐藏下去，无法及时发现，无法在正确的时间让正确的人去做正确的事。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;信息呈现单一，可用性不高&lt;/strong&gt;。Excel 毕竟只是表单数据处理软件，不是专业的项目管理软件，所以在呈现上没有信息架构可言，缺乏重点，用户体验差。同时，无法在上面做一些任务的沟通，项目管理过程被割裂成一块一块。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;成员间同步麻烦&lt;/strong&gt;。沟通的好坏，能否保证所有成员在一个节奏上，直接影响到项目的成败。然而用 Excel 管理项目的话，只能把文件传来传去，也不知道到底这个版本和上个版本有了哪些变化。高级点的会使用 Google Spreadsheet，但是有~~伟大的墙~~的存在，还是诸多不爽。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;虽然项目管理中工具并不是最主要的，但是一个好的工具绝对能让事半功倍。如果说过往用 Excel 管理项目是因为专业的项目管理软件很昂贵，学习成本也很高，在此相比而言下 Excel 是一个尚且不错的选择的话，那么现在这个时代，已经有很多轻量级的项目管理工具可以使用，而且价格也非常合适。所以不妨跳出思维，去拥抱新的变化，体验技术创新带来的变革。&lt;/p&gt;
-
-&lt;p&gt;如果你是 Excel 的老用户，可以非常简单的把 Excel 的概念映射到风车里面，比如 Excel 里面的每个工作表对应风车中的一个任务列表，工作表中的每一行数据代表风车里的一个任务，每一列数据对应风车中任务的某一个属性。对于列举的 Excel 的每个缺点，风车也做了相应的解决方案，并且会自动的提供项目报表和成员统计，项目管理从来没有这么轻松，并且不失专业。&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;另外，作为一家有节操的公司，坚决抵制用数据绑架用户。所以你随时可以把风车项目内的数据导出成 Excel 保存，也会提供 API 让你随时读取数据。&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;你还在用 Excel 管理项目吗？是时候，使用风车保证所有信息的正确同步了！&lt;/strong&gt;&lt;br /&gt;
-风车提供了清晰的任务管理体验，分配任务、进度跟踪一目了然。一处编辑、多处实时更新，保持团队成员步调一致，从而使任务管理轻松有序。&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>

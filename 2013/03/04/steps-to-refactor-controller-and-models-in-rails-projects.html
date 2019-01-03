@@ -35,17 +35,17 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1477738243">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1477738243">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1546510701">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1546510701">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1477738243">
-    <script src="/javascripts/all.js?1477738243"></script>
-    <script src="/javascripts/main.js?1477738243"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1546510701">
+    <script src="/javascripts/all.js?1546510701"></script>
+    <script src="/javascripts/main.js?1546510701"></script>
   </head>
   <body class="x2013 x2013_03 x2013_03_04 x2013_03_04_steps-to-refactor-controller-and-models-in-rails-projects ">
       <div id="banner" style="height: 440px">
@@ -62,7 +62,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1477738243" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1546510701" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -108,7 +108,7 @@ class PublishersController &lt; ApplicationController
   def create
     @publisher = Publisher.new params[:publisher]</p>
 
-<pre class="highlight plaintext"><code># trigger validation
+<div class="highlight"><pre class="highlight plaintext"><code># trigger validation
 @publisher.valid?
 
 unless simple_captcha_valid? then
@@ -130,7 +130,7 @@ else
   p @publisher.errors
   render "new", :layout =&gt; true
 end   end end ```
-</code></pre>
+</code></pre></div>
 <p>按照 “Skinny Controller, Fat Model” 的标准，这段代码有这么几个问题:</p>
 
 <ol>
@@ -145,13 +145,13 @@ class PublishersController &lt; ApplicationController
   def create
     @publisher = Publisher.new params[:publisher]</p>
 
-<pre class="highlight plaintext"><code>if @publisher.save_with_captcha
+<div class="highlight"><pre class="highlight plaintext"><code>if @publisher.save_with_captcha
   self.current_user = @publisher
   redirect_to publisher_path(@publisher)
 else
   render "new"
 end   end end
-</code></pre>
+</code></pre></div>
 <p>class Publisher &lt; ActiveRecord::Base
   apply_simple_captcha :message =&gt; “验证码有误”</p>
 
@@ -295,7 +295,7 @@ module ActiveRecord
         base.extend(ClassMethods)
       end</p>
 
-<pre class="highlight plaintext"><code>  module ClassMethods
+<div class="highlight"><pre class="highlight plaintext"><code>  module ClassMethods
     def acts_as_cache(options = { })
       klass = options[:class_name] || "#{self.name}Cache".constantize
       options[:delegate] ||= []
@@ -331,7 +331,7 @@ module ActiveRecord
     end
   end
 end   end end
-</code></pre>
+</code></pre></div>
 <p>class User &lt; ActiveRecord::Base
   acts_as_cache
 end</p>
@@ -421,7 +421,7 @@ end</p>
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1477738243" alt="Yedingding" />
+      <img src="/images/yedingding.png?1546510701" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
@@ -484,7 +484,7 @@ end</p>
             <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo" alt="玎玎's 微博"></i></a></li>
             <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter" alt="玎玎's Twitter"></i></a></li>
             <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook" alt="玎玎's Facebook"></i></a></li>
-            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1477738243' alt="玎玎's 知乎"></img></a></li>
+            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1546510701' alt="玎玎's 知乎"></img></a></li>
           </ul>
         </footer>
       </div>
