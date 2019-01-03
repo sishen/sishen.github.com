@@ -30,17 +30,18 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1546510699">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1546510699">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1546512354">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1546512354">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1546510699">
-    <script src="/javascripts/all.js?1546510699"></script>
-    <script src="/javascripts/main.js?1546510699"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1546512354">
+    <script src="/javascripts/all.js?1546512354"></script>
+    <script src="/javascripts/main.js?1546512354"></script>
+    <script src="/javascripts/audio.min.js?1546512354"></script>
   </head>
   <body class="tags tags_------ ">
       <div id="banner" style="height: 440px">
@@ -57,7 +58,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1546510699" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1546512354" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -89,7 +90,7 @@
 
 <div class="content">
   <aside class="aside">
-  <p><img src="/images/fengcheco-architecture/logo.png?1546510699" alt="Fengche.co" title="风车"></p>
+  <p><img src="/images/fengcheco-architecture/logo.png?1546512354" alt="Fengche.co" title="风车"></p>
 </aside>
 
 <p>上周末，应邀在 <a href="http://hnshanghai.com">Hacker News 上海聚会</a>和 <a href="http://shruby.github.io/">Ruby 上海活动</a>上做了『风车』架构介绍的分享，在此感谢各位组织者和活动场地提供方。</p>
@@ -133,7 +134,7 @@
             <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo" alt="玎玎's 微博"></i></a></li>
             <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter" alt="玎玎's Twitter"></i></a></li>
             <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook" alt="玎玎's Facebook"></i></a></li>
-            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1546510699' alt="玎玎's 知乎"></img></a></li>
+            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1546512354' alt="玎玎's 知乎"></img></a></li>
           </ul>
         </footer>
       </div>
@@ -142,19 +143,17 @@
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type='text/javascript'>
-      var _vds = _vds || [];
-      window._vds = _vds;
-      (function(){
-        _vds.push(['setAccountId', '9e41f779279291b4']);
-        (function() {
-          var vds = document.createElement('script');
-          vds.type='text/javascript';
-          vds.async = true;
-          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds-gate.js';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(vds, s);
-        })();
-      })();
+      !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/gio-wxwv.js","gio");
+      gio('init', '9e41f779279291b4', '9e41f779279291b4');
+
+      //put your custom page code here
+      gio('send');
+    </script>
+
+    <script>
+      audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+      });
     </script>
   </body>
 </html>

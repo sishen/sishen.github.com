@@ -35,17 +35,18 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1546510701">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1546510701">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1546512356">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1546512356">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1546510701">
-    <script src="/javascripts/all.js?1546510701"></script>
-    <script src="/javascripts/main.js?1546510701"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1546512356">
+    <script src="/javascripts/all.js?1546512356"></script>
+    <script src="/javascripts/main.js?1546512356"></script>
+    <script src="/javascripts/audio.min.js?1546512356"></script>
   </head>
   <body class="x2012 x2012_12 x2012_12_24 x2012_12_24_real-time-web-talk-at-rubyconf-china-2012 ">
       <div id="banner" style="height: 440px">
@@ -62,7 +63,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1546510701" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1546512356" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -89,7 +90,7 @@
 </header>
 
 <div class="content">
-  <p><img src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1546510701" alt="rubyconfchina" title="Dingding @ RubyConf China" /></p>
+  <p><img src="/images/real-time-web-talk-at-rubyconf-china-2012/rubyconfchina.png?1546512356" alt="rubyconfchina" title="Dingding @ RubyConf China" /></p>
 
 <p>很荣幸能有机会做为演讲嘉宾参加今年的 RubyConf China。今年是第四届中国 Ruby 大会。举办一次 RubyConf 并不轻松，做为 Daniel 的朋友，更加地清楚组织者的辛苦，在这里再次感谢两位组织者吕国宁 (<a href="https://twitter.com/lgn21st">@lgn21st</a>)和李华顺 (<a href="https://twitter.com/huacnlee">@huacnlee</a>)。</p>
 
@@ -118,7 +119,7 @@
   <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1546510701" alt="Yedingding" />
+      <img src="/images/yedingding.png?1546512356" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
@@ -181,7 +182,7 @@
             <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo" alt="玎玎's 微博"></i></a></li>
             <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter" alt="玎玎's Twitter"></i></a></li>
             <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook" alt="玎玎's Facebook"></i></a></li>
-            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1546510701' alt="玎玎's 知乎"></img></a></li>
+            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1546512356' alt="玎玎's 知乎"></img></a></li>
           </ul>
         </footer>
       </div>
@@ -190,19 +191,17 @@
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type='text/javascript'>
-      var _vds = _vds || [];
-      window._vds = _vds;
-      (function(){
-        _vds.push(['setAccountId', '9e41f779279291b4']);
-        (function() {
-          var vds = document.createElement('script');
-          vds.type='text/javascript';
-          vds.async = true;
-          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds-gate.js';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(vds, s);
-        })();
-      })();
+      !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/gio-wxwv.js","gio");
+      gio('init', '9e41f779279291b4', '9e41f779279291b4');
+
+      //put your custom page code here
+      gio('send');
+    </script>
+
+    <script>
+      audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+      });
     </script>
   </body>
 </html>
