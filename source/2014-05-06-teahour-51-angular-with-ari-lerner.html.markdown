@@ -17,8 +17,7 @@ description: "In this Episode Kevin interview with Ari to talk about AngularJS. 
 
 本期音频文本非常感谢[@吴怡村](http://weibo.com/wuyicun)的整理。本文是 Teahour 第 51 期 [『Interview with Ari Lerner about AngularJS』](http://teahour.fm/2014/04/21/interview-with-ari-lerner.html) 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 [http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en](http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en)。Android 用户可以使用 [AntennaPod](http://m.coolapk.com/apk/de.danoeh.antennapod) 来订阅。同时，欢迎加 Teahour 好友，[微博](http://weibo.com/teahourfm)和 [Twitter](https://twitter.com/teahourfm)。
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_51.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_51.m4a">
 </audio>
 
 #### Part 1: AnguarJS talk

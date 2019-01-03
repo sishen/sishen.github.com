@@ -2,6 +2,7 @@
 title: "Teahour: 与 Hawstein 和左程云聊算法和数据结构"
 date: 2019-01-01 10:30 +08:00
 disqus_identifier: "teahour-ep94"
+thumb: "http://yedingding.com/images/algo-with-hawstein-and-chengyun/teahour-94.png"
 tags: algorithm, teahour
 keywords: 算法, teahour, algocasts
 ---

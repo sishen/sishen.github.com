@@ -17,8 +17,7 @@ description: "本期由叶玎玎主持，邀请到了课程格子的创始人李
 
 本文是 Teahour 第 34 期 [『和李天放聊课程格子创业故事』](http://teahour.fm/2013/10/14/interview-with-tstyle11-about-kechenggezi.html) 的录音文本，欢迎大家订阅 Teahour，iTunes URL [点这里](http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en)。Android 用户可以使用 [AntennaPod](http://m.coolapk.com/apk/de.danoeh.antennapod) 来订阅。同时，欢迎加 Teahour 好友，[微博](http://weibo.com/teahourfm)和 [Twitter](https://twitter.com/teahourfm)。
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_34.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_34.m4a">
 </audio>
 
 ### Part 1 - 天放的工作经历

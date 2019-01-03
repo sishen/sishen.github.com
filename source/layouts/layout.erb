@@ -38,6 +38,13 @@
       <link rel="canonical" href="<%= current_article.data["canonical"] %>" />
     <% end %>
 
+    <% if current_article && current_article.data["thumb"] %>
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="<%= current_article.data['title'] %>">
+      <meta property="og:image" content="<%= current_article.data['thumb'] %>">
+      <meta property="og:url" content="http://yedingding.com/">
+    <% end %>
+
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -47,6 +54,9 @@
     <script src="/javascripts/audio.min.js"></script>
   </head>
   <body class="<%= page_classes %> <%= yield_content(:cover).blank? ? "" : "with-cover" %>">
+    <% if current_article && current_article.data["thumb"] %>
+      <div style="display:none;"><img src="<%= current_article.data['thumb'] %>" alt=""></div>
+    <% end %>
     <% if yield_content(:cover).blank? %>
       <div id="banner" style="height: 440px">
       </div>

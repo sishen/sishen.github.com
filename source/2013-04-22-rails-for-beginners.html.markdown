@@ -25,8 +25,7 @@ READMORE
 
 偷偷的说一下，这里有一段我未经 Terry 许可偷偷录的一段关于初学者应该如何学习 Rails 的讨论，非常值得大家收听，:)
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/rails_for_beginner.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/rails_for_beginner.m4a">
 </audio>
 
 #### 书籍推荐 ####

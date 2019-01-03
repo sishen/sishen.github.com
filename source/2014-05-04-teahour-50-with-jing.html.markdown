@@ -13,8 +13,7 @@ description: "Teahour 第 50 期由叶玎玎主持，邀请到了 Quibit 公司�
 
 本文是 Teahour 第 50 期 [『和Qubit的工程师聊聊A/B testing, Node 和 Ruby』](http://teahour.fm/2014/04/08/interview-with-dong-jing.html) 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 [http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en](http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en)。Android 用户可以使用 [AntennaPod](http://m.coolapk.com/apk/de.danoeh.antennapod) 来订阅。同时，欢迎加 Teahour 好友，[微博](http://weibo.com/teahourfm)和 [Twitter](https://twitter.com/teahourfm)。
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_50.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_50.m4a">
 </audio>
 
 ###Part 1 - HackerNews Meetup

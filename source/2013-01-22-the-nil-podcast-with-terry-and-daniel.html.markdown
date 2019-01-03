@@ -17,9 +17,8 @@ tags: Podcast, Tech, Ruby, Javascript
 3. 对于 remote 工作和时间管理上的看法
 4. 关于 Javascript MVC 框架的讨论
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a" type="audio/mpeg">
-</video>
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/nil_podcast_1.m4a">
+</audio>
 
 对于 Podcast 的内容，我们的想法是包括访谈型和聊天型，希望每期都能有 3 到 4 个人一起，内容只要是程序员感兴趣的话题，都可以聊。如果你有感兴趣的话题或者愿意做嘉宾，欢迎联系我们，:)
 

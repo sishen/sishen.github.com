@@ -8,8 +8,7 @@ keywords: data, teahour, big data, machine learning
 
 本文是 Teahour 第 60 期 [『与丁磊聊机器学习和数据科学』](http://teahour.fm/2014/08/07/machine-learning-with-ding-lei.html) 的录音文本，欢迎大家订阅 Teahour，iTunes URL 是 [http://itunes.apple.com/cn/podcast/teahour.fm/id608387170](http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en)。Android 用户可以使用 [AntennaPod](http://m.coolapk.com/apk/de.danoeh.antennapod) 来订阅。
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a">
 </audio>
 
 ### Part 1 - Data Science 的前世今生

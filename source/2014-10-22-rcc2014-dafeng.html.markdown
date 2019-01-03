@@ -9,8 +9,7 @@ keywords: rubyconf, 产品, 创业
 
 本文是 Teahour 第 65 期的录音文本，音频版本请访问这里 [http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html](http://teahour.fm/2014/10/22/work-after-ship-code-with-dafeng.html)。
 
-<audio controls name="media">
-  <source src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a" type="audio/mpeg">
+<audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_65.m4a">
 </audio>
 
 **Dingding**：大家好。今天是我们第二场的中国 Ruby 大会的会前采访，来做客 Teahour 的是 Strikingly 的联合创始人和 CTO 郭达峰。熟悉 Teahour 的听众对达峰应该不会陌生，去年我们曾经采访过达峰，那是第 28 期，达峰向我们介绍了 Strikingly 的创业故事。你好，达峰。
