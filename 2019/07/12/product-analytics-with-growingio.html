@@ -35,8 +35,8 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1562908622">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1562908622">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1562909020">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1562909020">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
@@ -44,10 +44,10 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1562908622">
-    <script src="/javascripts/all.js?1562908622"></script>
-    <script src="/javascripts/main.js?1562908622"></script>
-    <script src="/javascripts/audio.min.js?1562908622"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1562909020">
+    <script src="/javascripts/all.js?1562909020"></script>
+    <script src="/javascripts/main.js?1562909020"></script>
+    <script src="/javascripts/audio.min.js?1562909020"></script>
   </head>
   <body class="x2019 x2019_07 x2019_07_12 x2019_07_12_product-analytics-with-growingio ">
       <div id="banner" style="height: 440px">
@@ -64,7 +64,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1562908622" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1562909020" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -93,17 +93,17 @@
 </header>
 
 <div class="content">
-  <h2>概述</h2>
+  <h2 id="overview">概述</h2>
 
 <p>我们评价一个产品的好坏，有两种方式。一可以用定性分析，比如用户拜访、调查问卷等。二可以用定量分析，从数据中发现使用情况。产品分析的指标体系搭建，核心就是为了通过定量分析了解用户是如何使用产品功能的，哪些是用户最常用的功能，哪些功能是最有粘性的功能，哪些功能带来更多的转化，新用户喜欢用什么功能，老用户在用什么功能，新上线的功能表现如何，等等。</p>
 
-<p><img src="/images/product-analytics-with-growingio/product-analytics-sample.png?1562908622" alt="产品功能渗透率和使用率" /></p>
+<p><img src="/images/product-analytics-with-growingio/product-analytics-sample.png?1562909020" alt="产品功能渗透率和使用率" /></p>
 
 <p>比如，上面这张图，每一个圆代表一个产品功能，横轴是功能使用用户数，越在右边代表使用用户数越多。纵轴是人均使用功能次数，越上上面表示使用越高频。圆的大小是平均每次功能使用时长，圆越大代表单次功能使用时长越高。从这个图，就可以分析得出，对应某一个人群，功能的渗透率和使用率如何，哪些功能有潜力去推广，哪些功能是分发功能，等等。</p>
 
 <p>本篇内容，主要介绍的是宏观层面的产品分析，不涉及分析具体某个具体产品功能，内部细节的转化数据，交互设计是否合理等。这些会在以后的文章中介绍。</p>
 
-<h2>用好产品分析的客户例子</h2>
+<h2 id="customers">用好产品分析的客户例子</h2>
 
 <h3>多元女性社区热拉</h3>
 
@@ -121,7 +121,7 @@
 MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖型等信息感到疑惑，导致转化率偏低。产品经理通过 GrowingIO 快速定位问题，洞察用户心理，提出一系列“小白功能”改进产品方案，将加购率/购买成功率提升150%。</p>
 </blockquote>
 
-<h2>如何搭建指标体系</h2>
+<h2 id="how-to">如何搭建指标体系</h2>
 
 <p>任何一个产品，都可以分成两大部分。用，即浏览功能。做，即创建功能。比如电商产品，浏览商品是浏览功能，下单购买是创建行为。对于内容产品，查看内容是浏览行为，创建内容是创建行为。所以，从指标体系搭建角度，我们也应该分成两部分来搭建，一部分是浏览类功能指标，一部分创建类功能指标。</p>
 
@@ -169,7 +169,7 @@ MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖�
 
 <p>页面级变量是对于一个页面更多的信息描述。通过给当前页面附上更多的页面信息，可以作为维度拆分数据做分析。在上面提到，页面访问大致等于功能使用。所以，我们通过给页面设置变量，来记录用户当前交互的功能信息。当用户浏览某个功能即页面打开的时候，给当前页面设置上页面级变量，值为功能名称。仍然以 GrowingIO 为例子，当用户进入了活跃用户分析这个功能，我们在页面上设置页面级变量 <em>engagePage</em> 为“主要功能-活跃用户分析”。</p>
 
-<h3>实施方式</h3>
+<h2 id="implementation">实施方式</h2>
 
 <p>如果上面的分析，适合你分析你自己的产品，那么下面我们就要进入实施阶段。要做好这个实施，需要产品经理和工程师之间通力的协作。有些公司，会有专门的数据产品经理，负责指标体系规划，跟研发沟通落地实施。有些公司，每个产品经理都需要掌握这个能力，遵循公司统一的指标体系方案，在每个产品文档里落地实施。这两种方式皆可，可以由公司当前的阶段而定，在后文里我会介绍。</p>
 
@@ -186,7 +186,7 @@ MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖�
 
 <p>PS：确保在 GrowingIO 的数据管理里面，已经创建好了埋点事件 <em>productEngage</em>，事件级变量 <em>engageType</em>，页面级变量 <em>engagePage</em>。具体用法可以参考<a href="https://docs.growingio.com/docs/data-definition/">数据定义 - 帮助文档</a>。</p>
 
-<h4>实施代码样例</h4>
+<h3>实施代码样例</h3>
 
 <p>针对浏览功能的实施。当用户访问到某个功能页面时，在当前页面设置页面级变量。下面以 GrowingIO 为例。</p>
 <div class="highlight"><pre class="highlight javascript"><code><span class="c1">// Javascript</span>
@@ -221,19 +221,19 @@ MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖�
 <span class="nx">jsonObject</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s2">"engageType"</span><span class="p">,</span> <span class="s2">"创建分布分析"</span><span class="p">);</span>
 <span class="nx">gio</span><span class="p">.</span><span class="nx">track</span><span class="p">(</span><span class="s2">"productEngage"</span><span class="p">,</span> <span class="nx">jsonObject</span><span class="p">);</span>
 </code></pre></div>
-<h3>分析报表样例</h3>
+<h2 id="analytics">分析报表样例</h2>
 
 <p>一旦指标体系实施完成，就可以开始搭建产品分析可视化报表。下面是一些报表例子，供参考。</p>
 
 <h4>浏览功能整体情况</h4>
 
-<p><img src="/images/product-analytics-with-growingio/product-analytics-view.png?1562908622" alt="浏览功能整体情况" /></p>
+<p><img src="/images/product-analytics-with-growingio/product-analytics-view.png?1562909020" alt="浏览功能整体情况" /></p>
 
 <p>通过横向柱图可以了解用户主要在用哪些浏览功能。通过事件分析，选择两个指标，即<strong>页面浏览量</strong>和<strong>用户量</strong>，选择维度为<strong>交互功能页面名称</strong>，选择用户分群为你想分析的人群，可以是全部登录用户，就出来上面这张图。其中，左边的图是浏览功能的使用次数，右边的图是浏览功能的使用人数。</p>
 
 <h4>创建功能整体情况</h4>
 
-<p><img src="/images/product-analytics-with-growingio/product-analytics-create.png?1562908622" alt="创建功能整体情况" /></p>
+<p><img src="/images/product-analytics-with-growingio/product-analytics-create.png?1562909020" alt="创建功能整体情况" /></p>
 
 <p>通过横向柱图可以了解用户主要在用哪些创建功能。通过事件分析，选择两个指标，即<strong>产品交互性参与事件_次</strong>和<strong>产品交互性参与事件_人</strong>，选择维度为<strong>交互功能类型</strong>，选择用户分群为你想分析的人群，可以是全部登录用户，就出来上面这张图。其中，左边的图是产品创建功能的使用次数，右边的图是产品创建功能的使用人数。</p>
 
@@ -241,7 +241,7 @@ MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖�
 <li>功能渗透率和使用率</li>
 </ul>
 
-<p><img src="/images/product-analytics-with-growingio/product-analytics-sample.png?1562908622" alt="产品功能渗透率和使用率" /></p>
+<p><img src="/images/product-analytics-with-growingio/product-analytics-sample.png?1562909020" alt="产品功能渗透率和使用率" /></p>
 
 <p>通过气泡图可以了解核心功能的渗透率和使用率是怎样的，找到产品功能推广方向。通过事件分析，选择三个指标，即<strong>用户数</strong>、<strong>人均浏览页数</strong>和<strong>平均页面停留时长(分钟)</strong>，选择维度为<strong>交互功能页面名称</strong>，选择用户分群为你想分析的人群，可以是全部登录用户，就出来上面这张图。具体的解释可以看文档开头。</p>
 
@@ -249,11 +249,11 @@ MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖�
 <li>用户产品功能分布分析</li>
 </ul>
 
-<p><img src="/images/product-analytics-with-growingio/product-analytics-distribution.png?1562908622" alt="用户产品功能分布分析" /></p>
+<p><img src="/images/product-analytics-with-growingio/product-analytics-distribution.png?1562909020" alt="用户产品功能分布分析" /></p>
 
 <p>通过分布分析可以了解功能使用频率，结合使用率和渗透率来优化产品。通过分布分析，选择指标为页面浏览量，选择目标用户为你想分析的人群，可以是全部登录用户，在维度对比里面选择<strong>交互功能页面名称</strong>，就出来上面这张图。同时，可以通过自定义区间来设置你自己希望分析的区间，我们可以知道高频使用产品功能的用户的占比，低频使用功能的用户的占比，是否符合预期，后续就可以思考如何增加用户的使用频率。</p>
 
-<h2>总结</h2>
+<h2 id="ending">总结</h2>
 
 <p>以上就是一个宏观产品分析的指标体系搭建方案。数据分析的流程是以业务或产品为起点，定义指标体系，搭建看板，探索洞察，继而决策。大道至简，在定义指标体系的过程中，并不追求用很多个指标很多个维度，就如上面方案所列，一个指标两个变量，基本就能完成产品宏观分析的大多数工作。</p>
 
@@ -265,12 +265,12 @@ $(function() {
     event: 'scrollTrack',
     page: "使用 GrowingIO 搭建产品分析指标体系",
     markers: [
-      { position: 633,  value: '概述' },
-      { position: 1526, value: '客户案例' },
-      { position: 2218, value: '指标体系搭建' },
-      { position: 3870, value: '实施方式' },
-      { position: 5996, value: '分析报表样例' },
-      { position: 8309, value: '总结' }
+      { position: $("#overview").offset().top - 50,  value: '概述' },
+      { position: $("#customers").offset().top - 50, value: '客户案例' },
+      { position: $("#how-to").offset().top - 50, value: '指标体系搭建' },
+      { position: $("#implementation").offset().top - 50, value: '实施方式' },
+      { position: $("#analytics").offset().top - 50, value: '分析报表样例' },
+      { position: $("#ending").offset().top - 50, value: '总结' }
     ]
   });
 });
@@ -279,7 +279,7 @@ $(function() {
 
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1562908622" alt="Yedingding" />
+      <img src="/images/yedingding.png?1562909020" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
@@ -342,7 +342,7 @@ $(function() {
             <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo" alt="玎玎's 微博"></i></a></li>
             <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter" alt="玎玎's Twitter"></i></a></li>
             <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook" alt="玎玎's Facebook"></i></a></li>
-            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1562908622' alt="玎玎's 知乎"></img></a></li>
+            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1562909020' alt="玎玎's 知乎"></img></a></li>
           </ul>
         </footer>
       </div>
