@@ -35,8 +35,8 @@
     <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
     <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1546523357">
-    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1546523357">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1562908622">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1562908622">
     <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
 
 
@@ -44,10 +44,10 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/stylesheets/application.css?1546523357">
-    <script src="/javascripts/all.js?1546523357"></script>
-    <script src="/javascripts/main.js?1546523357"></script>
-    <script src="/javascripts/audio.min.js?1546523357"></script>
+    <link rel="stylesheet" href="/stylesheets/application.css?1562908622">
+    <script src="/javascripts/all.js?1562908622"></script>
+    <script src="/javascripts/main.js?1562908622"></script>
+    <script src="/javascripts/audio.min.js?1562908622"></script>
   </head>
   <body class="x2013 x2013_04 x2013_04_09 x2013_04_09_teahourfm-with-middleman ">
       <div id="banner" style="height: 440px">
@@ -64,7 +64,7 @@
         </nav>
       </div>
       <div id="avatar">
-        <a href="/"><img src="/images/yedingding.png?1546523357" alt="叶玎玎"/></a>
+        <a href="/"><img src="/images/yedingding.png?1562908622" alt="叶玎玎"/></a>
       </div>
       <h1 class="site-title">Do Great Things</h1>
       <h2 class="site-description">
@@ -95,138 +95,112 @@
 
 <div class="content">
   <aside class="aside">
-  <p><img src="/images/teahourfm-with-middleman/logo.png?1546523357" alt="TeahourFM" title="Teahour.fm Logo" /></p>
+  ![TeahourFM](teahourfm-with-middleman/logo.png &ldquo;Teahour.fm Logo&rdquo;)
 </aside>
 
 <p><a href="http://teahour.fm">Teahour.fm</a> 是是由四位程序员 <a href="http://terrytai.com">Terry Tai</a>，<a href="http://lgn21st.com">Daniel Lv</a>，<a href="http://knwang.com">Kevin Wang</a> 和我创立的聊天类节目，我们四人轮流担任主持人，每期节目自定话题并邀请对该话题深有研究的嘉宾，与大家一起分享话题背后的故事。Teahour 今年 一月十九号第一期，一周一期，到现在已经出了十一期，总共邀请了六位嘉宾，有超过一万次收听，内容涵盖 Ruby，Rails，JavaScript，Mobile，Git，个人成长，敏捷思想和开源文化多个方面。如果你是程序员但是还没听过 Teahour.fm，那赶紧听起来，不然就 old man 了，XD</p>
 
 <p>这周团队在北京活动，顺便参加了 <a href="http://www.bjrubyist.org/">Beijing Rubyist</a> 线下活动，分享了一些 <a href="http://teahour.fm">teahour.fm</a> 网站设计和开发的一些思考。具体 slides 可以参考 <a href="https://speakerdeck.com/sishen/teahour-dot-fm">speakerdeck</a>。</p>
 
-<script async="" class="speakerdeck-embed" data-id="724c59a081d00130b28222000a8e86c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="724c59a081d00130b28222000a8e86c4" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 <p>我们最终选择的是 <a href="http://middlemanapp.com" title="Hand-crafted frontend development">MiddleMan</a>，一个静态网站生成器。对于 teahour.fm，目前使用静态网站相对于动态网站来说是利大于弊。</p>
 
 <ul>
-  <li>不依赖数据库，不依赖解释器，只需要支持 HTML 就可以了</li>
-  <li>Hosting 方便，目前是直接部署在 github pages，而不需要一个 VPS。</li>
-  <li>速度快，HTML 永远是最快的，前端也可以随便用 Apache，Nginx 这些高性能服务器。</li>
-  <li>写作方便，基本所有的静态网站生成器都是用 <em>Markdown</em>, <em>Textile</em> 这些模板语言，相对简单，可以本地编辑。</li>
-  <li>没迁移成本，不需要数据导入导出。</li>
-  <li>所有文件都有版本控制</li>
+<li>不依赖数据库，不依赖解释器，只需要支持 HTML 就可以了</li>
+<li>Hosting 方便，目前是直接部署在 github pages，而不需要一个 VPS。</li>
+<li>速度快，HTML 永远是最快的，前端也可以随便用 Apache，Nginx 这些高性能服务器。</li>
+<li>写作方便，基本所有的静态网站生成器都是用 <em>Markdown</em>, <em>Textile</em> 这些模板语言，相对简单，可以本地编辑。</li>
+<li>没迁移成本，不需要数据导入导出。</li>
+<li>所有文件都有版本控制</li>
 </ul>
 
 <p>当然，选择了静态网站也就失去了动态性。目前 teahour.fm 比较缺乏这三个功能。</p>
 
 <ul>
-  <li>切换 episodes 的时候不能走动画方式，而是整页刷新</li>
-  <li>不能做站内搜索，只能加 google 站内搜索</li>
-  <li>不能做站内评论，需要依托 disqus 这些评论解决方案</li>
+<li>切换 episodes 的时候不能走动画方式，而是整页刷新</li>
+<li>不能做站内搜索，只能加 google 站内搜索</li>
+<li>不能做站内评论，需要依托 disqus 这些评论解决方案</li>
 </ul>
 
-<h3 id="middleman">MiddleMan</h3>
+<h3>MiddleMan</h3>
 
 <p>MiddleMan 做的取巧的地方是这个框架用的所有的东西都是你平时接触的东西，基本上你不需要去学习新的东西就可以直接上手使用。</p>
 
 <ol>
-  <li>可以直接用 ERB, HAML, SCSS, LESS 等</li>
-  <li>页面构成利用 Layouts 和 Partials</li>
-  <li>有很多 view helpers，比如 link_to, image_tag</li>
-  <li>使用 assets pipeline，基于 sprockets</li>
-  <li>用 markdown 写文章</li>
+<li>可以直接用 ERB, HAML, SCSS, LESS 等</li>
+<li>页面构成利用 Layouts 和 Partials</li>
+<li>有很多 view helpers，比如 link<em>to, image</em>tag</li>
+<li>使用 assets pipeline，基于 sprockets</li>
+<li>用 markdown 写文章</li>
 </ol>
 
 <p>更多信息可以看 <a href="http://middlemanapp.com" title="Hand-crafted frontend development">这里</a>。</p>
 
-<h3 id="how-it-works">How It Works</h3>
+<h3>How It Works</h3>
 
 <aside class="aside">
-  <p><img src="/images/teahourfm-with-middleman/workflow.png?1546523357" alt="Teahour Workflow" /></p>
+  ![Teahour Workflow](teahourfm-with-middleman/workflow.png)
 </aside>
 
 <ol>
-  <li>
-    <p>开始一篇新文章</p>
-
-    <p><code>
- $ middleman article teahourfm-with-middleman
-</code></p>
-  </li>
-  <li>
-    <p>编辑 Markdown 文件。我们使用的编辑器有 MacVim，TextMate 和 Aquamacs，:)</p>
-  </li>
-  <li>
-    <p>构建整站 HTML</p>
-
-    <p><code>
- $ middleman build
-</code>`</p>
-  </li>
-  <li>
-    <p>部署</p>
-
-    <p><code>
- $ cd build
- $ middleman deploy
-</code></p>
-  </li>
+<li><p>开始一篇新文章</p>
+<div class="highlight"><pre class="highlight plaintext"><code>$ middleman article teahourfm-with-middleman
+</code></pre></div></li>
+<li><p>编辑 Markdown 文件。我们使用的编辑器有 MacVim，TextMate 和 Aquamacs，:)</p></li>
+<li><p>构建整站 HTML</p>
+<div class="highlight"><pre class="highlight plaintext"><code>$ middleman build
+</code></pre></div></li>
+<li><p>部署</p>
+<div class="highlight"><pre class="highlight plaintext"><code>$ cd build
+$ middleman deploy
+</code></pre></div></li>
 </ol>
 
 <p>如果你对 MiddleMan 项目组织方式感兴趣，可以查看 teahour.fm 源代码，目前我已经做了三个项目，包括本站，都是开源的。</p>
 
 <ul>
-  <li><a href="https://github.com/pragmaticly/teahour.fm">Teahour.fm Sources</a></li>
-  <li><a href="https://github.com/pragmaticly/blog.pragmatic.ly">Fengche.co Blog Sources</a></li>
-  <li><a href="https://github.com/sishen/sishen.github.com">Blog Sources</a></li>
+<li><a href="https://github.com/pragmaticly/teahour.fm">Teahour.fm Sources</a></li>
+<li><a href="https://github.com/pragmaticly/blog.pragmatic.ly">Fengche.co Blog Sources</a></li>
+<li><a href="https://github.com/sishen/sishen.github.com">Blog Sources</a></li>
 </ul>
 
-<h3 id="other-choices">Other Choices</h3>
+<h3>Other Choices</h3>
 
 <p>简单说一下我们当时还看过的其他构站方式。</p>
 
-<h4 id="wordpresshttpwordpressorg"><a href="http://wordpress.org">WordPress</a></h4>
+<h4><a href="http://wordpress.org">WordPress</a></h4>
 
 <p>说 WordPress 是目前最流行的构站方式都不为过。只是对于我们而言，做一个 WordPress theme 是事倍功半，不熟悉 PHP，要修改代码增删功能也不太方便。另外，我们不喜欢用 WordPress 的可见即可得编辑器。</p>
 
-<h4 id="railshttprubyonrailsorg"><a href="http://rubyonrails.org">Rails</a></h4>
+<h4><a href="http://rubyonrails.org">Rails</a></h4>
 
 <p>对于我们而言，用 Rails 搭一个 teahour.fm 应用是很简单的，但是问题是这么简单的应用有没有必要上 Rails 这个巨无霸套餐，数据库，后台，速度，等等是我们是我们直接跳过 Rails 的原因。</p>
 
-<h4 id="podrinohttpwwwpadrinorbcom"><a href="http://www.padrinorb.com/">Podrino</a></h4>
+<h4><a href="http://www.padrinorb.com/">Podrino</a></h4>
 
 <p>Podrino 号称是轻量级 ruby web 框架，最主要的特点是在 Sinatra 的基础上构建，而不依赖于 ActionPack。形象点说，Podrina 就是 Rails 1.*，那时只有些必须的功能，不像现在 Rails 给你提供了很多你可能不需要的特性。用 Podrino 是个不错的选择，比如 <a href="http://robbinfan.com">robbin的自言自语</a> 就是用 Podrino 开发的。不过，我们还是不想走 Router，写 Controller，同时，直接写 View 或者存数据库都觉得缺乏写作乐趣。</p>
 
-<h4 id="nestacmshttpnestacmscom"><a href="http://nestacms.com/">NestaCMS</a></h4>
+<h4><a href="http://nestacms.com/">NestaCMS</a></h4>
 
 <p>Podrino 相比 Rails 轻是因为他使用了 Sinatra 而非 ActionPack，但是因为它是一个通用 Web 框架，而非内容构建框架，所以我们觉得不方便。而 NestaCMS 就是一个专门的内容构建框架，也是基于 Sinatra，改进了我们所有放弃用 Podrino 的原因，不需要数据库，直接用 Markdown 或者 Textile 编写，甚至可以生成静态网站。而基于 Rack 的部署方式可以直接放到 <a href="http://heroku.com">Heroku</a> 上。<a href="https://peepcode.com/blog">PeepCode Blog</a> 就是 NestaCMS 的最好代言。说实话，我找不出不能用 NestaCMS 的原因，也许也就是不能放到 Gtihub Pages 和定制 theme 需要了解 NestaCMS 这个框架本身。</p>
 
-<h4 id="jekyllhttpsgithubcommojombojekyll"><a href="https://github.com/mojombo/jekyll">Jekyll</a></h4>
+<h4><a href="https://github.com/mojombo/jekyll">Jekyll</a></h4>
 
 <p>JekyII 是 GitHub Pages 的默认静态网站生成器，可以说目前很多新的静态网站生成器都是依托于 Jekyll 或者鉴戒了 Jekyll。Jekyll 为 Blog 而生，不太适合非 Blog 网站，比如 teahour。同时，复杂的 plugins 机制和 theme 定制都是伤心之处。</p>
 
-<h4 id="octopresshttpoctopressorg"><a href="http://octopress.org/">Octopress</a></h4>
+<h4><a href="http://octopress.org/">Octopress</a></h4>
 
 <p>你是否觉得所有的 Octopress blog 长得一个德性？我是这么觉得的，直接 pass。</p>
 
-<h4 id="nanochttpnanocws"><a href="http://nanoc.ws/">Nanoc</a></h4>
+<h4><a href="http://nanoc.ws/">Nanoc</a></h4>
 
 <p>Nanoc 是个好东西，满足我的所有要求，功能强大，甚至比我们选择的 MiddleMan 更强大，可惜学习曲线比较高，入门难，不利于和其他人协作。</p>
 
 
-  <div class="bdsharebuttonbox share">
-    <span style="float:left;padding:6px;margin-right:12px;">
-      Share with <i class="fa fa-heart" style="color:red;margin-right:6px"></i>
-      <span class="arrow"></span>
-    </span>
-    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
-    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
-  </div>
-  <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-  <div class="clearfix"></div>
   <div class="about">
     <div class="author-photo">
-      <img src="/images/yedingding.png?1546523357" alt="Yedingding" />
+      <img src="/images/yedingding.png?1562908622" alt="Yedingding" />
     </div>
     <div class="author-content">
       <h4>关于我</h4>
@@ -289,7 +263,7 @@
             <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo" alt="玎玎's 微博"></i></a></li>
             <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter" alt="玎玎's Twitter"></i></a></li>
             <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook" alt="玎玎's Facebook"></i></a></li>
-            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1546523357' alt="玎玎's 知乎"></img></a></li>
+            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1562908622' alt="玎玎's 知乎"></img></a></li>
           </ul>
         </footer>
       </div>
@@ -310,5 +284,7 @@
         var as = audiojs.createAll();
       });
     </script>
+
+    
   </body>
 </html>

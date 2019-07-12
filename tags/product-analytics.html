@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="zh"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh"><![endif]-->
+<!--[if gt IE 8]<!-->
+<html class="no-js" lang="zh">
+  <!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+
+    <title>
+      Do Great Things -  叶玎玎
+    </title>
+    <link type="application/opensearchdescription+xml" href="opensearch.xml" title="Yedingding Blog" rel="search" />
+    <meta name="description" content="GrowingIO 联合创始人、Fengche.co 创始人、Teahour 主播，本站是我在技术、创业、团队协作和项目管理上的思考和分享">
+    <meta name="keywords" content="创业,技术,项目管理,团队协作,系统架构">
+    <meta name="author" content="叶玎玎">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="google-site-verification" content="uXO_mIxt-ybh2KtYPvdchE0XN8xpJeMZd2MqueSOsdQ" />
+
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" type="image/png" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" type="image/png" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png?1562908623">
+    <link rel="shortcut icon" sizes="16x16" href="/favicon.ico?1562908623">
+    <link rel="alternate" type="application/rss+xml" title="Do Great Things - 叶玎玎" href="/feed.xml" />
+
+
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/stylesheets/application.css?1562908623">
+    <script src="/javascripts/all.js?1562908623"></script>
+    <script src="/javascripts/main.js?1562908623"></script>
+    <script src="/javascripts/audio.min.js?1562908623"></script>
+  </head>
+  <body class="tags tags_product-analytics ">
+      <div id="banner" style="height: 440px">
+      </div>
+    <header id="header">
+      <div id="nav">
+        <nav class="global-nav">
+          <ul>
+            <li><a href='/'>所有文章</a></li>
+            <li><a href='/profile.html'>关于我</a></li>
+            <li><a href="https://growingio.com">GrowingIO</a></li>
+            <li><a href="http://teahour.fm">Teahour</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="avatar">
+        <a href="/"><img src="/images/yedingding.png?1562908623" alt="叶玎玎"/></a>
+      </div>
+      <h1 class="site-title">Do Great Things</h1>
+      <h2 class="site-description">
+        <a href="https://growingio.com" target="_blank">GrowingIO</a> 联合创始人, <a href="http://teahour.fm">Teahour.fm</a> 主播
+      </h2>
+    </header>
+    <section class="main">
+      <div class="container">
+        <h2 class="tag-page-title">Articles tagged '<em>product-analytics</em>'</h2>
+
+<div id="posts">
+    <article class="post">
+      <header>
+  <h2 class="title">
+    <a href="/2019/07/12/product-analytics-with-growingio.html">使用 GrowingIO 搭建产品分析指标体系</a>
+  </h2>
+  <div class="meta">
+    <span class="dates">
+      <i class="fa fa-calendar-o"></i> <span class='date'>Jul 12, 2019</span>
+    </span>
+    <span class="tags">
+      <i class="fa fa-tags"></i>
+        <a href="/tags/product-analytics.html">product-analytics</a>
+        <a href="/tags/growingio.html">growingio</a>
+    </span>
+  </div>
+</header>
+
+<div class="content">
+  <h2>概述</h2>
+
+<p>我们评价一个产品的好坏，有两种方式。一可以用定性分析，比如用户拜访、调查问卷等。二可以用定量分析，从数据中发现使用情况。产品分析的指标体系搭建，核心就是为了通过定量分析了解用户是如何使用产品功能的，哪些是用户最常用的功能，哪些功能是最有粘性的功能，哪些功能带来更多的转化，新用户喜欢用什么功能，老用户在用什么功能，新上线的功能表现如何，等等。</p>
+
+<p><img src="/images/product-analytics-with-growingio/product-analytics-sample.png?1562908623" alt="产品功能渗透率和使用率"></p>
+
+<p>比如，上面这张图，每一个圆代表一个产品功能，横轴是功能使用用户数，越在右边代表使用用户数越多。纵轴是人均使用功能次数，越上上面表示使用越高频。圆的大小是平均每次功能使用时长，圆越大代表单次功能使用时长越高。从这个图，就可以分析得出，对应某一个人群，功能的渗透率和使用率如何，哪些功能有潜力去推广，哪些功能是分发功能，等等。</p>
+
+<p>本篇内容，主要介绍的是宏观层面的产品分析，不涉及分析具体某个具体产品功能，内部细节的转化数据，交互设计是否合理等。这些会在以后的文章中介绍。</p>
+
+<h2>用好产品分析的客户例子</h2>
+
+<h3>多元女性社区热拉</h3>
+
+<blockquote>
+<p>GrowingIO 是我们的数据伙伴和导师，专业，敏捷，值得信赖。借助 GrowingIO 我们不断迭代产品，注册转化率提升 10%，功能留存率提升 30%，驱动用户持续增长。<br>
+—— 热拉 CEO 鲁磊<br>
+通过 GrowingIO 的【留存魔法师】功能，热拉发现了一个和用户留存强相关的行为，使用过热拉「谁看过我」功能的用户留存度非常高。因此我们在产品迭代当中做了一个很小的改进。当一个用户访问你的时候，App 会给你发一条通知，留存率从 36.4% 提升到了 47.2%。</p>
+</blockquote>
+
+<h3>服装定制服务商 MatchU</h3>
+
+<blockquote>
+<p>在 MatchU，产品经理、运营和市场同学都会使用 GrowingIO 进行数据分析，真正做到了人人都是数据分析师。<br>
+—— MatchU 联合创始人蔚馨<br>
+MatchU 定制衬衫的下单转化过程中，由于新用户会...</p>
+</blockquote>
+
+  <p>
+    ......
+  </p>
+  <p>
+    <a href="/2019/07/12/product-analytics-with-growingio.html">Read more →</a>
+  </p>
+</div>
+    </article>
+
+    <ul class="pager">
+    </ul>
+</div>
+
+
+        <footer class="copyright">
+          <p>&copy; 2014-2016 叶玎玎(Dingding Ye)</p>
+          <ul>
+            <li><a href="mailto:yedingding@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/sishen" target="_blank"><i class="fa fa-github" alt="玎玎's github"></i></a></li>
+            <li><a href="http:///weibo.com/presently" target="_blank"><i class="fa fa-weibo" alt="玎玎's 微博"></i></a></li>
+            <li><a href="https://twitter.com/yedingding" target="_blank"><i class="fa fa-twitter" alt="玎玎's Twitter"></i></a></li>
+            <li><a href="https://facebook.com/yedingding" target="_blank"><i class="fa fa-facebook" alt="玎玎's Facebook"></i></a></li>
+            <li><a href="https://www.zhihu.com/people/yedingding" rel="author" target="_blank"><img width='16' height='16' src='/images/zhihu.svg?1562908623' alt="玎玎's 知乎"></img></a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script type='text/javascript'>
+      !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/gio-wxwv.js","gio");
+      gio('init', '9e41f779279291b4', '9e41f779279291b4');
+
+      //put your custom page code here
+      gio('send');
+    </script>
+
+    <script>
+      audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+      });
+    </script>
+
+    
+  </body>
+</html>

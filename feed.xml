@@ -5,10 +5,230 @@
   <id>http://yedingding.com</id>
   <link href="http://yedingding.com/"/>
   <link href="http://yedingding.com/feed.xml" rel="self"/>
-  <updated>2019-01-01T10:30:00+08:00</updated>
+  <updated>2019-07-12T12:00:00+08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>使用 GrowingIO 搭建产品分析指标体系</title>
+    <link rel="alternate" href="/2019/07/12/product-analytics-with-growingio.html"/>
+    <id>/2019/07/12/product-analytics-with-growingio.html</id>
+    <published>2019-07-12T12:00:00+08:00</published>
+    <updated>2019-07-12T12:00:00+08:00</updated>
+    <author>
+      <name>叶玎玎</name>
+    </author>
+    <summary type="html">&lt;h2&gt;概述&lt;/h2&gt;
+
+&lt;p&gt;我们评价一个产品的好坏，有两种方式。一可以用定性分析，比如用户拜访、调查问卷等。二可以用定量分析，从数据中发现使用情况。产品分析的指标体系搭建，核心就是为了通过定量分析了解用户是如何使用产品功能的，哪些是用户最常用的功能，哪些功能是最有粘性的功能，哪些功能带来更多的转化，新用户喜欢用什么功能，老用户在用什么功能，新上线的功能表现如何，等等。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/product-analytics-with-growingio/product-analytics-sample.png" alt="产品功能渗透率和使用率"&gt;&lt;/p&gt;
+
+&lt;p&gt;比如，上面这张图，每一个圆代表一个产品功能，横轴是功能使用用户数，越在右边代表使用用户数越多。纵轴是人均使用功能次数，越上上面表示使用越高频。圆的大小是平均每次功能使用时长，圆越大代表单次功能使用时长越高。从这个图，就可以分析得出，对应某一个人群，功能的渗透率和使用率如何，哪些功能有潜力去推广，哪些功能是分发功能，等等。&lt;/p&gt;
+
+&lt;p&gt;本篇内容，主要介绍的是宏观层面的产品分析，不涉及分析具体某个具体产品功能，内部细节的转化数据，交互设计是否合理等。这些会在以后的文章中介绍。&lt;/p&gt;
+
+&lt;h2&gt;用好产品分析的客户例子&lt;/h2&gt;
+
+&lt;h3&gt;多元女性社区热拉&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;GrowingIO 是我们的数据伙伴和导师，专业，敏捷，值得信赖。借助 GrowingIO 我们不断迭代产品，注册转化率提升 10%，功能留存率提升 30%，驱动用户持续增长。&lt;br&gt;
+—— 热拉 CEO 鲁磊&lt;br&gt;
+通过 GrowingIO 的【留存魔法师】功能，热拉发现了一个和用户留存强相关的行为，使用过热拉「谁看过我」功能的用户留存度非常高。因此我们在产品迭代当中做了一个很小的改进。当一个用户访问你的时候，App 会给你发一条通知，留存率从 36.4% 提升到了 47.2%。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;服装定制服务商 MatchU&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在 MatchU，产品经理、运营和市场同学都会使用 GrowingIO 进行数据分析，真正做到了人人都是数据分析师。&lt;br&gt;
+—— MatchU 联合创始人蔚馨&lt;br&gt;
+MatchU 定制衬衫的下单转化过程中，由于新用户会...&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    <content type="html">&lt;h2&gt;概述&lt;/h2&gt;
+
+&lt;p&gt;我们评价一个产品的好坏，有两种方式。一可以用定性分析，比如用户拜访、调查问卷等。二可以用定量分析，从数据中发现使用情况。产品分析的指标体系搭建，核心就是为了通过定量分析了解用户是如何使用产品功能的，哪些是用户最常用的功能，哪些功能是最有粘性的功能，哪些功能带来更多的转化，新用户喜欢用什么功能，老用户在用什么功能，新上线的功能表现如何，等等。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://yedingding.com/images/product-analytics-with-growingio/product-analytics-sample.png" alt="产品功能渗透率和使用率" /&gt;&lt;/p&gt;
+
+&lt;p&gt;比如，上面这张图，每一个圆代表一个产品功能，横轴是功能使用用户数，越在右边代表使用用户数越多。纵轴是人均使用功能次数，越上上面表示使用越高频。圆的大小是平均每次功能使用时长，圆越大代表单次功能使用时长越高。从这个图，就可以分析得出，对应某一个人群，功能的渗透率和使用率如何，哪些功能有潜力去推广，哪些功能是分发功能，等等。&lt;/p&gt;
+
+&lt;p&gt;本篇内容，主要介绍的是宏观层面的产品分析，不涉及分析具体某个具体产品功能，内部细节的转化数据，交互设计是否合理等。这些会在以后的文章中介绍。&lt;/p&gt;
+
+&lt;h2&gt;用好产品分析的客户例子&lt;/h2&gt;
+
+&lt;h3&gt;多元女性社区热拉&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;GrowingIO 是我们的数据伙伴和导师，专业，敏捷，值得信赖。借助 GrowingIO 我们不断迭代产品，注册转化率提升 10%，功能留存率提升 30%，驱动用户持续增长。&lt;br&gt;
+—— 热拉 CEO 鲁磊&lt;br&gt;
+通过 GrowingIO 的【留存魔法师】功能，热拉发现了一个和用户留存强相关的行为，使用过热拉「谁看过我」功能的用户留存度非常高。因此我们在产品迭代当中做了一个很小的改进。当一个用户访问你的时候，App 会给你发一条通知，留存率从 36.4% 提升到了 47.2%。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;服装定制服务商 MatchU&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在 MatchU，产品经理、运营和市场同学都会使用 GrowingIO 进行数据分析，真正做到了人人都是数据分析师。&lt;br&gt;
+—— MatchU 联合创始人蔚馨&lt;br&gt;
+MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖型等信息感到疑惑，导致转化率偏低。产品经理通过 GrowingIO 快速定位问题，洞察用户心理，提出一系列“小白功能”改进产品方案，将加购率/购买成功率提升150%。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;如何搭建指标体系&lt;/h2&gt;
+
+&lt;p&gt;任何一个产品，都可以分成两大部分。用，即浏览功能。做，即创建功能。比如电商产品，浏览商品是浏览功能，下单购买是创建行为。对于内容产品，查看内容是浏览行为，创建内容是创建行为。所以，从指标体系搭建角度，我们也应该分成两部分来搭建，一部分是浏览类功能指标，一部分创建类功能指标。&lt;/p&gt;
+
+&lt;p&gt;对于浏览功能，一般而言，一个功能，会在某个页面上面，所以从产品角度考虑，功能使用大致等于页面访问。举个例子，你查看 GrowingIO 的某个漏斗，是在具体漏斗的详情页上。&lt;/p&gt;
+
+&lt;p&gt;对于创建功能，是在具体的某个交互触发的，所以从产品角度考虑，交互行为完成大致等于创建功能。举个例子，你在新建分布分析页面点击保存并成功返回时，就是使用了分布分析创建功能。&lt;/p&gt;
+
+&lt;p&gt;基于此，我们只需要用一个事件，两个变量。即可完成宏观层面的产品指标体系搭建。&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;指标名称&lt;/th&gt;
+&lt;th&gt;类型&lt;/th&gt;
+&lt;th&gt;标识符&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;产品交互性参与事件&lt;/td&gt;
+&lt;td&gt;埋点事件&lt;/td&gt;
+&lt;td&gt;productEngage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;交互功能类型&lt;/td&gt;
+&lt;td&gt;事件级变量&lt;/td&gt;
+&lt;td&gt;engageType&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;交互功能页面名称&lt;/td&gt;
+&lt;td&gt;页面级变量&lt;/td&gt;
+&lt;td&gt;engagePage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h3&gt;事件：产品交互性参与事件，标识符为 productEngage&lt;/h3&gt;
+
+&lt;p&gt;什么叫事件？在 GrowingIO 的模型中，为了对用户行为进行统计和分析，我们使用一类被称为“事件”的消息来记录用户行为。一个事件，包含了用户信息、时间信息、行为信息、行为对象信息。&lt;/p&gt;
+
+&lt;p&gt;在产品分析里，我们用一个名为&lt;strong&gt;productEngage&lt;/strong&gt;的事件，来监测用户使用产品过程中发生的创建行为。当创建成功后，发送这个事件并记录当前使用的创建功能是什么。拿 GrowingIO 来举个例子，当用户创建了一个分布分析图以后，我们就需要发送 &lt;em&gt;productEngage&lt;/em&gt; 事件。&lt;/p&gt;
+
+&lt;h3&gt;事件级变量：交互功能类型，标识符为 engageType&lt;/h3&gt;
+
+&lt;p&gt;事件级变量是对于一个事件更多的信息描述。在产品分析里，我们用一个名为&lt;strong&gt;engageType&lt;/strong&gt;的变量，来描述用户使用的创建功能的类型信息，其值即当前使用的创建功能名称。还是拿 GrowingIO 来举个例子，当用户创建了一个分布分析图以后，我们在发送 &lt;em&gt;productEngage&lt;/em&gt; 事件的同时，设置事件级变量 &lt;em&gt;engageType&lt;/em&gt; 为“创建分布分析”。&lt;/p&gt;
+
+&lt;h3&gt;页面级变量：交互功能页面名称，标识符为 engagePage&lt;/h3&gt;
+
+&lt;p&gt;页面级变量是对于一个页面更多的信息描述。通过给当前页面附上更多的页面信息，可以作为维度拆分数据做分析。在上面提到，页面访问大致等于功能使用。所以，我们通过给页面设置变量，来记录用户当前交互的功能信息。当用户浏览某个功能即页面打开的时候，给当前页面设置上页面级变量，值为功能名称。仍然以 GrowingIO 为例子，当用户进入了活跃用户分析这个功能，我们在页面上设置页面级变量 &lt;em&gt;engagePage&lt;/em&gt; 为“主要功能-活跃用户分析”。&lt;/p&gt;
+
+&lt;h3&gt;实施方式&lt;/h3&gt;
+
+&lt;p&gt;如果上面的分析，适合你分析你自己的产品，那么下面我们就要进入实施阶段。要做好这个实施，需要产品经理和工程师之间通力的协作。有些公司，会有专门的数据产品经理，负责指标体系规划，跟研发沟通落地实施。有些公司，每个产品经理都需要掌握这个能力，遵循公司统一的指标体系方案，在每个产品文档里落地实施。这两种方式皆可，可以由公司当前的阶段而定，在后文里我会介绍。&lt;/p&gt;
+
+&lt;p&gt;简单来说，可以分成以下几步：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;规划&lt;/strong&gt;：纯从产品角度，规划一下目前这个阶段，要分析的功能有多少，哪些是浏览功能，哪些是创建功能。在这一步，交付物是产品功能说明文档。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;整理&lt;/strong&gt;：浏览功能，具体对应在什么页面，如果是多个平台比如 Web、iOS 等，是在哪些页面。创建功能，会在哪些情况下发生，列举出来。在这一步，交付物是数据采集说明文档。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实施沟通&lt;/strong&gt;：根据数据采集说明文档，跟技术团队沟通埋点代码实现细节，每一个数据，采集的时间点和方式。在这一步，交付物是数据实施说明文档。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开发测试&lt;/strong&gt;：技术团队根据数据实施说明文档做代码实现，交由 QA 或者产品经理做测试，最后上线。关于如何更好地测试实施正确与否，可以用 GrowingIO 的数据校验功能。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;当实施完成后，我们就可以开始搭建可视化看板，再往上做数据洞察继而改进产品了。&lt;/p&gt;
+
+&lt;p&gt;PS：确保在 GrowingIO 的数据管理里面，已经创建好了埋点事件 &lt;em&gt;productEngage&lt;/em&gt;，事件级变量 &lt;em&gt;engageType&lt;/em&gt;，页面级变量 &lt;em&gt;engagePage&lt;/em&gt;。具体用法可以参考&lt;a href="https://docs.growingio.com/docs/data-definition/"&gt;数据定义 - 帮助文档&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h4&gt;实施代码样例&lt;/h4&gt;
+
+&lt;p&gt;针对浏览功能的实施。当用户访问到某个功能页面时，在当前页面设置页面级变量。下面以 GrowingIO 为例。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="c1"&gt;// Javascript&lt;/span&gt;
+&lt;span class="c1"&gt;// 当用户使用活跃用户分析功能时，设置页面级变量。&lt;/span&gt;
+&lt;span class="nx"&gt;gio&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"page.set"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="na"&gt;engagePage&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"主要功能-活跃用户分析"&lt;/span&gt; &lt;span class="p"&gt;});&lt;/span&gt;
+
+&lt;span class="c1"&gt;// iOS&lt;/span&gt;
+&lt;span class="c1"&gt;// 当用户查看某个分布分析图详情时，设置页面级变量。&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;Growing&lt;/span&gt; &lt;span class="nx"&gt;setPageVariable&lt;/span&gt;&lt;span class="p"&gt;:@{@&lt;/span&gt;&lt;span class="s2"&gt;"engagePage"&lt;/span&gt;&lt;span class="p"&gt;:@&lt;/span&gt;&lt;span class="s2"&gt;"主要功能-分布分析详情页"&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="nl"&gt;toViewController&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nx"&gt;myViewController&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Android&lt;/span&gt;
+&lt;span class="c1"&gt;// 当用户查看某个落地页分析详情时，设置页面级变量。&lt;/span&gt;
+&lt;span class="nx"&gt;GrowingIO&lt;/span&gt; &lt;span class="nx"&gt;gio&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;GrowingIO&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getInstance&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;span class="nx"&gt;JSONObject&lt;/span&gt; &lt;span class="nx"&gt;jsonObject&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;JSONObject&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;span class="nx"&gt;jsonObject&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;put&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"engagePage"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"主要功能-落地页分析详情页"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="nx"&gt;gio&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;setPageVariable&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;myActivity&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;jsonObject&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;针对创建功能的实施。当用户创建成功时，采集功能创建事件。下面以 GrowingIO 为例。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;span class="c1"&gt;// JavaScript&lt;/span&gt;
+&lt;span class="c1"&gt;// 当用户创建了一个用户分群时，打 productEngage 点。&lt;/span&gt;
+&lt;span class="nx"&gt;gio&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"track"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"productEngage"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="na"&gt;engageType&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;"创建用户分群"&lt;/span&gt; &lt;span class="p"&gt;});&lt;/span&gt;
+
+&lt;span class="c1"&gt;// iOS&lt;/span&gt;
+&lt;span class="c1"&gt;// 当用户创建了一条跟踪链接时，打 productEngage 点。&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;Growing&lt;/span&gt; &lt;span class="nx"&gt;track&lt;/span&gt;&lt;span class="p"&gt;:@&lt;/span&gt;&lt;span class="s2"&gt;"productEngage"&lt;/span&gt; &lt;span class="nx"&gt;withVariable&lt;/span&gt;&lt;span class="p"&gt;:@{@&lt;/span&gt;&lt;span class="s2"&gt;"engageType"&lt;/span&gt;&lt;span class="p"&gt;:@&lt;/span&gt;&lt;span class="s2"&gt;"创建跟踪链接"&lt;/span&gt;&lt;span class="p"&gt;}];&lt;/span&gt;
+
+&lt;span class="c1"&gt;// Android&lt;/span&gt;
+&lt;span class="c1"&gt;// 当用户创建了一个分布分析图时，打 productEngage 点。&lt;/span&gt;
+&lt;span class="nx"&gt;GrowingIO&lt;/span&gt; &lt;span class="nx"&gt;gio&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;GrowingIO&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;getInstance&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;span class="nx"&gt;JSONObject&lt;/span&gt; &lt;span class="nx"&gt;jsonObject&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nx"&gt;JSONObject&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;span class="nx"&gt;jsonObject&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;put&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"engageType"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;"创建分布分析"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="nx"&gt;gio&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;track&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"productEngage"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;jsonObject&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;分析报表样例&lt;/h3&gt;
+
+&lt;p&gt;一旦指标体系实施完成，就可以开始搭建产品分析可视化报表。下面是一些报表例子，供参考。&lt;/p&gt;
+
+&lt;h4&gt;浏览功能整体情况&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src="http://yedingding.com/images/product-analytics-with-growingio/product-analytics-view.png" alt="浏览功能整体情况" /&gt;&lt;/p&gt;
+
+&lt;p&gt;通过横向柱图可以了解用户主要在用哪些浏览功能。通过事件分析，选择两个指标，即&lt;strong&gt;页面浏览量&lt;/strong&gt;和&lt;strong&gt;用户量&lt;/strong&gt;，选择维度为&lt;strong&gt;交互功能页面名称&lt;/strong&gt;，选择用户分群为你想分析的人群，可以是全部登录用户，就出来上面这张图。其中，左边的图是浏览功能的使用次数，右边的图是浏览功能的使用人数。&lt;/p&gt;
+
+&lt;h4&gt;创建功能整体情况&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src="http://yedingding.com/images/product-analytics-with-growingio/product-analytics-create.png" alt="创建功能整体情况" /&gt;&lt;/p&gt;
+
+&lt;p&gt;通过横向柱图可以了解用户主要在用哪些创建功能。通过事件分析，选择两个指标，即&lt;strong&gt;产品交互性参与事件_次&lt;/strong&gt;和&lt;strong&gt;产品交互性参与事件_人&lt;/strong&gt;，选择维度为&lt;strong&gt;交互功能类型&lt;/strong&gt;，选择用户分群为你想分析的人群，可以是全部登录用户，就出来上面这张图。其中，左边的图是产品创建功能的使用次数，右边的图是产品创建功能的使用人数。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;功能渗透率和使用率&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="http://yedingding.com/images/product-analytics-with-growingio/product-analytics-sample.png" alt="产品功能渗透率和使用率" /&gt;&lt;/p&gt;
+
+&lt;p&gt;通过气泡图可以了解核心功能的渗透率和使用率是怎样的，找到产品功能推广方向。通过事件分析，选择三个指标，即&lt;strong&gt;用户数&lt;/strong&gt;、&lt;strong&gt;人均浏览页数&lt;/strong&gt;和&lt;strong&gt;平均页面停留时长(分钟)&lt;/strong&gt;，选择维度为&lt;strong&gt;交互功能页面名称&lt;/strong&gt;，选择用户分群为你想分析的人群，可以是全部登录用户，就出来上面这张图。具体的解释可以看文档开头。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户产品功能分布分析&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="http://yedingding.com/images/product-analytics-with-growingio/product-analytics-distribution.png" alt="用户产品功能分布分析" /&gt;&lt;/p&gt;
+
+&lt;p&gt;通过分布分析可以了解功能使用频率，结合使用率和渗透率来优化产品。通过分布分析，选择指标为页面浏览量，选择目标用户为你想分析的人群，可以是全部登录用户，在维度对比里面选择&lt;strong&gt;交互功能页面名称&lt;/strong&gt;，就出来上面这张图。同时，可以通过自定义区间来设置你自己希望分析的区间，我们可以知道高频使用产品功能的用户的占比，低频使用功能的用户的占比，是否符合预期，后续就可以思考如何增加用户的使用频率。&lt;/p&gt;
+
+&lt;h2&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;以上就是一个宏观产品分析的指标体系搭建方案。数据分析的流程是以业务或产品为起点，定义指标体系，搭建看板，探索洞察，继而决策。大道至简，在定义指标体系的过程中，并不追求用很多个指标很多个维度，就如上面方案所列，一个指标两个变量，基本就能完成产品宏观分析的大多数工作。&lt;/p&gt;
+
+&lt;p&gt;少即是多，好的指标体系，才可以更好地为后续的分析洞察提供支撑。&lt;/p&gt;
+
+&lt;script type="text/javascript"&gt;
+$(function() {
+  var scrollTracker = new GrowingIOScrollTracker({
+    event: 'scrollTrack',
+    page: "使用 GrowingIO 搭建产品分析指标体系",
+    markers: [
+      { position: 633,  value: '概述' },
+      { position: 1526, value: '客户案例' },
+      { position: 2218, value: '指标体系搭建' },
+      { position: 3870, value: '实施方式' },
+      { position: 5996, value: '分析报表样例' },
+      { position: 8309, value: '总结' }
+    ]
+  });
+});
+&lt;/script&gt;
+</content>
+  </entry>
   <entry>
     <title>Teahour: 与 Hawstein 和左程云聊算法和数据结构</title>
     <link rel="alternate" href="/2019/01/01/teahour-94-algo-with-hawstein-and-chengyun.html"/>
@@ -19,7 +239,7 @@
       <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="/images/algo-with-hawstein-and-chengyun/teahour-94.png" alt="Teahour 94"&gt;&lt;/p&gt;
+  ![Teahour 94](algo-with-hawstein-and-chengyun/teahour-94.png)
 &lt;/aside&gt;
 
 &lt;p&gt;喜大普奔，年更节目 &lt;a href="https://teahour.fm?utm_source=yedingding"&gt;Teahour&lt;/a&gt; 今天更新了！&lt;/p&gt;
@@ -33,9 +253,9 @@
 
 &lt;p&gt;如果之前没有订阅 Teahour 的读者，可以通过 iTunes 播客软件来订阅，URL 是 &lt;a href="http://itunes.apple.com/cn/podcast/teahour.fm/id608387170?l=en"&gt;http://itunes.apple.com/cn/podcast/teahour.fm/id608387170&lt;/a&gt;。很快也会更新到荔枝FM和喜马拉雅上去。&lt;/p&gt;
 
-&lt;p&gt;总体来说，这期节目录得很爽，嘉和和程云都是很有思想的人，各自在追求自己的精彩。如同我在节目最后的 Share Picks 所分享，生命是一件很美妙的东西，我们究其一生，在跟很多人发生连接，我们在理解自己的同时，也在寻求存在的意义。我个人跟阿德勒个体心理学理论特别有共鸣的一点是，我们生活的意义，存在的意义，是为团队贡献力量。奉献，对他人产生兴趣，继而...&lt;/p&gt;</summary>
+&lt;p&gt;总体来说，这期节目录得很爽，嘉和和程云都是很有思想的人，各自在追求自己的精彩。如同我在节目最后的 Share Picks 所分享，生命是一件很美妙的东西，我们究其一生，在跟很多人发生连接，我们在理解自己的同时，也在寻求存在的意义...&lt;/p&gt;</summary>
     <content type="html">&lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/algo-with-hawstein-and-chengyun/teahour-94.png" alt="Teahour 94" /&gt;&lt;/p&gt;
+  ![Teahour 94](algo-with-hawstein-and-chengyun/teahour-94.png)
 &lt;/aside&gt;
 
 &lt;p&gt;喜大普奔，年更节目 &lt;a href="https://teahour.fm?utm_source=yedingding"&gt;Teahour&lt;/a&gt; 今天更新了！&lt;/p&gt;
@@ -56,7 +276,7 @@
 &lt;p&gt;元旦前，跟产品团队小伙伴们一起吃饭的时候，雷小姐问到 2019 年每个人的个人目标是什么，我想了一下是希望能重启个人的品牌建设，希望今年能录一些节目，码一些字。这很大一部分也是受到嘉和的 &lt;a href="https://algocasts.io/?utm_source=yedingding"&gt;AlgoCasts&lt;/a&gt; 的鼓舞，让我重新燃起了冲动，去分享别人的技术人生，去记录自己的个人感悟。这期节目中，我非常喜欢嘉和和程云的一个观点，其实从来没有想过放弃，因为本来这个就是一个爱好，一个自己乐在其中的东西。不要给自己设太大压力，好玩就行。所以，也许并不能做到那么规律，但是这是一个自己需要去投入的事情，一个自己需要去沉淀的事情。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/algo-with-hawstein-and-chengyun/play-for-fun.png" alt="Play For Fun" /&gt;&lt;br /&gt;&lt;/p&gt;
+  ![Play For Fun](algo-with-hawstein-and-chengyun/play-for-fun.png)&lt;br/&gt;
 &lt;/aside&gt;
 
 &lt;p&gt;2019 年，以 Teahour 开始，很好。&lt;/p&gt;
@@ -64,7 +284,7 @@
 &lt;audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_podcast_94.m4a"&gt;
 &lt;/audio&gt;
 
-&lt;h2 id="section"&gt;广告时间&lt;/h2&gt;
+&lt;h2&gt;广告时间&lt;/h2&gt;
 
 &lt;p&gt;嘉和翻译的新书《反应式设计模式》（Reactive Design Patterns）已经上市。程云的《程序员代码面试指南》第 2 版也在预售中，特别指出第 2 版。有兴趣的同学可以考虑下。&lt;/p&gt;
 </content>
@@ -79,7 +299,7 @@
       <name>叶玎玎</name>
     </author>
     <summary type="html">&lt;blockquote&gt;
-  &lt;p&gt;这是我在 2016 年 9 月 24 日 &lt;a href="https://www.teambition.com"&gt;Teambition&lt;/a&gt; 主办的“增长黑客”在中国的演讲稿。&lt;/p&gt;
+&lt;p&gt;这是我在 2016 年 9 月 24 日 &lt;a href="https://www.teambition.com"&gt;Teambition&lt;/a&gt; 主办的“增长黑客”在中国的演讲稿。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;下载 GrowingIO 互联网公司用户增长秘籍可以&lt;a href="https://blog.growingio.com/posts/hu-lian-wang-chuang-ye-gong-si-yong-hu-zeng-zhang-shi-zhan-mi-ji"&gt;点击这里&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
@@ -89,18 +309,18 @@
 &lt;p&gt;&lt;a href="https://www.growingio.com?utm_source=yedingding"&gt;GrowingIO&lt;/a&gt; 是面向网站和移动应用的新一代数据分析产品，无需埋点即可采集全量、实时用户行为数据，我们希望通过提供一个简单、迅速和规模化的产品，让企业里面的每个人都能用数据去驱动业务增长。用 GrowingIO，即使你不会写代码，你也能成为增长黑客。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="/images/out-product-death-cycle/slack-growth-line.png" alt="Slack Growth Cycle"&gt;&lt;/p&gt;
+  ![Slack Growth Cycle](out-product-death-cycle/slack-growth-line.png)
 &lt;/aside&gt;
 
 &lt;p&gt;今天我要分享的主题是『如何用数据来驱动产品增长』。前几天我在问一些朋友想听什么，回答说如何用数据寻找到增长突破口，跨越鸿沟。这张图是 Slack 从上线到 15 年底的每日日活增长曲线，是我们每个产品都很期待的曲线，其背后离不开指标体系的数据支撑。当我们遇到一个瓶颈期，如何从数据中发现该去做什么，如何去做，是目前这个环境给产品经理给市场运营提出的新的要求，也是一个新的岗位『产品增长经理』。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="/images/out-product-death-cycle/growth-role.png" alt="Growth Role"&gt;&lt;/p&gt;
+  ![Growth Role](out-product-death-cycle/growth-role.png)
 &lt;/aside&gt;
 
-&lt;p&gt;刚才范冰介绍了增长黑客在国内这两年的发展情况，非常精彩。俊元之后也会讲一个如何构建一个增长团队的主题，里面有个非常有意思的问题是，增长团队到底是属于哪个部门？是市场，产品，还是研发？我们也在思考这个问题，等下可以让俊元给大家分享一下他们是怎么做的。之所以有这个问题存在，正好是因为增长黑客的特殊性。有人说这就是变种的市场。是，因为他关心的是用户、品牌和传播。有人说他制造了很多需求，参与了很多产品定义，是属于产品。也有人说他的工作很大一部分是跟数据打交道，采集、ETL、...&lt;/p&gt;</summary>
+&lt;p&gt;刚才范冰介绍了增长黑客在国内这两年的发展情况，非常精彩。俊元之后也会讲一个如何构建一个增长团队的主题，里面有个非常有意思的问题是，增长团队到底是属于哪个部门？是市场，产品，还是研发？我们也在思考这个问题，等下可以让俊元给大家分享...&lt;/p&gt;</summary>
     <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;这是我在 2016 年 9 月 24 日 &lt;a href="https://www.teambition.com"&gt;Teambition&lt;/a&gt; 主办的“增长黑客”在中国的演讲稿。&lt;/p&gt;
+&lt;p&gt;这是我在 2016 年 9 月 24 日 &lt;a href="https://www.teambition.com"&gt;Teambition&lt;/a&gt; 主办的“增长黑客”在中国的演讲稿。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;下载 GrowingIO 互联网公司用户增长秘籍可以&lt;a href="https://blog.growingio.com/posts/hu-lian-wang-chuang-ye-gong-si-yong-hu-zeng-zhang-shi-zhan-mi-ji"&gt;点击这里&lt;/a&gt;&lt;/strong&gt;。&lt;/p&gt;
@@ -110,29 +330,29 @@
 &lt;p&gt;&lt;a href="https://www.growingio.com?utm_source=yedingding"&gt;GrowingIO&lt;/a&gt; 是面向网站和移动应用的新一代数据分析产品，无需埋点即可采集全量、实时用户行为数据，我们希望通过提供一个简单、迅速和规模化的产品，让企业里面的每个人都能用数据去驱动业务增长。用 GrowingIO，即使你不会写代码，你也能成为增长黑客。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/slack-growth-line.png" alt="Slack Growth Cycle" /&gt;&lt;/p&gt;
+  ![Slack Growth Cycle](out-product-death-cycle/slack-growth-line.png)
 &lt;/aside&gt;
 
 &lt;p&gt;今天我要分享的主题是『如何用数据来驱动产品增长』。前几天我在问一些朋友想听什么，回答说如何用数据寻找到增长突破口，跨越鸿沟。这张图是 Slack 从上线到 15 年底的每日日活增长曲线，是我们每个产品都很期待的曲线，其背后离不开指标体系的数据支撑。当我们遇到一个瓶颈期，如何从数据中发现该去做什么，如何去做，是目前这个环境给产品经理给市场运营提出的新的要求，也是一个新的岗位『产品增长经理』。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/growth-role.png" alt="Growth Role" /&gt;&lt;/p&gt;
+  ![Growth Role](out-product-death-cycle/growth-role.png)
 &lt;/aside&gt;
 
 &lt;p&gt;刚才范冰介绍了增长黑客在国内这两年的发展情况，非常精彩。俊元之后也会讲一个如何构建一个增长团队的主题，里面有个非常有意思的问题是，增长团队到底是属于哪个部门？是市场，产品，还是研发？我们也在思考这个问题，等下可以让俊元给大家分享一下他们是怎么做的。之所以有这个问题存在，正好是因为增长黑客的特殊性。有人说这就是变种的市场。是，因为他关心的是用户、品牌和传播。有人说他制造了很多需求，参与了很多产品定义，是属于产品。也有人说他的工作很大一部分是跟数据打交道，采集、ETL、跑 SQL，比如我这样的，属于研发。都对，所以他是属于三者的结合，是用数据驱动的方式来传播和改进产品。今天我来跟大家分享一下我们这方面的实战经验。&lt;/p&gt;
 
-&lt;h3 id="section"&gt;也许不是增长停止，而是陷入产品死亡循环&lt;/h3&gt;
+&lt;h3&gt;也许不是增长停止，而是陷入产品死亡循环&lt;/h3&gt;
 
 &lt;p&gt;不知道在座有多少人听过这个名词，Product Death Cycle。如果你每天感觉到增长停滞不前，很多时候可能并不仅仅是停滞不前，往往情况要比你想的要糟的多，你很有可能陷入了产品死亡陷阱。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/product-death-cycle.png" alt="Product Death Cycle" /&gt;&lt;/p&gt;
-&lt;/aside&gt;
+  ![Product Death Cycle](out-product-death-cycle/product-death-cycle.png)
+  &lt;/aside&gt;
 
-&lt;p&gt;不知道大家对这幅图有没有什么感觉，我曾感同身受，陷入进过这种死循环。没人在用我的产品，做用户访谈询问缺失了哪些功能，客户会告知很多想要的东西，我们会如获至宝，开发这些功能，然后满怀激情地又上线了。但是发现还是没有人用，继续问客户、加功能、上线、没人用，一直循环。我们总有那些幻觉，不知道哪里来的强大的自信，我在做的这个功能一定会让用户开始使用这个产品。我们都知道做产品要克制，要多做减法，少做加法，然而真正执行起来就会发现无比的困难。&lt;/p&gt;
+不知道大家对这幅图有没有什么感觉，我曾感同身受，陷入进过这种死循环。没人在用我的产品，做用户访谈询问缺失了哪些功能，客户会告知很多想要的东西，我们会如获至宝，开发这些功能，然后满怀激情地又上线了。但是发现还是没有人用，继续问客户、加功能、上线、没人用，一直循环。我们总有那些幻觉，不知道哪里来的强大的自信，我在做的这个功能一定会让用户开始使用这个产品。我们都知道做产品要克制，要多做减法，少做加法，然而真正执行起来就会发现无比的困难。
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/feature-usage.png" alt="Feature Usage" /&gt;&lt;/p&gt;
+  ![Feature Usage](out-product-death-cycle/feature-usage.png)
 &lt;/aside&gt;
 
 &lt;p&gt;现在让我们想想我们各自的产品有多少功能，条件反射下你能说出多少功能，比如 GrowingIO 有圈选、单图、看板、留存、漏斗、细查、分群、热图、实时、概览等等。我们可以做无数的功能，公司里大家讨论的热火朝天，研发们键盘敲的霹雳啪响，做功能的感觉真的很爽。然而，Standish Group，美国专门从事跟踪IT项目成功或失败的权威机构，曾做过一个大型的 IT 项目研究，发现大多数的产品里，50% 的功能基本没被使用过，30% 的很少被使用，只有 20% 的经常被使用。所以，比起堆积功能而言，我们更需要思考的是『为什么』，为什么用户不用？&lt;/p&gt;
@@ -141,44 +361,44 @@
 
 &lt;p&gt;为了挖掘为什么，首先我们得了解事物发展的基本规则。&lt;/p&gt;
 
-&lt;h3 id="section-1"&gt;用户的生命周期&lt;/h3&gt;
+&lt;h3&gt;用户的生命周期&lt;/h3&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/user-stage.png" alt="User Stage" /&gt;&lt;/p&gt;
+  ![User Stage](out-product-death-cycle/user-stage.png)
 &lt;/aside&gt;
 
 &lt;p&gt;上面这张图是一个标准的用户生命周期转化图。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;用户落地到网站或者安装应用后打开，是属于访问用户。&lt;/li&gt;
-  &lt;li&gt;当他被产品的价值吸引后完成注册，就转化成为一个注册用户。&lt;/li&gt;
-  &lt;li&gt;当他体会到产品的价值开始正式使用，就成为一个激活用户。&lt;/li&gt;
-  &lt;li&gt;当他开始频繁使用，就成为了一个活跃用户。&lt;/li&gt;
-  &lt;li&gt;当他更深入使用时，转化成了付费用户&lt;/li&gt;
-  &lt;li&gt;再之后越用越有劲开始推荐给其他人就成为了一个粉丝。&lt;/li&gt;
+&lt;li&gt;用户落地到网站或者安装应用后打开，是属于访问用户。&lt;/li&gt;
+&lt;li&gt;当他被产品的价值吸引后完成注册，就转化成为一个注册用户。&lt;/li&gt;
+&lt;li&gt;当他体会到产品的价值开始正式使用，就成为一个激活用户。&lt;/li&gt;
+&lt;li&gt;当他开始频繁使用，就成为了一个活跃用户。&lt;/li&gt;
+&lt;li&gt;当他更深入使用时，转化成了付费用户&lt;/li&gt;
+&lt;li&gt;再之后越用越有劲开始推荐给其他人就成为了一个粉丝。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;从上往下，这是一个从访问到粉丝的漏斗，每一步都代表着 AARRR 的一个模型。从访问到注册是用户获取，从注册到价值认同是用户激活，从价值认同到频繁使用是用户留存，从用户留存到购买付费是客户转化，从付费用户到粉丝是用户推荐。需要特别指出的是，对于不同的应用，各个阶段会有不同的表现形式。比如对我们 GrowingIO 来说，我们是需要用户安装 SDK 的，需要用户上传数据给我们，给他做各种数据的呈现。所以我们的用户获取定义并不以到注册为结束，而是到 SDK 安装完成为止。&lt;/p&gt;
 
 &lt;aside&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/churn-stage.png" alt="Churn Stage" /&gt;&lt;/p&gt;
+  ![Churn Stage](out-product-death-cycle/churn-stage.png)
 &lt;/aside&gt;
 
 &lt;p&gt;还是这张图，如果我们换个角度，每个步骤都在流失用户，每一次的流失，都是一个从访问到放弃的漏斗模型。每一个步骤都在漏水，一乘机就会让你感觉无比的恐怖和痛苦。比起转化，如果我们去关心流失，相信我，结果会让人感觉到触目惊心。&lt;/p&gt;
 
 &lt;aside&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/retention-curve.png" alt="Retention Curve" /&gt;&lt;/p&gt;
+  ![Retention Curve](out-product-death-cycle/retention-curve.png)
 &lt;/aside&gt;
 
 &lt;p&gt;这是典型的一个互联网产品在用户注册的第一个月的留存窘况，是一个非常悲伤的故事。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;1000 个用户访问了你的网站&lt;/li&gt;
-  &lt;li&gt;20% 的用户也就是 200 个注册了&lt;/li&gt;
-  &lt;li&gt;80% 的注册用户完成了 Onboarding，也就是 160 个&lt;/li&gt;
-  &lt;li&gt;40% 的注册用户在一天后回访了应用或者网站&lt;/li&gt;
-  &lt;li&gt;20% 的注册用户在一周后回访了应用或者网站&lt;/li&gt;
-  &lt;li&gt;10% 的注册用户在一个月后回访了应用或者网站&lt;/li&gt;
+&lt;li&gt;1000 个用户访问了你的网站&lt;/li&gt;
+&lt;li&gt;20% 的用户也就是 200 个注册了&lt;/li&gt;
+&lt;li&gt;80% 的注册用户完成了 Onboarding，也就是 160 个&lt;/li&gt;
+&lt;li&gt;40% 的注册用户在一天后回访了应用或者网站&lt;/li&gt;
+&lt;li&gt;20% 的注册用户在一周后回访了应用或者网站&lt;/li&gt;
+&lt;li&gt;10% 的注册用户在一个月后回访了应用或者网站&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;一个月后，1000 个访问用户只剩下了 20 个成为你的活跃用户，只有 2%，而 98% 的用户却都流失了。即使是转化后的 200 个注册用户中，也只有 10% 的用户在一个月后还留着。这就是大多数产品的一个残酷事实，而对比起来，那些头部的应用，往往能在用户刚进入的第一周能达到百分之五六十的留存，&lt;/p&gt;
@@ -189,44 +409,44 @@
 
 &lt;p&gt;只有这样，你的 PR 工作，你的市场运营活动，才有意义。&lt;/p&gt;
 
-&lt;h3 id="what---how---why"&gt;What -&amp;gt; How -&amp;gt; Why&lt;/h3&gt;
+&lt;h3&gt;What -&amp;gt; How -&amp;gt; Why&lt;/h3&gt;
 
 &lt;p&gt;而要理解这个为什么，首先要去了解用户做了什么，是怎么做的。从中明白为什么后，去执行改进。之后又是循环迭代。&lt;/p&gt;
 
 &lt;p&gt;我们可以采取庖丁解牛的方式，从两个方面去入手查看这个问题，从宏观了解到细节。&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;哪些功能被用户频繁的使用&lt;/li&gt;
-  &lt;li&gt;哪些功能能影响用户的留存&lt;/li&gt;
+&lt;li&gt;哪些功能被用户频繁的使用&lt;/li&gt;
+&lt;li&gt;哪些功能能影响用户的留存&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;我们先去发现 『What』，也就是用户做了什么。下面我以 GrowingIO 本身为例来解释如何来做。&lt;/p&gt;
 
-&lt;h4 id="section-2"&gt;哪些功能被频繁使用?&lt;/h4&gt;
+&lt;h4&gt;哪些功能被频繁使用?&lt;/h4&gt;
 
 &lt;p&gt;我的产品有很多功能，到底哪些功能在被用户频繁使用呢？前面已经提到过，80% 的产品功能大多数人都没有使用过，那么如何找到这 80% 和另外的 20% 呢。先从宏观角度入手，我们先通过可视化圈选定义出来我们产品的主要功能，有十来个，在粗粒度上我们对应每个功能页面的访问量，然后得到一张单图，查看这十来个指标在时间线上的用户使用趋势分布图。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/feature-wall.png" alt="Feature Wall" /&gt;&lt;/p&gt;
+  ![Feature Wall](out-product-death-cycle/feature-wall.png)
 &lt;/aside&gt;
 
 &lt;p&gt;这张图是一个堆积图，其中 x 轴是时间，y 轴是页面访问量。堆积图非常适合用来查看数据在时间维度上的差异变化。我们能很明显的感觉到用户主要在使用哪些功能，哪些功能的使用热度在提升，其中，蓝色、灰色和暗红色都是主要的流量贡献者。另外一个角度去看，我们在整个过程中新加的功能，可以看出有些对于流量的贡献是比较低的，这也说明新功能对于用户来说不是一个必须有的功能。&lt;/p&gt;
 
-&lt;h4 id="section-3"&gt;哪些功能影响用户的留存?&lt;/h4&gt;
+&lt;h4&gt;哪些功能影响用户的留存?&lt;/h4&gt;
 
 &lt;p&gt;了解功能使用情况后，我们已经有大致的感觉用户每天在用什么。那么我们需要接下去了解的是哪些功能能留住新用户，让用户有更多的粘度来使用产品，也就是留存情况。我们听过很多关于魔法数字的故事，比如&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;LinkedIn 发现在第一周增加 5 个社交关系的用户留存度很高&lt;/li&gt;
-  &lt;li&gt;Facebook 发现在第一周增加 10 个好友的用户留存度很高&lt;/li&gt;
-  &lt;li&gt;Twitter 发现在第一周有 30 个 followers 的用户留存度很高&lt;/li&gt;
-  &lt;li&gt;Dropbox 发现在第一周安装两个以上操作系统的用户留存度很高&lt;/li&gt;
+&lt;li&gt;LinkedIn 发现在第一周增加 5 个社交关系的用户留存度很高&lt;/li&gt;
+&lt;li&gt;Facebook 发现在第一周增加 10 个好友的用户留存度很高&lt;/li&gt;
+&lt;li&gt;Twitter 发现在第一周有 30 个 followers 的用户留存度很高&lt;/li&gt;
+&lt;li&gt;Dropbox 发现在第一周安装两个以上操作系统的用户留存度很高&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;这些都是别人家的孩子，那么我们自己产品的魔法数字是啥呢？&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/retention-wall.png" alt="Retention Wall" /&gt;&lt;/p&gt;
+  ![Retention Wall](out-product-death-cycle/retention-wall.png)
 &lt;/aside&gt;
 
 &lt;p&gt;首先让我们从宏观上来了解一下产品各功能的留存情况。该图是我们的功能留存对比图。最底下的是所有新注册的留存情况，也是最糟糕的一条。上面都是使用过一些功能的留存情况，近似等于经历过 Onboarding 流程的用户。很明显的可以看到，有一个非常高的点，也有两个略高于其他功能的功能。 我们就应该思考，为什么这些用户使用了这个功能以后，整个留存就上来了？ 这样，我们大致就有了感觉到底哪些功能能吸引用户回访。&lt;/p&gt;
@@ -234,12 +454,12 @@
 &lt;p&gt;有了这个大致的认知基础，下面就是魔法数字登场的时候了。这是我们新开发的一个功能，叫做&lt;a href="https://blog.growingio.com/posts/sjfx_34"&gt;留存魔法师&lt;/a&gt;，基于用户全量采集数据进行数据分析，帮你自动找到你产品的魔法数字，让你知道哪些功能跟你的次周留存最相关。同时，你也可以查看上面提到的这些基础功能，看一下魔法数字是多少。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/magic-number.gif" alt="Magic Number" /&gt;&lt;/p&gt;
+  ![Magic Number](out-product-death-cycle/magic-number.gif)
 &lt;/aside&gt;
 
 &lt;p&gt;比如我们有一个细查功能，七天之内用过 3 次细查功能的用户留存率达到 40% 以上，用过 10 次细查功能的用户留存率达到 60% 以上。用的次数越多，留存率越高，因为代表是一个黏度用户，所以我们并不需要追求留存率最高点，我们需要了解的是，超过某个数字以后，在留存率情况下会突然有个显著的变化。因此，我们关心超过三次用户或者超过两次用户有多少量，超过十次用户有多少量，通过用户量和留存两个对比。当然背后是非常复杂的数据统计模型，通过这种方式，我们就可以知道，到底不同的功能做了多少次以后，就可以产生一些质的变化。这是一个例子，当你使用我们这个功能以后，不用自己做就可以直接得到结论。&lt;/p&gt;
 
-&lt;h3 id="how"&gt;How&lt;/h3&gt;
+&lt;h3&gt;How&lt;/h3&gt;
 
 &lt;p&gt;一旦当你知道用户在做什么的时候，你会知道哪些功能会影响到用户留存，这样能提高你的激活转化率。下面我们思考，做过这些行为和没有做过这些行为的人，到底是怎么做的，也就是要对用户群体做数据分析。&lt;/p&gt;
 
@@ -250,26 +470,22 @@
 &lt;p&gt;这三个情况就是分群对比。我们需要知道这三个群体在应用里是怎么做的，做了哪些，没有做哪些。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/segmentation.png" alt="User Segmentation" /&gt;&lt;/p&gt;
+  ![User Segmentation](out-product-death-cycle/segmentation.png)
 &lt;/aside&gt;
 
 &lt;p&gt;我们会建一个用户分群，可以通过维度切分。比如，今天关心市场投放，这次活动带来多少访问量，维度选择页面来源，再跟指标做结合。第一个分群是第一天领了红包第三天第五天没有领红包的，也就是第一天领红包的按纽点击次数大于零，第三天等于零，第五天等于零。第二个分群是第一天第三天领了红包第五天没有领红包的，也就是第一天第三天领红包的按钮点击次数大于零，第五天等于零。第三个分群是第一天第三天第五天都领了红包的，也就是第一天第三天第五天领红包的按钮点击次数斗大于零。通过这个方式，定义了三个用户分群。一旦定了用户分群，有两件事情可以做：&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;比较不同用户群体之间到底有什么相似性，有什么差异性？&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;比较不同用户群体之间到底有什么相似性，有什么差异性？&lt;/p&gt;
 
-    &lt;p&gt;这是我们目前正在开发的功能，让你找到两个群体之间最大的差别在哪里；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;当我们宏观上了解不同群体之间的差别，可以再从明细上考虑各个群体里具体的人到底在做什么，怎么做。&lt;/p&gt;
+&lt;p&gt;这是我们目前正在开发的功能，让你找到两个群体之间最大的差别在哪里；&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;当我们宏观上了解不同群体之间的差别，可以再从明细上考虑各个群体里具体的人到底在做什么，怎么做。&lt;/p&gt;
 
-    &lt;p&gt;对于我们来说，每天的注册量可能只有几百个，这个时候会每一个都看一下，每个注册用户按照不同的分群切分，在整个流程中到底做了哪些事情，是怎么做的。我们会有整体的用户细查功能，一旦开始明确用户在整个产品里用什么，之后开始对症下药，找出潜在的问题。&lt;/p&gt;
-  &lt;/li&gt;
+&lt;p&gt;对于我们来说，每天的注册量可能只有几百个，这个时候会每一个都看一下，每个注册用户按照不同的分群切分，在整个流程中到底做了哪些事情，是怎么做的。我们会有整体的用户细查功能，一旦开始明确用户在整个产品里用什么，之后开始对症下药，找出潜在的问题。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/user-insight.png" alt="User Insights" /&gt;&lt;/p&gt;
+  ![User Insights](out-product-death-cycle/user-insight.png)
 &lt;/aside&gt;
 
 &lt;p&gt;接着我开始一步步去查看这个分群的用户，他是怎么在使用我们的产品的。我们可以去走调研问用户他是怎么使用的，但是没有什么比冷冰冰的直接观察用户做的行为来的更有价值。通过这个用户行为的历史查看，我们可以看到用户在注册的一段时间内做了哪些，没做哪些，使用过哪些功能，有没有被卡在一些步骤上等等。比如针对上面创建的分群，我在一个一个的查看这些用户到底在 Onboarding 过程中做了哪些事情，没有去使用细查功能，是去使用了什么。&lt;/p&gt;
@@ -279,21 +495,21 @@
 &lt;p&gt;知道了 What，发现了 How，思考了 Why，那么我们就应该去改进产品了。我们一定要去思考：&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;能做什么？&lt;/li&gt;
-  &lt;li&gt;要去怎么改进？&lt;/li&gt;
-  &lt;li&gt;让研发做什么？&lt;/li&gt;
-  &lt;li&gt;让产品做什么？&lt;/li&gt;
-  &lt;li&gt;让市场做什么？&lt;/li&gt;
-  &lt;li&gt;让销售做什么？&lt;/li&gt;
+&lt;li&gt;能做什么？&lt;/li&gt;
+&lt;li&gt;要去怎么改进？&lt;/li&gt;
+&lt;li&gt;让研发做什么？&lt;/li&gt;
+&lt;li&gt;让产品做什么？&lt;/li&gt;
+&lt;li&gt;让市场做什么？&lt;/li&gt;
+&lt;li&gt;让销售做什么？&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/action-result.png" alt="Take Action" /&gt;&lt;/p&gt;
+  ![Take Action](out-product-death-cycle/action-result.png)
 &lt;/aside&gt;
 
 &lt;p&gt;每一步都要去想，有什么事情是可以做的。比如，在整个用户的激活过程中，我们已经知道用户在我们的产品里主要使用哪些功能，我们也知道哪些功能会影响到用户的留存，我们开始构建整个用户的标签体系。一个用户，默认新进来是注册用户，基于他的行为，每使用一个功能，就会标记一个标签，构建不同的画像，然后基于这些画像特征推送不同的内容来促进他的转化。比如上图的结果，是我们选了一批测试用户，基于他们不同的行为，推送了功能案例和功能介绍，导流到高价值功能上，让他能更有兴趣来了解和更容易的上手。最后用户的留存率，从不到 25% 提升到 50%，足足提升两倍。&lt;/p&gt;
 
-&lt;h4 id="what-will-i-do-differently-based-on-the-information"&gt;What will I do differently based on the information&lt;/h4&gt;
+&lt;h4&gt;What will I do differently based on the information&lt;/h4&gt;
 
 &lt;p&gt;当你知道数据有问题的时候，不能只是知道，你要去思考我要怎么执行，怎么做事情，怎么跟踪这个效果。只有这样，我们才能持续地优化。数据对我们来说有两个作用，证明和预测。知史以明镜，知道过去发生的，方能预测未来要发生的。然而，如果仅仅是用来知道过去发生的，但是不转化成为行动，那这个数据不会带来任何价值。我们见过很多人，只是用分析工具来看各种数，却很少去思考如何去改变，很少去用『Why』。看到一个数据报告后，我应该改变什么，我应该怎么去改变，问自己 5 遍这个问题，也许你就能发现不同的视角，明白该去做什么，这才是数据驱动。&lt;/p&gt;
 
@@ -309,19 +525,19 @@
 
 &lt;p&gt;一段时间，一个目标。单点突破，快速执行。&lt;/p&gt;
 
-&lt;h3 id="growth-101"&gt;Growth 101&lt;/h3&gt;
+&lt;h3&gt;Growth 101&lt;/h3&gt;
 
 &lt;p&gt;谢谢大家，以上就是我今天的分享。简单点来说，任何产品的增长其实都是在回答两个问题，&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;我是谁&lt;/li&gt;
-  &lt;li&gt;卖给谁&lt;/li&gt;
+&lt;li&gt;我是谁&lt;/li&gt;
+&lt;li&gt;卖给谁&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;不同的阶段，这两个问题的答案也不尽相同。GrowingIO 希望能帮助你们回答这两个问题，辅助你们更有目标的做事，快速增长。我们自己在使用 GrowingIO 过程中，主要是围绕渠道运营，渠道转化，产品运营，留存分析，内容运营等大块展开，成为公司运营的一个强有力支撑。希望他也能成为你们的强有力支撑，参加这场活动的各位，如果有兴趣的话，可以通过扫描这个二维码获取优惠码，体验一下我们的产品。谢谢大家。&lt;/p&gt;
 
 &lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/out-product-death-cycle/Growing-QR-Code.png" alt="GrowingIO QR Code" /&gt;&lt;/p&gt;
+  ![GrowingIO QR Code](out-product-death-cycle/Growing-QR-Code.png)
 &lt;/aside&gt;
 </content>
   </entry>
@@ -434,7 +650,7 @@
 &lt;audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a"&gt;
 &lt;/audio&gt;
 
-&lt;h3 id="part-1---data-science-"&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
+&lt;h3&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：大家好，欢迎再一次来收听我们 Teahour.fm 的节目。今天是第60期，是由我- Kevin 和玎玎来主持。今天我们邀请来的嘉宾是丁磊。丁磊，你好！&lt;/p&gt;
 
@@ -452,7 +668,7 @@
 &lt;audio name="media" src="http://screencasts.b0.upaiyun.com/podcasts/teahour_episode_60.m4a"&gt;
 &lt;/audio&gt;
 
-&lt;h3 id="part-1---data-science-"&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
+&lt;h3&gt;Part 1 - Data Science 的前世今生&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：大家好，欢迎再一次来收听我们 Teahour.fm 的节目。今天是第60期，是由我- Kevin 和玎玎来主持。今天我们邀请来的嘉宾是丁磊。丁磊，你好！&lt;/p&gt;
 
@@ -499,12 +715,8 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：大数据的应用大多数还是企业级的，即企业来建造一个应用的平台，在上面进行数据分析，进行大数据的优化。企业级的才有那么大的数据。如果要具体划分的话，整个生态系统分几类，&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;数据公司，专门做数据平台的，像现在比较火的 &lt;a href="https://databricks.com"&gt;Databricks&lt;/a&gt; 是做 Spark 的，提供 Spark 的平台，原来的 &lt;a href="http://www.cloudera.com"&gt;Cloudera&lt;/a&gt; 提供 Hadoop 。甚至包括一些做机器学习的人，他建立了一些公司，比如说 &lt;a href="http://graphlab.org"&gt;Graphlab&lt;/a&gt;，提供了一些基于图的机器学习的算法平台。这些是纯做平台的公司，不是在一个 Industry 的垂直领域。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;做具体的 Application 的公司。做 application 的公司，因为我个人背景的原因，我接触的大数据集中在广告电商这块。这些公司相对来说数量比较多，需要用到很多大数据的应用。所以你可以说它们是在一个垂直领域的大数据的平台。电商领域也是这样的。现在越来越多在传统领域都想建立大数据，甚至是在保险做广告方面的有很多广告平台公司金融公司包括医疗信息系统公司，都想建立大数据系统的应用。但那些相对于广告和电商才是刚刚发展起来的领域。&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数据公司，专门做数据平台的，像现在比较火的 &lt;a href="https://databricks.com"&gt;Databricks&lt;/a&gt; 是做 Spark 的，提供 Spark 的平台，原来的 &lt;a href="http://www.cloudera.com"&gt;Cloudera&lt;/a&gt; 提供 Hadoop 。甚至包括一些做机器学习的人，他建立了一些公司，比如说 &lt;a href="http://graphlab.org"&gt;Graphlab&lt;/a&gt;，提供了一些基于图的机器学习的算法平台。这些是纯做平台的公司，不是在一个 Industry 的垂直领域。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;做具体的 Application 的公司。做 application 的公司，因为我个人背景的原因，我接触的大数据集中在广告电商这块。这些公司相对来说数量比较多，需要用到很多大数据的应用。所以你可以说它们是在一个垂直领域的大数据的平台。电商领域也是这样的。现在越来越多在传统领域都想建立大数据，甚至是在保险做广告方面的有很多广告平台公司金融公司包括医疗信息系统公司，都想建立大数据系统的应用。但那些相对于广告和电商才是刚刚发展起来的领域。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我们现在讲的大数据，最近几年的概念，比如说商业、智能、BI、数据分析甚至统计上的很多东西都已经有很久了。我们现在讲的这个大数据和以前意义上的大数据是一个什么样的关系？&lt;/p&gt;
@@ -526,30 +738,14 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：大家谈数据科学，也谈数据分析，在有些地方数据分析又等于数据科学。这本身没什么界限。不同的人可以得到很多不同的答案。一个搞研究的人，他可能觉得数据分析可能是得用微分方程的叫做分析；对于企业中的一些分析员，可能分析就是做一个 excel 报表。分析这个词存在很多的定义。数据分析有八个层次。&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;第一个层次是一个标准的报表，发生了什么事情。比如说月度报表、季度报表。用 excel 就能做出来，甚至用不到 MySQL。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;第二层是即席查询，也就是 Ad hoc 的查询。比如说，一周内门诊病人的数量。这个报表即席的做出来。应该 MySQL 就可以了。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;第三层是多维分析。相当于 BI 上面的 OLAP 的分析。分析多个变量之间的关系。比如说，碰到一个商业问题，可以分析出来这个问题在哪里。 哪种手机类型的用户的行为是什么样的。这种叫做多维的分析。这也是一种查询，但可能用一些其他的技术，比如 OLAP 的技术。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;第四种叫做警报。当一个事情发生以后会告诉你采取哪些行为。这比简单的分析要求更高的东西。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;第五层叫做统计分析。比如说可以进行一些频域分析，或者回归分析，从数据中提取规律，是一些比较探索性的统计分析的问题。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;第六种叫做预报或者预测，预测一个商品在未来的需求量。比如说进行一些时序分析或一些更高级的统计分析。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;第七种叫做预测建模。这是更加像我刚刚所说的机器学习，比如说给他展示某些广告以后，他会进行哪些行为。这些东西就是预测建模。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;最后一种叫做优化，如何提高 ROI ，提高投资回报比。这个东西不光要能预测事情发生的规律，还得能优化它 ，从而使企业的利润更好，使 ROI 更高。这就是它说的最高的一个层次。&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第一个层次是一个标准的报表，发生了什么事情。比如说月度报表、季度报表。用 excel 就能做出来，甚至用不到 MySQL。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第二层是即席查询，也就是 Ad hoc 的查询。比如说，一周内门诊病人的数量。这个报表即席的做出来。应该 MySQL 就可以了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第三层是多维分析。相当于 BI 上面的 OLAP 的分析。分析多个变量之间的关系。比如说，碰到一个商业问题，可以分析出来这个问题在哪里。 哪种手机类型的用户的行为是什么样的。这种叫做多维的分析。这也是一种查询，但可能用一些其他的技术，比如 OLAP 的技术。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第四种叫做警报。当一个事情发生以后会告诉你采取哪些行为。这比简单的分析要求更高的东西。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第五层叫做统计分析。比如说可以进行一些频域分析，或者回归分析，从数据中提取规律，是一些比较探索性的统计分析的问题。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第六种叫做预报或者预测，预测一个商品在未来的需求量。比如说进行一些时序分析或一些更高级的统计分析。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第七种叫做预测建模。这是更加像我刚刚所说的机器学习，比如说给他展示某些广告以后，他会进行哪些行为。这些东西就是预测建模。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;最后一种叫做优化，如何提高 ROI ，提高投资回报比。这个东西不光要能预测事情发生的规律，还得能优化它 ，从而使企业的利润更好，使 ROI 更高。这就是它说的最高的一个层次。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我觉得这个讲的比较抽象，能不能请你给我们讲几个详细的案例，把那些东西展开在一个案例中具体的说一下。&lt;/p&gt;
@@ -572,7 +768,7 @@
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：第二个是内容。内容也是商业洞察方面很重要的东西。内容是一个很广的词，对不同的 business 他的意义是不同的。比如说 Netflix 包括国内的这些视频网站，它的内容就是这些向用户展示的本身的内容。不同的用户对不同的内容感兴趣。这就是这种视频网站如何跟客户交互的问题。电商网站又有一些其它内容的不同。内容就是一个如何去个性化网站的过程。根据内容的好坏，消费者跟你的网站交互的频率、热度都会有区别。这也是一个 business 它要来优化自己的网站或者 revenue 的方面。第三个是策略，如何吸引消费者。如果有些已经有了消费者，但发现消费者有衰退迹象，越来越少在你的网上买东西，你如何把他吸引回来，这就是一个策略的问题。比如说你可以跟他进行一些沟通，一些 Email 的沟通，或者可以给他投放一些你的优惠券等东西。这后面对 business 确实有一些数据科学方面的算法，可以帮他留住他现有的用户，也可以给增进他跟用户之间的交互，让用户去更多的购买，让用户跟商家之间有更良性的关系。&lt;/p&gt;
 
-&lt;h3 id="part-2---data-science-"&gt;Part 2 - Data Science 在预测分析中的应用&lt;/h3&gt;
+&lt;h3&gt;Part 2 - Data Science 在预测分析中的应用&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我觉得这个部分你可能比较适合，因为你在 Data Science 方面也读了博士，在算法、科学方面比较有长处。&lt;/p&gt;
 
@@ -608,7 +804,7 @@
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：下一方面我们本来想说一下工程方面，但是前面说的多了一点，我想我们今天进入一下案例学习。想让丁磊给我们举一个案例。&lt;/p&gt;
 
-&lt;h3 id="part-3---case-study"&gt;Part 3 - Case Study&lt;/h3&gt;
+&lt;h3&gt;Part 3 - Case Study&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：Netflix 是一个电影租赁网站，在美国这边比较 popular ，他们做推荐引擎做的比较有名。是他们在好几年之前组织了一个竞赛，叫 Netflix 大奖赛。它公布了一些数据集，让大家来做推荐算法。赢了的这个队可以拿到很多钱。很多做机器学习和做数据挖掘的高手都来参加这个竞赛。Netflix 的推荐算法对工业界推动挺大的。在 IEEE Computer 有一篇文章，它大概说了一下他们的推荐算法怎么工作的。Netflix 有一个很大的矩阵，一个是客户的维度，一个是电影的维度。它合并在一起就是一个很大的矩阵。比如说玎玎，你看过五部电影，你在你那一行就有一个不是零的数据，来表示你看电影的时间长度，或者看的次数。这是矩阵在每种信息的表示。Netflix 做的比赛获胜的团队根据这篇文章做的算法是矩阵分解的算法。把巨大的矩阵分解成两个小的矩阵。这就是降低维度的算法。降低度是指把巨大的空间用低维的子空间去拟合，即降维的思想。比如说，你有很多的数据点，在很大的空间中，你用相对低维的空间，比如说几百的上千的，来拟合原来更高维的矩阵。&lt;/p&gt;
 
@@ -657,15 +853,9 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：做机器学习的工具有很多。Hadoop 肯定是一个数据处理的很热门的工具。任何机器学习，任何算法分析都要做很多ETL数据处理的过程。ETL肯定离不开 Hadoop 。现在的趋势是 Spark 变得非常的火。Spark 相对于 Hadoop 也有很多优点：&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;首先，可以很有效的利用内存，减少I/O方面的操作，节省很多时间。这是 Hadoop 做的比较差的地方。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;第二，对于一些循环的算法、迭代的算法，Spark在这方面很强。机器学习有很多算法都是非常迭代性的，而 Hadoop 在这方面做的比较差。Spark 现在有个很强的社区，有很多很好的算法都是开源的，都可以使用。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;另外，做一些一般的处理，比如说单机上的处理，采用 Java ，Python ，有的人比较喜欢用 R ，或者是 Scala 等，这些语言，都是很好的工具。&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;首先，可以很有效的利用内存，减少I/O方面的操作，节省很多时间。这是 Hadoop 做的比较差的地方。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第二，对于一些循环的算法、迭代的算法，Spark在这方面很强。机器学习有很多算法都是非常迭代性的，而 Hadoop 在这方面做的比较差。Spark 现在有个很强的社区，有很多很好的算法都是开源的，都可以使用。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;另外，做一些一般的处理，比如说单机上的处理，采用 Java ，Python ，有的人比较喜欢用 R ，或者是 Scala 等，这些语言，都是很好的工具。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：像 Matlab 现在还有人用么？&lt;/p&gt;
@@ -684,7 +874,7 @@
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：正常是工业界推动，事实上在很多年也是这样的。最近有个很好玩的事情是学术界反而逆袭了。Spark 完全就是一个学术类的项目起来的。Graph Lab 做的也很好。有一些在学术界做的也非常好的组，他们的实力不亚于一个小型的公司。他们有很好的人在那里，跟工业界接触很多，接触的都是工业界的最棘手的问题，而工业界又没有资源去解决。学术界有一些自由度来研究一些非常有影响力但是非常棘手的问题。工业界绝大多数的公司根本没有资源做这个事情，它首先得创造价值，创造利润。学术界在近几年反而能够很好的运用他们的资源，很多事情确实很好的推动到整个业界来使用，尤其是在近几年，在这些大数据和机器学习接口的地方做的更好。&lt;/p&gt;
 
-&lt;h3 id="part-4---"&gt;Part 4 - 大数据在其他领域的应用&lt;/h3&gt;
+&lt;h3&gt;Part 4 - 大数据在其他领域的应用&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：我们可以讲一下大数据在其他领域的一些应用，或者讲机器学习这些话题。斯坦福那边进行 translation ，和 Google 联合来进行翻译、自动驾驶的汽车这些应该都算是机器学习的一些分支吧，或者一些新的研究方面。还有无人驾驶的飞行器。我想听听丁磊对这方面的看法。&lt;/p&gt;
 
@@ -711,12 +901,8 @@
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：作为一个 Data Scientist ，跟传统的工程师是有差异的，是两种完全不同的工作的种类。跟传统的工程师的区别在于：&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;数据科学家特别是好的数据科学家，对东西的数字看的非常清楚，不是仅仅的去写个程序，这是一个最基本的素质。当然他必须得保证程序中整个 flow 中的数据完全准确。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;数据科学家可能还有另外一个作用是能够驱动产品的需求，能够自己提取产品的需求。传统软件工程师的工作，可能是产品经理有一些需求，然后工程师实现，很多公司都是这样构建的。虽然有很多很聪明的工程师，可以非常创造等，但是作为数据科学家，你可以自己探索需求，发现需求。对于一个数据产品，数据科学家对数据产品最清楚，他自己去分析数据。进入数据、分析数据才可能分析这些需求，才可能把数据产品做好。从这点意义上来说，数据科学家是可以驱动产品需求的过程。&lt;/p&gt;
-  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数据科学家特别是好的数据科学家，对东西的数字看的非常清楚，不是仅仅的去写个程序，这是一个最基本的素质。当然他必须得保证程序中整个 flow 中的数据完全准确。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数据科学家可能还有另外一个作用是能够驱动产品的需求，能够自己提取产品的需求。传统软件工程师的工作，可能是产品经理有一些需求，然后工程师实现，很多公司都是这样构建的。虽然有很多很聪明的工程师，可以非常创造等，但是作为数据科学家，你可以自己探索需求，发现需求。对于一个数据产品，数据科学家对数据产品最清楚，他自己去分析数据。进入数据、分析数据才可能分析这些需求，才可能把数据产品做好。从这点意义上来说，数据科学家是可以驱动产品需求的过程。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：它最大的不同，是一般的传统工程师在企业里的结构是从上到下的，指令从上面下来的；而数据科学家是从下到上的，对数据研究研究之后，发现一个东西可以影响上面的管理、策略方面的东西。所以它的影响力在合适的环境里影响力是比较大的。&lt;/p&gt;
@@ -727,7 +913,7 @@
 
 &lt;p&gt;&lt;strong&gt;丁磊&lt;/strong&gt;：我很肯定回答——不一定。但是好的数据科学家，一定要对数字有很强的感觉。一般来说，如果是读计算机或者读了机器学习的 PhD，对数据有感觉，是没有问题的。但是未必要读 PhD 才能有那种感觉。我跟一些很好的数据科学家工作过，他们本身没有 PhD，但是他们绝对有很强的数量的意识，并且能够驱动产品的需求，同样能跟各个团队打交道。在我看来他们是很好的数据科学家，确实在某些方面比一些专业的人才更有优势。他们能够很好地对一些新的领域进行适应。&lt;/p&gt;
 
-&lt;h3 id="part-5---share-picks"&gt;Part 5 - Share Picks&lt;/h3&gt;
+&lt;h3&gt;Part 5 - Share Picks&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Kevin&lt;/strong&gt;：这个话题我们今天就聊到这里吧。今天聊了很久，感谢丁磊过来。那么我下一个 Teahour.fm 惯有的节目是给大家分享一些东西。丁磊，你先开始吧。&lt;/p&gt;
 
@@ -794,7 +980,7 @@
 
 &lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：大家好，我是郭达峰，是第一家进入 YC 孵化器的华人团队 Strikingly 的联合创始人。在 Strikingly 主要负责技术这一块。我从14岁开始编程，创建 Strikingly 之前我也写过几款超过 2000 万用户的 Facebook 应用。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I’ve shipped the Code. What’s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：达峰身上其实有非常多的标签：第一支 YC 的团队、投行背景、工程师等等。我们今天的这个采访是关于 Ruby 大会的采访，我们更关注工程师这个标签。达峰你在本次大会要分享的这个题目，在我看来很有标题党的感觉：『I&amp;rsquo;ve shipped the Code. What&amp;rsquo;s next?』我第一次看到题目的时候也不确定这个是要讲啥。你能解释一下吗？&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：好的好的。要讲一下这个内容是什么，可能要先讲一下选这个题目的原因。我相信这次大会上有很多团队都是在创业，或者在创业团队工作的人。作为创业团队为什么选 Ruby ，就是因为 Ruby 可以快速开发，这一点对创业公司非常重要。&lt;/p&gt;
 
@@ -806,7 +992,7 @@
 
 &lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：其实改善产品在我看来有很多种方向，那你在这支大会上是从哪个角度改善产品的？&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我着重去做的就是怎么样把产品做到 Make something people want! 我用一个框架讲这个内容：如果你不去测量的话，你不确定产品有没有在改进（&lt;strong&gt;You can’t improve if you don’t measure&lt;/strong&gt;）。如果你不去测量一个新功能对产品的影响，你没有办法有力的说明产品在改善。我讲的内容会通过数据分为三步：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：我着重去做的就是怎么样把产品做到 Make something people want! 我用一个框架讲这个内容：如果你不去测量的话，你不确定产品有没有在改进（&lt;strong&gt;You can&amp;rsquo;t improve if you don&amp;rsquo;t measure&lt;/strong&gt;）。如果你不去测量一个新功能对产品的影响，你没有办法有力的说明产品在改善。我讲的内容会通过数据分为三步：&lt;/p&gt;
 
 &lt;p&gt;1、一开始上线，创业初级的时候，你没有数据的时候，你应该用什么方式去改善产品；
 2、有一些数据时，应该怎么做；
@@ -857,66 +1043,6 @@
 &lt;p&gt;&lt;strong&gt;Dingding&lt;/strong&gt;：Ok，这真的是非常实战的一些经验。好了，今天到此为止了，我真的是非常期待你的 Talk 。感谢你今天抽出时间来录节目，我们在 Ruby 大会上见。我一定要把你抓来好好聊一下。如果大家做一个好产品感兴趣，对如何把产品上线之后继续做好产品，这一场大家一定不要错过。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;达峰&lt;/strong&gt;：好，大家大会上见~~~&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>RubyConf China 2014</title>
-    <link rel="alternate" href="/2014/10/21/rubyconf-china-2014.html"/>
-    <id>/2014/10/21/rubyconf-china-2014.html</id>
-    <published>2014-10-21T08:00:00+08:00</published>
-    <updated>2014-10-21T08:00:00+08:00</updated>
-    <author>
-      <name>叶玎玎</name>
-    </author>
-    <summary type="html">&lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="/images/rubyconf-china-2014/RubyConfChina-2014.png" alt="RubyConf China 2014"&gt;&lt;/p&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
-
-&lt;p&gt;去年，我们尝试了多种改变，第一次跑到上海之外的城市，第一次邀请了如此多的国外著名讲师，第一次尝试官方 After Party，第一次等，获得了参会者的众多好评，也留下了非常美好的回忆。而今年的 RubyConf China，看似没有去年的阵容豪华，看似没有去年的气氛喧闹，但是我们还是很乐观的相信今年会是非常特别的一年，今年我们也在创造很多第一次。&lt;/p&gt;
-
-&lt;p&gt;今年的大会筹办其实蛮早就开始，但是作为一个纯志愿者组织的大会，尤其三位主办人姜军、吕国宁和我都是在创业，时间超级不够用，整体办会经历可以说是跌宕起伏，所幸大多有惊无险。姜军数次跟我谈起想今年尝试不同的方式，想跳出往年固定的主题演讲式，给参会者带来更多不同的体验和更多的参与感和情感互动。所以，我们今年放弃了从海外邀请嘉宾，专注在形式上做突破，为明年的大会做好基础，也就有了你今天看到的大会行程。&lt;/p&gt;
-
-&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks 带来的半天 TDD Workshop，Rails 源码分析之 ActiveRecord 以及由我支持的两场 Ruby 职场...&lt;/p&gt;</summary>
-    <content type="html">&lt;aside class="aside"&gt;
-  &lt;p&gt;&lt;img src="http://yedingding.com/images/rubyconf-china-2014/RubyConfChina-2014.png" alt="RubyConf China 2014" /&gt;&lt;/p&gt;
-&lt;/aside&gt;
-
-&lt;p&gt;倒计时 10 天。第六届中国 Ruby 大会即将于十一月一号二号在北京举行。&lt;/p&gt;
-
-&lt;p&gt;去年，我们尝试了多种改变，第一次跑到上海之外的城市，第一次邀请了如此多的国外著名讲师，第一次尝试官方 After Party，第一次等，获得了参会者的众多好评，也留下了非常美好的回忆。而今年的 RubyConf China，看似没有去年的阵容豪华，看似没有去年的气氛喧闹，但是我们还是很乐观的相信今年会是非常特别的一年，今年我们也在创造很多第一次。&lt;/p&gt;
-
-&lt;p&gt;今年的大会筹办其实蛮早就开始，但是作为一个纯志愿者组织的大会，尤其三位主办人姜军、吕国宁和我都是在创业，时间超级不够用，整体办会经历可以说是跌宕起伏，所幸大多有惊无险。姜军数次跟我谈起想今年尝试不同的方式，想跳出往年固定的主题演讲式，给参会者带来更多不同的体验和更多的参与感和情感互动。所以，我们今年放弃了从海外邀请嘉宾，专注在形式上做突破，为明年的大会做好基础，也就有了你今天看到的大会行程。&lt;/p&gt;
-
-&lt;p&gt;今年，我们依旧邀请了来自国内 Ruby 圈子第一线的顶尖工程师和创业者，给大家带来了 8 场精彩的主题演讲，内容涵盖 Ruby 语言、智能硬件之 MRuby、iOS 开发之 RubyMotion、Ruby 在实时聊天和视频直播上的实战分享、日PV亿级 Ruby 应用的挑战和征服历程、上线之后的产品养成之路、近来流行的 MicroService 框架介绍和阿里内部的持续集成云服务介绍。第二天，我们将变个花样，带来众多不一样的活动。女性朋友可以参加旨在为女性提供开发入门的 RailsGirls 活动，听了前一天的 RubyMotion 分享手痒可以来参加 RubyMotion Workshop 实操，ThoughtWorks 带来的半天 TDD Workshop，Rails 源码分析之 ActiveRecord 以及由我支持的两场 Ruby 职场相关的圆桌讨论。除此之外，当然还有必不可少的 After Party，供大家进行亲切热烈的交流。&lt;/p&gt;
-
-&lt;p&gt;在此，感谢 &lt;a href="https://shou.tv/"&gt;Shou.tv&lt;/a&gt;、&lt;a href="http://gitcafe.com/"&gt;GitCafe&lt;/a&gt;、&lt;a href="http://upyun.com"&gt;又拍云服务&lt;/a&gt;、&lt;a href="http://www.ucloud.cn"&gt;UCloud&lt;/a&gt;、&lt;a href="http://www.qiniu.com"&gt;七牛云存储&lt;/a&gt; 等众多赞助商的支持，煽情的说，没有你们，就没有这次的大会，感谢！&lt;/p&gt;
-
-&lt;p&gt;同时，感谢 &lt;a href="http://36kr.com"&gt;36Kr&lt;/a&gt;、&lt;a href="http://www.3wcoffee.com"&gt;3W 咖啡&lt;/a&gt;、&lt;a href="http://www.ingchuang.com/explore/"&gt;硬创帮&lt;/a&gt;、&lt;a href="http://segmentfault.com"&gt;SegmentFault&lt;/a&gt; 等对本次大会的场地和媒体支持。&lt;/p&gt;
-
-&lt;p&gt;随贴附赠 10 个不去 RubyConf China 的理由。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;主办方太业余&lt;/li&gt;
-  &lt;li&gt;中文演讲太多&lt;/li&gt;
-  &lt;li&gt;票价太便宜&lt;/li&gt;
-  &lt;li&gt;内容太干&lt;/li&gt;
-  &lt;li&gt;游戏性太强&lt;/li&gt;
-  &lt;li&gt;社区太多元&lt;/li&gt;
-  &lt;li&gt;妹子太多&lt;/li&gt;
-  &lt;li&gt;周末太忙&lt;/li&gt;
-  &lt;li&gt;雾霾太严重&lt;/li&gt;
-  &lt;li&gt;北京太远&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;但是我们只需要 1 个去 RubyConf China 的理由。&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;我爱 Ruby&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;大会官网见这里 &lt;a href="http://rubyconfchina.org"&gt;http://rubyconfchina.org&lt;/a&gt;，报名热线点这里&lt;a href="http://19wu.com/rubyconfchina"&gt;http://19wu.com/rubyconfchina&lt;/a&gt;。11 月 1 号早上 8 点，北京大学中关新园 2 号楼，到时候见！&lt;/p&gt;
 </content>
   </entry>
 </feed>
