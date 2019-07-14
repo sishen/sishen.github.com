@@ -150,16 +150,9 @@ gio.track("productEngage", jsonObject);
 <script type="text/javascript">
 $(function() {
   var scrollTracker = new GrowingIOScrollTracker({
-    event: 'scrollTrack',
     page: "使用 GrowingIO 搭建产品分析指标体系",
-    markers: [
-      { position: $("#overview").offset().top - 50,  value: '概述' },
-      { position: $("#customers").offset().top - 50, value: '客户案例' },
-      { position: $("#how-to").offset().top - 50, value: '指标体系搭建' },
-      { position: $("#implementation").offset().top - 50, value: '实施方式' },
-      { position: $("#analytics").offset().top - 50, value: '分析报表样例' },
-      { position: $("#ending").offset().top - 50, value: '总结' }
-    ]
+    positions: ["overview", "customers", "how-to", "implementation", "analytics", "ending"],
+    names: ["概述", "客户案例", "指标体系搭建", "实施方式", "分析报表样例", "总结"]
   });
 });
 </script>

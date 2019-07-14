@@ -5,8 +5,9 @@ setupEvent = ->
 
 class GrowingIOScrollTracker
   constructor: (options) ->
-    @markers = options.markers.sort @compareMarkers
-    @event = options.event
+    @offset = options.offset || 50
+    @markers = (options.markers || @computeMarkers(options.positions, options.names)).sort @compareMarkers
+    @event = options.event || 'scrollTrack'
     @page = options.page
     @intervalID = setInterval @tick, 500
 
@@ -20,11 +21,24 @@ class GrowingIOScrollTracker
 
     @stopTracking() if @lastMarkerIsReached()
 
+  computeMarkers: (positions, names) ->
+    positions.map((position, idx) => { position: @offsetTop(document.getElementById(position)) - @offset, value: names[idx] || position })
+
   compareMarkers: (a, b) -> a.position >= b.position ? -1 : 1
 
   lastMarkerIsReached: -> @markers.length == 0
 
   stopTracking: -> clearInterval @intervalID
+
+  offsetTop: (elem) ->
+    if(elem.getBoundingClientRect)
+      curtop = elem.getBoundingClientRect().top + document.documentElement.scrollTop
+      return curtop
+      # body...
+    return 0 unless elem.offsetParent
+    curtop = elem.offsetTop
+    curtop += elem.offsetTop while elem = elem.offsetParent
+    curtop
 
 window.GrowingIOScrollTracker = GrowingIOScrollTracker
 
