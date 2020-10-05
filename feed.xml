@@ -76,16 +76,16 @@
 
 &lt;h3 id="section"&gt;多元女性社区热拉&lt;/h3&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;GrowingIO 是我们的数据伙伴和导师，专业，敏捷，值得信赖。借助 GrowingIO 我们不断迭代产品，注册转化率提升 10%，功能留存率提升 30%，驱动用户持续增长。&lt;br&gt;
-—— 热拉 CEO 鲁磊&lt;br&gt;
+  &lt;p&gt;GrowingIO 是我们的数据伙伴和导师，专业，敏捷，值得信赖。借助 GrowingIO 我们不断迭代产品，注册转化率提升 10%，功能留存率提升 30%，驱动用户持续增长。
+—— 热拉 CEO 鲁磊
 通过 GrowingIO 的【留存魔法师】功能，热拉发现了一个和用户留存强相关的行为，使用过热拉「谁看过我」功能的用户留存度非常高。因此我们在产品迭代当中做了一个很小的改进。当一个用户访问你的时候，App 会给你发一条通知，留存率从 36.4% 提升到了 47.2%。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id="matchu"&gt;服装定制服务商 MatchU&lt;/h3&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;在 MatchU，产品经理、运营和市场同学都会使用 GrowingIO 进行数据分析，真正做到了人人都是数据分析师。		&lt;br&gt;
-—— MatchU 联合创始人蔚馨&lt;br&gt;
-MatchU 定制衬衫的下单转化过程中，由于新...&lt;/p&gt;
+  &lt;p&gt;在 MatchU，产品经理、运营和市场同学都会使用 GrowingIO 进行数据分析，真正做到了人人都是数据分析师。
+—— MatchU 联合创始人蔚馨
+MatchU 定制衬衫的下单转化过程中，由于新用户...&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
     <content type="html">&lt;h2 id="overview"&gt;概述&lt;/h2&gt;
 &lt;p&gt;我们评价一个产品的好坏，有两种方式。一可以用定性分析，比如用户拜访、调查问卷等。二可以用定量分析，从数据中发现使用情况。产品分析的指标体系搭建，核心就是为了通过定量分析了解用户是如何使用产品功能的，哪些是用户最常用的功能，哪些功能是最有粘性的功能，哪些功能带来更多的转化，新用户喜欢用什么功能，老用户在用什么功能，新上线的功能表现如何，等等。&lt;/p&gt;
@@ -100,15 +100,15 @@ MatchU 定制衬衫的下单转化过程中，由于新...&lt;/p&gt;
 
 &lt;h3 id="section"&gt;多元女性社区热拉&lt;/h3&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;GrowingIO 是我们的数据伙伴和导师，专业，敏捷，值得信赖。借助 GrowingIO 我们不断迭代产品，注册转化率提升 10%，功能留存率提升 30%，驱动用户持续增长。&lt;br /&gt;
-—— 热拉 CEO 鲁磊&lt;br /&gt;
+  &lt;p&gt;GrowingIO 是我们的数据伙伴和导师，专业，敏捷，值得信赖。借助 GrowingIO 我们不断迭代产品，注册转化率提升 10%，功能留存率提升 30%，驱动用户持续增长。
+—— 热拉 CEO 鲁磊
 通过 GrowingIO 的【留存魔法师】功能，热拉发现了一个和用户留存强相关的行为，使用过热拉「谁看过我」功能的用户留存度非常高。因此我们在产品迭代当中做了一个很小的改进。当一个用户访问你的时候，App 会给你发一条通知，留存率从 36.4% 提升到了 47.2%。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id="matchu"&gt;服装定制服务商 MatchU&lt;/h3&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;在 MatchU，产品经理、运营和市场同学都会使用 GrowingIO 进行数据分析，真正做到了人人都是数据分析师。		&lt;br /&gt;
-—— MatchU 联合创始人蔚馨&lt;br /&gt;
+  &lt;p&gt;在 MatchU，产品经理、运营和市场同学都会使用 GrowingIO 进行数据分析，真正做到了人人都是数据分析师。
+—— MatchU 联合创始人蔚馨
 MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖型等信息感到疑惑，导致转化率偏低。产品经理通过 GrowingIO 快速定位问题，洞察用户心理，提出一系列“小白功能”改进产品方案，将加购率/购买成功率提升150%。&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -182,7 +182,8 @@ MatchU 定制衬衫的下单转化过程中，由于新用户会对领型、袖�
 
 &lt;h3 id="section-1"&gt;实施代码样例&lt;/h3&gt;
 
-&lt;p&gt;针对浏览功能的实施。当用户访问到某个功能页面时，在当前页面设置页面级变量。下面以 GrowingIO 为例。&lt;/p&gt;
+&lt;p&gt;—— 玎玎@GrowingIO  2019年11月2日
+针对浏览功能的实施。当用户访问到某个功能页面时，在当前页面设置页面级变量。下面以 GrowingIO 为例。&lt;/p&gt;
 
 &lt;p&gt;```javascript
 // Javascript
@@ -326,7 +327,10 @@ $(function() {
 
 &lt;h2 id="section"&gt;广告时间&lt;/h2&gt;
 
-&lt;p&gt;嘉和翻译的新书《反应式设计模式》（Reactive Design Patterns）已经上市。程云的《程序员代码面试指南》第 2 版也在预售中，特别指出第 2 版。有兴趣的同学可以考虑下。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;嘉和翻译的新书《反应式设计模式》（Reactive Design Patterns）已经上市。程云的《程序员代码面试指南》第 2 版也在预售中，特别指出第 2 版。有兴趣的同学可以考虑下。&lt;/li&gt;
+  &lt;li&gt;嘉和新作：&lt;a href="https://debob.co?utm_source=yedingding"&gt;Debob&lt;/a&gt;,一件美好的作品&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
