@@ -1,5 +1,5 @@
 ---
-title: "\'Real Time Web\' talk at RubyConf China 2012"
+title: "Real Time Web talk at RubyConf China 2012"
 date: 2012-12-24 8:00 +08:00
 tags: rubyconf, rubyconf china, realtime, ruby
 ---

@@ -39,4 +39,5 @@ keywords: 算法, teahour, algocasts
 
 ## 广告时间
 
-嘉和翻译的新书《反应式设计模式》（Reactive Design Patterns）已经上市。程云的《程序员代码面试指南》第 2 版也在预售中，特别指出第 2 版。有兴趣的同学可以考虑下。
+* 嘉和翻译的新书《反应式设计模式》（Reactive Design Patterns）已经上市。程云的《程序员代码面试指南》第 2 版也在预售中，特别指出第 2 版。有兴趣的同学可以考虑下。
+* 嘉和新作：[Debob](https://debob.co?utm_source=yedingding),一件美好的作品
